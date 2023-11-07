@@ -8,10 +8,13 @@ gfx/**/*.mesh
 gfx/**/*.anim
 gfx/**/*.jfif
 gfx/**/*.png
+
 # Ignore all sound effects and music, whitch is mostly copyrighted
 music/**/*.ogg
 sound/**/*.wav
+
 # Ignore the packing program might placed here
 *.exe
+
 # The repack folder created by script that used to release the mod
 repack

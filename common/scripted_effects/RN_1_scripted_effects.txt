@@ -1,3 +1,5 @@
+### This is effect from Realistic nuke.
+
 #	Example:
 #
 #	example_effect = {

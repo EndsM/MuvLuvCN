@@ -1,3 +1,7 @@
+# My brain just split
+# overhaul it later
+# WTF is this, use chinese character to program be like:
+
 BETA巢穴等级提升 = {
 	add_to_variable = {
 		var = 巢穴等级
