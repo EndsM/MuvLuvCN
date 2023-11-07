@@ -63,8 +63,10 @@ upgrades = {
 			cost_by_level_for_licensed_equipment = 2
 		}
 		level_requirements = {
+			# To reach certain level, what tech or other requirements will be meet.
 		}
 		resource_cost_thresholds = {
+			# While reach which level do resources cost will increased.
 		}
 		reliability = 0.03
 		add_stats = {
