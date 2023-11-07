@@ -2,6 +2,10 @@
 
 Remove as much "red dot" as possible
 
+### quick notes ###
+
+Use "git repack -a -f -d --depth=250 --window=250" to trim the .git folder, this is recommended way by Linux.
+
 ### Task List ###
 
 Mark as finished after finish certain task.

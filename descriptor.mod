@@ -24,5 +24,5 @@ tags={
 name="muvluvCN"
 picture="thumbnail.png"
 supported_version="1.13.*"
-path="E:/HOI4/mod/muvluvCN"
+path="mod/muvluvCN"
 remote_file_id="2800380626"
