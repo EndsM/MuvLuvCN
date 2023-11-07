@@ -1,8 +1,7 @@
 {
     "files.associations": {
-        "*.txt": "hoi4"
+        "*.txt": "hoi4",
+        "*.mod": "hoi4"
     },
-    "json.schemas": [
-    
-    ]
+    "json.schemas": [],
 }
