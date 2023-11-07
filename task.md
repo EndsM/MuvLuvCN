@@ -23,3 +23,5 @@ Mark as finished after finish certain task.
 - Task 3: make common/decisions folder and its subfolders a replace path
 
 - Task 4: Correctly implement special task force tech for S_tsf_battalion
+
+- Task 5: Check if naval base placed in 790 state is placed correctly
