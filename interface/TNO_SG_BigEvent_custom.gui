@@ -79,7 +79,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			Orientation = lower_left
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "TNO_SG_big_event_h00_attack_custom_window"
 		size = { width = 220 height = 128 }
@@ -158,8 +158,8 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			Orientation = lower_left
 		}
 	}
-containerWindowType = {
-		name = "TNO_SG_big_event_h00_attack_custom_window"
+	containerWindowType = {
+		name = "TNO_SG_big_event_h01_attack_custom_window"
 		size = { width = 220 height = 128 }
 		position = { x=0 y=-210 }
 		Orientation = center
@@ -194,7 +194,7 @@ containerWindowType = {
 	}
 
 	containerWindowType = {
-		name = "TNO_SG_big_event_frame_h00_attack_custom"
+		name = "TNO_SG_big_event_frame_h01_attack_custom"
 		size = { width = 588 height = 465 }
 		position = { x=0 y=0 }
 		Orientation = center
@@ -236,7 +236,7 @@ containerWindowType = {
 			Orientation = lower_left
 		}
 	}
-containerWindowType = {
+	containerWindowType = {
 		name = "TNO_SG_big_event_h02_attack_custom_window"
 		size = { width = 220 height = 128 }
 		position = { x=0 y=-210 }
@@ -272,7 +272,7 @@ containerWindowType = {
 	}
 
 	containerWindowType = {
-		name = "TNO_SG_big_event_frame_h00_attack_custom"
+		name = "TNO_SG_big_event_frame_h02_attack_custom"
 		size = { width = 588 height = 465 }
 		position = { x=0 y=0 }
 		Orientation = center
@@ -314,7 +314,7 @@ containerWindowType = {
 			Orientation = lower_left
 		}
 	}
-containerWindowType = {
+	containerWindowType = {
 		name = "TNO_SG_big_event_h03_attack_custom_window"
 		size = { width = 220 height = 128 }
 		position = { x=0 y=-210 }
