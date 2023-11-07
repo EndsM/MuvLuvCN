@@ -13,3 +13,5 @@ Mark as finished after finish certain task.
 - Task 1: make equipment replacement work properly. Done
 
 - Task 2: rework the equipment folder
+
+- Task 3: make common/decisions folder and its subfolders a replace path
