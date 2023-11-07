@@ -20,8 +20,10 @@ Mark as finished after finish certain task.
 
 - Task 2: rework the equipment folder
 
-- Task 3: make common/decisions folder and its subfolders a replace path
+- Task 3: make common/decisions folder and its subfolders a replace path Done
 
-- Task 4: Correctly implement special task force tech for S_tsf_battalion
+- Task 4: Correctly implement special task force tech for S_tsf_battalion Partially Done
 
-- Task 5: Check if naval base placed in 790 state is placed correctly
+- Task 5: Check if naval base placed in 790 state is placed correctly Done
+
+- Task 6: Fix the crash introduced in version 1.13.5 Done
