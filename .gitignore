@@ -13,3 +13,5 @@ music/**/*.ogg
 sound/**/*.wav
 # Ignore the packing program might placed here
 *.exe
+# The repack folder created by script that used to release the mod
+repack
