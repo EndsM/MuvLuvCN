@@ -1,0 +1,36 @@
+# scripted_gui = {
+# 	countrystateview = {
+# 		# context_type = selected_state_context
+# 		context_type = player_context
+# 		window_name = "countrystateview"
+# 		visible = {
+# 			always = yes
+# 		}
+# 		effects = {
+# 			AL_province_click = {
+# 				ROOT = {
+# 					add_equipment_to_stockpile = {
+# 						type = MVLV_TSF_chassis
+# 						amount = 1000
+# 					}
+# 				}
+# 				# damage_units = {
+# 				# 	state = THIS
+# 				# 	org_damage = 10
+# 				# 	str_damage = 50
+# 				# 	ratio = yes
+# 				# 	limit = {
+# 				# 		always = yes
+# 				# 	}
+# 				# }
+# 			}
+# 		}
+# 		triggers = {
+# 			AL_province_click_enabled = {
+# 				always = yes
+# 			}
+# 		}
+# 		# properties = {
+# 		# }
+# 	}
+# }

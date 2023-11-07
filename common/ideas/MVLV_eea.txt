@@ -1,0 +1,19 @@
+#ideas = {
+#         political_advisor = {
+#		Khatia = {
+#			
+#			
+#			allowed = {
+#				original_tag = "EEA"
+#			}
+#			available = 
+#			{
+#				NOT = { has_country_flag = purged_kalinin }
+#				NOT = { has_country_flag = counter_purge }
+#			}
+#			
+#
+#			
+#			traits = { popular_figurehead }
+#		}
+#}

@@ -1,0 +1,637 @@
+BETA巢穴等级提升 = {
+	add_to_variable = {
+		var = 巢穴等级
+		value = 1
+	}
+}
+
+BETA巢穴出兵上限初始化 = {
+	add_to_array = { global.BETA各巢穴等级陆军数量上限 = 0 } #占位用
+	add_to_array = { global.BETA各巢穴等级陆军数量上限 = 150 } #1
+	add_to_array = { global.BETA各巢穴等级陆军数量上限 = 160 } #2
+	add_to_array = { global.BETA各巢穴等级陆军数量上限 = 170 } #3
+	add_to_array = { global.BETA各巢穴等级陆军数量上限 = 180 } #4
+	add_to_array = { global.BETA各巢穴等级陆军数量上限 = 220 } #5
+	add_to_array = { global.BETA各巢穴等级陆军数量上限 = 250 } #6
+	add_to_array = { global.BETA各巢穴等级陆军数量上限 = 300 } #7
+	add_to_array = { global.BETA各巢穴等级陆军数量上限 = 360 } #8
+	add_to_array = { global.BETA各巢穴等级陆军数量上限 = 430 } #9
+
+	add_to_array = { global.BETA各等级巢穴出兵数量上限 = global.BETA各巢穴等级陆军数量上限^0 } #占位用
+	add_to_array = { global.BETA各等级巢穴出兵数量上限 = global.BETA各巢穴等级陆军数量上限^1 } #1
+	add_to_array = { global.BETA各等级巢穴出兵数量上限 = global.BETA各巢穴等级陆军数量上限^2 } #2
+	add_to_array = { global.BETA各等级巢穴出兵数量上限 = global.BETA各巢穴等级陆军数量上限^3 } #3
+	add_to_array = { global.BETA各等级巢穴出兵数量上限 = global.BETA各巢穴等级陆军数量上限^4 } #4
+	add_to_array = { global.BETA各等级巢穴出兵数量上限 = global.BETA各巢穴等级陆军数量上限^5 } #5
+	add_to_array = { global.BETA各等级巢穴出兵数量上限 = global.BETA各巢穴等级陆军数量上限^6 } #6
+	add_to_array = { global.BETA各等级巢穴出兵数量上限 = global.BETA各巢穴等级陆军数量上限^7 } #7
+	add_to_array = { global.BETA各等级巢穴出兵数量上限 = global.BETA各巢穴等级陆军数量上限^8 } #8
+	add_to_array = { global.BETA各等级巢穴出兵数量上限 = global.BETA各巢穴等级陆军数量上限^9 } #9
+
+	add_to_array = { global.BETA各等级前线巢穴出兵数量上限 = global.BETA各等级巢穴出兵数量上限^0 } #占位用
+	add_to_array = { global.BETA各等级前线巢穴出兵数量上限 = global.BETA各等级巢穴出兵数量上限^1 } #1
+	add_to_array = { global.BETA各等级前线巢穴出兵数量上限 = global.BETA各等级巢穴出兵数量上限^2 } #2
+	add_to_array = { global.BETA各等级前线巢穴出兵数量上限 = global.BETA各等级巢穴出兵数量上限^3 } #3
+	add_to_array = { global.BETA各等级前线巢穴出兵数量上限 = global.BETA各等级巢穴出兵数量上限^4 } #4
+	add_to_array = { global.BETA各等级前线巢穴出兵数量上限 = global.BETA各等级巢穴出兵数量上限^5 } #5
+	add_to_array = { global.BETA各等级前线巢穴出兵数量上限 = global.BETA各等级巢穴出兵数量上限^6 } #6
+	add_to_array = { global.BETA各等级前线巢穴出兵数量上限 = global.BETA各等级巢穴出兵数量上限^7 } #7
+	add_to_array = { global.BETA各等级前线巢穴出兵数量上限 = global.BETA各等级巢穴出兵数量上限^8 } #8
+	add_to_array = { global.BETA各等级前线巢穴出兵数量上限 = global.BETA各等级巢穴出兵数量上限^9 } #9
+}
+
+BETA巢穴出兵上限设置 = {
+	
+}
+
+全局参数设置={
+	set_variable = {global.BETA进攻战术改进 = 0}
+	set_variable = {global.BETA防御战术改进 = 0}
+
+	add_to_array = { global.BETA各巢穴等级大型混成师团每周期生产数列表 = 0 } #占位用
+	add_to_array = { global.BETA各巢穴等级大型混成师团每周期生产数列表 = 0 } #1
+	add_to_array = { global.BETA各巢穴等级大型混成师团每周期生产数列表 = 0 } #2
+	add_to_array = { global.BETA各巢穴等级大型混成师团每周期生产数列表 = 0 } #3
+	add_to_array = { global.BETA各巢穴等级大型混成师团每周期生产数列表 = 0 } #4
+	add_to_array = { global.BETA各巢穴等级大型混成师团每周期生产数列表 = 0 } #5
+	add_to_array = { global.BETA各巢穴等级大型混成师团每周期生产数列表 = 0 } #6
+	add_to_array = { global.BETA各巢穴等级大型混成师团每周期生产数列表 = 0 } #7
+	add_to_array = { global.BETA各巢穴等级大型混成师团每周期生产数列表 = 0 } #8
+	add_to_array = { global.BETA各巢穴等级大型混成师团每周期生产数列表 = 0 } #9
+
+	add_to_array = { global.BETA各巢穴等级小型混成师团每周期生产数列表 = 0 } #占位用
+	add_to_array = { global.BETA各巢穴等级小型混成师团每周期生产数列表 = 0 } #1
+	add_to_array = { global.BETA各巢穴等级小型混成师团每周期生产数列表 = 0 } #2
+	add_to_array = { global.BETA各巢穴等级小型混成师团每周期生产数列表 = 0 } #3
+	add_to_array = { global.BETA各巢穴等级小型混成师团每周期生产数列表 = 0 } #4
+	add_to_array = { global.BETA各巢穴等级小型混成师团每周期生产数列表 = 0 } #5
+	add_to_array = { global.BETA各巢穴等级小型混成师团每周期生产数列表 = 0 } #6
+	add_to_array = { global.BETA各巢穴等级小型混成师团每周期生产数列表 = 0 } #7
+	add_to_array = { global.BETA各巢穴等级小型混成师团每周期生产数列表 = 0 } #8
+	add_to_array = { global.BETA各巢穴等级小型混成师团每周期生产数列表 = 0 } #9
+
+	add_to_array = { global.BETA各巢穴等级侵攻师团每周期生产数列表 = 0 } #占位用
+	add_to_array = { global.BETA各巢穴等级侵攻师团每周期生产数列表 = 0 } #1
+	add_to_array = { global.BETA各巢穴等级侵攻师团每周期生产数列表 = 0 } #2
+	add_to_array = { global.BETA各巢穴等级侵攻师团每周期生产数列表 = 0 } #3
+	add_to_array = { global.BETA各巢穴等级侵攻师团每周期生产数列表 = 0 } #4
+	add_to_array = { global.BETA各巢穴等级侵攻师团每周期生产数列表 = 0 } #5
+	add_to_array = { global.BETA各巢穴等级侵攻师团每周期生产数列表 = 0 } #6
+	add_to_array = { global.BETA各巢穴等级侵攻师团每周期生产数列表 = 0 } #7
+	add_to_array = { global.BETA各巢穴等级侵攻师团每周期生产数列表 = 0 } #8
+	add_to_array = { global.BETA各巢穴等级侵攻师团每周期生产数列表 = 0 } #9
+
+	add_to_array = { global.BETA各巢穴等级光线级每周期生产数列表 = 0 } #占位用
+	add_to_array = { global.BETA各巢穴等级光线级每周期生产数列表 = 0 } #1
+	add_to_array = { global.BETA各巢穴等级光线级每周期生产数列表 = 0 } #2
+	add_to_array = { global.BETA各巢穴等级光线级每周期生产数列表 = 0 } #3
+	add_to_array = { global.BETA各巢穴等级光线级每周期生产数列表 = 0 } #4
+	add_to_array = { global.BETA各巢穴等级光线级每周期生产数列表 = 0 } #5
+	add_to_array = { global.BETA各巢穴等级光线级每周期生产数列表 = 0 } #6
+	add_to_array = { global.BETA各巢穴等级光线级每周期生产数列表 = 0 } #7
+	add_to_array = { global.BETA各巢穴等级光线级每周期生产数列表 = 0 } #8
+	add_to_array = { global.BETA各巢穴等级光线级每周期生产数列表 = 0 } #9
+
+	add_to_array = { global.BETA各巢穴等级重光线级每周期生产数列表 = 0 } #占位用
+	add_to_array = { global.BETA各巢穴等级重光线级每周期生产数列表 = 0 } #1
+	add_to_array = { global.BETA各巢穴等级重光线级每周期生产数列表 = 0 } #2
+	add_to_array = { global.BETA各巢穴等级重光线级每周期生产数列表 = 0 } #3
+	add_to_array = { global.BETA各巢穴等级重光线级每周期生产数列表 = 0 } #4
+	add_to_array = { global.BETA各巢穴等级重光线级每周期生产数列表 = 0 } #5
+	add_to_array = { global.BETA各巢穴等级重光线级每周期生产数列表 = 0 } #6
+	add_to_array = { global.BETA各巢穴等级重光线级每周期生产数列表 = 0 } #7
+	add_to_array = { global.BETA各巢穴等级重光线级每周期生产数列表 = 0 } #8
+	add_to_array = { global.BETA各巢穴等级重光线级每周期生产数列表 = 0 } #9
+
+	# add_to_array = { global.BETA各巢穴等级陆军数量上限 = 0 } #占位用
+	# add_to_array = { global.BETA各巢穴等级陆军数量上限 = 50 } #1
+	# add_to_array = { global.BETA各巢穴等级陆军数量上限 = 60 } #2
+	# add_to_array = { global.BETA各巢穴等级陆军数量上限 = 70 } #3
+	# add_to_array = { global.BETA各巢穴等级陆军数量上限 = 80 } #4
+	# add_to_array = { global.BETA各巢穴等级陆军数量上限 = 120 } #5
+	# add_to_array = { global.BETA各巢穴等级陆军数量上限 = 150 } #6
+	# add_to_array = { global.BETA各巢穴等级陆军数量上限 = 200 } #7
+	# add_to_array = { global.BETA各巢穴等级陆军数量上限 = 260 } #8
+	# add_to_array = { global.BETA各巢穴等级陆军数量上限 = 330 } #9
+
+	add_to_array = { global.BETA各巢穴等级光线级数量上限 = 0 } #占位用
+	add_to_array = { global.BETA各巢穴等级光线级数量上限 = 0 } #1
+	add_to_array = { global.BETA各巢穴等级光线级数量上限 = 300 } #2
+	add_to_array = { global.BETA各巢穴等级光线级数量上限 = 600 } #3
+	add_to_array = { global.BETA各巢穴等级光线级数量上限 = 900 } #4
+	add_to_array = { global.BETA各巢穴等级光线级数量上限 = 1200 } #5
+	add_to_array = { global.BETA各巢穴等级光线级数量上限 = 1500 } #6
+	add_to_array = { global.BETA各巢穴等级光线级数量上限 = 1800 } #7
+	add_to_array = { global.BETA各巢穴等级光线级数量上限 = 2100 } #8
+	add_to_array = { global.BETA各巢穴等级光线级数量上限 = 2400 } #9
+
+	add_to_array = { global.BETA各巢穴等级重光线级数量上限 = 0 } #占位用
+	add_to_array = { global.BETA各巢穴等级重光线级数量上限 = 0 } #1
+	add_to_array = { global.BETA各巢穴等级重光线级数量上限 = 0 } #2
+	add_to_array = { global.BETA各巢穴等级重光线级数量上限 = 200 } #3
+	add_to_array = { global.BETA各巢穴等级重光线级数量上限 = 400 } #4
+	add_to_array = { global.BETA各巢穴等级重光线级数量上限 = 600 } #5
+	add_to_array = { global.BETA各巢穴等级重光线级数量上限 = 800 } #6
+	add_to_array = { global.BETA各巢穴等级重光线级数量上限 = 1000 } #7
+	add_to_array = { global.BETA各巢穴等级重光线级数量上限 = 1200 } #8
+	add_to_array = { global.BETA各巢穴等级重光线级数量上限 = 1400 } #9
+
+	add_to_array = { global.BETA各巢穴等级小侵攻陆军数量上限 = 0 } #占位用
+	add_to_array = { global.BETA各巢穴等级小侵攻陆军数量上限 = 120 } #1
+	add_to_array = { global.BETA各巢穴等级小侵攻陆军数量上限 = 130 } #2
+	add_to_array = { global.BETA各巢穴等级小侵攻陆军数量上限 = 140 } #3
+	add_to_array = { global.BETA各巢穴等级小侵攻陆军数量上限 = 150 } #4
+	add_to_array = { global.BETA各巢穴等级小侵攻陆军数量上限 = 180 } #5
+	add_to_array = { global.BETA各巢穴等级小侵攻陆军数量上限 = 200 } #6
+	add_to_array = { global.BETA各巢穴等级小侵攻陆军数量上限 = 240 } #7
+	add_to_array = { global.BETA各巢穴等级小侵攻陆军数量上限 = 300 } #8
+	add_to_array = { global.BETA各巢穴等级小侵攻陆军数量上限 = 360 } #9
+
+	BETA巢穴出兵上限初始化 = yes
+
+	multiply_variable = { global.BETA小侵攻阶段基础生产基数 = global.BETA师团生产难度乘数 }
+
+	# add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 0 } #占位用
+	# add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 100 } #1
+	# add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 120 } #2
+	# add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 140 } #3
+	# add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 160 } #4
+	# add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 240 } #5
+	# add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 300 } #6
+	# add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 400 } #7
+	# add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 520 } #8
+	# add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 660 } #9
+
+	add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 0 } #占位用
+	add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 300 } #1
+	add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 320 } #2
+	add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 340 } #3
+	add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 360 } #4
+	add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 440 } #5
+	add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 500 } #6
+	add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 600 } #7
+	add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 720 } #8
+	add_to_array = { global.BETA各巢穴等级可地下侵攻陆军数量上限 = 860 } #9
+
+	set_variable = { global.BETA一级巢穴大型混成师团生产基数 = 3 }
+	set_variable = { global.BETA二级巢穴大型混成师团生产基数 = 4 }
+	set_variable = { global.BETA三级巢穴大型混成师团生产基数 = 5 }
+	set_variable = { global.BETA四级巢穴大型混成师团生产基数 = 6 }
+	set_variable = { global.BETA五级巢穴大型混成师团生产基数 = 6 }
+	set_variable = { global.BETA六级巢穴大型混成师团生产基数 = 6 }
+	set_variable = { global.BETA七级巢穴大型混成师团生产基数 = 6 }
+	set_variable = { global.BETA八级巢穴大型混成师团生产基数 = 6 }
+	set_variable = { global.BETA九级巢穴大型混成师团生产基数 = 6 }
+
+	set_variable = { global.BETA一级巢穴侵攻师团生产基数 = 0 }
+	set_variable = { global.BETA二级巢穴侵攻师团生产基数 = 0 }
+	set_variable = { global.BETA三级巢穴侵攻师团生产基数 = 0 }
+	set_variable = { global.BETA四级巢穴侵攻师团生产基数 = 0 }
+	set_variable = { global.BETA五级巢穴侵攻师团生产基数 = 1 }
+	set_variable = { global.BETA六级巢穴侵攻师团生产基数 = 2 }
+	set_variable = { global.BETA七级巢穴侵攻师团生产基数 = 2 }
+	set_variable = { global.BETA八级巢穴侵攻师团生产基数 = 3 }
+	set_variable = { global.BETA九级巢穴侵攻师团生产基数 = 4 }
+
+	set_variable = { global.BETA一级巢穴光线级生产基数 = 0 }
+	set_variable = { global.BETA二级巢穴光线级生产基数 = 2 }
+	set_variable = { global.BETA三级巢穴光线级生产基数 = 1 }
+	set_variable = { global.BETA四级巢穴光线级生产基数 = 2 }
+	set_variable = { global.BETA五级巢穴光线级生产基数 = 3 }
+	set_variable = { global.BETA六级巢穴光线级生产基数 = 4 }
+	set_variable = { global.BETA七级巢穴光线级生产基数 = 5 }
+	set_variable = { global.BETA八级巢穴光线级生产基数 = 6 }
+	set_variable = { global.BETA九级巢穴光线级生产基数 = 7 }
+
+	set_variable = { global.BETA一级巢穴重光线级生产基数 = 0 }
+	set_variable = { global.BETA二级巢穴重光线级生产基数 = 0 }
+	set_variable = { global.BETA三级巢穴重光线级生产基数 = 1 }
+	set_variable = { global.BETA四级巢穴重光线级生产基数 = 2 }
+	set_variable = { global.BETA五级巢穴重光线级生产基数 = 3 }
+	set_variable = { global.BETA六级巢穴重光线级生产基数 = 4 }
+	set_variable = { global.BETA七级巢穴重光线级生产基数 = 5 }
+	set_variable = { global.BETA八级巢穴重光线级生产基数 = 6 }
+	set_variable = { global.BETA九级巢穴重光线级生产基数 = 7 }
+
+	set_variable = { global.BETA光线级基础生产乘数 = 5 }
+	set_variable = { global.BETA重光线级基础生产乘数 = 4 }
+	set_variable = { global.BETA师团生产难度乘数 = 1 }
+	set_variable = { global.BETA光线级难度生产乘数 = 1 }
+	set_variable = { global.BETA重光线级难度生产乘数 = 1 }
+	BETA生产计算 = yes
+}
+BETA生产计算 = {
+	set_variable = { global.BETA小侵攻阶段基础生产基数 = 1 }
+	set_variable = { global.BETA小侵攻阶段基础小型混成生产数 = 3 }
+	multiply_variable = { global.BETA小侵攻阶段基础生产基数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA小侵攻阶段基础小型混成生产数 = global.BETA师团生产难度乘数 }
+
+	#大型混成
+	set_variable = { global.BETA一级巢穴大型混成师团每周期生产数 = global.BETA一级巢穴大型混成师团生产基数 }
+	set_variable = { global.BETA二级巢穴大型混成师团每周期生产数 = global.BETA二级巢穴大型混成师团生产基数 }
+	set_variable = { global.BETA三级巢穴大型混成师团每周期生产数 = global.BETA三级巢穴大型混成师团生产基数 }
+	set_variable = { global.BETA四级巢穴大型混成师团每周期生产数 = global.BETA四级巢穴大型混成师团生产基数 }
+	set_variable = { global.BETA五级巢穴大型混成师团每周期生产数 = global.BETA五级巢穴大型混成师团生产基数 }
+	set_variable = { global.BETA六级巢穴大型混成师团每周期生产数 = global.BETA六级巢穴大型混成师团生产基数 }
+	set_variable = { global.BETA七级巢穴大型混成师团每周期生产数 = global.BETA七级巢穴大型混成师团生产基数 }
+	set_variable = { global.BETA八级巢穴大型混成师团每周期生产数 = global.BETA八级巢穴大型混成师团生产基数 }
+	set_variable = { global.BETA九级巢穴大型混成师团每周期生产数 = global.BETA九级巢穴大型混成师团生产基数 }
+
+	multiply_variable = { global.BETA一级巢穴大型混成师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA二级巢穴大型混成师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA三级巢穴大型混成师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA四级巢穴大型混成师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA五级巢穴大型混成师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA六级巢穴大型混成师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA七级巢穴大型混成师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA八级巢穴大型混成师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA九级巢穴大型混成师团每周期生产数 = global.BETA师团生产难度乘数 }
+
+	set_variable = { global.BETA各巢穴等级大型混成师团每周期生产数列表^1 = global.BETA一级巢穴大型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级大型混成师团每周期生产数列表^2 = global.BETA二级巢穴大型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级大型混成师团每周期生产数列表^3 = global.BETA三级巢穴大型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级大型混成师团每周期生产数列表^4 = global.BETA四级巢穴大型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级大型混成师团每周期生产数列表^5 = global.BETA五级巢穴大型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级大型混成师团每周期生产数列表^6 = global.BETA六级巢穴大型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级大型混成师团每周期生产数列表^7 = global.BETA七级巢穴大型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级大型混成师团每周期生产数列表^8 = global.BETA八级巢穴大型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级大型混成师团每周期生产数列表^9 = global.BETA九级巢穴大型混成师团每周期生产数 }
+
+	#小型混成
+	set_variable = { global.BETA一级巢穴小型混成师团每周期生产数 = 3 }
+	set_variable = { global.BETA二级巢穴小型混成师团每周期生产数 = 3 }
+	set_variable = { global.BETA三级巢穴小型混成师团每周期生产数 = 3 }
+	set_variable = { global.BETA四级巢穴小型混成师团每周期生产数 = 3 }
+	set_variable = { global.BETA五级巢穴小型混成师团每周期生产数 = 3 }
+	set_variable = { global.BETA六级巢穴小型混成师团每周期生产数 = 3 }
+	set_variable = { global.BETA七级巢穴小型混成师团每周期生产数 = 3 }
+	set_variable = { global.BETA八级巢穴小型混成师团每周期生产数 = 3 }
+	set_variable = { global.BETA九级巢穴小型混成师团每周期生产数 = 3 }
+
+	multiply_variable = { global.BETA一级巢穴小型混成师团每周期生产数 = global.BETA一级巢穴大型混成师团每周期生产数 }
+	multiply_variable = { global.BETA二级巢穴小型混成师团每周期生产数 = global.BETA二级巢穴大型混成师团每周期生产数 }
+	multiply_variable = { global.BETA三级巢穴小型混成师团每周期生产数 = global.BETA三级巢穴大型混成师团每周期生产数 }
+	multiply_variable = { global.BETA四级巢穴小型混成师团每周期生产数 = global.BETA四级巢穴大型混成师团每周期生产数 }
+	multiply_variable = { global.BETA五级巢穴小型混成师团每周期生产数 = global.BETA五级巢穴大型混成师团每周期生产数 }
+	multiply_variable = { global.BETA六级巢穴小型混成师团每周期生产数 = global.BETA六级巢穴大型混成师团每周期生产数 }
+	multiply_variable = { global.BETA七级巢穴小型混成师团每周期生产数 = global.BETA七级巢穴大型混成师团每周期生产数 }
+	multiply_variable = { global.BETA八级巢穴小型混成师团每周期生产数 = global.BETA八级巢穴大型混成师团每周期生产数 }
+	multiply_variable = { global.BETA九级巢穴小型混成师团每周期生产数 = global.BETA九级巢穴大型混成师团每周期生产数 }
+
+	set_variable = { global.BETA各巢穴等级小型混成师团每周期生产数列表^1 = global.BETA一级巢穴小型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级小型混成师团每周期生产数列表^2 = global.BETA二级巢穴小型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级小型混成师团每周期生产数列表^3 = global.BETA三级巢穴小型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级小型混成师团每周期生产数列表^4 = global.BETA四级巢穴小型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级小型混成师团每周期生产数列表^5 = global.BETA五级巢穴小型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级小型混成师团每周期生产数列表^6 = global.BETA六级巢穴小型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级小型混成师团每周期生产数列表^7 = global.BETA七级巢穴小型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级小型混成师团每周期生产数列表^8 = global.BETA八级巢穴小型混成师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级小型混成师团每周期生产数列表^9 = global.BETA九级巢穴小型混成师团每周期生产数 }
+
+	#侵攻师团
+	set_variable = { global.BETA一级巢穴侵攻师团每周期生产数 = global.BETA一级巢穴侵攻师团生产基数 }
+	set_variable = { global.BETA二级巢穴侵攻师团每周期生产数 = global.BETA二级巢穴侵攻师团生产基数 }
+	set_variable = { global.BETA三级巢穴侵攻师团每周期生产数 = global.BETA三级巢穴侵攻师团生产基数 }
+	set_variable = { global.BETA四级巢穴侵攻师团每周期生产数 = global.BETA四级巢穴侵攻师团生产基数 }
+	set_variable = { global.BETA五级巢穴侵攻师团每周期生产数 = global.BETA五级巢穴侵攻师团生产基数 }
+	set_variable = { global.BETA六级巢穴侵攻师团每周期生产数 = global.BETA六级巢穴侵攻师团生产基数 }
+	set_variable = { global.BETA七级巢穴侵攻师团每周期生产数 = global.BETA七级巢穴侵攻师团生产基数 }
+	set_variable = { global.BETA八级巢穴侵攻师团每周期生产数 = global.BETA八级巢穴侵攻师团生产基数 }
+	set_variable = { global.BETA九级巢穴侵攻师团每周期生产数 = global.BETA九级巢穴侵攻师团生产基数 }
+
+	multiply_variable = { global.BETA一级巢穴侵攻师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA二级巢穴侵攻师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA三级巢穴侵攻师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA四级巢穴侵攻师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA五级巢穴侵攻师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA六级巢穴侵攻师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA七级巢穴侵攻师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA八级巢穴侵攻师团每周期生产数 = global.BETA师团生产难度乘数 }
+	multiply_variable = { global.BETA九级巢穴侵攻师团每周期生产数 = global.BETA师团生产难度乘数 }
+
+	set_variable = { global.BETA各巢穴等级侵攻师团每周期生产数列表^1 = global.BETA一级巢穴侵攻师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级侵攻师团每周期生产数列表^2 = global.BETA二级巢穴侵攻师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级侵攻师团每周期生产数列表^3 = global.BETA三级巢穴侵攻师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级侵攻师团每周期生产数列表^4 = global.BETA四级巢穴侵攻师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级侵攻师团每周期生产数列表^5 = global.BETA五级巢穴侵攻师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级侵攻师团每周期生产数列表^6 = global.BETA六级巢穴侵攻师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级侵攻师团每周期生产数列表^7 = global.BETA七级巢穴侵攻师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级侵攻师团每周期生产数列表^8 = global.BETA八级巢穴侵攻师团每周期生产数 }
+	set_variable = { global.BETA各巢穴等级侵攻师团每周期生产数列表^9 = global.BETA九级巢穴侵攻师团每周期生产数 }
+
+	#光线级
+	set_variable = { global.BETA光线级生产乘数 = global.BETA光线级基础生产乘数 }
+	set_variable = { global.BETA重光线级生产乘数 = global.BETA重光线级基础生产乘数 }
+	multiply_variable = { global.BETA光线级生产乘数 = global.BETA光线级难度生产乘数 }
+	multiply_variable = { global.BETA重光线级生产乘数 = global.BETA重光线级难度生产乘数 }
+
+	set_variable = { global.BETA一级巢穴光线级每周期生产数 = global.BETA一级巢穴光线级生产基数 }
+	set_variable = { global.BETA二级巢穴光线级每周期生产数 = global.BETA二级巢穴光线级生产基数 }
+	set_variable = { global.BETA三级巢穴光线级每周期生产数 = global.BETA三级巢穴光线级生产基数 }
+	set_variable = { global.BETA四级巢穴光线级每周期生产数 = global.BETA四级巢穴光线级生产基数 }
+	set_variable = { global.BETA五级巢穴光线级每周期生产数 = global.BETA五级巢穴光线级生产基数 }
+	set_variable = { global.BETA六级巢穴光线级每周期生产数 = global.BETA六级巢穴光线级生产基数 }
+	set_variable = { global.BETA七级巢穴光线级每周期生产数 = global.BETA七级巢穴光线级生产基数 }
+	set_variable = { global.BETA八级巢穴光线级每周期生产数 = global.BETA八级巢穴光线级生产基数 }
+	set_variable = { global.BETA九级巢穴光线级每周期生产数 = global.BETA九级巢穴光线级生产基数 }
+
+	set_variable = { global.BETA一级巢穴重光线级每周期生产数 = global.BETA一级巢穴重光线级生产基数 }
+	set_variable = { global.BETA二级巢穴重光线级每周期生产数 = global.BETA二级巢穴重光线级生产基数 }
+	set_variable = { global.BETA三级巢穴重光线级每周期生产数 = global.BETA三级巢穴重光线级生产基数 }
+	set_variable = { global.BETA四级巢穴重光线级每周期生产数 = global.BETA四级巢穴重光线级生产基数 }
+	set_variable = { global.BETA五级巢穴重光线级每周期生产数 = global.BETA五级巢穴重光线级生产基数 }
+	set_variable = { global.BETA六级巢穴重光线级每周期生产数 = global.BETA六级巢穴重光线级生产基数 }
+	set_variable = { global.BETA七级巢穴重光线级每周期生产数 = global.BETA七级巢穴重光线级生产基数 }
+	set_variable = { global.BETA八级巢穴重光线级每周期生产数 = global.BETA八级巢穴重光线级生产基数 }
+	set_variable = { global.BETA九级巢穴重光线级每周期生产数 = global.BETA九级巢穴重光线级生产基数 }
+
+	multiply_variable = { global.BETA一级巢穴光线级每周期生产数 = global.BETA光线级生产乘数 }
+	multiply_variable = { global.BETA二级巢穴光线级每周期生产数 = global.BETA光线级生产乘数 }
+	multiply_variable = { global.BETA三级巢穴光线级每周期生产数 = global.BETA光线级生产乘数 }
+	multiply_variable = { global.BETA四级巢穴光线级每周期生产数 = global.BETA光线级生产乘数 }
+	multiply_variable = { global.BETA五级巢穴光线级每周期生产数 = global.BETA光线级生产乘数 }
+	multiply_variable = { global.BETA六级巢穴光线级每周期生产数 = global.BETA光线级生产乘数 }
+	multiply_variable = { global.BETA七级巢穴光线级每周期生产数 = global.BETA光线级生产乘数 }
+	multiply_variable = { global.BETA八级巢穴光线级每周期生产数 = global.BETA光线级生产乘数 }
+	multiply_variable = { global.BETA九级巢穴光线级每周期生产数 = global.BETA光线级生产乘数 }
+
+	multiply_variable = { global.BETA一级巢穴重光线级每周期生产数 = global.BETA重光线级生产乘数 }
+	multiply_variable = { global.BETA二级巢穴重光线级每周期生产数 = global.BETA重光线级生产乘数 }
+	multiply_variable = { global.BETA三级巢穴重光线级每周期生产数 = global.BETA重光线级生产乘数 }
+	multiply_variable = { global.BETA四级巢穴重光线级每周期生产数 = global.BETA重光线级生产乘数 }
+	multiply_variable = { global.BETA五级巢穴重光线级每周期生产数 = global.BETA重光线级生产乘数 }
+	multiply_variable = { global.BETA六级巢穴重光线级每周期生产数 = global.BETA重光线级生产乘数 }
+	multiply_variable = { global.BETA七级巢穴重光线级每周期生产数 = global.BETA重光线级生产乘数 }
+	multiply_variable = { global.BETA八级巢穴重光线级每周期生产数 = global.BETA重光线级生产乘数 }
+	multiply_variable = { global.BETA九级巢穴重光线级每周期生产数 = global.BETA重光线级生产乘数 }
+
+	set_variable = { global.BETA各巢穴等级光线级每周期生产数列表^1 = global.BETA一级巢穴光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级光线级每周期生产数列表^2 = global.BETA二级巢穴光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级光线级每周期生产数列表^3 = global.BETA三级巢穴光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级光线级每周期生产数列表^4 = global.BETA四级巢穴光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级光线级每周期生产数列表^5 = global.BETA五级巢穴光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级光线级每周期生产数列表^6 = global.BETA六级巢穴光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级光线级每周期生产数列表^7 = global.BETA七级巢穴光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级光线级每周期生产数列表^8 = global.BETA八级巢穴光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级光线级每周期生产数列表^9 = global.BETA九级巢穴光线级每周期生产数 }
+
+	set_variable = { global.BETA各巢穴等级重光线级每周期生产数列表^1 = global.BETA一级巢穴重光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级重光线级每周期生产数列表^2 = global.BETA二级巢穴重光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级重光线级每周期生产数列表^3 = global.BETA三级巢穴重光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级重光线级每周期生产数列表^4 = global.BETA四级巢穴重光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级重光线级每周期生产数列表^5 = global.BETA五级巢穴重光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级重光线级每周期生产数列表^6 = global.BETA六级巢穴重光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级重光线级每周期生产数列表^7 = global.BETA七级巢穴重光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级重光线级每周期生产数列表^8 = global.BETA八级巢穴重光线级每周期生产数 }
+	set_variable = { global.BETA各巢穴等级重光线级每周期生产数列表^9 = global.BETA九级巢穴重光线级每周期生产数 }
+}
+简单难度参数设置={
+	set_variable = { global.难度等级 = 1 }
+	set_variable = { global.BETA师团生产难度乘数 = 1 }
+	set_variable = { global.BETA光线级难度生产乘数 = 1 }
+	set_variable = { global.BETA重光线级难度生产乘数 = 1 }
+
+	clear_array = global.BETA侵攻启动成功概率数组
+	add_to_array = { global.BETA侵攻启动成功概率数组 = 10 }
+	add_to_array = { global.BETA侵攻启动成功概率数组 = 30 }
+	add_to_array = { global.BETA侵攻启动成功概率数组 = 60 }
+	add_to_array = { global.BETA侵攻启动成功概率数组 = 90 }
+	add_to_array = { global.BETA侵攻启动成功概率数组 = 100 }
+
+	clear_array = global.BETA侵攻启动失败概率数组
+	add_to_array = { global.BETA侵攻启动失败概率数组 = 90 }
+	add_to_array = { global.BETA侵攻启动失败概率数组 = 70 }
+	add_to_array = { global.BETA侵攻启动失败概率数组 = 40 }
+	add_to_array = { global.BETA侵攻启动失败概率数组 = 10 }
+	add_to_array = { global.BETA侵攻启动失败概率数组 = 0 }
+	BETA生产计算 = yes
+}
+普通难度参数设置={
+	set_variable = { global.难度等级 = 2 }
+	set_variable = { global.BETA师团生产难度乘数 = 1 }
+	set_variable = { global.BETA光线级难度生产乘数 = 2 }
+	set_variable = { global.BETA重光线级难度生产乘数 = 1 }
+
+	clear_array = global.BETA侵攻启动成功概率数组
+	add_to_array = { global.BETA侵攻启动成功概率数组 = 30 }
+	add_to_array = { global.BETA侵攻启动成功概率数组 = 60 }
+	add_to_array = { global.BETA侵攻启动成功概率数组 = 90 }
+	add_to_array = { global.BETA侵攻启动成功概率数组 = 100 }
+
+	clear_array = global.BETA侵攻启动失败概率数组
+	add_to_array = { global.BETA侵攻启动失败概率数组 = 70 }
+	add_to_array = { global.BETA侵攻启动失败概率数组 = 40 }
+	add_to_array = { global.BETA侵攻启动失败概率数组 = 10 }
+	add_to_array = { global.BETA侵攻启动失败概率数组 = 0 }
+	BETA生产计算 = yes
+}
+困难难度参数设置={
+	set_variable = { global.难度等级 = 3 }
+	set_variable = { global.BETA师团生产难度乘数 = 2 }
+	set_variable = { global.BETA光线级难度生产乘数 = 3 }
+	set_variable = { global.BETA重光线级难度生产乘数 = 2 }
+
+	clear_array = global.BETA侵攻启动成功概率数组
+	add_to_array = { global.BETA侵攻启动成功概率数组 = 60 }
+	add_to_array = { global.BETA侵攻启动成功概率数组 = 100 }
+
+	clear_array = global.BETA侵攻启动失败概率数组
+	add_to_array = { global.BETA侵攻启动失败概率数组 = 40 }
+	add_to_array = { global.BETA侵攻启动失败概率数组 = 0 }
+	BETA生产计算 = yes
+}
+地狱难度参数设置={
+	set_variable = { global.难度等级 = 4 }
+	set_variable = { global.BETA师团生产难度乘数 = 3 }
+	set_variable = { global.BETA光线级难度生产乘数 = 3 }
+	set_variable = { global.BETA重光线级难度生产乘数 = 3 }
+
+	clear_array = global.BETA侵攻启动成功概率数组
+	add_to_array = { global.BETA侵攻启动成功概率数组 = 100 }
+
+	clear_array = global.BETA侵攻启动失败概率数组
+	add_to_array = { global.BETA侵攻启动失败概率数组 = 0 }
+	BETA生产计算 = yes
+}
+# 光线级生产 = {
+# 	meta_effect = {
+# 		text = {
+# 			FROM = {
+# 				add_equipment_to_stockpile = {
+# 					type = laser_1
+# 					amount = [光线级数量]
+# 				}
+# 				add_equipment_to_stockpile = {
+# 					type = heavy_laser_1
+# 					amount = [重光线级数量]
+# 				}
+# 			}
+# 		}
+# 		光线级数量 = global.BETA各巢穴等级光线级每周期生产数列表^巢穴等级
+# 		重光线级数量 = global.BETA各巢穴等级重光线级每周期生产数列表^巢穴等级
+# 		debug = no
+# 	}
+# }
+# 光线级生产 = {
+# 	meta_effect = {
+# 		text = {
+# 			BET = {
+# 				add_equipment_to_stockpile = {
+# 					type = laser_1
+# 					amount = [光线级数量]
+# 				}
+# 			}
+# 		}
+# 		光线级数量 = global.BETA各巢穴等级光线级每周期生产数列表^巢穴等级
+# 		debug = no
+# 	}
+# }
+# 重光线级生产 = {
+# 	meta_effect = {
+# 		text = {
+# 			BET = {
+# 				add_equipment_to_stockpile = {
+# 					type = heavy_laser_1
+# 					amount = [重光线级数量]
+# 				}
+# 			}
+# 		}
+# 		重光线级数量 = global.BETA各巢穴等级重光线级每周期生产数列表^巢穴等级
+# 		debug = no
+# 	}
+# }
+运输船生产 = {
+	FROM = {
+		add_equipment_to_stockpile = {
+			type = convoy_1
+			amount = 100
+		}
+	}
+}
+火车生产 = {
+	FROM = {
+		add_equipment_to_stockpile = {
+			type = train_equipment_2
+			amount = 10
+		}
+	}
+}
+混成师团生产 = {
+	meta_effect = {
+		text = {
+			FROM = {
+				capital_scope = {
+					create_unit = {
+						division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = [大型混成师团数量]
+					}
+					create_unit = {
+						division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = [小型混成师团数量]
+					}
+				}
+			}
+		}
+		大型混成师团数量 = global.BETA各巢穴等级大型混成师团每周期生产数列表^巢穴等级
+		小型混成师团数量 = global.BETA各巢穴等级小型混成师团每周期生产数列表^巢穴等级
+		debug = no
+	}
+}
+BETA个体数较多时混成师团生产 = {
+	meta_effect = {
+		text = {
+			FROM = {
+				capital_scope = {
+					create_unit = {
+						division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = [大型混成师团数量]
+					}
+					create_unit = {
+						division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = [小型混成师团数量]
+					}
+				}
+			}
+		}
+		大型混成师团数量 = global.BETA小侵攻阶段基础小型混成生产数
+		小型混成师团数量 = global.BETA小侵攻阶段基础生产基数
+		debug = no
+	}
+}
+侵攻师团生产 = {
+	meta_effect = {
+		text = {
+			FROM = {
+				capital_scope = {
+					create_unit = {
+						division = "name = \"BETA侵攻师团\" division_template = \"BETA侵攻师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = [侵攻师团数量]
+					}
+				}
+			}
+		}
+		侵攻师团数量 = global.BETA各巢穴等级侵攻师团每周期生产数列表^巢穴等级
+		debug = no
+	}
+}
+小侵攻进度增加 = {
+	add_to_variable = { FROM.小侵攻进度 = 1 }
+}
+大侵攻进度增加 = {
+	add_to_variable = { FROM.大侵攻进度 = 1 }
+}
+重置小侵攻进度 = {
+	set_variable = { FROM.小侵攻进度 = 0 }
+}
+重置大侵攻进度 = {
+	set_variable = { FROM.大侵攻进度 = 0 }
+}
+大侵攻结束 = {
+	remove_ideas = mvlv_aggressive_beta
+	every_enemy_country = {
+		limit = {
+			always = yes
+		}
+		country_event = {
+			id = mvlv_beta_atk_news.1
+		}
+	}
+}
+小侵攻结束 = {
+	remove_ideas = mvlv_aggressive_beta2
+	every_enemy_country = {
+		limit = {
+			always = yes
+		}
+		country_event = {
+			id = mvlv_beta_atk_news.2
+		}
+	}
+}
+大侵攻开始 = {
+	add_ideas = mvlv_aggressive_beta
+	every_enemy_country = {
+		limit = {
+			always = yes
+		}
+		country_event = {
+			id = mvlv_beta_atk_news.3
+		}
+	}
+}
+小侵攻开始 = {
+	add_ideas = mvlv_aggressive_beta2
+	every_enemy_country = {
+		limit = {
+			always = yes
+		}
+		country_event = {
+			id = mvlv_beta_atk_news.4
+		}
+	}
+}

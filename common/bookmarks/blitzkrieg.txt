@@ -1,0 +1,289 @@
+bookmarks = {
+	bookmark = {
+		name = "1973_START_NAME"
+		desc = "1973_START_DESC"
+		date = 2073.1.1.12
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+	
+		"FRA" = {
+			history = "FRA_1973_DESC"
+			ideology = democratic
+			ideas={
+
+			}
+			focuses = {
+
+			}
+		}
+		"USA" = {
+			history = "USA_1973_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+		}
+		"ENG" = {
+			history = "ENG_1973_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+			
+		}
+		"GER" = {
+			history = "GER_1973_DESC"
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"ITA" = {
+			history = "ITA_1973_DESC"
+			ideology = fascism
+			ideas={
+
+			}
+			focuses = {
+
+			}			
+		}
+		"JAP" = {
+			history = "JAP_1973_DESC"
+			ideology = fascism
+			ideas={
+
+			}	
+			focuses = {
+
+			}		
+		}
+		"SOV" = {
+			history = "SOV_1973_DESC"
+			ideology = communism
+			ideas = {
+
+			}
+		}
+
+		"---"={
+			history = "OTHER_1973_DESC"
+		}
+
+		# minors from DLC ####
+		"POL"={
+			minor = yes
+			history = "POL_1973_DESC"
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"CAN"={
+			minor = yes
+			history = "CAN_1973_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"AST"={
+			minor = yes
+			history = "AST_1973_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"NZL"={
+			minor = yes
+			history = "NZL_1973_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+		"SAF"={
+			minor = yes
+			history = "SAF_1973_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+		"RAJ"={
+			minor = yes
+			history = "RAJ_1973_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+		"HUN"={
+			minor = yes
+			history = "HUN_1973_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"ROM"={
+			minor = yes
+			history = "ROM_1973_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+		
+		"YUG"={
+			minor = yes
+			history = "YUG_1973_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+		"CHI"={
+			minor = yes
+			history = "CHI_1973_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+		"PRC"={
+			minor = yes
+			history = "PRC_1973_DESC"
+			ideology = communism
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+		"MAN"={
+			minor = yes
+			history = "MAN_1973_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"GXC"={
+			minor = yes
+			history = "WARLORDS_1973_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}		
+		"YUN"={
+			minor = yes
+			history = "WARLORDS_1973_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}		
+		"XSM"={
+			minor = yes
+			history = "WARLORDS_1973_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}		
+		"SIK"={
+			minor = yes
+			history = "WARLORDS_1973_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"MEX"={
+			minor = yes
+			history = "MEXICO_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"HOL"={
+			minor = yes
+			history = "NETHERLANDS_BLITZKRIEG_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

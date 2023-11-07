@@ -1,0 +1,861 @@
+focus_tree = {
+	id = eea_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = EEA
+		}
+		#modifier = {
+		#	add = 10
+		#	original_tag = EEA
+		#}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 20
+		y = 1000
+	}
+	reset_on_civilwar = no
+	focus = {
+		id = EEA_I_1
+		icon = GFX_goal_generic_construct_military
+		x = 3
+		y = 0
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			803 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 11047
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_I_2
+		icon = GFX_goal_generic_scientific_exchange
+		x = 0
+		y = 1
+		relative_position_id = EEA_I_1
+		prerequisite = {
+			focus = EEA_I_1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_I_3
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 0
+		y = 1
+		relative_position_id = EEA_I_2
+		prerequisite = {
+			focus = EEA_I_2
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_I_4
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 0
+		y = 1
+		relative_position_id = EEA_I_3
+		prerequisite = {
+			focus = EEA_I_3
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_I_5
+		icon = GFX_goal_generic_construct_mil_factory
+		x = -2
+		y = 1
+		relative_position_id = EEA_I_4
+		prerequisite = {
+			focus = EEA_I_4
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					is_fully_controlled_by = owner
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_I_6
+		icon = GFX_goal_generic_scientific_exchange
+		x = 2
+		y = 1
+		relative_position_id = EEA_I_4
+		prerequisite = {
+			focus = EEA_I_4
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
+			add_ideas = EEA_I1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_1
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 11
+		y = 0
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			add_political_power = 150
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_2_A
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = -2
+		y = 1
+		relative_position_id = EEA_P_1
+		prerequisite = {
+			focus = EEA_P_1
+		}
+		mutually_exclusive = {
+			focus = EEA_P_2_B
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			add_political_power = 150
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_3_A
+		icon = GFX_focus_ger_oppose_hitler
+		x = -2
+		y = 1
+		relative_position_id = EEA_P_2_A
+		prerequisite = {
+			focus = EEA_P_2_A
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.6
+				uses = 2
+				category = land_doctrine
+			}
+			# add_tech_bonus = {
+			# 	bonus = 1.5
+			# 	uses = 2
+			# 	category = land_doctrine
+			# }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_4_A
+		icon = GFX_focus_RAJ_indian_gentlemen_offcers
+		x = 0
+		y = 1
+		relative_position_id = EEA_P_2_A
+		prerequisite = {
+			focus = EEA_P_2_A
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				name = mech_army_bonus
+				technology = EEA_EF-2000
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				name = mech_army_bonus
+				technology = EEA_SW
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_5_A
+		icon = GFX_focus_research
+		x = 2
+		y = 1
+		relative_position_id = EEA_P_2_A
+		prerequisite = {
+			focus = EEA_P_2_A
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_6_A
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 0
+		y = 2
+		relative_position_id = EEA_P_4_A
+		prerequisite = {
+			focus = EEA_P_3_A
+		}
+		prerequisite = {
+			focus = EEA_P_4_A
+		}
+		prerequisite = {
+			focus = EEA_P_5_A
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.7
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.3
+			}
+			set_politics = {
+				ruling_party = democratic
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_7_A
+		icon = GFX_focus_rom_parties_end
+		x = 0
+		y = 1
+		relative_position_id = EEA_P_6_A
+		prerequisite = {
+			focus = EEA_P_6_A
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			add_stability = 0.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_8_A
+		icon = GFX_focus_ger_revive_kaiserreich
+		x = 0
+		y = 1
+		relative_position_id = EEA_P_7_A
+		prerequisite = {
+			focus = EEA_P_7_A
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_ideas = EEA_P1
+			EEA = {
+				country_event = mvlv_eea.1
+			}
+			EUR = {
+				country_event = mvlv_eea.2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_2_B
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		x = 2
+		y = 1
+		relative_position_id = EEA_P_1
+		prerequisite = {
+			focus = EEA_P_1
+		}
+		mutually_exclusive = {
+			focus = EEA_P_2_A
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			add_political_power = 150
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_3_B
+		icon = GFX_goal_generic_forceful_treaty
+		x = 0
+		y = 2
+		relative_position_id = EEA_P_2_B
+		prerequisite = {
+			focus = EEA_P_2_B
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = EEA_WTO
+				add_idea = EEA_WTO_2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_4_B
+		icon = GFX_goal_generic_military_sphere
+		x = -2
+		y = 1
+		relative_position_id = EEA_P_3_B
+		prerequisite = {
+			focus = EEA_P_3_B
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = MVLV_TSF_chassis
+				amount = 600
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_5_B
+		icon = GFX_focus_generic_combined_arms
+		x = 0
+		y = 1
+		relative_position_id = EEA_P_3_B
+		prerequisite = {
+			focus = EEA_P_3_B
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.5
+				uses = 3
+				category = land_doctrine
+			}
+			# add_tech_bonus = {
+			# 	bonus = 1
+			# 	uses = 3
+			# 	category = land_doctrine
+			# }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_6_B
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 2
+		y = 1
+		relative_position_id = EEA_P_3_B
+		prerequisite = {
+			focus = EEA_P_3_B
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					is_fully_controlled_by = owner
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_7_B
+		icon = GFX_goal_generic_air_production
+		x = 0
+		y = 1
+		relative_position_id = EEA_P_5_B
+		prerequisite = {
+			focus = EEA_P_4_B
+			focus = EEA_P_5_B
+			focus = EEA_P_6_B
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_ideas = EEA_P3
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_8_B
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 0
+		y = 1
+		relative_position_id = EEA_P_7_B
+		prerequisite = {
+			focus = EEA_P_7_B
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_ideas = EEA_P2
+			remove_ideas = {
+				EEA_DDR
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_P_9
+		icon = GFX_goal_generic_territory_or_war
+		x = 2
+		y = 1
+		relative_position_id = EEA_P_8_A
+		prerequisite = {
+			focus = EEA_P_8_A
+			focus = EEA_P_8_B
+		}
+		available = {
+			64 = {
+				is_controlled_by = EEA
+			}
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			set_capital = 64
+			61 = {
+				add_extra_state_shared_building_slots = 5
+			}
+			62 = {
+				add_extra_state_shared_building_slots = 5
+			}
+			65 = {
+				add_extra_state_shared_building_slots = 10
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_M_1
+		icon = GFX_goal_support_fourth_int
+		x = 19
+		y = 0
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			army_experience = 100
+			navy_experience = 100
+			air_experience = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_M_2
+		icon = GFX_goal_generic_production
+		x = 0
+		y = 1
+		relative_position_id = EEA_M_1
+		prerequisite = {
+			focus = EEA_M_1
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			add_ideas = EEA_M1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_M_3_A
+		icon = GFX_goal_generic_army_doctrines
+		x = -2
+		y = 1
+		relative_position_id = EEA_M_2
+		prerequisite = {
+			focus = EEA_M_2
+		}
+		mutually_exclusive = {
+			focus = EEA_M_3_B
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.6
+				uses = 1
+				category = land_doctrine
+			}
+			# add_tech_bonus = {
+			# 	bonus = 1.5
+			# 	uses = 1
+			# 	category = land_doctrine
+			# }
+			army_experience = 200
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_M_4_A
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 1
+		relative_position_id = EEA_M_3_A
+		prerequisite = {
+			focus = EEA_M_3_A
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_ideas = EEA_M2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_M_5_A
+		icon = GFX_goal_generic_air_fighter
+		x = 0
+		y = 1
+		relative_position_id = EEA_M_4_A
+		prerequisite = {
+			focus = EEA_M_4_A
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_ideas = SOV_ru7
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_M_3_B
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = 2
+		y = 1
+		relative_position_id = EEA_M_2
+		prerequisite = {
+			focus = EEA_M_2
+		}
+		mutually_exclusive = {
+			focus = EEA_M_3_A
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.6
+				uses = 1
+				category = land_doctrine
+			}
+			# add_tech_bonus = {
+			# 	bonus = 1.5
+			# 	uses = 1
+			# 	category = land_doctrine
+			# }
+			army_experience = 200
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_M_4_B
+		icon = GFX_goal_generic_construct_military
+		x = 0
+		y = 1
+		relative_position_id = EEA_M_3_B
+		prerequisite = {
+			focus = EEA_M_3_B
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			add_ideas = EEA_M3
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_M_5_B
+		icon = GFX_goal_continuous_reduce_training_time
+		x = 0
+		y = 1
+		relative_position_id = EEA_M_4_B
+		prerequisite = {
+			focus = EEA_M_4_B
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			add_ideas = SOV_ru9
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_M_6
+		icon = GFX_goal_generic_propaganda
+		x = 2
+		y = 1
+		relative_position_id = EEA_M_5_A
+		prerequisite = {
+			focus = EEA_M_5_A
+			focus = EEA_M_5_B
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = MVLV_TSF_chassis
+				amount = 480
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = EEA_M_7
+		icon = GFX_focus_por_workers_of_iberia
+		x = 0
+		y = 1
+		relative_position_id = EEA_M_6
+		prerequisite = {
+			focus = EEA_M_6
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			remove_ideas = {
+				EEA_UNI
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

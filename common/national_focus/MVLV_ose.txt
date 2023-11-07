@@ -1,0 +1,1234 @@
+focus_tree = {
+	id = oseania_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OSE
+		}
+		#modifier = {
+		#	add = 10
+		#	original_tag = OSE
+		#}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 20
+		y = 1000
+	}
+	reset_on_civilwar = no
+	shared_focus = common_refugee_tech_sharing
+	shared_focus = common_adopt_powered_suits
+	shared_focus = common_experience_of_BETA_war
+	shared_focus = common_refugee_support_request
+	#####################################################################
+	focus = {
+		id = ose_first
+		icon = GFX_goal_generic_demand_territory
+		available = {
+		}
+		x = 20
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 100
+			add_stability = -0.1
+			add_war_support = 0.05
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	focus = {
+		id = ose_eco
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = ose_first
+		}
+		mutually_exclusive = {
+			focus = ose_war
+		}
+		x = -8
+		y = 1
+		cost = 10
+		relative_position_id = ose_first
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 150
+			add_stability = -0.15
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ose_eco2_1
+		icon = GFX_focus_secret_rearmament
+		prerequisite = {
+			focus = ose_eco
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = ose_eco
+		available_if_capitulated = yes
+		completion_reward = {
+			add_manpower = 50000
+			add_stability = -0.1
+		}
+	}
+	focus = {
+		id = ose_eco2_2
+		icon = GFX_goal_rhineland
+		prerequisite = {
+			focus = ose_eco2_1
+		}
+		mutually_exclusive = {
+			focus = ose_eco2_4
+			focus = ose_eco2_3
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = ose_eco2_1
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.1
+			army_experience = 50
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.25
+				uses = 2
+				category = land_doctrine
+			}
+			# add_tech_bonus = {
+			# 	name = land_doc_bonus
+			# 	bonus = 0.3
+			# 	uses = 2
+			# 	category = land_doctrine
+			# }
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1
+				uses = 2
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+	focus = {
+		id = ose_eco2_3
+		icon = GFX_goal_generic_amphibious_assault
+		prerequisite = {
+			focus = ose_eco2_1
+		}
+		mutually_exclusive = {
+			focus = ose_eco2_2
+			focus = ose_eco2_4
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = ose_eco2_1
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.1
+			army_experience = 50
+			add_tech_bonus = {
+				bonus = 2.5
+				uses = 1
+				name = mech_army_bonus
+				technology = generic_F-18EF
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				name = mech_army_bonus
+				technology = generic_F-18HMRV
+			}
+		}
+	}
+	focus = {
+		id = ose_eco2_4
+		icon = GFX_goal_continuous_boost_freedom
+		prerequisite = {
+			focus = ose_eco2_1
+		}
+		mutually_exclusive = {
+			focus = ose_eco2_2
+			focus = ose_eco2_3
+		}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = ose_eco2_1
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.1
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ose_eco2_5
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = {
+			focus = ose_eco2_2
+			focus = ose_eco2_3
+			focus = ose_eco2_4
+		}
+		mutually_exclusive = {
+			focus = ose_eco2_6
+			focus = ose_eco2_7
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = ose_eco2_3
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.1
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ose_eco2_6
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = ose_eco2_2
+			focus = ose_eco2_3
+			focus = ose_eco2_4
+		}
+		mutually_exclusive = {
+			focus = ose_eco2_5
+			focus = ose_eco2_7
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = ose_eco2_3
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.1
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = ose_eco2_7
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+			focus = ose_eco2_2
+			focus = ose_eco2_3
+			focus = ose_eco2_4
+		}
+		mutually_exclusive = {
+			focus = ose_eco2_6
+			focus = ose_eco2_5
+		}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = ose_eco2_3
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.1
+			add_political_power = 200
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	focus = {
+		id = ose_eco2_8
+		icon = GFX_focus_prc_infiltration
+		prerequisite = {
+			focus = ose_eco2_5
+			focus = ose_eco2_6
+			focus = ose_eco2_7
+		}
+		mutually_exclusive = {
+			focus = ose_eco2_9
+			focus = ose_eco2_10
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = ose_eco2_6
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.05
+			add_equipment_to_stockpile = {
+				type = MVLV_TSF_chassis
+				amount = 250
+				producer = ROOT
+			}
+		}
+	}
+	focus = {
+		id = ose_eco2_9
+		icon = GFX_focus_wonderweapons
+		prerequisite = {
+			focus = ose_eco2_5
+			focus = ose_eco2_6
+			focus = ose_eco2_7
+		}
+		mutually_exclusive = {
+			focus = ose_eco2_8
+			focus = ose_eco2_10
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = ose_eco2_6
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.05
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = ose_eco2_10
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {
+			focus = ose_eco2_5
+			focus = ose_eco2_6
+			focus = ose_eco2_7
+		}
+		mutually_exclusive = {
+			focus = ose_eco2_9
+			focus = ose_eco2_8
+		}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = ose_eco2_6
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.05
+			add_ideas = OSE_goods
+		}
+	}
+	focus = {
+		id = ose_eco2_11
+		icon = GFX_focus_ger_reichskommisariats
+		prerequisite = {
+			focus = ose_eco2_8
+			focus = ose_eco2_9
+			focus = ose_eco2_10
+		}
+		x = 0
+		y = 1
+		cost = 15
+		relative_position_id = ose_eco2_9
+		available_if_capitulated = yes
+		completion_reward = {
+			remove_ideas = OSE_refugees
+			add_ideas = OSE_refugees2
+		}
+	}
+	focus = {
+		id = ose_eco2_12
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {
+			focus = ose_eco2_11
+		}
+		mutually_exclusive = {
+			focus = ose_eco2_13
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = ose_eco2_11
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.1
+			add_manpower = 500000
+		}
+	}
+	focus = {
+		id = ose_eco2_13
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+			focus = ose_eco2_11
+		}
+		mutually_exclusive = {
+			focus = ose_eco2_12
+		}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = ose_eco2_11
+		available_if_capitulated = yes
+		completion_reward = {
+			add_timed_idea = {
+				idea = 补助金发放
+				days = 90
+			}
+			add_stability = 0.35
+			add_war_support = 0.5
+		}
+	}
+	focus = {
+		id = ose_eco2_14
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = {
+			focus = ose_eco2_13
+			focus = ose_eco2_12
+		}
+		x = 2
+		y = 1
+		cost = 15
+		relative_position_id = ose_eco2_12
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = OSE_refugees3
+			army_experience = 100
+		}
+	}
+	#############################################################
+	focus = {
+		id = ose_war
+		icon = GFX_focus_ger_reichskommisariats
+		prerequisite = {
+			focus = ose_first
+		}
+		mutually_exclusive = {
+			focus = ose_eco
+		}
+		x = 5
+		y = 1
+		cost = 10
+		relative_position_id = ose_first
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 300
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+	focus = {
+		id = ose_war3_1
+		icon = GFX_goal_continuous_reduce_training_time
+		prerequisite = {
+			focus = ose_war
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = ose_war
+		available_if_capitulated = yes
+		completion_reward = {
+			remove_ideas = OSE_refugees
+			add_ideas = OSE_refugees4
+		}
+	}
+	focus = {
+		id = ose_war3_2
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = {
+			focus = ose_war3_1
+		}
+		mutually_exclusive = {
+			focus = ose_war3_4
+			focus = ose_war3_3
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = ose_war3_1
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 1.5
+				uses = 4
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = ose_war3_3
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = {
+			focus = ose_war3_1
+		}
+		mutually_exclusive = {
+			focus = ose_war3_4
+			focus = ose_war3_2
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = ose_war3_1
+		available_if_capitulated = yes
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.33
+				uses = 3
+				category = land_doctrine
+			}
+			# add_tech_bonus = {
+			# 	name = land_doc_bonus
+			# 	bonus = 1.5
+			# 	uses = 1
+			# 	category = land_doctrine
+			# }
+		}
+	}
+	focus = {
+		id = ose_war3_4
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = {
+			focus = ose_war3_1
+		}
+		mutually_exclusive = {
+			focus = ose_war3_3
+			focus = ose_war3_2
+		}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = ose_war3_1
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = mvlv_license
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = MVLV_tsf_tech
+			}
+		}
+	}
+	focus = {
+		id = ose_war3_5
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = {
+			focus = ose_war3_2
+			focus = ose_war3_3
+			focus = ose_war3_4
+		}
+		mutually_exclusive = {
+			focus = ose_war3_6
+			focus = ose_war3_7
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = ose_war3_3
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.5
+				uses = 2
+				category = armor
+			}
+		}
+	}
+	focus = {
+		id = ose_war3_6
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = {
+			focus = ose_war3_2
+			focus = ose_war3_3
+			focus = ose_war3_4
+		}
+		mutually_exclusive = {
+			focus = ose_war3_5
+			focus = ose_war3_7
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = ose_war3_3
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = OSE_space
+		}
+	}
+	focus = {
+		id = ose_war3_7
+		icon = GFX_goal_generic_navy_battleship
+		prerequisite = {
+			focus = ose_war3_2
+			focus = ose_war3_3
+			focus = ose_war3_4
+		}
+		mutually_exclusive = {
+			focus = ose_war3_6
+			focus = ose_war3_5
+		}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = ose_war3_3
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = ss_tech
+			}
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = cl_tech
+				category = ca_tech
+			}
+			navy_experience = 25
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1
+				ahead_reduction = 2
+				uses = 1
+				category = bc_tech
+				category = bb_tech
+				category = cv_tech
+			}
+		}
+	}
+	focus = {
+		id = ose_war3_8
+		icon = GFX_focus_ger_oppose_hitler
+		prerequisite = {
+			focus = ose_war3_5
+			focus = ose_war3_6
+			focus = ose_war3_7
+		}
+		mutually_exclusive = {
+			focus = ose_war3_9
+			focus = ose_war3_10
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = ose_war3_6
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = OSE_human
+		}
+	}
+	focus = {
+		id = ose_war3_9
+		icon = GFX_focus_generic_combined_arms
+		prerequisite = {
+			focus = ose_war3_5
+			focus = ose_war3_6
+			focus = ose_war3_7
+		}
+		mutually_exclusive = {
+			focus = ose_war3_8
+			focus = ose_war3_10
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = ose_war3_6
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = OSE_tank
+		}
+	}
+	focus = {
+		id = ose_war3_10
+		icon = GFX_focus_generic_army_tanks2
+		prerequisite = {
+			focus = ose_war3_5
+			focus = ose_war3_6
+			focus = ose_war3_7
+		}
+		mutually_exclusive = {
+			focus = ose_war3_9
+			focus = ose_war3_8
+		}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = ose_war3_6
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = OSE_tsf
+		}
+	}
+	focus = {
+		id = ose_war3_11
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = {
+			focus = ose_war3_8
+			focus = ose_war3_9
+			focus = ose_war3_10
+		}
+		#mutually_exclusive = { focus = ose_war3_9 focus = ose_war3_8}
+		x = 0
+		y = 1
+		cost = 20
+		relative_position_id = ose_war3_9
+		available_if_capitulated = yes
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					is_fully_controlled_by = owner
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#############################################################
+	focus = {
+		id = ose_ghard1
+		icon = GFX_goal_generic_propaganda
+		available = {
+			NOT = {
+				AND = {
+					623 = {
+						is_controlled_by = GEU
+					}
+					724 = {
+						is_controlled_by = GEU
+					}
+				}
+			}
+		}
+		x = -2
+		y = 2
+		cost = 5
+		relative_position_id = ose_first
+		available_if_capitulated = yes
+		completion_reward = {
+			GEU = {
+				country_event = mvlv_ose.1
+			}
+			add_timed_idea = {
+				idea = OSE_geu
+				days = 90
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = ose_ghard2
+		icon = GFX_focus_generic_military_mission
+		prerequisite = {
+			focus = ose_ghard1
+		}
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = ose_ghard1
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.15
+			add_manpower = 1000000
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = ose_ghard3
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = ose_ghard1
+		}
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = ose_ghard1
+		available_if_capitulated = yes
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = ose_ghard4
+		icon = GFX_focus_chi_army_reform
+		prerequisite = {
+			focus = ose_ghard2
+		}
+		available = {
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = ose_ghard2
+		available_if_capitulated = yes
+		completion_reward = {
+			520 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 11016
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 1410
+					level = 3
+					instant_build = yes
+				}
+			}
+			521 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 1644
+					level = 3
+					instant_build = yes
+				}
+			}
+			285 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 4763
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		id = ose_ghard5
+		icon = GFX_focus_chi_army_reform
+		prerequisite = {
+			focus = ose_ghard3
+		}
+		available = {
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = ose_ghard3
+		available_if_capitulated = yes
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = MVLV_TSF_chassis
+				amount = 600
+				producer = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

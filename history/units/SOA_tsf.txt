@@ -1,0 +1,39 @@
+
+units = {	
+               division = {
+		location = 10980
+		division_template = "战术机联队"
+		start_experience_factor = 0.5
+                                #force_equipment_variants = { tsf_equipment_F-22 = { owner = "USA" } }
+	}
+	division = {
+		location = 10980
+		division_template = "战术机联队"
+		start_experience_factor = 0.5
+                                #force_equipment_variants = { tsf_equipment_F-22 = { owner = "USA" } }
+	}
+	division = {
+		location = 10980
+		division_template = "战术机联队"
+		start_experience_factor = 0.5
+                                #force_equipment_variants = { tsf_equipment_F-22 = { owner = "USA" } }
+	}
+	division = {
+		location = 10980
+		division_template = "战术机联队"
+		start_experience_factor = 0.5
+                                #force_equipment_variants = { tsf_equipment_F-22 = { owner = "USA" } }
+	}
+	division = {
+		location = 10980
+		division_template = "战术机联队"
+		start_experience_factor = 0.5
+                                #force_equipment_variants = { tsf_equipment_F-22 = { owner = "USA" } }
+	}
+	division = {
+		location = 10980
+		division_template = "战术机联队"
+		start_experience_factor = 0.5
+                                #force_equipment_variants = { tsf_equipment_F-22 = { owner = "USA" } }
+	}
+}

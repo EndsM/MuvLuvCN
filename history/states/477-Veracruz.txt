@@ -1,0 +1,39 @@
+
+state={
+	id=477
+	name="STATE_477"
+	manpower = 5951460
+	
+	state_category = large_town
+	
+	resources={
+		oil=9
+	}
+
+	history={
+		1999.1.1 = {
+			add_core_of = CEA
+			owner = CEA
+		}
+		owner = MEX
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			12810 = {
+				naval_base = 3
+			}
+		}
+		#add_core_of = MEX
+		victory_points = {
+			12810 5
+		}
+		victory_points = {
+			8089 10
+		}
+	}
+
+	provinces={
+		8079 8089 10732 12810 
+	}
+	
+}

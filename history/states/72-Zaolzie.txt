@@ -1,0 +1,30 @@
+state={
+	id=72
+	name="STATE_72"
+	manpower = 152000
+	
+	state_category = rural
+	
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			add_core_of = EEA
+			remove_core_of = POL
+		}
+		owner = CZE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = CZE
+
+		1939.3.14 = {
+			owner = POL
+			controller = POL
+		}
+	}
+
+	provinces={
+		9551 9567 
+	}
+}

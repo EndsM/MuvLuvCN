@@ -1,0 +1,64 @@
+technologies = {
+	human_combat_tactics = {
+		doctrine = yes
+		research_cost = 100.0
+		
+		categories = {
+			land_doctrine
+		}
+
+		enable_tactic = tactic_orbit_diver
+		enable_tactic = tactic_human_hive_inner_combat
+	}
+
+	MVLV_00_xg_doctine = {
+
+		MVLV_xg_battalion = {
+			max_organisation = 1000
+			max_strength = 800
+			default_morale = 100.1
+                        defense = 1.0
+		}
+		
+		doctrine = yes	
+		research_cost = 100.5
+
+		categories = {
+			land_doctrine
+		}
+	}
+	
+	# MVLV_00_xg_doctine2 = {
+
+	# 	MVLV_xg_battalion = {
+	# 		max_organisation = -1000
+	# 		max_strength = -800
+	# 		default_morale = -100.1
+    #                     defense = -1.0
+	# 	}
+		
+	# 	doctrine = yes	
+	# 	research_cost = 100.5
+
+	# 	categories = {
+	# 		land_doctrine
+	# 	}
+	# }
+	
+	# MVLV_00_xg_doctine3 = {
+
+	# 	MVLV_xg_battalion = {
+	# 		max_organisation = 500
+	# 		max_strength = 500
+	# 		default_morale = -100.1
+    #                     defense = 0.5
+	# 	}
+		
+	# 	doctrine = yes	
+	# 	research_cost = 100.5
+
+	# 	categories = {
+	# 		land_doctrine
+	# 	}
+	# }
+}

@@ -1,0 +1,21 @@
+﻿division_template = {
+	name = "混成巢穴卫队"
+	is_locked = yes
+	regiments = {
+		MVLV_beta_soldier = { x = 0 y = 0 }
+		MVLV_beta_soldier = { x = 0 y = 1 }
+		MVLV_beta_Warrior = { x = 0 y = 2 }
+		MVLV_beta_Warrior = { x = 0 y = 3 }
+		MVLV_beta_tank = { x = 1 y = 0 }
+		MVLV_beta_tank = { x = 1 y = 1 }
+		MVLV_beta_tank = { x = 1 y = 2 }
+		MVLV_beta_tank = { x = 1 y = 3 }
+		MVLV_beta_destroyer = { x = 2 y = 0 }
+		MVLV_beta_destroyer = { x = 2 y = 1 }
+		MVLV_beta_destroyer = { x = 2 y = 2 }
+		MVLV_beta_grappler = { x = 2 y = 3 }
+		MVLV_beta_grappler = { x = 2 y = 4 }
+		MVLV_beta_fort = { x = 3 y = 0 }
+	}
+	priority = 0
+}

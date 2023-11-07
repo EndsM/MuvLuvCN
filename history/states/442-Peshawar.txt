@@ -1,0 +1,27 @@
+
+state={
+	id=442
+	name="STATE_442"
+	manpower = 4684400
+	
+	state_category = rural
+
+	history = { 1999.1.1 = { 
+			owner = H02
+			remove_core_of = H02
+			}
+		victory_points = {
+			12763 3
+		}
+		owner = GEU
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+		}
+		add_core_of = GEU
+	}
+
+	provinces={
+		1978 4558 4998 12717 12763 
+	}
+}

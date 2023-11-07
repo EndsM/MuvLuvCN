@@ -1,0 +1,35 @@
+state={
+	id=812
+	name="STATE_812"
+	manpower=10000
+	state_category=hive
+	buildings_max_level_factor = 10.000
+	
+	provinces={
+		13254
+	}
+
+	history={
+		owner = H00
+		add_core_of = H00
+		add_core_of = UNI
+		
+		buildings = {
+			infrastructure = 5
+		}
+		
+		1999.1.1 = {
+			buildings = {
+				hive = 1
+				radar_station = 6
+			    anti_air_building = 5
+				13254 = { bunker = 5 }
+			}
+		}
+		
+		victory_points = {
+			13254 40
+		}
+
+	}
+}

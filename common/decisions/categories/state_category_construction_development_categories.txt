@@ -1,0 +1,9 @@
+state_category_construction_development = {
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+	}
+}
+

@@ -1,0 +1,719 @@
+characters = {
+	UNI_units_leader_1 = {
+		name = "保罗·拉达比诺德"
+		portraits = {
+			army = {
+				large = GFX_保罗拉达比诺德头像
+				small = "gfx/leaders/UNI/保罗拉达比诺德小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				logistics_wizard
+				organizer
+				defensive_doctrine
+				trait_cautious
+				politically_connected
+			}
+			skill = 6
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 6
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_2 = {
+		name = "伊隅美知留"
+		portraits = {
+			army = {
+				large = GFX_伊隅美知留头像
+				small = "gfx/leaders/UNI/伊隅美知留小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				MVLV_valkyrie_lineage
+				brilliant_strategist
+				inflexible_strategist
+				tsf_officer
+				commander_aptitude
+				war_hero
+				trait_reckless
+				trickster
+				tsf_leader
+				tsf_commander
+			}
+			skill = 6
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_3 = {
+		name = "速濑水月"
+		portraits = {
+			army = {
+				large = GFX_速濑水月头像
+				small = "gfx/leaders/UNI/速濑水月小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				MVLV_valkyrie_lineage
+				brilliant_strategist
+				harsh_leader
+				offensive_doctrine
+				tsf_officer
+				commander_aptitude
+				tsf_leader
+				tsf_commander
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_4 = {
+		name = "宗像美冴"
+		portraits = {
+			army = {
+				large = GFX_宗像美冴头像
+				small = "gfx/leaders/UNI/宗像美冴小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				MVLV_valkyrie_lineage
+				inflexible_strategist
+				career_officer
+				tsf_officer
+				commander_aptitude
+				tsf_leader
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_5 = {
+		name = "风间祷子"
+		portraits = {
+			army = {
+				large = GFX_风间祷子头像
+				small = "gfx/leaders/UNI/风间祷子小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				MVLV_valkyrie_lineage
+				trait_engineer
+				tsf_officer
+				tsf_leader
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_6 = {
+		name = "艾伦·艾斯"
+		portraits = {
+			army = {
+				large = GFX_艾伦艾斯头像
+				small = "gfx/leaders/UNI/艾伦艾斯小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				tsf_officer
+				trait_reckless
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_7 = {
+		name = "香月夕呼"
+		portraits = {
+			army = {
+				large = GFX_香月夕呼头像
+				small = "gfx/leaders/UNI/香月夕呼小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				media_personality
+				true_genius
+				politically_connected
+				adaptable
+				organizer
+				logistics_wizard
+				fast_planner
+				thorough_planner
+				offensive_doctrine
+				defensive_doctrine
+				trickster
+				organisational_leader
+				inspirational_leader
+				expert_delegator
+			}
+			skill = 9
+			attack_skill = 6
+			defense_skill = 7
+			planning_skill = 7
+			logistics_skill = 8
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_8 = {
+		name = "乔塞特"
+		portraits = {
+			army = {
+				large = GFX_乔塞特头像
+				small = "gfx/leaders/UNI/乔塞特小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				inflexible_strategist
+				tsf_officer
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_9 = {
+		name = "凉宫遥"
+		portraits = {
+			army = {
+				large = GFX_凉宫遥头像
+				small = "gfx/leaders/UNI/凉宫遥小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				MVLV_valkyrie_lineage
+				infantry_officer
+				career_officer
+				armor_officer
+				commander_aptitude
+				trait_cautious
+			}
+			skill = 4
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_10 = {
+		name = "凉宫茜"
+		portraits = {
+			army = {
+				large = GFX_凉宫茜头像
+				small = "gfx/leaders/UNI/凉宫茜小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				MVLV_valkyrie_lineage
+				career_officer
+				tsf_officer
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_11 = {
+		name = "柏木晴子"
+		portraits = {
+			army = {
+				large = GFX_柏木晴子头像
+				small = "gfx/leaders/UNI/柏木晴子小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				MVLV_valkyrie_lineage
+				trait_cautious
+				tsf_officer
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_12 = {
+		name = "蕾贝卡·琳特"
+		portraits = {
+			army = {
+				large = GFX_蕾贝卡琳特头像
+				small = "gfx/leaders/UNI/蕾贝卡琳特小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				armor_officer
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_13 = {
+		name = "奥尔森"
+		portraits = {
+			army = {
+				large = GFX_奥尔森头像
+				small = "gfx/leaders/UNI/奥尔森小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				true_genius
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_14 = {
+		name = "神宫寺麻里奈"
+		portraits = {
+			army = {
+				large = GFX_神宫寺麻里奈头像
+				small = "gfx/leaders/UNI/神宫寺麻里奈小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				inflexible_strategist
+				harsh_leader
+				career_officer
+				tsf_officer
+				commander_aptitude
+				ranger
+				trait_mountaineer
+				adaptable
+				tsf_leader
+				tsf_commander
+			}
+			skill = 7
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 6
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_15 = {
+		name = "香月素子"
+		portraits = {
+			army = {
+				large = GFX_香月素子头像
+				small = "gfx/leaders/UNI/香月素子小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				inflexible_strategist
+				true_genius
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_16 = {
+		name = "亨利·盖岑"
+		portraits = {
+			army = {
+				large = GFX_亨利盖岑头像
+				small = "gfx/leaders/UNI/亨利盖岑小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				tsf_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	UNI_units_leader_17 = {
+		name = "白银武"
+		portraits = {
+			army = {
+				large = GFX_白银武头像
+				small = "gfx/leaders/UNI/白银武小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				true_genius
+				tsf_officer
+				MVLV_valkyrie_lineage
+				expert_improviser
+				tsf_leader
+				trickster
+				inspirational_leader
+				war_hero
+				hill_fighter
+				hive_attacker
+			}
+			skill = 9
+			attack_skill = 8
+			defense_skill = 8
+			planning_skill = 5
+			logistics_skill = 7
+			legacy_id = -1
+			visible = {
+				has_character_flag = 角色解锁
+			}
+		}
+	}
+	UNI_units_leader_18 = {
+		name = "御剑冥夜"
+		portraits = {
+			army = {
+				large = GFX_御剑冥夜头像
+				small = "gfx/leaders/UNI/御剑冥夜小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				JAP_samurai_lineage
+				infantry_officer
+				ranger
+				trait_engineer
+				fortress_buster
+				tsf_officer
+				tsf_leader
+				hive_attacker
+				MVLV_valkyrie_lineage
+			}
+			skill = 9
+			attack_skill = 8
+			defense_skill = 7
+			planning_skill = 6
+			logistics_skill = 8
+			legacy_id = -1
+			visible = {
+				has_character_flag = 角色解锁
+			}
+		}
+	}
+	UNI_units_leader_19 = {
+		name = "榊千鹤"
+		portraits = {
+			army = {
+				large = GFX_榊千鹤头像
+				small = "gfx/leaders/UNI/榊千鹤小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				trait_cautious
+				harsh_leader
+				skilled_staffer
+				organizer
+				commander_aptitude
+				tsf_commander
+				tsf_officer
+				tsf_leader
+				hive_attacker
+				MVLV_valkyrie_lineage
+			}
+			skill = 9
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 8
+			logistics_skill = 8
+			legacy_id = -1
+			visible = {
+				has_character_flag = 角色解锁
+			}
+		}
+	}
+	UNI_units_leader_20 = {
+		name = "珠濑壬姬"
+		portraits = {
+			army = {
+				large = GFX_珠濑壬姬头像
+				small = "gfx/leaders/UNI/珠濑壬姬小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				commando
+				infantry_leader
+				ambusher
+				tsf_officer
+				tsf_leader
+				hive_attacker
+				MVLV_valkyrie_lineage
+			}
+			skill = 9
+			attack_skill = 5
+			defense_skill = 9
+			planning_skill = 6
+			logistics_skill = 8
+			legacy_id = -1
+			visible = {
+				has_character_flag = 角色解锁
+			}
+		}
+	}
+	UNI_units_leader_21 = {
+		name = "彩峰慧"
+		portraits = {
+			army = {
+				large = GFX_彩峰慧头像
+				small = "gfx/leaders/UNI/彩峰慧小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				swamp_fox
+				naval_invader
+				trickster
+				guerilla_fighter
+				tsf_officer
+				tsf_leader
+				hive_attacker
+				MVLV_valkyrie_lineage
+			}
+			skill = 9
+			attack_skill = 8
+			defense_skill = 8
+			planning_skill = 3
+			logistics_skill = 9
+			legacy_id = -1
+			visible = {
+				has_character_flag = 角色解锁
+			}
+		}
+	}
+	UNI_units_leader_22 = {
+		name = "铠衣美琴"
+		portraits = {
+			army = {
+				large = GFX_铠衣美琴头像
+				small = "gfx/leaders/UNI/铠衣美琴小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				trait_reckless
+				desert_fox
+				swamp_fox
+				trait_mountaineer
+				hill_fighter
+				jungle_rat
+				ranger
+				urban_assault_specialist
+				adaptable
+				winter_specialist
+				winter_expert
+				tsf_officer
+				tsf_leader
+				hive_attacker
+				MVLV_valkyrie_lineage
+			}
+			skill = 8
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 7
+			legacy_id = -1
+			visible = {
+				has_character_flag = 角色解锁
+			}
+		}
+	}
+	UNI_units_leader_23 = {
+		name = "00单元"
+		portraits = {
+			army = {
+				large = GFX_00单元头像
+				small = "gfx/leaders/UNI/00单元小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				true_genius
+				tsf_officer
+				tsf_leader
+				hive_attacker
+				MVLV_valkyrie_lineage
+				MVLV_trait_00_unit
+				brilliant_strategist
+				inflexible_strategist
+			}
+			skill = 9
+			attack_skill = 7
+			defense_skill = 7
+			planning_skill = 7
+			logistics_skill = 7
+			legacy_id = -1
+			visible = {
+				has_character_flag = 角色解锁
+			}
+		}
+	}
+	UNI_units_leader_24 = {
+		name = "勇哉·布里吉斯"
+		portraits = {
+			army = {
+				large = GFX_勇哉布里吉斯国联头像
+				small = "gfx/leaders/UNI/勇哉布里吉斯国联小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trickster
+				panzer_leader
+				panzer_expert
+				trait_reckless
+				trait_engineer
+				fortress_buster
+				inflexible_strategist
+				tsf_officer
+				expert_improviser
+				tsf_leader
+				trickster
+				inspirational_leader
+				war_hero
+				hill_fighter
+				MVLV_valkyrie_lineage
+			}
+			skill = 9
+			attack_skill = 8
+			defense_skill = 6
+			planning_skill = 8
+			logistics_skill = 6
+			legacy_id = -1
+			visible = {
+				has_character_flag = 角色解锁
+			}
+		}
+	}
+	UNI_units_leader_25 = {
+		name = "伊妮亚·谢斯切娜"
+		portraits = {
+			army = {
+				large = GFX_伊妮亚谢斯切娜国联头像
+				small = "gfx/leaders/UNI/伊妮亚谢斯切娜国联小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trickster
+				trait_cautious
+				areer_officer
+				trait_engineer
+				armor_officer
+				inspirational_leader
+				career_officer
+				true_genius
+				tsf_officer
+				tsf_leader
+				MVLV_valkyrie_lineage
+			}
+			skill = 9
+			attack_skill = 8
+			defense_skill = 8
+			planning_skill = 6
+			logistics_skill = 6
+			legacy_id = -1
+			visible = {
+				has_character_flag = 角色解锁
+			}
+		}
+	}
+	UNI_units_leader_26 = {
+		name = "社霞"
+		portraits = {
+			army = {
+				large = GFX_社霞头像
+				small = "gfx/leaders/UNI/社霞小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				brilliant_strategist
+				true_genius
+				tsf_officer
+				expert_improviser
+				tsf_leader
+				trickster
+				inspirational_leader
+				hill_fighter
+			}
+			skill = 8
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 7
+			legacy_id = -1
+			visible = {
+				has_character_flag = 角色解锁
+			}
+		}
+	}
+}

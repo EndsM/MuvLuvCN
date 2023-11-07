@@ -1,0 +1,239 @@
+﻿add_namespace = mvlv_hive_phase
+#____________________________________________________________
+#用途
+#ハイヴフェイズ関連イベント
+#
+#id:mvlv_hive_phase.1 effect:ハイヴのフェイズ管理
+#
+#____________________________________________________________
+#ハイヴのフェイズ管理
+#____________________________________________________________
+country_event = {
+	id = mvlv_hive_phase.1
+	desc = mvlv_hive_phase.1.d
+	title = mvlv_hive_phase.1.t
+	picture = BETA_event_1
+	fire_only_once = no
+	trigger = {
+		is_in_faction_with = BET
+		NOT = {
+			has_idea = mvlv_brokenhive
+		}
+		樱花作战未成功 = yes
+	}
+	mean_time_to_happen = {
+		days = 30
+	}
+	option = {
+		name = mvlv_hive_phase.1.a
+		ai_chance = {
+			factor = 20
+		}
+		IF = {
+			limit = {
+				check_variable = {
+					num_divisions > var_hive_divisions_1
+				}
+				has_manpower > 2000000
+				NOT = {
+					has_idea = hive_thinning_state
+				}
+				NOT = {
+					has_idea = hive_recently_phaseUp
+				}
+				has_idea = hive_phase_1
+			}
+			swap_ideas = {
+				remove_idea = hive_phase_1
+				add_idea = hive_phase_2
+			}
+			set_variable = {
+				BETA当前巢穴等级陆军上限 = var_hive_divisions_2
+			}
+			BETA巢穴等级提升 = yes
+			add_timed_idea = {
+				idea = hive_recently_phaseUp
+				days = 180
+			}
+		}
+		IF = {
+			limit = {
+				check_variable = {
+					num_divisions > var_hive_divisions_2
+				}
+				has_manpower > 4000000
+				NOT = {
+					has_idea = hive_thinning_state
+				}
+				NOT = {
+					has_idea = hive_recently_phaseUp
+				}
+				has_idea = hive_phase_2
+			}
+			swap_ideas = {
+				remove_idea = hive_phase_2
+				add_idea = hive_phase_3
+			}
+			set_variable = {
+				BETA当前巢穴等级陆军上限 = var_hive_divisions_3
+			}
+			BETA巢穴等级提升 = yes
+			add_timed_idea = {
+				idea = hive_recently_phaseUp
+				days = 180
+			}
+		}
+		IF = {
+			limit = {
+				check_variable = {
+					num_divisions > var_hive_divisions_3
+				}
+				has_manpower > 5000000
+				NOT = {
+					has_idea = hive_thinning_state
+				}
+				NOT = {
+					has_idea = hive_recently_phaseUp
+				}
+				has_idea = hive_phase_3
+			}
+			swap_ideas = {
+				remove_idea = hive_phase_3
+				add_idea = hive_phase_4
+			}
+			set_variable = {
+				BETA当前巢穴等级陆军上限 = var_hive_divisions_4
+			}
+			BETA巢穴等级提升 = yes
+			add_timed_idea = {
+				idea = hive_recently_phaseUp
+				days = 180
+			}
+		}
+		IF = {
+			limit = {
+				check_variable = {
+					num_divisions > var_hive_divisions_4
+				}
+				has_manpower > 10000000
+				NOT = {
+					has_idea = hive_thinning_state
+				}
+				NOT = {
+					has_idea = hive_recently_phaseUp
+				}
+				has_idea = hive_phase_4
+			}
+			BETA巢穴等级提升 = yes
+			add_timed_idea = {
+				idea = hive_recently_phaseUp
+				days = 180
+			}
+		}
+		IF = {
+			limit = {
+				check_variable = {
+					num_divisions > var_hive_divisions_5
+				}
+				has_manpower > 15000000
+				NOT = {
+					has_idea = hive_thinning_state
+				}
+				NOT = {
+					has_idea = hive_recently_phaseUp
+				}
+				has_idea = hive_phase_5
+			}
+			swap_ideas = {
+				remove_idea = hive_phase_5
+				add_idea = hive_phase_6
+			}
+			BETA巢穴等级提升 = yes
+			add_timed_idea = {
+				idea = hive_recently_phaseUp
+				days = 180
+			}
+		}
+		IF = {
+			limit = {
+				check_variable = {
+					num_divisions > var_hive_divisions_6
+				}
+				has_manpower > 40000000
+				NOT = {
+					has_idea = hive_thinning_state
+				}
+				NOT = {
+					has_idea = hive_recently_phaseUp
+				}
+				has_idea = hive_phase_6
+			}
+			swap_ideas = {
+				remove_idea = hive_phase_6
+				add_idea = hive_phase_7
+			}
+			BETA巢穴等级提升 = yes
+			add_timed_idea = {
+				idea = hive_recently_phaseUp
+				days = 180
+			}
+		}
+		IF = {
+			limit = {
+				check_variable = {
+					num_divisions > var_hive_divisions_7
+				}
+				has_manpower > 60000000
+				NOT = {
+					has_idea = hive_thinning_state
+				}
+				NOT = {
+					has_idea = hive_recently_phaseUp
+				}
+				has_idea = hive_phase_7
+			}
+			swap_ideas = {
+				remove_idea = hive_phase_7
+				add_idea = hive_phase_8
+			}
+			BETA巢穴等级提升 = yes
+			add_timed_idea = {
+				idea = hive_recently_phaseUp
+				days = 180
+			}
+		}
+		IF = {
+			limit = {
+				check_variable = {
+					num_divisions > var_hive_divisions_8
+				}
+				has_manpower > 80000000
+				NOT = {
+					has_idea = hive_thinning_state
+				}
+				NOT = {
+					has_idea = hive_recently_phaseUp
+				}
+				has_idea = hive_phase_8
+			}
+			swap_ideas = {
+				remove_idea = hive_phase_8
+				add_idea = hive_phase_9
+			}
+			BETA巢穴等级提升 = yes
+			set_variable = {
+				BETA每周期生产侵攻师团数量 = 3
+			}
+			add_timed_idea = {
+				idea = hive_recently_phaseUp
+				days = 180
+			}
+		}
+	}
+	#option = {
+	#	name = mvlv_hive_phase.1.b
+	#	ai_chance = {
+	#		factor = 80
+	#	}
+	#}
+}

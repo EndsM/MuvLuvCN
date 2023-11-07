@@ -1,0 +1,141 @@
+#
+# List of options showing in the Game Rules screen
+#
+# format is:
+# rule_token = {
+#	name = "TEXT_KEY_FOR_NAME"
+#	required_dlc = "Name of the Required DLC"
+#	desc = "TEXT_KEY_FOR_LONG_DESC"
+#	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups 
+#	icon = gfx_option_token							# Optional icon
+#	option = {										# Unless other specified, the first option is the default option
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		allow_achievements = no						# Achievements cannot be earned if one or more game rules are set to an option that has this property set to no.
+#													# If not specified, this is set to yes for default options and no for all other options.
+#	}
+#	default = {										# Specify an option with the "default" token to override the behavior of treating the first option as the default.
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		...
+#	}
+# }
+
+rn_nukes_army_damage = {
+	name = "RULE_RN_NUKES_ARMY_DAMAGE"
+	group = "RULE_REALISTIC_NUKES"
+	icon = "GFX_game_rule_nukes_army_damage_game_rule"
+	option = {
+		name = "RULE_RN_VANILA_DAMAGE"
+		text = RULE_OPTION_RN_VANILA_DAMAGE
+		desc = "RULE_RN_VANILA_DAMAGE_DESC"
+		allow_achievements = yes
+	}
+	default = {
+		name = "RULE_RN_PROVINCE_50"
+		text = "RULE_OPTION_RN_PROVINCE_50"
+		desc = "RULE_RN_PROVINCE_50_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "RULE_RN_PROVINCE_FULL"
+		text = "RULE_OPTION_RN_PROVINCE_FULL"
+		desc = "RULE_RN_PROVINCE_FULL_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "RULE_RN_PROVINCE_FULL_STATE_50"
+		text = "RULE_OPTION_RN_PROVINCE_FULL_STATE_50"
+		desc = "RULE_RN_PROVINCE_FULL_STATE_50_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "RULE_RN_PROVINCE_FULL_STATE_FULL"
+		text = "RULE_OPTION_RN_PROVINCE_FULL_STATE_FULL"
+		desc = "RULE_RN_PROVINCE_FULL_STATE_FULL_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "RULE_RN_STATE_FULL"
+		text = "RULE_OPTION_RN_STATE_FULL"
+		desc = "RULE_RN_STATE_FULL_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "RULE_RN_STATE_FULL_OUTSIDE_STATES_50"
+		text = "RULE_OPTION_RN_STATE_FULL_OUTSIDE_STATES_50"
+		desc = "RULE_RN_STATE_FULL_OUTSIDE_STATES_50_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "RULE_RN_STATE_FULL_OUTSIDE_STATES_FULL"
+		text = "RULE_OPTION_RN_STATE_FULL_OUTSIDE_STATES_FULL"
+		desc = "RULE_RN_STATE_FULL_OUTSIDE_STATES_FULL_DESC"
+		allow_achievements = yes
+	}
+}
+
+rn_nuke_radiation_level = {
+	name = "RULE_RN_NUKE_RADIATION_LEVEL"
+	group = "RULE_REALISTIC_NUKES"
+	icon = "GFX_game_rule_nuke_game_rule"
+	option = {
+		name = "RULE_RN_0_NUKE_RADIATION"
+		text = RULE_OPTION_RN_0_NUKE_RADIATION
+		desc = "RULE_OPTION_RN_0_NUKE_RADIATION_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "RULE_RN_03_NUKE_RADIATION"
+		text = RULE_OPTION_RN_03_NUKE_RADIATION
+		desc = "RULE_OPTION_RN_03_NUKE_RADIATION_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "RULE_RN_05_NUKE_RADIATION"
+		text = RULE_OPTION_RN_05_NUKE_RADIATION
+		desc = "RULE_OPTION_RN_05_NUKE_RADIATION_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "RULE_RN_08_NUKE_RADIATION"
+		text = RULE_OPTION_RN_08_NUKE_RADIATION
+		desc = "RULE_OPTION_RN_08_NUKE_RADIATION_DESC"
+		allow_achievements = yes
+	}
+	default = {
+		name = "RULE_RN_1_NUKE_RADIATION"
+		text = "RULE_OPTION_RN_1_NUKE_RADIATION"
+		desc = "RULE_OPTION_RN_1_NUKE_RADIATION_DESC"
+	}
+	option = {
+		name = "RULE_RN_15_NUKE_RADIATION"
+		text = RULE_OPTION_RN_15_NUKE_RADIATION
+		desc = "RULE_OPTION_RN_15_NUKE_RADIATION_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "RULE_RN_2_NUKE_RADIATION"
+		text = RULE_OPTION_RN_2_NUKE_RADIATION
+		desc = "RULE_OPTION_RN_2_NUKE_RADIATION_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "RULE_RN_3_NUKE_RADIATION"
+		text = RULE_OPTION_RN_3_NUKE_RADIATION
+		desc = "RULE_OPTION_RN_3_NUKE_RADIATION_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "RULE_RN_5_NUKE_RADIATION"
+		text = RULE_OPTION_RN_5_NUKE_RADIATION
+		desc = "RULE_OPTION_RN_5_NUKE_RADIATION_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "RULE_RN_10_NUKE_RADIATION"
+		text = RULE_OPTION_RN_10_NUKE_RADIATION
+		desc = "RULE_OPTION_RN_10_NUKE_RADIATION_DESC"
+		allow_achievements = yes
+	}
+}

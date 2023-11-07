@@ -1,0 +1,51 @@
+add_namespace = mvlv_can
+
+country_event = {
+	id = mvlv_can.1
+	desc = mvlv_can.1.d
+	title = mvlv_can.1.t
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_can.1.a
+	}
+}
+country_event = {
+	id = mvlv_can.2
+	desc = mvlv_can.2.d
+	title = mvlv_can.2.t
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_can.2.a
+	}
+}
+country_event = {
+	id = mvlv_can.3
+	desc = mvlv_can.3.d
+	title = mvlv_can.3.t
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_can.3.a
+		CAN = { country_event = mvlv_can.4 }
+	}
+}
+country_event = {
+	id = mvlv_can.4
+	desc = mvlv_can.4.d
+	title = mvlv_can.4.t
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_can.4.a
+		remove_ideas = mvlv_license
+	}
+}
+
+
+

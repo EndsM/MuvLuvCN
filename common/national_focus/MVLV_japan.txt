@@ -1,0 +1,1013 @@
+focus_tree = {
+	id = japan_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 1000
+			tag = JAP
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 20
+		y = 1000
+	}
+	reset_on_civilwar = no
+	#shared_focus = common_refugee_tech_sharing
+	#shared_focus = common_adopt_powered_suits
+	#shared_focus = common_experience_of_BETA_war
+	#shared_focus = common_refugee_support_request
+	#结束明星作战#
+	focus = {
+		id = JAP_endOperationLucifer
+		icon = GFX_goal_generic_major_war
+		#text = 
+		x = 9
+		y = 0
+		#relative_position_id = JAP_move_capital_to_sendai
+		#prerequisite = { focus = JAP_move_capital_to_sendai }
+		#mutually_exclusive = { focus =  }
+		#available = {}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			add_timed_idea = {
+				idea = 明星作战的收尾
+				days = 30
+			}
+			activate_decision = operation_bright_star
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 6
+		}
+	}
+	#重建防卫线#
+	focus = {
+		id = JAP_rebuildDefenceLine
+		icon = GFX_goal_generic_build_tank
+		#text = 
+		x = 9
+		y = 1
+		#relative_position_id =
+		prerequisite = {
+			focus = JAP_endOperationLucifer
+		}
+		#mutually_exclusive = { focus =  }
+		available = {
+		}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			add_timed_idea = {
+				idea = 重建防卫线
+				days = 180
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#向仙台转移#
+	focus = {
+		id = JAP_movetoSendai
+		icon = GFX_goal_generic_construct_civ_factory
+		#text = 
+		x = 9
+		y = 2
+		#relative_position_id = JAP_denfensive_line
+		prerequisite = {
+			focus = JAP_rebuildDefenceLine
+		}
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			533 = {
+				add_extra_state_shared_building_slots = 10
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#重建日本#
+	focus = {
+		id = JAP_rebuildJapan
+		icon = GFX_goal_generic_construction2
+		#text = 
+		x = 9
+		y = 3
+		#relative_position_id = JAP_move_capital_to_sendai
+		prerequisite = {
+			focus = JAP_movetoSendai
+		}
+		#mutually_exclusive = { }
+		available = {
+			531 = {
+				is_fully_controlled_by = JAP
+			}
+		}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			add_timed_idea = {
+				idea = JAP_reconquest_idea
+				days = 365
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	# operations branch
+	#重建西日本#
+	focus = {
+		id = JAP_rebuildWestJapan
+		icon = GFX_goal_generic_construct_infrastructure
+		#text = 
+		x = 8
+		y = 4
+		#relative_position_id = JAP_reconquest
+		prerequisite = {
+			focus = JAP_rebuildJapan
+		}
+		#mutually_exclusive = { focus =  }
+		available = {
+			531 = {
+				is_fully_controlled_by = JAP
+			}
+			530 = {
+				is_fully_controlled_by = JAP
+			}
+			529 = {
+				is_fully_controlled_by = JAP
+			}
+			528 = {
+				is_fully_controlled_by = JAP
+			}
+			532 = {
+				is_fully_controlled_by = JAP
+			}
+			535 = {
+				is_fully_controlled_by = JAP
+			}
+		}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 20
+		#select_effect = { }
+		completion_reward = {
+			530 = {
+				add_extra_state_shared_building_slots = 12
+			}
+			529 = {
+				add_extra_state_shared_building_slots = 12
+			}
+			528 = {
+				add_extra_state_shared_building_slots = 12
+			}
+			532 = {
+				add_extra_state_shared_building_slots = 12
+			}
+			535 = {
+				add_extra_state_shared_building_slots = 12
+			}
+			531 = {
+				add_extra_state_shared_building_slots = 25
+				set_building_level = {
+					type = bunker
+					level = 10
+					instant_build = yes
+					province = {
+						all_provinces = yes
+					}
+				}
+				set_building_level = {
+					type = radar_station
+					level = 5
+					instant_build = yes
+				}
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+				set_building_level = {
+					type = air_base
+					level = 5
+					instant_build = yes
+				}
+				set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#振兴西日本#
+	focus = {
+		id = JAP_RevitalizationOfWesternJapan
+		icon = GFX_goal_generic_production2
+		#text = 
+		x = 8
+		y = 5
+		#relative_position_id = JAP_yokohama_base_construction
+		prerequisite = {
+			focus = JAP_rebuildWestJapan
+		}
+		#mutually_exclusive = { focus = }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			add_timed_idea = {
+				idea = western_japan_reconstruction
+				days = 730
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	########### reconstruction branch ############
+	#对AL4项目加大投入#
+	focus = {
+		id = JAP_investAL4
+		icon = GFX_goal_generic_scientific_exchange
+		#text = 
+		x = 10
+		y = 4
+		#relative_position_id = JAP_reconquest 
+		prerequisite = {
+			focus = JAP_rebuildJapan
+		}
+		#mutually_exclusive = { focus = }
+		#available = { ROOT = { has_country_flag = altervative_iv_leader } }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			add_ideas = 为AL4项目助力
+			set_country_flag = kazuki_yuuko
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#防备登陆#
+	focus = {
+		id = JAP_prepareForLanding
+		icon = GFX_goal_generic_construct_military
+		#text = 
+		x = 10
+		y = 5
+		#relative_position_id = JAP_alternative_iv_project
+		prerequisite = {
+			focus = JAP_investAL4
+		}
+		#mutually_exclusive = { focus = }
+		available = {
+			528 = {
+				is_fully_controlled_by = JAP
+			}
+			529 = {
+				is_fully_controlled_by = JAP
+			}
+		}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			528 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+				}
+			}
+			529 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+				}
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#确保远东防线安全#
+	focus = {
+		id = JAP_secureFarEastDefenceLine
+		icon = GFX_goal_generic_defence
+		#text = 
+		x = 10
+		y = 6
+		#relative_position_id = JAP_prepare_for_another_BETA_landing
+		prerequisite = {
+			focus = JAP_prepareForLanding
+		}
+		#mutually_exclusive = { focus = }
+		available = {
+			555 = {
+				is_fully_controlled_by = JAP
+			}
+			537 = {
+				is_fully_controlled_by = JAP
+			}
+		}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			555 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+				}
+			}
+			537 = {
+				add_building_construction = {
+					type = bunker
+					level = 5
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+				}
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	#重整斯卫军#
+	focus = {
+		id = JAP_reorganiseIRG
+		icon = GFX_goal_generic_special_forces
+		#text = 
+		x = 10
+		y = 7
+		#relative_position_id = JAP_reestablish_far_east_defensive_line
+		prerequisite = {
+			focus = JAP_secureFarEastDefenceLine
+		}
+		#mutually_exclusive = { focus = }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			add_ideas = 扩充斯卫军
+		}
+	}
+	#重返京都#
+	focus = {
+		id = JAP_returnToKyoto
+		icon = GFX_goal_generic_construct_mil_factory
+		#text = 
+		x = 10
+		y = 8
+		#relative_position_id = JAP_expand_imperial_guard_forces
+		prerequisite = {
+			focus = JAP_reorganiseIRG
+		}
+		#mutually_exclusive = { focus = }
+		available = {
+			531 = {
+				is_fully_controlled_by = JAP
+			}
+		}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			531 = {
+				add_extra_state_shared_building_slots = 20
+				add_building_construction = {
+					type = arms_factory
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#美日安保条约的教训#
+	focus = {
+		id = JAP_USJAPTreatyLesson
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		#text = 
+		x = 3
+		y = 0
+		#relative_position_id = JAP_move_capital_to_sendai
+		#prerequisite = { focus = JAP_move_capital_to_sendai }
+		#mutually_exclusive = { focus =  }
+		#available = {}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			add_political_power = 150
+		}
+		ai_will_do = {
+			factor = 6
+		}
+	}
+	#再一次中日合作#
+	focus = {
+		id = JAP_workWithUFC
+		icon = GFX_goal_generic_major_alliance
+		#text = 
+		x = 3
+		y = 1
+		#relative_position_id = JAP_expand_imperial_guard_forces
+		prerequisite = {
+			focus = JAP_USJAPTreatyLesson
+		}
+		#mutually_exclusive = { focus = }
+		#available = { 531 = { is_fully_controlled_by = JAP  }}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			army_experience = 100
+			CHI = {
+				add_political_power = 100
+			}
+		}
+	}
+	#北方邻居#
+	focus = {
+		id = JAP_neighborOfTheNorth
+		icon = GFX_goal_generic_scientific_exchange
+		#text = 
+		x = 3
+		y = 2
+		#relative_position_id = JAP_expand_imperial_guard_forces
+		prerequisite = {
+			focus = JAP_workWithUFC
+		}
+		#mutually_exclusive = { focus = }
+		#available = { 531 = { is_fully_controlled_by = JAP  }}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			add_timed_idea = {
+				idea = 日苏技术交流协定
+				days = 365
+			}
+			SOV = {
+				add_timed_idea = {
+					idea = 日苏技术交流协定
+					days = 365
+				}
+			}
+		}
+	}
+	#勘察加电磁炮试验#
+	focus = {
+		id = JAP_EML99XTestFire
+		icon = GFX_goal_generic_scientific_exchange
+		#text = 
+		x = 5
+		y = 3
+		#relative_position_id = JAP_expand_imperial_guard_forces
+		prerequisite = {
+			focus = JAP_neighborOfTheNorth
+		}
+		prerequisite = {
+			focus = JAP_xfj_project
+		}
+		#mutually_exclusive = { focus = }
+		#available = { 531 = { is_fully_controlled_by = JAP  }}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			add_ideas = 试验成功的电磁炮
+			country_event = mvlv_jap.18
+		}
+	}
+	#南方朋友#
+	focus = {
+		id = JAP_FriendsFromTheSouth
+		icon = GFX_goal_generic_construct_civ_factory
+		#text = 
+		x = 3
+		y = 3
+		#relative_position_id = JAP_expand_imperial_guard_forces
+		prerequisite = {
+			focus = JAP_neighborOfTheNorth
+		}
+		#mutually_exclusive = { focus = }
+		#available = { 531 = { is_fully_controlled_by = JAP  }}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			add_ideas = 进口大东亚粮食
+			GEU = {
+				add_ideas = 日式生产技术
+			}
+		}
+	}
+	#赴欧考察团#
+	focus = {
+		id = JAP_EuroExpGroup
+		icon = GFX_goal_generic_alliance
+		#text = 
+		x = 3
+		y = 4
+		#relative_position_id = JAP_expand_imperial_guard_forces
+		prerequisite = {
+			focus = JAP_FriendsFromTheSouth
+		}
+		#mutually_exclusive = { focus = }
+		#available = { 531 = { is_fully_controlled_by = JAP  }}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			#custom_effect_tooltip = JAP_EUR_cultural_relations_tt
+			#custom_effect_tooltip = mvlv_jap_space_tt
+			EUR = {
+				country_event = mvlv_jap.16
+				effect_tooltip = {
+					global_every_army_leader = {
+						limit = {
+							OWNER = {
+								tag = ROOT
+							}
+							has_id = 9010
+						}
+						set_nationality = PREV
+					}
+				}
+			}
+		}
+	}
+	#电磁炮技术交易#
+	focus = {
+		id = JAP_ExportEML99XTech
+		icon = GFX_goal_generic_intelligence_exchange
+		#text = 
+		x = 5
+		y = 4
+		#relative_position_id = JAP_expand_imperial_guard_forces
+		prerequisite = {
+			focus = JAP_EML99XTestFire
+		}
+		#mutually_exclusive = { focus = }
+		#available = { 531 = { is_fully_controlled_by = JAP  }}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			add_research_slot = 1
+			UNI = {
+				add_tech_bonus = {
+					bonus = 3
+					uses = 1
+					technology = interwar_antitank
+				}
+			}
+		}
+	}
+	#联合生产电磁炮#
+	focus = {
+		id = JAP_JointEML99XProduction
+		icon = GFX_goal_generic_army_artillery
+		#text = 
+		x = 5
+		y = 5
+		#relative_position_id = JAP_expand_imperial_guard_forces
+		prerequisite = {
+			focus = JAP_ExportEML99XTech
+		}
+		#mutually_exclusive = { focus = }
+		#available = { 531 = { is_fully_controlled_by = JAP  }}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			add_ideas = 联合生产电磁炮
+			UNI = {
+				add_ideas = 联合生产电磁炮
+			}
+		}
+	}
+	#审视内外政策#
+	focus = {
+		id = JAP_ReviewDiploPolicy
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 1
+		x = 15
+		y = 0
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	#不计前嫌#
+	focus = {
+		id = JAP_ForgetThePast
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 1
+		prerequisite = {
+			focus = JAP_ReviewDiploPolicy
+		}
+		mutually_exclusive = {
+			focus = JAP_RiseOfNativisim
+		}
+		x = 14
+		y = 1
+		completion_reward = {
+			add_political_power = 100
+			add_stability = -0.1
+			USA = {
+				add_war_support = 0.1
+				add_political_power = -100
+			}
+		}
+	}
+	#人类的远东之盾#
+	focus = {
+		id = JAP_ShieldOfTheEast
+		icon = GFX_goal_generic_military_sphere
+		cost = 5
+		prerequisite = {
+			focus = JAP_ForgetThePast
+		}
+		x = 14
+		y = 2
+		completion_reward = {
+			add_ideas = 宣传日本使命
+		}
+	}
+	#打压本土派#
+	focus = {
+		id = JAP_SuppressNativisim
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 5
+		prerequisite = {
+			focus = JAP_ShieldOfTheEast
+		}
+		x = 14
+		y = 3
+		completion_reward = {
+			add_stability = -0.1
+			add_ideas = 强势内阁
+		}
+	}
+	#要求工业援助#
+	focus = {
+		id = JAP_DemandIndustrialSupport
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 5
+		prerequisite = {
+			focus = JAP_SuppressNativisim
+		}
+		x = 14
+		y = 4
+		completion_reward = {
+			add_political_power = -100
+			add_offsite_building = {
+				type = arms_factory
+				level = 10
+			}
+			add_offsite_building = {
+				type = industrial_complex
+				level = 10
+			}
+			USA = {
+				add_political_power = 100
+			}
+			add_ideas = 美国口粮
+		}
+	}
+	#日美战术机合作#
+	focus = {
+		id = JAP_USJAPJointTSFDev
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 5
+		prerequisite = {
+			focus = JAP_DemandIndustrialSupport
+		}
+		x = 14
+		y = 5
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = MVLV_tsf_tech
+			}
+		}
+	}
+	#联合防卫体系#
+	focus = {
+		id = JAP_JointDefenceDoctrine
+		icon = GFX_goal_generic_defence
+		cost = 5
+		prerequisite = {
+			focus = JAP_USJAPJointTSFDev
+		}
+		x = 14
+		y = 6
+		completion_reward = {
+			add_ideas = NATO日本分部
+		}
+	}
+	#敌视外部势力#
+	focus = {
+		id = JAP_RiseOfNativisim
+		icon = GFX_goal_generic_political_pressure
+		cost = 1
+		prerequisite = {
+			focus = JAP_ReviewDiploPolicy
+		}
+		mutually_exclusive = {
+			focus = JAP_ForgetThePast
+		}
+		x = 16
+		y = 1
+		completion_reward = {
+			add_war_support = -0.2
+			add_political_power = 50
+		}
+	}
+	#建立战略研究会#
+	focus = {
+		id = JAP_FormStratResearchGroup
+		icon = GFX_goal_generic_small_arms
+		cost = 4
+		prerequisite = {
+			focus = JAP_RiseOfNativisim
+		}
+		x = 16
+		y = 2
+		completion_reward = {
+			add_political_power = 50
+			country_event = mvlv_jap.7
+		}
+	}
+	#吸纳同僚#
+	focus = {
+		id = JAP_MoreOnboard
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 4
+		prerequisite = {
+			focus = JAP_FormStratResearchGroup
+		}
+		x = 16
+		y = 3
+		completion_reward = {
+			country_event = mvlv_jap.20
+			add_political_power = 50
+			swap_ideas = {
+				remove_idea = JAP_information
+				add_idea = 战略研究会扩大
+			}
+		}
+	}
+	#试探军队高层#
+	focus = {
+		id = JAP_ProbeTheIJALeadership
+		icon = GFX_goal_generic_propaganda
+		cost = 4
+		prerequisite = {
+			focus = JAP_MoreOnboard
+		}
+		x = 16
+		y = 4
+		completion_reward = {
+			country_event = mvlv_jap.21
+			add_political_power = 50
+			swap_ideas = {
+				remove_idea = 战略研究会扩大
+				add_idea = 战略研究会默许
+			}
+		}
+	}
+	#煽动帝都守备军#
+	focus = {
+		id = JAP_InciteKyotoGuard
+		icon = GFX_goal_generic_national_unity
+		cost = 4
+		prerequisite = {
+			focus = JAP_ProbeTheIJALeadership
+		}
+		x = 16
+		y = 5
+		completion_reward = {
+			country_event = mvlv_jap.22
+			add_political_power = 50
+			swap_ideas = {
+				remove_idea = 战略研究会默许
+				add_idea = 战略研究会渗透
+			}
+		}
+	}
+	#调查卖国贼#
+	focus = {
+		id = JAP_IdentifyTheTraitors
+		icon = GFX_goal_generic_secret_weapon
+		cost = 4
+		prerequisite = {
+			focus = JAP_InciteKyotoGuard
+		}
+		x = 16
+		y = 6
+		completion_reward = {
+			country_event = mvlv_jap.23
+			add_political_power = 50
+			swap_ideas = {
+				remove_idea = 战略研究会渗透
+				add_idea = 战略研究会异动
+			}
+		}
+	}
+	#天诛国贼#
+	focus = {
+		id = JAP_NoTraitorsTomorrow
+		icon = GFX_goal_generic_demand_territory
+		cost = 4
+		prerequisite = {
+			focus = JAP_IdentifyTheTraitors
+		}
+		x = 16
+		y = 7
+		completion_reward = {
+			country_event = mvlv_jap.8
+		}
+	}
+	########### xfj ############
+	focus = {
+		id = JAP_xfj_project
+		icon = GFX_focus_attack_australia
+		x = 5
+		y = 0
+		#relative_position_id = 
+		cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			282 = {
+				is_controlled_by = JAP
+			}
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		select_effect = {
+			country_event = {
+				id = mvlv_jap.2
+				days = 3
+			}
+		}
+		completion_reward = {
+			USA = {
+				country_event = mvlv_jap.1
+			}
+			JAP = {
+				country_event = mvlv_jap.1
+			}
+			add_ideas = mvlv_prominence_problem
+			add_tech_bonus = {
+				bonus = 2.5
+				uses = 1
+				name = mech_army_bonus
+				technology = JAP_T942
+			}
+		}
+	}
+}

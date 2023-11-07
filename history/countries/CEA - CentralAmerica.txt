@@ -1,0 +1,359 @@
+﻿capital = 304 #首都
+create_equipment_variant = {
+    name = "F-5自由战士"
+    type = MVLV_TSF_classis_1_light
+	parent_version = 0
+    # obsolete = yes
+    allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_1
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_1
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_1_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_heavy_alloy
+        MVLV_TSF_head_slot = MVLV_TSF_head_normal_1
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+        MVLV_TSF_back_slot = MVLV_TSF_back_downside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_ex_ammo
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_ex_ammo
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+    }
+	icon = "GFX_F-5"
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		UNI_basic_concept_research = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		MVLV_research_basic_tsf_framework=1
+	}
+}
+
+1999.1.1 = {
+	oob = "CEA_1999"
+	load_oob = "MVLV_gunship"
+	load_oob = "MVLV_normal_artillery"
+	load_oob = "MVLV_TSF"
+
+	add_to_war = { targeted_alliance = UNI enemy = BET } #戦争状態を設定
+
+	set_technology = { #初期研究を定義
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		motorised_infantry = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_engineers2 = 1
+		tech_engineers3 = 1
+		tech_engineers4 = 1
+		tech_recon = 1
+		tech_recon2 = 1	
+		tech_recon3 = 1
+		tech_recon4 = 1	
+		tech_field_hospital = 1
+		tech_field_hospital2 = 1
+		tech_field_hospital3 = 1
+		tech_field_hospital4 = 1
+		tech_logistics_company = 1
+		tech_logistics_company2 = 1	
+		tech_logistics_company3 = 1
+		tech_logistics_company4 = 1
+		tech_military_police = 1
+		tech_military_police2 = 1
+		tech_military_police3 = 1
+		tech_military_police4 = 1
+		tech_maintenance_company = 1
+		tech_maintenance_company2 = 1
+		tech_maintenance_company3 = 1
+		tech_maintenance_company4 = 1
+		tech_signal_company = 1
+		tech_signal_company2 = 1
+		tech_signal_company3 = 1
+		tech_signal_company4 = 1
+		basic_train = 1
+		wartime_train = 1
+		gw_artillery = 1
+		interwar_artillery = 1
+		artillery1 = 1
+		artillery2 = 1
+		rocket_artillery = 1
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		basic_medium_tank = 1
+		AA_tankI = 1
+		AA_tankII = 1
+		early_destroyer = 1
+		mtg_transport = 1
+		mtg_landing_craft = 1
+		mtg_tank_landing_craft  = 1
+		fleet_in_being = 1
+		fighter = 1
+		#CAS2 = 1
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		assembly_line_production = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		construction4 = 1
+		construction5 = 1		
+		fuel_silos = 1
+		fuel_refining = 1
+		streamlined_line = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+		dispersed_industry4 = 1
+		dispersed_industry5 = 1
+		
+		MVLV_shell_tech = 1
+		
+		###陸军ドクトリン###
+		
+		###TSF
+		# UNI_basic_concept_research = 1
+
+		
+		###军需・民需建築許可###
+		MVLV_EnableBuilding_arms_factory = 1
+		MVLV_EnableBuilding_industrial_complex = 1
+
+		###戦術###
+		human_combat_tactics = 1
+	}
+	
+	add_tech_bonus = { #工業バフ
+		name = industry
+		bonus =1000
+		uses = 5 
+		category = concentrated_industry_category
+		category = dispersed_industry_category
+	}	
+	
+	add_tech_bonus = { #ラインバフ
+		name = line
+		bonus =1000
+		uses = 1 
+		technology = flexible_line
+		technology = streamlined_line
+	}
+	
+	add_ideas = { #初期国家精神を定義
+		mvlv_nuclear_winter
+		mvlv_saast
+                SOA_happy
+                MVLV_UNF
+	}
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		set_technology = {
+			basic_naval_mines = 1
+			submarine_mine_laying = 1
+			improved_submarine_mine_laying = 1
+			improved_naval_mines = 1
+			degaussing = 1
+			advanced_naval_mines = 1
+			airdrop_mines = 1
+			modern_naval_mines = 1
+			airsweep_mines = 1
+			basic_torpedo = 1
+			basic_battery = 1
+			basic_light_battery = 1
+			improved_light_battery = 1
+			advanced_light_battery = 1
+			basic_light_shell = 1
+			improved_light_shell = 1
+			basic_heavy_battery = 1
+			improved_heavy_battery = 1
+			advanced_heavy_battery = 1
+			basic_heavy_shell = 1
+			improved_heavy_shell = 1
+			basic_secondary_battery = 1
+			improved_secondary_battery = 1
+			dp_secondary_battery = 1
+			basic_medium_battery = 1
+			improved_medium_battery = 1
+			advanced_medium_battery = 1
+			basic_medium_shell = 1
+			improved_medium_shell = 1
+			improved_ship_torpedo_launcher = 1
+			early_ship_hull_submarine = 1
+			basic_ship_hull_submarine = 1
+			improved_ship_hull_submarine = 1
+			advanced_ship_hull_submarine = 1
+			basic_submarine_snorkel = 1
+			improved_submarine_snorkel = 1
+			early_ship_hull_light = 1
+			basic_ship_hull_light = 1
+			improved_ship_hull_light = 1
+			advanced_ship_hull_light = 1
+			early_ship_hull_cruiser = 1
+			basic_ship_hull_cruiser = 1
+			improved_ship_hull_cruiser = 1
+			advanced_ship_hull_cruiser = 1
+			early_ship_hull_heavy = 1
+			basic_ship_hull_heavy = 1
+			ship_hull_super_heavy = 1
+			improved_ship_hull_heavy = 1
+			advanced_ship_hull_heavy = 1
+			basic_heavy_armor_scheme = 1
+			improved_heavy_armor_scheme = 1
+			early_ship_hull_carrier = 1
+			basic_ship_hull_carrier = 1
+			improved_ship_hull_carrier = 1
+			advanced_ship_hull_carrier = 1
+			basic_torpedo = 1
+			magnetic_detonator = 1
+			homing_torpedo = 1
+			electric_torpedo = 1
+			improved_ship_torpedo_launcher = 1
+			advanced_ship_torpedo_launcher = 1
+			modern_ship_torpedo_launcher = 1
+			improved_airplane_launcher = 1
+			basic_cruiser_armor_scheme = 1
+			improved_cruiser_armor_scheme = 1
+			advanced_cruiser_armor_scheme = 1
+			smoke_generator = 1
+			mtg_transport = 1
+			mtg_landing_craft = 1
+			mtg_tank_landing_craft = 1
+			coastal_defense_ships = 1
+			basic_secondary_battery = 1
+			basic_depth_charges = 1
+			improved_depth_charges = 1
+			advanced_depth_charges = 1
+			modern_depth_charges = 1
+			sonar = 1
+			improved_sonar = 1
+			damage_control_1 = 1
+			damage_control_2 = 1
+			damage_control_3 = 1
+			fire_control_methods_1 = 1
+			fire_control_methods_2 = 1
+			fire_control_methods_3 = 1
+		}
+	}
+	if = {
+		limit = {
+			not = {
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_technology = {
+			early_submarine = 1
+			basic_submarine = 1
+			improved_submarine = 1
+			advanced_submarine = 1
+			early_destroyer = 1
+			basic_destroyer = 1
+			improved_destroyer = 1
+			advanced_destroyer = 1
+			early_light_cruiser = 1
+			basic_light_cruiser = 1
+			improved_light_cruiser = 1
+			advanced_light_cruiser = 1
+			early_heavy_cruiser = 1
+			basic_heavy_cruiser = 1
+			improved_heavy_cruiser = 1
+			advanced_heavy_cruiser = 1
+			early_battleship = 1
+			basic_battleship = 1
+			improved_battleship = 1
+			advanced_battleship = 1
+			early_battlecruiser = 1
+			basic_battlecruiser = 1
+			heavy_battleship = 1
+			heavy_battleship2 = 1
+			early_carrier = 1
+			basic_carrier = 1
+			improved_carrier = 1
+			advanced_carrier = 1
+			transport = 1
+			landing_craft = 1
+			tank_landing_craft = 1
+		}
+	}
+	
+	set_convoys = 100 #初期运输船数を定義
+}
+set_stability = 0.5 #初期安定度を定義
+set_war_support = 0.1 #初期戦争協力度を定義
+
+#set_research_slots = 3 #初期研究枠を定義
+
+add_political_power = 0 #初期政治力を定義
+
+add_offsite_building = { type = arms_factory level = 20 } #MAP外军需を定義
+add_offsite_building = { type = industrial_complex level = 20 } #MAP外民需を定義
+add_offsite_building = { type = dockyard level = 20 } #MAP外海军工廠を定義
+
+set_politics = { #初期政体を定義
+	ruling_party = democratic
+	last_election = "1932.6.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = { #初期支持率を定義
+	democratic = 100
+}
+
+###各政体における指導者を定義###
+create_country_leader = {
+	name = "卡洛斯·萨利纳斯"
+	desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
+	picture = "Carlos.dds"
+	expire = "2040.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+###初期将军及び元帥を定義###
+create_corps_commander = {
+	name = "卫士1"
+	gfx = GFX_女卫士头像
+	traits = { desert_fox tsf_officer }
+	skill = 1
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "卫士2"
+	gfx = GFX_女卫士头像
+	traits = { desert_fox tsf_officer }
+	skill = 1
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "卫士3"
+	gfx = GFX_女卫士头像
+	traits = { desert_fox tsf_officer }
+	skill = 1
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+###初期提督を定義###

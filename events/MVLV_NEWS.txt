@@ -1,0 +1,122 @@
+add_namespace = mvlv_news
+
+#____________________________________________________________
+#用途
+#ニュース
+#
+#id:mvlv_news.1 effect:ハイヴ占領
+#id:mvlv_news.2 effect:ハイヴBETA占領
+#
+#
+#判定元が佐渡島である場合対象のユニット、および指揮官を削除
+#
+#____________________________________________________________
+
+news_event = {
+	id = mvlv_news.1
+	desc = mvlv_news.1.d
+	title = mvlv_news.1.t
+	picture = GFX_mvlv_hive_capitulation
+
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = mvlv_news.1.a
+	}
+}
+
+news_event = {
+	id = mvlv_news.2
+	desc = mvlv_news.2.d
+	title = mvlv_news.2.t
+	picture = GFX_mvlv_hive_uncapitulation
+	
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_news.2.a
+	}
+}
+
+news_event = {
+	id = mvlv_news.3
+	desc = mvlv_news.3.d
+	title = mvlv_news.3.t
+	picture = GFX_mvlv_hive_uncapitulation
+	
+	major = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				H21 = { NOT = { has_completed_focus = BET_not_broken_hive } }
+			}
+			hidden_effect = {
+				H21 = {
+					country_event = {
+						id = BETA.11
+						days = 4
+					}
+				}
+				every_country = {
+					limit = { has_template = "A-02" }
+					delete_unit_template_and_units = {
+						division_template = "A-02"
+					}
+				}
+				UNI = {
+					if = {
+						limit = {
+							AND = {
+								check_variable = { global.var_generalDeathMode = 1 }
+								has_completed_focus = UNI_sadogashima
+							}
+						}
+						remove_unit_leader = 979
+						remove_unit_leader = 978
+						remove_unit_leader = 974
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		trigger = {
+			AND = {
+				H21 = { NOT = { has_completed_focus = BET_not_broken_hive } }
+				UNI = { has_completed_focus = UNI_sadogashima }
+				check_variable = { global.var_generalDeathMode = 1 }
+				tag = UNI
+			}
+		}
+		name = mvlv_news.3.a
+		effect_tooltip = {
+			remove_unit_leader = 979
+			remove_unit_leader = 978
+			remove_unit_leader = 974
+			if = {
+				limit = { has_template = "A-02" }
+				delete_unit_template_and_units = {
+				division_template = "A-02"
+				}
+			}
+		}
+	}
+	option = {
+		trigger = {
+			NOT = {
+				AND = {
+					H21 = { NOT = { has_completed_focus = BET_not_broken_hive } }
+					UNI = { has_completed_focus = UNI_sadogashima }
+					check_variable = { global.var_generalDeathMode = 1 }
+					tag = UNI
+				}
+			}
+		}
+		name = mvlv_news.3.b
+	}
+	
+}

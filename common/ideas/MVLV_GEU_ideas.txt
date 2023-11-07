@@ -1,0 +1,162 @@
+ideas = {
+	country = {
+		GEU_jp_support = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		GEU_ast_support = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		GEU_jacaruta = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_factory = -0.1
+				stability_factor = -0.1
+				war_support_factor = -0.25
+				training_time_army_factor = 0.15
+				production_factory_start_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.02
+			}
+		}
+		GEU_KODA = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				war_support_weekly = -0.01
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				industrial_capacity_factory = -0.2
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.35
+			}
+		}
+		GEU_GAS = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.25
+			}
+		}
+		GEU_uni = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				research_speed_factor = 0.15
+			}
+			targeted_modifier = {
+				tag = UNI
+				cic_to_target_factor = 0.05
+				mic_to_target_factor = 0.1
+				trade_cost_for_target_factor = -0.4
+				extra_trade_to_target_factor = 0.2
+				industrial_capacity_factory = 0.05
+			}
+		}
+		GEU_good = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				minimum_training_level = -0.1
+				army_morale_factor = 0.05
+				supply_consumption_factor = -0.05
+				army_armor_speed_factor = 0.12
+			}
+		}
+		GEU_bad = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_core_attack_factor = -0.25
+				army_attack_factor = -0.25
+				attrition = -0.1
+				training_time_army_factor = 0.3
+				minimum_training_level = 0.3
+				out_of_supply_factor = 0.25
+			}
+		}
+		GEU_kei = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_weekly = 0.005
+				conscription = -0.01
+				consumer_goods_factor = 0.05
+				war_support_weekly = 0.01
+			}
+		}
+		GEU_jacaruta1 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_factory = -0.08
+				stability_factor = -0.08
+				war_support_factor = -0.2
+				training_time_army_factor = 0.1
+				production_factory_start_efficiency_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.04
+			}
+		}
+		GEU_jacaruta2 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_factory = 0.1
+				stability_factor = 0.05
+				war_support_factor = 0.1
+				training_time_army_factor = -0.1
+				production_factory_start_efficiency_factor = 0.25
+				production_factory_efficiency_gain_factor = 0.06
+			}
+		}
+		GEU_res = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				research_speed_factor = 0.15
+			}
+		}
+		GEU_com = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.15
+			}
+		}
+		提高火力 = {
+			picture = low_economic_mobilisation
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				army_artillery_attack_factor = 0.15
+				army_artillery_defence_factor = 0.1
+			}
+		}
+	}
+}

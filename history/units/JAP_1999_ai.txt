@@ -1,0 +1,98 @@
+﻿units = {
+	division = {
+		name = "千岛守备队"
+		location = 1399 #Shumshu
+		division_template = "重装师"
+		start_experience_factor = 0.1
+	}
+	division = { # "第88師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 88
+		}
+		location = 1820 #Shisuka
+		division_template = "重装师"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 1820 #Shisuka
+		division_template = "重装师"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 1820 #Shisuka
+		division_template = "重装师"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "大泊守备队"
+		location = 12446 #Toyohara
+		division_template = "轻装师"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "大湊守备队"
+		location = 9859 #Ominato Naval Base
+		division_template = "轻装师"
+		start_experience_factor = 0.1
+		
+	}
+	division = {
+		name = "大湊守备队"
+		location = 9859 #Ominato Naval Base
+		division_template = "轻装师"
+		start_experience_factor = 0.1
+		
+	}
+	division = { # "第57師団"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 57
+		}
+		location = 6994 #Aomori
+		division_template = "重装师"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "冲绳守备队"
+		location = 11932 #Naha
+		division_template = "轻装师"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 11932 #Naha
+		division_template = "战术机联队"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+			MVLV_TSF_classis_1_heavy = { 
+				owner = "JAP" 
+				creator = JAP
+				version_name = "77式 击震"
+			} 
+		}
+	}
+	division = {
+		location = 11932 #Naha
+		division_template = "战术机联队"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+			MVLV_TSF_classis_1_heavy = { 
+				owner = "JAP" 
+				creator = JAP
+				version_name = "77式 击震"
+			} 
+		}
+	}
+	division = {
+		name = "硫磺岛守备队"
+		location = 13025 #Iwo Jima
+		division_template = "轻装师"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "南鸟岛守备队"
+		location = 13026 #Marcus Island
+		division_template = "轻装师"
+		start_experience_factor = 0.1
+	}
+}

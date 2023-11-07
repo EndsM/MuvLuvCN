@@ -1,0 +1,203 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+UNI_area_priority = {
+	enable = {
+		original_tag = UNI
+		date > 1998.12.31
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 5
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 15
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = africa
+		value = 5
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = oceania
+		value = -100
+	}
+}
+
+UNI_strategic_plan = {
+	enable = {
+		tag = UNI
+		date > 1998.12.31
+	}
+
+	ai_strategy = { 
+		type = role_ratio
+		id = infantry
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 10
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = garrison
+		value = 5
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = tsf
+		value = 60
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = -100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = cavalry
+		value = -100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = mountaineers
+		value = -100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = infantry
+		value = 2
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = cas
+		value = 1
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 10 #10 to 5
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 100 #From 40 to 5
+	}
+	
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = armor
+		value = 0
+	}
+}
+
+UNI_frontline_def = {
+	enable = {
+		is_ai = yes
+		has_war = yes
+		date > 1998.12.31
+		original_tag = UNI
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		Id = AFR
+		value = 5
+	}
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		Id = CHI
+		value = 1
+	}
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		Id = EUR
+		value = 20
+	}
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		Id = GEU
+		value = 1
+	}
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		Id = JAP
+		value = 10
+	}
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		Id = SOV
+		value = 1
+	}
+}

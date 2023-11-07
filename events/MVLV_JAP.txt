@@ -1,0 +1,518 @@
+add_namespace = mvlv_jap
+country_event = {
+	id = mvlv_jap.1
+	desc = mvlv_jap.1.d
+	title = mvlv_jap.1.t
+	picture = GFX_mvlv_xfj_project
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.1.a
+	}
+}
+
+country_event = {
+	id = mvlv_jap.2
+	desc = mvlv_jap.2.d
+	title = mvlv_jap.2.t
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.2.a
+		if = {
+			limit = {
+				check_variable = {
+					global.var_generalDeathMode = 1
+				}
+			}
+			retire_character = JAP_unit_leader_3
+		}
+	}
+}
+
+country_event = {
+	id = mvlv_jap.3
+	desc = mvlv_jap.3.d
+	title = mvlv_jap.3.t
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.3.a
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			name = mech_army_bonus
+			technology = JAP_T94F
+		}
+		JAP = {
+			if = {
+				limit = {
+					check_variable = {
+						global.var_generalDeathMode = 1
+					}
+				}
+				JAP_unit_leader_24 = {
+					set_character_flag = 角色解锁
+				}
+				# recruit_character = JAP_unit_leader_24
+				#create_corps_commander = { 
+				#	name = "篁唯依"
+				#	gfx = GFX_篁唯依XFJ归来头像
+				#	traits = { 
+				#		JAP_samurai_lineage 
+				#		panzer_leader 
+				#		trickster 
+				#		armor_officer 
+				#		war_hero 
+				#		trait_engineer 
+				#		brilliant_strategist 
+				#		politically_connected 
+				#	}
+				#	skill = 8
+				#	attack_skill = 8
+				#	defense_skill = 7
+				#	planning_skill = 6
+				#	logistics_skill = 8
+				#}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = mvlv_jap.4
+	desc = mvlv_jap.4.d
+	title = mvlv_jap.4.t
+	#picture = 
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.4.a
+	}
+}
+
+country_event = {
+	id = mvlv_jap.5
+	desc = mvlv_jap.5.d
+	title = mvlv_jap.5.t
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.5.a
+	}
+}
+
+country_event = {
+	id = mvlv_jap.6
+	desc = mvlv_jap.6.d
+	title = mvlv_jap.6.t
+	picture = GFX_mvlv_kou21
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.6.a
+		add_timed_idea = {
+			idea = JAP_kou21
+			days = 21
+		}
+	}
+}
+
+#戦略研究会
+#____________________________________________________________
+country_event = {
+	id = mvlv_jap.7
+	desc = mvlv_jap.7.d
+	title = mvlv_jap.7.t
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.7.a
+		add_ideas = JAP_information
+	}
+}
+
+#クーデター決起イベント
+#____________________________________________________________
+country_event = {
+	id = mvlv_jap.8
+	desc = mvlv_jap.8.d
+	title = mvlv_jap.8.t
+	picture = GFX_mvlv_start_kekki
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		TAG = JAP
+		has_idea = 战略研究会异动
+		282 = {
+			is_controlled_by = JAP
+		}
+		792 = {
+			is_controlled_by = UNI
+		}
+	}
+	option = {
+		name = mvlv_jap.8.a
+		USA = {
+			country_event = mvlv_jap.9
+		}
+	}
+}
+
+#クーデター介入選択イベント
+#____________________________________________________________
+country_event = {
+	id = mvlv_jap.9
+	desc = mvlv_jap.9.d
+	title = mvlv_jap.9.t
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.9.a
+		JAP = {
+			country_event = mvlv_jap.10
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+	option = {
+		name = mvlv_jap.9.b
+		JAP = {
+			country_event = mvlv_jap.11
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+#クーデター成功率低
+#____________________________________________________________
+country_event = {
+	id = mvlv_jap.10
+	desc = mvlv_jap.10.d
+	title = mvlv_jap.10.t
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.10.a
+		random_list = {
+			35 = {
+				country_event = {
+					id = mvlv_jap.12
+					days = 1
+				}
+			}
+			35 = {
+				country_event = {
+					id = mvlv_jap.13
+					days = 1
+				}
+			}
+			30 = {
+				country_event = {
+					id = mvlv_jap.14
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+#クーデター成功率高
+#____________________________________________________________
+country_event = {
+	id = mvlv_jap.11
+	desc = mvlv_jap.11.d
+	title = mvlv_jap.11.t
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.11.a
+		random_list = {
+			10 = {
+				country_event = {
+					id = mvlv_jap.12
+					days = 1
+				}
+			}			#success
+			60 = {
+				country_event = {
+					id = mvlv_jap.13
+					days = 1
+				}
+			}			#failure
+			30 = {
+				country_event = {
+					id = mvlv_jap.14
+					days = 1
+				}
+			}			#failure
+		}
+	}
+}
+
+#クーデター失敗
+country_event = {
+	id = mvlv_jap.12
+	desc = mvlv_jap.12.d
+	title = mvlv_jap.12.t
+	picture = GFX_mvlv_start_good
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.12.a
+		remove_ideas = JAP_puppet_shogun
+		remove_ideas = 战略研究会异动
+		add_ideas = JAP_shogun
+		if = {
+			limit = {
+				check_variable = {
+					global.var_generalDeathMode = 1
+				}
+			}
+			retire_character = JAP_unit_leader_4
+			USA = {
+				retire_character = USA_units_leader_1
+				# recruit_character = USA_units_leader_13
+				USA_units_leader_13 = {
+					set_character_flag = 角色解锁
+				}
+				#create_field_marshal = { 
+				#		name = "阿尔弗雷德·沃肯中校"
+				#		gfx = GFX_阿尔弗雷德沃肯中校头像
+				#		traits = { logistics_wizard 
+				#		organizer 
+				#		offensive_doctrine 
+				#		trait_cautious 
+				#		armor_officer 
+				#		politically_connected  
+				#		war_hero 
+				#		hill_fighter }
+				#		skill = 9
+				#		attack_skill = 10
+				#		defense_skill = 7
+				#		planning_skill = 6
+				#		logistics_skill = 5}
+			}
+		}
+	}
+}
+
+#クーデター成功
+country_event = {
+	id = mvlv_jap.13
+	desc = mvlv_jap.13.d
+	title = mvlv_jap.13.t
+	picture = GFX_mvlv_start_bad
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.13.a
+		remove_ideas = JAP_puppet_shogun
+		remove_ideas = 战略研究会异动
+		add_ideas = JAP_shogun
+		add_ideas = 家国传统
+		if = {
+			limit = {
+				check_variable = {
+					global.var_generalDeathMode = 1
+				}
+			}
+			retire_character = JAP_unit_leader_5
+		}
+		USA = {
+			retire_character = USA_units_leader_1
+		}
+	}
+}
+
+#殿下死亡
+#____________________________________________________________
+country_event = {
+	id = mvlv_jap.14
+	desc = mvlv_jap.14.d
+	title = mvlv_jap.14.t
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.14.a
+		# TODO 殿下の削除をどうするか　とりあえずそのまま
+		add_timed_idea = {
+			idea = JAP_killed_shougun
+			days = 365
+		}
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "斑鳩 崇継"
+			desc = "POLITICS_JAP_denka_DESC"
+			picture = "斑鸠崇继.dds"
+			expire = "1965.1.1"
+			ideology = fascism_ideology
+			traits = {
+				emperor_showa_2
+				warrior_code
+			}
+		}
+		remove_ideas = JAP_puppet_shogun
+		remove_ideas = 战略研究会异动
+		if = {
+			limit = {
+				check_variable = {
+					global.var_generalDeathMode = 1
+				}
+			}
+			retire_character = JAP_unit_leader_1
+			retire_character = JAP_unit_leader_4
+			retire_character = JAP_unit_leader_5
+			USA = {
+				retire_character = USA_units_leader_1
+			}
+		}
+	}
+}
+
+#欧州交流派遣
+country_event = {
+	id = mvlv_jap.16
+	desc = mvlv_jap.16.d
+	title = mvlv_jap.16.t
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.16.a
+		JAP = {
+			country_event = {
+				id = mvlv_jap.17
+				days = 90
+			}
+		}
+		EUR = {
+			add_political_power = 100
+			army_experience = 50
+			country_event = {
+				id = mvlv_jap.17
+				days = 90
+			}
+			global_every_army_leader = {
+				limit = {
+					OWNER = {
+						tag = JAP
+					}
+					has_id = 9010
+				}
+				set_nationality = PREV
+			}
+		}
+	}
+}
+
+#帰郷
+country_event = {
+	id = mvlv_jap.17
+	desc = mvlv_jap.17.d
+	title = mvlv_jap.17.t
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.17.a
+		JAP = {
+			army_experience = 150
+			add_political_power = 100
+			add_tech_bonus = {
+				bonus = 3
+				uses = 1
+				technology = tsf_sub_weapons
+			}
+			global_every_army_leader = {
+				limit = {
+					OWNER = {
+						tag = EUR
+					}
+					has_id = 9010
+				}
+				add_unit_leader_trait = MVLV_TEF_lineage
+				add_skill_level = 1
+				add_attack = 1
+				add_defense = 1
+				add_logistics = 1
+				add_planning = 1
+				set_nationality = PREV
+			}
+		}
+		EUR = {
+			army_experience = 100
+			global_every_army_leader = {
+				limit = {
+					OWNER = {
+						tag = EUR
+					}
+					has_id = 9020
+				}
+				add_unit_leader_trait = JAP_samurai_lineage
+				add_skill_level = 1
+				add_attack = 1
+				add_defense = 1
+				add_logistics = 1
+				add_planning = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = mvlv_jap.18
+	desc = mvlv_jap.18.d
+	title = mvlv_jap.18.t
+	picture = GFX_mvlv_kou21
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.18.a
+		SOV = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = interwar_antitank
+			}
+		}
+	}
+}
+
+country_event = {
+	id = mvlv_jap.20
+	desc = mvlv_jap.20.d
+	title = mvlv_jap.20.t
+	picture = GFX_mvlv_start_kekki
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.20.a
+	}
+}
+
+country_event = {
+	id = mvlv_jap.21
+	desc = mvlv_jap.21.d
+	title = mvlv_jap.21.t
+	picture = GFX_mvlv_start_kekki
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.21.a
+	}
+}
+
+country_event = {
+	id = mvlv_jap.22
+	desc = mvlv_jap.22.d
+	title = mvlv_jap.22.t
+	picture = GFX_mvlv_start_kekki
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.22.a
+	}
+}
+
+country_event = {
+	id = mvlv_jap.23
+	desc = mvlv_jap.23.d
+	title = mvlv_jap.23.t
+	picture = GFX_mvlv_start_kekki
+	is_triggered_only = yes
+	option = {
+		name = mvlv_jap.23.a
+	}
+}

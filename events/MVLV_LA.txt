@@ -1,0 +1,119 @@
+add_namespace = mvlv_LA
+country_event = {
+	id = mvlv_LA.1
+	desc = mvlv_LA.1.d
+	title = mvlv_LA.1.t
+	picture = GFX_mvlv_mascot
+	is_triggered_only = yes
+	option = {
+		name = mvlv_LA.1.a
+		# add_to_variable={卫士训练规模=120}
+		add_research_slot = 2
+		add_ideas = 拉美联合协定
+		add_state_core = 484
+		add_state_core = 483
+		add_state_core = 482
+		add_state_core = 481
+		add_state_core = 480
+		add_state_core = 479
+		add_state_core = 478
+		add_state_core = 485
+		add_state_core = 477
+		add_state_core = 277
+		add_state_core = 476
+		add_state_core = 475
+		add_state_core = 474
+		add_state_core = 311
+		add_state_core = 313
+		add_state_core = 312
+		add_state_core = 314
+		add_state_core = 317
+		add_state_core = 316
+		add_state_core = 304
+		add_state_core = 685
+		add_state_core = 689
+		add_state_core = 315
+		add_state_core = 690
+		add_state_core = 693
+		add_state_core = 319
+		add_state_core = 318
+		add_state_core = 308
+		set_global_flag = SOA_unite_CEA
+		CEA = {
+			every_unit_leader = {
+				set_nationality = SOA
+			}
+		}
+		annex_country = {
+			target = CEA
+			transfer_troops = yes
+		}
+	}
+}
+
+country_event = {
+	id = mvlv_LA.2
+	desc = mvlv_LA.2.d
+	title = mvlv_LA.2.t
+	picture = GFX_mvlv_mascot
+	is_triggered_only = yes
+	option = {
+		name = mvlv_LA.2.a
+		# add_to_variable={卫士训练规模=120}
+		add_research_slot = 2
+		add_ideas = 拉美联合协定
+		add_state_core = 493
+		add_state_core = 489
+		add_state_core = 307
+		add_state_core = 691
+		add_state_core = 306
+		add_state_core = 486
+		add_state_core = 488
+		add_state_core = 687
+		add_state_core = 309
+		add_state_core = 310
+		add_state_core = 495
+		add_state_core = 305
+		add_state_core = 490
+		add_state_core = 491
+		add_state_core = 303
+		add_state_core = 494
+		add_state_core = 492
+		add_state_core = 487
+		add_state_core = 280
+		add_state_core = 505
+		add_state_core = 499
+		add_state_core = 498
+		add_state_core = 497
+		add_state_core = 302
+		add_state_core = 506
+		add_state_core = 504
+		add_state_core = 688
+		add_state_core = 496
+		add_state_core = 500
+		add_state_core = 501
+		add_state_core = 508
+		add_state_core = 509
+		add_state_core = 301
+		add_state_core = 503
+		add_state_core = 502
+		add_state_core = 510
+		add_state_core = 300
+		add_state_core = 511
+		add_state_core = 279
+		add_state_core = 278
+		add_state_core = 512
+		add_state_core = 507
+		add_state_core = 649
+		set_global_flag = CEA_unite_SOA
+		SOA = {
+			every_unit_leader = {
+				set_nationality = CEA
+			}
+		}
+		annex_country = {
+			target = SOA
+			transfer_troops = yes
+		}
+	}
+}

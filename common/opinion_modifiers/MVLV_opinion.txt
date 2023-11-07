@@ -1,0 +1,10 @@
+opinion_modifiers = {
+	G_bomb_threat_opinion = {
+		value = -50
+		months = 50
+		decay = 1
+	}
+	UNI_USA_1 = {
+		value = 50
+	}
+}

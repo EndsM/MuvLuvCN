@@ -1,0 +1,236 @@
+equipment_modules = {
+	MVLV_TSF_shoulder_fixed_blade = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5
+			armor_value = 5
+			soft_attack = 1
+		}
+		multiply_stats = {
+			soft_attack = 0.02
+			hard_attack = 0.01
+		}
+	}
+	MVLV_TSF_shoulder_ex_thruster_1 = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 15
+			hardness = 0.04
+		}
+		multiply_stats = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			#armor_value = -0.1
+			ap_attack = 0.08
+			air_attack = 0.05
+			experience_loss_factor = 0.1
+		}
+	}
+	MVLV_TSF_shoulder_ex_thruster_2 = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 20
+			hardness = 0.05
+		}
+		multiply_stats = {reliability = -0.1
+			soft_attack = 0.1
+			hard_attack = 0.1
+			armor_value = 0.03
+			ap_attack = 0.12
+			air_attack = 0.1
+			experience_loss_factor = 0.15
+		}
+	}
+	MVLV_TSF_shoulder_ex_thruster_3 = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 25
+			hardness = 0.06
+		}
+		multiply_stats = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+			armor_value = 0.05
+			ap_attack = 0.15
+			air_attack = 0.15
+			experience_loss_factor = 0.2
+		}
+	}
+	MVLV_TSF_shoulder_ex_thruster_4 = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 30
+			hardness = 0.08
+		}
+		multiply_stats = {
+			soft_attack = 0.2
+			hard_attack = 0.2
+			armor_value = 0.1
+			ap_attack = 0.2
+			air_attack = 0.2
+			experience_loss_factor = 0.25
+		}
+	}
+	MVLV_TSF_shoulder_signal_launcher = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 1
+			initiative = 0.1
+		}
+	}
+	MVLV_TSF_shoulder_ex_radar_1 = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5
+		}
+		multiply_stats = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+			air_attack = 0.02
+			breakthrough = 0.03
+			defense = 0.03
+		}
+	}
+	MVLV_TSF_shoulder_ex_radar_2 = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 8#10
+		}
+		multiply_stats = {
+			soft_attack = 0.04
+			hard_attack = 0.04
+			air_attack = 0.04
+			breakthrough = 0.06
+			defense = 0.06
+		}
+	}
+	MVLV_TSF_shoulder_ex_radar_3 = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 12#15
+		}
+		multiply_stats = {
+			soft_attack = 0.06
+			hard_attack = 0.06
+			air_attack = 0.06
+			breakthrough = 0.1
+			defense = 0.1
+		}
+	}
+	MVLV_TSF_shoulder_ex_radar_4 = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 15#20
+		}
+		multiply_stats = {
+			soft_attack = 0.08
+			hard_attack = 0.08
+			air_attack = 0.08
+			breakthrough = 0.12
+			defense = 0.12
+		}
+	}
+	MVLV_TSF_shoulder_phoenix_1 = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 25.0
+			soft_attack = 10.0
+			hard_attack = 10.0
+			air_attack = 10.0
+			hardness = -0.06
+			max_organisation = -0.2
+			default_morale = -0.2
+		}
+		multiply_stats = {
+			maximum_speed = -0.1
+		}
+	}
+	MVLV_TSF_shoulder_phoenix_2 = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 30.0
+			soft_attack = 15.0
+			hard_attack = 15.0
+			air_attack = 10.0
+			hardness = -0.08
+			max_organisation = -0.2
+			default_morale = -0.25
+		}
+		multiply_stats = {
+			maximum_speed = -0.2
+		}
+	}
+	MVLV_TSF_shoulder_general_missile = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 15.0
+			soft_attack = 8.0
+			hard_attack = 8.0
+			air_attack = 8.0
+		 	default_morale = -0.1
+		}
+		 multiply_stats = {
+		 	maximum_speed = -0.05
+		 }
+	}
+	MVLV_TSF_shoulder_ex_armor_heavy_alloy = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 3
+			armor_value = 5
+			hardness = -0.05
+		}
+	}
+	MVLV_TSF_shoulder_ex_armor_composite = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5#10
+			armor_value = 6
+			hardness = -0.02
+		}
+	}
+	MVLV_TSF_shoulder_ex_armor_light_composite = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 7#20
+			armor_value = 7
+		}
+	}
+	MVLV_TSF_shoulder_ex_light_self_repair = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 10#30
+			armor_value = 10
+			max_strength = 0.1
+		}
+	}
+	MVLV_TSF_shoulder_ex_fuel = {
+		category = MVLV_TSF_shoulder_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 2.0
+			default_morale = 0.01
+		}
+		multiply_stats = {
+			breakthrough = 0.02
+			defense = 0.02
+		}
+	}
+}

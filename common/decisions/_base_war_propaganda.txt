@@ -1,0 +1,175 @@
+propaganda_efforts = {
+	MUVLUV简史 = {
+		icon = generic_prepare_civil_war
+		fire_only_once = no
+		days_re_enable = 1
+		cost = 0
+		complete_effect = {
+			country_event = mvlv_generic.0
+		}
+		ai_will_do = {
+			base = 0
+		}
+	}
+	war_propaganda = {
+		icon = generic_prepare_civil_war
+		available = {
+			NOT = {
+				has_country_flag = war_propaganda_campaign_running
+			}
+			threat > 0.5
+			has_war_support < 0.5
+			has_offensive_war = no
+		}
+		visible = {
+		}
+		fire_only_once = no
+		days_remove = 90
+		days_re_enable = 180
+		cost = 150
+		modifier = {
+			war_support_weekly = 0.01
+		}
+		complete_effect = {
+			set_country_flag = war_propaganda_campaign_running
+		}
+		remove_effect = {
+			clr_country_flag = war_propaganda_campaign_running
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_war_support < 0.4
+				has_war = yes
+			}
+		}
+	}
+	#Propaganda campaign against a country in offensive that has caused a lot of tension and started a war
+	war_propaganda_against_warmonger = {
+		icon = generic_prepare_civil_war
+		available = {
+			NOT = {
+				has_country_flag = war_propaganda_campaign_running
+			}
+			FROM = {
+				OR = {
+					is_justifying_wargoal_against = ROOT
+					AND = {
+						has_war_with = ROOT
+						is_neighbor_of = ROOT
+					}
+					has_offensive_war = yes
+				}
+			}
+		}
+		visible = {
+			FROM = {
+				NOT = {
+					is_in_faction_with = ROOT
+				}
+				OR = {
+					is_justifying_wargoal_against = ROOT
+					AND = {
+						is_neighbor_of = ROOT
+						OR = {
+							has_war_with = ROOT
+							AND = {
+								NOT = {
+									has_government = ROOT
+								}
+								has_offensive_war = yes
+								has_added_tension_amount > 5
+							}
+						}
+					}
+					AND = {
+						NOT = {
+							is_neighbor_of = ROOT
+						}
+						OR = {
+							has_offensive_war_with = ROOT
+							AND = {
+								NOT = {
+									has_government = ROOT
+								}
+								has_offensive_war = yes
+								has_added_tension_amount > 30
+							}
+						}
+					}
+				}
+			}
+		}
+		target_trigger = {
+			FROM = {
+				NOT = {
+					is_in_faction_with = ROOT
+				}
+				OR = {
+					is_justifying_wargoal_against = ROOT
+					AND = {
+						is_neighbor_of = ROOT
+						OR = {
+							has_war_with = ROOT
+							AND = {
+								NOT = {
+									has_government = ROOT
+								}
+								has_offensive_war = yes
+								has_added_tension_amount > 5
+							}
+						}
+					}
+					AND = {
+						NOT = {
+							is_neighbor_of = ROOT
+						}
+						OR = {
+							has_offensive_war_with = ROOT
+							AND = {
+								NOT = {
+									has_government = ROOT
+								}
+								has_offensive_war = yes
+								has_added_tension_amount > 30
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						is_neighbor_of = ROOT
+					}
+					set_temp_variable = {
+						war_propaganda_cost = 50
+					}
+				}
+			}
+		}
+		days_remove = 90
+		days_re_enable = 180
+		fire_only_once = yes
+		cost = var:war_propaganda_cost?75
+		modifier = {
+			war_support_weekly = 0.01
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision war_propaganda_against_warmonger"
+			set_country_flag = war_propaganda_campaign_running
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove war_propaganda_against_warmonger"
+			clr_country_flag = war_propaganda_campaign_running
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_war_support > 0.9
+			}
+		}
+	}
+}

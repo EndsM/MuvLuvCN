@@ -1,0 +1,21 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_terrain_hive_gate"
+		textureFile = "gfx/interface/terrains/terrain_hive_gate.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_hive_mainhall"
+		textureFile = "gfx/interface/terrains/terrain_hive_mainhall.dds"
+	}
+
+	spriteType = {
+		name = "GFX_terrain_hive_gateclass"
+		textureFile = "gfx/interface/terrains/terrain_hive_gateclass.dds"
+	}
+
+	spriteType = {
+		name = "GFX_terrain_hive_drift"
+		textureFile = "gfx/interface/terrains/terrain_hive_drift.dds"
+	}
+}

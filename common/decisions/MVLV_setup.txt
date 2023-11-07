@@ -1,0 +1,65 @@
+show_setup = {
+	show_setup1 = {
+		icon = generic_prepare_civil_war
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			country_event = mvlv_generic.15
+		}
+		
+		ai_will_do = {
+			base = -100
+		}
+	}
+	MVLV_command_ouka_decision = {
+		icon = generic_prepare_civil_war
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			AND = {
+				has_global_flag = MVLV_command_ouka_flag
+				UNI = { is_ai = yes }
+				check_variable = { global.var_playercount > 1 }
+				NOT = {
+					is_in_faction_with = BET
+					tag = H00
+				}
+			}
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			hidden_effect = {
+				set_global_flag = MVLV_command_ouka_flag
+				every_country = {
+					limit = {
+						has_country_flag = PL_ouka_operation_flag
+					}
+					clr_country_flag = PL_ouka_operation_flag
+				}
+				UNI = {	
+					set_country_flag = PL_ouka_operation_flag
+				}
+			}
+			custom_effect_tooltip = MVLV_command_ouka_tt
+		}
+		ai_will_do = {
+			base = -100
+		}
+	}
+}

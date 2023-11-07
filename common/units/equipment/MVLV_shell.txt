@@ -1,0 +1,318 @@
+equipments = {
+
+	# anti_laser_archetype = {
+	# 	year = 1980
+
+	# 	can_be_produced = {
+	# 		always = yes
+	# 	}
+
+	# 	is_archetype = yes
+	# 	is_convertable = yes
+	# 	picture = archetype_fighter_equipment
+	# 	is_buildable = no
+	# 	type = fighter
+	# 	type_override = fixed_main_weapon_slot
+	# 	allowed_types = {
+	# 		fighter
+	# 		interceptor
+	# 		cas
+	# 		naval_bomber
+	# 		suicide
+	# 	}
+	# 	allow_mission_type = training
+	# 	group_by = archetype
+	# 	sprite = light_plane
+	# 	air_map_icon_frame = 1
+	# 	interface_category = interface_category_air
+	# 	substitute = cv_small_plane_airframe
+		
+	# 	interface_overview_category_index = 1
+	# 	air_superiority = 1
+	# 	reliability = 0.8
+	# 	naval_strike_attack = 1
+	# 	naval_strike_targetting = 1
+	# 	lend_lease_cost = 8
+	# 	manpower = 20
+	# 	fuel_consumption = 0.05
+	# 	build_cost_ic = 6
+	# 	resources = {
+	# 		aluminium = 2
+	# 		rubber = 1
+	# 	}
+
+	# 	module_slots = {
+	# 		fixed_main_weapon_slot = {
+	# 			required = yes
+	# 			allowed_module_categories = {
+	# 				fighter_weapon
+	# 				cas_weapon
+	# 				nav_bomber_weapon
+	# 				kamikaze_bomber_weapon
+	# 			}
+	# 		}
+
+	# 		fixed_auxiliary_weapon_slot_1 = { 
+	# 			required = no
+	# 			allowed_module_categories = {
+	# 				recon_camera
+	# 				fighter_weapon
+	# 				cas_weapon
+	# 				nav_bomber_weapon
+	# 				kamikaze_bomber_weapon
+	# 			}
+	# 		}
+
+	# 		engine_type_slot = {
+	# 			required = yes
+	# 			allowed_module_categories = {
+	# 				plane_engine_type
+	# 				twin_plane_engine_type
+	# 			}
+	# 		}
+
+	# 		special_type_slot_1 = {
+	# 			required = no
+	# 			allowed_module_categories = {
+	# 				plane_special_module_small
+	# 				plane_special_module_bomb_sights
+	# 				plane_special_module_radio_navigation
+	# 				plane_special_module_air_ground_radar
+	# 				plane_special_module_air_air_radar
+	# 				plane_special_module_defense_turret
+	# 			}
+	# 		}
+
+	# 		special_type_slot_2 = {
+	# 			required = no
+	# 			allowed_module_categories = {
+	# 				plane_special_module_small
+	# 				plane_special_module_bomb_sights
+	# 				plane_special_module_radio_navigation
+	# 				plane_special_module_air_ground_radar
+	# 				plane_special_module_air_air_radar
+	# 				plane_special_module_defense_turret
+	# 			}
+	# 		}
+	# 	}
+	# 	module_count_limit = {
+	# 		module = guided_anti_ship_missile
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		module = fixed_explosive_charge
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		module = self_sealing_fuel_tanks_small
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		module = non_strategic_materials_small
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		module = drop_tanks
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		module = dive_brakes_small
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		module = small_bomb_bay
+	# 		count < 3
+	# 	}
+
+	# 	module_count_limit = {
+	# 		module = torpedo_mounting
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		module = tank_buster_1
+	# 		count < 3
+	# 	}
+
+	# 	module_count_limit = {
+	# 		module = tank_buster_2
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		module = floats
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		module = recon_camera
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		category = nav_bomber_weapon
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		category = plane_special_module_bomb_sights
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		category = plane_special_module_radio_navigation
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		category = plane_special_module_air_ground_radar
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		category = plane_special_module_air_air_radar
+	# 		count < 2
+	# 	}
+
+	# 	module_count_limit = {
+	# 		category = plane_special_module_defense_turret
+	# 		count < 2
+	# 	}
+
+	# 	default_modules = {
+	# 		fixed_main_weapon_slot = empty
+	# 		fixed_auxiliary_weapon_slot_1 = empty
+	# 		engine_type_slot = engine_1_1x
+	# 		special_type_slot_1 = empty
+	# 		special_type_slot_2 = empty
+	# 	}
+	# }
+	# anti_laser_equipment = {
+	# 	year = 1980
+
+	# 	archetype = anti_laser_archetype
+	# 	priority = 5
+
+	# 	allow_mission_type = {
+	# 		air_superiority
+	# 		interception
+	# 	}
+
+	# 	air_range = 570
+	# 	maximum_speed = 330
+	# 	air_agility = 45
+	# 	air_attack = 9
+	# 	air_defence = 8
+
+	# 	naval_strike_attack = 1
+	# 	naval_strike_targetting = 10
+
+	# 	upgrades = {
+	# 		plane_gun_upgrade
+	# 		plane_range_upgrade
+	# 		plane_engine_upgrade
+	# 		plane_reliability_upgrade
+	# 	}
+
+	# 	air_superiority = 1
+	# 	reliability = 0.8
+
+	# 	# Air vs Navy - low damage / high hit chance / easy to hurt
+	# 	naval_strike_attack = 1
+	# 	naval_strike_targetting = 10
+	# 	surface_detection = 10 # For airwing of 100 planes (Destroyer I: 20 surface detection)
+	# 	sub_detection = 2.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
+
+	# 	#Space taken in convoy
+	# 	lend_lease_cost = 8
+
+	# 	build_cost_ic = 22
+	# 	resources = {
+	# 		#oil = 1
+	# 		aluminium = 2
+	# 		rubber = 1
+	# 	}
+
+	# 	manpower = 20
+	# 	fuel_consumption = 0.21
+	# 	# one_use_only = yes
+	# 	# air_range = 8000
+	# 	# maximum_speed = 945
+	# 	# air_agility = 10
+	# 	# air_attack = 90
+	# 	# air_attack = 10
+	# 	# air_defence = 1
+	# 	# upgrades = {
+	# 	# 	plane_gun_upgrade
+	# 	# 	plane_range_upgrade
+	# 	# 	plane_engine_upgrade
+	# 	# 	plane_reliability_upgrade
+	# 	# }
+	# }
+
+	MVLV_shell_equipment = {
+		year = 1933
+
+		can_be_produced = {
+			always = yes
+		}
+
+		allow_mission_type = {
+			cas
+			naval_bomber
+		}
+		is_archetype = yes
+		carrier_capable = yes
+		is_buildable = no
+		picture = archetype_fighter_equipment
+		type = cas 
+		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 1
+		
+		interface_category = interface_category_air
+		
+		interface_overview_category_index = 1
+
+		air_superiority = 1.2
+		reliability = 1.2
+
+		air_ground_attack = 20
+		
+		naval_strike_attack = 7
+		naval_strike_targetting = 1
+
+		lend_lease_cost = 1
+		
+		build_cost_ic = 0.5
+
+		# resources = {
+		# 	rubber = 1
+		# }
+		
+		manpower = 20
+		fuel_consumption = 0.0
+	}
+
+	MVLV_shell_equipment_1 = {
+		year = 1944
+
+		archetype = MVLV_shell_equipment
+		carrier_capable = yes
+		priority = 10
+	
+		one_use_only = yes
+		air_range = 500
+		maximum_speed = 950
+		air_agility = 95
+		air_attack = 14
+		air_defence = 10
+		air_ground_attack = 20
+	}
+}

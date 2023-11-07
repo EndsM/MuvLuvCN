@@ -1,0 +1,2137 @@
+technologies = {
+	#NATO式START
+	#____________________________________________________________
+	mobile_warfare = {
+		doctrine_name = "MOBILE_WARFARE_DOCTRINE"
+		xp_research_type = army
+		xp_unlock_cost = 100
+		xor = {
+			superior_firepower
+			trench_warfare
+		}
+		path = {
+			leads_to_tech = delay
+			research_cost_coeff = 1
+		}
+		category_all_infantry = {
+			max_organisation = 10
+		}
+		category_tanks = {
+			max_organisation = 10
+		}
+		land_reinforce_rate = 0.01
+		doctrine = yes
+		research_cost = 2.25
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		categories = {
+			land_doctrine
+			cat_mobile_warfare
+		}
+		ai_will_do = {
+			factor = 200000
+		}
+		ai_research_weights = {
+			armor = 4
+		}
+	}
+	delay = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		land_reinforce_rate = 0.02
+		enable_tactic = tactic_delay
+		category_all_infantry = {
+			defense = 0.2
+		}
+		category_tanks = {
+			defense = 0.2
+		}
+		path = {
+			leads_to_tech = elastic_defence
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mobile_warfare
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 0
+				y = 2
+			}
+		}
+		ai_will_do = {
+			factor = 200000
+		}
+		ai_research_weights = {
+			armor = 3
+		}
+	}
+	elastic_defence = {
+		land_reinforce_rate = 0.02
+		xp_research_type = army
+		xp_unlock_cost = 100
+		enable_tactic = tactic_elastic_defense
+		MVLV_tsa_battalion = {
+			maximum_speed = 0.1
+			max_organisation = 10
+			default_morale = 0.1
+		}
+		category_MVLV_tsf = {
+			maximum_speed = 0.11
+			max_organisation = 10
+			default_morale = 0.1
+		}
+		MVLV_asa_battalion = {
+			maximum_speed = 0.08
+			max_organisation = 10
+			default_morale = 0.1
+		}
+		path = {
+			leads_to_tech = mobile_infantry
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = armored_spearhead
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mobile_warfare
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 0
+				y = 4
+			}
+		}
+		ai_will_do = {
+			factor = 2000000
+		}
+		ai_research_weights = {
+			armor = 2
+		}
+	}
+	#____________________________________________________________
+	#G弾運用START
+	#____________________________________________________________
+	mobile_infantry = {
+		#Branch focuses on infantry, included Motorised and Mechanised.
+		xp_research_type = army
+		xp_unlock_cost = 100
+		xor = {
+			armored_spearhead
+		}
+		enable_tactic = tactic_unexpected_thrust
+		category_all_infantry = {
+			hard_attack = 0.1
+			soft_attack = 0.1
+		}
+		category_tanks = {
+			hard_attack = 0.1
+			soft_attack = 0.1
+		}
+		MVLV_tsa_battalion = {
+			hard_attack = 0.1
+			soft_attack = 0.1
+		}
+		category_MVLV_tsf = {
+			hard_attack = 0.12
+			soft_attack = 0.12
+		}
+		MVLV_asa_battalion = {
+			hard_attack = 0.1
+			soft_attack = 0.1
+		}
+		path = {
+			leads_to_tech = mass_motorization
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mobile_warfare
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 6
+			}
+		}
+		ai_will_do = {
+			factor = 2000000
+		}
+		ai_research_weights = {
+			armor = 1
+			defensive = -2
+			motorized_equipment = 3
+			cat_mechanized_equipment = 5
+		}
+	}
+	mass_motorization = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		max_planning = 0.3
+		army_speed_factor = 0.1
+		enable_tactic = tactic_tactical_withdrawal
+		enable_tactic = tactic_backhand_blow
+		path = {
+			leads_to_tech = mechanised_offensive
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mobile_warfare
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 8
+			}
+		}
+		ai_will_do = {
+			factor = 200000
+		}
+		ai_research_weights = {
+			armor = 2
+			defensive = -12
+		}
+	}
+	mechanised_offensive = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		enable_tactic = tactic_overwhelming_fire
+		category_army = {
+			hard_attack = 0.05
+			soft_attack = 0.05
+		}
+		land_night_attack = 0.1
+		path = {
+			leads_to_tech = mechanised_offensive1
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mobile_warfare
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 10
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			armor = 2
+			motorized_equipment = 2
+			cat_mechanized_equipment = 2
+		}
+	}
+	mechanised_offensive1 = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		planning_speed = 0.3
+		max_planning = 0.2
+		category_all_armor = {
+			breakthrough = 0.1
+		}
+		category_all_infantry = {
+			breakthrough = 0.1
+		}
+		enable_tactic = tactic_breakthrough
+		path = {
+			leads_to_tech = mechanised_offensive2
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mobile_warfare
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 12
+			}
+		}
+		ai_will_do = {
+			factor = 200000
+		}
+		ai_research_weights = {
+			armor = 2
+			motorized_equipment = 2
+			cat_mechanized_equipment = 2
+		}
+	}
+	mechanised_offensive2 = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		enable_tactic = tactic_barrage
+		category_line_artillery = {
+			hard_attack = 0.2
+			soft_attack = 0.2
+		}
+		MVLV_tsa_battalion = {
+			breakthrough = 0.15
+		}
+		category_MVLV_tsf = {
+			breakthrough = 0.15
+		}
+		MVLV_asa_battalion = {
+			breakthrough = 0.15
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mobile_warfare
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 14
+			}
+		}
+		ai_will_do = {
+			factor = 200000
+		}
+		ai_research_weights = {
+			armor = 2
+			motorized_equipment = 2
+			cat_mechanized_equipment = 2
+		}
+	}
+	#G弾運用END
+	#____________________________________________________________
+	#ALLTSFSTART
+	#____________________________________________________________
+	armored_spearhead = {
+		#Branch focused on Tanks 
+		xp_research_type = army
+		xp_unlock_cost = 100
+		MVLV_tsa_battalion = {
+			max_organisation = 10
+			default_morale = 0.2
+		}
+		category_MVLV_tsf = {
+			max_organisation = 10
+			default_morale = 0.2
+		}
+		MVLV_asa_battalion = {
+			max_organisation = 10
+			default_morale = 0.2
+		}
+		xor = {
+			mobile_infantry
+		}
+		path = {
+			leads_to_tech = schwerpunk
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mobile_warfare
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 6
+			}
+		}
+		ai_will_do = {
+			factor = 200000
+		}
+		ai_research_weights = {
+			armor = 16
+			offensive = -1
+			cat_mechanized_equipment = 2
+		}
+	}
+	schwerpunk = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		supply_consumption_factor = -0.05
+		MVLV_tsa_battalion = {
+			max_organisation = 5
+			default_morale = 0.05
+		}
+		category_MVLV_tsf = {
+			max_organisation = 5
+			default_morale = 0.05
+		}
+		MVLV_asa_battalion = {
+			max_organisation = 5
+			default_morale = 0.05
+		}
+		minimum_training_level = -0.05
+		path = {
+			leads_to_tech = blitzkrieg
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mobile_warfare
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 8
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			armor = 2.5
+			offensive = -2
+			cat_mechanized_equipment = 1.5
+		}
+	}
+	blitzkrieg = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		MVLV_tsa_battalion = {
+			reliability_factor = 0.02
+			defense = 0.05
+		}
+		category_MVLV_tsf = {
+			reliability_factor = 0.02
+			defense = 0.1
+		}
+		MVLV_asa_battalion = {
+			reliability_factor = 0.02
+			defense = 0.05
+		}
+		org_loss_when_moving = -0.1
+		land_night_attack = 0.05
+		path = {
+			leads_to_tech = blitzkrieg1
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mobile_warfare
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 10
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			armor = 2.5
+			cat_mechanized_equipment = 1.5
+		}
+	}
+	blitzkrieg1 = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		MVLV_tsa_battalion = {
+			maximum_speed = 0.1
+		}
+		category_MVLV_tsf = {
+			maximum_speed = 0.1
+		}
+		MVLV_asa_battalion = {
+			maximum_speed = 0.1
+		}
+		enable_tactic = tactic_blitz
+		path = {
+			leads_to_tech = blitzkrieg2
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mobile_warfare
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 12
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			armor = 2.5
+			cat_mechanized_equipment = 1.5
+		}
+	}
+	blitzkrieg2 = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		out_of_supply_factor = -0.1
+		MVLV_tsa_battalion = {
+			soft_attack = 0.25
+			hard_attack = 0.25
+			breakthrough = 0.1
+		}
+		category_MVLV_tsf = {
+			soft_attack = 0.3
+			hard_attack = 0.3
+			breakthrough = 0.1
+		}
+		MVLV_asa_battalion = {
+			soft_attack = 0.25
+			hard_attack = 0.25
+			breakthrough = 0.1
+		}
+		enable_tactic = tactic_breakthrough
+		enable_tactic = tactic_overwhelming_fire
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mobile_warfare
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 14
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			armor = 2.5
+			cat_mechanized_equipment = 1.5
+		}
+	}
+	#NATO式END
+	#____________________________________________________________
+	#WTO式START
+	#____________________________________________________________
+	superior_firepower = {
+		doctrine_name = "SUPERIOR_FIREPOWER_DOCTRINE"
+		xp_research_type = army
+		xp_unlock_cost = 100
+		xor = {
+			mobile_warfare
+			trench_warfare
+		}
+		path = {
+			leads_to_tech = sup_delay
+			research_cost_coeff = 1
+		}
+		category_front_line = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			defense = 0.05
+		}
+		enable_tactic = tactic_barrage
+		doctrine = yes
+		research_cost = 2.25
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			artillery = 4
+		}
+	}
+	sup_delay = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		category_all_armor = {
+			max_organisation = 10
+		}
+		category_all_infantry = {
+			max_organisation = 10
+		}
+		attrition = -0.2
+		enable_tactic = tactic_delay
+		path = {
+			leads_to_tech = mobile_defence
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 0
+				y = 2
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			artillery = 3
+		}
+	}
+	mobile_defence = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		MVLV_tsa_battalion = {
+			maximum_speed = 0.1
+			max_organisation = 10
+			default_morale = 0.1
+		}
+		category_MVLV_tsf = {
+			maximum_speed = 0.1
+			max_organisation = 10
+			default_morale = 0.1
+		}
+		MVLV_asa_battalion = {
+			maximum_speed = 0.1
+			max_organisation = 10
+			default_morale = 0.1
+		}
+		mountaineers = {
+			max_organisation = 12
+			default_morale = 0.4
+		}
+		path = {
+			leads_to_tech = intergrated_support
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = dispersed_support
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 0
+				y = 4
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			artillery = 2
+		}
+	}
+	#____________________________________________________________
+	#密集近接戦START
+	#____________________________________________________________
+	intergrated_support = {
+		#This Branch is focused on boosting stuff in the support column 
+		xp_research_type = army
+		xp_unlock_cost = 100
+		land_reinforce_rate = 0.03
+		xor = {
+			dispersed_support
+		}
+		category_tanks = {
+			max_organisation = 10
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		category_all_infantry = {
+			max_organisation = 10
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		path = {
+			leads_to_tech = regimental_combat_teams
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 6
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			artillery = 0.5
+		}
+	}
+	regimental_combat_teams = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		category_MVLV_tsf = {
+			breakthrough = 0.1
+			maximum_speed = 0.1
+		}
+		planning_speed = 0.1
+		max_planning = 0.1
+		conscription = 0.01
+		enable_tactic = tactic_planned_attack
+		path = {
+			leads_to_tech = regimental_combat_teams1
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 8
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			artillery = 1
+		}
+	}
+	regimental_combat_teams1 = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		category_line_artillery = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+		MVLV_tsa_battalion = {
+			defense = 0.05
+			default_morale = 0.1
+		}
+		category_MVLV_tsf = {
+			defense = 0.05
+			default_morale = 0.1
+		}
+		MVLV_asa_battalion = {
+			defense = 0.05
+			default_morale = 0.1
+		}
+		no_supply_grace = 48
+		enable_tactic = tactic_tactical_withdrawal
+		enable_tactic = tactic_unexpected_thrust
+		path = {
+			leads_to_tech = regimental_combat_teams2
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 10
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			artillery = 1
+		}
+	}
+	regimental_combat_teams2 = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		MVLV_tsa_battalion = {
+			breakthrough = 0.05
+			max_organisation = 5
+		}
+		category_MVLV_tsf = {
+			breakthrough = 0.05
+			max_organisation = 5
+		}
+		MVLV_asa_battalion = {
+			breakthrough = 0.05
+			max_organisation = 5
+		}
+		category_all_infantry = {
+			breakthrough = 0.1
+		}
+		category_tanks = {
+			breakthrough = 0.1
+		}
+		land_reinforce_rate = 0.07
+		enable_tactic = tactic_relentless_assault
+		path = {
+			leads_to_tech = regimental_combat_teams3
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 12
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			artillery = 1
+		}
+	}
+	regimental_combat_teams3 = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		MVLV_tsa_battalion = {
+			soft_attack = 0.2
+			hard_attack = 0.2
+		}
+		category_MVLV_tsf = {
+			soft_attack = 0.2
+			hard_attack = 0.2
+		}
+		MVLV_asa_battalion = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+		land_reinforce_rate = 0.05
+		enable_tactic = tactic_infantry_charge
+		#path = {
+		#	leads_to_tech = sup_mechanized_offensive 
+		#	research_cost_coeff = 1
+		#}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 14
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			artillery = 1
+		}
+	}
+	#密集近接戦END
+	#____________________________________________________________
+	#機動防御START
+	#____________________________________________________________
+	dispersed_support = {
+		# Branch is focused on support units as part of the regular brigades
+		xp_research_type = army
+		xp_unlock_cost = 100
+		xor = {
+			intergrated_support
+		}
+		category_line_artillery = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		category_all_armor = {
+			max_organisation = 10
+			default_morale = 0.2
+		}
+		planning_speed = 0.3
+		land_reinforce_rate = 0.03
+		enable_tactic = tactic_elastic_defense
+		path = {
+			leads_to_tech = overwhelming_firepower
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 6
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			artillery = 1
+		}
+	}
+	overwhelming_firepower = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		MVLV_tsa_battalion = {
+			soft_attack = 0.15
+			hard_attack = 0.05
+		}
+		category_MVLV_tsf = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		MVLV_asa_battalion = {
+			soft_attack = 0.1
+			hard_attack = 0.05
+		}
+		supply_consumption_factor = -0.05
+		#mountaineers = {
+		#	
+		#}
+		path = {
+			leads_to_tech = overwhelming_firepower1
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 8
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			artillery = 1
+		}
+	}
+	overwhelming_firepower1 = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		category_all_armor = {
+			maximum_speed = 0.15
+		}
+		category_all_infantry = {
+			maximum_speed = 0.15
+			max_organisation = 20
+			default_morale = 0.5
+		}
+		MVLV_tsa_battalion = {
+			max_organisation = 3
+			breakthrough = 0.15
+		}
+		category_MVLV_tsf = {
+			max_organisation = 5
+			breakthrough = 0.15
+		}
+		MVLV_asa_battalion = {
+			max_organisation = 3
+			breakthrough = 0.15
+		}
+		mountaineers = {
+			soft_attack = 0.05
+			hard_attack = 0.1
+		}
+		enable_tactic = tactic_breakthrough
+		path = {
+			leads_to_tech = overwhelming_firepower2
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 10
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			artillery = 1
+		}
+	}
+	overwhelming_firepower2 = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		army_speed_factor = 0.15
+		org_loss_when_moving = -0.15
+		category_all_armor = {
+			max_organisation = 10
+		}
+		category_all_infantry = {
+			max_organisation = 10
+		}
+		MVLV_tsa_battalion = {
+			maximum_speed = 0.1
+			max_organisation = 6
+		}
+		category_MVLV_tsf = {
+			maximum_speed = 0.1
+			max_organisation = 4
+		}
+		MVLV_asa_battalion = {
+			maximum_speed = 0.1
+			max_organisation = 3
+		}
+		enable_tactic = tactic_blitz
+		path = {
+			leads_to_tech = overwhelming_firepower3
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 12
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			artillery = 1
+		}
+	}
+	overwhelming_firepower3 = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		category_all_armor = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		category_all_infantry = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		mountaineers = {
+			max_organisation = 7
+			soft_attack = 0.05
+			hard_attack = 0.1
+		}
+		planning_speed = 0.2
+		max_planning = 0.1
+		enable_tactic = tactic_backhand_blow
+		enable_tactic = tactic_tactical_withdrawal
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 14
+			}
+		}
+		ai_will_do = {
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+			factor = 20000
+			modifier = {
+				not = {
+					ai_air_doctrine_tier_1_trigger = yes
+				}
+				factor = 0.5
+			}
+			modifier = {
+				not = {
+					ai_air_doctrine_tier_2_trigger = yes
+				}
+				factor = 0.75
+			}
+		}
+		ai_research_weights = {
+			artillery = 1
+		}
+	}
+	#機動防御END
+	#WTO式END
+	#____________________________________________________________
+	#国家防衛式START
+	#____________________________________________________________
+	trench_warfare = {
+		doctrine_name = "GRAND_BATTLEPLAN_DOCTRINE"
+		xp_research_type = army
+		xp_unlock_cost = 100
+		xor = {
+			mobile_warfare
+			superior_firepower
+		}
+		max_dig_in = 20
+		dig_in_speed_factor = 0.5		#50% bonus
+		land_reinforce_rate = 0.1
+		path = {
+			leads_to_tech = grand_battle_plan
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 2.25
+		categories = {
+			land_doctrine
+			cat_grand_battle_plan
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			infantry_weapons = 0.5
+			motorized_equipment = 0.5
+		}
+	}
+	#要所の防衛
+	grand_battle_plan = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		path = {
+			leads_to_tech = grand_assault
+			research_cost_coeff = 1
+		}
+		land_night_attack = 0.1
+		no_supply_grace = 72
+		out_of_supply_factor = -0.2
+		enable_tactic = tactic_delay
+		doctrine = yes
+		research_cost = 4
+		categories = {
+			land_doctrine
+			cat_grand_battle_plan
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 0
+				y = 2
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+			# modifier = {
+			# 	factor = 0.25
+			# 	has_idea = FRA_victors_of_wwi
+			# }
+		}
+		ai_research_weights = {
+			infantry_weapons = 2.5
+			motorized_equipment = 2
+		}
+	}
+	#総力の統制
+	grand_assault = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		category_army = {
+			max_organisation = 5
+			default_morale = 0.3
+		}
+		max_planning = 0.1
+		planning_speed = 0.3
+		land_reinforce_rate = 0.1
+		minimum_training_level = -0.1
+		path = {
+			leads_to_tech = grand_mechanized_offensive
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_offensive
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4
+		categories = {
+			land_doctrine
+			cat_grand_battle_plan
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 0
+				y = 4
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			infantry_weapons = 1.5
+			motorized_equipment = 1
+		}
+	}
+	#死守ルート
+	#絶対防衛線
+	grand_mechanized_offensive = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		#xor = {
+		#	infantry_offensive
+		#}
+		max_dig_in = 30
+		dig_in_speed_factor = 0.5		#50% bonus
+		land_night_attack = 0.1
+		#enable_tactic = tactic_elastic_defense
+		path = {
+			leads_to_tech = assault_concentration
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4
+		categories = {
+			land_doctrine
+			cat_grand_battle_plan
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 6
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			infantry_weapons = 1.5
+			motorized_equipment = 1
+			cat_mechanized_equipment = 1
+		}
+	}
+	#総力防衛#attritional_containment
+	assault_concentration = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		category_all_infantry = {
+			max_organisation = 20
+			default_morale = 0.6
+		}
+		land_reinforce_rate = 0.1
+		land_night_attack = 0.1
+		path = {
+			leads_to_tech = branch_interoperation
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4
+		categories = {
+			land_doctrine
+			cat_grand_battle_plan
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 8
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			infantry_weapons = 1.5
+			motorized_equipment = 1
+			cat_mechanized_equipment = 1
+		}
+	}
+	#兵科の相互運用
+	branch_interoperation = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		category_tanks = {
+			max_organisation = 10
+			default_morale = 0.2
+		}
+		category_line_artillery = {
+			max_organisation = 10
+			default_morale = 0.2
+		}
+		supply_consumption_factor = -0.15
+		max_planning = 0.3
+		land_reinforce_rate = 0.05
+		enable_tactic = tactic_planned_attack
+		path = {
+			leads_to_tech = assault_breakthrough
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4
+		categories = {
+			land_doctrine
+			cat_grand_battle_plan
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 10
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			infantry_weapons = 1.5
+			motorized_equipment = 1
+		}
+	}
+	#人海戦術
+	assault_breakthrough = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		conscription = 0.1
+		land_reinforce_rate = 0.3
+		out_of_supply_factor = -0.3
+		minimum_training_level = -0.1
+		category_army = {
+			default_morale = 0.2
+		}
+		infantry = {
+			combat_width = -1
+			max_organisation = 40
+			default_morale = 0.8
+		}
+		enable_tactic = tactic_human_wave_tactics
+		enable_tactic = tactic_guerrilla_tactics
+		path = {
+			leads_to_tech = attritional_containment
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4
+		categories = {
+			land_doctrine
+			cat_grand_battle_plan
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 12
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			infantry_weapons = 1.5
+			motorized_equipment = 1
+			cat_mechanized_equipment = 1
+		}
+	}
+	#死守END
+	#____________________________________________________________
+	#高機動格闘START
+	#____________________________________________________________
+	infantry_offensive = {
+		#large_front_operations
+		xp_research_type = army
+		xp_unlock_cost = 100
+		#xor = {
+		#	grand_mechanized_offensive
+		#}
+		category_all_armor = {
+			max_organisation = 10
+			default_morale = 0.2
+			maximum_speed = 0.1
+		}
+		category_all_infantry = {
+			max_organisation = 20
+			default_morale = 0.4
+			maximum_speed = 0.2
+		}
+		dig_in_speed_factor = 1
+		land_reinforce_rate = 0.1
+		enable_tactic = tactic_elastic_defense
+		enable_tactic = tactic_backhand_blow
+		path = {
+			leads_to_tech = armored_operations
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4
+		categories = {
+			land_doctrine
+			cat_grand_battle_plan
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 6
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			infantry_weapons = 1.5
+			motorized_equipment = 1
+		}
+	}
+	#
+	armored_operations = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		MVLV_tsa_battalion = {
+			max_organisation = 10
+			maximum_speed = 0.1
+		}
+		category_MVLV_tsf = {
+			max_organisation = 10
+			maximum_speed = 0.1
+		}
+		MVLV_asa_battalion = {
+			max_organisation = 10
+			maximum_speed = 0.1
+		}
+		max_planning = 0.2
+		enable_tactic = tactic_blitz
+		enable_tactic = tactic_unexpected_thrust
+		path = {
+			leads_to_tech = infiltration_assault
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4
+		categories = {
+			land_doctrine
+			cat_grand_battle_plan
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 8
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			infantry_weapons = 1.5
+			motorized_equipment = 1
+		}
+	}
+	infiltration_assault = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		supply_consumption_factor = -0.3
+		max_planning = 0.3
+		planning_speed = 0.3
+		enable_tactic = tactic_infantry_charge
+		enable_tactic = tactic_planned_attack
+		path = {
+			leads_to_tech = night_assault_tactics
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4
+		categories = {
+			land_doctrine
+			cat_grand_battle_plan
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 10
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			infantry_weapons = 1.5
+			motorized_equipment = 1
+		}
+	}
+	night_assault_tactics = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		category_tanks = {
+			combat_width = -0.4
+			max_organisation = 10
+			default_morale = 0.2
+			maximum_speed = 0.1
+		}
+		# medium_armor = {
+		# 	combat_width = -0.4
+		# 	max_organisation = 10
+		# 	default_morale = 0.2
+		# 	maximum_speed = 0.1
+		# }
+		# modern_sp_anti_air_brigade = {
+		# 	combat_width = -0.4
+		# 	max_organisation = 10
+		# 	default_morale = 0.2
+		# 	maximum_speed = 0.1
+		# }
+		land_reinforce_rate = 0.1
+		enable_tactic = tactic_human_wave_tactics
+		enable_tactic = tactic_breakthrough
+		enable_tactic = tactic_relentless_assault
+		path = {
+			leads_to_tech = attritional_containment
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4
+		categories = {
+			land_doctrine
+			cat_grand_battle_plan
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 12
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			infantry_weapons = 1.5
+			motorized_equipment = 1
+		}
+	}
+	#戦場の女神
+	attritional_containment = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		artillery_brigade = {
+			combat_width = -1
+			max_organisation = 10
+			default_morale = 0.2
+			# air_attack = 5.0
+			air_attack = 1
+		}
+		rocket_artillery_brigade = {
+			combat_width = -1
+			max_organisation = 10
+			default_morale = 0.2
+			# air_attack = 5.0
+			air_attack = 1
+		}
+		enable_tactic = tactic_barrage
+		enable_tactic = tactic_overwhelming_fire
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_grand_battle_plan
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 0
+				y = 14
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			infantry_weapons = 0.1
+			motorized_equipment = 0.1
+		}
+	}
+	#国家防衛式END
+	#____________________________________________________________
+	#BETA用大量突击START
+	#____________________________________________________________
+	mass_assault = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		xor = {
+			mobile_warfare
+			superior_firepower
+			trench_warfare
+		}
+		path = {
+			leads_to_tech = pocket_defence
+			research_cost_coeff = 1
+		}
+		land_reinforce_rate = 0.02
+		minimum_training_level = -0.1
+		doctrine = yes
+		research_cost = 2.25
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			industry = 2
+		}
+	}
+	pocket_defence = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		#reduced pocketed combat penalty and/or reduces the out of supply penalty or increases time before moving to worse penalty
+		no_supply_grace = 48		# more hours before supply penalty changes
+		out_of_supply_factor = -0.1
+		path = {
+			leads_to_tech = defence_in_depth
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 0
+				y = 2
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+			modifier = {
+				not = {
+					has_army_experience > 120
+				}
+				factor = 0.8
+			}
+		}
+		ai_research_weights = {
+			industry = 2
+		}
+	}
+	defence_in_depth = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		max_dig_in = 5
+		category_light_infantry = {
+			max_organisation = 5
+		}
+		path = {
+			leads_to_tech = large_front_operations
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = peoples_army
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 0
+				y = 4
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			industry = 2
+		}
+	}
+	large_front_operations = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		xor = {
+			peoples_army
+		}
+		supply_consumption_factor = -0.1
+		enable_tactic = tactic_relentless_assault
+		path = {
+			leads_to_tech = deep_operations
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 6
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			industry = 2
+		}
+	}
+	deep_operations = {
+		category_tanks = {
+			max_organisation = 2
+		}
+		xp_research_type = army
+		xp_unlock_cost = 100
+		enable_tactic = tactic_blitz
+		path = {
+			leads_to_tech = operational_concentration
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 8
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			industry = 0.5
+		}
+	}
+	operational_concentration = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		max_planning = 0.1
+		land_reinforce_rate = 0.05
+		enable_tactic = tactic_elastic_defense
+		path = {
+			leads_to_tech = vast_offensives
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 10
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			industry = 2
+		}
+	}
+	vast_offensives = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		supply_consumption_factor = -0.1
+		infantry = {
+			combat_width = -0.4
+		}
+		enable_tactic = tactic_overwhelming_fire
+		path = {
+			leads_to_tech = breakthrough_priority
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 12
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			industry = 2
+		}
+	}
+	breakthrough_priority = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		category_tanks = {
+			max_organisation = 1
+			breakthrough = 0.1
+		}
+		category_all_infantry = {
+			max_organisation = 5
+			breakthrough = 0.1
+		}
+		enable_tactic = tactic_breakthrough
+		path = {
+			leads_to_tech = mechanized_wave
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 14
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			industry = 2
+		}
+	}
+	mechanized_wave = {
+		category_tanks = {
+			max_organisation = 2
+		}
+		xp_research_type = army
+		xp_unlock_cost = 100
+		category_all_armor = {
+			default_morale = 0.1
+		}
+		#		mechanized = {
+		#			max_organisation = 10
+		#			default_morale = 0.1
+		#		}
+		#		motorized = {
+		#			max_organisation = 10
+		#			default_morale = 0.1
+		#		}	
+		#		amphibious_mechanized = {
+		#			max_organisation = 10
+		#			default_morale = 0.1
+		#		}	
+		path = {
+			leads_to_tech = continuous_offensive
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 16
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			industry = 2
+			cat_mechanized_equipment = 3
+		}
+	}
+	continuous_offensive = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		org_loss_when_moving = -0.25
+		land_reinforce_rate = 0.05
+		enable_tactic = tactic_backhand_blow
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = -2
+				y = 18
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			industry = 0.5
+		}
+	}
+	peoples_army = {
+		xor = {
+			large_front_operations
+		}
+		xp_research_type = army
+		xp_unlock_cost = 100
+		#Increased Partisan effect on your land occupied by others
+		#		partisan_effect = 0.1 #10% more partisan effects
+		#Land Units take less attrition
+		attrition = -0.1		#take 10% less attrition losses
+		enable_tactic = tactic_human_wave_tactics
+		path = {
+			leads_to_tech = human_infantry_offensive
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 6
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			industry = 2
+		}
+	}
+	human_infantry_offensive = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		infantry = {
+			default_morale = 0.3
+		}
+		land_reinforce_rate = 0.05
+		path = {
+			leads_to_tech = large_front_offensive
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 8
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			industry = 2
+		}
+	}
+	large_front_offensive = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		category_all_infantry = {
+			max_organisation = 10
+		}
+		category_tanks = {
+			max_organisation = 2
+		}
+		path = {
+			leads_to_tech = human_wave_offensive
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 10
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			industry = 2
+		}
+	}
+	human_wave_offensive = {
+		conscription = 0.05
+		xp_research_type = army
+		xp_unlock_cost = 100
+		infantry = {
+			combat_width = -0.4
+		}
+		land_reinforce_rate = 0.15
+		path = {
+			leads_to_tech = guerilla_warfare
+			research_cost_coeff = 1
+		}
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 12
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			infantry_weapons = 1
+			industry = 2
+		}
+	}
+	guerilla_warfare = {
+		xp_research_type = army
+		xp_unlock_cost = 100
+		out_of_supply_factor = -0.3
+		category_army = {
+			default_morale = 0.2
+		}
+		#		partisan_effect = 0.2
+		enable_tactic = tactic_guerrilla_tactics
+		doctrine = yes
+		research_cost = 4.5
+		categories = {
+			land_doctrine
+			cat_mass_assault
+		}
+		folder = {
+			name = land_doctrine_folder
+			position = {
+				x = 2
+				y = 14
+			}
+		}
+		ai_will_do = {
+			factor = 20000
+		}
+		ai_research_weights = {
+			industry = 2
+		}
+	}
+	#BETA用大量突击END
+	#____________________________________________________________
+}

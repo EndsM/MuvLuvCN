@@ -1,0 +1,47 @@
+
+state={
+	id=119
+	name="STATE_119"
+
+	history={
+		1999.1.1 = {
+			owner = EEA
+			add_core_of = EEA
+			add_core_of = EUR
+			remove_core_of = NIR
+			remove_core_of = IRE
+			remove_core_of = ENG 
+		}
+		owner = ENG
+		victory_points = {
+			3379 5 
+		}
+		# victory_points = {
+		# 	6449 20
+		# }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 8
+			industrial_complex = 8
+			air_base = 5
+			dockyard = 2
+			3379 = {
+				naval_base = 10
+			}
+		}
+		add_core_of = ENG
+		add_core_of = IRE
+		add_core_of = NIR
+	}
+
+	provinces={
+		3217 3242 3379 
+	}
+	manpower=6000000
+	buildings_max_level_factor=1
+	state_category="megalopolis"
+	
+	resources={
+		aluminium=15
+	}
+}

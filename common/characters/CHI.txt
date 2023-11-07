@@ -1,0 +1,119 @@
+characters = {
+	CHI_Cuiyifei = {
+		name = "崔亦菲"
+		portraits = {
+			army = {
+				large = GFX_崔亦菲头像
+				small = "gfx/leaders/CHI/崔亦菲小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				trickster
+				trait_cautious
+				harsh_leader
+				tsf_officer
+				commander_aptitude
+				tsf_leader
+				tsf_commander
+			}
+			skill = 7
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	CHI_Lilinmei = {
+		name = "李琳美"
+		portraits = {
+			army = {
+				large = GFX_李琳美头像
+				small = "gfx/leaders/CHI/李琳美小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_reckless
+				brilliant_strategist
+				tsf_officer
+				tsf_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	CHI_Wangxiaofen = {
+		name = "王晓芬"
+		portraits = {
+			army = {
+				large = GFX_王晓芬头像
+				small = "gfx/leaders/CHI/王晓芬小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_reckless
+				career_officer
+				tsf_officer
+				tsf_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	CHI_Louyahua = {
+		name = "楼雅华"
+		portraits = {
+			army = {
+				large = GFX_楼雅华头像
+				small = "gfx/leaders/CHI/楼雅华小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				tsf_officer
+				tsf_leader
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	CHI_Sunlijun = {
+		name = "孙立军"
+		portraits = {
+			army = {
+				large = GFX_孙立军头像
+				small = "gfx/leaders/CHI/孙立军小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				tsf_officer
+				tsf_leader
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+}

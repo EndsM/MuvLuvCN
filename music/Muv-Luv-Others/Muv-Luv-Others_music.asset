@@ -1,0 +1,192 @@
+# Muvluv_Others:
+
+music = {
+	name = "Others_01"
+	file = "Ayami - Apocalypse of Destiny_1.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_02"
+	file = "Doubt the world.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_03"
+	file = "Go-to-the-top.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_04"
+	file = "INSANITY.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_05"
+	file = "Muv-Luv Alternative Total Eclipse - OST.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_06"
+	file = "Relayers　(再誕).ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_07"
+	file = "208 Battle 1.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_08"
+	file = "210 Climax battle.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_09"
+	file = "212 A sudden crisis.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_10"
+	file = "214 Power to destroy.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_11"
+	file = "01 マブラヴ.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_12"
+	file = "01 未来への咆哮.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_13"
+	file = "02 Name ・君の名は.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_14"
+	file = "02 TOTAL ECLIPSE.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_15"
+	file = "03 Do not SURRENDER.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_16"
+	file = "03 Metamorphose.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_17"
+	file = "04 0-GRAVITY.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_18"
+	file = "05 翼.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_19"
+	file = "07 化石の歌.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_20"
+	file = "07 紫音 -sion-.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_21"
+	file = "08 first pain.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_22"
+	file = "09 Carry on ～early version～.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_23"
+	file = "09 LOVE STEP.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_24"
+	file = "10 遥かなる地球の歌.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_25"
+	file = "11 桜の花が咲くまえに.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_26"
+	file = "12 終わりなき夏 永遠なる音律.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_27"
+	file = "14 最後のエデン.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_28"
+	file = "15 星海を往く希望の歌.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_29"
+	file = "12 calling.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_30"
+	file = "11 Once _ Forever.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_31"
+	file = "04 True 4 Eyes.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_32"
+	file = "06 NO PLACE LIKE A STAGE.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_33"
+	file = "07 Deep side distance.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_34"
+	file = "08 signs～朔月一夜～.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_35"
+	file = "09 snow story.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_36"
+	file = "10 スノウヰデン.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_37"
+	file = "11 Revise the World.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_38"
+	file = "12 星彩～asterism～.ogg"
+	volume = 0.65
+}

@@ -1,0 +1,27 @@
+technologies = {
+	MVLV_EnableBuilding_arms_factory = {
+		start_year = 1973
+		research_cost = 100
+		
+		categories = {
+		}
+		
+		enable_building = {
+			building = arms_factory
+			level = 300
+		}
+	}
+	
+	MVLV_EnableBuilding_industrial_complex = {
+		start_year = 1973
+		research_cost = 100
+		
+		categories = {
+		}
+		
+		enable_building = {
+			building = industrial_complex
+			level = 300
+		}
+	}
+}

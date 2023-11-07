@@ -1,0 +1,32 @@
+state=
+{
+	id=766
+	name="STATE_766"
+	manpower = 566600
+	
+	state_category = rural
+	
+	history = { 1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
+			add_core_of = SOV
+			remove_core_of = ROM
+			remove_core_of = UKR
+			remove_core_of = MOL
+		}
+		victory_points = {
+			6727 1
+		}
+		add_core_of = MOL
+		add_core_of = UKR
+		owner = ROM
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+		}
+		add_core_of = ROM
+	}
+	provinces=
+	{
+3701 3704 6727 6743	}
+}

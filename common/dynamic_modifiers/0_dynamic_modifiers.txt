@@ -1,0 +1,91 @@
+#	Example:
+# 
+#	example_dynamic_modifier = {
+#		icon = "GFX_idea_unknown" # optional, will show up in guis if icon is specified
+#		enable = { always = yes } #optional, the modifier won't apply if not enabled
+#		remove_trigger = { always = no } #optional, will remove the modifier if true
+#       attacker_modifier = no  # if yes this modifier will also be read in combat for 
+#                               # people engaging in the combat even if not in the state
+#
+#		# list of modifiers
+#		fuel_cost = 321
+#		max_fuel = var_max_fuel # will be taken from a variable
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		add_dynamic_modifier = {
+#			modifier = example_dynamic_modifier
+#			scope = GER # optional, if you specify this your dynamic modifier scoped to this scope (root is the effect scope)
+#			days = 14 # optional, will be removed after this many days passes
+#		}
+#	}
+#
+#	can be added to countries, states or unit leaders
+#	will only updated daily, unless forced by force_update_dynamic_modifier effect
+# UNI_despair = {
+# 	enable = {
+# 		always = yes
+# 	}
+# 	icon = chi_army_corruption
+# 	#INITIAL
+# 	army_attack_factor = UNI_despair_attack
+# 	army_defence_factor = UNI_despair_defence	#0.05
+# 	army_org_factor = UNI_despair_org
+# 	army_org_regain = UNI_despair_org_regain
+# }
+
+# UNI_command = {
+# 	enable = {
+# 		always = yes
+# 	}
+# 	icon = general_staff
+# 	#INITIAL
+# 	army_attack_factor = UNI_command_attack
+# 	army_org_factor = UNI_command_org
+# 	army_org_regain = UNI_command_org_regain
+# 	army_speed_factor = UNI_command_speed
+# }
+
+# "UNI_counterattack_start" = {
+# 	enable = {
+# 		always = yes
+# 	}
+# 	icon = generic_volunteer_expedition_bonus
+# 	army_attack_factor = "反攻的开始攻击修正"
+# 	army_org_factor = "反攻的开始组织度修正"
+# 	army_speed_factor = "反攻的开始移动速度修正"
+# 	research_speed_factor = "反攻的开始研究速度修正"
+# 	industrial_capacity_factory = "反攻的开始工厂产量修正"
+# 	production_factory_start_efficiency_factor = "反攻的开始初始生产效率修正"
+# }
+
+# UNI_industrial_dep = {
+# 	enable = {
+# 		always = yes
+# 	}
+# 	icon = generic_industry
+# 	industrial_capacity_factory = UNI_industrial_dep_IC
+# 	production_factory_efficiency_gain_factor = UNI_industrial_dep_efficiency_gain
+# 	license_purchase_cost = UNI_industrial_dep_license_cost
+# }
+
+"BETA战术改进"={
+	enable = {
+		always = yes
+	}
+	icon = general_staff
+	army_attack_factor = global.BETA进攻战术改进
+	army_defence_factor = global.BETA防御战术改进
+}
+
+"上位存在的意志"={
+	enable = {
+		always = yes
+	}
+	icon = general_staff
+	army_attack_factor = 上位存在的意志攻击
+	army_defence_factor = 上位存在的意志防御
+}

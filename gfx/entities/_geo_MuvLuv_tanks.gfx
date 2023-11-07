@@ -1,0 +1,101 @@
+
+objectTypes = {
+
+##汎用　レオパルド2A4
+
+	pdxmesh = {
+		name = "geo_leo2a4_mesh"
+		file = "gfx/models/units/tanks/geo_leo2a4.mesh"
+		
+		animation = { id = "attack"			type = "geo_leo2a4_attack_animation" }		
+		animation = { id = "idle"			type = "geo_leo2a4_idle_animation" }
+		animation = { id = "move"			type = "geo_leo2a4_move_animation" }
+	}
+
+##国联军　レオパルド2A6
+
+	pdxmesh = {
+		name = "geo_leo2a6_mesh"
+		file = "gfx/models/units/tanks/geo_leo2a6.mesh"
+		
+		animation = { id = "attack"			type = "geo_leo2a4_attack_animation" }		
+		animation = { id = "idle"			type = "geo_leo2a4_idle_animation" }
+		animation = { id = "move"			type = "geo_leo2a4_move_animation" }
+	}
+
+##アメリカ军　M1A1
+
+	pdxmesh = {
+	name = "geo_m1a1_mesh"
+	file = "gfx/models/units/tanks/geo_m1a1.mesh"
+
+	animation = { id = "attack"			type = "geo_m1a1_attack_animation" }		
+	animation = { id = "idle"			type = "geo_m1a1_idle_animation" }
+	animation = { id = "move"			type = "geo_m1a1_move_animation" }
+	}
+
+##オセアニア　M1A1
+
+	pdxmesh = {
+	name = "geo_m1a1_OSE_mesh"
+	file = "gfx/models/units/tanks/geo_m1a1_AST.mesh"
+
+	animation = { id = "attack"			type = "geo_m1a1_attack_animation" }		
+	animation = { id = "idle"			type = "geo_m1a1_idle_animation" }
+	animation = { id = "move"			type = "geo_m1a1_move_animation" }
+	}
+
+##中米　M1A1
+
+	pdxmesh = {
+	name = "geo_m1a1_CEA_mesh"
+	file = "gfx/models/units/tanks/geo_m1a1_CEA.mesh"
+
+	animation = { id = "attack"			type = "geo_m1a1_attack_animation" }		
+	animation = { id = "idle"			type = "geo_m1a1_idle_animation" }
+	animation = { id = "move"			type = "geo_m1a1_move_animation" }
+	}
+
+##アメリカ军　M1A2
+
+	pdxmesh = {
+		name = "geo_m1a2_mesh"
+		file = "gfx/models/units/tanks/geo_m1a1_desert.mesh"
+	
+	animation = { id = "attack"			type = "geo_m1a1_attack_animation" }		
+	animation = { id = "idle"			type = "geo_m1a1_idle_animation" }
+	animation = { id = "move"			type = "geo_m1a1_move_animation" }
+	}
+
+##ソ連军　T72BV
+
+	pdxmesh = {
+		name = "geo_t72bv_mesh"
+		file = "gfx/models/units/tanks/geo_t72bv.mesh"
+		
+		animation = { id = "attack"			type = "geo_t72_attack_animation" }		
+		animation = { id = "idle"			type = "geo_t72_idle_animation" }
+		animation = { id = "move"			type = "geo_t72_move_animation" }
+	}
+
+##帝国军　90式
+
+	pdxmesh = {
+		name = "geo_type90_mesh"
+		file = "gfx/models/units/tanks/geo_type90.mesh"
+		
+		animation = { id = "attack"			type = "geo_type90_attack_animation" }		
+		animation = { id = "idle"			type = "geo_type90_idle_animation" }
+		animation = { id = "move"			type = "geo_type90_move_animation" }
+	}
+
+	pdxmesh = {
+		name = "geo_2s19_mesh"
+		file = "gfx/models/units/tanks/geo_2s19.mesh"
+		
+		animation = { id = "attack"			type = "geo_2s19_attack_animation" }		
+		animation = { id = "idle"			type = "geo_2s19_idle_animation" }
+		animation = { id = "move"			type = "geo_2s19_move_animation" }
+	}
+}
+

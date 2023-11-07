@@ -1,0 +1,38 @@
+state={
+	id=89
+	name="STATE_89" # Stanislawow
+	manpower = 2180300
+	
+	state_category = town
+	
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			add_core_of = SOV
+			remove_core_of = POL
+			remove_core_of = UKR
+
+			#ブダペスト陥落用
+			add_claim_by = H11
+		}
+
+		victory_points = {
+			11411 1
+		}
+		#victory_points = {
+		#	6483 1
+		#}
+		owner = POL
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+
+		}
+		add_core_of = POL
+		add_core_of = UKR
+	}
+
+	provinces={
+		3743 6431 6460 6483 9425 11411 11550 
+	}
+}

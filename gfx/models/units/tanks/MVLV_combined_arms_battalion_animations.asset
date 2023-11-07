@@ -1,0 +1,14 @@
+animation = {
+	name = "MVLV_combined_arms_battalion_attack_animation"
+	file = "MVLV_combined_arms_battalion_attack.anim"
+}
+
+animation = {
+	name = "MVLV_combined_arms_battalion_idle_animation"
+	file = "MVLV_combined_arms_battalion_idle.anim"
+}
+
+animation = {
+	name = "MVLV_combined_arms_battalion_moving_animation"
+	file = "MVLV_combined_arms_battalion_moving.anim"
+}

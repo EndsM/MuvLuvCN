@@ -1,0 +1,37 @@
+UNI_xmosd_category = {
+	icon = generic_propaganda
+
+	picture = GFX_decision_cat_picture_naval_treaties
+	priority = 10
+	allowed = {
+		is_in_faction_with = UNI
+	}
+
+	visible = {
+		
+	}
+}
+
+UNI_category = {
+	icon = generic_propaganda
+
+	allowed = {
+		is_in_faction_with = UNI
+        tag = UNI
+	}
+
+	visible = {
+		is_puppet = no
+	}
+}
+
+UNI_operation_ouka_category = {
+	picture = GFX_decision_cat_picture_naval_treaties
+	priority = 20
+	available = {
+		is_in_faction_with = UNI
+        has_country_flag = PL_ouka_operation_flag
+		UNI = { has_completed_focus = UNI_operation_ouka }
+	}
+
+}

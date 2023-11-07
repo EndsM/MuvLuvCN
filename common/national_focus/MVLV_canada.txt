@@ -1,0 +1,402 @@
+focus_tree = {
+	id = canadian_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CAN
+		}
+		#modifier = {
+		#	add = 10
+		#	original_tag = CAN
+		#}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 20
+		y = 1000
+	}
+	reset_on_civilwar = no
+	shared_focus = common_refugee_tech_sharing
+	shared_focus = common_adopt_powered_suits
+	shared_focus = common_experience_of_BETA_war
+	shared_focus = common_refugee_support_request
+	focus = {
+		id = CAN_start
+		icon = GFX_goal_generic_demand_territory
+		x = 28
+		y = 0
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			add_political_power = 200
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = CAN_man
+		icon = GFX_goal_generic_territory_or_war
+		x = 0
+		y = 1
+		relative_position_id = CAN_start
+		prerequisite = {
+			focus = CAN_start
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		#select_effect = { }
+		completion_reward = {
+			add_political_power = -200
+			add_war_support = 0.2
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = CAN_mans
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		relative_position_id = CAN_man
+		prerequisite = {
+			focus = CAN_man
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 4
+		#select_effect = { }
+		completion_reward = {
+			add_manpower = 100000
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = CAN_nous
+		icon = GFX_focus_generic_strike_at_democracy3
+		x = 1
+		y = 1
+		relative_position_id = CAN_yeswar
+		prerequisite = {
+			focus = CAN_yeswar
+		}
+		prerequisite = {
+			focus = CAN_nowar
+		}
+		#mutually_exclusive = { focus = CAN_yesus }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 8
+		completion_reward = {
+			CAN = {
+				country_event = mvlv_can.1
+			}
+			USA = {
+				country_event = mvlv_can.2
+			}
+			UNI = {
+				country_event = mvlv_can.3
+			}
+			remove_ideas = CAN_us
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = CAN_nouni
+		icon = GFX_focus_SAF_colonialist_crusade
+		x = 0
+		y = 1
+		relative_position_id = CAN_nous
+		prerequisite = {
+			focus = CAN_nous
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2.5
+				uses = 1
+				name = mech_army_bonus
+				technology = generic_F-18EF
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				name = mech_army_bonus
+				technology = generic_F-18HMRV
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				name = mech_army_bonus
+				technology = generic_F-18AX
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = CAN_noatom
+		icon = GFX_focus_generic_support_the_left_right
+		x = 0
+		y = 1
+		relative_position_id = CAN_nouni
+		prerequisite = {
+			focus = CAN_nouni
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available = {
+			276 = {
+				is_controlled_by = CAN
+			}
+		}
+		cost = 50
+		completion_reward = {
+			remove_ideas = CAN_atomic
+			add_ideas = CAN_noatomic
+			473 = {
+				add_extra_state_shared_building_slots = 12
+				set_building_level = {
+					type = infrastructure
+					level = 8
+					instant_build = yes
+				}
+				set_building_level = {
+					type = industrial_complex
+					level = 12
+					instant_build = yes
+				}
+			}
+			471 = {
+				add_extra_state_shared_building_slots = 12
+				set_building_level = {
+					type = infrastructure
+					level = 7
+					instant_build = yes
+				}
+			}
+			472 = {
+				add_extra_state_shared_building_slots = 12
+				set_building_level = {
+					type = infrastructure
+					level = 7
+					instant_build = yes
+				}
+			}
+			470 = {
+				add_extra_state_shared_building_slots = 12
+				set_building_level = {
+					type = infrastructure
+					level = 7
+					instant_build = yes
+				}
+			}
+			740 = {
+				add_extra_state_shared_building_slots = 7
+				set_building_level = {
+					type = infrastructure
+					level = 7
+					instant_build = yes
+				}
+			}
+			739 = {
+				add_extra_state_shared_building_slots = 5
+				set_building_level = {
+					type = infrastructure
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = CAN_yesus
+		icon = GFX_focus_chi_mission_to_the_us
+		x = 0
+		y = 1
+		relative_position_id = CAN_mans
+		prerequisite = {
+			focus = CAN_mans
+		}
+		#mutually_exclusive = { focus = CAN_nous }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			468 = {
+				add_extra_state_shared_building_slots = 12
+				set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 12
+					instant_build = yes
+				}
+			}
+			465 = {
+				add_extra_state_shared_building_slots = 10
+				set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+			}
+			682 = {
+				add_extra_state_shared_building_slots = 5
+				set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+			}
+			276 = {
+				add_extra_state_shared_building_slots = 10
+				set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	focus = {
+		id = CAN_tsf
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		relative_position_id = CAN_yesus
+		prerequisite = {
+			focus = CAN_yesus
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = MVLV_TSF_chassis
+				amount = 1200
+				producer = USA
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	focus = {
+		id = CAN_yeswar
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = -1
+		y = 1
+		relative_position_id = CAN_tsf
+		prerequisite = {
+			focus = CAN_tsf
+		}
+		# mutually_exclusive = {
+		# 	focus = CAN_nowar
+		# }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = MVLV_tsf_tech
+			}
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.8
+				uses = 3
+				category = land_doctrine
+			}
+			# add_tech_bonus = {
+			# 	bonus = 3.5
+			# 	uses = 3
+			# 	category = land_doctrine
+			# }
+			466 = {
+				add_extra_state_shared_building_slots = 10
+				add_building_construction = {
+					type = arms_factory
+					level = 10
+					instant_build = yes
+				}
+			}
+			add_war_support = 0.4
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = CAN_nowar
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 1
+		y = 1
+		relative_position_id = CAN_tsf
+		prerequisite = {
+			focus = CAN_tsf
+		}
+		# mutually_exclusive = {
+		# 	focus = CAN_yeswar
+		# }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		completion_reward = {
+			add_political_power = 200
+			464 = {
+				add_extra_state_shared_building_slots = 15
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
+			}
+			466 = {
+				add_extra_state_shared_building_slots = 15
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
+			}
+			add_stability = 0.7
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+}

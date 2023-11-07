@@ -1,0 +1,451 @@
+capital = 43 #首都
+add_dynamic_modifier = { modifier = "BETA战术改进" }
+1999.1.1 = {
+	oob = "H11_1999"
+
+	add_to_war = { targeted_alliance = BET enemy = UNI } #戦争状態を設定
+	
+	set_technology = { #初期研究を定義
+		###陸軍ドクトリン###
+		pocket_defence = 1
+		defence_in_depth = 1
+		peoples_army = 1
+		human_infantry_offensive = 1
+		large_front_offensive = 1
+		beta_combat_tactics = 1
+		MVLV_beta_tec = 1
+		basic_train = 1
+		wartime_train = 1
+	}
+	add_ideas = { #初期国家精神を定義
+		hive_phase_5
+		limited_exports
+		limited_conscription
+		partial_economic_mobilisation
+	}
+	
+	set_convoys = 0 #初期輸送船数を定義
+}
+set_stability = 1 #初期安定度を定義
+set_war_support = 1 #初期戦争協力度を定義
+
+set_research_slots = 0 #初期研究枠を定義
+
+army_experience = 0 #初期陸軍経験値を定義
+
+add_political_power = 2000 #初期政治力を定義
+
+#add_offsite_building = { type = arms_factory level = 50 } #MAP外軍需を定義
+#add_offsite_building = { type =   arms_factory level = 125 } #MAP外軍需を定義
+#add_offsite_building = { type =   industrial_complex level = 50 } #MAP外民需を定義
+
+set_politics = { #初期政体を定義
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = { #初期支持率を定義
+	fascism = 100
+}
+
+###各政体における指導者を定義###
+create_country_leader = {
+	name = "头脑级"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "zunou.dds"
+	expire = "2040.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+	
+create_country_leader = {
+	name = "头脑级"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "zunou.dds"
+	expire = "2040.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "头脑级"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "zunou.dds"
+	expire = "2040.1.1"
+	ideology = centrism
+	traits = {
+		
+	}
+}
+
+###初期将軍及び元帥を定義###
+create_field_marshal = {
+	name = "要塞级"
+	gfx = "GFX_要塞级头像"
+	traits = {
+		offensive_doctrine
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "头脑级"
+	gfx = "GFX_头脑级头像"
+	traits = {
+		offensive_doctrine
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "兵士级"
+	gfx = "GFX_兵士级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "2号兵士级"
+	gfx = "GFX_兵士级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "3号兵士级"
+	gfx = "GFX_兵士级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "光线级"
+	gfx = "GFX_光线级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "2号光线级"
+	gfx = "GFX_光线级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "3号光线级"
+	gfx = "GFX_光线级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "战车级"
+	gfx = "GFX_战车级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "2号战车级"
+	gfx = "GFX_战车级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "3号战车级"
+	gfx = "GFX_战车级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "突击级"
+	gfx = "GFX_突击级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "2号突击级"
+	gfx = "GFX_突击级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "3号突击级"
+	gfx = "GFX_突击级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "斗士级"
+	gfx = "GFX_斗士级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "2号斗士级"
+	gfx = "GFX_斗士级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "3号斗士级"
+	gfx = "GFX_斗士级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "要击级"
+	gfx = "GFX_要击级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "2号要击级"
+	gfx = "GFX_要击级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "3号要击级"
+	gfx = "GFX_要击级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "重光线级"
+	gfx = "GFX_重光线级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "2号重光线级"
+	gfx = "GFX_重光线级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "3号重光线级"
+	gfx = "GFX_重光线级头像"
+	traits = {
+		trickster
+		trait_engineer
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+###初期提督を定義###

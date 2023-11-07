@@ -1,0 +1,6 @@
+spriteTypes = {	spriteType = {
+		name = "GFX_战术机设计器蓝图"
+		textureFile = "gfx/interface/equipmentdesigner/TSF/designer/战术机设计器蓝图.dds"
+		legacy_lazy_load = no
+	}
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=800
+	name="STATE_800" # Krasnoyarsk
+	manpower = 35000000
+	state_category = rural
+
+	history = {
+		1999.1.1 = {
+			owner = H15
+			add_core_of = H15
+			
+			victory_points = {
+				4724 100
+			}
+			
+			buildings = {
+				hive = 1
+				radar_station = 1
+#			         anti_air_building = 3
+				4724 = { bunker = 2 }
+			}
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SOV
+		victory_points = { 4724 10 }
+	}
+
+	provinces={
+		4724
+	}
+}

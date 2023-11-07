@@ -1,0 +1,31 @@
+
+state={
+	id=436
+	name="STATE_436"
+	resources={
+		chromium=4.000
+	}
+
+	history={
+		1999.1.1 = {
+			owner = H13
+			remove_core_of = H13
+
+		}
+		owner = GEU
+		add_core_of = GEU
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1510 4557 4883 7430 7497 7574 7619 8120 10030 10401 12375 12420 12480 12781 12854 
+	}
+	manpower=14123100
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

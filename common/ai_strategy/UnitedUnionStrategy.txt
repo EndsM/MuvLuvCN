@@ -1,0 +1,83 @@
+#人類国家の遠征军を制限
+send_volunteers_limiter = {
+	enable = {
+		is_ai = yes
+		has_war = yes
+		date > 1998.12.31
+		OR = {
+			TAG = AFR
+			TAG = EUR
+			TAG = EEA
+			TAG = JAP
+			TAG = SOV
+			TAG = GEU
+			TAG = CHI
+			TAG = USA
+		}
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = AFR
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = UNI
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = CHI
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = JAP
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = SOV
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = EUR
+		value = -100
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = EEA
+		value = -100
+	}
+}
+
+#駐屯師団数を抑制
+garrison = {
+	enable = {
+		is_ai = yes
+		has_war = yes
+		date > 1998.12.31
+		OR = {
+			TAG = AFR
+			TAG = EUR
+			TAG = EEA
+			TAG = JAP
+			TAG = SOV
+			TAG = GEU
+			TAG = CHI
+		}
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = -10
+	}
+}

@@ -1,0 +1,384 @@
+ideas = {
+# TECHNOLOGY
+	naval_manufacturer = {
+		
+		designer = yes
+		
+		kure_naval_arsenal = {
+			
+			
+			allowed = {
+				original_tag = JAP
+			}
+
+			available = {
+				has_completed_focus = JAP_supremacy_of_the_battlefleet
+			}
+
+			cost = 75
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { battlefleet_designer } # built Yamato
+
+		}
+		
+		yokosuka_naval_arsenal = {
+						
+			allowed = {
+				original_tag = JAP
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { pacific_fleet_naval_manufacturer } #built best CVs
+
+			equipment_bonus = {
+				# 
+			}
+		}
+		
+		maizuru_naval_arsenal = {
+						
+			allowed = {
+				original_tag = JAP
+			}
+				
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { convoy_escort_naval_manufacturer } #destroyer R&D
+
+			equipment_bonus = {
+				# 
+			}
+		}
+		
+		sasebo_naval_arsenal = {
+			
+			allowed = {
+				original_tag = JAP
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { coastal_defence_naval_manufacturer } #used for many repairs and conversions
+			
+			equipment_bonus = {
+				
+			}
+		}	
+	}
+	
+	aircraft_manufacturer = {
+		
+		designer = yes
+		
+		mitsubishi = {
+						
+			allowed = {
+				original_tag = JAP		
+			}
+		
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+                    maximum_speed = 0.15
+					hard_attack = 0.05
+				}
+			}
+
+			modifier = {
+
+			}
+		}
+
+		aichi = {
+			allowed = {
+				original_tag = JAP
+			}
+			research_bonus = {
+				armor = 0.15
+			}
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+		            air_attack = 0.10
+				}
+            }
+			traits = { medium_tank_manufacturer }
+		}
+		
+		nakajima = {
+						
+			allowed = {
+				original_tag = JAP
+			}
+			research_bonus = {
+				armor = 0.15
+			}
+			traits = {  }
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+					build_cost_ic = 0.15
+					ap_attack = 0.1
+					hard_attack = 0.25
+				}
+			}
+		}
+		
+		yokosuka = {
+						
+			allowed = {
+				original_tag = JAP
+			}
+			research_bonus = {
+				armor = 0.15
+			}
+			traits = {  }
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+					defense = 0.15
+				}
+			}
+		}
+	}
+	
+	
+	industrial_concern = {
+	
+		kawasaki = {
+			
+			allowed = {
+				original_tag = JAP
+			}
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+		}
+		
+		
+		sumitomo = {
+						
+			allowed = {
+				original_tag = JAP
+			}
+						
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}
+
+		JAP_idemitsu_kosan = {
+						
+			picture = generic_industrial_concern_2
+			
+			allowed = {
+				original_tag = JAP
+			}
+						
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.1
+			}
+			
+			traits = { refinery_concern }
+		}
+	}
+	
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		tokyo_arsenal = {
+			
+			allowed = {
+				original_tag = JAP
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		
+		nissan = {
+						
+			allowed = {
+				original_tag = JAP
+			}
+						
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+	}
+	
+	
+	tank_manufacturer = {
+	
+		designer = yes
+	
+		osaka_army_arsenal = {
+			
+			allowed = {
+				original_tag = JAP
+			}
+				
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+			
+			equipment_bonus = {
+				medium_tank_equipment = {
+					build_cost_ic = -0.1
+				}
+				light_tank_equipment = {
+					build_cost_ic = -0.1
+				}
+			}
+		}	
+	}
+	
+	theorist = {
+		
+		tomoyuki_yamashita = {
+						
+			allowed = {
+				original_tag = JAP
+			}
+			
+			cost = 250
+						
+			research_bonus = {
+				cat_grand_battle_plan = 0.15
+			}
+			
+			traits = { grand_battle_plan_expert }
+		}
+		
+		hisaichi_terauchi = {
+						
+			allowed = {
+				original_tag = JAP
+			}
+						
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		isoroku_yamamoto = {
+						
+			allowed = {
+				original_tag = JAP
+			}
+			
+			cost = 250
+						
+			research_bonus = {
+				cat_base_strike = 0.15
+			}
+			
+			traits = { naval_aviation_pioneer }
+		}
+		
+		minoru_genda = {
+						
+			allowed = {
+				original_tag = JAP
+			}
+						
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}
+		
+		yoshitoshi_tokugawa = {
+						
+			allowed = {
+				original_tag = JAP
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_operational_integrity = 0.15
+			}
+			
+			traits = { assault_avaition }
+		}
+		
+		hino_kumazo = {
+						
+			allowed = {
+				original_tag = JAP
+			}	
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+		
+		yoshio_nishina = {
+			
+			
+			allowed = {
+				original_tag = JAP
+			}
+			
+
+			
+			research_bonus = {
+				nuclear = 0.15
+			}
+			
+			traits = { nuclear_scientist }
+		}
+		
+		hideo_itokawa = {
+			
+			
+			allowed = {
+				original_tag = JAP
+			}
+			
+
+			
+			research_bonus = {
+				rocketry = 0.15
+			}
+			
+			traits = { rocket_scientist }
+		}
+	}	
+	
+	
+}

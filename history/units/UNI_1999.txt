@@ -1,0 +1,1281 @@
+﻿##### OOB #####
+units = {
+	# 第一線兵団
+	division = {
+		location = 4153
+		division_template = "重装旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 4153
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 4122
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 4122
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 11989
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 11989
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 11908
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 11908
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 1097
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 1097
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 1182
+		division_template = "轻装师"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 1182
+		division_template = "轻装师"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 1182
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 1182
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 1113
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 1113
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		location = 1113
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		location = 4000
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		location = 4000
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		location = 11374
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 11374
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 11374
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	# division = {
+	# 	name = 海兵隊
+	# 	location = 11374
+	# 	division_template = "海兵隊"
+	# 	start_experience_factor = 1
+	# 	start_equipment_factor = 1
+	# }
+	division = {
+		location = 3501
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 3501
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		location = 3501
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 9458
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 9458
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 9458
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 540
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 540
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		location = 540
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 540
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 6103
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 6103
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 6103
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 12049
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 12049
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 12049
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 12049
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 9957
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 9957
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 9955
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 9955
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 7214
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 7214
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 10158
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 10158
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		location = 1308
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 1308
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		location = 4744
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 4744
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		location = 13063
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 13063
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 13063
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 4073
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 4073
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 4073
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 9957
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 9957
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 9957
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 11969
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 11969
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 11969
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 2227
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 2227
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 2227
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 4159
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 4159
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		name = "A-01連隊"
+		location = 13218
+		division_template = "战术机联队"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_high_mobility = {
+				owner = "JAP"
+				creator = JAP
+				version_name = "94式 不知火"
+			}
+		}
+	}
+	division = {
+		location = 13218
+		division_template = "轻装师"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 13218
+		division_template = "轻装师"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 13218
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "JAP"
+				creator = JAP
+				version_name = "77式 击震"
+			}
+		}
+	}
+	division = {
+		location = 13218
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "JAP"
+				creator = JAP
+				version_name = "77式 击震"
+			}
+		}
+	}
+	division = {
+		location = 13218
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 13218
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 13218
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 13218
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 4067
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 4014
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		location = 4014
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 4014
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	#スリランカ
+	#____________________________________________________________
+	division = {
+		location = 10201
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 10201
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 10201
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	#北極海
+	#____________________________________________________________
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy  = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy  = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy  = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy  = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-23"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-23"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	#樺太
+	#____________________________________________________________
+	division = {
+		location = 1742
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy  = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 1742
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy  = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 1742
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	#____________________________________________________________
+	division = {
+		name = "第1轨道降下兵团"
+		location = 4287
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15E打击鹰"
+			}
+		}
+	}
+	division = {
+		name = "第2轨道降下兵团"
+		location = 4287
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15E打击鹰"
+			}
+		}
+	}
+	division = {
+		name = "第3轨道降下兵团"
+		location = 4287
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15E打击鹰"
+			}
+		}
+	}
+	division = {
+		name = "第4轨道降下兵团"
+		location = 12689
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		name = "第5轨道降下兵团"
+		location = 12689
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		name = "第6轨道降下兵团"
+		location = 12689
+		division_template = "轨道降下兵团"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		name = "第7轨道降下兵团"
+		location = 5222
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		name = "第8轨道降下兵团"
+		location = 5222
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		name = "第9轨道降下兵团"
+		location = 5222
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		name = "第10轨道降下兵团"
+		location = 7112
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		name = "第11轨道降下兵团"
+		location = 7112
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+	division = {
+		name = 第12轨道降下兵团
+		location = 7112
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15C鹰"
+			}
+		}
+	}
+}
+
+## Air oob
+air_wings = {
+	357 = {
+		# fighter_equipment_1 = {
+		# 	owner = "UNI"
+		# 	amount = 1920
+		# }
+		# name = "炮击部队"
+		transport_plane_equipment_1 = {
+			owner = "UNI"
+			amount = 3
+		}
+		name = "国联宇宙总军第一舰队"
+		# CAS_equipment_2 = {
+		# 	owner = "UNI"
+		# 	amount = 1980
+		# }
+		# name = "炮击部队"
+	}
+	100 = {
+		# fighter_equipment_1 = {
+		# 	owner = "UNI"
+		# 	amount = 320
+		# }
+		# name = "炮击部队"
+		transport_plane_equipment_1 = {
+			owner = "UNI"
+			amount = 3
+		}
+		name = "国联宇宙总军第二舰队"
+		# CAS_equipment_2 = {
+		# 	owner = "UNI"
+		# 	amount = 380
+		# }
+		# name = "炮击部队"
+	}
+	629 = {
+		# fighter_equipment_1 = {
+		# 	owner = "UNI"
+		# 	amount = 320
+		# }
+		# name = "炮击部队"
+		transport_plane_equipment_1 = {
+			owner = "UNI"
+			amount = 3
+		}
+		name = "国联宇宙总军第三舰队"
+		# CAS_equipment_2 = {
+		# 	owner = "UNI"
+		# 	amount = 380
+		# }
+		# name = "炮击部队"
+	}
+	543 = {
+	# 	fighter_equipment_1 = {
+	# 		owner = "UNI"
+	# 		amount = 320
+	# 	}
+	# 	name = "炮击部队"
+		transport_plane_equipment_1 = {
+			owner = "UNI"
+			amount = 3
+		}
+		name = "国联宇宙总军第四舰队"
+	# 	CAS_equipment_2 = {
+	# 		owner = "UNI"
+	# 		amount = 380
+	# 	}
+	# 	name = "炮击部队"
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "UNI"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "UNI"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "UNI"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = tsf_equipment_0
+			creator = "UNI"
+		}
+		requested_factories = 5
+		progress = 0.2
+		efficiency = 30
+	}
+	add_equipment_production = {
+		equipment = {
+			type = medium_tank_equipment_1
+			creator = "UNI"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 100
+	}
+}

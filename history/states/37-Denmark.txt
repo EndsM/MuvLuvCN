@@ -1,0 +1,37 @@
+state= {
+	id=37
+	name="STATE_37"
+	manpower = 2034114
+
+	state_category = large_city
+
+	history=
+	{  1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			add_core_of = EUR
+			remove_core_of = DEN
+
+			#ロヴァニエミ陥落用
+			add_claim_by = H08
+		}
+		owner = DEN
+		victory_points = { 
+			6287 1 
+		}
+		victory_points = {
+			3325 5
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 6
+		}
+		add_core_of = DEN
+	}
+
+	provinces= {
+		3260 3305 3325 3374 6287 6361 6393 
+	}
+}

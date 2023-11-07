@@ -1,0 +1,11 @@
+music_station = "base_music"
+## Main Theme - Allies is swaped to Muvluv Extra 21
+## This is original Main Theme - Allies
+music = {
+	song = "maintheme_original"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}

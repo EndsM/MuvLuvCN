@@ -1,0 +1,23 @@
+spriteTypes = {
+
+	spriteType = { 
+		name = "GFX_beta_air_1_medium"				
+		textureFile = "gfx/interface/technologies/laser_class.dds"  
+	}
+   
+	spriteType = { 
+		name = "GFX_beta_air_2_medium"						
+		textureFile = "gfx/interface/technologies/hevy_laser.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_human_air_1_medium"
+		texturefile = "gfx/interface/technologies/anti_laser.dds"
+	}
+
+	spriteType = {
+		name = "GFX_human_air_2_medium"
+		texturefile = "gfx/interface/technologies/shell.dds"
+	}
+
+}

@@ -1,0 +1,489 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			set_global_flag = killed_population_set
+			set_global_flag = radiation_var_set
+			set_global_flag = radiation_anarchy_when_set
+			set_variable = { global.death_by_nukes_radiation = 0.0 }
+			set_variable = { global.death_by_nukes_radiation_m = 0.0 }
+			set_variable = { global.death_by_nukes_radiation_b = 0.0 }
+			set_variable = { global.death_by_nukes = 0.0 }	
+			every_state = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nukes_kiled_population
+							option = RULE_RN_0KILL
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = killed_population_multiplied
+							value = 0.00
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nukes_kiled_population
+							option = RULE_RN_1KILL
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = killed_population_multiplied
+							value = -2.50
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nukes_kiled_population
+							option = RULE_RN_2KILL
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = killed_population_multiplied
+							value = -5.00
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nukes_kiled_population
+							option = RULE_RN_3KILL
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = killed_population_multiplied
+							value = -7.50
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nukes_kiled_population
+							option = RULE_RN_35KILL
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = killed_population_multiplied
+							value = -8.75
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nukes_kiled_population
+							option = RULE_RN_4KILL
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = killed_population_multiplied
+							value = -10.00
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nukes_kiled_population
+							option = RULE_RN_5KILL
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = killed_population_multiplied
+							value = -12.50
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nukes_kiled_population
+							option = RULE_RN_6KILL
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = killed_population_multiplied
+							value = -15.00
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nukes_kiled_population
+							option = RULE_RN_8KILL
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = killed_population_multiplied
+							value = -20.00
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nukes_kiled_population
+							option = RULE_RN_10KILL
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = killed_population_multiplied
+							value = -25.00
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nukes_kiled_population
+							option = RULE_RN_15KILL
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = killed_population_multiplied
+							value = -37.50
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nukes_kiled_population
+							option = RULE_RN_20KILL
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = killed_population_multiplied
+							value = -50.00
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nuke_radiation_level
+							option = RULE_RN_0_NUKE_RADIATION
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = radiation_var_on_nuke
+							value = 0.000
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nuke_radiation_level
+							option = RULE_RN_03_NUKE_RADIATION
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = radiation_var_on_nuke
+							value = 0.300
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nuke_radiation_level
+							option = RULE_RN_05_NUKE_RADIATION
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = radiation_var_on_nuke
+							value = 0.500
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nuke_radiation_level
+							option = RULE_RN_08_NUKE_RADIATION
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = radiation_var_on_nuke
+							value = 0.800
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nuke_radiation_level
+							option = RULE_RN_1_NUKE_RADIATION
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = radiation_var_on_nuke
+							value = 1.000
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nuke_radiation_level
+							option = RULE_RN_15_NUKE_RADIATION
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = radiation_var_on_nuke
+							value = 1.500
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nuke_radiation_level
+							option = RULE_RN_2_NUKE_RADIATION
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = radiation_var_on_nuke
+							value = 2.000
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nuke_radiation_level
+							option = RULE_RN_3_NUKE_RADIATION
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = radiation_var_on_nuke
+							value = 3.000
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nuke_radiation_level
+							option = RULE_RN_5_NUKE_RADIATION
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = radiation_var_on_nuke
+							value = 5.000
+						}
+					}	
+				}
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rn_nuke_radiation_level
+							option = RULE_RN_10_NUKE_RADIATION
+						}
+					}
+					every_state = {
+						set_variable = {
+							var = radiation_var_on_nuke
+							value = 10.000
+						}
+					}	
+				}
+			}
+		}
+	}   
+	on_nuke_drop = {
+	    effect = {
+            FROM = {
+			    set_temp_variable = {
+					var = killed_population
+					value = state_population_k
+				}
+				multiply_temp_variable = {
+					var = killed_population
+					value = killed_population_multiplied
+				}
+				add_manpower = killed_population
+				add_manpower = killed_population
+				add_manpower = killed_population
+				add_manpower = killed_population
+				if = {
+					limit = {
+						NOT = {
+							has_state_flag = has_radiation
+							has_game_rule = {
+								rule = rn_nuke_radiation_level
+								option = RULE_RN_0_NUKE_RADIATION
+							}
+						}
+					}
+					add_dynamic_modifier = { modifier = radiation_state_modifier }
+					set_state_flag = has_radiation
+					set_variable = {
+						var = radiation_var
+						value = 0.100
+					}
+				}
+				add_to_variable = {
+					var = radiation_var
+					value = radiation_var_on_nuke
+				}
+				update_radiation_effects = yes
+				multiply_temp_variable = {
+					var = killed_population
+					value = -0.001
+				}
+				add_to_variable = { global.death_by_nukes_radiation = killed_population }
+				add_to_variable = { global.death_by_nukes_radiation = killed_population }
+				add_to_variable = { global.death_by_nukes_radiation = killed_population }
+				add_to_variable = { global.death_by_nukes_radiation = killed_population }
+				multiply_temp_variable = {
+					var = killed_population
+					value = -0.001
+				}
+				add_to_variable = { global.death_by_nukes_radiation_m = killed_population }
+				add_to_variable = { global.death_by_nukes_radiation_m = killed_population }
+				add_to_variable = { global.death_by_nukes_radiation_m = killed_population }
+				add_to_variable = { global.death_by_nukes_radiation_m = killed_population }
+				multiply_temp_variable = {
+					var = killed_population
+					value = -0.001
+				}
+				add_to_variable = { global.death_by_nukes_radiation_b = killed_population }
+				add_to_variable = { global.death_by_nukes_radiation_b = killed_population }
+				add_to_variable = { global.death_by_nukes_radiation_b = killed_population }
+				add_to_variable = { global.death_by_nukes_radiation_b = killed_population }
+			}
+			#if = {
+			#	limit = {
+			#		has_global_flag = division_province_50
+			#	}
+			#	damage_units = {
+			#		state = FROM
+			#		province = FROM
+			#		limit = { always = yes }
+			#		damage = 0.9
+			#		org_damage = 0.1
+			#		str_damage = 0.1
+			#		ratio = yes #will damage a ratio damage to total org/str of unit if set
+			#		army = yes
+			#		navy = yes #will damage navies
+			#	}
+			#}
+			#damage_units = {
+			#  #specify a location
+			#  province = 42
+			#  state = 5
+			#  region = 5
+			#  limit = { always = yes } #you can add a trigger for country check
+			#  damage = 0.5 #if defined will damage both org & str damage with this amount
+			#  org_damage = 0.5
+			#  str_damage = 0.5
+			#  ratio = yes #will damage a ratio damage to total org/str of unit if set
+			#  template = "template_name" #you can limit army templates to damage  army = yes #will damage armies
+			#  navy = yes #will damage navies
+			#}
+		}
+	}
+	on_daily = {
+		effect = {
+			every_controlled_state = {
+				limit = {
+					has_state_flag = has_radiation
+				}
+				set_temp_variable = {
+					var = 2_percentual
+					value = radiation_var
+				}
+				multiply_temp_variable = {
+					var = 2_percentual
+					value = 0.975
+				}
+				set_variable = {
+					var = radiation_var
+					value = 2_percentual
+				}
+				add_to_variable = {
+					var = radiation_var
+					value = -0.01
+				}
+				update_radiation_effects = yes
+				if = {
+					limit = {
+						check_variable = {
+							var = radiation_var
+							value = 0.001
+							compare = less_than
+						}
+					}
+					clr_state_flag = has_radiation
+					clear_variable = radiation_var
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_game_rule = {
+								rule = rn_radiation_anarchy_when
+								option = RULE_RN_NO_NUKE_RADIATION_ANARCHY
+							}
+							is_owned_by = G4P 
+						}
+						check_variable = {
+							var = radiation_var
+							value = anarchy_when_radiation_x
+							compare = greater_than_or_equals
+						}
+					}
+					#transfer_state_to = G4P
+					#set_demilitarized_zone = yes
+				}
+				set_temp_variable = {
+					var = killed_population
+					value = state_population_k
+				}
+				multiply_temp_variable = {
+					var = killed_population
+					value = -0.196
+				}
+				multiply_temp_variable = {
+					var = killed_population
+					value = radiation_var
+				}
+				add_manpower = killed_population
+				multiply_temp_variable = {
+					var = killed_population
+					value = -0.001
+				}
+				add_to_variable = { global.death_by_nukes = killed_population }	
+			}
+		} 
+	}
+}

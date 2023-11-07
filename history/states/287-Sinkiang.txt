@@ -1,0 +1,76 @@
+state={
+	id=287
+	name="STATE_287"
+	manpower=100000000
+	state_category=hive
+	buildings_max_level_factor = 10.000
+	
+	provinces={
+		4973 8042 8086 10885 10911 12864 13248 13249 13250 13251 13252 13253 13255 13256 13257 13258 13259 13260 13261
+	}
+#	resources={
+#		steel=250
+#		oil=250
+#		aluminium=250
+#		rubber=15
+#		tungsten=250
+#		chromium=250
+#	}
+
+	history={
+		owner = BET
+		add_core_of = BET
+		add_core_of = UNI
+
+		#ボパール陥落用
+		add_claim_by = H13
+		
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 5
+		}
+		
+		1999.1.1 = {
+
+		}
+		
+
+		victory_points = {
+			13252 20
+		}
+		victory_points = {
+			13251 20
+		}
+		victory_points = {
+			13256 20
+		}
+		victory_points = {
+			13253 20
+		}
+		victory_points = {
+			13248 20
+		}
+		victory_points = {
+			13255 1
+		}
+		victory_points = {
+			13250 1
+		}
+		victory_points = {
+			13257 1
+		}
+		victory_points = {
+			13258 5
+		}
+		victory_points = {
+			13259 5
+		}
+		victory_points = {
+			13260 20
+		}
+		victory_points = {
+			13261 20
+		}
+	}
+}

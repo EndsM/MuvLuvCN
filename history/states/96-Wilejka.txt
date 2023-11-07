@@ -1,0 +1,35 @@
+
+state={
+	id=96
+	name="STATE_96"
+
+	history={
+		1999.1.1 = {
+			owner = H05
+			remove_core_of = H05
+			add_core_of = SOV
+			remove_core_of = POL
+			remove_core_of = BLR
+
+		}
+		victory_points = {
+			406 1 
+		}
+		owner = POL
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = POL
+		add_core_of = BLR
+
+	}
+
+	provinces={
+		233 11391 
+	}
+	manpower=726000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

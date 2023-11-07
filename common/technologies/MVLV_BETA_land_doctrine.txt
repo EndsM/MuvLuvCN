@@ -1,0 +1,13 @@
+technologies = {
+	beta_combat_tactics = {
+		doctrine = yes
+		research_cost = 100.0
+		
+		categories = {
+			land_doctrine
+		}
+
+		enable_tactic = tactic_beta_underground_assault
+		enable_tactic = tactic_beta_hive_inner_combat
+	}
+}

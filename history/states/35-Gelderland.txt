@@ -1,0 +1,38 @@
+
+state={
+	id=35
+	name="STATE_35" # Brabant
+
+
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			add_core_of = EUR
+			remove_core_of = HOL
+		}
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+
+		}
+		victory_points = {
+			3262 5 
+		}
+		victory_points = {
+			6496 3 
+		}
+		victory_points = {
+			11562 1 
+		}
+
+	}
+
+	provinces={
+		480 3262 6496 6500 9431 11456 11562 
+	}
+	manpower=1449000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

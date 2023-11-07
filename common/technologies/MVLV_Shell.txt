@@ -1,0 +1,8 @@
+technologies = {
+	MVLV_shell_tech = {
+		enable_equipments = {
+			MVLV_shell_equipment_1
+			#MVLV_AL_shell_equipment_1 #
+		}
+	}
+}

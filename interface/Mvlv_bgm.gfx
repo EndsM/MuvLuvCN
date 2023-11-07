@@ -1,0 +1,32 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Muv-Luv-Extra_art"
+		textureFile = "gfx/Muv-Luv-Extra_art.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_Muv-Luv-Alternative_art"
+		textureFile = "gfx/Muv-Luv-Alternative_art.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_Muv-Luv-Others_art"
+		textureFile = "gfx/Muv-Luv-Others_art.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_Schwarzesmarken_art"
+		textureFile = "gfx/Schwarzesmarken_art.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_Muv-Luv-TV_art"
+		textureFile = "gfx/Muv-Luv-Alternative_art.dds"
+		noOfFrames = 2
+	}
+	
+}

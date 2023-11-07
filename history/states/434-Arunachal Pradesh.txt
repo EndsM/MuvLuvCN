@@ -1,0 +1,27 @@
+
+state={
+	id=434
+	name="STATE_434"
+	manpower = 200000
+	
+	state_category = wasteland
+	resources={
+		tungsten=49 # was: 54
+	}
+
+	history = { 1999.1.1 = { 
+			owner = H13
+			remove_core_of = H13
+		}
+		owner = GEU
+		add_core_of = GEU
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1116 1996 10810 12322 12730 
+	}
+}

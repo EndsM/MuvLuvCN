@@ -1,0 +1,23 @@
+add_namespace = mvlv_soa
+country_event = {
+	id = mvlv_soa.1
+	desc = mvlv_soa.1.d
+	title = mvlv_soa.1.t
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_can.1.a
+	}
+}
+country_event = {
+	id = mvlv_soa.2
+	desc = mvlv_soa.2.d
+	title = mvlv_soa.2.t
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_soa.2.a
+	}
+}

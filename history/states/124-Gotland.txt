@@ -1,0 +1,25 @@
+state=
+{
+	id=124
+	name="STATE_124"
+	manpower = 56988
+	
+	state_category = small_island
+	
+	history=
+	{ 1999.1.1 = { 
+			owner = H08
+			remove_core_of = H08
+			add_core_of = EUR
+			remove_core_of = SWE
+		}
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		408 6258
+	}
+}

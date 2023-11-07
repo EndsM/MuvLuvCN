@@ -1,0 +1,598 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_MVLV_research_A6_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_A-6.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_A10_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_A-10.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_A10C_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_A-10C.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_A12_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_A-12.dds"
+	}
+	# SpriteType = {
+	# 	name = "GFX_tsf_equipment_A-6_medium"
+	# 	texturefile = "gfx/interface/technologies/TSF/TSF_A-6.dds"
+	# }
+	# SpriteType = {
+	# 	name = "GFX_tsf_equipment_A-12_medium"
+	# 	texturefile = "gfx/interface/technologies/TSF/TSF_A-12.dds"
+	# }
+	# SpriteType = {
+	# 	name = "GFX_tsf_equipment_A-10_medium"
+	# 	texturefile = "gfx/interface/technologies/TSF/TSF_A-10.dds"
+	# }
+	# SpriteType = {
+	# 	name = "GFX_tsf_equipment_A-10C_medium"
+	# 	texturefile = "gfx/interface/technologies/TSF/TSF_A-10C.dds"
+	# }
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_tsf_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_basic.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_1_heavy_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_F-4.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_1_light_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_F-5.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_2_light_normal_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_F-16.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_2_light_high_mobility_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_Type-97UN.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_2_heavy_normal_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_F-15.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_2_heavy_high_mobility_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_Type-94.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_3_light_normal_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_JAS-39.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_3_light_high_mobility_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_Su-47.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_3_heavy_normal_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_Rafale.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_3_heavy_high_mobility_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_Type-10.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_3_light_normal_stealth_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_F-35.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_3_light_high_mobility_stealth_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_Su-57.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_3_heavy_normal_stealth_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_F-22.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_3_heavy_high_mobility_stealth_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_YF-23.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_tsf_4_framework_medium"
+		texturefile = "gfx/interface/technologies/TSF/TSF_XF-2000a.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_sensor_system_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/传感器系统.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_vibration_sensor_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/震动传感器.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_vibration_sensor_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/震动传感器.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_vibration_sensor_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/震动传感器.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_vibration_sensor_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/震动传感器.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_infrared_sensor_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/红外传感器.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_infrared_sensor_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/红外传感器.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_infrared_sensor_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/红外传感器.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_infrared_sensor_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/红外传感器.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_photo_sensor_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/光学传感器.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_photo_sensor_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/光学传感器.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_photo_sensor_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/光学传感器.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_photo_sensor_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/光学传感器.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_radar_sensor_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/雷达.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_radar_sensor_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/雷达.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_radar_sensor_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/雷达.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_radar_sensor_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/雷达.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_integrated_sensor_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/传感器系统.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_integrated_sensor_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/传感器系统.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_integrated_sensor_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/传感器系统.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_integrated_sensor_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/传感器系统.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_assault_cannon_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/基本突击炮.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_assault_cannon_1_close_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/一代近战突击炮.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_assault_cannon_1_normal_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/一代突击炮.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_assault_cannon_2_normal_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/二代突击炮.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_assault_cannon_3_close_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/三代近战突击炮.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_assault_cannon_3_normal_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/三代突击炮.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_railgun_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/电磁炮.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_railgun_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/电磁炮改进型.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_armor_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/基本装甲.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_armor_heavy_alloy_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/重型合金装甲.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_armor_composite_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/复合材料装甲.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_armor_light_composite_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/轻量化复合材料装甲.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_armor_light_self_repair_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/轻量化自修复装甲.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_fire_control_upd_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/FCS.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_fire_control_upd_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/FCS.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_fire_control_upd_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/FCS.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_fire_control_upd_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/FCS.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_OS_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_OS_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_OS_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_OS_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_OS_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_OS_close_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS近战.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_OS_1_close_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS近战.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_OS_2_close_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS近战.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_OS_3_close_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS近战.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_OS_4_close_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS近战.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_OS_range_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS远程.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_OS_1_range_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS远程.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_OS_2_range_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS远程.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_OS_3_range_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS远程.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_OS_4_range_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/OS远程.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_engine_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/基本引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_engine_fuel_efficiency_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/燃油效率引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_engine_mid_speed_cruising_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/中速巡航引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_engine_high_speed_cruising_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/高速巡航引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_engine_max_power_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/最大出力引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/基本引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_1_fuel_efficiency_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/燃油效率引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_1_mid_speed_cruising_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/中速巡航引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_1_high_speed_cruising_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/高速巡航引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_1_max_power_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/最大出力引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/基本引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_2_fuel_efficiency_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/燃油效率引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_2_mid_speed_cruising_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/中速巡航引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_2_high_speed_cruising_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/高速巡航引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_2_max_power_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/最大出力引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/基本引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_3_fuel_efficiency_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/燃油效率引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_3_mid_speed_cruising_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/中速巡航引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_3_high_speed_cruising_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/高速巡航引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_3_max_power_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/最大出力引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/基本引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_4_fuel_efficiency_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/燃油效率引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_4_mid_speed_cruising_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/中速巡航引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_4_high_speed_cruising_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/高速巡航引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_engine_4_max_power_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/最大出力引擎.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_head_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/基本头.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_head_small_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/小头.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_head_small_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/小头.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_head_small_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/小头2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_head_small_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/小头2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_head_normal_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/普通头.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_head_normal_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/普通头.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_head_normal_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/普通头2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_head_normal_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/普通头2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_head_spherical_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/圆头.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_head_spherical_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/圆头.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_head_spherical_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/圆头2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_head_spherical_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/圆头2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_back_hanger_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/基本挂架.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_back_upside_hanger_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/上翻挂架.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_back_downside_hanger_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/下翻挂架.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_back_gunblade_hanger_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/刀挂架.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_back_gunblade_hanger_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/刀挂架.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_back_general_hanger_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/基本挂架.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_back_supply_hanger_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/补给箱.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_back_general_hanger_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/基本挂架.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_phoenix_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/背部不死鸟.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_phoenix_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/背部不死鸟.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_general_missile_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/背部导弹.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_melee_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/前臂刀鞘.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_fixed_blade_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/机身固定刀板.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_blade_armor_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/机身刀片装甲.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_moto_knife_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/前臂马达刀.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_moto_knife_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/前臂马达刀2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_structural_enhance_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/结构增强.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_structural_enhance_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/结构增强.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_data_link_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/数据链.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_data_link_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/数据链.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_data_link_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/数据链.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_data_link_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/数据链.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_basic_coating_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/抗激光涂层.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_anti_laser_coating_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/抗激光涂层.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_anti_laser_coating_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/抗激光涂层.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_anti_laser_coating_3_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/抗激光涂层.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_anti_laser_coating_4_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/抗激光涂层.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_stealth_coating_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/隐形涂层.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_stealth_coating_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/隐形涂层.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_anti_laser_stealth_coating_1_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/双效涂层.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_anti_laser_stealth_coating_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/双效涂层.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_reactive_armor_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/反应装甲.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_research_multi_purpose_armor_medium"
+		texturefile = "gfx/interface/equipmentdesigner/TSF/modules/盾牌.dds"
+	}
+	# SpriteType = {
+	# 	name = "GFX_MVLV_research_sensor_system_medium"
+	# 	texturefile = "gfx/interface/technologies/artillery1.dds"
+	# }
+}

@@ -1,0 +1,262 @@
+ideas = {
+	country = {
+		#default national spirits
+		JAP_puppet_shogun = {
+			picture = JAP_puppet_shogun
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.25
+				war_support_weekly = 0.002
+			}
+		}
+		JAP_konoe = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_core_attack_factor = 0.1
+				training_time_army_factor = 0.1
+				industrial_capacity_factory = -0.1
+				army_org = 5
+				army_morale_factor = 0.05
+			}
+		}
+		JAP_kou21 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_core_attack_factor = 0.65
+				invasion_preparation = -1.5
+				army_org = 15
+				army_morale_factor = 0.05
+			}
+		}
+		JAP_reconquest_idea = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		western_japan_reconstruction = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_arms_factory_factor = 0.2
+				production_speed_industrial_complex_factor = 0.2
+				production_speed_infrastructure_factor = 0.2
+			}
+		}
+		JAP_shogun = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = 0.15
+				war_support_weekly = 0.01
+			}
+		}
+		JAP_killed_shougun = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = -0.35
+			}
+		}
+		JAP_information = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+		扩充斯卫军 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				training_time_army_factor = -0.05
+				special_forces_cap = 0.05
+			}
+		}
+		为AL4项目助力 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+				research_speed_factor = 0.15
+			}
+		}
+		明星作战的收尾 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_speed_factor = 0.1
+			}
+		}
+		重建防卫线 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
+			}
+		}
+		进口大东亚粮食 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		日式生产技术 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+		}
+		日苏技术交流协定 = {
+			allowed = {
+				always = no
+			}
+			research_bonus = {
+				MVLV_tsf_tech = 0.1
+			}
+		}
+		试验成功的电磁炮 = {
+			allowed = {
+				always = no
+			}
+			equipment_bonus = {
+				anti_tank_equipment = {
+					hard_attack = 0.1
+					soft_attack = 0.1
+					reliability = 0.1
+					instant = yes
+				}
+			}
+		}
+		联合生产电磁炮 = {
+			allowed = {
+				always = no
+			}
+			equipment_bonus = {
+				anti_tank_equipment = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+			}
+		}
+		战略研究会扩大 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_core_attack_factor = 0.025
+				army_core_defence_factor = 0.025
+				stability_factor = -0.1
+			}
+		}
+		战略研究会默许 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				stability_factor = -0.15
+			}
+		}
+		战略研究会渗透 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_core_attack_factor = 0.075
+				army_core_defence_factor = 0.075
+				stability_factor = -0.2
+			}
+		}
+		战略研究会异动 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				stability_factor = -0.3
+			}
+		}
+		宣传日本使命 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_weekly = 0.003
+				war_support_weekly = 0.003
+				industrial_capacity_factory = 0.05
+			}
+		}
+		强势内阁 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_factor = 0.25
+			}
+		}
+		NATO日本分部 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				max_planning = 0.1
+				planning_speed = 0.2
+				Experience_gain_army_unit_factor = 0.1
+				max_command_power = 100
+			}
+		}
+		美国口粮 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_weekly = 0.005
+				consumer_goods_factor = -0.05
+			}
+		}
+		家国传统 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				industrial_capacity_factory = 0.1
+				army_org = 5
+				army_morale_factor = 0.05
+				special_forces_cap = 0.05
+			}
+		}
+	}
+}

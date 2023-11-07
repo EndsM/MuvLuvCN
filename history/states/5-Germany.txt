@@ -1,0 +1,37 @@
+
+state={
+	id=5
+	name="STATE_5"
+	manpower = 3378108
+	state_category = large_city
+
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			remove_core_of = GER
+			add_core_of = EEA
+		}
+		owner = GER
+		controller = GER
+		
+		
+		victory_points = {
+			6375 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			6375 = {
+				bunker = 1
+
+			}
+			anti_air_building = 2
+			air_base = 6
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
+	}
+}

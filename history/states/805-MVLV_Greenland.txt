@@ -1,0 +1,34 @@
+state=
+{
+	id=805
+	name="STATE_805"
+	manpower = 6000000
+	
+	state_category = city
+	
+	history=
+	{
+		1999.1.1 = {
+			owner = EEA
+			add_core_of = EEA
+			add_core_of = EUR
+			remove_core_of = DEN
+		}
+		owner = DEN
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			10636 ={
+				naval_base = 1
+			}
+		}
+		add_core_of = DEN
+	}
+	provinces=
+	{
+10636 13058 13066 	}
+	resources={
+		aluminium=35
+		tungsten=15
+	}
+}

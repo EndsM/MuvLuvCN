@@ -1,0 +1,36 @@
+
+state={
+	id=32
+	name="STATE_32" 
+	manpower = 1007500
+	
+	state_category = town
+	
+	resources={
+		steel=30 # was: 56
+		aluminium=30 # was: 58
+	}
+
+	history = { 1999.1.1 = { 
+			owner = H12
+			add_core_of = H12
+			add_core_of = EUR
+			remove_core_of = FRA
+
+			#リヨン陥落用
+			#add_claim_by = H12
+		}
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			3768 1 
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		762 780 3589 3768 6784 11713 
+	}
+}

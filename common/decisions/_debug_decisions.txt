@@ -1,0 +1,669 @@
+debug_decisions = {
+
+	switch_idea_brokenhive_frontlinehive = {
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			every_country = {
+				if = {
+					limit = {
+						or = {
+							tag = H09
+							tag = H11
+							tag = H12
+							tag = H13
+							tag = H16
+							tag = H17
+							tag = H19
+							tag = H20
+							tag = H21
+							tag = H26
+						}
+						not = { has_idea = mvlv_brokenhive }
+					}
+					add_ideas = mvlv_brokenhive
+				} else_if = {
+					limit = {
+						or = {
+							tag = H09
+							tag = H11
+							tag = H12
+							tag = H13
+							tag = H16
+							tag = H17
+							tag = H19
+							tag = H20
+							tag = H21
+							tag = H26
+						}
+						has_idea = mvlv_brokenhive
+					}
+					remove_ideas = mvlv_brokenhive
+				}
+				
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	switch_idea_brokenhive_allhive = {
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			every_country = {
+				if = {
+					limit = {
+						is_in_faction_with = BET
+						not = { has_idea = mvlv_brokenhive }
+					}
+					add_ideas = mvlv_brokenhive
+				} else_if = {
+					limit = {
+						is_in_faction_with = BET
+						has_idea = mvlv_brokenhive
+					}
+					remove_ideas = mvlv_brokenhive
+				}
+				
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	switch_idea_thinning_state_frontlinehive = {
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			every_country = {
+				if = {
+					limit = {
+						or = {
+							tag = H09
+							tag = H11
+							tag = H12
+							tag = H13
+							tag = H16
+							tag = H17
+							tag = H19
+							tag = H20
+							tag = H21
+							tag = H26
+						}
+						not = { has_idea = hive_thinning_state }
+					}
+					add_ideas = hive_thinning_state
+				} else_if = {
+					limit = {
+						or = {
+							tag = H09
+							tag = H11
+							tag = H12
+							tag = H13
+							tag = H16
+							tag = H17
+							tag = H19
+							tag = H20
+							tag = H21
+							tag = H26
+						}
+						has_idea = hive_thinning_state
+					}
+					remove_ideas = hive_thinning_state
+				}
+				
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	switch_idea_thinning_state_allhive = {
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			every_country = {
+				if = {
+					limit = {
+						is_in_faction_with = BET
+						not = { has_idea = hive_thinning_state }
+					}
+					add_ideas = hive_thinning_state
+				} else_if = {
+					limit = {
+						is_in_faction_with = BET
+						has_idea = hive_thinning_state
+					}
+					remove_ideas = hive_thinning_state
+				}
+				
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	lunch_nf_operation_sado = {
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			UNI = {
+				complete_national_focus = UNI_207
+				complete_national_focus = UNI_xmos
+				complete_national_focus = UNI_00_unit
+				complete_national_focus = UNI_sadogashima
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	lunch_nf_operation_ouka = {
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			UNI = {
+				complete_national_focus = UNI_207
+				complete_national_focus = UNI_xmos
+				complete_national_focus = UNI_00_unit
+				complete_national_focus = UNI_sadogashima
+				complete_national_focus = UNI_operation_ouka
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	create_unit_on_kashgar = {
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			UNI = { load_oob = UNI_A04_unlock_test }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	create_unit_on_kashgar_sw115 = {
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			UNI = { load_oob = UNI_A04_unlock_SW115 }
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	lunch_nf_blue_flag = {
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			UNI = {
+				complete_national_focus = UNI_blue_flag
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	lunch_nf_yukon_base = {
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			UNI = {
+				complete_national_focus = UNI_yukon_base
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	lunch_nf_red_storm = {
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			SOV = {
+				complete_national_focus = SOV_main
+				complete_national_focus = SOV_rs
+				complete_national_focus = SOV_rs2
+				complete_national_focus = SOV_rs3
+				complete_national_focus = SOV_rs4
+				complete_national_focus = SOV_rs6
+				complete_national_focus = SOV_rs10
+				complete_national_focus = SOV_rs11
+				complete_national_focus = SOV_rs12
+				complete_national_focus = SOV_rs16
+				complete_national_focus = SOV_rs17
+				complete_national_focus = SOV_rs18
+				complete_national_focus = SOV_rs19
+				complete_national_focus = SOV_rs20
+				complete_national_focus = SOV_rs21
+				complete_national_focus = SOV_OperationRedStorm
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	play_song_Carryon = {
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			play_Carryon_effect = yes
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	play_song_AL41 = {
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			play_song_Alternative_41_effect = yes
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	create_operative_debug = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			create_operative_leader = {
+				bypass_recruitment = yes
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	create_recruitable_operative_not_to_spy_master_debug = {
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			create_operative_leader = {
+				bypass_recruitment = no
+				available_to_spy_master = no
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	create_recruitable_operative_debug = {
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			create_operative_leader = {
+				bypass_recruitment = no
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+
+	FRA_capture_operative_debug = {
+		available = {
+			NOT = { TAG = FRA }
+			num_of_operatives > 0
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			random_operative = {
+				limit = {
+					is_operative_captured = no
+				}
+				capture_operative = {
+					captured_by = FRA
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+
+	}
+
+	FRA_turn_operative_debug = {
+		available = {
+			NOT = { TAG = FRA }
+			num_of_operatives > 0
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			random_operative = {
+				limit = {
+					is_operative_captured = no
+				}
+				set_nationality = FRA
+				operative_leader_event = {
+               		id = lar_operative_event.5
+					set_from_from = GER #tells the event which nationality to add
+            	}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+
+	}
+
+	harm_operative_debug = {
+		available = {
+			num_of_operatives > 0
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			random_operative = {
+				harm_operative_leader = 1
+				operative_leader_event = {
+					id = lar_operative_event.4
+					set_from_from = URG
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+
+	}
+
+	add_random_nationality = {
+		available = {
+			num_of_operatives > 0
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			random_country = {
+				limit = {
+					NOT = { tag = FROM }
+				}
+				FROM = {
+					random_operative = {
+						add_nationality = PREV.PREV
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+
+	}
+
+	slot_machine = { # we pegi 18 now
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		days_remove = 777
+
+		modifier = {
+			operative_slot = 99
+		}
+	}
+
+	decryption_tech_1 = {
+		days_remove = 100
+		modifier = {
+			decryption = 1
+		}
+	}
+
+	decryption_tech_2 = {
+		days_remove = 100
+		modifier = {
+			decryption = 1
+		}
+	}
+
+	decryption_tech_3 = {
+		days_remove = 100
+		modifier = {
+			decryption = 1
+		}
+	}
+
+	encryption_tech_1 = {
+		days_remove = 100
+		modifier = {
+			encryption = 1
+		}
+	}
+
+	encryption_tech_2 = {
+		days_remove = 100
+		modifier = {
+			encryption = 1
+		}
+	}
+
+	encryption_tech_3 = {
+		days_remove = 100
+		modifier = {
+			encryption = 1
+		}
+	}
+
+}

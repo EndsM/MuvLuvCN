@@ -1,0 +1,47 @@
+
+state={
+	id=797
+	name="STATE_797" # Evensk
+	manpower = 35000000
+	state_category = rural
+	
+#	resources={
+#		steel=50
+#		oil=50
+#		aluminium=50
+#		rubber=5
+#		tungsten=50
+#		chromium=50
+#	}
+
+	history = {
+		1999.1.1 = {
+			owner = H26
+			add_core_of = H26
+			
+			victory_points = {
+				10540 100
+			}
+			
+			buildings = {
+				hive = 1
+				radar_station = 1
+#			         anti_air_building = 2
+				10540 = {
+				coastal_bunker = 10
+				}
+			}
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+			10540 = { bunker = 2 }
+		}
+		add_core_of = SOV
+		victory_points = { 10540 10 }
+	}
+
+	provinces={
+		10540
+	}
+}

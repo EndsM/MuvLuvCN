@@ -1,0 +1,670 @@
+﻿units = {
+	division = {
+		name = "杜马小队"
+		location = 13244
+		division_template = "战术机大队"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "AFR"
+				creator = EUR
+				version_name = "幻影2000"
+			}
+		}
+	}
+	division = {
+		name = "死神小队"
+		location = 13244
+		division_template = "战术机大队"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "AFR"
+				creator = USA
+				version_name = "F-14雄猫"
+			}
+		}
+	}
+	division = {
+		location = 10073
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "AFR"
+				creator = EUR
+				version_name = "幻影III"
+			}
+		}
+	}
+	division = {
+		location = 10073
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "AFR"
+				creator = EUR
+				version_name = "幻影2000"
+			}
+		}
+	}
+	division = {
+		location = 10073
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "AFR"
+				creator = AFR
+				version_name = "幻影2000"
+			}
+		}
+	}
+	division = {
+		location = 10073
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "AFR"
+				creator = AFR
+				version_name = "Lavi狮"
+			}
+		}
+	}
+	division = {
+		location = 10073
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "AFR"
+				creator = AFR
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 10073
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "AFR"
+				creator = EUR
+				version_name = "幻影III"
+			}
+		}
+	}
+	division = {
+		location = 10073
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "AFR"
+				creator = AFR
+				version_name = "幻影III"
+			}
+		}
+	}
+	division = {
+		location = 10073
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "AFR"
+				creator = SOV
+				version_name = "MiG-29燕子"
+			}
+		}
+	}
+	division = {
+		location = 10073
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "AFR"
+				creator = USA
+				version_name = "F-14雄猫"
+			}
+		}
+	}
+	division = {
+		location = 9957
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "AFR"
+				creator = AFR
+				version_name = "F-4E"
+			}
+		}
+	}
+	division = {
+		location = 9957
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "AFR"
+				creator = AFR
+				version_name = "幻影III"
+			}
+		}
+	}
+	division = {
+		location = 10073
+		division_template = "战术攻击机联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "战术攻击机联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "战术攻击机联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "战术攻击机联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10126
+		division_template = "轻装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10126
+		division_template = "轻装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10126
+		division_template = "轻装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10126
+		division_template = "轻装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10126
+		division_template = "轻装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10126
+		division_template = "轻装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 10073
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9957
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9957
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9957
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10126
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 10073
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4014
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4014
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4014
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4014
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4014
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4014
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4014
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4014
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4014
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 4014
+		division_template = "重装师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "AFR"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "AFR"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "AFR"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = tsf_equipment_0
+			creator = "AFR"
+		}
+		requested_factories = 5
+		progress = 0.2
+		efficiency = 30
+	}
+	add_equipment_production = {
+		equipment = {
+			type = medium_tank_equipment_1
+			creator = "AFR"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 100
+	}
+}

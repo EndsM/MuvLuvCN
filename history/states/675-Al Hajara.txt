@@ -1,0 +1,40 @@
+
+state={
+	id=675
+	name="STATE_675"
+
+	history={
+		1999.1.1 = {
+			owner = H09
+			add_core_of = H09
+			victory_points = {
+				1631 100 
+			}
+			buildings = {
+				hive = 1
+				radar_station = 4
+
+			}
+
+		}
+		owner = IRQ
+		buildings = {
+			infrastructure = 1
+			1631 = {
+				bunker = 4
+
+			}
+
+		}
+		add_core_of = AFR
+
+	}
+
+	provinces={
+		1631 2013 3942 4440 4951 4974 7184 7513 8101 10383 10744 10815 10876 12316 12413 12442 12839 12879 
+	}
+	manpower=65000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

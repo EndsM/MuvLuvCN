@@ -1,0 +1,157 @@
+CHI = {
+	MVLV_TSF_classis_1_heavy = {
+		pool = {
+			icons = {
+				"GFX_歼8"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_1_light = {
+		pool = {
+			icons = {
+				"GFX_MiG-23"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_2_light_normal = {
+		pool = {
+			icons = {
+				"GFX_歼10"
+				"GFX_F-CK-1经国"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_2_light_high_mobility = {
+		pool = {
+			icons = {
+				"GFX_歼10X"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_2_heavy_normal = {
+		pool = {
+			icons = {
+				"GFX_歼11"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_2_heavy_high_mobility = {
+		pool = {
+			icons = {
+				"GFX_歼11"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_light_normal = {
+		pool = {
+			icons = {
+				"GFX_歼20"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_light_high_mobility = {
+		pool = {
+			icons = {
+				"GFX_歼20"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_heavy_normal = {
+		pool = {
+			icons = {
+				"GFX_歼20"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_heavy_high_mobility = {
+		pool = {
+			icons = {
+				"GFX_歼20"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_light_normal_stealth = {
+		pool = {
+			icons = {
+				"GFX_歼20"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_light_high_mobility_stealth = {
+		pool = {
+			icons = {
+				"GFX_歼20"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_heavy_normal_stealth = {
+		pool = {
+			icons = {
+				"GFX_歼20"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_heavy_high_mobility_stealth = {
+		pool = {
+			icons = {
+				"GFX_歼20"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+}

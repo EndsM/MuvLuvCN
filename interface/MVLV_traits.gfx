@@ -1,0 +1,44 @@
+spriteTypes = {	
+######################
+	spriteType = {
+		name = "GFX_trait_true_genius"
+		texturefile = "gfx/interface/traits/trait_operative_math_genius.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_tsf_officer"
+		texturefile = "gfx/interface/traits/personal/trait_aviation_enthusiast.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_commander_aptitude"
+		texturefile = "gfx/interface/traits/personal/trait_caustic_personality.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trait_MVLV_TEF_lineage"
+		texturefile = "gfx/interface/traits/personal/MVLV_TEF_lineage.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_MVLV_valkyrie_lineage"
+		texturefile = "gfx/interface/traits/personal/MVLV_valkyrie_lineage.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_hive_attacker"
+		texturefile = "gfx/interface/traits/trait_admiral_smoke_screen_expert.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_tsf_leader"
+		texturefile = "gfx/interface/traits/trait_air_controller.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_tsf_commander"
+		texturefile = "gfx/interface/traits/trait_expert_delegator.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_MVLV_trait_00_unit"
+		texturefile = "gfx/interface/traits/personal/MVLV_trait_00_unit.dds"
+	}
+
+######################
+
+}

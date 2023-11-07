@@ -1,0 +1,3721 @@
+focus_tree = {
+	id = unitednations_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UNI
+		}
+	}
+	default = no
+	# focus = {
+	# 	#美国的一言堂
+	# 	id = "UNI_USA_1"
+	# 	# id = obey_the_instructions_of_the_United_State
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	x = 16
+	# 	y = 0
+	# 	# relative_position_id = 
+	# 	# prerequisite = { focus = }
+	# 	#mutually_exclusive = { focus =  }
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	mutually_exclusive = {
+	# 		focus = "真正的人类联合"
+	# 	}
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		USA = {
+	# 			add_opinion_modifier = {
+	# 				target = UNI
+	# 				modifier = UNI_USA_1
+	# 			}
+	# 		}
+	# 		UNI = {
+	# 			add_opinion_modifier = {
+	# 				target = USA
+	# 				modifier = UNI_USA_1
+	# 			}
+	# 		}
+	# 	}
+	# }
+	# focus = {
+	# 	#和洛克希德马丁公司的合作
+	# 	# id = the_cooperation_with_Lockheed_Martin
+	# 	id = "UNI_USA_coop_LMT"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	# relative_position_id = obey_the_instructions_of_the_United_State
+	# 	relative_position_id = "UNI_USA_1"
+	# 	prerequisite = {
+	# 		# focus = obey_the_instructions_of_the_United_State
+	# 		focus = "UNI_USA_1"
+	# 	}
+	# 	x = -1
+	# 	y = 1
+	# 	#mutually_exclusive = { focus =  }
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_ideas = UNI_USA_coop_LMT
+	# 	}
+	# }
+	# focus = {
+	# 	# 生活必需品紧急运输法案
+	# 	id = UNI_USA_em_trans
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "UNI_USA_coop_LMT"
+	# 	prerequisite = {
+	# 		focus = "UNI_USA_coop_LMT"
+	# 	}
+	# 	x = 0
+	# 	y = 1
+	# 	#mutually_exclusive = { focus =  }
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_offsite_building = {
+	# 			type = industrial_complex
+	# 			level = 5
+	# 		}
+	# 	}
+	# }
+	# focus = {
+	# 	# 与通用动力的合作
+	# 	id = "UNI_USA_coop_GE"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	# relative_position_id = obey_the_instructions_of_the_United_State
+	# 	relative_position_id = "UNI_USA_1"
+	# 	prerequisite = {
+	# 		# focus = obey_the_instructions_of_the_United_State
+	# 		focus = "UNI_USA_1"
+	# 	}
+	# 	x = 1
+	# 	y = 1
+	# 	#mutually_exclusive = { focus =  }
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_offsite_building = {
+	# 			type = arms_factory
+	# 			level = 5
+	# 		}
+	# 	}
+	# }
+	# focus = {
+	# 	# 扩大军工生产用地
+	# 	id = "UNI_USA_EX_MI"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "UNI_USA_coop_GE"
+	# 	prerequisite = {
+	# 		focus = "UNI_USA_coop_GE"
+	# 	}
+	# 	x = 0
+	# 	y = 1
+	# 	#mutually_exclusive = { focus =  }
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_offsite_building = {
+	# 			type = arms_factory
+	# 			level = 10
+	# 		}
+	# 	}
+	# }
+	# focus = {
+	# 	# 安理会上的协助
+	# 	id = "UNI_USA_UN_security_assist"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "UNI_USA_em_trans"
+	# 	prerequisite = {
+	# 		focus = "UNI_USA_em_trans"
+	# 	}
+	# 	prerequisite = {
+	# 		focus = "UNI_USA_EX_MI"
+	# 	}
+	# 	x = 1
+	# 	y = 1
+	# 	#mutually_exclusive = { focus =  }
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_political_power = 150
+	# 	}
+	# }
+	# focus = {
+	# 	# 向G弹投放派靠拢
+	# 	id = "UNI_USA_G_bombs_faction"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "UNI_USA_UN_security_assist"
+	# 	prerequisite = {
+	# 		focus = "UNI_USA_UN_security_assist"
+	# 	}
+	# 	x = -1
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	mutually_exclusive = {
+	# 		focus = "UNI_USA_lagrange_point_budget"
+	# 	}
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_stability = -0.1
+	# 		add_war_support = 0.1
+	# 	}
+	# }
+	# focus = {
+	# 	# 加大在拉格朗日点的预算
+	# 	id = "UNI_USA_lagrange_point_budget"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "UNI_USA_UN_security_assist"
+	# 	prerequisite = {
+	# 		focus = "UNI_USA_UN_security_assist"
+	# 	}
+	# 	x = 1
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	mutually_exclusive = {
+	# 		focus = "UNI_USA_G_bombs_faction"
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_stability = 0.1
+	# 		add_war_support = -0.1
+	# 	}
+	# }
+	# focus = {
+	# 	# 终止ALTERNATIVE4计划
+	# 	id = "UNI_USA_end_AL4"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "UNI_USA_lagrange_point_budget"
+	# 	prerequisite = {
+	# 		focus = "UNI_USA_G_bombs_faction"
+	# 		focus = "UNI_USA_lagrange_point_budget"
+	# 	}
+	# 	x = -1
+	# 	y = 1
+	# 	available = {
+	# 		date > 2002.1.11
+	# 	}
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 1
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_political_power = 150
+	# 	}
+	# }
+	# focus = {
+	# 	# 实施G弹轰炸计划
+	# 	id = "UNI_USA_G_boom"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "UNI_USA_end_AL4"
+	# 	prerequisite = {
+	# 		focus = "UNI_USA_end_AL4"
+	# 	}
+	# 	x = -1
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_timed_idea = {
+	# 			idea = UNI_fighting
+	# 			days = 35
+	# 		}
+	# 	}
+	# }
+	# focus = {
+	# 	# id = carry_out_Alternative_5
+	# 	id = "实施ALTERNATIVE5撤离计划"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	x = 1
+	# 	y = 1
+	# 	#text = 
+	# 	relative_position_id = "UNI_USA_end_AL4"
+	# 	prerequisite = {
+	# 		focus = "UNI_USA_end_AL4"
+	# 	}
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_timed_idea = {
+	# 			idea = UNI_AL5
+	# 			days = 35
+	# 		}
+	# 	}
+	# }
+	# focus = {
+	# 	# id = the_song_of_the_faraway_Earth
+	# 	id = "遥远地球之歌"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "实施ALTERNATIVE5撤离计划"
+	# 	prerequisite = {
+	# 		focus = "实施ALTERNATIVE5撤离计划"
+	# 	}
+	# 	prerequisite = {
+	# 		focus = "UNI_USA_G_boom"
+	# 	}
+	# 	x = -1
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 1
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		hidden_effect = {
+	# 			add_ideas = UNI_despair_1
+	# 		}
+	# 		custom_effect_tooltip = UNI_faraway_earth_despair_tt
+	# 		if = {
+	# 			limit = {
+	# 				has_idea = UNI_fighting
+	# 			}
+	# 			remove_ideas = UNI_fighting
+	# 		}
+	# 		add_manpower = -150000
+	# 	}
+	# }
+	# focus = {
+	# 	# id = the_reconstrcution_of_the_army
+	# 	id = "军力重整计划"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "遥远地球之歌"
+	# 	prerequisite = {
+	# 		focus = "遥远地球之歌"
+	# 	}
+	# 	x = 0
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 15
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		army_experience = 50
+	# 		hidden_effect = {
+	# 			remove_ideas = UNI_despair_1
+	# 			add_ideas = UNI_despair_2
+	# 		}
+	# 		custom_effect_tooltip = UNI_army_reorg_despair_tt
+	# 	}
+	# }
+	# focus = {
+	# 	# id = remained_experienced_soldiers
+	# 	id = "仅存的卫士精英"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "军力重整计划"
+	# 	prerequisite = {
+	# 		focus = "军力重整计划"
+	# 	}
+	# 	x = -1
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		hidden_effect = {
+	# 			remove_ideas = UNI_despair_2
+	# 			add_ideas = UNI_despair_3
+	# 		}
+	# 		custom_effect_tooltip = UNI_remained_elite_despair_tt
+	# 	}
+	# }
+	# focus = {
+	# 	# id = reorganized_the_command_system
+	# 	id = "重组最高指挥部"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "军力重整计划"
+	# 	prerequisite = {
+	# 		focus = "军力重整计划"
+	# 	}
+	# 	x = 1
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		# hidden_effect = {
+	# 		# 	add_dynamic_modifier = {
+	# 		# 		modifier = UNI_command
+	# 		# 	}
+	# 		# }
+	# 		hidden_effect = {
+	# 			add_ideas = UNI_command
+	# 		}
+	# 		custom_effect_tooltip = UNI_reorg_command_uni_command_tt
+	# 	}
+	# }
+	# focus = {
+	# 	# id = a_quick_promotion
+	# 	id = "火线提拔尉官"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "重组最高指挥部"
+	# 	prerequisite = {
+	# 		focus = "重组最高指挥部"
+	# 	}
+	# 	x = -1
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		# add_to_variable = {
+	# 		# 	UNI_command_org = -0.05
+	# 		# }
+	# 		# add_to_variable = {
+	# 		# 	UNI_command_org_regain = 0.05
+	# 		# }
+	# 		# custom_effect_tooltip = UNI_fireline_promotes_uni_command_tt
+	# 		add_ideas = "火线提拔的尉官"
+	# 	}
+	# }
+	# focus = {
+	# 	# id = introspect_the_failure
+	# 	id = "吸纳樱花作战的经验"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "重组最高指挥部"
+	# 	prerequisite = {
+	# 		focus = "重组最高指挥部"
+	# 	}
+	# 	x = 1
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 5
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		# add_to_variable = {
+	# 		# 	UNI_command_attack = 0.1
+	# 		# }
+	# 		# custom_effect_tooltip = UNI_introspect_sakura_uni_command_tt
+	# 		add_ideas = "樱花作战的经验"
+	# 	}
+	# }
+	# focus = {
+	# 	# id = the_great_purge_against_the_supporters_for_Alternative_5
+	# 	id = "对ALTERNATIVE5支持者的大清洗"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "火线提拔尉官"
+	# 	prerequisite = {
+	# 		focus = "火线提拔尉官"
+	# 	}
+	# 	prerequisite = {
+	# 		focus = "吸纳樱花作战的经验"
+	# 	}
+	# 	x = 1
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 10
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		hidden_effect = {
+	# 			remove_ideas = UNI_despair_3
+	# 		}
+	# 		custom_effect_tooltip = UNI_remove_AL5_tt
+	# 		add_ideas = UNI_new_blood
+	# 	}
+	# }
+	# focus = {
+	# 	# id = mobilise_the_last_factory
+	# 	id = "动员最后的军事工业"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "对ALTERNATIVE5支持者的大清洗"
+	# 	prerequisite = {
+	# 		focus = "对ALTERNATIVE5支持者的大清洗"
+	# 	}
+	# 	x = -1
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 2
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_offsite_building = {
+	# 			type = arms_factory
+	# 			level = 10
+	# 		}
+	# 	}
+	# }
+	# focus = {
+	# 	# id = intergrate_all_materials
+	# 	id = "整合剩余物资"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "对ALTERNATIVE5支持者的大清洗"
+	# 	prerequisite = {
+	# 		focus = "对ALTERNATIVE5支持者的大清洗"
+	# 	}
+	# 	x = 1
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 2
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_offsite_building = {
+	# 			type = industrial_complex
+	# 			level = 10
+	# 		}
+	# 	}
+	# }
+	# focus = {
+	# 	# id = the_great_counteroffensive_plan
+	# 	id = "大陆反攻计划"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "动员最后的军事工业"
+	# 	prerequisite = {
+	# 		focus = "动员最后的军事工业"
+	# 	}
+	# 	prerequisite = {
+	# 		focus = "整合剩余物资"
+	# 	}
+	# 	x = 1
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 10
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_timed_idea = {
+	# 			idea = UNI_sakura_legacy
+	# 			days = 365
+	# 		}
+	# 	}
+	# }
+	# focus = {
+	# 	# id = write_back_to_the_deserters
+	# 	id = "给逃亡者们的回信"
+	# 	icon = GFX_goal_generic_national_unity
+	# 	#text = 
+	# 	relative_position_id = "大陆反攻计划"
+	# 	prerequisite = {
+	# 		focus = "大陆反攻计划"
+	# 	}
+	# 	x = 0
+	# 	y = 1
+	# 	#available = { }
+	# 	#bypass = { }
+	# 	#cancel = { }
+	# 	cancel_if_invalid = yes
+	# 	continue_if_invalid = no
+	# 	available_if_capitulated = no
+	# 	cost = 10
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	completion_reward = {
+	# 		add_stability = 0.3
+	# 		add_war_support = -0.2
+	# 	}
+	# }
+	focus = {
+		# id = the_true_United_Nation
+		id = "UNI_theTrueUnitedNation"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		# relative_position_id = 
+		# prerequisite = { focus =  }
+		x = 25
+		y = 0
+		mutually_exclusive = {
+			focus = "UNI_USA_1"
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 150
+		}
+	}
+	focus = {
+		# id = calm_down_USA
+		id = "UNI_NegotiateWithUSA"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_theTrueUnitedNation"
+		prerequisite = {
+			focus = "UNI_theTrueUnitedNation"
+		}
+		x = -5
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			USA = {
+				add_war_support = 0.1
+			}
+		}
+	}
+	focus = {
+		# id = strengthen_the_English_Channel_line
+		id = "UNI_strengthen_the_English_Channel_line"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_theTrueUnitedNation"
+		prerequisite = {
+			focus = "UNI_theTrueUnitedNation"
+		}
+		x = -3
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			EUR = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 5
+				}
+			}
+			EEA = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 5
+				}
+			}
+		}
+	}
+	focus = {
+		# id = allay_the_Japanese
+		id = "UNI_allayWithJapan"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_theTrueUnitedNation"
+		prerequisite = {
+			focus = "UNI_theTrueUnitedNation"
+		}
+		x = -1
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			JAP = {
+				add_stability = 0.1
+			}
+		}
+	}
+	focus = {
+		# id = East_Asian_Emergency_transportation_policy
+		id = "UNI_East_Asian_Emergency_transportation_policy"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_theTrueUnitedNation"
+		prerequisite = {
+			focus = "UNI_theTrueUnitedNation"
+		}
+		x = 1
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			GEU = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 5
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 强化非洲联合
+		id = "UNI_StrengthenAfricaFront"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_theTrueUnitedNation"
+		prerequisite = {
+			focus = "UNI_theTrueUnitedNation"
+		}
+		x = 3
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			AFR = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 5
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 美洲国家初步动员法案
+		id = "UNI_Central_SouthAmericaMobilization"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_theTrueUnitedNation"
+		prerequisite = {
+			focus = "UNI_theTrueUnitedNation"
+		}
+		x = 5
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			CAN = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 10
+				}
+			}
+			SOA = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 10
+				}
+			}
+			CEA = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 10
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 明星作战的教训
+		id = "UNI_LessonsFromOperationLucifer"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_theTrueUnitedNation"
+		prerequisite = {
+			focus = "UNI_NegotiateWithUSA"
+		}
+		prerequisite = {
+			focus = "UNI_strengthen_the_English_Channel_line"
+		}
+		prerequisite = {
+			focus = "UNI_allayWithJapan"
+		}
+		prerequisite = {
+			focus = "UNI_East_Asian_Emergency_transportation_policy"
+		}
+		prerequisite = {
+			focus = "UNI_StrengthenAfricaFront"
+		}
+		prerequisite = {
+			focus = "UNI_Central_SouthAmericaMobilization"
+		}
+		x = 0
+		y = 2
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			AFR = {
+				add_ideas = "反攻的开始"
+			}
+			CAN = {
+				add_ideas = "反攻的开始"
+			}
+			CEA = {
+				add_ideas = "反攻的开始"
+			}
+			SOA = {
+				add_ideas = "反攻的开始"
+			}
+			CHI = {
+				add_ideas = "反攻的开始"
+			}
+			EEA = {
+				add_ideas = "反攻的开始"
+			}
+			EUR = {
+				add_ideas = "反攻的开始"
+			}
+			GEU = {
+				add_ideas = "反攻的开始"
+			}
+			JAP = {
+				add_ideas = "反攻的开始"
+			}
+			OSE = {
+				add_ideas = "反攻的开始"
+			}
+			SOV = {
+				add_ideas = "反攻的开始"
+			}
+			UNI = {
+				add_ideas = "反攻的开始"
+			}
+			USA = {
+				add_ideas = "反攻的开始"
+			}
+			# custom_effect_tooltip = UNI_lessons_of_star_counterattack_tt
+		}
+	}
+	focus = {
+		# id = 国际联合研究
+		id = "UNI_JointResearch"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_LessonsFromOperationLucifer"
+		prerequisite = {
+			focus = "UNI_LessonsFromOperationLucifer"
+		}
+		x = -2
+		y = 1
+		mutually_exclusive = {
+			focus = "UNI_JointTSFPilotTraining"
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			AFR = {
+				add_ideas = "国际联合研究院"
+			}
+			CAN = {
+				add_ideas = "国际联合研究院"
+			}
+			CEA = {
+				add_ideas = "国际联合研究院"
+			}
+			SOA = {
+				add_ideas = "国际联合研究院"
+			}
+			CHI = {
+				add_ideas = "国际联合研究院"
+			}
+			EEA = {
+				add_ideas = "国际联合研究院"
+			}
+			EUR = {
+				add_ideas = "国际联合研究院"
+			}
+			GEU = {
+				add_ideas = "国际联合研究院"
+			}
+			JAP = {
+				add_ideas = "国际联合研究院"
+			}
+			OSE = {
+				add_ideas = "国际联合研究院"
+			}
+			SOV = {
+				add_ideas = "国际联合研究院"
+			}
+			UNI = {
+				add_ideas = "国际联合研究院"
+			}
+			USA = {
+				add_ideas = "国际联合研究院"
+			}
+			# custom_effect_tooltip = UNI_joint_RND_counterattack_tt
+		}
+	}
+	focus = {
+		# id = 全球工业合作
+		id = "UNI_JointIndustrialProduction"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_JointResearch"
+		prerequisite = {
+			focus = "UNI_JointResearch"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			AFR = {
+				add_ideas = "全球产业合作"
+			}
+			CAN = {
+				add_ideas = "全球产业合作"
+			}
+			CEA = {
+				add_ideas = "全球产业合作"
+			}
+			SOA = {
+				add_ideas = "全球产业合作"
+			}
+			CHI = {
+				add_ideas = "全球产业合作"
+			}
+			EEA = {
+				add_ideas = "全球产业合作"
+			}
+			EUR = {
+				add_ideas = "全球产业合作"
+			}
+			GEU = {
+				add_ideas = "全球产业合作"
+			}
+			JAP = {
+				add_ideas = "全球产业合作"
+			}
+			OSE = {
+				add_ideas = "全球产业合作"
+			}
+			SOV = {
+				add_ideas = "全球产业合作"
+			}
+			UNI = {
+				add_ideas = "全球产业合作"
+			}
+			USA = {
+				add_ideas = "全球产业合作"
+			}
+			# custom_effect_tooltip = UNI_low_cost_assembly_counterattack_tt
+		}
+	}
+	focus = {
+		# id = 国际标准化生产流程
+		id = "UNI_StandardizedProductionSequence"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_JointIndustrialProduction"
+		prerequisite = {
+			focus = "UNI_JointIndustrialProduction"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			AFR = {
+				add_ideas = "国际标准化生产流程"
+			}
+			CAN = {
+				add_ideas = "国际标准化生产流程"
+			}
+			CEA = {
+				add_ideas = "国际标准化生产流程"
+			}
+			SOA = {
+				add_ideas = "国际标准化生产流程"
+			}
+			CHI = {
+				add_ideas = "国际标准化生产流程"
+			}
+			EEA = {
+				add_ideas = "国际标准化生产流程"
+			}
+			EUR = {
+				add_ideas = "国际标准化生产流程"
+			}
+			GEU = {
+				add_ideas = "国际标准化生产流程"
+			}
+			JAP = {
+				add_ideas = "国际标准化生产流程"
+			}
+			OSE = {
+				add_ideas = "国际标准化生产流程"
+			}
+			SOV = {
+				add_ideas = "国际标准化生产流程"
+			}
+			UNI = {
+				add_ideas = "国际标准化生产流程"
+			}
+			USA = {
+				add_ideas = "国际标准化生产流程"
+			}
+			# custom_effect_tooltip = UNI_mod_equip_int_counterattack_tt
+		}
+	}
+	focus = {
+		# id = 联合卫士训练计划
+		id = "UNI_JointTSFPilotTraining"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_LessonsFromOperationLucifer"
+		prerequisite = {
+			focus = "UNI_LessonsFromOperationLucifer"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+			focus = "UNI_JointResearch"
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			AFR = {
+				add_ideas = "联合卫士训练"
+			}
+			CAN = {
+				add_ideas = "联合卫士训练"
+			}
+			CEA = {
+				add_ideas = "联合卫士训练"
+			}
+			SOA = {
+				add_ideas = "联合卫士训练"
+			}
+			CHI = {
+				add_ideas = "联合卫士训练"
+			}
+			EEA = {
+				add_ideas = "联合卫士训练"
+			}
+			EUR = {
+				add_ideas = "联合卫士训练"
+			}
+			GEU = {
+				add_ideas = "联合卫士训练"
+			}
+			JAP = {
+				add_ideas = "联合卫士训练"
+			}
+			OSE = {
+				add_ideas = "联合卫士训练"
+			}
+			SOV = {
+				add_ideas = "联合卫士训练"
+			}
+			UNI = {
+				add_ideas = "联合卫士训练"
+			}
+			USA = {
+				add_ideas = "联合卫士训练"
+			}
+			# custom_effect_tooltip = UNI_guard_training_counterattack_tt
+		}
+	}
+	focus = {
+		# id = 统一数据链
+		id = "UNI_StandardizedDataLink"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_JointTSFPilotTraining"
+		prerequisite = {
+			focus = "UNI_JointTSFPilotTraining"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			AFR = {
+				add_ideas = "统一数据链"
+			}
+			CAN = {
+				add_ideas = "统一数据链"
+			}
+			CEA = {
+				add_ideas = "统一数据链"
+			}
+			SOA = {
+				add_ideas = "统一数据链"
+			}
+			CHI = {
+				add_ideas = "统一数据链"
+			}
+			EEA = {
+				add_ideas = "统一数据链"
+			}
+			EUR = {
+				add_ideas = "统一数据链"
+			}
+			GEU = {
+				add_ideas = "统一数据链"
+			}
+			JAP = {
+				add_ideas = "统一数据链"
+			}
+			OSE = {
+				add_ideas = "统一数据链"
+			}
+			SOV = {
+				add_ideas = "统一数据链"
+			}
+			UNI = {
+				add_ideas = "统一数据链"
+			}
+			USA = {
+				add_ideas = "统一数据链"
+			}
+			# custom_effect_tooltip = UNI_link_uni_counterattack_tt
+		}
+	}
+	focus = {
+		# id = 多国联合指挥部
+		id = "UNI_JointCommandPost"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_StandardizedDataLink"
+		prerequisite = {
+			focus = "UNI_StandardizedDataLink"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			AFR = {
+				add_ideas = "联合指挥部"
+			}
+			CAN = {
+				add_ideas = "联合指挥部"
+			}
+			CEA = {
+				add_ideas = "联合指挥部"
+			}
+			SOA = {
+				add_ideas = "联合指挥部"
+			}
+			CHI = {
+				add_ideas = "联合指挥部"
+			}
+			EEA = {
+				add_ideas = "联合指挥部"
+			}
+			EUR = {
+				add_ideas = "联合指挥部"
+			}
+			GEU = {
+				add_ideas = "联合指挥部"
+			}
+			JAP = {
+				add_ideas = "联合指挥部"
+			}
+			OSE = {
+				add_ideas = "联合指挥部"
+			}
+			SOV = {
+				add_ideas = "联合指挥部"
+			}
+			UNI = {
+				add_ideas = "联合指挥部"
+			}
+			USA = {
+				add_ideas = "联合指挥部"
+			}
+			custom_effect_tooltip = UNI_joint_command_counterattack_tt
+		}
+	}
+	focus = {
+		# id = 美洲工业整合计划
+		id = "UNI_AmericaIndustryConsolidation"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_LessonsFromOperationLucifer"
+		prerequisite = {
+			focus = "UNI_LessonsFromOperationLucifer"
+		}
+		x = 2
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			CAN = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 10
+				}
+			}
+			SOA = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 10
+				}
+			}
+			CEA = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 10
+				}
+			}
+			USA = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 10
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 大西洋沿岸食物生产扩大
+		id = "UNI_IncreaseAtlanticRegionFoodProduction"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_AmericaIndustryConsolidation"
+		prerequisite = {
+			focus = "UNI_AmericaIndustryConsolidation"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			CAN = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 10
+				}
+			}
+			USA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 10
+				}
+			}
+			SOA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 10
+				}
+			}
+			CEA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 10
+				}
+			}
+			EUR = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 10
+				}
+			}
+			EEA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 10
+				}
+			}
+			AFR = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 10
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 东亚开发计划
+		id = "UNI_SEADevelopment"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_IncreaseAtlanticRegionFoodProduction"
+		prerequisite = {
+			focus = "UNI_IncreaseAtlanticRegionFoodProduction"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			GEU = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 10
+				}
+			}
+			OSE = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 10
+				}
+			}
+			JAP = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 10
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 与布尔什维克的合作
+		id = "UNI_CooperateWithBolsheviks"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_JointCommandPost"
+		prerequisite = {
+			focus = "UNI_JointCommandPost"
+			focus = "UNI_StandardizedProductionSequence"
+		}
+		prerequisite = {
+			focus = "UNI_SEADevelopment"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = -300
+		}
+	}
+	focus = {
+		# id = 在阿拉斯加的接触
+		id = "UNI_EstablishContactInAlaska"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_CooperateWithBolsheviks"
+		prerequisite = {
+			focus = "UNI_CooperateWithBolsheviks"
+		}
+		x = -1
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability = -0.1
+		}
+	}
+	focus = {
+		# id = 缓和与苏联的关系
+		id = "UNI_allayWithUSSR"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_EstablishContactInAlaska"
+		prerequisite = {
+			focus = "UNI_EstablishContactInAlaska"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		# id = 着眼未来 
+		id = "UNI_LookIntoTheFuture"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_allayWithUSSR"
+		prerequisite = {
+			focus = "UNI_allayWithUSSR"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			SOV = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 10
+				}
+			}
+			EEA = {
+				add_offsite_building = {
+					type = industrial_complex
+					level = 10
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 缓和与中国的关系
+		id = "UNI_allayWithUFC"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_CooperateWithBolsheviks"
+		prerequisite = {
+			focus = "UNI_CooperateWithBolsheviks"
+		}
+		x = 1
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		# id = 台湾建设工程
+		id = "UNI_TaiwanConstructionProtocol"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_allayWithUFC"
+		prerequisite = {
+			focus = "UNI_allayWithUFC"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			CHI = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 10
+				}
+				add_offsite_building = {
+					type = industrial_complex
+					level = 10
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 与暴风小队的联合演习
+		id = "UNI_JointExerciseWithBaoFengTestFlight"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_TaiwanConstructionProtocol"
+		prerequisite = {
+			focus = "UNI_TaiwanConstructionProtocol"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = UNI_storm_joint_manoeuvre
+			CHI = {
+				add_ideas = "UNI_storm_joint_manoeuvre"
+			}
+		}
+	}
+	focus = {
+		# id = 整合ALTERNATIVE计划
+		id = "UNI_ConsolidateAlternativePlans"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_JointExerciseWithBaoFengTestFlight"
+		prerequisite = {
+			focus = "UNI_JointExerciseWithBaoFengTestFlight"
+		}
+		prerequisite = {
+			focus = "UNI_LookIntoTheFuture"
+		}
+		x = -1
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 300
+		}
+	}
+	focus = {
+		# id = 对ALTERNATIVE3计划的重新应用
+		id = "UNI_ReuseAL3"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_ConsolidateAlternativePlans"
+		prerequisite = {
+			focus = "UNI_ConsolidateAlternativePlans"
+		}
+		x = -2
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = UNI_AL3_unity
+		}
+	}
+	focus = {
+		# id = 社霞
+		id = "UNI_YashiroKasumi"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		# relative_position_id = "UNI_ReuseAL3"
+		# prerequisite = {
+		# 	focus = "UNI_ReuseAL3"
+		# }
+		x = 13
+		y = 0
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			# recruit_character = UNI_units_leader_26
+			UNI_units_leader_26 = {
+				set_character_flag = 角色解锁
+			}
+			#hidden_effect = {
+			#	create_corps_commander = {
+			#		name = "社霞"
+			#		gfx = "GFX_社霞头像"
+			#		traits = {
+			#			career_officer
+			#			brilliant_strategist
+			#			true_genius
+			#			tsf_officer
+			#			expert_improviser
+			#			tsf_leader
+			#			trickster
+			#			inspirational_leader
+			#			hill_fighter
+			#		}
+			#		skill = 9
+			#		attack_skill = 10
+			#		defense_skill = 10
+			#		planning_skill = 10
+			#		logistics_skill = 10
+			#	}
+			#}
+		}
+	}
+	focus = {
+		# id = 调整人列装计划
+		id = "UNI_FruitofTheNewAL3"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_ReuseAL3"
+		prerequisite = {
+			focus = "UNI_ReuseAL3"
+		}
+		x = 0
+		y = 2
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			AFR = {
+				add_manpower = 100000
+			}
+			CAN = {
+				add_manpower = 100000
+			}
+			CEA = {
+				add_manpower = 100000
+			}
+			SOA = {
+				add_manpower = 100000
+			}
+			CHI = {
+				add_manpower = 100000
+			}
+			EEA = {
+				add_manpower = 100000
+			}
+			GEU = {
+				add_manpower = 100000
+			}
+			JAP = {
+				add_manpower = 100000
+			}
+			OSE = {
+				add_manpower = 100000
+			}
+			SOV = {
+				add_manpower = 100000
+			}
+			UNI = {
+				add_manpower = 100000
+			}
+			USA = {
+				add_manpower = 100000
+			}
+		}
+	}
+	focus = {
+		# id = 对ALTERNATIVE4计划的援助
+		id = "UNI_AdditionalFundForAL4"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_ConsolidateAlternativePlans"
+		prerequisite = {
+			focus = "UNI_ConsolidateAlternativePlans"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			UNI = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 10
+				}
+			}
+			JAP = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 10
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 女武神中队装备强化
+		id = "UNI_EnhanceA01ValkyrieSquadron"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_AdditionalFundForAL4"
+		prerequisite = {
+			focus = "UNI_AdditionalFundForAL4"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = VA_improvement
+				uses = 1
+				bonus = 1
+				category = MVLV_tsf_tech
+			}
+		}
+	}
+	focus = {
+		# id = 提拔伊莉娜·帕蒂芙进入指挥系统
+		id = "UNI_PromoteIrinaPyatkh"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_EnhanceA01ValkyrieSquadron"
+		prerequisite = {
+			focus = "UNI_EnhanceA01ValkyrieSquadron"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = UNI_Irina
+		}
+	}
+	focus = {
+		# id = 调整ALTERNATIVE5计划方向
+		id = "UNI_AdjustAL5FocalPoint"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_ConsolidateAlternativePlans"
+		prerequisite = {
+			focus = "UNI_ConsolidateAlternativePlans"
+		}
+		x = 2
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			USA = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 30
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 强化轨道战力
+		id = "UNI_EnhanceOrbitalCorps"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_AdjustAL5FocalPoint"
+		prerequisite = {
+			focus = "UNI_AdjustAL5FocalPoint"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			#set_division_template_cap = { division_template = "轨道降下兵团" division_cap = 18 }
+		}
+	}
+	focus = {
+		# id = 宇宙军联合指挥部
+		id = "UNI_UNSCJointCommand"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_EnhanceOrbitalCorps"
+		prerequisite = {
+			focus = "UNI_EnhanceOrbitalCorps"
+		}
+		x = 0
+		y = 1
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = transport_plane_equipment
+				amount = 15
+				producer = ROOT
+			}
+		}
+	}
+	focus = {
+		# id = 樱花作战的后续
+		id = "UNI_AftermathOfOperationOuka"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_UNSCJointCommand"
+		prerequisite = {
+			focus = "UNI_UNSCJointCommand"
+		}
+		prerequisite = {
+			focus = "UNI_PromoteIrinaPyatkh"
+		}
+		prerequisite = {
+			focus = "UNI_FruitofTheNewAL3"
+		}
+		x = -2
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		available = {
+			date > 2002.4.1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			AFR = {
+				add_manpower = -200000
+			}
+			CAN = {
+				add_manpower = -200000
+			}
+			CEA = {
+				add_manpower = -200000
+			}
+			SOA = {
+				add_manpower = -200000
+			}
+			CHI = {
+				add_manpower = -200000
+			}
+			EEA = {
+				add_manpower = -200000
+			}
+			GEU = {
+				add_manpower = -200000
+			}
+			JAP = {
+				add_manpower = -200000
+			}
+			OSE = {
+				add_manpower = -200000
+			}
+			SOV = {
+				add_manpower = -200000
+			}
+			UNI = {
+				add_manpower = -200000
+			}
+			USA = {
+				add_manpower = -200000
+			}
+		}
+	}
+	focus = {
+		# id = 人类胜利的曙光
+		id = "UNI_DawnWillCome"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_AftermathOfOperationOuka"
+		prerequisite = {
+			focus = "UNI_AftermathOfOperationOuka"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		available = {
+			BET = {
+				has_idea = BET_broken_original_hive
+			}
+		}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = UNI_sakura_legacy
+				days = 105
+			}
+		}
+	}
+	focus = {
+		# id = 国联工业整备计划
+		id = "UNI_UNIndustrialProductionReorganiseProtocol"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 35
+		y = 0
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = "国联工业整备"
+			# custom_effect_tooltip = UNI_industrial_dep_tt
+		}
+	}
+	focus = {
+		# id = 重视战术机生产
+		id = "UNI_FocusOnTSFProduction"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_UNIndustrialProductionReorganiseProtocol"
+		prerequisite = {
+			focus = "UNI_UNIndustrialProductionReorganiseProtocol"
+		}
+		x = -2
+		y = 1
+		mutually_exclusive = {
+			focus = "UNI_BalanacedProduction"
+			focus = "UNI_FocusOnCartridgeProduction"
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = UNI_IC_tsf_cost
+		}
+	}
+	focus = {
+		# id = 质量的提高
+		id = "UNI_ImproveTSFQuality"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_FocusOnTSFProduction"
+		prerequisite = {
+			focus = "UNI_FocusOnTSFProduction"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = UNI_IC_tsf_quality
+		}
+	}
+	focus = {
+		# id = 平均生产的提高
+		id = "UNI_BalanacedProduction"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_UNIndustrialProductionReorganiseProtocol"
+		prerequisite = {
+			focus = "UNI_UNIndustrialProductionReorganiseProtocol"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+			focus = "UNI_FocusOnTSFProduction"
+			focus = "UNI_FocusOnCartridgeProduction"
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = "延长工作时长"
+		}
+	}
+	focus = {
+		# id = 数量的提高
+		id = "UNI_QuantityOverQuality"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_BalanacedProduction"
+		prerequisite = {
+			focus = "UNI_BalanacedProduction"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = "优化生产监督方法"
+		}
+	}
+	focus = {
+		# id = 重视炮弹生产
+		id = "UNI_FocusOnCartridgeProduction"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_UNIndustrialProductionReorganiseProtocol"
+		prerequisite = {
+			focus = "UNI_UNIndustrialProductionReorganiseProtocol"
+		}
+		x = 2
+		y = 1
+		mutually_exclusive = {
+			focus = "UNI_FocusOnTSFProduction"
+			focus = "UNI_BalanacedProduction"
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = UNI_IC_shell_cost
+		}
+	}
+	focus = {
+		# id = 引进他国先进技术
+		id = "UNI_AbsorbExternalCartridgeProductionTech"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_FocusOnCartridgeProduction"
+		prerequisite = {
+			focus = "UNI_FocusOnCartridgeProduction"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = "引进他国先进技术"
+		}
+	}
+	focus = {
+		# id = 国联新一代战术机研发
+		id = "UNI_NextGenTSFDevelopment"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_QuantityOverQuality"
+		prerequisite = {
+			focus = "UNI_ImproveTSFQuality"
+			focus = "UNI_QuantityOverQuality"
+			focus = "UNI_AbsorbExternalCartridgeProductionTech"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = UNI_next_tsf
+				uses = 1
+				bonus = 1
+				category = MVLV_tsf_tech
+			}
+		}
+	}
+	focus = {
+		# id = 与美国的秘密战术机研发合作
+		id = "UNI_ClassifiedJointTSFDevWithUSA"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_NextGenTSFDevelopment"
+		prerequisite = {
+			focus = "UNI_NextGenTSFDevelopment"
+		}
+		x = -2
+		y = 1
+		mutually_exclusive = {
+			focus = "UNI_ClassifiedJointTSFDevWithJAP"
+			focus = "UNI_InternalNextGenTSFDevelopment"
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = UNI_joint_research_USA
+			# set_technology = {
+			# 	USA_F-22 = 1
+			# }
+			create_equipment_variant = {
+				name = "F-22A猛禽"
+				type = MVLV_TSF_classis_3_heavy_normal_stealth
+				parent_version = 0
+				allow_without_tech = yes				#For tooltip purposes, doesn't affect anything really
+				modules = {
+					MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_2_normal
+					MVLV_TSF_engine_slot = MVLV_TSF_engine_3
+					MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_3
+					MVLV_TSF_OS_slot = MVLV_TSF_OS_3_normal
+					MVLV_TSF_armor_slot = MVLV_TSF_armor_light_composite
+					MVLV_TSF_head_slot = MVLV_TSF_head_normal_3
+					MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_thruster_3
+					MVLV_TSF_back_slot = MVLV_TSF_back_downside_hanger
+					MVLV_TSF_arm_slot = MVLV_TSF_arm_ex_ammo
+					MVLV_TSF_leg_slot = MVLV_TSF_leg_scabbard
+					MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+					MVLV_TSF_sp_slot_1 = MVLV_TSF_stealth_coating_1
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 与日本的秘密战术机研发合作
+		id = "UNI_ClassifiedJointTSFDevWithJAP"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_NextGenTSFDevelopment"
+		prerequisite = {
+			focus = "UNI_NextGenTSFDevelopment"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+			focus = "UNI_ClassifiedJointTSFDevWithUSA"
+			focus = "UNI_InternalNextGenTSFDevelopment"
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = UNI_joint_research_JAP
+			set_technology = {
+				JAP_F-4JK = 1
+				JAP_T00F = 1
+			}
+		}
+	}
+	focus = {
+		id = "UNI_InternalNextGenTSFDevelopment"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		relative_position_id = "UNI_NextGenTSFDevelopment"
+		prerequisite = {
+			focus = "UNI_NextGenTSFDevelopment"
+		}
+		x = 2
+		y = 1
+		mutually_exclusive = {
+			focus = "UNI_ClassifiedJointTSFDevWithUSA"
+			focus = "UNI_ClassifiedJointTSFDevWithJAP"
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = UNI_joint_research_ind
+		}
+	}
+	focus = {
+		# id = 次时代战术机研发
+		id = "UNI_4thGenTSFDev"
+		icon = GFX_goal_generic_national_unity
+		relative_position_id = "UNI_ClassifiedJointTSFDevWithJAP"
+		prerequisite = {
+			focus = "UNI_ClassifiedJointTSFDevWithUSA"
+			focus = "UNI_ClassifiedJointTSFDevWithJAP"
+			focus = "UNI_InternalNextGenTSFDevelopment"
+		}
+		x = 0
+		y = 1
+		mutually_exclusive = {
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = UNI_tsf_4
+				uses = 1
+				bonus = 1
+				category = MVLV_tsf_tech
+			}
+		}
+	}
+	focus = {
+		id = UNI_207
+		icon = GFX_focus_AST_rats_tobruk
+		x = 5
+		y = 0
+		cost = 4
+		ai_will_do = {
+			factor = 9
+		}
+		available = {
+			date > 2001.10.22
+			NOT = {
+				has_idea = MVLV_bocchi
+			}
+			287 = {
+				is_owned_by = BET
+				is_controlled_by = BET
+			}
+			792 = {
+				is_controlled_by = UNI
+			}
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			UNI = {
+				country_event = mvlv_uni.1
+				UNI_units_leader_17 = {
+					set_character_flag = 角色解锁
+				}
+				UNI_units_leader_18 = {
+					set_character_flag = 角色解锁
+				}
+				UNI_units_leader_19 = {
+					set_character_flag = 角色解锁
+				}
+				UNI_units_leader_20 = {
+					set_character_flag = 角色解锁
+				}
+				UNI_units_leader_21 = {
+					set_character_flag = 角色解锁
+				}
+				UNI_units_leader_22 = {
+					set_character_flag = 角色解锁
+				}
+				# recruit_character = UNI_units_leader_17
+				# recruit_character = UNI_units_leader_18
+				# recruit_character = UNI_units_leader_19
+				# recruit_character = UNI_units_leader_20
+				# recruit_character = UNI_units_leader_21
+				# recruit_character = UNI_units_leader_22
+			}
+			#hidden_effect = {
+			#	create_corps_commander = {
+			#		name = "白银武"
+			#		gfx = "GFX_白银武头像"
+			#		id = 996
+			#		traits = {
+			#			true_genius
+			#			tsf_officer
+			#			MVLV_valkyrie_lineage
+			#			expert_improviser
+			#			tsf_leader
+			#			trickster
+			#			inspirational_leader
+			#			war_hero
+			#			hill_fighter
+			#			hive_attacker
+			#		}
+			#		skill = 9
+			#		attack_skill = 8
+			#		defense_skill = 8
+			#		planning_skill = 5
+			#		logistics_skill = 7
+			#	}
+			#	create_corps_commander = {
+			#		name = "御剑冥夜"
+			#		gfx = "GFX_御剑冥夜头像"
+			#		id = 997
+			#		traits = {
+			#			politically_connected
+			#			JAP_samurai_lineage
+			#			infantry_officer
+			#			ranger
+			#			trait_engineer
+			#			fortress_buster
+			#			tsf_officer
+			#			tsf_leader
+			#			hive_attacker
+			#			MVLV_valkyrie_lineage
+			#		}
+			#		skill = 9
+			#		attack_skill = 8
+			#		defense_skill = 7
+			#		planning_skill = 6
+			#		logistics_skill = 8
+			#	}
+			#	create_corps_commander = {
+			#		name = "榊千鹤"
+			#		gfx = "GFX_榊千鹤头像"
+			#		id = 998
+			#		traits = {
+			#			politically_connected
+			#			trait_cautious
+			#			harsh_leader
+			#			skilled_staffer
+			#			organizer
+			#			commander_aptitude
+			#			tsf_commander
+			#			tsf_officer
+			#			tsf_leader
+			#			hive_attacker
+			#			MVLV_valkyrie_lineage
+			#		}
+			#		skill = 9
+			#		attack_skill = 6
+			#		defense_skill = 6
+			#		planning_skill = 8
+			#		logistics_skill = 8
+			#	}
+			#	create_corps_commander = {
+			#		name = "珠濑壬姬"
+			#		gfx = "GFX_珠濑壬姬头像"
+			#		id = 999
+			#		traits = {
+			#			politically_connected
+			#			commando
+			#			infantry_leader
+			#			ambusher
+			#			tsf_officer
+			#			tsf_leader
+			#			hive_attacker
+			#			MVLV_valkyrie_lineage
+			#		}
+			#		skill = 9
+			#		attack_skill = 5
+			#		defense_skill = 9
+			#		planning_skill = 6
+			#		logistics_skill = 8
+			#	}
+			#	create_corps_commander = {
+			#		name = "彩峰慧"
+			#		gfx = "GFX_彩峰慧头像"
+			#		id = 989
+			#		traits = {
+			#			politically_connected
+			#			swamp_fox
+			#			naval_invader
+			#			trickster
+			#			guerilla_fighter
+			#			tsf_officer
+			#			tsf_leader
+			#			hive_attacker
+			#			MVLV_valkyrie_lineage
+			#		}
+			#		skill = 9
+			#		attack_skill = 8
+			#		defense_skill = 8
+			#		planning_skill = 3
+			#		logistics_skill = 9
+			#	}
+			#	create_corps_commander = {
+			#		name = "铠衣美琴"
+			#		gfx = "GFX_铠衣美琴头像"
+			#		id = 988
+			#		traits = {
+			#			politically_connected
+			#			trait_reckless
+			#			desert_fox
+			#			swamp_fox
+			#			trait_mountaineer
+			#			hill_fighter
+			#			jungle_rat
+			#			ranger
+			#			urban_assault_specialist
+			#			adaptable
+			#			winter_specialist
+			#			winter_expert
+			#			tsf_officer
+			#			tsf_leader
+			#			hive_attacker
+			#			MVLV_valkyrie_lineage
+			#		}
+			#		skill = 8
+			#		attack_skill = 6
+			#		defense_skill = 6
+			#		planning_skill = 6
+			#		logistics_skill = 7
+			#	}
+			#}
+		}
+	}
+	focus = {
+		id = UNI_xmos
+		icon = GFX_focus_AST_never_gallipoli
+		prerequisite = {
+			focus = UNI_207
+		}
+		x = 0
+		y = 1
+		relative_position_id = UNI_207
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			UNI = {
+				country_event = mvlv_uni.11
+			}
+			add_ideas = UNI_xmosi
+			unlock_decision_category_tooltip = UNI_xmosd_category
+		}
+	}
+	focus = {
+		id = UNI_00_unit
+		icon = GFX_focus_AST_squander_bug
+		prerequisite = {
+			focus = UNI_xmos
+		}
+		x = 0
+		y = 1
+		relative_position_id = UNI_xmos
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			UNI = {
+				country_event = mvlv_uni.9
+				add_ideas = MVLV_00_unit
+				# recruit_character = UNI_units_leader_23
+				UNI_units_leader_23 = {
+					set_character_flag = 角色解锁
+				}
+				#hidden_effect = {
+				#	create_corps_commander = {
+				#		name = "00单元"
+				#		gfx = "GFX_00单元头像"
+				#		id = 1000
+				#		traits = {
+				#			true_genius
+				#			tsf_officer
+				#			tsf_leader
+				#			hive_attacker
+				#			MVLV_valkyrie_lineage
+				#			MVLV_trait_00_unit
+				#			brilliant_strategist
+				#			inflexible_strategist
+				#		}
+				#		skill = 9
+				#		attack_skill = 7
+				#		defense_skill = 7
+				#		planning_skill = 7
+				#		logistics_skill = 7
+				#	}
+				#}
+			}
+			BET = {
+				country_event = BETA.8
+			}
+			H00 = {
+				country_event = BETA.8
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = UNI
+				}
+				country_event = mvlv_uni.26
+				remove_ideas = MVLV_denial_of_delusion
+				effect_tooltip = {
+					add_timed_idea = {
+						idea = MVLV_ouka_setting_idea
+						days = 30
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = UNI_sadogashima
+		icon = GFX_focus_attack_canada
+		prerequisite = {
+			focus = UNI_00_unit
+		}
+		x = 0
+		y = 1
+		relative_position_id = UNI_00_unit
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+			792 = {
+				is_controlled_by = UNI
+			}
+		}
+		bypass = {
+			789 = {
+				NOT = {
+					is_controlled_by = H21
+				}
+			}
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		completion_reward = {
+			BET = {
+				country_event = BETA.5
+			}
+			every_country = {
+				limit = {
+					has_country_flag = PL_ouka_operation_flag
+				}
+				play_song_Alternative_28_effect = yes
+				country_event = mvlv_uni.20
+			}
+			JAP = {
+				play_song_Alternative_28_effect = yes
+				country_event = mvlv_jap.6
+			}
+		}
+	}
+	focus = {
+		id = UNI_operation_ouka
+		icon = GFX_focus_jap_cast_the_die
+		prerequisite = {
+			focus = UNI_sadogashima
+		}
+		x = 0
+		y = 1
+		relative_position_id = UNI_sadogashima
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+			287 = {
+				is_owned_by = BET
+				is_controlled_by = BET
+			}
+			792 = {
+				is_controlled_by = UNI
+			}
+			has_global_flag = yokohama_event_flag
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		select_effect = {
+			every_country = {
+				limit = {
+					is_in_faction_with = UNI
+				}
+				country_event = mvlv_uni.27
+			}
+		}
+		completion_reward = {
+			set_technology = {
+				MVLV_xg_1st = 1
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = UNI
+				}
+				play_Carryon_effect = yes
+				country_event = mvlv_uni.5
+			}
+			every_country = {
+				limit = {
+					has_country_flag = PL_ouka_operation_flag
+				}
+				unlock_decision_category_tooltip = UNI_operation_ouka_category
+			}
+			##今後修正
+			hidden_effect = {
+			}
+			remove_ideas = MVLV_00_unit
+		}
+	}
+	focus = {
+		id = UNI_a01
+		icon = GFX_focus_attack_india
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = UNI_operation_ouka
+		}
+		relative_position_id = UNI_operation_ouka
+		cost = 10
+		ai_will_do = {
+			factor = 9
+		}
+		available = {
+			BET = {
+				has_idea = BET_broken_original_hive
+			}
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			UNI = {
+				country_event = mvlv_uni.24
+				UNI_units_leader_24 = {
+					set_character_flag = 角色解锁
+				}
+				UNI_units_leader_25 = {
+					set_character_flag = 角色解锁
+				}
+				# recruit_character = UNI_units_leader_24
+				# recruit_character = UNI_units_leader_25
+				#create_corps_commander = {
+				#	name = "勇哉·布里吉斯"
+				#	gfx = "GFX_勇哉布里吉斯国联头像"
+				#	traits = {
+				#		trickster
+				#		panzer_leader
+				#		panzer_expert
+				#		trait_reckless
+				#		trait_engineer
+				#		fortress_buster
+				#		inflexible_strategist
+				#		tsf_officer
+				#		expert_improviser
+				#		tsf_leader
+				#		trickster
+				#		inspirational_leader
+				#		war_hero
+				#		hill_fighter
+				#		MVLV_valkyrie_lineage
+				#	}
+				#	skill = 9
+				#	attack_skill = 8
+				#	defense_skill = 6
+				#	planning_skill = 8
+				#	logistics_skill = 6
+				#}
+				#create_corps_commander = {
+				#	name = "伊妮亚·谢斯切娜"
+				#	gfx = "GFX_伊妮亚谢斯切娜国联头像"
+				#	traits = {
+				#		trickster
+				#		trait_cautious
+				#		areer_officer
+				#		trait_engineer
+				#		armor_officer
+				#		inspirational_leader
+				#		career_officer
+				#		true_genius
+				#		tsf_officer
+				#		tsf_leader
+				#		MVLV_valkyrie_lineage
+				#	}
+				#	skill = 9
+				#	attack_skill = 8
+				#	defense_skill = 8
+				#	planning_skill = 6
+				#	logistics_skill = 6
+				#}
+				#create_corps_commander = {
+				#	name = "菲卡吉雅·拉托洛瓦"
+				#	gfx = "GFX_菲卡吉雅拉托洛瓦国联头像"
+				#	traits = {
+				#		organizer
+				#		fast_planner
+				#		winter_specialist
+				#		armor_officer
+				#		media_personality
+				#		war_hero
+				#		inflexible_strategist
+				#		brilliant_strategist
+				#		panzer_leader
+				#		panzer_expert
+				#		commander_aptitude
+				#		tsf_officer
+				#		tsf_leader
+				#		tsf_commander
+				#		MVLV_valkyrie_lineage
+				#	}
+				#	skill = 9
+				#	attack_skill = 7
+				#	defense_skill = 7
+				#	planning_skill = 7
+				#	logistics_skill = 7
+				#}
+				#create_corps_commander = {
+				#	name = "耶齐·桑德克"
+				#	gfx = "GFX_耶齐桑德克国联头像"
+				#	traits = {
+				#		old_guard
+				#		organizer
+				#		thorough_planner
+				#		politically_connected
+				#		inflexible_strategist
+				#		commander_aptitude
+				#		tsf_officer
+				#		tsf_leader
+				#		tsf_commander
+				#		MVLV_valkyrie_lineage
+				#	}
+				#	skill = 9
+				#	attack_skill = 7
+				#	defense_skill = 7
+				#	planning_skill = 7
+				#	logistics_skill = 7
+				#}
+			}
+		}
+	}
+	focus = {
+		id = UNI_vd
+		icon = GFX_focus_attack_france
+		prerequisite = {
+			focus = UNI_a01
+		}
+		x = 0
+		y = 1
+		relative_position_id = UNI_a01
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = UNI_vsd
+		}
+	}
+	focus = {
+		id = UNI_blue_flag
+		icon = GFX_focus_AST_war_japan
+		x = 8
+		y = 0
+		available = {
+			date > 2000.1.22
+			JAP = {
+				has_idea = mvlv_prominence_problem
+			}
+			791 = {
+				is_controlled_by = UNI
+			}
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		completion_reward = {
+			add_ideas = mvlv_prominence_problem
+			UNI = {
+				country_event = mvlv_uni.14
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = UNI_yukon_base
+		icon = GFX_focus_attack_australia
+		prerequisite = {
+			focus = UNI_blue_flag
+		}
+		x = 0
+		y = 1
+		relative_position_id = UNI_blue_flag
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 2
+		completion_reward = {
+			UNI = {
+				transfer_state = 791
+			}
+			JAP = {
+				country_event = mvlv_jap.3
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		# id = 支援日本防卫
+		id = "UNI_ProvideAidForJapanDefence"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 11
+		y = 0
+		#relative_position_id = 
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = MVLV_tsf_tech
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		# id = 重申温哥华协议
+		id = "UNI_RestateVancouverTreaty"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_ProvideAidForJapanDefence
+		prerequisite = {
+			focus = UNI_ProvideAidForJapanDefence
+		}
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			add_political_power = 300
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		# id = 总结明星作战
+		id = "UNI_ConcludeOperationLucifer"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_RestateVancouverTreaty
+		prerequisite = {
+			focus = UNI_RestateVancouverTreaty
+		}
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			army_experience = 100
+			# country_event = {
+			# 	id = uni_event.1
+			# 	hours = 1
+			# }
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		# id = 公布G弹威力
+		id = "UNI_RevealGBombCapability"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_ConcludeOperationLucifer
+		prerequisite = {
+			focus = UNI_ConcludeOperationLucifer
+		}
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.4
+				uses = 3
+				category = land_doctrine
+			}
+			# add_tech_bonus = {
+			# 	bonus = 0.75
+			# 	uses = 3
+			# 	category = land_doctrine
+			# }
+			add_opinion_modifier = {
+				target = USA
+				modifier = G_bomb_threat_opinion
+			}
+			reverse_add_opinion_modifier = {
+				target = USA
+				modifier = G_bomb_threat_opinion
+			}
+			USA = {
+				country_event = mvlv_usa.2
+				add_ideas = 受质疑的G弹计划
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	focus = {
+		# id = 日珥计划的前期准备
+		id = "UNI_PrepareForProjectProminence"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_RevealGBombCapability
+		prerequisite = {
+			focus = UNI_RevealGBombCapability
+		}
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			army_experience = 100
+			# country_event = {
+			# 	id = uni_event.2
+			# 	hours = 1
+			# }
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		# id = 妥善安置难民
+		id = "UNI_RefugeeResttlement"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = -1
+		y = 1
+		relative_position_id = UNI_PrepareForProjectProminence
+		prerequisite = {
+			focus = UNI_PrepareForProjectProminence
+		}
+		mutually_exclusive = {
+			focus = UNI_EnhanceSecurityForces
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			remove_ideas = UNI_refugees_problem_0
+			add_timed_idea = {
+				idea = UNI_improve_refugee_camp
+				days = 180
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		# id = 加强安保力量
+		id = UNI_EnhanceSecurityForces
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 1
+		y = 1
+		relative_position_id = UNI_PrepareForProjectProminence
+		prerequisite = {
+			focus = UNI_PrepareForProjectProminence
+		}
+		mutually_exclusive = {
+			focus = UNI_RefugeeResttlement
+		}
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 3
+		#select_effect = { }
+		completion_reward = {
+			swap_ideas = {
+				add_idea = UNI_refugees_problem_1
+				remove_idea = UNI_refugees_problem_0
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		# id = 征召难民
+		id = UNI_RefugeeEnlistment
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_EnhanceSecurityForces
+		prerequisite = {
+			focus = UNI_EnhanceSecurityForces
+		}
+		#mutually_exclusive = {  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 4
+		#select_effect = { }
+		completion_reward = {
+			add_manpower = 1000000
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		# id = 难民志愿军
+		id = UNI_RefugeeVolunteerArmy
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_RefugeeEnlistment
+		prerequisite = {
+			focus = UNI_RefugeeEnlistment
+		}
+		#mutually_exclusive = { }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 3
+		#select_effect = { }
+		completion_reward = {
+			add_ideas = UNI_refugee_volunteers_idea
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		# id = 提高国联声誉
+		id = UNI_EnhanceUNReputation
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = -1
+		y = 1
+		relative_position_id = UNI_RefugeeVolunteerArmy
+		prerequisite = {
+			focus = UNI_RefugeeVolunteerArmy
+			focus = UNI_RefugeeResttlement
+		}
+		#mutually_exclusive = { }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 4
+		#select_effect = { }
+		completion_reward = {
+			remove_ideas = UNI_low_influence
+			add_ideas = 国联高影响力
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		# id = 专注AL4项目
+		id = UNI_FocusOnAL4
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_EnhanceUNReputation
+		prerequisite = {
+			focus = UNI_EnhanceUNReputation
+		}
+		#mutually_exclusive = {  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			add_ideas = 加大对AlternativeIV的投入
+			# country_event = {
+			# 	id = uni_event.3
+			# 	hours = 1
+			# }
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		# id = 召开紧急安全理事会
+		id = "UNI_EmergencySecurityCouncilSummit"
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_FocusOnAL4
+		prerequisite = {
+			focus = UNI_FocusOnAL4
+		}
+		available = {
+			has_completed_focus = UNI_207
+		}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			AFR = {
+				add_timed_idea = {
+					idea = 紧急安全理事会
+					days = 60
+				}
+			}
+			CAN = {
+				add_timed_idea = {
+					idea = 紧急安全理事会
+					days = 60
+				}
+			}
+			CEA = {
+				add_timed_idea = {
+					idea = 紧急安全理事会
+					days = 60
+				}
+			}
+			SOA = {
+				add_timed_idea = {
+					idea = 紧急安全理事会
+					days = 60
+				}
+			}
+			CHI = {
+				add_timed_idea = {
+					idea = 紧急安全理事会
+					days = 60
+				}
+			}
+			EEA = {
+				add_timed_idea = {
+					idea = 紧急安全理事会
+					days = 60
+				}
+			}
+			EUR = {
+				add_timed_idea = {
+					idea = 紧急安全理事会
+					days = 60
+				}
+			}
+			GEU = {
+				add_timed_idea = {
+					idea = 紧急安全理事会
+					days = 60
+				}
+			}
+			JAP = {
+				add_timed_idea = {
+					idea = 紧急安全理事会
+					days = 60
+				}
+			}
+			OSE = {
+				add_timed_idea = {
+					idea = 紧急安全理事会
+					days = 60
+				}
+			}
+			SOV = {
+				add_timed_idea = {
+					idea = 紧急安全理事会
+					days = 60
+				}
+			}
+			UNI = {
+				add_timed_idea = {
+					idea = 紧急安全理事会
+					days = 60
+				}
+			}
+			USA = {
+				add_timed_idea = {
+					idea = 紧急安全理事会
+					days = 60
+				}
+			}
+			# country_event = {
+			# 	id = uni_event.4
+			# 	hours = 1
+			# }
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		# id = 齐心协力的研究者
+		id = UNI_WorldJointDevelopment
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = UNI_EmergencySecurityCouncilSummit
+		prerequisite = {
+			focus = UNI_EmergencySecurityCouncilSummit
+		}
+		#mutually_exclusive = { }
+		available = {
+			has_completed_focus = UNI_operation_ouka
+		}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			add_tech_bonus = {
+				category = MVLV_tsf_tech
+				bonus = 3
+				uses = 1
+			}
+			# country_event = {
+			# 	id = uni_event.5
+			# 	hours = 1
+			# }
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

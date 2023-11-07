@@ -1,0 +1,33 @@
+add_namespace = mvlv_beta_tac_imp
+country_event = {
+	id = mvlv_beta_tac_imp.0
+	fire_only_once = no
+	hidden = yes
+	trigger = {
+		tag = BET
+		NOT = {
+			has_idea = BET_broken_original_hive
+		}
+		# NOT = {
+		# 	is_ai = yes
+		# 	# 难度高于简单 = yes
+		# 	难度高于普通 = no
+		# }
+		地狱难度 = yes
+	}
+	mean_time_to_happen = {
+		days = 20
+	}
+	immediate = {
+		hidden_effect = {
+			add_to_variable = {
+				var = global.BETA进攻战术改进
+				value = 0.01
+			}
+			add_to_variable = {
+				var = global.BETA防御战术改进
+				value = 0.01
+			}
+		}
+	}
+}

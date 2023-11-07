@@ -1,0 +1,86 @@
+equipment_modules = {
+	MVLV_TSF_sensor_open = {
+		category = MVLV_TSF_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		multiply_stats = {
+			breakthrough = -0.3
+			defense = -0.3
+		}
+	}
+	MVLV_TSF_basic_sensor_system = {
+		category = MVLV_TSF_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 3
+			recon = 0.01
+		}
+		multiply_stats = {
+			breakthrough = 0.1
+			defense = 0.1
+		}
+	}
+	MVLV_TSF_integrated_sensor_1 = {
+		category = MVLV_TSF_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic =5#1
+			recon = 0.01
+		}
+		multiply_stats = {
+			breakthrough = 0.05
+			defense = 0.05
+			soft_attack = 0.02
+			hard_attack = 0.02
+			ap_attack = 0.02
+			air_attack = 0.02
+		}
+	}
+	MVLV_TSF_integrated_sensor_2 = {
+		category = MVLV_TSF_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 8#2
+			recon = 0.02
+		}
+		multiply_stats = {
+			breakthrough = 0.1
+			defense = 0.1
+			soft_attack = 0.04
+			hard_attack = 0.04
+			ap_attack = 0.04
+			air_attack = 0.04
+		}
+	}
+	MVLV_TSF_integrated_sensor_3 = {
+		category = MVLV_TSF_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 10#3
+			recon = 0.03
+		}
+		multiply_stats = {
+			breakthrough = 0.15
+			defense = 0.15
+			soft_attack = 0.06
+			hard_attack = 0.06
+			ap_attack = 0.06
+			air_attack = 0.06
+		}
+	}
+	MVLV_TSF_integrated_sensor_4 = {
+		category = MVLV_TSF_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 15#4
+			recon = 0.04
+		}
+		multiply_stats = {
+			breakthrough = 0.2
+			defense = 0.2
+			soft_attack = 0.08
+			hard_attack = 0.08
+			ap_attack = 0.08
+			air_attack = 0.08
+		}
+	}
+}

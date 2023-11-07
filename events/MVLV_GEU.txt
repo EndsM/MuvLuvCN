@@ -1,0 +1,12 @@
+add_namespace = mvlv_geu
+country_event = {
+	id = mvlv_geu.1
+	desc = mvlv_geu.1.d
+	title = mvlv_geu.1.t
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_geu1.a
+	}
+}

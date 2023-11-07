@@ -1,0 +1,101 @@
+equipment_modules = {
+	MVLV_TSF_anti_laser_coating_1 = {
+		category = MVLV_TSF_coating_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			#air_attack = 10
+		}
+		multiply_stats = {
+			build_cost_ic = 0.01
+			air_attack = 0.1
+		}
+	}
+	MVLV_TSF_anti_laser_coating_2 = {
+		category = MVLV_TSF_coating_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			#build_cost_ic = 2
+			#air_attack = 15
+		}
+		multiply_stats = {
+			build_cost_ic = 0.02
+			air_attack = 0.15			#0.2
+		}
+	}
+	MVLV_TSF_anti_laser_coating_3 = {
+		category = MVLV_TSF_coating_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			#build_cost_ic = 3
+			#air_attack = 20
+		}
+		multiply_stats = {
+			build_cost_ic = 0.03
+			air_attack = 0.2
+		}
+	}
+	MVLV_TSF_anti_laser_coating_4 = {
+		category = MVLV_TSF_coating_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			#build_cost_ic = 5
+			#air_attack = 50
+		}
+		multiply_stats = {
+			build_cost_ic = 0.04
+			air_attack = 0.25
+		}
+	}
+	MVLV_TSF_stealth_coating_1 = {
+		category = MVLV_TSF_coating_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			#build_cost_ic = 3
+		}
+		multiply_stats = {
+			build_cost_ic = 0.03
+			breakthrough = 0.1
+			defense = 0.1
+		}
+	}
+	MVLV_TSF_stealth_coating_2 = {
+		category = MVLV_TSF_coating_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			#build_cost_ic = 5
+		}
+		multiply_stats = {
+			build_cost_ic = 0.05
+			breakthrough = 0.2
+			defense = 0.2
+		}
+	}
+	MVLV_TSF_anti_laser_stealth_coating_1 = {
+		category = MVLV_TSF_coating_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			#build_cost_ic = 10
+			#air_attack = 15
+		}
+		multiply_stats = {
+			build_cost_ic = 0.06
+			breakthrough = 0.1
+			defense = 0.1
+			air_attack = 0.2
+		}
+	}
+	MVLV_TSF_anti_laser_stealth_coating_2 = {
+		category = MVLV_TSF_coating_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			#build_cost_ic = 15
+			#air_attack = 20
+		}
+		multiply_stats = {
+			build_cost_ic = 0.08
+			breakthrough = 0.2
+			defense = 0.2
+			air_attack = 0.25
+		}
+	}
+}

@@ -1,0 +1,61 @@
+
+state={
+	id=640
+	name="STATE_640" # Mandalay
+	manpower = 35000000
+	
+	state_category = rural
+
+#	resources={
+#		steel=50
+#		oil=50
+#		aluminium=50
+#		rubber=5
+#		tungsten=50
+#		chromium=50
+#	}
+
+	history = {
+		1999.1.1 = { 
+			owner = H17
+			add_core_of = H17
+
+			#ボパール陥落用
+			add_claim_by = H13
+			
+			#重慶陥落用
+			add_claim_by = H16
+			
+			victory_points = {
+				1492 100
+			}
+			
+			buildings = {
+				hive = 1
+                                radar_station = 3
+			         anti_air_building = 3
+                                1492 = {
+                                       bunker = 3
+                                }
+			}
+		}
+		owner = GEU
+		add_core_of = GEU
+		#add_core_of = BRM
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		victory_points = {
+			1492 100 
+		}
+		victory_points = {
+			4425 1 
+		}
+
+	}
+	
+	provinces={
+		1082 1170 1197 1492 1566 1607 1934 2061 4087 4175 4210 4318 4425 4585 4588 4654 4996 7400 7469 7562 7603 7647 7909 7974 8063 10386 10486 10920 12317 12335 12363 12404 12464 12492 
+	}
+}

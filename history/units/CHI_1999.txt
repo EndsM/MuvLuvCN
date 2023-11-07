@@ -1,0 +1,246 @@
+﻿units = {
+	division = {
+		location = 7186
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "CHI"
+				creator = CHI
+				version_name = "歼8"
+			}
+		}
+	}
+	division = {
+		location = 7186
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "CHI"
+				creator = CHI
+				version_name = "歼8"
+			}
+		}
+	}
+	division = {
+		location = 7186
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "CHI"
+				creator = CHI
+				version_name = "歼10"
+			}
+		}
+	}
+	division = {
+		location = 7186
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "CHI"
+				creator = CHI
+				version_name = "歼10"
+			}
+		}
+	}
+	division = {
+		location = 7186
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "CHI"
+				creator = CHI
+				version_name = "歼11"
+			}
+		}
+	}
+	division = {
+		location = 7214
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "CHI"
+				creator = CHI
+				version_name = "歼11"
+			}
+		}
+	}
+	division = {
+		location = 7186
+		division_template = "战术机大队"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "CHI"
+				creator = CHI
+				version_name = "F-CK-1经国"
+			}
+		}
+	}
+	division = {
+		name = "暴风小队"
+		location = 13244
+		division_template = "战术机大队"
+		start_experience_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_high_mobility = {
+				owner = "CHI"
+				creator = CHI
+				version_name = "歼10x"
+			}
+		}
+	}
+	division = {
+		location = 7186
+		division_template = "轻装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "轻装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7214
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7214
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7214
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7214
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7186
+		division_template = "陆航旅"
+		start_experience_factor = 0.2
+	}
+}
+
+air_wings = {
+	524 = {
+		name = "中华太空舰队"
+		transport_plane_equipment_1 = {
+			owner = "CHI"
+			amount = 5
+		}
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "CHI"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "CHI"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "CHI"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = medium_tank_equipment_1
+			creator = "CHI"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 100
+	}
+}

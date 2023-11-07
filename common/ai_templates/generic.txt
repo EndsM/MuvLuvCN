@@ -1,0 +1,410 @@
+tsf_role = {
+	roles = {
+		tsf
+	}
+	upgrade_prio = {
+		factor = 1
+	}
+	match_to_count = 0.6
+	tsf_wing = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		# TEMPLATE
+		target_width = 20
+		width_weight = 1
+		column_swap_factor = 1.5
+		reinforce_prio = 2
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_tsf_battalion = 10
+			}
+			support = {
+				engineer = 1
+				maintenance_company = 1
+				field_hospital = 1
+			}
+		}
+	}
+}
+
+infantry_brigade_rocket = {
+	roles = {
+		infantry_brigade_rocket
+	}
+	upgrade_prio = {
+		factor = 1
+	}
+	match_to_count = 0.6
+	infantry_brigade_rocket_template = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		# TEMPLATE
+		target_width = 22
+		width_weight = 1
+		column_swap_factor = 1.5
+		reinforce_prio = 2
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				infantry = 8
+				rocket_artillery_brigade = 2
+			}
+			support = {
+				engineer = 1
+				maintenance_company = 1
+				recon = 1
+				rocket_artillery = 1
+				artillery = 1
+			}
+		}
+	}
+}
+
+infantry_division_rocket = {
+	roles = {
+		infantry_division_rocket
+	}
+	upgrade_prio = {
+		factor = 1
+	}
+	match_to_count = 0.6
+	infantry_division_rocket_template = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		# TEMPLATE
+		target_width = 44
+		width_weight = 1
+		column_swap_factor = 1.5
+		reinforce_prio = 2
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				infantry = 16
+				rocket_artillery_brigade = 4
+			}
+			support = {
+				engineer = 1
+				maintenance_company = 1
+				recon = 1
+				signal_company = 1
+				field_hospital = 1
+			}
+		}
+	}
+}
+
+infantry_brigade_artillery = {
+	roles = {
+		infantry_brigade_artillery
+	}
+	upgrade_prio = {
+		factor = 1
+	}
+	match_to_count = 0.6
+	infantry_brigade_artillery_template = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		# TEMPLATE
+		target_width = 22
+		width_weight = 1
+		column_swap_factor = 1.5
+		reinforce_prio = 2
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				infantry = 8
+				artillery_brigade = 2
+			}
+			support = {
+				engineer = 1
+				maintenance_company = 1
+				recon = 1
+				rocket_artillery = 1
+				artillery = 1
+			}
+		}
+	}
+}
+
+infantry_division_artillery = {
+	roles = {
+		infantry_division_artillery
+	}
+	upgrade_prio = {
+		factor = 1
+	}
+	match_to_count = 0.6
+	infantry_division_artillery_template = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		# TEMPLATE
+		target_width = 44
+		width_weight = 1
+		column_swap_factor = 1.5
+		reinforce_prio = 2
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				infantry = 16
+				artillery_brigade = 4
+			}
+			support = {
+				engineer = 1
+				maintenance_company = 1
+				recon = 1
+				signal_company = 1
+				field_hospital = 1
+			}
+		}
+	}
+}
+
+armor_brigade_rocket = {
+	roles = {
+		armor_brigade_rocket
+	}
+	upgrade_prio = {
+		factor = 1
+	}
+	match_to_count = 0.6
+	armor_brigade_rocket_template = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		# TEMPLATE
+		target_width = 22
+		width_weight = 1
+		column_swap_factor = 1.5
+		reinforce_prio = 2
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_combined_arms_battalion = 8
+				rocket_artillery_brigade = 2
+			}
+			support = {
+				engineer = 1
+				maintenance_company = 1
+				recon = 1
+				rocket_artillery = 1
+				artillery = 1
+			}
+		}
+	}
+}
+
+armor_division_rocket = {
+	roles = {
+		armor_division_rocket
+	}
+	upgrade_prio = {
+		factor = 1
+	}
+	match_to_count = 0.6
+	armor_division_rocket_template = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		# TEMPLATE
+		target_width = 44
+		width_weight = 1
+		column_swap_factor = 1.5
+		reinforce_prio = 2
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_combined_arms_battalion = 16
+				rocket_artillery_brigade = 4
+			}
+			support = {
+				engineer = 1
+				maintenance_company = 1
+				recon = 1
+				signal_company = 1
+				field_hospital = 1
+			}
+		}
+	}
+}
+
+armor_brigade_artillery = {
+	roles = {
+		armor_brigade_artillery
+	}
+	upgrade_prio = {
+		factor = 1
+	}
+	match_to_count = 0.6
+	armor_brigade_artillery_template = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		# TEMPLATE
+		target_width = 22
+		width_weight = 1
+		column_swap_factor = 1.5
+		reinforce_prio = 2
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_combined_arms_battalion = 8
+				artillery_brigade = 2
+			}
+			support = {
+				engineer = 1
+				maintenance_company = 1
+				recon = 1
+				rocket_artillery = 1
+				artillery = 1
+			}
+		}
+	}
+}
+
+armor_division_artillery = {
+	roles = {
+		armor_division_artillery
+	}
+	upgrade_prio = {
+		factor = 1
+	}
+	match_to_count = 0.6
+	armor_division_artillery_template = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		# TEMPLATE
+		target_width = 44
+		width_weight = 1
+		column_swap_factor = 1.5
+		reinforce_prio = 2
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_combined_arms_battalion = 16
+				artillery_brigade = 4
+			}
+			support = {
+				engineer = 1
+				maintenance_company = 1
+				recon = 1
+				signal_company = 1
+				field_hospital = 1
+			}
+		}
+	}
+}
+
+gunship = {
+	roles = {
+		gunship
+	}
+	upgrade_prio = {
+		factor = 1
+	}
+	match_to_count = 0.6
+	gunship_template = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		# TEMPLATE
+		target_width = 22
+		width_weight = 1
+		column_swap_factor = 1.5
+		reinforce_prio = 2
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				light_armor = 22
+			}
+			support = {
+				engineer = 1
+				maintenance_company = 1
+				recon = 1
+				rocket_artillery = 1
+				artillery = 1
+			}
+		}
+	}
+}
+
+diver = {
+	roles = {
+		diver
+	}
+	upgrade_prio = {
+		factor = 1
+	}
+	match_to_count = 0.6
+	diver_template = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		# TEMPLATE
+		target_width = 20
+		width_weight = 1
+		column_swap_factor = 1.5
+		reinforce_prio = 2
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				paratrooper = 10
+			}
+			support = {
+				engineer = 1
+				maintenance_company = 1
+				field_hospital = 1
+			}
+		}
+	}
+}

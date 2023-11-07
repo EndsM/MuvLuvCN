@@ -1,0 +1,191 @@
+equipment_modules = {
+	MVLV_TSF_vibration_sensor_1 = {
+		category = MVLV_TSF_ex_vibration_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 1
+		}
+		multiply_stats = {
+			breakthrough = 0.03
+			defense = 0.03
+		}
+	}
+	MVLV_TSF_vibration_sensor_2 = {
+		category = MVLV_TSF_ex_vibration_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 2
+		}
+		multiply_stats = {
+			breakthrough = 0.05
+			defense = 0.05
+		}
+	}
+	MVLV_TSF_vibration_sensor_3 = {
+		category = MVLV_TSF_ex_vibration_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 3
+		}
+		multiply_stats = {
+			breakthrough = 0.08
+			defense = 0.08
+		}
+	}
+	MVLV_TSF_vibration_sensor_4 = {
+		category = MVLV_TSF_ex_vibration_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 4
+		}
+		multiply_stats = {
+			breakthrough = 0.12
+			defense = 0.12
+		}
+	}
+	MVLV_TSF_infrared_sensor_1 = {
+		category = MVLV_TSF_ex_infrared_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 2
+			recon = 0.03
+			initiative = 0.01
+		}
+	}
+	MVLV_TSF_infrared_sensor_2 = {
+		category = MVLV_TSF_ex_infrared_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 3#2
+			recon = 0.04
+			initiative = 0.02
+		}
+	}
+	MVLV_TSF_infrared_sensor_3 = {
+		category = MVLV_TSF_ex_infrared_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 4#3
+			recon = 0.05
+			initiative = 0.03
+		}
+	}
+	MVLV_TSF_infrared_sensor_4 = {
+		category = MVLV_TSF_ex_infrared_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5#4
+			recon = 0.06
+			initiative = 0.04
+			recon = 0.06
+		}
+	}
+	MVLV_TSF_photo_sensor_1 = {
+		category = MVLV_TSF_ex_photo_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 3#1
+		}
+		multiply_stats = {
+			soft_attack = 0.01
+			hard_attack = 0.01
+			air_attack = 0.01
+		}
+	}
+	MVLV_TSF_photo_sensor_2 = {
+		category = MVLV_TSF_ex_photo_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 4#2
+		}
+		multiply_stats = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+			air_attack = 0.02
+		}
+	}
+	MVLV_TSF_photo_sensor_3 = {
+		category = MVLV_TSF_ex_photo_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5#3
+		}
+		multiply_stats = {
+			soft_attack = 0.03
+			hard_attack = 0.03
+			air_attack = 0.03
+		}
+	}
+	MVLV_TSF_photo_sensor_4 = {
+		category = MVLV_TSF_ex_photo_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 6#4
+		}
+		multiply_stats = {
+			soft_attack = 0.04
+			hard_attack = 0.04
+			air_attack = 0.04
+		}
+	}
+	MVLV_TSF_radar_sensor_1 = {
+		category = MVLV_TSF_ex_radar_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 4#5
+		}
+		multiply_stats = {
+			soft_attack = 0.01
+			hard_attack = 0.01
+			ap_attack = 0.01
+			air_attack = 0.01
+			breakthrough = 0.03
+			defense = 0.03
+		}
+	}
+	MVLV_TSF_radar_sensor_2 = {
+		category = MVLV_TSF_ex_radar_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 6#7
+		}
+		multiply_stats = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+			ap_attack = 0.02
+			air_attack = 0.02
+			breakthrough = 0.06
+			defense = 0.06
+		}
+	}
+	MVLV_TSF_radar_sensor_3 = {
+		category = MVLV_TSF_ex_radar_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 8#10
+		}
+		multiply_stats = {
+			soft_attack = 0.03
+			hard_attack = 0.03
+			ap_attack = 0.03
+			air_attack = 0.03
+			breakthrough = 0.1
+			defense = 0.1
+		}
+	}
+	MVLV_TSF_radar_sensor_4 = {
+		category = MVLV_TSF_ex_radar_sensor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 10#15
+		}
+		multiply_stats = {
+			soft_attack = 0.04
+			hard_attack = 0.04
+			ap_attack = 0.04
+			air_attack = 0.04
+			breakthrough = 0.12
+			defense = 0.12
+		}
+	}
+}

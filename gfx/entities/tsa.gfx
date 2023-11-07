@@ -1,0 +1,28 @@
+objectTypes = {
+	pdxmesh = {
+		name = "generic_tsa_mesh"
+		file = "gfx/models/units/tsa/generic_tsa.mesh"
+
+#		animation = { id = "attack"			type = "generic_tsa_attack_animation" }
+#		animation = { id = "idle"			type = "generic_tsa_idle_animation" }
+#		animation = { id = "move"			type = "generic_tsa_moving_animation" }
+	}
+	
+	pdxmesh = {
+		name = "JAP_generic_tsa_mesh"
+		file = "gfx/models/units/tsa/JAP_generic_tsa.mesh"
+
+#		animation = { id = "attack"			type = "JAP_generic_tsa_attack_animation" }
+#		animation = { id = "idle"			type = "JAP_generic_tsa_idle_animation" }
+#		animation = { id = "move"			type = "JAP_generic_tsa_moving_animation" }
+	}
+	
+	pdxmesh = {
+		name = "SOV_generic_tsa_mesh"
+		file = "gfx/models/units/tsa/SOV_generic_tsa.mesh"
+
+#		animation = { id = "attack"			type = "SOV_generic_tsa_attack_animation" }
+#		animation = { id = "idle"			type = "SOV_generic_tsa_idle_animation" }
+#		animation = { id = "move"			type = "SOV_generic_tsa_moving_animation" }
+	}
+}

@@ -1,0 +1,26 @@
+state={
+	id=656
+	name="STATE_656"
+	manpower = 80000
+	
+	state_category = rural
+	
+	history = {
+		1999.1.1 = { 
+			owner = H09
+			remove_core_of = H09
+		}
+		add_core_of = AFR
+		owner = ENG
+		victory_points = {
+			8085 1 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+	provinces={
+		8085
+	}
+}

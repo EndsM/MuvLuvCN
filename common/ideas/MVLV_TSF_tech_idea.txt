@@ -1,0 +1,10 @@
+ideas = {
+    hidden_ideas = {
+        MVLV_TSF_tech_test = {
+			picture = generic_artillery_manufacturer_2
+			research_bonus = {
+				MVLV_tsf_tech = 100
+			}
+		}
+    }
+}

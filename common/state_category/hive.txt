@@ -1,0 +1,7 @@
+state_categories={
+	hive = {
+		local_building_slots = 25
+		color = { 253 253 253 }
+
+	}
+}

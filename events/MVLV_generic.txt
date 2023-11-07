@@ -1,0 +1,1676 @@
+﻿add_namespace = mvlv_generic
+
+#____________________________________________________________
+#用途
+#汎用イベント
+#
+#id:mvlv_generic.1 effect:难度选择
+#id:mvlv_generic.2 effect:ステート、プロビ名変更
+#id:mvlv_generic.3 effect:ステート、プロビ関連の初期設定
+#id:mvlv_generic.4 effect:巢穴ステートへのリソース追加
+#id:mvlv_generic.5 effect:12.5事件スタートアップ
+#id:mvlv_generic.6 effect:戦略研究会
+#id:mvlv_generic.7 effect:クーデター決起
+#id:mvlv_generic.8 effect:クーデター介入選択
+#id:mvlv_generic.9 effect:クーデター成功率低
+#id:mvlv_generic.10 effect:クーデター成功率高
+#id:mvlv_generic.11 effect:
+#id:mvlv_generic.12 effect:クーデター失敗
+#id:mvlv_generic.13 effect:クーデター成功
+#id:mvlv_generic.14 effect:殿下死亡
+#id:mvlv_generic.15 effect:難易度変更
+#id:mvlv_generic.16 effect:戦死モード変更
+#id:mvlv_generic.99 effect:プレイヤー数カウント
+#id:mvlv_generic.997～999 effect:更新履歴（ディシジョン）
+#
+#____________________________________________________________
+
+# 难度选择イベント
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.0
+	title = mvlv_generic.0.t
+	desc = mvlv_generic.0.d
+	picture = GFX_mvlv_start_event
+	
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_generic.0.a}
+                } 
+country_event = {
+	id = mvlv_generic.100
+	title = mvlv_generic.100.t
+	desc = mvlv_generic.100.d
+	picture = GFX_mvlv_start_event
+	
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_generic.100.a
+                               		trigger = {NOT = {TAG = USA} }
+		} 
+	option = {
+		name = mvlv_generic.100.b
+                               		trigger = {TAG = USA}
+                                 USA={country_event=mvlv_usa.101}
+		} 
+                } 
+country_event = {
+	id = mvlv_generic.1
+	title = mvlv_generic.1.t
+	desc = mvlv_generic.1.d
+	picture = GFX_mvlv_start_event
+	
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_generic.1.a
+		trigger = {
+			is_in_faction_with = UNI
+			is_ai = no
+		}
+		ai_chance = { factor = 0 }
+		add_manpower = 100000
+		add_ideas = mvlv_difficulty_easy
+		UNI = { add_ideas = mvlv_bocchi }
+		BET = { add_ideas = mvlv_bocchi }
+		简单难度参数设置 = yes
+
+		#政治力ボーナス
+		add_political_power = 50
+
+		#陸军経験値ボーナス
+		army_experience = 20
+
+		#ユニットボーナス
+		# IF = {
+		# 	limit = {
+		# 		NOT = { has_template = "装甲师" }
+		# 	}
+		# 	division_template = {
+		# 		name = "装甲师"
+				
+		# 		division_names_group = JAP_ARM_01
+				
+		# 		regiments = {
+		# 			infantry = { x = 0 y = 0 }
+		# 			infantry = { x = 0 y = 1 }
+		# 			infantry = { x = 0 y = 2 }
+		# 			infantry = { x = 0 y = 3 }
+		# 			medium_armor = { x = 1 y = 0 }
+		# 			medium_armor = { x = 1 y = 1 }
+		# 			medium_armor = { x = 1 y = 2 }
+		# 			medium_armor = { x = 2 y = 0 }
+		# 			medium_armor = { x = 2 y = 1 }
+		# 			medium_armor = { x = 2 y = 2 }
+		# 		}
+		# 		support = {
+		# 			engineer = { x = 0 y = 0 }
+		# 			recon = { x = 0 y = 1 }
+		# 		}
+		# 	}
+		# }
+
+		IF = {
+			limit = {
+				NOT = { has_template = "战术机联队" }
+			}
+			division_template = {
+				name = "战术机联队"
+				regiments = {
+					MVLV_tsf_battalion= { x = 0 y = 0 }
+					MVLV_tsf_battalion= { x = 0 y = 1 }
+					MVLV_tsf_battalion= { x = 0 y = 2 }
+					MVLV_tsf_battalion= { x = 1 y = 0 }
+					MVLV_tsf_battalion= { x = 1 y = 1 }
+					MVLV_tsf_battalion= { x = 1 y = 2 }
+					MVLV_tsf_battalion= { x = 2 y = 0 }
+					MVLV_tsf_battalion= { x = 2 y = 1 }
+					MVLV_tsf_battalion= { x = 2 y = 2 }
+				}
+				priority = 2
+			}
+		}
+
+		capital_scope = {
+			create_unit = {
+				division = "division_template = \"重装师\" start_experience_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "division_template = \"重装师\" start_experience_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "division_template = \"重装师\" start_experience_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "division_template = \"重装师\" start_experience_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "division_template = \"重装师\" start_experience_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "division_template = \"战术机联队\" start_experience_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "division_template = \"战术机联队\" start_experience_factor = 0.1" 
+				owner = ROOT
+			}
+		}
+
+		hidden_effect = {
+			set_global_flag = easy_world
+		}
+	}
+
+	option = {
+		name = mvlv_generic.1.b
+		trigger = {
+			is_in_faction_with = UNI
+			is_ai = no
+		}
+		ai_chance = { factor = 0 }
+		add_ideas = mvlv_difficulty_normal
+		add_ideas = MVLV_denial_of_delusion
+		普通难度参数设置 = yes
+	}
+
+	option = {
+		name = mvlv_generic.1.c
+		trigger = {
+			is_in_faction_with = UNI
+			is_ai = no
+		}
+		ai_chance = { factor = 0 }
+		add_ideas = mvlv_difficulty_hard
+		add_ideas = MVLV_denial_of_delusion
+		困难难度参数设置 = yes
+	}
+
+	option = {
+		name = mvlv_generic.1.e
+		trigger = {
+			is_in_faction_with = UNI
+			is_ai = no
+		}
+		ai_chance = { factor = 0 }
+		add_ideas = mvlv_difficulty_unlimited
+		add_ideas = MVLV_denial_of_delusion
+		地狱难度参数设置 = yes
+	}
+	
+	option = {
+		name = mvlv_generic.1.f
+		ai_chance = { factor = 200 }
+		trigger = { 
+			TAG = JAP
+			is_ai = yes
+		}
+		
+		add_ideas = mvlv_difficulty_ai
+		
+		#ユニットを追加
+		load_oob="JAP_1999_ai"
+		
+		#TSF装備追加
+		# JAP = {
+		# 	add_equipment_to_stockpile = { type = tsf_equipment_F-4J amount = 300 producer = JAP }
+		# }
+		add_equipment_to_stockpile = { 
+			type = tsf_equipment_F-4J 
+			amount = 300 
+			producer = JAP 
+		}
+		# 関東方面の要塞化
+		282 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 1097
+			}
+			
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 4000
+			}
+			
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 9998
+			}
+			
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 11908
+			}
+		}
+		
+		#東北方面の要塞化
+		533 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 4067
+			}
+			
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 4122
+			}
+			
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 4153
+			}
+		}
+		
+		#沖縄の要塞化
+		526 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 7115
+			}
+			
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 7115
+			}
+			
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 11932
+			}
+			
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 11932
+			}
+		}
+	}
+	
+	option = {
+		name = mvlv_generic.1.g
+		ai_chance = { factor = 200 }
+		trigger = { 
+			TAG = CHI
+			is_ai = yes
+		}
+		
+		add_ideas = mvlv_difficulty_ai
+		
+		#ユニットを追加
+		load_oob="CHI_1999_ai"
+		
+		#TSF装備追加
+		CHI = {
+			add_equipment_to_stockpile = { type = tsf_equipment_MiG-21 amount = 100 producer = CHI }
+		}
+		
+		#台湾の要塞化
+		524 = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 7214
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 9955
+			}
+
+			add_building_construction = {
+				type = coastal_bunker
+				level = 2
+				instant_build = yes
+				province = 7214
+			}
+
+			add_building_construction = {
+				type = coastal_bunker
+				level = 2
+				instant_build = yes
+				province = 9955
+			}
+		}
+	}
+	
+	option = {
+		name = mvlv_generic.1.h
+		ai_chance = { factor = 200 }
+		trigger = {
+			TAG = EUR
+			is_ai = yes
+		}
+		
+		add_ideas = mvlv_difficulty_ai
+		
+		#ユニットを追加
+		load_oob="EUR_1999_ai"
+		
+		#TSF装備追加
+		EUR = {
+			add_equipment_to_stockpile = { type = tsf_equipment_F-5GIDS amount = 400 producer = EUR }
+		}
+		
+		#シチリアの要塞化
+		115 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 4159
+			}
+
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 4159
+			}
+		}
+		
+		#イングランド南西部の要塞化
+		123 = {
+			add_building_construction = {
+				type = bunker
+				level = 4
+				instant_build = yes
+				province = 540 #プリマス
+			}
+
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 540 #プリマス
+			}
+		}
+		
+		#サセックスの要塞化
+		127 = {
+			add_building_construction = {
+				type = bunker
+				level = 4
+				instant_build = yes
+				province = 9458 #ポーツマス
+			}
+			
+			add_building_construction = {
+				type = bunker
+				level = 4
+				instant_build = yes
+				province = 3501 #ドーバー
+			}
+
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 9458 #ポーツマス
+			}
+			
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 3501 #ドーバー
+			}
+		}
+	}
+	
+	option = {
+		name = mvlv_generic.1.i
+		ai_chance = { factor = 200 }
+		trigger = {
+			TAG = AFR
+			is_ai = yes
+		}
+		
+		add_ideas = mvlv_difficulty_ai
+		
+		#TSF装備追加
+		AFR = {
+			add_equipment_to_stockpile = { type = tsf_equipment_MIII amount = 200 producer = AFR }
+		}
+		
+		#東部砂漠の要塞化
+		457 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 9957
+			}
+			
+			add_building_construction = {
+				type = coastal_bunker
+				level = 1
+				instant_build = yes
+				province = 9957
+			}
+		}
+
+		#エルアラ缅因の要塞化
+		447 = {
+			add_building_construction = {
+				type = bunker
+				level = 4
+				instant_build = yes
+				province = 1071
+			}
+		}
+
+		#アスワンの要塞化
+		456 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 1206
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 11999
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 7156
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 5069
+			}
+		}
+		
+		#ユニットを追加
+		load_oob="AFR_1999_ai"
+	}
+	
+	option = {
+		name = mvlv_generic.1.j
+		ai_chance = { factor = 200 }
+		trigger = {
+			TAG = GEU
+			is_ai = yes
+		}
+		
+		add_ideas = mvlv_difficulty_ai
+		
+		#TSF装備追加
+		GEU = {
+			add_equipment_to_stockpile = { type = tsf_equipment_F-4 amount = 150 producer = GEU }
+		}
+		
+		#ユニットを追加
+		load_oob="GEU_1999_ai"
+		
+		#マレー北部の要塞化
+		724 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 1308
+			}
+			
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 4388
+			}
+			
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 4392
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 10158
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 1281
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 12122
+			}
+			
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 12220
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 12230
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 12201
+			}
+		}
+	}
+	
+	option = {
+		name = mvlv_generic.1.k
+		ai_chance = { factor = 200 }
+		trigger = {
+			TAG = SOV
+			is_ai = yes
+		}
+		
+		add_ideas = mvlv_difficulty_ai
+		
+		#ユニットを追加
+		load_oob="SOV_1999_ai"
+		
+		#TSF装備追加
+		SOV = {
+			add_equipment_to_stockpile = { type = tsf_equipment_MiG-21 amount = 300 producer = SOV }
+		}
+		
+		637 = {
+			add_building_construction = {
+				type = naval_base
+				level = 4
+				instant_build = yes
+				province = 1863
+			}
+		}
+
+		644 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 4744
+			}
+		}
+
+		655 = {
+			add_building_construction = {
+				type = coastal_bunker
+				level = 2
+				instant_build = yes
+				province = 1742
+			}
+		}
+		
+		790 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 13241
+			}
+		}
+	}
+	
+	option = {
+		name = mvlv_generic.1.l
+		ai_chance = { factor = 200 }
+		trigger = {
+			TAG = UNI
+			is_ai = yes
+		}
+		
+		add_ideas = mvlv_difficulty_ai
+		
+		#TSF装備追加
+		UNI = {
+			add_equipment_to_stockpile = { type = tsf_equipment_F-4 amount = 200 producer = UNI }
+			add_equipment_to_stockpile = { type = tsf_equipment_F-16 amount = 150 producer = UNI }
+			add_equipment_to_stockpile = { type = tsf_equipment_F-15E amount = 100 producer = UNI }
+		}
+		
+		#ユーコン基地の要塞化
+		791 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 13244
+			}
+		}
+	}
+
+	option = {
+		name = mvlv_generic.1.o
+		ai_chance = { factor = 200 }
+		trigger = { 
+			TAG = EEA
+			is_ai = yes
+		}
+		
+		add_ideas = mvlv_difficulty_ai
+		
+		#ユニットを追加
+		load_oob="EEA_1999_ai"
+		
+		#TSF装備追加
+		EEA = {
+			add_equipment_to_stockpile = { type = tsf_equipment_MiG-23 amount = 300 producer = EEA }
+		}
+				
+		
+		#グリーンランドの要塞化
+		805 = {
+			add_building_construction = {
+				type = coastal_bunker
+				level = 5
+				instant_build = yes
+				province = 10636
+			}	
+		}
+	}
+	
+	option = {
+		name = mvlv_generic.1.n
+		ai_chance = { factor = 200 }
+		trigger = {
+			is_in_faction_with = BET
+			# is_ai = yes
+		}
+		
+		add_ideas = mvlv_difficulty_beta
+		load_oob = "garrison_BET_1999"
+	
+		hidden_effect = {
+			set_global_flag = player_choosed_difficulty
+			set_major = yes
+		}
+	}
+	
+	option = {
+		name = mvlv_generic.1.m
+		ai_chance = { factor = 200 }
+		trigger = {
+			OR = {
+				TAG = USA
+				TAG = CAN
+				TAG = CEA
+				TAG = SOA
+				TAG = OSE
+			}
+			is_ai = yes
+		}
+		
+		add_ideas = mvlv_difficulty_ai
+	}
+
+	option = {
+		name = mvlv_generic.1.o
+		ai_chance = { factor = 200 }
+		trigger = {
+			tag = H00
+		}
+		
+		add_ideas = mvlv_difficulty_beta
+	
+		hidden_effect = {
+			set_global_flag = player_choosed_difficulty
+			set_major = yes
+		}
+	}
+}
+
+# 開始時にステート名や人的リソース等を変更
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.2
+	desc = mvlv_generic.2.d
+	title = mvlv_generic.2.t
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+	
+	immediate = {
+		country_event = mvlv_generic.3
+		country_event = mvlv_generic.4
+	}
+}
+
+# ステート、プロビ関連の初期設定
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.3
+	desc = mvlv_generic.3.d
+	title = mvlv_generic.3.t
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+	
+	immediate ={
+		#####ステート名を設定#####
+		20 = {
+			set_state_name = "里昂巢穴"
+		}
+		43 = {
+			set_state_name = "布达佩斯巢穴"
+		}
+		148 = {
+			set_state_name = "罗凡涅米巢穴"
+		}
+		206 = {
+			set_state_name = "明斯克巢穴"
+		}
+		214 = {
+			set_state_name = "韦利斯克巢穴"
+		}
+		287 = {
+			set_state_name = "原初巢穴"
+		}
+		283 = {
+			set_state_name = "敦煌巢穴"
+		}
+		330 = {
+			set_state_name = "乌兰巴托巢穴"
+		}
+		407 = {
+			set_state_name = "乌拉尔斯克巢穴"
+		}
+		416 = {
+			set_state_name = "马什哈德巢穴"
+		}
+		527 = {
+			set_state_name = "铁原巢穴"
+		}
+		574 = {
+			set_state_name = "奥廖克明斯克巢穴"
+		}
+		640 = {
+			set_state_name = "曼德勒巢穴"
+		}
+		675 = {
+			set_state_name = "安巴尔巢穴"
+		}
+		605 = {
+			set_state_name = "重庆巢穴"
+		}
+		657 = {
+			set_state_name = "布拉戈维申斯克巢穴"
+		}
+
+		694 = {
+			set_state_name = "国联军瓜德罗普基地"
+		}
+
+		788 = {
+			set_state_name = "国联本部"
+		}
+		789 = {
+			set_state_name = "佐渡岛巢穴"
+		}
+		790 = {
+			set_state_name = "阿拉斯加苏联租借地"
+		}
+		791 = {
+			set_state_name = "国联军育空基地"
+		}
+		792 = {
+			set_state_name = "横滨"
+		}
+		793 = {
+			set_state_name = "红带"
+		}
+		794 = {
+			set_state_name = "维尔霍扬斯克巢穴"
+		}
+		795 = {
+			set_state_name = "诺金斯克巢穴"
+		}
+		796 = {
+			set_state_name = "博帕尔巢穴"
+		}
+		797 = {
+			set_state_name = "埃文斯克巢穴"
+		}
+		798 = {
+			set_state_name = "埃基巴斯图兹巢穴"
+		}
+		799 = {
+			set_state_name = "苏尔古特巢穴"
+		}
+		800 = {
+			set_state_name = "克拉斯诺亚尔斯克巢穴"
+		}
+		
+
+		############プロヴィンス名############
+		set_province_name = {
+			id = 30
+			name = "罗凡涅米巢穴"
+		}
+		set_province_name = {
+			id = 1630
+			name = "敦煌巢穴"
+		}
+		set_province_name = {
+			id = 1492
+			name = "曼德勒巢穴"
+		}
+		set_province_name = {
+			id = 4687
+			name = "诺金斯克巢穴"
+		}
+		set_province_name = {
+			id = 4724
+			name = "克拉斯诺亚尔斯克巢穴"
+		}
+		set_province_name = {
+			id = 4801
+			name = "乌兰巴托巢穴"
+		}
+		set_province_name = {
+			id = 4817
+			name = "苏尔古特巢穴"
+		}
+		set_province_name = {
+			id = 5029
+			name = "马什哈德巢穴"
+		}
+		set_province_name = {
+			id = 6613
+			name = "里昂巢穴"
+		}
+		set_province_name = {
+			id = 6999
+			name = "重庆巢穴"
+		}
+		set_province_name = {
+			id = 7070
+			name = "铁原巢穴"
+		}
+		set_province_name = {
+			id = 7765
+			name = "奥廖克明斯克巢穴"
+		}
+		
+		#喀什巢穴
+		set_province_name = {
+			id = 13254
+			name = "原初巢穴"
+		}
+		set_province_name = {
+			id = 13252
+			name = "横坑"
+		}
+		set_province_name = {
+			id = 13248
+			name = "主大厅"
+		}
+		set_province_name = {
+			id = 13251
+			name = "横坑"
+		}
+		set_province_name = {
+			id = 13253
+			name = "横坑"
+		}
+		set_province_name = {
+			id = 13256
+			name = "横坑"
+		}
+		set_province_name = {
+			id = 13249
+			name = "SW115"
+		}
+		set_province_name = {
+			id = 13250
+			name = "门"
+		}
+		set_province_name = {
+			id = 13255
+			name = "门"
+		}
+		set_province_name = {
+			id = 13257
+			name = "门"
+		}
+		set_province_name = {
+			id = 13258
+			name = "大厅"
+		}
+		set_province_name = {
+			id = 13259
+			name = "大厅"
+		}
+		set_province_name = {
+			id = 13260
+			name = "大厅"
+		}
+		set_province_name = {
+			id = 13261
+			name = "大厅"
+		}
+		#____________________________________________________________
+
+		set_province_name = {
+			id = 9130
+			name = "韦利斯克巢穴"
+		}
+		set_province_name = {
+			id = 9377
+			name = "国联军瓜德罗普基地"
+		}
+		set_province_name = {
+			id = 9660
+			name = "布达佩斯巢穴"
+		}
+		set_province_name = {
+			id = 9952
+			name = "佐渡岛巢穴"
+		}
+		set_province_name = {
+			id = 10235
+			name = "埃基巴斯图兹巢穴"
+		}
+		set_province_name = {
+			id = 10540
+			name = "埃文斯克巢穴"
+		}
+		set_province_name = {
+			id = 10641
+			name = "雅库茨克"
+		}
+		set_province_name = {
+			id = 11370
+			name = "明斯克巢穴"
+		}
+		set_province_name = {
+			id = 11537
+			name = "乌拉尔斯克巢穴"
+		}
+		set_province_name = {
+			id = 11995
+			name = "博帕尔巢穴"
+		}
+		set_province_name = {
+			id = 12549
+			name = "维尔霍扬斯克巢穴"
+		}
+		set_province_name = {
+			id = 13218
+			name = "横滨"
+		}
+		set_province_name = {
+			id = 13238
+			name = "塞拉维克"
+		}
+		set_province_name = {
+			id = 13241
+			name = "劳伦斯岛基地"
+		}
+		set_province_name = {
+			id = 13244
+			name = "国联军育空基地"
+		}
+		set_province_name = {
+			id = 7381
+			name = "雅加达"
+		}
+		set_province_name = {
+			id = 11960
+			name = "京都"
+		}
+	}
+}
+#____________________________________________________________
+
+#リソース追加イベント
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.4
+	desc = mvlv_generic.4.d
+	title = mvlv_generic.4.t
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+	
+	immediate ={
+		hidden_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_owned_by = BET
+						is_owned_by = H26
+						is_owned_by = H25
+						is_owned_by = H23
+						is_owned_by = H21
+						is_owned_by = H20
+						is_owned_by = H19
+						is_owned_by = H18
+						is_owned_by = H17
+						is_owned_by = H16
+						is_owned_by = H15
+						is_owned_by = H14
+						is_owned_by = H13
+						is_owned_by = H12
+						is_owned_by = H11
+						is_owned_by = H10
+						is_owned_by = H09
+						is_owned_by = H08
+						is_owned_by = H07
+						is_owned_by = H06
+						is_owned_by = H05
+						is_owned_by = H04
+						is_owned_by = H03
+						is_owned_by = H02
+					}
+					is_capital = yes
+				}
+				set_state_category = hive
+				
+				THIS = {
+					add_resource = {
+						type = steel
+						amount = 50
+					}
+					add_resource = {
+						type = oil
+						amount = 50
+					}
+					add_resource = {
+						type = aluminium
+						amount = 50
+					}
+					add_resource = {
+						type = rubber
+						amount = 50
+					}
+					add_resource = {
+						type = tungsten
+						amount = 50
+					}
+					add_resource = {
+						type = chromium
+						amount = 50
+					}
+				}
+			}
+		}
+	}
+}
+
+#12.5事件　スタートアップイベント
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.5
+	desc = mvlv_generic.5.d
+	title = mvlv_generic.5.t
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	option ={
+		name = mvlv_generic.5.a
+		JAP = { country_event = mvlv_generic.6 }
+		ai_chance = {
+			base = 50
+		}
+	}
+	option ={
+		name =mvlv_generic.5.b
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+#戦略研究会
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.6
+	desc = mvlv_generic.6.d
+	title = mvlv_generic.6.t
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option ={
+		name = mvlv_generic.6.a
+		add_ideas = JAP_information
+		random_list = {
+			100 = { country_event = { id = mvlv_generic.7 days = 30 } }
+		}
+	}
+}
+
+#クーデター決起イベント
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.7
+	desc = mvlv_generic.7.d
+	title = mvlv_generic.7.t
+	picture = GFX_mvlv_start_kekki
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		TAG = JAP
+		has_idea = JAP_information
+		# remove_ideas=强势内阁
+		282 = {
+			is_controlled_by = JAP
+		}
+		792 = {
+			is_controlled_by = UNI
+		}
+	}
+	
+	option ={
+		name = mvlv_generic.7.a
+		USA = { country_event = mvlv_generic.8 }
+	}
+}
+
+#クーデター介入選択イベント
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.8
+	desc = mvlv_generic.8.d
+	title = mvlv_generic.8.t
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option ={
+		name = mvlv_generic.8.a
+		JAP = { country_event = mvlv_generic.9 }
+		ai_chance = {
+			base = 50
+		}
+	}
+	option ={
+		name = mvlv_generic.8.b
+		JAP = { country_event = mvlv_generic.10 }
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+#クーデター成功率低
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.9
+	desc = mvlv_generic.9.d
+	title = mvlv_generic.9.t
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option ={
+		name = mvlv_generic.9.a
+		random_list = {
+			65 = { country_event = { id = mvlv_generic.12 days = 1 } }
+			30 = { country_event = { id = mvlv_generic.13 days = 1 } }
+			5 = { country_event = { id = mvlv_generic.14 days = 1 } }
+		}
+	}
+}
+
+#クーデター成功率高
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.10
+	desc = mvlv_generic.10.d
+	title = mvlv_generic.10.t
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option ={
+		name = mvlv_generic.10.a
+		random_list = {
+			20 = { country_event = { id = mvlv_generic.12 days = 1 } }#success
+			75 = { country_event = { id = mvlv_generic.13 days = 1 } }#failure
+			5 = { country_event = { id = mvlv_generic.14 days = 1 } }#failure
+		}
+	}
+}
+
+#クーデター失敗
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.12
+	desc = mvlv_generic.12.d
+	title = mvlv_generic.12.t
+	picture = GFX_mvlv_start_good
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option ={
+		name = mvlv_generic.12.a
+		remove_ideas = JAP_puppet_shogun
+		remove_ideas = JAP_information
+		add_ideas = JAP_shogun
+		if = {
+			limit = {
+				check_variable = { global.var_generalDeathMode = 1 }
+			}
+			
+			retire_character =  JAP_unit_leader_4
+			USA = { 
+				retire_character = USA_units_leader_1
+				# recruit_character = USA_units_leader_13
+				USA_units_leader_13 = {
+					set_character_flag = 角色解锁
+				}
+				#create_field_marshal = { 
+				#	name = "阿尔弗雷德·沃肯中校"
+				#	gfx = GFX_阿尔弗雷德沃肯中校头像
+				#	traits = { logistics_wizard 
+				#	organizer 
+				#	offensive_doctrine 
+				#	trait_cautious 
+				#	armor_officer 
+				#	politically_connected  
+				#	war_hero 
+				#	hill_fighter }
+				#	skill = 9
+				#	attack_skill = 10
+				#	defense_skill = 7
+				#	planning_skill = 6
+				#	logistics_skill = 5}
+			} 
+		}
+	}
+}
+
+#クーデター成功
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.13
+	desc = mvlv_generic.13.d
+	title = mvlv_generic.13.t
+	picture = GFX_mvlv_start_bad
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option ={
+		name = mvlv_generic.13.a
+		remove_ideas = JAP_puppet_shogun
+		remove_ideas = JAP_information
+		add_ideas = JAP_shogun
+		
+		if = {
+			limit = {
+				check_variable = { global.var_generalDeathMode = 1 }
+			}
+			retire_character =  JAP_unit_leader_5
+			USA = { retire_character = USA_units_leader_1}
+		}
+	}
+}
+
+#殿下死亡
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.14
+	desc = mvlv_generic.14.d
+	title = mvlv_generic.14.t
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option ={
+		name = mvlv_generic.14.a
+		# TODO 殿下の削除をどうするか　とりあえずそのまま
+		add_timed_idea =  { 
+			idea = JAP_killed_shougun
+			days = 365
+		}
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "斑鳩 崇継"
+			desc = "POLITICS_JAP_denka_DESC"
+			picture = "斑鸠崇继.dds"
+			expire = "1965.1.1"
+			ideology = fascism_ideology
+			traits = {
+				warrior_code
+			}
+		}
+		remove_ideas = JAP_puppet_shogun
+		remove_ideas = JAP_information
+		if = {
+			limit = {
+				check_variable = { global.var_generalDeathMode = 1 }
+			}
+			retire_character =  JAP_unit_leader_1
+			retire_character =  JAP_unit_leader_4
+			retire_character =  JAP_unit_leader_5
+			USA = { retire_character = USA_units_leader_1 }
+		}
+	}
+}
+
+#難易度変更
+#マルチ途中参加者向け
+#____________________________________________________________
+
+country_event = {
+	id = mvlv_generic.15
+	title = mvlv_generic.15.t
+	desc = mvlv_generic.15.d
+	picture = GFX_mvlv_start_event
+	
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_generic.1.a
+		ai_chance = { factor = 0 }
+		add_ideas = mvlv_difficulty_easy
+		remove_ideas = { mvlv_difficulty_normal }
+		remove_ideas = { mvlv_difficulty_hard }
+		remove_ideas = { mvlv_difficulty_unlimited }
+		remove_ideas = { mvlv_difficulty_ai }
+		简单难度参数设置 = yes
+	}
+
+	option = {
+		name = mvlv_generic.1.b
+		ai_chance = { factor = 0 }
+		add_ideas = mvlv_difficulty_normal
+		remove_ideas = { mvlv_difficulty_easy }
+		remove_ideas = { mvlv_difficulty_hard }
+		remove_ideas = { mvlv_difficulty_unlimited }
+		remove_ideas = { mvlv_difficulty_ai }
+		普通难度参数设置 = yes
+	}
+
+	option = {
+		name = mvlv_generic.1.c
+		ai_chance = { factor = 0 }
+		add_ideas = mvlv_difficulty_hard
+		remove_ideas = { mvlv_difficulty_easy }
+		remove_ideas = { mvlv_difficulty_normal }
+		remove_ideas = { mvlv_difficulty_unlimited }
+		remove_ideas = { mvlv_difficulty_ai }
+		困难难度参数设置 = yes
+	}
+
+	option = {
+		name = mvlv_generic.1.e
+		ai_chance = { factor = 0 }
+		add_ideas = mvlv_difficulty_unlimited
+		remove_ideas = { mvlv_difficulty_easy }
+		remove_ideas = { mvlv_difficulty_normal }
+		remove_ideas = { mvlv_difficulty_hard }
+		remove_ideas = { mvlv_difficulty_ai }
+		地狱难度参数设置 = yes
+	}
+}
+
+#戦死モード変更
+#1:削除（デフォルト）
+#0:削除しない
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.16
+	title = mvlv_generic.16.t
+	desc = mvlv_generic.16.d
+	
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_generic.16.a
+		set_variable = { global.var_generalDeathMode = 1 }
+	}
+
+	option = {
+		name = mvlv_generic.16.b
+		set_variable = { global.var_generalDeathMode = 0 }
+	}
+}
+
+#戦況計算
+#10日ごとに自分自身を実行し、戦況を切り替える
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.98
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = { factor = 100 }
+		country_event = { id = mvlv_generic.98 days = 10 }
+
+		set_variable = { THIS.var_war_situation = 0 }
+		set_variable = { THIS.var_exists_hive = 0 }
+		set_variable = { THIS.var_exists_h01 = 0 }
+		
+		#残存巢穴から
+		every_country = {
+			if = {
+				limit = {
+					is_in_faction_with = BET
+					has_idea = mvlv_brokenhive
+					#NOT = { tag = BET }
+				}
+				add_to_variable = { ROOT.var_exists_hive = 1 }
+			}
+			if = {
+				limit = {
+					tag = BET
+					has_idea = mvlv_brokenhive
+				}
+				add_to_variable = { ROOT.var_exists_h01 = 10 }
+			}
+		}
+		
+		add_to_variable = { THIS.var_war_situation = THIS.var_exists_hive }
+		add_to_variable = { THIS.var_war_situation = THIS.var_exists_h01 }
+
+		every_country = {
+			if = {
+				limit = {
+					is_in_faction_with = UNI
+					check_variable = { THIS.var_war_situation < global.var_betawar_situation_1 }
+				}
+				add_ideas = betawar_situation_1
+			}
+			else_if = {
+				limit = {
+					is_in_faction_with = UNI
+					check_variable = { THIS.var_war_situation < global.var_betawar_situation_2 }
+				}
+				add_ideas = betawar_situation_2
+			}
+			else_if = {
+				limit = {
+					is_in_faction_with = UNI
+					check_variable = { THIS.var_war_situation < global.var_betawar_situation_3 }
+				}
+				add_ideas = betawar_situation_3
+			}
+			else_if = {
+				limit = {
+					is_in_faction_with = UNI
+					check_variable = { THIS.var_war_situation < global.var_betawar_situation_4 }
+				}
+				add_ideas = betawar_situation_4
+			}
+		}
+	}
+}
+
+
+#プレイヤー数カウントイベント
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.99
+	desc = mvlv_generic.99.d
+	title = mvlv_generic.99.t
+	picture = BETA_event_1
+	fire_only_once = no
+	hidden = yes
+	
+	trigger = {
+		TAG = BET
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate ={
+		# ai_chance = { factor = 100 }
+		set_variable = { global.var_playercount = 0 }
+		every_country = {
+			IF = {
+				limit = {
+					is_ai = no
+				}
+				add_to_variable = { global.var_playercount = 1 }
+			}
+		}
+		#####
+		if = {
+			limit = { NOT = { has_global_flag = MVLV_command_ouka_flag } }
+			if = {
+				limit = {
+					check_variable = { global.var_playercount = 1 }
+				}
+				every_country = {
+					limit = {
+						has_country_flag = PL_ouka_operation_flag
+					}
+					clr_country_flag = PL_ouka_operation_flag
+				}
+				every_country = {
+					limit = {
+						AND = {
+							is_ai = no
+							is_in_faction_with = UNI
+						}
+					}
+					set_country_flag = PL_ouka_operation_flag
+				}
+				every_country = {
+					limit = {
+						AND = {
+							is_ai = no
+							NOT = { is_in_faction_with = UNI }
+						}
+					}
+					UNI = {	
+						set_country_flag = PL_ouka_operation_flag
+					}
+				}
+				else = {
+					every_country = {
+						limit = {
+							has_country_flag = PL_ouka_operation_flag
+						}
+						clr_country_flag = PL_ouka_operation_flag
+					}
+					UNI = {	
+						set_country_flag = PL_ouka_operation_flag
+					}
+				}
+			}
+		}
+	}
+}
+
+#更新履歴
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.997
+	desc = mvlv_generic.997.d
+	title = mvlv_generic.999.t
+	picture = GFX_mvlv_mascot
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mvlv_generic.999.a
+	}
+}
+country_event = {
+	id = mvlv_generic.998
+	desc = mvlv_generic.998.d
+	title = mvlv_generic.999.t
+	picture = GFX_mvlv_mascot
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mvlv_generic.999.a
+	}
+}
+country_event = {
+	id = mvlv_generic.999
+	desc = mvlv_generic.999.d
+	title = mvlv_generic.999.t
+	picture = GFX_mvlv_mascot
+
+	is_triggered_only = yes
+	
+	option = {
+		name = mvlv_generic.999.a
+	}
+}

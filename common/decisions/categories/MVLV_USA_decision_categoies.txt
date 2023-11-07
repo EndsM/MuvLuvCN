@@ -1,0 +1,28 @@
+USA_dawn_plan_categories = {
+	icon = generic_propaganda
+	allowed = {
+		original_tag = USA
+		# always = yes
+	}
+	visible = {
+		original_tag = USA
+		has_completed_focus = "曙光计划"
+	}
+	available = {
+		has_completed_focus = "曙光计划"
+	}
+}
+USA_Lagrange_Plan_categories= {
+	icon = generic_propaganda
+	allowed = {
+		original_tag = USA
+		# always = yes
+	}
+	visible = {
+		original_tag = USA
+		has_completed_focus = "拉格朗日计划"
+	}
+	available = {
+		has_completed_focus = "拉格朗日计划"
+	}
+}

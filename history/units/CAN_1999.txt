@@ -1,0 +1,44 @@
+﻿units = {
+	#戦術機
+	division = {
+		location = 3778
+		division_template = "战术机联队"
+		start_experience_factor = 0.25
+		force_equipment_variants = { 
+			MVLV_TSF_classis_1_light = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-5自由战士"
+			}
+		}
+	}
+
+	#歩兵
+	division = {
+		location = 3778
+		division_template = "轻装旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 3778
+		division_template = "轻装旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 3778
+		division_template = "轻装旅"
+		start_experience_factor = 0.1
+	}
+
+	#戦車
+	division = {
+		location = 3778
+		division_template = "重装旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 3778
+		division_template = "重装旅"
+		start_experience_factor = 0.1
+	}
+}

@@ -1,0 +1,220 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+CHI_area_priority = {
+	enable = {
+		original_tag = CHI
+		date > 1998.12.31
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = africa
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = oceania
+		value = -100
+	}
+
+}
+
+CHI_defend_doctrine = {
+	enable = {
+		original_tag = CHI
+		date > 1998.12.31
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = CAN
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = USA
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = CEA
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = SOA
+		value = 100
+ 	}
+	 ai_strategy = {
+ 		 type = dont_defend_ally_borders
+ 		 id = SOV
+ 		 value = 100
+ 	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = JAP
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = OSE
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = EEA
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = EUR
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = AFR
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = GEU
+		value = 100
+	}
+}
+
+CHI_strategic_plan = {
+	enable = {
+		tag = CHI
+		date > 1998.12.31
+	}
+
+	ai_strategy = { 
+		type = role_ratio
+		id = infantry
+		value = 1
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 10
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = garrison
+		value = 5
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = suppression
+		value = 0
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = tsf
+		value = 80
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = -80
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = cavalry
+		value = -80
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = mountaineers
+		value = -80
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = infantry
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 0
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = cas
+		value = 1
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 1 #10 to 5
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 150 #From 40 to 5
+	}
+	
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = armor
+		value = 0
+	}
+}

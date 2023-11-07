@@ -1,0 +1,1836 @@
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+
+	operative = {
+		male = {
+			"GFX_portrait_operative_unknown"
+		}
+		female = {
+			"GFX_portrait_operative_unknown"
+		}
+	}
+
+	male = {
+		"GFX_portrait_unknown"
+	}
+	female = {
+		"GFX_portrait_unknown_female"
+	}
+}
+
+# continent = {
+# 	name = europe
+# 	army = {
+# 		male = {
+# 			"GFX_Portrait_Europe_Generic_land_1"
+# 			"GFX_Portrait_Europe_Generic_land_2"
+# 			"GFX_Portrait_Europe_Generic_land_3"
+# 			"GFX_Portrait_Europe_Generic_land_4"
+# 			"GFX_Portrait_Europe_Generic_land_5"
+# 			"GFX_portrait_europe_generic_land_13"
+# 		}
+# 	}
+	
+# 	navy = {
+# 		male = {
+# 			"GFX_Portrait_Europe_Generic_navy_1"
+# 			"GFX_Portrait_Europe_Generic_navy_2"
+# 			"GFX_Portrait_Europe_Generic_navy_3"
+# 		}
+# 	}
+	
+# 	political = {
+# 		communism = {
+# 				male = { 
+# 					"GFX_Portrait_Europe_Generic_1"
+# 			}
+# 		}
+# 		democratic = {
+# 				male = { 
+# 					"GFX_Portrait_Europe_Generic_2" 
+# 			}
+# 		}
+# 		fascism = {
+# 				male = { 
+# 					"GFX_Portrait_Europe_Generic_3" 
+# 			}
+# 		}
+# 		neutrality = {
+# 				male = { 
+# 					"GFX_Portrait_Europe_Generic_3" 
+# 			}
+# 		}
+# 	}
+
+# }
+
+# continent = {
+# 	name = north_america
+# 	army = {
+# 		male = {
+# 			"GFX_Portrait_Europe_Generic_land_1"
+# 			"GFX_Portrait_Europe_Generic_land_2"
+# 			"GFX_Portrait_Europe_Generic_land_3"
+# 			"GFX_Portrait_Europe_Generic_land_4"
+# 			"GFX_Portrait_Europe_Generic_land_5"
+# 			"GFX_portrait_europe_generic_land_13"
+# 		}
+# 	}
+	
+# 	navy = {
+# 		male = {
+# 			"GFX_Portrait_Europe_Generic_navy_1"
+# 			"GFX_Portrait_Europe_Generic_navy_2"
+# 			"GFX_Portrait_Europe_Generic_navy_3"
+# 		}
+# 	}
+
+# 	political = {
+# 		communism = {
+# 				male = { 
+# 					"GFX_Portrait_Europe_Generic_1"
+# 			}
+# 		}
+# 		democratic = {
+# 				male = { 
+# 					"GFX_Portrait_Europe_Generic_2" 
+# 			}
+# 		}
+# 		fascism = {
+# 				male = { 
+# 					"GFX_Portrait_Europe_Generic_3" 
+# 			}
+# 		}
+# 		neutrality = {
+# 				male = { 
+# 					"GFX_Portrait_Europe_Generic_3" 
+# 			}
+# 		}
+# 	}
+
+# }
+
+# continent = {
+# 	name = south_america
+# 	army = {
+# 		male = {
+# 			"GFX_Portrait_South_America_Generic_land_1"
+# 			"GFX_Portrait_South_America_Generic_land_2"
+# 			"GFX_Portrait_South_America_Generic_land_3"
+# 			"GFX_Portrait_South_America_Generic_land_4"
+# 			"GFX_Portrait_South_America_Generic_land_5"
+# 		}
+# 	}
+	
+# 	navy = {
+# 		male = {
+# 			"GFX_Portrait_South_America_Generic_navy_1"
+# 			"GFX_Portrait_South_America_Generic_navy_2"
+# 			"GFX_Portrait_South_America_Generic_navy_3"
+# 		}
+# 	}
+	
+# 	political = {
+# 		communism = {
+# 				male = { 
+# 					"GFX_Portrait_South_America_Generic_1"
+# 			}
+# 		}
+# 		democratic = {
+# 				male = { 
+# 					"GFX_Portrait_South_America_Generic_2" 
+# 			}
+# 		}
+# 		fascism = {
+# 				male = { 
+# 					"GFX_Portrait_South_America_Generic_3" 
+# 			}
+# 		}
+# 		neutrality = {
+# 				male = { 
+# 					"GFX_Portrait_South_America_Generic_3" 
+# 			}
+# 		}
+# 	}
+
+# }
+
+# continent = {
+# 	name = australia
+# 	army = {
+# 		male = {
+# 			"GFX_Portrait_Europe_Generic_land_1"
+# 			"GFX_Portrait_Europe_Generic_land_2"
+# 			"GFX_Portrait_Europe_Generic_land_3"
+# 			"GFX_Portrait_Europe_Generic_land_4"
+# 			"GFX_Portrait_Europe_Generic_land_5"
+# 			"GFX_portrait_europe_generic_land_13"
+# 		}
+# 	}
+	
+# 	navy = {
+# 		male = {
+# 			"GFX_Portrait_Europe_Generic_navy_1"
+# 			"GFX_Portrait_Europe_Generic_navy_2"
+# 			"GFX_Portrait_Europe_Generic_navy_3"
+# 		}
+# 	}
+	
+# 	political = {
+# 		communism = {
+# 				male = { 
+# 					"GFX_Portrait_Europe_Generic_1"
+# 			}
+# 		}
+# 		democratic = {
+# 				male = { 
+# 					"GFX_Portrait_Europe_Generic_2" 
+# 			}
+# 		}
+# 		fascism = {
+# 				male = { 
+# 					"GFX_Portrait_Europe_Generic_3" 
+# 			}
+# 		}
+# 		neutrality = {
+# 				male = { 
+# 					"GFX_Portrait_Europe_Generic_3" 
+# 			}
+# 		}
+# 	}
+
+# }
+
+# continent = {
+# 	name = africa
+# 	army = {
+# 		male = {
+# 			"GFX_Portrait_Africa_Generic_land_1"
+# 			"GFX_Portrait_Africa_Generic_land_2"
+# 			"GFX_Portrait_Africa_Generic_land_3"
+# 			"GFX_Portrait_South_Africa_Army_Generic"
+# 			"GFX_Portrait_South_Africa_Army_Generic_2"
+# 		}
+# 	}
+	
+# 	navy = {
+# 		male = {
+# 			"GFX_Portrait_Africa_Generic_navy_1"
+# 			"GFX_Portrait_Africa_Generic_navy_2"
+# 			"GFX_Portrait_Africa_Generic_navy_3"
+# 		}
+# 	}
+	
+# 	political = {
+# 		communism = {
+# 				male = { 
+# 					"GFX_Portrait_Africa_Generic_1"	
+# 					"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+# 					"GFX_Portrait_South_Africa_Political_Leader_Generic"
+# 			}
+# 		}
+# 		democratic = {
+# 				male = { 
+# 					"GFX_Portrait_Africa_Generic_2" 
+# 					"GFX_Portrait_South_Africa_Political_Leader_Generic"
+# 					"GFX_Portrait_South_Africa_Political_Leader_Generic_2"		
+# 			}
+# 		}
+# 		fascism = {
+# 				male = { 
+# 					"GFX_Portrait_Africa_Generic_3" 
+# 					"GFX_Portrait_South_Africa_Political_Leader_Generic"
+# 					"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+# 					"GFX_Portrait_South_Africa_Army_Generic"
+# 					"GFX_Portrait_South_Africa_Army_Generic_2"
+# 			}
+# 		}
+# 		neutrality = {
+# 				male = { 
+# 					"GFX_Portrait_Africa_Generic_3" 
+# 					"GFX_Portrait_South_Africa_Political_Leader_Generic"
+# 					"GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+# 			}
+# 		}
+# 	}
+
+
+# }
+
+# continent = {
+# 	name = middle_east
+# 	army = {
+# 		male = {
+# 			"GFX_Portrait_Arabia_Generic_land_1"
+# 			"GFX_Portrait_Arabia_Generic_land_2"
+# 			"GFX_Portrait_Arabia_Generic_land_3"
+# 		}
+# 	}
+	
+# 	navy = {
+# 		male = {
+# 			"GFX_Portrait_Arabia_Generic_navy_1"
+# 			"GFX_Portrait_Arabia_Generic_navy_2"
+# 			"GFX_Portrait_Arabia_Generic_navy_3"
+# 		}
+# 	}
+	
+# 	political = {
+# 		communism = {
+# 				male = { 
+# 					"GFX_Portrait_Arabia_Generic_1"
+# 			}
+# 		}
+# 		democratic = {
+# 				male = { 
+# 					"GFX_Portrait_Arabia_Generic_2"
+# 			}
+# 		}
+# 		fascism = {
+# 				male = { 
+# 					"GFX_Portrait_Arabia_Generic_3" 
+# 			}
+# 		}
+# 		neutrality = {
+# 				male = { 
+# 					"GFX_Portrait_Arabia_Generic_3" 
+# 			}
+# 		}
+# 	}
+# }
+BET = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H00 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H26 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+H25 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+H23 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+H21 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+H20 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+H19 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+H18 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+H17 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H16 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H15 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H14 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H13 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H12 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H11 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H10 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H09 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H08 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H07 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H06 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H05 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H03 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+H02 = {
+	army = {
+		male = {
+			"GFX_兵士级头像"
+			"GFX_光线级头像"
+			"GFX_战车级头像"
+			"GFX_突击级头像"
+			"GFX_斗士级头像"
+			"GFX_要击级头像"
+			"GFX_要塞级头像"
+			# "GFX_重光线级头像"`
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_要塞级头像"
+		}
+	}
+}
+
+AFR = {
+	army = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+}
+CAN = {
+	army = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+}
+CEA = {
+	army = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+}
+CHI = {
+	army = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+}
+EEA = {
+	army = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+}
+EUR = {
+	army = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+}
+GEU = {
+	army = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+}
+JAP = {
+	army = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+}
+OSE = {
+	army = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+}
+SOA = {
+	army = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+}
+SOV = {
+	army = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+}
+UNI = {
+	army = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+}
+USA = {
+	army = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+	
+	navy = {
+		male = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+		female = {
+			"GFX_白毛1头像"
+			"GFX_白毛2头像"
+			"GFX_白毛3头像"
+			"GFX_白毛4头像"
+			"GFX_白毛5头像"
+			"GFX_黑毛1头像"
+			"GFX_黑毛2头像"
+			"GFX_黄毛1头像"
+			"GFX_黄毛2头像"
+			"GFX_黄毛3头像"
+			"GFX_黄毛4头像"
+			"GFX_蓝毛1头像"
+			"GFX_绿毛1头像"
+			"GFX_绿毛2头像"
+			"GFX_银毛1头像"
+			"GFX_银毛2头像"
+		}
+	}
+}

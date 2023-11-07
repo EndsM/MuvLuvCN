@@ -1,0 +1,39 @@
+division_template = {
+	name = "战术机联队"
+	division_names_group = MVLV_TSF_01
+	regiments = {
+		MVLV_tsf_battalion= { x = 0 y = 0 }
+		MVLV_tsf_battalion= { x = 0 y = 1 }
+		MVLV_tsf_battalion= { x = 0 y = 2 }
+		MVLV_tsf_battalion= { x = 1 y = 0 }
+		MVLV_tsf_battalion= { x = 1 y = 1 }
+		MVLV_tsf_battalion= { x = 1 y = 2 }
+		MVLV_tsf_battalion= { x = 2 y = 0 }
+		MVLV_tsf_battalion= { x = 2 y = 1 }
+		MVLV_tsf_battalion= { x = 2 y = 2 }
+		MVLV_tsf_battalion= { x = 2 y = 3 }
+	}
+	priority = 2
+	support = {
+		engineer = { x = 0 y = 0 }  
+		maintenance_company = { x = 0 y = 1 }
+		field_hospital =  { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "战术机大队"
+	division_names_group = MVLV_TSF_02
+	regiments = {
+		MVLV_tsf_battalion= { x = 0 y = 0 }
+		MVLV_tsf_battalion= { x = 0 y = 1 }
+		MVLV_tsf_battalion= { x = 0 y = 2 }
+		MVLV_tsf_battalion= { x = 0 y = 3 }
+		MVLV_tsf_battalion= { x = 1 y = 0 }
+	}
+	priority = 0
+	support = {
+		engineer = { x = 0 y = 0 }  
+		maintenance_company = { x = 0 y = 1 }
+		field_hospital =  { x = 0 y = 2 }
+	}
+}

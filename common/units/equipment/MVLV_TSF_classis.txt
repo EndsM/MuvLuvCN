@@ -1,0 +1,3759 @@
+equipments = {
+	MVLV_TSF_chassis = {
+		is_archetype = yes
+		is_buildable = no
+		picture = archetype_light_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_melee_type
+			count < 3
+		}
+		soft_attack = 1
+		hard_attack = 1
+		defense = 1
+		breakthrough = 1
+		fuel_consumption = 0
+		maximum_speed = 1
+		lend_lease_cost = 10
+		build_cost_ic = 7
+		reliability = 0.9
+		# hardness = 0.99
+		hardness = 0.2
+		armor_value = 5
+		resources = {
+			steel = 1
+		}
+		# default_modules = {
+		# 	MVLV_TSF_slot_1 = empty
+		# 	MVLV_TSF_slot_2 = empty
+		# 	MVLV_TSF_slot_3 = empty
+		# 	MVLV_TSF_slot_4 = empty
+		# 	MVLV_TSF_slot_5 = empty
+		# 	MVLV_TSF_slot_6 = empty
+		# 	MVLV_TSF_slot_7 = empty
+		# 	MVLV_TSF_slot_8 = empty
+		# 	MVLV_TSF_slot_9 = empty
+		# }
+	}
+	MVLV_TSF_classis_0 = {
+		abbreviation = "MVLV_TSF0"
+		visual_level = 1
+		year = 1970
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = inherit
+	}
+	MVLV_TSF_classis_1_light = {
+		abbreviation = "MVLV_TSF1_L"
+		derived_variant_name = MVLV_TSF_equipment_1_light
+		visual_level = 2
+		year = 1973
+		archetype = MVLV_TSF_chassis
+		parent = MVLV_TSF_classis_0
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			#MVLV_TSF_sp_slot_2 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 20
+		hard_attack = 20
+		ap_attack = 40
+		air_attack = 25#20
+		defense = 35#40
+		breakthrough = 45
+		maximum_speed = 7#8
+		build_cost_ic = 20
+		reliability = 0.9
+		armor_value = 20#35
+		hardness = 0.25
+		#experience_loss_factor = 0.05
+		# default_modules = {
+		# 	MVLV_TSF_main_armament_slot = MVLV_TSF_armament_1
+		# 	MVLV_TSF_back_type_slot = MVLV_TSF_assisted_robot_1
+		# 	MVLV_TSF_sensor_type_slot = empty
+		# 	MVLV_TSF_thruster_type_slot = MVLV_TSF_thruster_1
+		# 	MVLV_TSF_OS_type_slot = MVLV_TSF_OS_1
+		# 	MVLV_TSF_special_type_slot_1 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_2 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_3 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_4 = MVLV_TSF_ex_ammo_0
+		# }
+	}
+	MVLV_TSF_classis_1_heavy = {
+		abbreviation = "MVLV_TSF1_H"
+		derived_variant_name = MVLV_TSF_equipment_1_heavy
+		visual_level =2
+		year = 1973
+		archetype = MVLV_TSF_chassis
+		parent = MVLV_TSF_classis_0
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			#MVLV_TSF_sp_slot_4 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 25
+		hard_attack = 25
+		ap_attack = 40
+		air_attack = 20
+		defense = 45
+		breakthrough = 35#40
+		maximum_speed = 6#8
+		build_cost_ic = 22#25
+		reliability = 0.9
+		armor_value = 20#35
+		hardness = 0.2
+		max_organisation = 0.2
+		default_morale = 0.1
+		#experience_loss_factor = 0.05
+		# default_modules = {
+		# 	MVLV_TSF_main_armament_slot = MVLV_TSF_armament_1
+		# 	MVLV_TSF_back_type_slot = MVLV_TSF_assisted_robot_1
+		# 	MVLV_TSF_sensor_type_slot = empty
+		# 	MVLV_TSF_thruster_type_slot = empty
+		# 	MVLV_TSF_OS_type_slot = MVLV_TSF_OS_1
+		# 	MVLV_TSF_special_type_slot_1 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_2 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_3 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_4 = MVLV_TSF_ex_ammo_0
+		# }
+	}
+	MVLV_TSF_classis_2_light_normal = {
+		abbreviation = "MVLV_TSF2_LN"
+		derived_variant_name = MVLV_TSF_equipment_2_light_normal
+		visual_level = 3
+		year = 1982
+		parent = MVLV_TSF_classis_1_light
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			#MVLV_TSF_sp_slot_4 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 35
+		hard_attack = 35
+		ap_attack = 50
+		air_attack = 35
+		defense = 50
+		breakthrough = 60
+		maximum_speed = 11#12
+		build_cost_ic = 25#30
+		reliability = 0.9
+		armor_value = 30#50
+		hardness = 0.3
+		#experience_loss_factor = 0.05
+	}
+	MVLV_TSF_classis_2_light_high_mobility = {
+		abbreviation = "MVLV_TSF2_LM"
+		derived_variant_name = MVLV_TSF_equipment_2_light_high_mobility
+		visual_level = 3
+		year = 1982
+		parent = MVLV_TSF_classis_1_light
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			#MVLV_TSF_sp_slot_2 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+			#MVLV_TSF_sp_slot_3 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+			#MVLV_TSF_sp_slot_4 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 42
+		hard_attack = 42
+		ap_attack = 60
+		air_attack = 50
+		defense = 55
+		breakthrough = 70
+		maximum_speed = 12
+		build_cost_ic = 30#35
+		reliability = 0.9
+		armor_value = 35#60
+		hardness = 0.35
+		# default_morale = -0.6
+		experience_loss_factor = 0.1
+		# experience_loss_factor = 0.06
+		# default_modules = {
+		# 	MVLV_TSF_main_armament_slot = MVLV_TSF_armament_2
+		# 	MVLV_TSF_back_type_slot = MVLV_TSF_assisted_robot_2
+		# 	MVLV_TSF_sensor_type_slot = MVLV_TSF_sensor_2
+		# 	MVLV_TSF_thruster_type_slot = MVLV_TSF_thruster_2
+		# 	MVLV_TSF_OS_type_slot = MVLV_TSF_OS_2
+		# 	MVLV_TSF_special_type_slot_1 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_2 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_3 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_4 = MVLV_TSF_ex_ammo_0
+		# }
+	}
+	MVLV_TSF_classis_2_heavy_normal = {
+		abbreviation = "MVLV_TSF2_HN"
+		derived_variant_name = MVLV_TSF_equipment_2_heavy_normal
+		visual_level = 3
+		year = 1982
+		parent = MVLV_TSF_classis_1_heavy
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			# MVLV_TSF_sp_slot_6 = {
+			# 	required = no
+			# 	allowed_module_categories = {
+			# 		MVLV_TSF_melee_type
+			# 		MVLV_TSF_railgun_type
+			# 		# MVLV_TSF_ex_sensor_type
+			# 		MVLV_TSF_ex_vibration_sensor_type
+			# 		MVLV_TSF_ex_infrared_sensor_type
+			# 		MVLV_TSF_ex_photo_sensor_type
+			# 		MVLV_TSF_ex_radar_sensor_type
+			# 		MVLV_TSF_coating_type
+			# 		MVLV_TSF_data_link_type
+			# 		MVLV_TSF_fire_control_upd_type
+			# 		MVLV_TSF_sp_type
+			# 		MVLV_TSF_reactive_armor_type
+			# 	}
+			# }
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 40
+		hard_attack = 40
+		ap_attack = 50
+		air_attack = 40
+		defense = 60
+		breakthrough = 55
+		maximum_speed = 10 #12
+		build_cost_ic = 30 #38
+		reliability = 0.9
+		armor_value = 30 #50
+		hardness = 0.25
+		max_organisation = 0.2
+		default_morale = 0.1
+		#experience_loss_factor = 0.05
+		# default_modules = {
+		# 	MVLV_TSF_main_armament_slot = MVLV_TSF_armament_2
+		# 	MVLV_TSF_back_type_slot = MVLV_TSF_assisted_robot_2
+		# 	MVLV_TSF_sensor_type_slot = MVLV_TSF_sensor_2
+		# 	MVLV_TSF_thruster_type_slot = MVLV_TSF_thruster_2
+		# 	MVLV_TSF_OS_type_slot = MVLV_TSF_OS_2
+		# 	MVLV_TSF_special_type_slot_1 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_2 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_3 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_4 = MVLV_TSF_ex_ammo_0
+		# }
+	}
+	MVLV_TSF_classis_2_heavy_high_mobility = {
+		abbreviation = "MVLV_TSF2_HM"
+		derived_variant_name = MVLV_TSF_equipment_2_heavy_high_mobility
+		visual_level = 3
+		year = 1982
+		parent = MVLV_TSF_classis_1_heavy
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			#MVLV_TSF_sp_slot_3 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+			#MVLV_TSF_sp_slot_4 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+			#MVLV_TSF_sp_slot_5 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+			#MVLV_TSF_sp_slot_6 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 45
+		hard_attack = 45
+		ap_attack = 60
+		air_attack = 50
+		defense = 60
+		breakthrough = 70
+		maximum_speed = 11#12
+		build_cost_ic = 35#45
+		reliability = 0.9
+		armor_value = 35#60
+		hardness = 0.3
+		max_organisation = 0.2
+		default_morale = 0.1
+		experience_loss_factor = 0.1
+		# experience_loss_factor = 0.06
+		# default_modules = {
+		# 	MVLV_TSF_main_armament_slot = MVLV_TSF_armament_2
+		# 	MVLV_TSF_back_type_slot = MVLV_TSF_assisted_robot_2
+		# 	MVLV_TSF_sensor_type_slot = MVLV_TSF_sensor_2
+		# 	MVLV_TSF_thruster_type_slot = MVLV_TSF_thruster_2
+		# 	MVLV_TSF_OS_type_slot = MVLV_TSF_OS_2
+		# 	MVLV_TSF_special_type_slot_1 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_2 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_3 = MVLV_TSF_ex_ammo_0
+		# 	MVLV_TSF_special_type_slot_4 = MVLV_TSF_ex_ammo_0
+		# }
+	}
+	MVLV_TSF_classis_3_light_normal = {
+		abbreviation = "MVLV_TSF3_LN"
+		derived_variant_name = MVLV_TSF_equipment_3_light_normal
+		visual_level = 5
+		year = 1991
+		parent = MVLV_TSF_classis_2_light_normal
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			#MVLV_TSF_sp_slot_6 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 45
+		hard_attack = 45
+		ap_attack = 70
+		air_attack = 60
+		defense = 65
+		breakthrough = 75
+		maximum_speed = 14#16
+		build_cost_ic = 45#50
+		reliability = 0.9
+		# default_morale = -0.6
+		#experience_loss_factor = 0.05
+		armor_value = 40#70
+		hardness = 0.4
+	}
+	MVLV_TSF_classis_3_light_high_mobility = {
+		abbreviation = "MVLV_TSF3_LM"
+		derived_variant_name = MVLV_TSF_equipment_3_light_high_mobility
+		visual_level = 5
+		year = 1991
+		parent = MVLV_TSF_classis_2_light_high_mobility
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			#MVLV_TSF_sp_slot_3 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+			#MVLV_TSF_sp_slot_4 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+			#MVLV_TSF_sp_slot_5 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+			#MVLV_TSF_sp_slot_6 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 55
+		hard_attack = 55
+		ap_attack = 80
+		air_attack = 70
+		defense = 65
+		breakthrough = 85
+		maximum_speed = 16
+		build_cost_ic = 55#60
+		reliability = 0.9
+		armor_value = 50#80
+		hardness = 0.45
+		# default_morale = -0.6
+		experience_loss_factor = 0.1
+		# experience_loss_factor = 0.05
+	}
+	MVLV_TSF_classis_3_heavy_normal = {
+		abbreviation = "MVLV_TSF3_HN"
+		derived_variant_name = MVLV_TSF_equipment_3_heavy_normal
+		visual_level = 5
+		year = 1991
+		parent = MVLV_TSF_classis_2_heavy_normal
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_6 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_7 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					#MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 50
+		hard_attack = 50
+		ap_attack = 70
+		air_attack = 50
+		defense = 75
+		breakthrough = 65
+		maximum_speed = 12#16
+		build_cost_ic = 55#63
+		reliability = 0.9
+		armor_value = 45#70
+		hardness = 0.35
+		max_organisation = 0.2
+		default_morale = 0.1
+		#experience_loss_factor = 0.05
+	}
+	MVLV_TSF_classis_3_heavy_high_mobility = {
+		abbreviation = "MVLV_TSF3_HM"
+		derived_variant_name = MVLV_TSF_equipment_3_heavy_high_mobility
+		visual_level = 5
+		year = 1991
+		parent = MVLV_TSF_classis_2_heavy_high_mobility
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			#MVLV_TSF_sp_slot_4 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+			#MVLV_TSF_sp_slot_5 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+			#MVLV_TSF_sp_slot_6 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+			#MVLV_TSF_sp_slot_7 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+			#MVLV_TSF_sp_slot_8 = {
+			#	required = no
+			#	allowed_module_categories = {
+			#		MVLV_TSF_melee_type
+			#		MVLV_TSF_railgun_type
+			#		#MVLV_TSF_ex_sensor_type
+			#		MVLV_TSF_ex_vibration_sensor_type
+			#		MVLV_TSF_ex_infrared_sensor_type
+			#		MVLV_TSF_ex_photo_sensor_type
+			#		MVLV_TSF_ex_radar_sensor_type
+			#		MVLV_TSF_coating_type
+			#		MVLV_TSF_data_link_type
+			#		MVLV_TSF_fire_control_upd_type
+			#		MVLV_TSF_sp_type
+			#		MVLV_TSF_reactive_armor_type
+			#	}
+			#}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 60
+		hard_attack = 60
+		ap_attack = 80
+		air_attack = 70
+		defense = 75
+		breakthrough = 85
+		maximum_speed = 14#16
+		build_cost_ic = 65#75
+		reliability = 0.9
+		armor_value = 55#80
+		hardness = 0.4
+		max_organisation = 0.2
+		default_morale = 0.1
+		experience_loss_factor = 0.1
+		# experience_loss_factor = 0.05
+	}
+	MVLV_TSF_classis_3_light_normal_stealth = {
+		abbreviation = "MVLV_TSF3_LN"
+		derived_variant_name = MVLV_TSF_equipment_3_light_normal_stealth
+		visual_level = 6
+		year = 1991
+		parent = MVLV_TSF_classis_2_light_normal
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_6 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 40
+		hard_attack = 40
+		ap_attack = 60
+		air_attack = 50
+		defense = 130
+		breakthrough = 100
+		maximum_speed = 12#16
+		build_cost_ic = 70
+		reliability = 0.9
+		armor_value = 50
+		hardness = 0.4
+		# default_morale = -0.6
+		#experience_loss_factor = 0.05
+	}
+	MVLV_TSF_classis_3_light_high_mobility_stealth = {
+		abbreviation = "MVLV_TSF3_LM"
+		derived_variant_name = MVLV_TSF_equipment_3_light_high_mobility_stealth
+		visual_level = 6
+		year = 1991
+		parent = MVLV_TSF_classis_2_light_high_mobility
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_6 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 50
+		hard_attack = 50
+		ap_attack = 80
+		air_attack = 70
+		defense = 140
+		breakthrough = 110
+		maximum_speed = 12#16
+		build_cost_ic = 85
+		reliability = 0.9
+		armor_value = 60
+		hardness = 0.45
+		# default_morale = -0.6
+		experience_loss_factor = 0.1
+		# experience_loss_factor = 0.05
+	}
+	MVLV_TSF_classis_3_heavy_normal_stealth = {
+		abbreviation = "MVLV_TSF3_HN"
+		derived_variant_name = MVLV_TSF_equipment_3_heavy_normal_stealth
+		visual_level = 6
+		year = 1991
+		parent = MVLV_TSF_classis_2_heavy_normal
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_6 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_7 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_8 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 50
+		hard_attack = 50
+		ap_attack = 70
+		air_attack = 60
+		defense = 90
+		breakthrough = 100
+		maximum_speed = 14#16
+		build_cost_ic = 75#88
+		reliability = 0.9
+		armor_value = 60
+		hardness = 0.35
+		max_organisation = 0.2
+		default_morale = 0.1
+		#experience_loss_factor = 0.05
+	}
+	MVLV_TSF_classis_3_heavy_high_mobility_stealth = {
+		abbreviation = "MVLV_TSF3_HM"
+		derived_variant_name = MVLV_TSF_equipment_3_heavy_high_mobility_stealth
+		visual_level = 6
+		year = 1991
+		parent = MVLV_TSF_classis_2_heavy_high_mobility
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_6 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_7 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_8 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 50
+		hard_attack = 50
+		ap_attack = 80
+		air_attack = 70
+		defense = 140
+		breakthrough = 110
+		maximum_speed = 12#16
+		build_cost_ic = 100
+		reliability = 0.9
+		hardness = 0.4
+		armor_value = 70
+		max_organisation = 0.2
+		default_morale = 0.1
+		experience_loss_factor = 0.1
+		# experience_loss_factor = 0.05
+	}
+	MVLV_TSF_classis_4 = {
+		abbreviation = "MVLV_TSF4"
+		derived_variant_name = MVLV_TSF_equipment_4
+		visual_level = 7
+		year = 2010
+		parent = MVLV_TSF_classis_3_heavy_high_mobility_stealth
+		archetype = MVLV_TSF_chassis
+		priority = 5
+		module_slots = {
+			MVLV_TSF_assault_cannon_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_assault_cannon_type
+				}
+			}
+			MVLV_TSF_engine_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_engine_normal_type
+					MVLV_TSF_engine_fuel_efficiency_type
+					MVLV_TSF_engine_mid_speed_type
+					MVLV_TSF_engine_high_speed_type
+					MVLV_TSF_engine_max_power_type
+				}
+			}
+			MVLV_TSF_sensor_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_sensor_type
+				}
+			}
+			MVLV_TSF_OS_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_OS_type
+				}
+			}
+			MVLV_TSF_armor_slot = {
+				required = yes
+				allowed_module_categories = {
+					MVLV_TSF_armor_type
+				}
+			}
+			MVLV_TSF_head_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_head_normal_type
+					MVLV_TSF_head_small_type
+					MVLV_TSF_head_spherical_type
+				}
+			}
+			MVLV_TSF_shoulder_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_shoulder_type
+				}
+			}
+			MVLV_TSF_back_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_back_type
+				}
+			}
+			MVLV_TSF_arm_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_arm_type
+				}
+			}
+			MVLV_TSF_leg_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_leg_type
+				}
+			}
+			MVLV_TSF_waist_slot = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_waist_type
+				}
+			}
+			MVLV_TSF_sp_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_6 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_7 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_8 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			MVLV_TSF_sp_slot_9 = {
+				required = no
+				allowed_module_categories = {
+					MVLV_TSF_melee_type
+					MVLV_TSF_railgun_type
+					# MVLV_TSF_ex_sensor_type
+					MVLV_TSF_ex_vibration_sensor_type
+					MVLV_TSF_ex_infrared_sensor_type
+					MVLV_TSF_ex_photo_sensor_type
+					MVLV_TSF_ex_radar_sensor_type
+					MVLV_TSF_coating_type
+					MVLV_TSF_data_link_type
+					MVLV_TSF_fire_control_upd_type
+					MVLV_TSF_sp_type
+					MVLV_TSF_reactive_armor_type
+				}
+			}
+			# MVLV_TSF_sp_slot_10 = {
+			# 	required = no
+			# 	allowed_module_categories = {
+			# 		MVLV_TSF_melee_type
+			# 		MVLV_TSF_railgun_type
+			# 		MVLV_TSF_ex_sensor_type
+			# 		MVLV_TSF_coating_type
+			# 		MVLV_TSF_data_link_type
+			# 		MVLV_TSF_fire_control_upd_type
+			# 		MVLV_TSF_sp_type
+			# 		MVLV_TSF_reactive_armor_type
+			# 	}
+			# }
+		}
+		module_count_limit = {
+			category = MVLV_TSF_railgun_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_coating_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_data_link_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_fire_control_upd_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_reactive_armor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_vibration_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_infrared_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_photo_sensor_type
+			count < 2
+		}
+		module_count_limit = {
+			category = MVLV_TSF_ex_radar_sensor_type
+			count < 2
+		}
+		soft_attack = 200
+		hard_attack = 200
+		ap_attack = 100
+		air_attack = 100
+		defense = 200
+		breakthrough = 200
+		maximum_speed = 35
+		build_cost_ic = 500
+		reliability = 3
+		hardness = 0.5
+		armor_value = 200
+		experience_loss_factor = 0.1
+		# experience_loss_factor = 0.05
+		# default_modules = {
+		# 	MVLV_TSF_main_armament_slot = MVLV_TSF_armament_4
+		# 	MVLV_TSF_back_type_slot = MVLV_TSF_ex_thruster
+		# 	MVLV_TSF_sensor_type_slot = empty
+		# 	MVLV_TSF_thruster_type_slot = MVLV_TSF_thruster_4
+		# 	MVLV_TSF_OS_type_slot = MVLV_TSF_OS_4
+		# 	MVLV_TSF_special_type_slot_1 = MVLV_TSF_ex_ammo_1
+		# 	MVLV_TSF_special_type_slot_2 = MVLV_TSF_ex_ammo_1
+		# 	MVLV_TSF_special_type_slot_3 = MVLV_TSF_ex_ammo_1
+		# 	MVLV_TSF_special_type_slot_4 = MVLV_TSF_ex_ammo_1
+		# }
+	}
+}

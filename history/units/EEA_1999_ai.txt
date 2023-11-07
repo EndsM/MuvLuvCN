@@ -1,0 +1,131 @@
+﻿units = {
+	division = {
+		location = 11047
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "EEA"
+				creator = EEA
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "EEA"
+				creator = EEA
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "EEA"
+				creator = EEA
+				version_name = "MiG-23"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "EEA"
+				creator = EEA
+				version_name = "MiG-23"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "EEA"
+				creator = EEA
+				version_name = "MiG-27短吻鳄"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "EEA"
+				creator = EEA
+				version_name = "MiG-29燕子"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "EEA"
+				creator = EEA
+				version_name = "MiG-29燕子"
+			}
+		}
+	}
+}

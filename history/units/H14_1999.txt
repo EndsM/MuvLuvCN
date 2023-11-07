@@ -1,0 +1,473 @@
+﻿division_template = {
+	name = "小型混成BETA师团"
+	# is_locked = yes
+	regiments = {
+		MVLV_beta_grappler = { x = 0 y = 0 }
+		MVLV_beta_tank = { x = 0 y = 1 }
+		MVLV_beta_tank = { x = 0 y = 2 }
+		MVLV_beta_tank = { x = 0 y = 3 }
+		MVLV_beta_tank = { x = 0 y = 4 }
+		MVLV_beta_tank = { x = 1 y = 0 }
+		MVLV_beta_tank = { x = 1 y = 1 }
+		MVLV_beta_tank = { x = 1 y = 2 }
+		MVLV_beta_tank = { x = 1 y = 3 }
+		MVLV_beta_tank = { x = 1 y = 4 }
+		MVLV_beta_tank = { x = 2 y = 0 }
+		MVLV_beta_tank = { x = 2 y = 1 }
+		MVLV_beta_tank = { x = 2 y = 2 }
+		MVLV_beta_tank = { x = 2 y = 3 }
+		MVLV_beta_tank = { x = 2 y = 4 }
+		MVLV_beta_tank = { x = 3 y = 0 }
+		MVLV_beta_tank = { x = 3 y = 1 }
+		MVLV_beta_soldier = { x = 3 y = 2 }
+		MVLV_beta_soldier = { x = 3 y = 3 }
+		MVLV_beta_soldier = { x = 3 y = 4 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "大型混成BETA师团"
+	# is_locked = yes
+	regiments = {
+		MVLV_beta_tank = { x = 0 y = 0 }
+		MVLV_beta_tank = { x = 0 y = 1 }
+		MVLV_beta_tank = { x = 0 y = 2 }
+		MVLV_beta_tank = { x = 0 y = 3 }
+		MVLV_beta_tank = { x = 0 y = 4 }
+		MVLV_beta_tank = { x = 1 y = 0 }
+		MVLV_beta_tank = { x = 1 y = 1 }
+		MVLV_beta_tank = { x = 1 y = 2 }
+		MVLV_beta_destroyer = { x = 1 y = 3 }
+		MVLV_beta_destroyer = { x = 1 y = 4 }
+		MVLV_beta_grappler = { x = 2 y = 0 }
+		MVLV_beta_grappler = { x = 2 y = 1 }
+		MVLV_beta_grappler = { x = 2 y = 2 }
+		MVLV_beta_grappler = { x = 2 y = 3 }
+		MVLV_beta_grappler = { x = 2 y = 4 }
+		MVLV_beta_grappler = { x = 3 y = 0 }
+		MVLV_beta_grappler = { x = 3 y = 1 }
+		MVLV_beta_grappler = { x = 3 y = 2 }
+		MVLV_beta_grappler = { x = 3 y = 3 }
+		MVLV_beta_grappler = { x = 3 y = 4 }
+		MVLV_beta_grappler = { x = 4 y = 0 }
+		MVLV_beta_grappler = { x = 4 y = 1 }
+		MVLV_beta_grappler = { x = 4 y = 2 }
+		MVLV_beta_fort = { x = 4 y = 3 }
+		MVLV_beta_fort = { x = 4 y = 4 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "BETA侵攻师团"
+	regiments = {
+		MVLV_beta_destroyer = { x = 0 y = 0 }
+		MVLV_beta_destroyer = { x = 0 y = 1 }
+		MVLV_beta_destroyer = { x = 0 y = 2 }
+		MVLV_beta_destroyer = { x = 0 y = 3 }
+		MVLV_beta_destroyer = { x = 0 y = 4 }
+		MVLV_beta_destroyer = { x = 1 y = 0 }
+		MVLV_beta_destroyer = { x = 1 y = 1 }
+		MVLV_beta_destroyer = { x = 1 y = 2 }
+		MVLV_beta_destroyer = { x = 1 y = 3 }
+		MVLV_beta_destroyer = { x = 1 y = 4 }
+		MVLV_beta_destroyer = { x = 2 y = 0 }
+		MVLV_beta_fort = { x = 2 y = 1 }
+		MVLV_beta_fort = { x = 2 y = 2 }
+		MVLV_beta_fort = { x = 2 y = 3 }
+		MVLV_beta_fort = { x = 2 y = 4 }
+		MVLV_beta_fort = { x = 3 y = 0 }
+		MVLV_beta_fort = { x = 3 y = 1 }
+		MVLV_beta_fort = { x = 3 y = 2 }
+		MVLV_beta_fort = { x = 3 y = 3 }
+		MVLV_beta_fort = { x = 3 y = 4 }
+		MVLV_beta_fort = { x = 4 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "兵士级师团"
+	division_names_group = BET_SOLDIER_01
+	regiments = {
+		MVLV_beta_soldier = { x = 0 y = 0 }
+		MVLV_beta_soldier = { x = 0 y = 1 }
+		MVLV_beta_soldier = { x = 0 y = 2 }
+		MVLV_beta_soldier = { x = 0 y = 3 }
+		MVLV_beta_soldier = { x = 0 y = 4 }
+		MVLV_beta_soldier = { x = 1 y = 0 }
+		MVLV_beta_soldier = { x = 1 y = 1 }
+		MVLV_beta_soldier = { x = 1 y = 2 }
+		MVLV_beta_soldier = { x = 1 y = 3 }
+		MVLV_beta_soldier = { x = 1 y = 4 }
+	}
+}
+
+division_template = {
+	name = "斗士级师团"
+	division_names_group = BET_WARRIOR_01
+	regiments = {
+		MVLV_beta_Warrior = { x = 0 y = 0 }
+		MVLV_beta_Warrior = { x = 0 y = 1 }
+		MVLV_beta_Warrior = { x = 0 y = 2 }
+		MVLV_beta_Warrior = { x = 0 y = 3 }
+		MVLV_beta_Warrior = { x = 0 y = 4 }
+		MVLV_beta_Warrior = { x = 1 y = 0 }
+		MVLV_beta_Warrior = { x = 1 y = 1 }
+		MVLV_beta_Warrior = { x = 1 y = 2 }
+		MVLV_beta_Warrior = { x = 1 y = 3 }
+		MVLV_beta_Warrior = { x = 1 y = 4 }
+	}
+}
+
+division_template = {
+	name = "战车级师团"
+	division_names_group = BET_TANK_01
+	regiments = {
+		MVLV_beta_tank = { x = 0 y = 0 }
+		MVLV_beta_tank = { x = 0 y = 1 }
+		MVLV_beta_tank = { x = 0 y = 2 }
+		MVLV_beta_tank = { x = 0 y = 3 }
+		MVLV_beta_tank = { x = 0 y = 4 }
+		MVLV_beta_tank = { x = 1 y = 0 }
+		MVLV_beta_tank = { x = 1 y = 1 }
+		MVLV_beta_tank = { x = 1 y = 2 }
+		MVLV_beta_tank = { x = 1 y = 3 }
+		MVLV_beta_tank = { x = 1 y = 4 }
+		MVLV_beta_tank = { x = 2 y = 0 }
+		MVLV_beta_tank = { x = 2 y = 1 }
+		MVLV_beta_tank = { x = 2 y = 2 }
+		MVLV_beta_tank = { x = 2 y = 3 }
+		MVLV_beta_tank = { x = 2 y = 4 }
+		MVLV_beta_tank = { x = 3 y = 0 }
+		MVLV_beta_tank = { x = 3 y = 1 }
+		MVLV_beta_tank = { x = 3 y = 2 }
+		MVLV_beta_tank = { x = 3 y = 3 }
+		MVLV_beta_tank = { x = 3 y = 4 }
+	}
+}
+
+division_template = {
+	name = "要击级师团"
+	division_names_group = BET_GRAPPLER_01
+	regiments = {
+		MVLV_beta_grappler = { x = 0 y = 0 }
+		MVLV_beta_grappler = { x = 0 y = 1 }
+		MVLV_beta_grappler = { x = 0 y = 2 }
+		MVLV_beta_grappler = { x = 0 y = 3 }
+		MVLV_beta_grappler = { x = 0 y = 4 }
+		MVLV_beta_grappler = { x = 1 y = 0 }
+		MVLV_beta_grappler = { x = 1 y = 1 }
+		MVLV_beta_grappler = { x = 1 y = 2 }
+		MVLV_beta_grappler = { x = 1 y = 3 }
+		MVLV_beta_grappler = { x = 1 y = 4 }
+	}
+}
+
+division_template = {
+	name = "突击级师团"
+	division_names_group = BET_DESTROYER_01
+	regiments = {
+		MVLV_beta_destroyer = { x = 0 y = 0 }
+		MVLV_beta_destroyer = { x = 0 y = 1 }
+		MVLV_beta_destroyer = { x = 0 y = 2 }
+		MVLV_beta_destroyer = { x = 0 y = 3 }
+		MVLV_beta_destroyer = { x = 0 y = 4 }
+		MVLV_beta_destroyer = { x = 1 y = 0 }
+		MVLV_beta_destroyer = { x = 1 y = 1 }
+		MVLV_beta_destroyer = { x = 1 y = 2 }
+		MVLV_beta_destroyer = { x = 1 y = 3 }
+		MVLV_beta_destroyer = { x = 1 y = 4 }
+	}
+}
+
+division_template = {
+	name = "要塞级师团"
+	division_names_group = BET_FORT_01
+	regiments = {
+		MVLV_beta_fort = { x = 0 y = 0 }
+		MVLV_beta_fort = { x = 0 y = 1 }
+		MVLV_beta_fort = { x = 0 y = 2 }
+		MVLV_beta_fort = { x = 0 y = 3 }
+		MVLV_beta_fort = { x = 0 y = 4 }
+		MVLV_beta_fort = { x = 1 y = 0 }
+		MVLV_beta_fort = { x = 1 y = 1 }
+		MVLV_beta_fort = { x = 1 y = 2 }
+		MVLV_beta_fort = { x = 1 y = 3 }
+		MVLV_beta_fort = { x = 1 y = 4 }
+		MVLV_beta_fort = { x = 2 y = 0 }
+		MVLV_beta_fort = { x = 2 y = 1 }
+		MVLV_beta_fort = { x = 2 y = 2 }
+		MVLV_beta_fort = { x = 2 y = 3 }
+		MVLV_beta_fort = { x = 2 y = 4 }
+		MVLV_beta_fort = { x = 3 y = 0 }
+		MVLV_beta_fort = { x = 3 y = 1 }
+		MVLV_beta_fort = { x = 3 y = 2 }
+		MVLV_beta_fort = { x = 3 y = 3 }
+		MVLV_beta_fort = { x = 3 y = 4 }
+	}
+}
+division_template = {
+	name = "超重光线师团"
+	division_names_group = BET_SRF_01
+	regiments = {
+		MVLV_beta_srf = { x = 0 y = 0 }
+	}
+}
+
+
+units  = {
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "战车级師団"
+		location = 12882
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "兵士级師団"
+		location = 12882
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "兵士级師団"
+		location = 12882
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "兵士级師団"
+		location = 12882
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "兵士级師団"
+		location = 12882
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "兵士级師団"
+		location = 12882
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "兵士级師団"
+		location = 12882
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "兵士级師団"
+		location = 12882
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "兵士级師団"
+		location = 12882
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "兵士级師団"
+		location = 12882
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "兵士级師団"
+		location = 12882
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "兵士级師団"
+		location = 12882
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "兵士级師団"
+		location = 12882
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "兵士级師団"
+		location = 12882
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+}

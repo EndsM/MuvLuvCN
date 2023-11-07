@@ -1,0 +1,33 @@
+
+state={
+	id=68
+	name="STATE_68"
+	manpower = 1250840
+	resources={
+		aluminium=15 # was: 24
+	}
+
+	state_category = city
+
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			add_core_of = EEA
+			remove_core_of = GER
+		}
+		
+		victory_points = {
+			3473 1
+		}
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		444 537 3473 3572 6236 9387 11478 
+	}
+}

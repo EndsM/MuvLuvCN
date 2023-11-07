@@ -1,0 +1,104 @@
+sub_units = {
+
+	anti_tank = {
+		sprite = anti_tank
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = yes
+		can_exfiltrate_from_coast = yes
+		
+		group = support
+		
+		type = {artillery
+			armor
+			support
+		}
+		
+		categories = {category_tanks
+                                                category_all_armor
+			category_front_line
+                                                category_line_artillery
+			category_army
+			category_MVLV_tsf
+		}
+
+		combat_width = 10
+
+		need = {
+			anti_tank_equipment = 2
+			MVLV_TSF_chassis = 12
+		}
+		manpower = 300
+		max_organisation = 20
+		default_morale = -0.5
+		max_strength = 100.0
+		training_time = 120
+		weight = 0.0
+		
+		maximum_speed = -0.2
+		#maximum_speed = 4
+		recon = 1.0
+		initiative = 0.5
+		
+
+		#defense = 0.4
+		#breakthrough = 0.4
+		#soft_attack = 0.1
+		#hard_attack = 0.1
+
+		can_be_parachuted = no
+		
+		supply_consumption = 0.01
+		forest = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		hills = {
+			movement = -0.05
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		jungle = {
+			attack = -0.25
+			movement = -0.2
+		}
+
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.3
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
+		}
+		hive_gateclass = {
+			attack = 0.3
+		}
+
+		hive_mainhall = {
+			attack = 0.3
+		}
+
+		hive_drift = {
+			attack = 0.3
+		}
+
+		hive_gate = {
+			attack = 0.3
+		}
+	}
+}

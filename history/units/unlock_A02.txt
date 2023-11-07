@@ -1,0 +1,20 @@
+division_template = {
+	name = "A-02"
+	is_locked = yes
+	regiments = {
+		MVLV_xg_battalion = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+	}
+}
+
+##### OOB #####
+units = {
+	division = {
+		name = "伊隅女武神"
+		location = 13218
+		division_template = "A-02"
+		start_experience_factor = 1.0
+		force_equipment_variants = { xg_equipment_0   = { owner = "UNI" } }
+		force_equipment_variants = { tsf_equipment_T94 = { owner = "UNI" } }
+	}
+}

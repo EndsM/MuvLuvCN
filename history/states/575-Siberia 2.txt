@@ -1,0 +1,33 @@
+
+state={
+	id=575
+	name="STATE_575" # Kirensk
+	manpower = 146494
+	
+	state_category = wasteland
+
+	history = { 1999.1.1 = { 
+			owner = H15
+			remove_core_of = H15
+
+			#ノギンスク陥落用
+			add_claim_by = H10
+			
+			#ブラグエスチェンスク陥落用
+			add_claim_by = H19
+
+			#ヴェルホヤンスク陥落用
+			add_claim_by = H25
+			
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		1792 4703 4737 7726 7828 10557 10628 10688 12531 12608 12668 12681 13059 
+	}
+}

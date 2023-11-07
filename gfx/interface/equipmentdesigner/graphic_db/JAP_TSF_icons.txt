@@ -1,0 +1,124 @@
+JAP = {
+	MVLV_TSF_classis_1_heavy = {
+		pool = {
+			icons = {
+				"GFX_F-4J"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_2_light_high_mobility = {
+		pool = {
+			icons = {
+				"GFX_97式吹雪"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_2_heavy_high_mobility = {
+		pool = {
+			icons = {
+				"GFX_94式不知火"
+				"GFX_94式不知火一型丙"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_light_normal = {
+		pool = {
+			icons = {
+				"GFX_不知火弍型"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_light_high_mobility = {
+		pool = {
+			icons = {
+				"GFX_不知火弍型"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_heavy_normal = {
+		pool = {
+			icons = {
+				"GFX_不知火弎型极光"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_heavy_high_mobility = {
+		pool = {
+			icons = {
+				"GFX_不知火弎型极光"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_light_normal_stealth = {
+		pool = {
+			icons = {
+				"GFX_不知火弍型"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_light_high_mobility_stealth = {
+		pool = {
+			icons = {
+				"GFX_不知火弍型"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_heavy_normal_stealth = {
+		pool = {
+			icons = {
+				"GFX_不知火弎型极光"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_heavy_high_mobility_stealth = {
+		pool = {
+			icons = {
+				"GFX_不知火弎型极光"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+}

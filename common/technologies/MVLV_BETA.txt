@@ -1,0 +1,82 @@
+technologies = {
+	# BETA ONLY!
+	MVLV_beta_tec = {
+
+		research_cost = 1
+
+		# only from country file or event!###
+		allow = {
+			always = no
+		}
+
+#		folder = {
+#			name = MVLV_tsf_folder
+#		}
+
+		enable_equipments = {
+			beta_soldier_0
+			beta_warrior_0
+			beta_tank_0
+			beta_grappler_0
+			beta_destroyer_0
+			beta_fort_0
+			beta_srf_0
+			heavy_laser_1
+			laser_1
+		}
+
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_bet"
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+	}
+	
+	MVLV_beta_h00_tec = {
+
+		research_cost = 1
+
+		# only from country file or event!###
+		allow = {
+			always = no
+		}
+
+#		folder = {
+#			name = MVLV_tsf_folder
+#		}
+
+		enable_equipments = {
+			beta_a_target_0
+		}
+
+		on_research_complete = {
+		}
+	}
+	
+	MVLV_sov_tec = {
+
+		research_cost = 1
+
+		# only from country file or event!###
+		allow = {
+			always = no
+		}
+
+#		folder = {
+#			name = MVLV_tsf_folder
+#		}
+		enable_equipments = {
+			sov_equipment_Su47
+		}
+
+		enable_subunits = {
+			#marine
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+	}
+}

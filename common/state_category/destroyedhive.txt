@@ -1,0 +1,10 @@
+state_categories={
+	destroyedhive = {
+		local_building_slots = 25
+		local_manpower = -1
+		local_non_core_manpower = -1
+		local_resources = -0.9
+		local_factories = -0.5
+		color = { 0 0 0 }
+	}
+}

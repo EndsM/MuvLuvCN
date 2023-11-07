@@ -1,0 +1,50 @@
+equipment_modules = {
+	MVLV_TSF_fire_control_upd_1 = {
+		category = MVLV_TSF_fire_control_upd_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 6#1
+		}
+		multiply_stats = {
+			soft_attack = 0.06
+			 hard_attack = 0.02
+			air_attack = 0.1
+		}
+	}
+	MVLV_TSF_fire_control_upd_2 = {
+		category = MVLV_TSF_fire_control_upd_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 8#2
+		}
+		multiply_stats = {
+			soft_attack = 0.09
+			 hard_attack = 0.04
+			air_attack = 0.12
+		}
+	}
+	MVLV_TSF_fire_control_upd_3 = {
+		category = MVLV_TSF_fire_control_upd_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 10#3
+		}
+		multiply_stats = {
+			soft_attack = 0.12
+			 hard_attack = 0.06
+			air_attack = 0.15
+		}
+	}
+	MVLV_TSF_fire_control_upd_4 = {
+		category = MVLV_TSF_fire_control_upd_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 12#4
+		}
+		multiply_stats = {
+			soft_attack = 0.15
+			 hard_attack = 0.08
+			air_attack = 0.2#0.3
+		}
+	}
+}

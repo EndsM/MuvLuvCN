@@ -1,0 +1,14 @@
+animation = {
+	name = "generic_xg_attack_animation"
+	file = "generic_xg_attack.anim"
+}
+
+animation = {
+	name = "generic_xg_idle_animation"
+	file = "generic_xg_idle.anim"
+}
+
+animation = {
+	name = "generic_xg_moving_animation"
+	file = "generic_xg_moving.anim"
+}

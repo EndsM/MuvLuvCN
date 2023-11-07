@@ -1,0 +1,7 @@
+beta_research = {
+	icon = generic_propaganda
+	priority = 10
+	allowed = {
+		is_in_faction_with = UNI
+	}
+}

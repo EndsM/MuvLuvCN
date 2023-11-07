@@ -1,0 +1,200 @@
+﻿units = {
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7859
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 1182
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = { 
+			MVLV_TSF_classis_2_light_normal = { 
+				owner = "USA"
+				creator = USA
+				version_name = "F-18C大黄蜂"
+			} 
+		}
+	}
+	division = {
+		location = 7381
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = { 
+			MVLV_TSF_classis_2_light_normal = { 
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			} 
+		}
+	}
+	division = {
+		name = "豪州小队"
+		location = 13244
+		division_template = "战术机大队"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			MVLV_TSF_classis_2_light_normal = { 
+				owner = "USA"
+				creator = USA
+				version_name = "F-18C大黄蜂"
+			} 
+		}
+	}
+}

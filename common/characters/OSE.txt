@@ -1,0 +1,104 @@
+characters = {
+	AUS_Henry_Wynter = {
+		name = "Henry Wynter"
+		portraits = {
+			army = {
+				large = GFX_AST_henry_wynter
+				small = GFX_idea_AST_henry_wynter
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	AUS_Thomas_Blamey = {
+		name = "Thomas Blamey"
+		portraits = {
+			army = {
+				large = GFX_AST_thomas_blamey
+				small = GFX_idea_AST_thomas_blamey
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	AUS_Leslie_Morshead = {
+		name = "Leslie Morshead"
+		portraits = {
+			army = {
+				large = GFX_AST_leslie_morshead
+				small = GFX_idea_AST_leslie_morshead
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	欧菲莉亚 = {
+		name = Ophelia_Odilette
+		gender = female
+		portraits = {
+			army = {
+				large = GFX_欧菲莉亚头像
+				small = GFX_欧菲莉亚头像小图
+			}
+		}
+		corps_commander = {
+			# traits = {
+			# 	panzer_leader
+			# }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	伊莎贝拉格林 = {
+		name = Isabella_Green
+		gender = female
+		portraits = {
+			army = {
+				large = GFX_伊莎贝拉格林头像
+				small = GFX_伊莎贝拉格林头像小图
+			}
+		}
+		corps_commander = {
+			# traits = {
+			# 	panzer_leader
+			# }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+}

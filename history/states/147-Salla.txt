@@ -1,0 +1,32 @@
+state=
+{
+	id=147
+	name="STATE_147"
+	manpower = 4630
+	
+	state_category = enclave
+	
+	history = { 1999.1.1 = { 
+			owner = H08
+			remove_core_of = H08
+			add_core_of = SOV
+			remove_core_of = FIN
+
+			#ヴェリスク陥落用
+			add_claim_by = H04
+		}
+		owner = FIN
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = FIN
+
+		victory_points = {
+			197 1
+		}
+	}
+
+	provinces={
+		197 9158 11085 	
+	}
+}

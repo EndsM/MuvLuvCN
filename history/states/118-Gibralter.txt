@@ -1,0 +1,27 @@
+state=
+{
+	id=118
+	name="STATE_118"
+	manpower=21372
+	
+	state_category = enclave
+	history = {  1999.1.1 = { 
+			owner = H12
+			remove_core_of = H12
+			add_core_of = EUR
+		}
+		owner = ENG
+		victory_points = { 4135 10 }
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			4135 = {
+				coastal_bunker = 2
+			}
+		}
+		add_claim_by = SPR
+	}
+	provinces={
+		4135
+	}
+}

@@ -1,0 +1,226 @@
+music_station = "Muv-Luv-Extra"
+
+music = {
+	song = "Extra_01"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_02"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_03"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_04"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_05"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_06"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_07"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_08"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_09"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_10"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_11"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_12"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_13"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_14"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_15"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_16"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_17"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_18"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_19"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_20"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_22"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_23"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_24"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_25"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_26"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_27"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Extra_28"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}

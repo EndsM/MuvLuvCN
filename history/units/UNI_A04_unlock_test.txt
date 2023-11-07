@@ -1,0 +1,27 @@
+﻿##### OOB #####
+units = {
+	division = {
+		location = 8042
+		division_template = "轨道降下兵团"
+		start_experience_factor = 1.0
+		force_equipment_variants = { tsf_equipment_F-15E = { owner = "UNI" } }
+	}
+	division = {
+		location = 8042
+		division_template = "轨道降下兵团"
+		start_experience_factor = 1.0
+		force_equipment_variants = { tsf_equipment_F-15E = { owner = "UNI" } }
+	}
+	division = {
+		location = 8042
+		division_template = "轨道降下兵团"
+		start_experience_factor = 1.0
+		force_equipment_variants = { tsf_equipment_F-15 = { owner = "UNI" } }
+	}
+	division = {
+		location = 8042
+		division_template = "轨道降下兵团"
+		start_experience_factor = 1.0
+		force_equipment_variants = { tsf_equipment_F-15 = { owner = "UNI" } }
+	}
+}

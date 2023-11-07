@@ -1,0 +1,5 @@
+entity = {
+	name = "lux_entity"
+	pdxmesh = "BetaLux_mesh"
+	scale = 0.45
+}

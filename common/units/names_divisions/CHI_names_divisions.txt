@@ -1,0 +1,16 @@
+﻿CHI_ARM_01 = 
+{
+	name = "重装师"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "medium_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { JAP_INF_01 }
+
+	fallback_name = "第%d重装师"
+
+}

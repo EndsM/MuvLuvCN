@@ -1,0 +1,134 @@
+capital = 791
+	set_stability =  1
+	set_war_support = 1
+
+	set_research_slots = 0
+	
+	#declare_war_on = {}
+	
+	set_technology = {
+		#land doctrine
+		pocket_defence = 1
+		defence_in_depth = 1
+		peoples_army = 1
+		human_infantry_offensive = 1
+		large_front_offensive = 1
+		human_wave_offensive = 1
+		guerilla_warfare = 1
+
+		#TSF
+		UNI_basic_concept_research = 1
+		UNI_Assault_gun_improvement_1 = 1
+		UNI_Blade_improvement_1 = 1
+		UNI_Schurzen_1 = 1
+#		UNI_Jumping_unit_improvement = 1
+		UNI_Manipulator_improvement = 1
+#		UNI_Carrying_ammunition_increase = 1
+		SOV_MiG-21 = 1
+		SOV_Su-11 = 1
+		SOV_MiG-23 = 1
+		SOV_MiG-27 = 1
+		SOV_MiG-29 = 1
+		SOV_Su-27 = 1
+		tech_special_forces = 1
+		MVLV_beta_tec = 1
+		CAS1 = 1
+		fighter3 = 1	}
+	
+	add_ideas = {
+	}
+
+add_offsite_building = { type = arms_factory level = 0 }
+add_offsite_building = { type = industrial_complex level = 0 }
+
+create_faction = "難民解放戦線"
+M01 = {}
+
+set_stability =  1
+set_war_support = 1
+
+set_research_slots = 0
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+}
+
+add_political_power = 2000    
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 100
+}
+
+######################LEADERS##############################################
+
+create_country_leader = {
+	name = "指導者"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "master.dds"
+	expire = "2040.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+	
+create_country_leader = {
+	name = "指導者"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "master.dds"
+	expire = "2040.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "指導者"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "master.dds"
+	expire = "2040.1.1"
+	ideology = centrism
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "クリストファー"
+	picture = "kuri.dds"
+	traits = { 
+		offensive_doctrine
+		
+		politically_connected
+	}
+	skill = 8
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_field_marshal = {
+	name = "ナタリー"
+	picture = "natary.dds"
+	traits = { 
+		offensive_doctrine
+		
+		politically_connected
+	}
+	skill = 3
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}

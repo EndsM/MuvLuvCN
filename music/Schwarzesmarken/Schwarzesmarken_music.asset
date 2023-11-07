@@ -1,0 +1,322 @@
+# Schwarzesmarken:
+
+music = {
+	name = "Schwarzesmarken_01"
+	file = "1.01 “Schwarzesmarken”Theme.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_02"
+	file = "1.02 覚悟を新たに.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_03"
+	file = "1.03 white forces.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_04"
+	file = "1.04 黒の宣告.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_05"
+	file = "1.05 消せぬ苛立ち.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_06"
+	file = "1.06 Coup de grâce～慈悲の一撃～.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_07"
+	file = "1.07 張り詰めた空気.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_08"
+	file = "1.08 秘密.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_09"
+	file = "1.09 Stasi.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_10"
+	file = "1.10 Blackened Pride（Violin）.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_11"
+	file = "1.11 絶望の深淵.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_12"
+	file = "1.12 秘めたる野望.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_13"
+	file = "1.13 心のざわめき.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_14"
+	file = "1.14 仄暗い空の下で.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_15"
+	file = "1.15 災厄の潮流.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_16"
+	file = "1.16 纏わり付く過去.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_17"
+	file = "1.17 勝利の確信.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_18"
+	file = "1.18 胸の楔.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_19"
+	file = "1.19 悔恨.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_20"
+	file = "1.20 同志として.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_21"
+	file = "1.21 死を運ぶ獣.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_22"
+	file = "1.22 溢れ出す怒り.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_23"
+	file = "1.23 恋心.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_24"
+	file = "1.24 純粋無垢.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_25"
+	file = "1.25 戦場を見つめて.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_26"
+	file = "1.26 焦燥.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_27"
+	file = "1.27 嘲笑.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_28"
+	file = "1.28 穏やかな時間.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_29"
+	file = "1.29 Jolly Rogers～西側の部隊～.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_30"
+	file = "1.30 雲間に射す光.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_31"
+	file = "1.31 陰謀.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_32"
+	file = "1.32 払われぬ疑念.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_33"
+	file = "1.33 交われぬ運命.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_34"
+	file = "1.34 前を見つめて.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_35"
+	file = "1.35 宣告の行方.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_36"
+	file = "1.36 一幕の終わりに.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_37"
+	file = "1.37 哀しみが時代を駆ける.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_38"
+	file = "2.01 1983-schwarzesmarken-.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_39"
+	file = "2.02 重圧.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_40"
+	file = "2.03 悪夢.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_41"
+	file = "2.04 対立.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_42"
+	file = "2.05 瓦解の危機.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_43"
+	file = "2.06 錯綜する戦場.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_44"
+	file = "2.07 Blackened Pride.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_45"
+	file = "2.08 束の間の休息.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_46"
+	file = "2.09 父との想い出.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_47"
+	file = "2.10 無心のひととき.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_48"
+	file = "2.11 優しい眼差し.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_49"
+	file = "2.12 死という現実.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_50"
+	file = "2.13 心に温もりを.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_51"
+	file = "2.14 翼よ、暁を渡る誓いの中で。.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_52"
+	file = "2.15 昂ぶる感情.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_53"
+	file = "2.16 white relation.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_54"
+	file = "2.17 「翼よ、暁を渡る誓いの中で。」（Instrumental）.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_55"
+	file = "2.18 「翼よ、暁を渡る誓いの中で。」（Piano）.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_56"
+	file = "2.19 固まる絆.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_57"
+	file = "2.20 思いを遂げる為に.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_58"
+	file = "2.21 Die is cast..ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_59"
+	file = "2.22 最後の灯火.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_60"
+	file = "2.23 Our Hands.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_61"
+	file = "2.24 Last Desire.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_62"
+	file = "2.25 Lost Heaven.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_63"
+	file = "2.26 哀しみが時代を駆ける Iris ver.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Schwarzesmarken_64"
+	file = "2.27 哀しみが時代を駆ける Katia ver.ogg"
+	volume = 0.65
+}

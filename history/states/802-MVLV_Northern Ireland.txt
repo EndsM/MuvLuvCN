@@ -1,0 +1,36 @@
+
+state={
+	id=802
+	name="STATE_802"
+
+	history={
+		1999.1.1 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = NIR
+			remove_core_of = IRE
+			remove_core_of = ENG 
+		}
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+
+		add_core_of = ENG
+		add_core_of = IRE
+		add_core_of = NIR
+	}
+
+	provinces={
+		276 385 3329 11257 
+	}
+	manpower=1198537
+	buildings_max_level_factor=1
+	state_category="city"
+	
+	resources={
+		aluminium=2
+	}
+}

@@ -1,0 +1,244 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			BET = { 
+				country_event = mvlv_generic.99
+				country_event = mvlv_beta_eat.0
+				country_event = mvlv_init.0
+			}
+			every_country = {
+				全局参数设置=yes
+				简单难度参数设置=yes
+				IF = {
+					limit = {
+						is_in_faction_with = BET
+					}
+					country_event = beta_var.1
+					country_event = mvlv_beta_production.0
+					country_event = mvlv_beta_production.1
+					country_event = mvlv_beta_production.2
+					country_event = mvlv_beta_production.3
+					country_event = mvlv_beta_production.4
+					country_event = {
+						id = mvlv_beta_atk.0
+						days = 30
+					}
+					if = {
+						limit = {
+							is_ai = no
+						}
+						# country_event = mvlv_beta_hum.0
+						
+					}
+					set_rule = { can_puppet = no }
+					set_rule = { can_create_collaboration_government = no }
+				}
+				
+				IF = {
+					limit = {
+						original_tag = BET
+					}
+					BET = {country_event = BETA.1}
+					BET = {country_event = mvlv_generic.2}
+				}
+
+				#削除モードの変更
+				IF = {
+					limit = {
+						is_ai = no
+					}
+					THIS = { country_event = mvlv_generic.16 }
+				}
+
+				country_event = mvlv_generic.1
+				country_event = mvlv_generic.98
+			}
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+			#target:元の所有国がBETA陣営
+			#effect:BETA陣営で降伏値が上がったら陥落アイデア付与
+			#________________________________________________________
+			#target:今の所有国がBETA陣営
+			#effect:BETA陣営で降伏値が下がっていれば陥落アイデア剥奪
+
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							is_in_faction_with = BET
+							tag = H00
+						}
+						surrender_progress > 0.3
+						not = { has_idea = mvlv_brokenhive }
+					}
+				}
+				FROM = {
+					country_event = BETA.98
+				}
+			} else_if = {
+				limit = {
+					OR = {
+						is_in_faction_with = BET
+						tag = H00
+					}
+					surrender_progress < 0.1
+					has_idea = mvlv_brokenhive
+				}
+				country_event = BETA.98
+			}
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			#BETA吃人
+			if = {
+				limit = {
+					FROM = {
+						is_in_faction_with = UNI
+					}
+					ROOT = {
+						is_in_faction_with = BET
+					}
+				}
+				add_offsite_building = { type = arms_factory level = FROM.FROM.arms_factory_level }
+				add_offsite_building = { type = arms_factory level = FROM.FROM.industrial_complex_level }
+				add_offsite_building = { type = arms_factory level = FROM.FROM.building_level@dockyard }
+				BET = {
+					add_offsite_building = { type = arms_factory level = PREV.FROM.FROM.arms_factory_level }
+					add_offsite_building = { type = arms_factory level = PREV.FROM.FROM.industrial_complex_level }
+					add_offsite_building = { type = arms_factory level = PREV.FROM.FROM.building_level@dockyard }
+				}
+				FROM.FROM = {
+					remove_building = {
+						type = arms_factory
+						level = arms_factory_level
+					}
+					remove_building = {
+						type = industrial_complex
+						level = industrial_complex_level
+					}
+					remove_building = {
+						type = dockyard
+						level = building_level@dockyard
+					}
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							OR = {
+								is_core_of = BET
+								is_core_of = H26
+								is_core_of = H25
+								is_core_of = H23
+								is_core_of = H21
+								is_core_of = H20
+								is_core_of = H19
+								is_core_of = H18
+								is_core_of = H17
+								is_core_of = H16
+								is_core_of = H15
+								is_core_of = H14
+								is_core_of = H13
+								is_core_of = H12
+								is_core_of = H11
+								is_core_of = H10
+								is_core_of = H09
+								is_core_of = H08
+								is_core_of = H07
+								is_core_of = H06
+								is_core_of = H05
+								is_core_of = H04
+								is_core_of = H03
+								is_core_of = H02
+							}
+							is_capital = yes
+						}
+					}
+					while_loop_effect = {
+						limit = {
+							FROM.FROM = {
+								check_variable = { state_population_k > 2000 }
+							}
+						}
+						FROM.FROM = {
+							add_manpower = -2000000
+						}
+					}
+					set_variable = {
+						人口 = FROM.FROM.state_population
+					}
+					multiply_variable = {
+						人口 = -1
+					}
+					FROM.FROM = {
+						add_manpower = 人口
+						add_manpower = 1000
+					}
+				}
+				else = {
+					while_loop_effect = {
+						limit = {
+							FROM.FROM = {
+								check_variable = { state_population_k > 0 }
+							}
+						}
+						FROM.FROM = {
+							add_manpower = -2000000
+							add_manpower = -2000000
+							add_manpower = -2000000
+							add_manpower = -2000000
+							add_manpower = -2000000
+							add_manpower = -2000000
+							add_manpower = -2000000
+							add_manpower = -2000000
+							add_manpower = -2000000
+							add_manpower = -2000000
+						}
+					}
+					set_state_category = betaland
+				}
+			}
+		}
+	}
+	
+	on_capitulation = {
+		effect = {
+			#target:降伏したBETA陣営で発生
+			#effect:BETA陣営で降伏値が上がったら陥落アイデア付与
+			#effect:BETA陣営で降伏値が下がっていれば陥落アイデア剥奪
+			if = {
+				limit = {
+					OR = {
+						is_in_faction_with = BET
+						tag = H00
+					}
+					surrender_progress > 0.3
+					not = { has_idea = mvlv_brokenhive }
+				}
+				country_event = BETA.98
+			}
+		}
+	}
+
+	on_uncapitulation = {
+		effect = {
+			#target:降伏したBETA陣営で発生
+			#effect:BETA陣営で降伏値が下がっていれば陥落アイデア剥奪
+			if = {
+				limit = {
+					OR = {
+						is_in_faction_with = BET
+						tag = H00
+					}
+					surrender_progress < 0.1
+					has_idea = mvlv_brokenhive
+				}
+				country_event = BETA.98
+			}
+		}
+	}
+}

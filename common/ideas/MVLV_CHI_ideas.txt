@@ -1,0 +1,200 @@
+ideas = {
+	country = {
+		#default national spirits
+		CHI_overseas_chinese_network = {
+			#picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+			}
+			modifier = {
+				consumer_goods_factor = -0.3
+				research_speed_factor = -0.15
+			}
+		}
+		CHI_one_country_two_systems = {
+			#picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+			}
+			modifier = {
+				stability_factor = -0.2
+				political_power_factor = -0.05
+			}
+		}
+		#華僑資本
+		CHI_I1 = {
+			picture = CHI_idea_03
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+		}
+		#ユダヤ資本
+		CHI_I2 = {
+			picture = CHI_idea_05
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+		#工場の活性化
+		CHI_I3 = {
+			picture = CHI_idea_01_Ex3
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				support_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+		#アメリカによる研究投資
+		CHI_P1 = {
+			picture = CHI_idea_12_R4
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+		#必要経費
+		CHI_P2 = {
+			# picture = 
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+		}
+		#真なる中華
+		CHI_P3 = {
+			picture = CHI_idea_12_S5
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+				consumer_goods_factor = -0.05
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.15
+				army_speed_factor = 0.1
+			}
+		}
+		#管理計画経済
+		CHI_P4 = {
+			picture = CHI_idea_12_L4
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		CHI_learn_eea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_air_bonus
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+					reliability = 0.1
+					instant = yes
+				}
+			}
+		}
+		CHI_amphibious_improve = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_air_bonus
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+					build_cost_ic = 0.05
+					instant = yes
+					hard_attack = 0.05
+					soft_attack = 0.05
+					maximum_speed = 0.05
+				}
+			}
+		}
+		CHI_cooperation_with_JAP = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				experience_gain_army = 0.2
+			}
+		}
+		CHI_learn_SOV = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+		美国战术机技术 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			research_bonus = {
+				MVLV_tsf_tech = 0.1
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+wargoal_types = {
+
+	beta_wargoal_focus = {
+
+		allowed = {
+			always = no
+		}
+					
+			
+		war_name = WAR_BETA_NAME
+
+		annex_threat_factor = 1.0
+		threat = 1
+	}
+}

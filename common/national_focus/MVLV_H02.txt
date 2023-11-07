@@ -1,0 +1,74 @@
+focus_tree = {
+	id = mashhad_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			TAG = H02
+		}
+	}
+	focus = {
+		id = BET_srf02
+		icon = GFX_focus_jap_zaibatsu
+		x = 1
+		y = 0
+
+		available = { 
+		 OR = {
+			UNI = { 
+                               has_idea = mvlv_difficulty_unlimited
+                        }
+			USA = { 
+                               has_idea = mvlv_difficulty_unlimited
+                        }
+			JAP = { 
+                               has_idea = mvlv_difficulty_unlimited
+                        }
+			GEU = { 
+                               has_idea = mvlv_difficulty_unlimited
+                        }
+			EUR = { 
+                               has_idea = mvlv_difficulty_unlimited
+                        }
+			CHI = { 
+                               has_idea = mvlv_difficulty_unlimited
+                        }
+			SOV = { 
+                               has_idea = mvlv_difficulty_unlimited
+                        }
+			OSE = { 
+                               has_idea = mvlv_difficulty_unlimited
+                        }
+			AFR = { 
+                               has_idea = mvlv_difficulty_unlimited
+                        }
+		 }
+                        date > 2002.5.15
+                }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+
+		completion_reward = { 
+			hidden_effect = {
+                            division_template = {
+												name = "超重光线师团"
+												division_names_group = BET_SRF_01
+                                            regiments = {
+                                              MVLV_beta_srf = { x = 0 y = 0 }
+                                            }
+                            }
+		        capital_scope = {
+                                        create_unit = {
+                                                division = "name = \"Г標的\" division_template = \"超重光线师团\" start_experience_factor = 0.5" 
+                                                owner = ROOT
+					}
+				}
+			}			
+               }
+
+		ai_will_do = { factor = 6 }
+	}
+}

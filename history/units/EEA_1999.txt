@@ -1,0 +1,140 @@
+﻿units = {
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "EEA"
+				creator = EEA
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "EEA"
+				creator = EEA
+				version_name = "MiG-23"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "EEA"
+				creator = EEA
+				version_name = "MiG-27短吻鳄"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "战术机大队"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "EEA"
+				creator = EEA
+				version_name = "MiG-31M"
+			}
+		}
+	}
+	division = {
+		name = "格拉芙小队"
+		location = 13244
+		division_template = "战术机大队"
+		start_experience_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "EEA"
+				creator = EEA
+				version_name = "MiG-29燕子"
+			}
+		}
+	}
+	division = {
+		location = 11047
+		division_template = "轻装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "轻装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11047
+		division_template = "轻装师"
+		start_experience_factor = 0.2
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "EEA"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "EEA"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "EEA"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = medium_tank_equipment_1
+			creator = "EEA"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 100
+	}
+}

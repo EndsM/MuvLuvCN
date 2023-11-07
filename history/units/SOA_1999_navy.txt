@@ -1,0 +1,12 @@
+# units = {
+# 	fleet = {
+# 		name = "第一舰队"			
+# 		naval_base = 10980 # San Diego		
+# 		task_force = {					
+# 			name = "第一炮击分队"			# CO: Halsey			
+# 			location = 10980 # Los Angeles
+# 			ship = { name = "玻利瓦尔" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = SOA version_name = "超战舰" } } 
+# 			}
+# 		}
+# 	}
+# }

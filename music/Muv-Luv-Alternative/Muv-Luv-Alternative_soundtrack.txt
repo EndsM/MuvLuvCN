@@ -1,0 +1,442 @@
+music_station = "Muv-Luv-Alternative"
+
+music = {
+	song = "Alternative_01"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_02"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_03"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_04"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_05"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_06"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_07"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_08"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_09"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_10"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_11"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_12"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_13"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_14"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_15"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_16"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_17"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_18"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_19"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_20"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_21"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_22"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_23"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_24"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_25"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_26"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_27"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_28"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_29"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_30"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_31"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_32"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_33"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_34"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_35"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_36"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_37"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_38"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_39"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_40"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_41"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_42"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_43"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_44"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_45"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_46"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_47"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_48"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_49"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_50"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_51"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_52"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_53"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Alternative_54"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "enzetu_01"
+	chance = {
+		modifier = {
+			factor = 0
+		}
+	}
+}

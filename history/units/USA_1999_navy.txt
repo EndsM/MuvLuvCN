@@ -1,0 +1,602 @@
+units = {
+	####### NAVAL UNITS #######
+	##### ATRANTIC FLEET #####
+	fleet = {
+		name = "第一舰队"
+		naval_base = 788
+		task_force = {
+			name = "第一战队"
+			location = 788
+			ship = {
+				name = "USS 蒙大拿"
+				pride_of_the_fleet = yes
+				definition = battleship
+				equipment = {
+					ship_hull_super_heavy_1 = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "USS 俄亥俄"
+				definition = battleship
+				equipment = {
+					ship_hull_super_heavy_1 = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+		# task_force = {
+		# 	name = "第七战队"
+		# 	location = 788
+		# 	ship = {
+		# 		name = "USS 尼米兹"
+		# 		definition = carrier
+		# 		start_experience_factor = 0.25
+		# 		equipment = {
+		# 			ship_hull_carrier_conversion_bb = {
+		# 				amount = 1
+		# 				owner = USA
+		# 				version_name = "Lexington Class"
+		# 			}
+		# 		}
+		# 		air_wings = {
+		# 		}
+		# 	}
+		# 	ship = {
+		# 		name = "USS 艾森豪威尔"
+		# 		definition = carrier
+		# 		start_experience_factor = 0.25
+		# 		equipment = {
+		# 			ship_hull_carrier_conversion_bb = {
+		# 				amount = 1
+		# 				owner = USA
+		# 				version_name = "Lexington Class"
+		# 			}
+		# 		}
+		# 		air_wings = {
+		# 		}
+		# 	}
+		# 	ship = {
+		# 		name = "USS 卡尔文森"
+		# 		definition = carrier
+		# 		start_experience_factor = 0.25
+		# 		equipment = {
+		# 			ship_hull_carrier_conversion_bb = {
+		# 				amount = 1
+		# 				owner = USA
+		# 				version_name = "Lexington Class"
+		# 			}
+		# 		}
+		# 		air_wings = {
+		# 		}
+		# 	}
+		# }
+		task_force = {
+			name = "第一水雷战队"
+			location = 788
+			#Flagship
+			ship = {
+				name = "USS 杜威"
+				definition = light_cruiser
+				equipment = {
+					ship_hull_cruiser_2 = {
+						amount = 1
+						owner = USA
+						version_name = "Kuma/Nagara Class"
+					}
+				}
+			}
+			#第一駆逐隊
+			ship = {
+				name = "USS 威廉·普拉特"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Mutsuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 达尔格伦"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Mutsuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 马汉"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Mutsuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 金"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Mutsuki Class"
+					}
+				}
+			}
+			#第六駆逐隊
+			ship = {
+				name = "USS 昆西"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 麦克多诺"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 露丝"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 法拉格特"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			#第十一駆逐隊
+			ship = {
+				name = "USS 威尔金森"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "USS 威利斯·李"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "USS 约翰·迈凯伦"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "USS 米彻尔"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+	}
+	##### 第七舰队 #####
+	fleet = {
+		name = "第七舰队"
+		naval_base = 4180
+		# task_force = {
+		# 	name = "第五战队"
+		# 	# base = 4180
+		# 	location = 4180
+		# 	ship = {
+		# 		name = "USS 约翰·肯尼迪"
+		# 		definition = carrier
+		# 		start_experience_factor = 0.25
+		# 		equipment = {
+		# 			ship_hull_carrier_conversion_bb = {
+		# 				amount = 1
+		# 				owner = USA
+		# 				version_name = "Lexington Class"
+		# 			}
+		# 		}
+		# 		air_wings = {
+		# 		}
+		# 	}
+		# 	ship = {
+		# 		name = "USS 罗纳德·里根"
+		# 		definition = carrier
+		# 		start_experience_factor = 0.25
+		# 		equipment = {
+		# 			ship_hull_carrier_conversion_bb = {
+		# 				amount = 1
+		# 				owner = USA
+		# 				version_name = "Lexington Class"
+		# 			}
+		# 		}
+		# 		air_wings = {
+		# 		}
+		# 	}
+		# }
+		task_force = {
+			name = "第五水雷战队"
+			location = 4180
+			#第十七駆逐隊
+			ship = {
+				name = "USS 阿利伯克"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Kagero Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 马汉"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Kagero Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 坎宁安"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Kagero Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 约瑟夫·斯特劳斯"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Kagero Class"
+					}
+				}
+			}
+			#第十駆逐隊
+			ship = {
+				name = "USS 伯克"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+						version_name = "Kagero Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 布坎南"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			#第十六駆逐隊
+			ship = {
+				name = "USS 拉尔夫·约翰逊"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+						version_name = "Kagero Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 麦克坎贝尔"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+						version_name = "Kagero Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 马斯廷"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+						version_name = "Kagero Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 米利厄斯"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+						version_name = "Kagero Class"
+					}
+				}
+			}
+		}
+	}
+	##### 第四舰队 #####
+	fleet = {
+		name = "第四舰队"
+		naval_base = 1562
+		task_force = {
+			name = "第二战队"
+			location = 1562
+			ship = {
+				name = "USS 缅因"
+				definition = battleship
+				equipment = {
+					ship_hull_super_heavy_1 = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "USS 新罕布什尔"
+				definition = battleship
+				equipment = {
+					ship_hull_super_heavy_1 = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+			ship = {
+				name = "USS 路易丝安那"
+				definition = battleship
+				equipment = {
+					ship_hull_super_heavy_1 = {
+						amount = 1
+						owner = USA
+					}
+				}
+			}
+		}
+		# task_force = {
+		# 	name = "第五战队"
+		# 	location = 1562
+		# 	ship = {
+		# 		name = "USS 哈里·杜鲁门"
+		# 		definition = carrier
+		# 		start_experience_factor = 0.25
+		# 		equipment = {
+		# 			ship_hull_carrier_conversion_bb = {
+		# 				amount = 1
+		# 				owner = USA
+		# 				version_name = "Lexington Class"
+		# 			}
+		# 		}
+		# 		air_wings = {
+		# 		}
+		# 	}
+		# 	ship = {
+		# 		name = "USS 乔治·华盛顿"
+		# 		definition = carrier
+		# 		start_experience_factor = 0.25
+		# 		equipment = {
+		# 			ship_hull_carrier_conversion_bb = {
+		# 				amount = 1
+		# 				owner = USA
+		# 				version_name = "Lexington Class"
+		# 			}
+		# 		}
+		# 		air_wings = {
+		# 		}
+		# 	}
+		# }
+		task_force = {
+			name = "第二水雷战队"
+			location = 1562
+			#Flagship
+			ship = {
+				name = "USS 约克城"
+				definition = light_cruiser
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Sendai Class"
+					}
+				}
+			}
+			#第二駆逐隊
+			ship = {
+				name = "USS 费尔斯"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 纽曼·佩里"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 弗洛伊德·帕克斯"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 约翰·克雷格"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			#第七駆逐隊
+			ship = {
+				name = "USS 奥莱克"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 布林克雷"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 史泰克尔"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 奥哈"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_1 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			#第十二駆逐隊
+			ship = {
+				name = "USS 冈萨雷斯"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 法夫"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 安特里姆"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+			ship = {
+				name = "USS 格拉摩根"
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = USA
+						version_name = "Fubuki Class"
+					}
+				}
+			}
+		}
+	}
+}

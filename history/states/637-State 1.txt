@@ -1,0 +1,27 @@
+
+state={
+	id=637
+	name="STATE_637"
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_extra_state_shared_building_slots = 3
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 10
+			12207 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 7878 1 }
+	}
+
+	provinces={
+		1863 4728 7878 12522 12207
+	}
+	manpower=333644
+	buildings_max_level_factor=1
+	state_category="large_city"
+}

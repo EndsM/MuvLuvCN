@@ -1,0 +1,204 @@
+UNI_xmosd_category = {
+	UNI_xmosd_give = {
+		icon = generic_operation
+		available = {
+			has_war_with = BET
+		}
+		visible = {
+			has_completed_focus = UNI_xmos
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = yes
+		complete_effect = {
+			every_country = {
+				limit = {
+					is_in_faction_with = UNI
+					NOT = {
+						tag = UNI
+					}
+				}
+				country_event = mvlv_uni.12
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	UNI_xmos_mission = {
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		activation = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		visible = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		days_remove = 180
+		days_mission_timeout = 250
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			civilian_factory_use = 10
+		}
+		timeout_effect = {
+			UNI = {
+				add_offsite_building = {
+					type = arms_factory
+					level = -10
+				}
+			}
+		}
+	}
+}
+
+UNI_category = {
+	UNI_give = {
+		icon = generic_operation
+		available = {
+			has_war_with = BET
+			tag = UNI
+			FROM = {
+				has_equipment = {
+					MVLV_TSF_chassis > 119
+				}
+			}
+		}
+		days_remove = 5
+		days_re_enable = 30
+		visible = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		cost = 50
+		fire_only_once = no
+		target_trigger = {
+			FROM = {
+				NOT = {
+					is_in_faction_with = BET
+				}
+				is_in_faction_with = ROOT
+				has_war_with = BET
+			}
+		}
+		complete_effect = {
+			FROM = {
+				send_equipment = {
+					equipment = MVLV_TSF_chassis
+					amount = 120
+					target = UNI
+				}
+				country_event = mvlv_uni.17
+			}
+		}
+		modifier = {
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
+UNI_operation_ouka_category = {
+	UNI_ouka_phase_1_decision = {
+		icon = generic_operation
+		available = {
+			has_war_with = BET
+		}
+		visible = {
+			UNI = {
+				has_completed_focus = UNI_operation_ouka
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = yes
+		days_remove = 3
+		complete_effect = {
+			every_country = {
+				limit = {
+					is_in_faction_with = UNI
+				}
+				country_event = mvlv_uni.28
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_country_flag = UNI_ouka_phase_1_flag
+			}
+		}
+	}
+	UNI_ouka_phase_2_decision = {
+		icon = generic_operation
+		available = {
+			has_war_with = BET
+			has_country_flag = UNI_ouka_phase_1_flag
+		}
+		visible = {
+			UNI = {
+				has_completed_focus = UNI_operation_ouka
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = yes
+		days_remove = 2
+		complete_effect = {
+			every_country = {
+				limit = {
+					is_in_faction_with = UNI
+				}
+				country_event = mvlv_uni.29
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_country_flag = UNI_ouka_phase_2_flag
+			}
+		}
+	}
+	UNI_ouka_phase_3_decision = {
+		icon = generic_operation
+		available = {
+			has_war_with = BET
+			has_country_flag = UNI_ouka_phase_2_flag
+		}
+		visible = {
+			UNI = {
+				has_completed_focus = UNI_operation_ouka
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		fire_only_once = yes
+		days_remove = 2
+		complete_effect = {
+			every_country = {
+				limit = {
+					is_in_faction_with = UNI
+				}
+				if = {
+					limit = {
+						has_country_flag = PL_ouka_operation_flag
+					}
+					country_event = mvlv_uni.19
+					else = {
+						country_event = mvlv_uni.30
+					}
+				}
+			}
+		}
+	}
+}

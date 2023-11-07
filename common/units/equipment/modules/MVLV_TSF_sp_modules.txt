@@ -1,0 +1,52 @@
+equipment_modules = {
+	MVLV_TSF_structural_enhance_1 = {
+		category = MVLV_TSF_sp_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			#
+			armor_value = 3
+			reliability = 0.05
+		}
+		multiply_stats = {
+			build_cost_ic = 0.03
+			hard_attack = 0.03
+		}
+	}
+	MVLV_TSF_structural_enhance_2 = {
+		category = MVLV_TSF_sp_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			#build_cost_ic = 7
+			armor_value = 5			#4
+			reliability = 0.1
+		}
+		multiply_stats = {
+			build_cost_ic = 0.06
+			hard_attack = 0.05
+		}
+	}
+	MVLV_TSF_reactive_armor = {
+		category = MVLV_TSF_reactive_armor_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			armor_value = 10
+			#build_cost_ic = 5
+			# soft_attack = 5
+		}
+		multiply_stats = {
+			maximum_speed = -0.05
+			build_cost_ic = 0.05
+			soft_attack = 0.05
+			#     hard_attack = 0.03
+		}
+	}
+	MVLV_TSF_shield_multi_purpose_armor = {
+		category = MVLV_TSF_sp_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5			#3
+			armor_value = 10
+			entrenchment = 1			#0.25
+		}
+	}
+}

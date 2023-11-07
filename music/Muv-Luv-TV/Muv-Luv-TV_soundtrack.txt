@@ -1,0 +1,26 @@
+music_station = "Muv-Luv-TV"
+
+music = {
+	song = "Muv-Luv-TV_06"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Muv-Luv-TV_10"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Muv-Luv-TV_15"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}

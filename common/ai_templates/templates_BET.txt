@@ -1,0 +1,588 @@
+#All Hive templates is merged to here.
+#全ハイヴのテンプレートファイルをここにマージしました。
+beta_tank = {
+	roles = {
+		beta_tank
+		beta_flontline
+	}
+	available_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
+	match_to_count = 1
+	upgrade_prio = {
+		factor = 0.01
+	}
+	beta_tank_default = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		target_width = 20
+		width_weight = 1
+		column_swap_factor = 0.5
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_beta_tank = 20
+			}
+		}
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+beta_warrior = {
+	available_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
+	roles = {
+		beta_warrior
+		beta_flontline
+	}
+	match_to_count = 0.5
+	beta_warrior_default = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.02
+		}
+		target_width = 20
+		width_weight = 1
+		column_swap_factor = 0.5
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_beta_warrior = 10
+			}
+		}
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+beta_soldier = {
+	available_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
+	roles = {
+		beta_soldier
+		beta_flontline
+	}
+	upgrade_prio = {
+		factor = 0.01
+	}
+	match_to_count = 0.5
+	beta_soldier_default = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		target_width = 20
+		width_weight = 1
+		column_swap_factor = 0.5
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_beta_soldier = 10
+			}
+		}
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+beta_grappler = {
+	available_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
+	roles = {
+		beta_grappler
+		beta_flontline
+	}
+	upgrade_prio = {
+		factor = 0.01
+	}
+	match_to_count = 0.5
+	beta_grappler_default = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.02
+		}
+		target_width = 20
+		width_weight = 1
+		column_swap_factor = 0.5
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_beta_grappler = 10
+			}
+		}
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+beta_destroyer = {
+	available_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
+	roles = {
+		beta_destroyer
+		beta_flontline
+	}
+	upgrade_prio = {
+		factor = 0.01
+	}
+	match_to_count = 0.5
+	beta_destroyer_default = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		target_width = 20
+		width_weight = 1
+		column_swap_factor = 0.5
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_beta_destroyer = 10
+			}
+		}
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+beta_fort_BET = {
+	available_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
+	roles = {
+		beta_fort
+		beta_flontline
+	}
+	upgrade_prio = {
+		factor = 0.01
+	}
+	match_to_count = 0.5
+	beta_fort_default = {
+		upgrade_prio = {
+			factor = 0.01
+		}
+		production_prio = {
+			factor = 0.02
+		}
+		target_width = 40
+		width_weight = 1
+		column_swap_factor = 0.5
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_beta_fort = 20
+			}
+		}
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+beta_hive_garrison = {
+	available_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
+	roles = {
+		beta_garrison
+	}
+	upgrade_prio = {
+		factor = 0.5
+	}
+	match_to_count = 0.5
+	beta_hive_garrison = {
+		upgrade_prio = {
+			factor = 0.05
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		target_width = 20
+		width_weight = 1
+		column_swap_factor = 0.5
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_beta_soldier = 2				#combatwidth:2
+				#MVLV_beta_warrior = 3	#combatwidth:3
+				MVLV_beta_tank = 10				#combatwidth:10
+				MVLV_beta_destroyer = 2				#combatwidth:4
+				MVLV_beta_grappler = 2				#combatwidth:4
+				#MVLV_beta_fort = 1		#combatwidth:2
+			}
+		}
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+beta_large_mixed = {
+	available_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
+	roles = {
+		beta_large_mixed
+		beta_flontline
+	}
+	upgrade_prio = {
+		factor = 0.5
+	}
+	match_to_count = 0.5
+	beta_large_mixed = {
+		upgrade_prio = {
+			factor = 0.05
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		target_width = 42
+		width_weight = 1
+		column_swap_factor = 0.5
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_beta_tank = 8				#combatwidth:8
+				MVLV_beta_destroyer = 2				#combatwidth:4
+				MVLV_beta_grappler = 13				#combatwidth:26
+				MVLV_beta_fort = 2				#combatwidth:4
+			}
+		}
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+beta_small_mixed = {
+	available_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
+	roles = {
+		beta_small_mixed
+		beta_flontline
+	}
+	upgrade_prio = {
+		factor = 0.5
+	}
+	match_to_count = 0.5
+	beta_small_mixed = {
+		upgrade_prio = {
+			factor = 0.05
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		target_width = 21
+		width_weight = 1
+		column_swap_factor = 0.5
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_beta_tank = 16				#combatwidth:16
+				MVLV_beta_grappler = 1				#combatwidth:2
+				MVLV_beta_soldier = 3				#combatwidth:3
+			}
+		}
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+beta_fort_destroyer = {
+	available_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
+	roles = {
+		beta_fort_destroyer
+		beta_flontline
+	}
+	upgrade_prio = {
+		factor = 0.5
+	}
+	match_to_count = 0.5
+	beta_fort_destroyer = {
+		upgrade_prio = {
+			factor = 0.05
+		}
+		production_prio = {
+			factor = 0.01
+		}
+		target_width = 42
+		width_weight = 1
+		column_swap_factor = 0.5
+		target_template = {
+			weight = 1
+			match_value = 10000
+			regiments = {
+				MVLV_beta_destroyer = 11				#combatwidth:22
+				MVLV_beta_fort = 10				#combatwidth:20
+			}
+		}
+		allowed_types = {
+			infantry
+		}
+	}
+}

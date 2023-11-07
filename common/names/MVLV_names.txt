@@ -1,0 +1,317 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+default = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes"}
+		surnames = { }
+		callsigns = { }
+	}
+	#female = {
+	#	names = { "Juliette" "Anna" }
+	#	surnames = { }
+	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
+	#}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+}
+ 
+###############################################################
+# The Majors
+###############################################################
+
+BET = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H00 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H26 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+H25 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+H21 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+H20 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+H19 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+H18 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+H17 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H16 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H15 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H14 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H13 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H12 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H11 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H10 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H09 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H08 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H07 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H06 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H05 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H03 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}
+
+H02 = {
+	male = {
+		names = {
+                 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 }
+		
+	}
+	#female = {
+	#	names = { 要塞 原光线 战车 兵士 光线 重光线 要击 突击 斗士 重头脑 头脑 母舰 门 ｝
+	#}
+	surnames = { 级 }
+	
+}

@@ -1,0 +1,1620 @@
+focus_tree = {
+	id = usa_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 20
+		y = 1500
+	}
+	reset_on_civilwar = no
+	focus = {
+		id = USA_support_japanese
+		icon = GFX_focus_jap_pacific_guardian
+		x = 1
+		y = 0
+		#relative_position_id = 
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		available = {
+			date > 2001.1.4
+			282 = {
+				is_controlled_by = JAP
+			}
+			NOT={JAP={has_completed_focus =JAP_NoTraitorsTomorrow}}
+		}
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			UNI = {
+				country_event = mvlv_generic.5
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	#最幸福的大陆与对Beta战争#
+	focus = {
+		id = USA_WarOrPeace
+		icon = GFX_goal_tripartite_pact
+		x = 8
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 100
+		}
+	}
+	#民主兵工厂#
+	focus = {
+		id = USA_ArsenalofDemocracy
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_WarOrPeace
+		}
+		x = -4
+		y = 1
+		cost = 5
+		relative_position_id = USA_WarOrPeace
+                                
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			359 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			361 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			362 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#扩大洛克希德#
+	focus = {
+		id = USA_ExpandLockheed
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_ArsenalofDemocracy
+		}
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = USA_ArsenalofDemocracy
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -150
+			378 = {
+				add_extra_state_shared_building_slots = 15
+				add_building_construction = {
+					type = arms_factory
+					level = 10
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#通用战术机研发#
+	focus = {
+		id = USA_GeneralPurposeTSFDev
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_ExpandLockheed
+		}
+		prerequisite = {
+			focus = USA_21stCenturyArmsRace
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = USA_ExpandLockheed
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				name = mech_army_bonus
+				technology = USA_F-35
+			}
+			add_research_slot = 1
+			add_political_power = 150
+		}
+	}
+	#先进对beta战车#
+	focus = {
+		id = USA_Advanced_Anti_BETA_MBT
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_ExpandLockheed
+		}
+		x = -2
+		y = 1
+		cost = 2
+		relative_position_id = USA_ExpandLockheed
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.5
+				uses = 2
+				category = armor
+			}
+		}
+	}
+	#F15改造计划#
+	focus = {
+		id = USA_EagleModiProject
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_GeneralPurposeTSFDev
+		}
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = USA_GeneralPurposeTSFDev
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				name = mech_army_bonus
+				technology = USA_F-15ACTV
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				name = mech_army_bonus
+				technology = USA_F-15SE
+			}
+		}
+	}
+	#援助国联军#
+	focus = {
+		id = USA_AidUNForces
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_EagleModiProject
+		}
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = USA_EagleModiProject
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			send_equipment = {
+				equipment = tsf_equipment_F-15E
+				amount = 1000
+				target = UNI
+			}
+		}
+	}
+
+	#组建美洲联军#
+	focus = {
+		id = USA_FormAmericaCoalitionForce
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_EagleModiProject
+		}
+		
+		x = 1
+		y = 1
+		cost = 15
+		relative_position_id = USA_EagleModiProject
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			capital_scope = {
+				create_unit = {
+					division = "name = \"战术机联队\" division_template = \"战术机联队\" start_experience_factor = 0.1"# force_equipment_variants = { tsf_equipment_F-22 = { creator = \"USA\" } }"
+					owner = ROOT
+                                                                                count = 12
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 3000
+				producer = SOA
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 1000
+				producer = SOA
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 3000
+				producer = CEA
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 1000
+				producer = CEA
+			}
+			add_equipment_to_stockpile = {
+				type = tsf_equipment
+				amount = 1200
+				producer = USA
+			}
+		}
+	}
+	#21世纪美国军备计划#
+	focus = {
+		id = USA_21stCenturyArmsRace
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_ArsenalofDemocracy
+		}
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = USA_ArsenalofDemocracy
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.1
+			375 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#信息化军队建设#
+	focus = {
+		id = USA_DataLinkArmyBuild
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_21stCenturyArmsRace
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = USA_21stCenturyArmsRace
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			army_experience = 100
+			add_ideas = USA_Informatization_army_construction
+		}
+	}
+	#无人化协助单元#
+	focus = {
+		id = USA_UnmannedAidUnit
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_DataLinkArmyBuild
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = USA_DataLinkArmyBuild
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			army_experience = 100
+			add_ideas = USA_Unmanned_assistance_unit
+		}
+	}
+	#最幸福的国家#
+	focus = {
+		id = USA_PeaceAboveElse
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_WarOrPeace
+		}
+		x = 4
+		y = 1
+		cost = 5
+		relative_position_id = USA_WarOrPeace
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.1
+			375 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#超大国#
+	focus = {
+		id = USA_Superpower
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_WarOrPeace
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = USA_WarOrPeace
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = USA_superpower
+			add_stability = 0.1
+		}
+	}
+	#先发制人#
+	focus = {
+		id = USA_StrikeFirst
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_Superpower
+		}
+		prerequisite = {
+			focus = USA_ArsenalofDemocracy
+		}
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = USA_Superpower
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -50
+			add_war_support = 0.15
+		}
+	}
+	#工业动员#
+	focus = {
+		id = USA_IndustrialMobilization
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_ProjectDawn
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = USA_ProjectDawn
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_war_support = 0.1
+			every_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#曙光计划#
+	focus = {
+		id = USA_ProjectDawn
+		icon = GFX_goal_tripartite_pact
+		#prerequisite = {
+		#	focus = USA_StrikeFirst
+		#}
+		#prerequisite = {
+		#	focus = USA_21stCenturyArmsRace
+		#}
+		mutually_exclusive = {
+			focus = USA_EvacuateFromEarth
+		}
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = USA_StrikeFirst
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -100
+			add_war_support = 0.15
+			add_ideas = USA_dawn_plan_start1
+		}
+	}
+	#绝对安全的大陆#
+	focus = {
+		id = USA_UntouchableHomefront
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_Superpower
+		}
+		prerequisite = {
+			focus = USA_PeaceAboveElse
+		}
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = USA_Superpower
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -100
+			add_stability = 0.1
+		}
+	}
+	#扩大太空军#
+	focus = {
+		id = USA_ExpandUSSF
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_ProjectDawn
+                                                focus = USA_EvacuateFromEarth
+		}
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = USA_ProjectDawn
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+                                              #set_division_template_cap = { division_template = "轨道降下兵团" division_cap = 18 }
+			add_political_power = -100
+			add_ideas = "扩大太空军"
+		}
+	}
+	#拉格朗日计划#
+	focus = {
+		id = USA_EvacuateFromEarth
+		icon = GFX_goal_tripartite_pact
+		#prerequisite = {
+		#	focus = USA_ExpandUSSF
+		#}
+		mutually_exclusive = {
+			focus = USA_ProjectDawn
+		}
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = USA_UntouchableHomefront
+		ai_will_do = {
+			factor = 0
+		}
+		completion_reward = {
+			add_political_power = -100
+			add_war_support = 0.15
+                                                add_ideas = "拉格朗日计划-启动"
+		}
+	}
+		#难民问题#
+	focus = {
+		id = USA_RefugeeIssue
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_PeaceAboveElse
+		}
+		x = 3
+		y = 1
+		cost = 1
+		relative_position_id = USA_PeaceAboveElse
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			country_event = {
+				id = mvlv_usa.1
+				days = 3
+			}
+		}
+	}
+	#特别城区#
+	focus = {
+		id = USA_DetainZone
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_RefugeeIssue
+		}
+                                available = {has_idea=隔离难民 }
+		mutually_exclusive = {
+			focus = USA_AcceptRefugees
+		}
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = USA_RefugeeIssue
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = -0.1
+			swap_ideas = {
+				remove_idea = USA_refugees
+				add_idea = USA_refugees2
+			}
+		}
+	}
+	#难民服役协议#
+	focus = {
+		id = USA_RefugeeEnlistment
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_DetainZone
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = USA_DetainZone
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {#add_to_variable={卫士训练规模=240}
+			add_manpower = 500000
+			swap_ideas = {
+				remove_idea = USA_refugees2
+				add_idea = USA_refugees3
+			}
+		}
+	}
+	#特别战争工业#
+	focus = {
+		id = USA_RefugeeAssistedProduction
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_RefugeeEnlistment
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = USA_RefugeeEnlistment
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = USA_refugees3
+				add_idea = USA_refugees4
+			}
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#扩大公民范围#
+	focus = {
+		id = USA_AcceptRefugees
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_RefugeeIssue
+		}
+                                available = {has_idea=归化难民 }
+		mutually_exclusive = {
+			focus = USA_DetainZone
+		}
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = USA_RefugeeIssue
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = USA_refugees
+				add_idea = USA_refugees5
+			}
+		}
+	}
+	#新的祖国#
+	focus = {
+		id = USA_NewHomeland
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_AcceptRefugees
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = USA_AcceptRefugees
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {#add_to_variable={卫士训练规模=120}
+			swap_ideas = {
+				remove_idea = USA_refugees5
+				add_idea = USA_refugees6
+			}
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	#建设动员#
+	focus = {
+		id = USA_ConstructionMobilization
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_NewHomeland
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = USA_NewHomeland
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = USA_refugees6
+				add_idea = USA_refugees7
+			}
+		}
+	}
+	
+	#美洲能源矿产开发计划#
+	focus = {
+		id = USA_ContinentResourcesDev
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_PeaceAboveElse
+		}
+		x = -0.5
+		y = 1
+		cost = 5
+		relative_position_id = USA_PeaceAboveElse
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 60
+				}
+			}
+			random_owned_state = {
+				add_resource = {
+					type = aluminium
+					amount = 60
+				}
+			}
+			random_owned_state = {
+				add_resource = {
+					type = tungsten
+					amount = 60
+				}
+			}
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 60
+				}
+			}
+		}
+	}
+	#页岩油开发#
+	focus = {
+		id = USA_ShaleOilProduction
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_ContinentResourcesDev
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = USA_ContinentResourcesDev
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+                                                add_ideas =USA_Adequate_fuel_for_civil_use
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 60
+				}
+			}
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 60
+				}
+			}
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 60
+				}
+			}
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 60
+				}
+			}
+		}
+	}
+	#亚马逊扩大计划#
+	focus = {
+		id = USA_AmazonResourcesProduction
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_ShaleOilProduction
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = USA_ShaleOilProduction
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 60
+				}
+			}
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 60
+				}
+			}
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 60
+				}
+			}
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 60
+				}
+			}
+		}
+	}
+####################    国际影响力国策   ######################
+	
+	#东京协议#
+	focus = {
+		id = "东京协议"
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = "亚太战略"
+		}
+		x = -3
+		y = 1
+		cost = 5
+		relative_position_id = "亚太战略"
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			JAP = {
+				country_event = {
+					id = mvlv_usa.1_1
+					days = 2
+				}
+			}
+		}
+	}
+	#修复美日关系#
+	focus = {
+		id = "修复美日关系"
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = "东京协议"
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = "东京协议"
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	#美日合作#
+	focus = {
+		id = "美日合作"
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = "修复美日关系"
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = "修复美日关系"
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	#东南亚联合投资#
+	focus = {
+		id = "东南亚联合投资"
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = "美日合作"
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = "美日合作"
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	#21世纪NATO会议#
+	focus = {
+		id = USA_NATOSummit
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_StrikeFirst
+		}
+		x = -1
+		y = 3
+		cost = 4
+		relative_position_id = USA_StrikeFirst
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {USA={army_experience =50    add_political_power = 50
+                                                   add_war_support = 0.1}
+                                       EUR={army_experience =50                add_political_power = 50
+                                                add_war_support = 0.1}
+		}
+	}
+	#战术协调#
+	focus = {
+		id = USA_TacticalCoordination
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_NATOSummit
+		}
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = USA_NATOSummit
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			army_experience = 100
+			#add_tech_bonus = {
+			#	name = land_doctrine
+			#	bonus = 1
+			#	uses = 2
+			#	category = armor
+			#}
+			EUR = {
+				army_experience = 100
+				#add_tech_bonus = {
+				#	name = land_doctrine
+				#	bonus = 1
+				#	uses = 2
+				#	category = armor
+				#}
+			}
+		}
+	}
+	#联合压制H12作战#
+	focus = {
+		id = USA_JointStrikeLyonHive
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_TacticalCoordination
+		}
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = USA_TacticalCoordination
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	#欧美非计划#
+	focus = {
+		id = USA_US_Euro_AfricaAlliance
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_NATOSummit
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = USA_NATOSummit
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {AFR={add_political_power = 50}
+                                               EUR={add_political_power = 50}
+			add_political_power = 100
+		}
+	}
+	#大洋航线#
+	focus = {
+		id = USA_AtlanticSupplyLine
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_US_Euro_AfricaAlliance
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = USA_US_Euro_AfricaAlliance
+		ai_will_do = {
+			factor = 1
+		}
+		available = { 788= { is_fully_controlled_by = UNI  } 
+                                                773 = { is_fully_controlled_by = AFR  } }  
+		completion_reward = {add_political_power = 100
+			788 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			773 = {
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	#南非#
+	focus = {
+		id = USA_SouthAfricaDevelopment
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_AtlanticSupplyLine
+		}
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = USA_AtlanticSupplyLine
+		ai_will_do = {
+			factor = 1
+		}
+		available = { 719 = { is_fully_controlled_by = AFR  } 
+                                                681 = { is_fully_controlled_by = AFR  } }  
+		completion_reward = {add_political_power = 100
+			719 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			681 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#黄金海岸#
+	focus = {
+		id = USA_WestAfricaDevelopment
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_AtlanticSupplyLine
+		}
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = USA_AtlanticSupplyLine
+		ai_will_do = {
+			factor = 1
+		}
+		available = { 558 = { is_fully_controlled_by = AFR  } 
+                                                776 = { is_fully_controlled_by = AFR }
+                                              777 = { is_fully_controlled_by = AFR  }
+                                               779 = { is_fully_controlled_by = AFR  }
+                                             298 = { is_fully_controlled_by = AFR  }
+                                                700 = { is_fully_controlled_by = AFR } } 
+		completion_reward = {add_political_power = 100
+			558 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			776 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			777 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			779 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			298 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			700 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#NATO非联军#
+	focus = {
+		id = USA_NATO_Africa_JointForces
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_SouthAfricaDevelopment
+		}
+		prerequisite = {
+			focus = USA_WestAfricaDevelopment
+		}
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = USA_SouthAfricaDevelopment
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	#美洲自由贸易条约#
+	focus = {
+		id = USA_AmericaFreeTradeTreaty
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_UntouchableHomefront
+		}
+		prerequisite = {
+			focus = USA_ContinentResourcesDev
+		}
+		x = 1
+		y = 3
+		cost = 5
+		relative_position_id = USA_UntouchableHomefront
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 200
+		}
+	}
+	#中美计划#
+	focus = {
+		id = USA_CentralAmericaDevelopment
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_AmericaFreeTradeTreaty
+		}
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = USA_AmericaFreeTradeTreaty
+		ai_will_do = {
+			factor = 10
+		}
+		available = { 277 = { is_fully_controlled_by = CEA  } 
+                                                315 = { is_fully_controlled_by = CEA  }
+                                              304= { is_fully_controlled_by = CEA  }
+                                               685 = { is_fully_controlled_by = CEA } }  
+		completion_reward = {
+			add_political_power = 100
+			277 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			315 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			304 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			685 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#投资中美#
+	focus = {
+		id = USA_InvestCentralAmerica
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_CentralAmericaDevelopment
+		}
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = USA_CentralAmericaDevelopment
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 100
+			CEA = {add_political_power = 100
+			}
+		}
+	}
+	#南美计划#
+	focus = {
+		id = USA_SouthAmericaDevelopment
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = USA_AmericaFreeTradeTreaty
+		}
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = USA_AmericaFreeTradeTreaty
+		ai_will_do = {
+			factor = 10
+		}
+		available = { 500 = { is_fully_controlled_by =SOA  } 
+                                                499 = { is_fully_controlled_by = SOA  }
+                                              510 = { is_fully_controlled_by = SOA }
+                                               279 = { is_fully_controlled_by = SOA  }}  
+		completion_reward = {
+			add_political_power = 100
+			500 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			499 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			510 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			279 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#投资南美#
+	focus = {
+		id = "USA_InvestSouthAmerica"
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = "USA_SouthAmericaDevelopment"
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = "USA_SouthAmericaDevelopment"
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			SOA = {
+				# country_event = {
+				# 	id = mvlv_usa.4_2
+				# 	days = 2
+				# }
+			}
+		}
+	}
+	#日本的合作者#
+	focus = {
+		id = "日本的合作者"
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = "亚太战略"
+		}
+		x = 3
+		y = 1
+		cost = 5
+		relative_position_id = "亚太战略"
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			JAP = {
+				# country_event = {
+				# 	id = mvlv_usa.4_2
+				# 	days = 2
+				# }
+			}
+		}
+	}
+	#跨太平洋的同盟#
+	focus = {
+		id = "跨太平洋的同盟"
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = "日本的合作者"
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = "日本的合作者"
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			JAP = {
+				# country_event = {
+				# 	id = mvlv_usa.4_2
+				# 	days = 2
+				# }
+			}
+		}
+	}
+	#亚太基地#
+	focus = {
+		id = "亚太基地"
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = "跨太平洋的同盟"
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = "跨太平洋的同盟"
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			JAP = {
+				# country_event = {
+				# 	id = mvlv_usa.4_2
+				# 	days = 2
+				# }
+			}
+		}
+	}
+	#引领东南亚#
+	focus = {
+		id = "引领东南亚"
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = "亚太基地"
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = "亚太基地"
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			JAP = {
+				# country_event = {
+				# 	id = mvlv_usa.4_2
+				# 	days = 2
+				# }
+			}
+		}
+	}
+	#亚太战略#
+	focus = {
+		id = "亚太战略"
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = "利用美国影响力"
+		}
+		x = 24
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			JAP = {
+				# country_event = {
+				# 	id = mvlv_usa.4_2
+				# 	days = 2
+				# }
+			}
+		}
+	}
+	#开发大东亚#
+	focus = {
+		id = "影响大东亚"
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = "亚太战略"
+		}
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = "亚太战略"
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			JAP = {
+				# country_event = {
+				# 	id = mvlv_usa.4_2
+				# 	days = 2
+				# }
+			}
+		}
+	}
+	#影响澳大利亚#
+	focus = {
+		id = "影响澳大利亚"
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = "亚太战略"
+		}
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = "亚太战略"
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			JAP = {
+				# country_event = {
+				# 	id = mvlv_usa.4_2
+				# 	days = 2
+				# }
+			}
+		}
+	}
+	#影响中国#
+	focus = {
+		id = "影响中国"
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = "亚太战略"
+		}
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = "亚太战略"
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			JAP = {
+				# country_event = {
+				# 	id = mvlv_usa.4_2
+				# 	days = 2
+				# }
+			}
+		}
+	}
+}

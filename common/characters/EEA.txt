@@ -1,0 +1,92 @@
+characters = {
+	EEA_unit_leader_1 = {
+		name = "格雷特尔·耶克伦"
+		portraits = {
+			army = {
+				large = GFX_格雷特尔耶克伦头像
+				small = "gfx/leaders/EEA/格雷特尔耶克伦小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				career_officer
+				harsh_leader
+				inflexible_strategist
+				commander_aptitude
+				tsf_officer
+				tsf_leader
+				tsf_commander
+			}
+			skill = 5
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	EEA_unit_leader_2 = {
+		name = "安妮特·霍森菲尔德"
+		portraits = {
+			army = {
+				large = GFX_安妮特霍森菲尔德头像
+				small = "gfx/leaders/EEA/安妮特霍森菲尔德小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				tsf_officer
+				tsf_leader
+			}
+			skill = 4
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	EEA_unit_leader_3 = {
+		name = "苏茜·扎普"
+		portraits = {
+			army = {
+				large = GFX_苏茜扎普头像
+				small = "gfx/leaders/EEA/苏茜扎普小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+				urban_assault_specialist
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	罗蕾莱舒瓦茨 = {
+		name = Lorelei_Schwarz
+		gender = female
+		portraits = {
+			army = {
+				large = GFX_罗蕾莱舒瓦茨头像
+				small = GFX_罗蕾莱舒瓦茨头像小图
+			}
+		}
+		corps_commander = {
+			# traits = {
+			# 	panzer_leader
+			# }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+}

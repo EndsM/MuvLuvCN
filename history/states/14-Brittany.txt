@@ -1,0 +1,40 @@
+
+state={
+	id=14
+	name="STATE_14"
+	manpower = 2396600
+	
+	state_category = city
+
+	history = { 1999.1.1 = { 
+			owner = H12			
+			remove_core_of = H12
+			add_core_of = EUR
+			remove_core_of = FRA
+		}
+		owner = FRA
+		victory_points = {
+			3552 1
+		}
+		victory_points = {
+			6536 5
+		}
+		victory_points = {
+			9495 1
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 5
+		}
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				dockyard = 5
+			}
+		}
+	}
+
+	provinces={
+		542 3552 3758 6536 6548 6572 9495 9510 9525 11508 
+	}
+}

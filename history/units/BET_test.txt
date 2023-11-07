@@ -1,0 +1,51 @@
+##### OOB #####
+units = {
+	division = {
+		location = 13218
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 13218
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}division = {
+		name = "兵士级師団"
+		location = 13218
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+}division = {
+		name = "兵士级師団"
+		location = 13218
+		division_template = "兵士级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+}division = {
+		name = "突击级師団"
+		location = 13218
+		division_template = "突击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+}division = {
+		name = "突击级師団"
+		location = 13218
+		division_template = "突击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+}division = {
+		name = "要击级師団"
+		location = 13218
+		division_template = "要击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+}division = {
+		name = "要击级師団"
+		location = 13218
+		division_template = "要击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+}
+}

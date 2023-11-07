@@ -1,0 +1,275 @@
+characters = {
+	SOV_units_leader_1 = {
+		name = "菲卡吉雅·拉托洛瓦"
+		portraits = {
+			army = {
+				large = GFX_菲卡吉雅拉托洛瓦头像
+				small = "gfx/leaders/SOV/菲卡吉雅拉托洛瓦小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				winter_specialist
+				armor_officer
+				commander_aptitude
+				tsf_officer
+				media_personality
+				war_hero
+				tsf_leader
+				tsf_commander
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	SOV_units_leader_2 = {
+		name = "克丽斯嘉·巴切诺娃"
+		portraits = {
+			army = {
+				large = GFX_克丽斯嘉巴切诺娃头像
+				small = "gfx/leaders/SOV/克丽斯嘉巴切诺娃小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				tsf_officer
+				trait_cautious
+				brilliant_strategist
+				tsf_leader
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	SOV_units_leader_3 = {
+		name = "玛缇卡·巴切诺娃"
+		portraits = {
+			army = {
+				large = GFX_玛缇卡巴切诺娃头像
+				small = "gfx/leaders/SOV/玛缇卡巴切诺娃小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				tsf_officer
+				politically_connected
+				tsf_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	SOV_units_leader_4 = {
+		name = "伊妮亚·谢斯切娜"
+		portraits = {
+			army = {
+				large = GFX_伊妮亚谢斯切娜头像
+				small = "gfx/leaders/SOV/伊妮亚谢斯切娜小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trickster
+				trait_cautious
+				career_officer
+				true_genius
+				tsf_officer
+				tsf_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	SOV_units_leader_5 = {
+		name = "娜塔莎·伊凡诺瓦"
+		portraits = {
+			army = {
+				large = GFX_娜塔莎伊凡诺瓦头像
+				small = "gfx/leaders/SOV/娜塔莎伊凡诺瓦小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				tsf_officer
+				tsf_leader
+				trait_reckless
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	SOV_units_leader_6 = {
+		name = "托妮娅·乌彭斯科纳"
+		portraits = {
+			army = {
+				large = GFX_托妮娅彭斯科纳头像
+				small = "gfx/leaders/SOV/托妮娅彭斯科纳小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				tsf_officer
+				trait_reckless
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	SOV_units_leader_7 = {
+		name = "格内欣"
+		portraits = {
+			army = {
+				large = GFX_格内欣头像
+				small = "gfx/leaders/SOV/格内欣小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				trait_cautious
+				trait_reckless
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	SOV_units_leader_8 = {
+		name = "洛戈夫斯基"
+		portraits = {
+			army = {
+				large = GFX_洛戈夫斯基头像
+				small = "gfx/leaders/SOV/洛戈夫斯基小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	SOV_units_leader_9 = {
+		name = "别良耶夫"
+		portraits = {
+			army = {
+				large = GFX_别良耶夫头像
+				small = "gfx/leaders/SOV/别良耶夫小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	SOV_units_leader_10 = {
+		name = "耶齐·桑德克"
+		portraits = {
+			army = {
+				large = GFX_耶齐桑德克头像
+				small = "gfx/leaders/SOV/耶齐桑德克小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				old_guard
+				politically_connected
+				inflexible_strategist
+				commander_aptitude
+				tsf_officer
+				tsf_leader
+				tsf_commander
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	SOV_units_leader_11 = {
+		name = "利特维年科"
+		portraits = {
+			army = {
+				large = GFX_利特维年科头像
+				small = "gfx/leaders/SOV/利特维年科小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				offensive_doctrine
+				brilliant_strategist
+				career_officer
+				infantry_officer
+				trait_reckless
+			}
+			skill = 8
+			attack_skill = 6
+			defense_skill = 7
+			planning_skill = 7
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	叶莲娜莫罗佐娃 = {
+		name = Yelena_Morozova
+		gender = female
+		portraits = {
+			army = {
+				large = GFX_叶莲娜莫罗佐娃头像
+				small = GFX_叶莲娜莫罗佐娃头像小图
+			}
+		}
+		corps_commander = {
+			# traits = {
+			# 	panzer_leader
+			# }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+}

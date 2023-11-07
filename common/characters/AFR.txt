@@ -1,0 +1,71 @@
+characters = {
+	AFR_units_leader_1 = {
+		name = "易卜拉欣·杜鲁"
+		portraits = {
+			army = {
+				large = GFX_易卜拉欣杜鲁头像
+				small = "gfx/leaders/AFR/易卜拉欣杜鲁小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				desert_fox
+				war_hero
+				inflexible_strategist
+				tsf_officer
+				commander_aptitude
+				tsf_leader
+				tsf_commander
+				organizer
+			}
+			skill = 7
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 6
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	AFR_units_leader_2 = {
+		name = "梅尔维纳·阿德巴尼"
+		portraits = {
+			army = {
+				large = GFX_梅尔维纳阿德巴尼头像
+				small = "gfx/leaders/AFR/梅尔维纳阿德巴尼小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				desert_fox
+				trickster
+				trait_engineer
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	AFR_units_leader_3 = {
+		name = "丽塔·卡纳莱斯"
+		portraits = {
+			army = {
+				large = GFX_丽塔卡纳莱斯头像
+				small = "gfx/leaders/AFR/丽塔卡纳莱斯小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				desert_fox
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+}

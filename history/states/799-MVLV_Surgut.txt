@@ -1,0 +1,43 @@
+
+state={
+	id=799
+	name="STATE_799"
+
+	history={
+		1999.1.1 = {
+			owner = H07
+			add_core_of = H07
+			victory_points = {
+				4817 100 
+			}
+			buildings = {
+				hive = 1
+				radar_station = 1
+				4817 = {
+					bunker = 2
+
+				}
+
+			}
+
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SOV
+		victory_points = {
+			4817 10 
+		}
+
+	}
+
+	provinces={
+		1726 1768 1784 1812 4771 4817 7685 7738 7837 7867 10592 10692 12542 12574 12602 12639 12672 
+	}
+	manpower=35000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,521 @@
+state_category_construction_development = {
+	state_category_construction_switch_on = {
+		icon = isolation
+		cost = 0
+		on_map_mode = map_only
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				is_capital = yes
+				is_core_of = ROOT
+				is_fully_controlled_by = ROOT
+			}
+			NOT = { has_country_flag = state_category_construction_switch_on }
+		}
+		visible = {
+			FROM = {
+				is_core_of = ROOT
+				is_fully_controlled_by = ROOT
+				is_capital = yes
+			}
+			NOT = { has_country_flag = state_category_construction_switch_on }
+		}
+		complete_effect = {
+			if = { 
+				limit = {
+					any_state = {
+						OR = {
+							has_state_category = zero_island
+							has_state_category = one_island
+							has_state_category = zero
+							has_state_category = one
+							#has_state_category = wasteland
+							has_state_category = two 
+							has_state_category = three
+							has_state_category = four
+							has_state_category = five
+							has_state_category = six
+							has_state_category = seven
+							has_state_category = eight
+							has_state_category = nine
+							has_state_category = ten
+							has_state_category = eleven
+							has_state_category = twelve
+						}
+					}
+					NOT = { has_global_flag = state_category_construction_switch_on_kr }
+				}
+				set_global_flag = state_category_construction_switch_on_kr
+			}
+			set_country_flag = state_category_construction_switch_on
+		}
+	}
+	state_category_construction_switch_off = {
+		icon = undisturbed_isolation
+		cost = 0
+		on_map_mode = map_only
+		state_target = yes
+		target_trigger = {
+			has_country_flag = state_category_construction_switch_on
+			FROM = {
+				is_core_of = ROOT
+				is_fully_controlled_by = ROOT
+				is_capital = yes
+			}
+		}
+		visible = {
+			has_country_flag = state_category_construction_switch_on
+			FROM = {
+				is_core_of = ROOT
+				is_fully_controlled_by = ROOT
+				is_capital = yes
+			}
+		}
+		complete_effect = {
+			clr_country_flag = state_category_construction_switch_on
+		}
+	}
+	state_category_construction_start = {
+		icon = generic_construction
+		cost = 10
+		days_remove = 100
+		fire_only_once = no
+		allowed = { NOT = { has_global_flag = state_category_construction_switch_on_kr } }
+		available = {
+          	num_of_civilian_factories_available_for_projects > 5
+		}
+		visible = {
+			has_country_flag = state_category_construction_switch_on
+			NOT = { has_global_flag = state_category_construction_switch_on_kr }
+			FROM = {
+				is_core_of = ROOT
+				is_fully_controlled_by = ROOT
+				OR = {
+					has_state_category = enclave
+					has_state_category = wasteland
+					has_state_category = tiny_island
+					has_state_category = small_island
+					has_state_category = pastoral 
+					has_state_category = rural 
+					has_state_category = town
+					has_state_category = large_town 
+					has_state_category = city
+					has_state_category = large_city
+					has_state_category = metropolis 
+				}
+				NOT = { has_state_flag = state_category_construction_auto_start_flag }
+			}
+      	}
+		#on_map_mode = map_and_decisions_view 
+		on_map_mode = map_only
+		state_target = yes
+		target_array = core_states
+		target_trigger = {
+			NOT = { has_global_flag = state_category_construction_switch_on_kr }
+			FROM = {
+				is_core_of = ROOT
+				is_fully_controlled_by = ROOT
+				OR = {
+					has_state_category = enclave
+					has_state_category = wasteland
+					has_state_category = tiny_island
+					has_state_category = small_island
+					has_state_category = pastoral 
+					has_state_category = rural 
+					has_state_category = town
+					has_state_category = large_town 
+					has_state_category = city
+					has_state_category = large_city
+					has_state_category = metropolis 
+				}
+				NOT = { has_state_flag = state_category_construction_auto_start_flag }
+			}
+		}		
+		ai_will_do = {
+            factor = 0
+        }
+		modifier = {
+            civilian_factory_use = 5
+        }
+		complete_effect = {
+			FROM = {
+				set_state_flag = state_category_construction_start_flag
+			}
+		}
+		remove_effect = { 
+			FROM = {
+				state_category_construction_start_scripted_effects = yes
+				clr_state_flag = state_category_construction_start_flag
+			}			
+		}
+	}
+	state_category_construction_auto = {
+		icon = generic_operation
+		cost = 0
+		fire_only_once = no
+		allowed = { always = yes }
+		available = {
+          	num_of_civilian_factories_available_for_projects > 5
+		}
+		visible = {
+			is_debug = yes
+			has_country_flag = state_category_construction_switch_on
+			FROM = {
+				is_core_of = ROOT
+				is_fully_controlled_by = ROOT
+				OR = {
+					has_state_category = enclave
+					has_state_category = wasteland
+					has_state_category = tiny_island
+					has_state_category = small_island
+					has_state_category = pastoral 
+					has_state_category = rural 
+					has_state_category = town
+					has_state_category = large_town 
+					has_state_category = city
+					has_state_category = large_city
+					has_state_category = metropolis 
+				}
+				NOT = { has_state_flag = state_category_construction_auto_start_flag }
+				NOT = { has_state_flag = state_category_construction_start_flag }
+			}
+        }
+		#on_map_mode = map_and_decisions_view 
+		on_map_mode = map_only
+		state_target = yes
+		target_array = core_states
+		target_trigger = {
+			FROM = {
+				is_core_of = ROOT
+				is_fully_controlled_by = ROOT
+				NOT = { has_state_flag = state_category_construction_auto_start_flag }
+				OR = {
+					has_state_category = enclave
+					has_state_category = wasteland
+					has_state_category = tiny_island
+					has_state_category = small_island
+					has_state_category = pastoral 
+					has_state_category = rural 
+					has_state_category = town
+					has_state_category = large_town 
+					has_state_category = city
+					has_state_category = large_city
+					has_state_category = metropolis 
+				}
+			}
+		}		
+		ai_will_do = {
+            factor = 0
+        }
+		complete_effect = {
+			FROM = {
+				set_state_flag = state_category_construction_auto_start_flag
+				add_dynamic_modifier = {
+					modifier = state_category_construction_auto_civilian_factory_dm
+				}
+			}
+			add_to_array = {
+				array = statecategoryconstruction.auto
+				value = PERV
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = state_category_construction_auto_start_country_flag }
+				}
+				set_country_flag = state_category_construction_auto_start_country_flag
+			}
+        }
+	}
+	state_category_construction_auto_start = {
+		icon = generic_operation
+		days_mission_timeout = 10
+		is_good = yes
+		available = {
+			always = no
+		}
+		#days_re_enable = 1
+		#fire_only_once = yes
+		on_map_mode = map_only
+		state_target = yes
+		target_array = core_states
+		activation = {
+			has_country_flag = state_category_construction_auto_start_country_flag
+		}
+		target_trigger = {
+			FROM = {
+				AND = {
+					NOT = {
+						has_state_category = megalopolis
+					}
+					has_dynamic_modifier = {
+						modifier = state_category_construction_auto_civilian_factory_dm
+					}
+				}
+			}
+		}
+		cancel_trigger = {
+			FROM = {
+				AND = {
+					NOT = { 
+						has_dynamic_modifier = {
+							modifier = state_category_construction_auto_civilian_factory_dm
+						} 
+					}
+					has_state_category = megalopolis
+				}
+			}
+		}
+		cancel_effect = {
+			
+		}
+		timeout_effect = {
+			FROM = {
+				state_category_construction_start_scripted_effects = yes
+			}
+		}
+	}
+	state_category_construction_start_kr = {
+		icon = generic_construction
+		cost = 10
+		days_remove = 100
+		fire_only_once = no
+		available = {
+          	num_of_civilian_factories_available_for_projects > 5
+		}
+		visible = {
+			has_country_flag = state_category_construction_switch_on
+			has_global_flag = state_category_construction_switch_on_kr
+			FROM = {
+				is_core_of = ROOT
+				is_fully_controlled_by = ROOT
+				OR = {
+					has_state_category = zero_island
+					has_state_category = one_island
+					has_state_category = wasteland
+					has_state_category = zero
+					has_state_category = one
+					has_state_category = two 
+					has_state_category = three
+					has_state_category = four
+					has_state_category = five
+					has_state_category = six
+					has_state_category = seven
+					has_state_category = eight
+					has_state_category = nine
+					has_state_category = ten
+					has_state_category = eleven
+				}
+				NOT = { has_state_flag = state_category_construction_auto_start_flag }
+			}
+      	}
+		#on_map_mode = map_and_decisions_view 
+		on_map_mode = map_only
+		state_target = yes
+		target_array = core_states
+		target_trigger = {
+			has_country_flag = state_category_construction_switch_on
+			has_global_flag = state_category_construction_switch_on_kr
+			FROM = {
+				is_core_of = ROOT
+				is_fully_controlled_by = ROOT
+				OR = {
+					has_state_category = zero_island
+					has_state_category = one_island
+					has_state_category = wasteland
+					has_state_category = zero
+					has_state_category = one
+					has_state_category = two 
+					has_state_category = three
+					has_state_category = four
+					has_state_category = five
+					has_state_category = six
+					has_state_category = seven
+					has_state_category = eight
+					has_state_category = nine
+					has_state_category = ten
+					has_state_category = eleven
+					has_state_category = twelve
+				}
+				NOT = { has_state_flag = state_category_construction_auto_start_flag }
+			}
+		}		
+		ai_will_do = {
+            factor = 0
+        }
+		modifier = {
+            civilian_factory_use = 5
+        }
+		complete_effect = {
+			FROM = {
+				set_state_flag = state_category_construction_start_flag
+			}
+		}
+		remove_effect = { 
+			FROM = {
+					if = {
+						limit = {
+							OR = {
+							has_state_category = zero_island
+							has_state_category = wasteland
+							has_state_category = zero
+						}
+						}
+					clr_state_flag = state_category_construction_start_flag
+					set_state_category = one
+					}
+					else_if = {
+						limit = {
+							OR = {
+						has_state_category = one_island
+						has_state_category = one
+					}
+				}
+				clr_state_flag = state_category_construction_start_flag
+					set_state_category = two 
+				}
+
+				else_if = {
+						limit = {
+						has_state_category = two 
+					}
+					clr_state_flag = state_category_construction_start_flag
+					set_state_category = three
+				}
+
+				else_if = {
+						limit = {
+						has_state_category = three
+				}
+				clr_state_flag = state_category_construction_start_flag
+					set_state_category = four
+				}
+
+				else_if = {
+						limit = {
+						has_state_category = four
+					}
+					clr_state_flag = state_category_construction_start_flag
+					set_state_category = five
+				}
+
+				else_if = {
+						limit = {	
+						has_state_category = five
+					}
+					clr_state_flag = state_category_construction_start_flag
+					set_state_category = six
+				}
+
+				else_if = {
+						limit = {
+						has_state_category = six
+					}
+					clr_state_flag = state_category_construction_start_flag
+					set_state_category = seven
+				}
+
+				else_if = {
+						limit = {
+						has_state_category = seven
+					}
+					clr_state_flag = state_category_construction_start_flag
+					set_state_category = eight
+				}	
+				else_if = {
+					limit = {
+						has_state_category = eight
+					}
+				clr_state_flag = state_category_construction_start_flag
+				set_state_category = nine
+				}
+				else_if = {
+					limit = {
+						has_state_category = nine
+					}
+				clr_state_flag = state_category_construction_start_flag
+				set_state_category = ten
+				}
+				else_if = {
+					limit = {
+					has_state_category = ten
+				}
+				clr_state_flag = state_category_construction_start_flag
+				set_state_category = eleven
+				}
+				else_if = {
+					limit = {
+					has_state_category = eleven
+				}
+				clr_state_flag = state_category_construction_start_flag
+				set_state_category = twelve
+				}
+			}			
+		}
+	}
+	MVLV_reclamation_decision = {
+	
+		icon = generic_construction
+		
+		allowed = { always = yes }
+		available = {
+			is_in_faction_with = UNI
+		}
+		visible = {
+			NOT = { is_in_faction_with = BET }
+			FROM = {
+				is_fully_controlled_by = ROOT
+				controller = {
+					PREV = {
+						impassable = no
+						is_fully_controlled_by = PREV
+						has_state_category = betaland
+					}
+					is_in_faction_with = ROOT
+				}
+			}
+
+		}
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		target_trigger = {
+			FROM = {
+				is_controlled_by = ROOT
+				controller = {
+					PREV = {
+						impassable = no
+						is_fully_controlled_by = PREV
+						has_state_category = betaland
+					}
+					is_in_faction_with = ROOT
+				}
+			}
+		}
+
+		cost = FROM.MVLV_decision_cost?10
+		fire_only_once = no
+		cancel_if_not_visible = yes
+		days_remove = 100
+		days_re_enable = 10
+		complete_effect = {
+			
+		}
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			FROM = {
+				add_extra_state_shared_building_slots = 5
+				if = {
+					limit = { infrastructure < 8 }
+					add_building_construction = {
+					    type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+				set_state_category = pastoral 
+			}
+		}
+		ai_will_do = { base = 100 }
+	}
+}

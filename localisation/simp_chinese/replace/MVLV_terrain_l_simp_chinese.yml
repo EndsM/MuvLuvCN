@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+ hive_mainhall:0 "储藏室-主大厅"
+ hive_mainhall_desc:0 "位于主纵坑最深处的巨大大厅状空间，此处有可称为巢穴心脏的反应炉。"
+ hive_gateclass:0 "门级"
+ hive_gateclass_desc:0 "相当于隔墙。" 
+ hive_drift:0 "横坑"
+ hive_drift_desc:0 "巢穴的通道。"
+ hive_gate:0 "门"
+ hive_gate_desc:0 "巢穴的入口，在战术机突入时使用。"
+ hive_super_mainhall:0 "原初巢穴-主大厅"
+ hive_super_mainhall_desc:0 "位于原初巢穴主纵坑最深处的巨大大厅状空间，一般认为此处有【一号目标】。"

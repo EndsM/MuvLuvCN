@@ -1,0 +1,31 @@
+﻿units = {
+	fleet = {
+		name = "北方舰队"
+		naval_base = 12674
+		task_force = {				
+			name = "第一战队"
+			location = 12674
+			ship = { name = "VM カール・マルクス" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+			ship = { name = "SOV アドミサル・ラザレフ" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Aoba Class" } } }
+			ship = { name = "SOV ムルマンスク" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Aoba Class" } } }
+			ship = { name = "SOV アレクサンドル・ネフスキー" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Aoba Class" } } }
+			ship = { name = "SOV オクチャブリスカヤ・レヴォリューツィヤ" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Aoba Class" } } }
+		}
+		task_force = {
+			name = "第二战队"
+			location = 12674
+			ship = { name = "SOV アドミラル・ゾズーリャ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "SOV ウラジオストク" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "SOV アドミラル・ドロースト" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "SOV セヴァストポリ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "SOV クロンシュタット" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "SOV アドミラル・ナヒモフ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "SOV アドミラル・マカロフ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "SOV ハバロフスク" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "SOV アドミラル・イサチェンコフ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "SOV マールシャル・チモシェンコ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "SOV アドミサル・イサーコフ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "SOV アドミラル・ユマーチェフ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+		}
+	}
+}

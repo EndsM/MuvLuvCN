@@ -1,0 +1,88 @@
+technologies = {
+	###XG###
+	MVLV_XG_basic_concept_research = {
+		#解放される装備#
+		#コスト、開始年#
+		research_cost = 100
+		start_year = 2000
+		#完了したらどうなるか#
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_xg"
+			}
+		}
+		#どれに繋がるか#
+		path = {
+			leads_to_tech = MVLV_xg_2nd
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_xg_1st
+			research_cost_coeff = 1
+		}
+		#フォルダ、カテゴリ#
+		folder = {
+			name = MVLV_xg_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		categories = {
+			MVLV_xg_tech
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	MVLV_xg_2nd = {
+		#解放される装備#
+		enable_equipments = {
+			xg_equipment_0
+		}
+		research_cost = 300
+		start_year = 2001
+		path = {
+			leads_to_tech = MVLV_Assault_gun_improvement
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = MVLV_xg_folder
+			position = {
+				x = 2
+				y = 2
+			}
+		}
+		categories = {
+			MVLV_xg_tech
+		}
+		show_effect_as_desc = no
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	MVLV_xg_1st = {
+		enable_equipments = {
+			xg_equipment_1
+		}
+		research_cost = 400
+		start_year = 2001
+		path = {
+			leads_to_tech = MVLV_Assault_gun_improvement
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = MVLV_xg_folder
+			position = {
+				x = -2
+				y = 2
+			}
+		}
+		categories = {
+			MVLV_xg_tech
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

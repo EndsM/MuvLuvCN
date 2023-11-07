@@ -1,0 +1,25 @@
+
+state={
+	id=453
+	name="STATE_453"
+	manpower = 15359
+	
+	state_category = wasteland
+	
+	
+	history = { 1999.1.1 = { 
+			owner = H09			
+			remove_core_of = H09		}
+		owner = AFR
+		buildings = {
+			infrastructure = 2
+		}
+
+		add_core_of = AFR
+		add_core_of = ISR
+	}
+
+	provinces={
+		1112 1155 4161 9947 10002 10099 11922 11979 12073 
+	}
+}

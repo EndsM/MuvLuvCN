@@ -1,0 +1,101 @@
+technologies = {
+	fighter = {
+		enable_equipments = {
+			MVLV_AL_shell_equipment_1
+		}
+		path = {
+			leads_to_tech = CAS1
+			research_cost_coeff = 1
+		}
+		research_cost = 5
+		start_year = 1933
+		allow = {
+			always = no
+		}
+		folder = {
+			name = air_techs_folder
+		}
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CAS1 = {
+		enable_equipments = {
+			CAS_equipment_1
+		}
+		# only from country file or event!###
+		allow = {
+			always = no
+		}
+		path = {
+			leads_to_tech = CAS2
+			research_cost_coeff = 1
+		}
+		research_cost = 5
+		start_year = 1946
+		folder = {
+			name = air_techs_folder
+		}
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	CAS2 = {
+		allow = {
+			always = yes
+		}
+		enable_equipments = {
+			CAS_equipment_2
+		}
+		research_cost = 5
+		start_year = 1950
+		folder = {
+			name = air_techs_folder
+			position = {
+				x = -2
+				y = 4
+			}
+		}
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	###航空ツリー###
+	strategic_bomber1 = {
+		######
+		allow = {
+			always = yes
+		}
+		enable_equipments = {
+			strat_bomber_equipment_1
+		}
+		research_cost = 12
+		start_year = 1998
+		folder = {
+			name = air_techs_folder
+		}
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

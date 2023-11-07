@@ -1,0 +1,30 @@
+
+state={
+	id=143
+	name="STATE_143"
+	manpower = 280271
+	
+	state_category = rural
+
+	history = {
+		1999.1.1 = { 
+			owner = H08
+			remove_core_of = H08
+			add_core_of = EUR
+			remove_core_of = NOR
+		}
+		owner = NOR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			3022 3
+		}
+		add_core_of = NOR
+	}
+
+	provinces={
+		21 107 115 3018 3022 3098 3183 6038 6041 6116 6118 6173 9069 9132 9139 11118 11173 
+	}
+}

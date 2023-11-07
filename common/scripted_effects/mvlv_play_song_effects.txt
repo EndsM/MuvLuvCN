@@ -1,0 +1,16 @@
+play_song_Alternative_01_effect = {
+	#未来への咆哮(GAME size)
+	hidden_effect = { play_song = "Alternative_01" } 
+}
+play_song_Alternative_14_effect = {
+	#迫撃
+	hidden_effect = { play_song = "Alternative_14" } 
+}
+play_song_Alternative_28_effect = {
+	#強襲上陸
+	hidden_effect = { play_song = "Alternative_28" } 
+}
+play_song_Alternative_41_effect = {
+	#蹂躙
+	hidden_effect = { play_song = "Alternative_41" } 
+}

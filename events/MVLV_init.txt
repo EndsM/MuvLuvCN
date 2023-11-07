@@ -1,0 +1,10 @@
+add_namespace = mvlv_init
+country_event = {
+	id = mvlv_init.0
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		初始化 = yes
+	}
+}

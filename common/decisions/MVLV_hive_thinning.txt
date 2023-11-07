@@ -1,0 +1,78 @@
+operations = {
+  thinning_operation = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			FROM = {
+				is_in_faction_with = BET
+				has_war_with = ROOT
+				is_neighbor_of = ROOT
+				NOT = { has_idea = hive_thinning_state }
+			}
+			has_manpower > 250000
+		}
+
+		visible = {
+		}
+
+		target_trigger = {
+			FROM = {
+				NOT = { is_in_faction_with = ROOT }
+				is_in_faction_with = BET
+				has_war_with = ROOT
+				is_neighbor_of = ROOT
+			}
+		}
+
+		days_remove = 30
+		days_re_enable = 120
+
+		fire_only_once = no
+
+		cost = var:hive_thinning_state_cost?50
+
+		modifier = {
+		}
+
+		complete_effect = {
+			FROM = {
+				add_timed_idea = {
+					idea = hive_thinning_state
+					days = 50
+				}
+			}
+			add_manpower = -75000
+			add_stability = -0.05
+			add_war_support = -0.05
+		}
+		
+		remove_effect = {
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10
+				date > 1999.1.20
+				has_war_support > 0.50
+				has_stability > 0.25
+			}
+
+			modifier = {
+				add = 10
+				date > 2000.1.1
+			}
+
+			modifier = {
+				add = 10
+				date > 2001.1.1
+			}
+
+			modifier = {
+				add = 20
+				num_divisions > 100
+			}
+		}
+	}
+}

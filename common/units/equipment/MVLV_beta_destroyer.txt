@@ -1,0 +1,52 @@
+equipments = {
+
+	beta_destroyer = {
+		year = 1936
+	
+		is_archetype = yes
+		picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype		
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 1.0
+		# reliability = 0.8
+		maximum_speed = 10
+
+		#Defensive Abilities
+		defense = 10
+		breakthrough = 71
+		hardness = 0.9
+		armor_value = 100
+
+		#Offensive Abilities
+		soft_attack = 38
+		hard_attack = 58
+		ap_attack = 105
+		air_attack = 0
+
+		#Space taken in convoy
+		# lend_lease_cost = 1
+		lend_lease_cost = 100000
+		
+		build_cost_ic = 5.0
+		resources = {
+			}
+		
+	}
+
+
+	beta_destroyer_0 = {
+		year = 1918
+
+		archetype = beta_destroyer
+		priority = 20
+		visual_level = 0
+		is_convertable = yes
+	}
+}

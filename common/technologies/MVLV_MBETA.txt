@@ -1,0 +1,35 @@
+technologies = {
+	# BETA ONLY!
+	MVLV_mbeta_tec = {
+
+		research_cost = 1
+
+		# only from country file or event!###
+		allow = {
+			always = no
+		}
+
+#		folder = {
+#			name = MVLV_tsf_folder
+#		}
+
+		enable_equipments = {
+                        mbeta_trimaran_0
+                        mbeta_trev_0
+			mbeta_mwarrior_0
+			mbeta_mtank_0
+			mbeta_mgrappler_0
+			mbeta_mdestroyer_0
+			mbeta_mfort_0
+		}
+
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_bet"
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+	}
+}

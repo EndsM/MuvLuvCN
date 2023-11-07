@@ -1,0 +1,36 @@
+state=
+{
+	id=74
+	name="STATE_74"
+	manpower = 820000
+	
+	state_category = rural
+	
+	
+	history=
+	{ 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			add_core_of = EEA
+			remove_core_of = CZE
+		}
+		
+		victory_points = {
+			3583 5
+		}
+		owner = CZE
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = CZE
+
+		1938.9.30 = {
+			owner = GER
+			controller = GER
+		}
+	}
+	provinces= {
+		421 3414 3583 6485
+ 	}
+}

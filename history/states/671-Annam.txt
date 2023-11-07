@@ -1,0 +1,57 @@
+
+state={
+	id=671
+	name="STATE_671"
+	manpower = 11528000
+	
+	state_category = town
+	
+	resources={
+		chromium=6 # was: 8
+		tungsten=27 # was: 38
+	}
+
+
+	history = { 1999.1.1 = { 
+			owner = GEU		
+			remove_core_of = H17
+			
+			H16 = {
+				set_province_controller = 4119
+				set_province_controller = 12048
+				set_province_controller = 1073
+				set_province_controller = 12075
+				set_province_controller = 10075
+				set_province_controller = 12319
+				set_province_controller = 7518
+				set_province_controller = 12065
+				set_province_controller = 7015
+				set_province_controller = 1157
+				set_province_controller = 9948
+				set_province_controller = 7093
+				set_province_controller = 12008
+			}
+		}
+		add_core_of = GEU
+		owner = GEU
+		victory_points = {
+			4075 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+                        4255 = {
+				naval_base = 3
+                        }
+                        4397 = {
+				naval_base = 3
+                        }
+		}
+
+	}
+
+	provinces={
+		1073 1157 1185 1248 1302 4075 4119 4255 4379 4397 4529 7015 7093 7229 7280 7518 9948 9988 10016 10075 10103 10129 10137 10180 10309 11909 11936 12008 12048 12065 12075 12297 12319 
+	}
+}

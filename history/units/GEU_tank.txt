@@ -1,0 +1,87 @@
+##### OOB #####
+units = {
+	division = {
+		location = 12234
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 12234
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 12234
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 12234
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 12234
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 12234
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 12234
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 12234
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 12234
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+                                force_equipment_variants = { 
+			MVLV_TSF_classis_2_heavy_normal = { 
+				owner = "GEU" 
+				creator = UNI
+				version_name = "F-15E打击鹰"
+			}  }
+	}
+	division = {
+		location = 12234
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+                                force_equipment_variants = { 
+			MVLV_TSF_classis_2_heavy_normal = { 
+				owner = "GEU" 
+				creator = UNI
+				version_name = "F-15E打击鹰"
+			} }
+	}
+	division = {
+		location = 12234
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+                                force_equipment_variants = { 
+			MVLV_TSF_classis_2_heavy_normal = { 
+				owner = "GEU" 
+				creator = UNI
+				version_name = "F-15E打击鹰"
+			} }
+	}
+	division = {
+		location = 12234
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+                                force_equipment_variants = { 
+			MVLV_TSF_classis_2_heavy_normal = { 
+				owner = "GEU" 
+				creator = UNI
+				version_name = "F-15E打击鹰"
+			}  }
+	}
+}

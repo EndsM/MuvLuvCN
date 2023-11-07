@@ -1,0 +1,433 @@
+ideas = {
+	hidden_ideas = {
+		USA_United_America_South_America = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+		}
+		USA_United_America_Central_America = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+		}
+	}
+	country = {
+		#default national spirits
+		USA_country = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = -0.25
+				consumer_goods_factor = 0.1
+				special_forces_cap = 0.03
+			}
+		}
+		USA_country2 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = -0.2
+				consumer_goods_factor = 0.5
+				special_forces_cap = 0.03
+			}
+		}
+		USA_country3 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = -0.15
+				special_forces_cap = 0.03
+			}
+		}
+		USA_refugees = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = -0.45
+				weekly_manpower = 1500
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.15
+			}
+		}
+		#特别城区#
+		USA_refugees2 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = -0.3
+				#war_support_factor = 0.10
+				weekly_manpower = 1500
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.15
+			}
+		}
+		#难民服务协议#
+		USA_refugees3 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = -0.2
+				weekly_manpower = 3500
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.15
+			}
+		}
+		#特别战争工厂#
+		USA_refugees4 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.2
+				weekly_manpower = 3500
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.15
+				production_speed_arms_factory_factor = 0.15
+			}
+		}
+		#扩大公民范围#
+		USA_refugees5 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				research_speed_factor = 0.1
+				political_power_gain = 0.05
+				stability_factor = -0.15
+				weekly_manpower = 500
+				monthly_population = 0.2
+				local_resources_factor = 0.05
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+		#新的祖国#
+		USA_refugees6 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				research_speed_factor = 0.1
+				political_power_gain = 0.05
+				stability_factor = -0.05
+				weekly_manpower = 500
+				monthly_population = 0.35
+				local_resources_factor = 0.1
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_infrastructure_factor = 0.15
+				production_speed_arms_factory_factor = 0.15
+			}
+		}
+		#建设动员#
+		USA_refugees7 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				research_speed_factor = 0.1
+				political_power_gain = 0.05
+				monthly_population = 0.5
+				local_resources_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.15
+				global_building_slots_factor = 0.2
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		#超级强权#
+		USA_superpower = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_factory = 0.05
+				research_speed_factor = 0.05
+				political_power_gain = 0.25
+			}
+		}
+		#曙光计划-开始#
+		USA_dawn_plan_start1 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}
+		#曙光计划-开始2#
+		USA_dawn_plan_start2 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.1
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		#曙光计划-开始3#
+		USA_dawn_plan_start3 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.15
+				production_speed_buildings_factor = 0.15
+				consumer_goods_factor = 0.05
+			}
+		}
+		#曙光计划-发展1，变化#
+		USA_dawn_plan_advance1_change = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.15
+				production_speed_buildings_factor = 0.15
+				consumer_goods_factor = 0.05
+			}
+		}
+		#曙光计划-发展1，生产武器#
+		USA_dawn_plan_advance1_weapon = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.15
+				production_speed_buildings_factor = 0.15
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.25
+				roduction_factory_start_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.02
+			}
+		}
+		#曙光计划-发展1，扩大工厂#
+		USA_dawn_plan_advance1_factory = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.15
+				production_speed_buildings_factor = 0.25
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		#曙光计划-发展2，生产武器#
+		USA_dawn_plan_advance2_weapon = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.15
+				production_speed_buildings_factor = 0.15
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.25
+				research_speed_factor = 0.05
+				production_factory_start_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.02
+			}
+		}
+		#曙光计划-发展2，扩大工厂#
+		USA_dawn_plan_advance2_factory = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.15
+				production_speed_buildings_factor = 0.25
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.05
+				research_speed_factor = 0.05
+			}
+		}
+		#曙光计划-结束#
+		USA_dawn_plan_over = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.15
+				production_speed_buildings_factor = 0.25
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.25
+				research_speed_factor = 0.05
+			}
+		}
+		#扩大太空军#
+		"扩大太空军" = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.02
+				political_power_gain = 0.15
+				# special_forces_cap = 0.05}
+			}
+			#equipment_bonus = {
+			#		transport_plane_equipment = {
+			#			build_cost_ic = -0.10
+			#			maximum_speed = 0.05
+			#                                                 instant = yes
+			#		}
+			#}
+		}
+		#拉格朗日计划#
+		"拉格朗日计划-启动" = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.15
+			}
+			equipment_bonus = {
+				transport_plane_equipment = {
+					build_cost_ic = -0.1
+					maximum_speed = 0.05
+					instant = yes
+				}
+			}
+		}
+		"拉格朗日计划-船坞建设" = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.15
+			}
+			equipment_bonus = {
+				transport_plane_equipment = {
+					build_cost_ic = -0.2
+					maximum_speed = 0.05
+					instant = yes
+				}
+			}
+		}
+		"拉格朗日计划-进行中" = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.15
+			}
+			equipment_bonus = {
+				transport_plane_equipment = {
+					build_cost_ic = -0.3
+					maximum_speed = 0.05
+					instant = yes
+				}
+			}
+		}
+		"拉格朗日计划-远航准备" = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 0.5
+			}
+			#equipment_bonus = {
+			#		transport_plane_equipment = {
+			#			build_cost_ic = -0.30
+			#			maximum_speed = 0.05
+			#                                              instant = yes
+			#		}
+			#}
+		}
+		#民用燃油充足#
+		USA_Adequate_fuel_for_civil_use = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.05
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.3
+				consumer_goods_factor = -0.05
+			}
+		}
+		#美洲能源矿产开发计划#
+		USA_American_energy_and_mineral_development_plan = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				max_command_power = 10
+				army_org_Factor = 0.05
+				experience_gain_army = 0.2
+				max_planning = 0.1
+				planning_speed = 0.25
+			}
+		}
+		#信息化军队建设#
+		USA_Informatization_army_construction = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				max_command_power = 100
+				experience_gain_army = 0.2
+				max_planning = 0.15
+				planning_speed = 0.25
+			}
+		}
+		#无人化协助单元#
+		USA_Unmanned_assistance_unit = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				max_command_power = 100
+				army_org_Factor = 0.15
+				max_planning = 0.1
+				planning_speed = 0.25
+			}
+		}
+		"安抚留在地球的人们" = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.2
+				stability_weekly = 0.01
+				war_support_weekly = 0.01
+			}
+		}
+		隔离难民 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				war_support_weekly = 0.005
+				stability_weekly = -0.005
+			}
+		}
+		归化难民 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_weekly = 0.005
+			}
+		}
+	}
+}

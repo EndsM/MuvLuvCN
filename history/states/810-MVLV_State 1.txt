@@ -1,0 +1,24 @@
+
+state={
+	id=810
+	name="STATE_810"
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_extra_state_shared_building_slots = 3
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 10
+			1823 = { bunker = 5 } }
+		victory_points = { 1839 1 }
+	}
+
+	provinces={
+		1823 1839 4744 13220 
+	}
+	manpower=25157
+	buildings_max_level_factor=1
+	state_category="large_city"
+}

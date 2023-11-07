@@ -1,0 +1,12 @@
+#add_namespace = mvlv_al_drop
+#country_event = {
+#	id = mvlv_al_drop.0
+#	desc = mvlv_al_drop.0.d
+#	title = mvlv_al_drop.0.t
+#	picture = GFX_mvlv_al_drop
+#	is_triggered_only = yes
+#	hidden = no
+#	option = {
+#		name = mvlv_al_drop.0.a
+#	}
+#}

@@ -1,0 +1,6 @@
+spriteTypes = {
+    SpriteType = {
+		name = "GFX_idea_kasumi"
+		textureFile = "gfx/interface/ideas/idea_mikhail_kalinin.dds"
+	}
+}

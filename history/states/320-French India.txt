@@ -1,0 +1,21 @@
+
+state={
+	id=320
+	name="STATE_320"
+	manpower = 286410
+
+	state_category = enclave
+
+	history = { 1999.1.1 = { 
+			owner = H13
+			remove_core_of = H13
+			add_core_of = GEU
+		}
+		owner = FRA
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces={ 10149 }
+}

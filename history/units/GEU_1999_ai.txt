@@ -1,0 +1,158 @@
+﻿units = {
+	division = {
+		location = 4312
+		division_template = "重装师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		location = 4312
+		division_template = "重装师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		location = 4312
+		division_template = "重装师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		location = 4312
+		division_template = "重装师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		location = 4312
+		division_template = "重装师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		location = 4312
+		division_template = "重装师"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		location = 7381
+		division_template = "战术机联队"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			MVLV_TSF_classis_2_light_normal= { 
+				owner = "USA" 
+				creator = USA
+				version_name = "F-16A战隼"
+			} 
+		}
+	}
+	
+	division = {
+		location = 7381
+		division_template = "战术机联队"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			MVLV_TSF_classis_2_light_normal= { 
+				owner = "USA" 
+				creator = USA
+				version_name = "F-16A战隼"
+			} 
+		}
+	}
+	
+	division = {
+		location = 7381
+		division_template = "战术机联队"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			MVLV_TSF_classis_2_light_normal= { 
+				owner = "USA" 
+				creator = USA
+				version_name = "F-16A战隼"
+			} 
+		}
+	}
+	
+	division = {
+		location = 7381
+		division_template = "战术机联队"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			MVLV_TSF_classis_2_light_normal= { 
+				owner = "USA" 
+				creator = USA
+				version_name = "F-16A战隼"
+			} 
+		}
+	}
+	
+	division = {
+		location = 7381
+		division_template = "战术机联队"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			MVLV_TSF_classis_2_light_normal= { 
+				owner = "USA" 
+				creator = USA
+				version_name = "F-16A战隼"
+			} 
+		}
+	}
+	
+	division = {
+		name = 战术机大队
+		location = 7381
+		division_template = "战术机大队"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			MVLV_TSF_classis_2_light_normal= { 
+				owner = "USA" 
+				creator = USA
+				version_name = "F-16A战隼"
+			} 
+		}
+	}
+	
+	division = {
+		name = 战术机大队
+		location = 7381
+		division_template = "战术机大队"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			MVLV_TSF_classis_2_light_normal= { 
+				owner = "USA" 
+				creator = USA
+				version_name = "F-16A战隼"
+			} 
+		}
+	}
+	
+	division = {
+		name = 战术机大队
+		location = 7381
+		division_template = "战术机大队"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			MVLV_TSF_classis_2_light_normal= { 
+				owner = "USA" 
+				creator = USA
+				version_name = "F-16A战隼"
+			} 
+		}
+	}
+}

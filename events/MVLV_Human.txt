@@ -1,0 +1,74 @@
+﻿add_namespace = mvlv_human
+
+#____________________________________________________________
+#用途
+#人類全体向けイベント
+#
+#id:mvlv_human.1 effect:近隣のBETA陣営が攻勢中の防戦AI
+#id:mvlv_human.2 effect:mvlv_human.1のフラグをクリア
+#
+#____________________________________________________________
+
+
+#近くのBETA陣営が攻勢していれば防衛AIへ移行する
+#____________________________________________________________
+# country_event = {
+# 	id = mvlv_human.1
+# 	desc = mvlv_human.1.d
+# 	title = mvlv_human.1.t
+# 	picture = BETA_event_1.dds
+# 	fire_only_once = no
+# 	hidden = yes
+	
+# 	trigger = {
+# 		is_ai = yes
+# 		is_in_faction_with = UNI
+# 		date > 1999.1.30
+
+# 		any_neighbor_country = {
+# 			is_in_faction_with = BET
+# 			has_war_with = ROOT
+# 			has_idea = mvlv_aggressive_beta
+# 		}
+# 	}
+	
+# 	mean_time_to_happen = {
+# 		days = 10
+# 	}
+	
+# 	option = {
+# 		add_ideas = { mvlv_defence_human }
+# 	}
+# }
+
+#mvlv_human.1のフラグをクリア
+#____________________________________________________________
+# country_event = {
+# 	id = mvlv_human.2
+# 	desc = mvlv_human.2.d
+# 	title = mvlv_human.2.t
+# 	picture = BETA_event_1.dds
+# 	fire_only_once = no
+# 	hidden = yes
+	
+# 	trigger = {
+# 		is_ai = yes
+# 		is_in_faction_with = UNI
+# 		date > 1999.1.30
+
+# 		has_idea = mvlv_defence_human
+# 		any_neighbor_country = {
+# 			is_in_faction_with = BET
+# 			has_war_with = ROOT
+# 			NOT = { has_idea = mvlv_aggressive_beta }
+# 		}
+# 	}
+	
+# 	mean_time_to_happen = {
+# 		days = 20
+# 	}
+	
+# 	option = {
+# 		remove_ideas = { mvlv_defence_human }
+# 	}
+# }

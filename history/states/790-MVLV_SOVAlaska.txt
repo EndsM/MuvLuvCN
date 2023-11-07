@@ -1,0 +1,39 @@
+state = {
+	id = 790
+	name = "STATE_790"
+	manpower = 65000000
+	state_category = megalopolis
+	resources={
+		oil = 40
+		steel = 8
+		tungsten = 4
+		chromium = 8
+	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = USA
+		add_extra_state_shared_building_slots = 2
+		victory_points = {
+			 13241 20
+		}
+		victory_points = {
+			13238 50
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 30
+			industrial_complex = 20
+			13238 = {
+				naval_base = 5
+			}
+            13241 = {
+                coastal_bunker = 5
+            }
+		}
+	}
+	
+	provinces = {
+		7855 13227 13228 13231 13232 13235 13237 13238 13239 13240 13241 13242 13243 13245 13246 13247
+ 	}
+}

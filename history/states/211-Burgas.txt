@@ -1,0 +1,33 @@
+
+state={
+	id=211
+	name="STATE_211"
+	manpower = 1575499
+
+
+	state_category = town
+
+	history = { 1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
+			add_core_of = EEA
+			remove_core_of = BUL
+		}
+		owner = BUL
+		victory_points = {
+			9783 5
+		}
+		victory_points = {
+			9902 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		649 6967 9612 9769 9783 9888 9902 9919 
+	}
+}

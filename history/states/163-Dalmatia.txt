@@ -1,0 +1,22 @@
+state=
+{
+	id=163
+	name="STATE_163"  #zara
+	manpower = 18000
+	
+	state_category = enclave
+	
+	history = { 1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
+			add_core_of = EUR
+		}
+		owner = ITA
+		buildings = {
+			infrastructure = 5
+		}
+	} 
+	provinces={	
+		3943 
+	}
+}

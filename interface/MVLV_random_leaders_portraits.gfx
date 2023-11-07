@@ -1,0 +1,155 @@
+spriteTypes = {	
+	#通用将领
+	SpriteType = {
+		name = "GFX_女卫士头像"
+		textureFile = "gfx/leaders/通用/女卫士.dds"
+	}
+	SpriteType = {
+		name = "GFX_女卫士头像_small"
+		textureFile = "gfx/leaders/通用/女卫士小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_白毛1头像"
+		textureFile = "gfx/leaders/通用/白毛1.dds"
+	}
+	SpriteType = {
+		name = "GFX_白毛1头像_small"
+		textureFile = "gfx/leaders/通用/白毛1小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_白毛2头像"
+		textureFile = "gfx/leaders/通用/白毛2.dds"
+	}
+	SpriteType = {
+		name = "GFX_白毛2头像_small"
+		textureFile = "gfx/leaders/通用/白毛2小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_白毛3头像"
+		textureFile = "gfx/leaders/通用/白毛3.dds"
+	}
+	SpriteType = {
+		name = "GFX_白毛3头像_small"
+		textureFile = "gfx/leaders/通用/白毛3小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_白毛4头像"
+		textureFile = "gfx/leaders/通用/白毛4.dds"
+	}
+	SpriteType = {
+		name = "GFX_白毛4头像_small"
+		textureFile = "gfx/leaders/通用/白毛4小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_白毛5头像"
+		textureFile = "gfx/leaders/通用/白毛5.dds"
+	}
+	SpriteType = {
+		name = "GFX_白毛5头像_small"
+		textureFile = "gfx/leaders/通用/白毛5小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_黑毛1头像"
+		textureFile = "gfx/leaders/通用/黑毛1.dds"
+	}
+	SpriteType = {
+		name = "GFX_黑毛1头像_small"
+		textureFile = "gfx/leaders/通用/黑毛1小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_黑毛2头像"
+		textureFile = "gfx/leaders/通用/黑毛2.dds"
+	}
+	SpriteType = {
+		name = "GFX_黑毛2头像_small"
+		textureFile = "gfx/leaders/通用/黑毛2小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_黄毛1头像"
+		textureFile = "gfx/leaders/通用/黄毛1.dds"
+	}
+	SpriteType = {
+		name = "GFX_黄毛1头像_small"
+		textureFile = "gfx/leaders/通用/黄毛1小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_黄毛2头像"
+		textureFile = "gfx/leaders/通用/黄毛2.dds"
+	}
+	SpriteType = {
+		name = "GFX_黄毛2头像_small"
+		textureFile = "gfx/leaders/通用/黄毛2小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_黄毛3头像"
+		textureFile = "gfx/leaders/通用/黄毛3.dds"
+	}
+	SpriteType = {
+		name = "GFX_黄毛3头像_small"
+		textureFile = "gfx/leaders/通用/黄毛3小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_黄毛4头像"
+		textureFile = "gfx/leaders/通用/黄毛4.dds"
+	}
+	SpriteType = {
+		name = "GFX_黄毛4头像_small"
+		textureFile = "gfx/leaders/通用/黄毛4小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_黄毛5头像"
+		textureFile = "gfx/leaders/通用/黄毛5.dds"
+	}
+	SpriteType = {
+		name = "GFX_黄毛5头像_small"
+		textureFile = "gfx/leaders/通用/黄毛5小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_黄毛6头像"
+		textureFile = "gfx/leaders/通用/黄毛6.dds"
+	}
+	SpriteType = {
+		name = "GFX_黄毛6头像_small"
+		textureFile = "gfx/leaders/通用/黄毛6小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_蓝毛1头像"
+		textureFile = "gfx/leaders/通用/蓝毛1.dds"
+	}
+	SpriteType = {
+		name = "GFX_蓝毛1头像_small"
+		textureFile = "gfx/leaders/通用/蓝毛1小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_绿毛1头像"
+		textureFile = "gfx/leaders/通用/绿毛1.dds"
+	}
+	SpriteType = {
+		name = "GFX_绿毛1头像_small"
+		textureFile = "gfx/leaders/通用/绿毛1小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_绿毛2头像"
+		textureFile = "gfx/leaders/通用/绿毛2.dds"
+	}
+	SpriteType = {
+		name = "GFX_绿毛2头像_small"
+		textureFile = "gfx/leaders/通用/绿毛2小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_银毛1头像"
+		textureFile = "gfx/leaders/通用/银毛1.dds"
+	}
+	SpriteType = {
+		name = "GFX_银毛1头像_small"
+		textureFile = "gfx/leaders/通用/银毛1小图.dds"
+	}
+	SpriteType = {
+		name = "GFX_银毛2头像"
+		textureFile = "gfx/leaders/通用/银毛2.dds"
+	}
+	SpriteType = {
+		name = "GFX_银毛2头像_small"
+		textureFile = "gfx/leaders/通用/银毛2小图.dds"
+	}
+}

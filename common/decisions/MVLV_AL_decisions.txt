@@ -1,0 +1,240 @@
+# al_categories = {
+# 	al_drop = {
+# 		icon = infiltrate_state
+# 		state_target = yes
+# 		on_map_mode = map_only
+# 	    fire_only_once = no
+# 		target_trigger = {
+# 			FROM = {
+# 				or = {
+# 					and = {
+# 						not = {
+# 							or = {
+# 								is_fully_controlled_by = BET
+# 								is_fully_controlled_by = H02
+# 								is_fully_controlled_by = H03
+# 								is_fully_controlled_by = H04
+# 								is_fully_controlled_by = H05
+# 								is_fully_controlled_by = H06
+# 								is_fully_controlled_by = H07
+# 								is_fully_controlled_by = H08
+# 								is_fully_controlled_by = H09
+# 								is_fully_controlled_by = H10
+# 								is_fully_controlled_by = H11
+# 								is_fully_controlled_by = H12
+# 								is_fully_controlled_by = H13
+# 								is_fully_controlled_by = H14
+# 								is_fully_controlled_by = H15
+# 								is_fully_controlled_by = H16
+# 								is_fully_controlled_by = H17
+# 								is_fully_controlled_by = H18
+# 								is_fully_controlled_by = H19
+# 								is_fully_controlled_by = H20
+# 								is_fully_controlled_by = H21
+# 								is_fully_controlled_by = H23
+# 								is_fully_controlled_by = H25
+# 								is_fully_controlled_by = H26
+# 							}
+# 						}
+# 						is_coastal = yes
+# 					}
+# 					num_owned_neighbour_states = {
+# 						owner = AFR
+# 						count > 0
+# 					}
+# 					num_owned_neighbour_states = {
+# 						owner = CAN
+# 						count > 0
+# 					}
+# 					num_owned_neighbour_states = {
+# 						owner = CEA
+# 						count > 0
+# 					}
+# 					num_owned_neighbour_states = {
+# 						owner = EEA
+# 						count > 0
+# 					}
+# 					num_owned_neighbour_states = {
+# 						owner = EUR
+# 						count > 0
+# 					}
+# 					num_owned_neighbour_states = {
+# 						owner = GEU
+# 						count > 0
+# 					}
+# 					num_owned_neighbour_states = {
+# 						owner = JAP
+# 						count > 0
+# 					}
+# 					num_owned_neighbour_states = {
+# 						owner = SOA
+# 						count > 0
+# 					}
+# 					num_owned_neighbour_states = {
+# 						owner = SOV
+# 						count > 0
+# 					}
+# 					num_owned_neighbour_states = {
+# 						owner = UNI
+# 						count > 0
+# 					}
+# 					num_owned_neighbour_states = {
+# 						owner = USA
+# 						count > 0
+# 					}
+# 					is_island_state = yes
+# 				}
+# 			}
+# 		}
+# 		available = {
+# 			check_variable = {
+# 				num_equipment@MVLV_AL_shell_1>10000
+# 			}
+# 		}
+# 		visible = {
+# 		}
+# 		days_remove = 7
+# 		modifier = {
+# 		}
+# 		complete_effect = {
+# 			# ROOT = {
+# 			# 	add_equipment_to_stockpile = {
+# 			# 		type = MVLV_S11
+# 			# 		amount = -1
+# 			# 	}
+# 			# }
+# 			FROM = {
+# 				add_province_modifier = {
+# 					static_modifiers = { AL_drop_modifier }
+# 					province = {
+# 						all_provinces = yes
+# 					}
+# 				}
+# 				save_event_target_as = AL_drop_state
+# 			}
+# 			country_event = { id = mvlv_al_drop.0 days = 7 }
+# 			ROOT = {
+# 				add_equipment_to_stockpile = {
+# 					type = MVLV_AL_shell_1
+# 					amount = -10000
+# 				}
+# 			}
+# 		}
+# 		remove_effect = {
+# 			FROM = {
+# 				remove_province_modifier = {
+# 					static_modifiers = { AL_drop_modifier }
+# 					province = {
+# 						all_provinces = yes
+# 					}
+# 				}
+# 			}
+# 			# damage_units = {
+# 			# 	state = THIS
+# 			# 	org_damage = 10
+# 			# 	str_damage = 500
+# 			# 	ratio = no
+# 			# }
+# 		}
+# 		# ai_will_do = {
+# 		# 	base = 0
+# 		# }
+# 	}
+# }
+
+# # map_categories = {
+# # 	ANC_coring_slow = {
+# # 		icon = infiltrate_state
+# # 		state_target = yes
+# # 		on_map_mode = map_only
+# # 	    fire_only_once = no
+# # 		target_trigger = {
+# # 			FROM = {
+# # 				not = {
+# # 					or = {
+# # 						is_fully_controlled_by = BET
+# # 						is_fully_controlled_by = H02
+# # 						is_fully_controlled_by = H03
+# # 						is_fully_controlled_by = H04
+# # 						is_fully_controlled_by = H05
+# # 						is_fully_controlled_by = H06
+# # 						is_fully_controlled_by = H07
+# # 						is_fully_controlled_by = H08
+# # 						is_fully_controlled_by = H09
+# # 						is_fully_controlled_by = H10
+# # 						is_fully_controlled_by = H11
+# # 						is_fully_controlled_by = H12
+# # 						is_fully_controlled_by = H13
+# # 						is_fully_controlled_by = H14
+# # 						is_fully_controlled_by = H15
+# # 						is_fully_controlled_by = H16
+# # 						is_fully_controlled_by = H17
+# # 						is_fully_controlled_by = H18
+# # 						is_fully_controlled_by = H19
+# # 						is_fully_controlled_by = H20
+# # 						is_fully_controlled_by = H21
+# # 						is_fully_controlled_by = H23
+# # 						is_fully_controlled_by = H25
+# # 						is_fully_controlled_by = H26
+# # 					}
+# # 				}
+# # 			}
+# # 		}
+# # 		available = {
+# # 		}
+# # 		visible = {
+# # 		}
+# # 		days_remove = 0
+# # 		modifier = {
+# # 			# consumer_goods_factor = 0.1
+# # 			# political_power_factor = -0.25
+# # 			# production_speed_buildings_factor = -0.4
+# # 		}
+# # 		complete_effect = {
+# # 			ROOT = {
+# # 				add_equipment_to_stockpile = {
+# # 					type = MVLV_S11
+# # 					amount = -1
+# # 				}
+# # 			}
+# # 			damage_units = {
+# # 				state = FROM
+# # 				org_damage = 10
+# # 				str_damage = 50
+# # 				ratio = no
+# # 				limit = { always = yes }
+# # 			}
+# # 			FROM={
+# # 				remove_building = {
+# # 					type = arms_factory
+# # 					level = 1
+# # 				}
+# # 				remove_building = {
+# # 					type = industrial_complex
+# # 					level = 1
+# # 				}
+# # 				remove_building = {
+# # 					type = infrastructure
+# # 					level = 1
+# # 				}
+# # 				# add_building_construction = {
+# # 				# 	type = industrial_complex
+# # 				# 	level = -1
+# # 				# 	instant_build = yes
+# # 				# }
+# # 			}
+# # 		}
+# # 		remove_effect = {
+# # 			# damage_units = {
+# # 			# 	state = THIS
+# # 			# 	org_damage = 10
+# # 			# 	str_damage = 500
+# # 			# 	ratio = no
+# # 			# }
+# # 		}
+# # 		ai_will_do = {
+# # 			base = 0
+# # 		}
+# # 	}
+# # }
+

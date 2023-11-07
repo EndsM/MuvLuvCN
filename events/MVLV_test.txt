@@ -1,0 +1,29 @@
+add_namespace = mvlv_test
+country_event = {
+	id = mvlv_test.0
+	desc = mvlv_test.0.d
+	title = mvlv_test.0.t
+	picture = GFX_94式不知火
+	is_triggered_only = yes
+	# hidden = no
+	option = {
+		name = mvlv_test.0.a
+		# add_equipment_to_stockpile = {
+		# 	type = MVLV_TSF_classis_1_light
+		# 	amount = 100
+		# 	# variant_name = "F-5自由战士"
+		# 	producer = UNI
+		# }
+		# add_equipment_to_stockpile = {
+		# 	type = MVLV_TSF_classis_1_light
+		# 	amount = 100
+		# 	variant_name = "F-5自由战士"
+		# 	producer = UNI
+		# }
+		# recruit_character = USA_units_leader_1
+		# set_country_flag = 测试
+		# USA_units_leader_1 = {
+		# 	set_character_flag = 阿尔弗雷德沃肯解锁
+		# }
+	}	
+}

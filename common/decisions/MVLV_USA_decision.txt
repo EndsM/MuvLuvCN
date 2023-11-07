@@ -1,0 +1,2151 @@
+
+USA_dawn_plan_categories = {
+	
+	#曙光计划-开始2#
+	USA_dawn_plan_start2 = {
+		icon = generic_prepare_civil_war
+		available = {
+			num_of_civilian_factories_available_for_projects > 10
+		}
+		activation = {
+			has_completed_focus = "曙光计划"
+		}
+		visible = {
+			has_idea = USA_dawn_plan_start1
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = USA_dawn_plan_start1
+				add_idea = USA_dawn_plan_start2
+			}
+		}
+	}
+	#曙光计划-开始3#
+	USA_dawn_plan_start3 = {
+		icon = generic_prepare_civil_war
+		available = {
+			num_of_civilian_factories_available_for_projects > 10
+		}
+		activation = {
+			has_completed_focus = "曙光计划"
+		}
+		visible = {
+			has_idea = USA_dawn_plan_start2
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = USA_dawn_plan_start2
+				add_idea = USA_dawn_plan_start3
+			}
+		}
+	}
+	#曙光计划-发展1，生产武器#
+	USA_dawn_plan_advance1_weapon = {
+		icon = generic_prepare_civil_war
+		available = {
+			num_of_civilian_factories_available_for_projects > 10
+			not = {
+				has_idea = USA_dawn_plan_advance1_change
+			}
+		}
+		activation = {
+			has_completed_focus = "曙光计划"
+		}
+		visible = {
+			has_idea = USA_dawn_plan_start3
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 10
+		}
+		complete_effect = {
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = USA_dawn_plan_start3
+					add_idea = USA_dawn_plan_advance1_change
+				}
+			}
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = USA_dawn_plan_advance1_change
+				add_idea = USA_dawn_plan_advance1_weapon
+			}
+		}
+	}
+	#曙光计划-发展1，扩大工厂#
+	USA_dawn_plan_advance1_factory = {
+		icon = generic_prepare_civil_war
+		available = {
+			has_idea = USA_dawn_plan_start3
+			num_of_civilian_factories_available_for_projects > 10
+			not = {
+				has_idea = USA_dawn_plan_advance1_change
+			}
+		}
+		activation = {
+			has_completed_focus = "曙光计划"
+		}
+		visible = {
+			has_idea = USA_dawn_plan_start3
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 10
+		}
+		complete_effect = {
+		}
+		complete_effect = {
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = USA_dawn_plan_start3
+					add_idea = USA_dawn_plan_advance1_change
+				}
+			}
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = USA_dawn_plan_advance1_change
+				add_idea = USA_dawn_plan_advance1_factory
+			}
+		}
+	}
+	#曙光计划-发展2，生产武器#
+	USA_dawn_plan_advance2_weapon = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_idea = USA_dawn_plan_advance1_weapon
+		}
+		activation = {
+			has_completed_focus = "曙光计划"
+		}
+		available = {
+			has_idea = USA_dawn_plan_advance1_weapon
+			num_of_civilian_factories_available_for_projects > 10
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = USA_dawn_plan_advance1_weapon
+				add_idea = USA_dawn_plan_advance2_weapon
+			}
+		}
+	}
+	#曙光计划-发展2，扩大工厂#
+	USA_dawn_plan_advance2_factory = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_idea = USA_dawn_plan_advance1_factory
+		}
+		activation = {
+			has_completed_focus = "曙光计划"
+		}
+		available = {
+			has_idea = USA_dawn_plan_advance1_factory
+			num_of_civilian_factories_available_for_projects > 10
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = USA_dawn_plan_advance1_factory
+				add_idea = USA_dawn_plan_advance2_factory
+			}
+		}
+	}
+	#曙光计划-结束#
+	USA_dawn_plan_over = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_advance2_weapon
+			}
+		}
+		activation = {
+			has_completed_focus = "曙光计划"
+		}
+		available = {
+			or = {
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_advance2_weapon
+			}
+			num_of_civilian_factories_available_for_projects > 10
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			if
+			{
+				limit = {
+					has_idea = USA_dawn_plan_advance2_factory
+				}
+				swap_ideas = {
+					remove_idea = USA_dawn_plan_advance2_factory
+					add_idea = USA_dawn_plan_over
+				}
+			}
+			if
+			{
+				limit = {
+					has_idea = USA_dawn_plan_advance2_weapon
+				}
+				swap_ideas = {
+					remove_idea = USA_dawn_plan_advance2_weapon
+					add_idea = USA_dawn_plan_over
+				}
+			}
+		}
+	}
+	USA_357 = {
+		icon = generic_prepare_civil_war
+		highlight_state_targets = {
+			state = 357
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 357
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			357 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = aluminium
+					amount = 6
+				}
+			}
+		}
+	}
+	USA_359 = {
+		icon = generic_prepare_civil_war
+		highlight_state_targets = {
+			state = 359
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 359
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			359 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = aluminium
+					amount = 6
+				}
+			}
+		}
+	}
+	USA_359_2 = {
+		icon = generic_prepare_civil_war
+		highlight_state_targets = {
+			state = 359
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 359
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			359 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 6
+				}
+			}
+		}
+	}
+	USA_359_3 = {
+		icon = generic_prepare_civil_war
+		highlight_state_targets = {
+			state = 359
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 359
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			359 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 6
+				}
+			}
+		}
+	}
+	USA_361 = {
+		icon = generic_prepare_civil_war
+		highlight_state_targets = {
+			state = 361
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 7
+			controls_state = 361
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 8
+		}
+		remove_effect = {
+			361 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+		}
+	}
+	USA_386 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_start2
+				has_idea = USA_dawn_plan_start3
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 386
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 386
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			386 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = aluminium
+					amount = 3
+				}
+			}
+		}
+	}
+	USA_386_2 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_start2
+				has_idea = USA_dawn_plan_start3
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 386
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 386
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			386 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 3
+				}
+			}
+		}
+	}
+	USA_385 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_start2
+				has_idea = USA_dawn_plan_start3
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 385
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 5
+			controls_state = 385
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 6
+		}
+		remove_effect = {
+			385 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 3
+				}
+			}
+		}
+	}
+	USA_387 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_start2
+				has_idea = USA_dawn_plan_start3
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 387
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 5
+			controls_state = 387
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 6
+		}
+		remove_effect = {
+			387 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 3
+				}
+			}
+		}
+	}
+	USA_379 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_start2
+				has_idea = USA_dawn_plan_start3
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 379
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 5
+			controls_state = 379
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 6
+		}
+		remove_effect = {
+			379 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_379 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_start2
+				has_idea = USA_dawn_plan_start3
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 379
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 5
+			controls_state = 379
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 6
+		}
+		remove_effect = {
+			379 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_375 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_start3
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 375
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 9
+			controls_state = 375
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			375 = {
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+				add_resource = {
+					type = oil
+					amount = 15
+				}
+			}
+		}
+	}
+	USA_374 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_start3
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 374
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 374
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			374 = {
+				add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_resource = {
+					type = oil
+					amount = 15
+				}
+			}
+		}
+	}
+	USA_374_2 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_start3
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 374
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 374
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			375 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = oil
+					amount = 25
+				}
+			}
+		}
+	}
+	USA_376 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_start3
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 375
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 375
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			375 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+		}
+	}
+	USA_377 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_start3
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 377
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 377
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			377 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = oil
+					amount = 15
+				}
+			}
+		}
+	}
+	USA_361 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 361
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 361
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			361 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_resource = {
+					type = aluminium
+					amount = 8
+				}
+			}
+		}
+	}
+	USA_362 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 362
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 362
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			362 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_resource = {
+					type = aluminium
+					amount = 8
+				}
+			}
+		}
+	}
+	USA_363 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 363
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 363
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			363 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_resource = {
+					type = aluminium
+					amount = 8
+				}
+			}
+		}
+	}
+	USA_364 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 364
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 364
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			364 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_resource = {
+					type = aluminium
+					amount = 8
+				}
+			}
+		}
+	}
+	USA_365 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 365
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 365
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			365 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_resource = {
+					type = aluminium
+					amount = 8
+				}
+			}
+		}
+	}
+	USA_366 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance1_change
+				has_idea = USA_dawn_plan_advance1_weapon
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance1_factory
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 366
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 366
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			366 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_resource = {
+					type = aluminium
+					amount = 8
+				}
+			}
+		}
+	}
+	USA_369 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 369
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 369
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			369 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_368 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 368
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 368
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			368 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_367 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 367
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 367
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			367 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_370 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 370
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 370
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			370 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_371 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 371
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 371
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			371 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_371_2 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 371
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 371
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			371 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_372 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 372
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 372
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			372 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_373 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 373
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 373
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			373 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_392 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance2_weapon
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_over
+			}
+		}
+		highlight_state_targets = {
+			state = 392
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 4
+			controls_state = 392
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 25
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			392 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_389 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_idea = USA_dawn_plan_over
+		}
+		highlight_state_targets = {
+			state = 389
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 15
+			controls_state = 389
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 16
+		}
+		remove_effect = {
+			389 = {
+				add_extra_state_shared_building_slots = 20
+				add_building_construction = {
+					type = arms_factory
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_390 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_idea = USA_dawn_plan_over
+		}
+		highlight_state_targets = {
+			state = 390
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 8
+			controls_state = 390
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 9
+		}
+		remove_effect = {
+			390 = {
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_384 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_idea = USA_dawn_plan_over
+		}
+		highlight_state_targets = {
+			state = 384
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 8
+			controls_state = 384
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 9
+		}
+		remove_effect = {
+			384 = {
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_383 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_idea = USA_dawn_plan_over
+		}
+		highlight_state_targets = {
+			state = 383
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 8
+			controls_state = 383
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 9
+		}
+		remove_effect = {
+			383 = {
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_382 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_idea = USA_dawn_plan_over
+		}
+		highlight_state_targets = {
+			state = 382
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 8
+			controls_state = 382
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 9
+		}
+		remove_effect = {
+			382 = {
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_380 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_idea = USA_dawn_plan_over
+		}
+		highlight_state_targets = {
+			state = 380
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 8
+			controls_state = 380
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 9
+		}
+		remove_effect = {
+			380 = {
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_388 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_idea = USA_dawn_plan_over
+		}
+		highlight_state_targets = {
+			state = 388
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 8
+			controls_state = 388
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 9
+		}
+		remove_effect = {
+			388 = {
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	USA_381 = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_idea = USA_dawn_plan_over
+		}
+		highlight_state_targets = {
+			state = 381
+		}
+		available = {
+			num_of_civilian_factories_available_for_projects > 8
+			controls_state = 381
+		}
+		ai_will_do = {
+			factor = 200
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 9
+		}
+		remove_effect = {
+			381 = {
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 7
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 40
+				}
+				add_resource = {
+					type = aluminium
+					amount = 40
+				}
+				add_resource = {
+					type = oil
+					amount = 40
+				}
+				add_resource = {
+					type = rubber
+					amount = 10
+				}
+			}
+		}
+	}
+}
+#拉格朗日计划#
+USA_Lagrange_Plan_categories= {
+	移民舰船坞材料准备（至少库存10轨道驱逐舰）={	
+                                icon = generic_prepare_civil_war
+		available = {date<2001.1.1
+			check_variable = {num_equipment@transport_plane_equipment_1>9}
+		}
+		activation = {
+			has_completed_focus = "拉格朗日计划"
+		}
+		visible = {
+			has_idea = "拉格朗日计划-启动"
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		fire_only_once = yes
+		cost = 0
+		days_remove = 100
+                                complete_effect = {USA={country_event=mvlv_usa.3}}
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = "拉格朗日计划-启动"
+				add_idea = "拉格朗日计划-船坞建设"
+			}
+		}
+              }
+	移民舰船坞建设（至少库存20轨道驱逐舰）={	
+                                icon = generic_prepare_civil_war
+		available = {date<2001.1.1
+			 check_variable = {num_equipment@transport_plane_equipment_1>19}
+		}
+		activation = {
+			has_completed_focus = "拉格朗日计划"
+		}
+		visible = {
+			has_idea = "拉格朗日计划-船坞建设"
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		fire_only_once = yes
+		cost = 0
+		days_remove =100
+                                complete_effect = {USA={country_event=mvlv_usa.4}}
+		modifier = {
+			consumer_goods_factor = 0.15
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = "拉格朗日计划-船坞建设"
+				add_idea = "拉格朗日计划-进行中"
+			}
+		}
+                }
+	移民舰队制造中（至少库存30轨道驱逐舰）={	
+                                icon = generic_prepare_civil_war
+		available = {#date<2001.1.1
+			 check_variable = {num_equipment@transport_plane_equipment_1>29}
+		}
+		activation = {
+			has_completed_focus = "拉格朗日计划"
+		}
+		visible = {
+			has_idea =  "拉格朗日计划-进行中"
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		fire_only_once = yes
+		cost = 0
+		days_remove = 400
+                                complete_effect = {USA={country_event=mvlv_usa.5}}
+		modifier = {
+			consumer_goods_factor = 0.2
+		}
+		remove_effect = {          USA={country_event=mvlv_usa.6}
+			swap_ideas = {	remove_idea = "拉格朗日计划-进行中"
+				add_idea = "拉格朗日计划-远航准备"}
+		}
+                }
+	开始转移人员（至少库存200轨道驱逐舰）={	
+                               icon = generic_prepare_civil_war
+		available = {date>2001.12.31
+			 check_variable = {num_equipment@transport_plane_equipment_1>199}
+		}
+		activation = {
+			has_completed_focus = "拉格朗日计划"
+		}
+		visible = {
+			has_idea =  "拉格朗日计划-远航准备"
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		fire_only_once = yes
+		cost = 0
+		days_remove =30
+		complete_effect = {USA={country_event=mvlv_usa.100}
+                                                            UNI={country_event=mvlv_usa.100}
+			add_equipment_to_stockpile = {type = transport_plane_equipment
+				amount = -200}
+			add_stability = -0.4
+			add_war_support = -0.4
+		}
+		remove_effect = {
+			remove_ideas = "拉格朗日计划-远航准备"
+
+                                                USA={country_event=mvlv_generic.100    
+			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
+			add_equipment_to_stockpile = {type = transport_plane_equipment
+				amount = -200}
+                                                }
+                                                UNI={country_event=mvlv_generic.100      
+				add_stability = -0.2
+				add_war_support = -0.2
+			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
+                                                }
+                                                SOV={country_event=mvlv_generic.100    
+				add_stability = -0.2
+				add_war_support = -0.2
+			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
+                                                }
+                                                CHI={country_event=mvlv_generic.100    
+				add_stability = -0.2
+				add_war_support = -0.2
+			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
+                                                }
+                                                JAP={country_event=mvlv_generic.100    
+				add_stability = -0.2
+				add_war_support = -0.2
+			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
+                                                }
+                                                EUR={country_event=mvlv_generic.100    
+				add_stability = -0.2
+				add_war_support = -0.2
+			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
+                                                }
+                                                AFR={country_event=mvlv_generic.100    
+				add_stability = -0.2
+				add_war_support = -0.2
+			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
+                                                }
+                                                EEA={country_event=mvlv_generic.100    
+				add_stability = -0.2
+				add_war_support = -0.2
+			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
+                                                }
+                                                GEU={country_event=mvlv_generic.100    
+				add_stability = -0.2
+				add_war_support = -0.2
+			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
+                                                }
+                                                OSE={country_event=mvlv_generic.100    
+				add_stability = -0.2
+				add_war_support = -0.2
+			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
+                                                }
+                                                SOA={country_event=mvlv_generic.100    
+				add_stability = -0.2
+				add_war_support = -0.2
+			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
+                                                }
+                                                CEA={country_event=mvlv_generic.100    
+				add_stability = -0.2
+				add_war_support = -0.2
+			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
+                                                } 
+                                                CAN={country_event=mvlv_generic.100       
+				add_stability = -0.2
+				add_war_support = -0.2        
+			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
+                                                }
+		}
+              }
+
+}

@@ -1,0 +1,150 @@
+SOV = {
+	MVLV_TSF_classis_1_heavy = {
+		pool = {
+			icons = {
+				"GFX_MiG-21"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_2_light_normal = {
+		pool = {
+			icons = {
+				"GFX_MiG-23"
+				"GFX_MiG-27"
+				"GFX_MiG-29燕子"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_2_light_high_mobility = {
+		pool = {
+			icons = {
+				"GFX_MiG-27"
+				"GFX_MiG-29燕子"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_2_heavy_normal = {
+		pool = {
+			icons = {
+				"GFX_MiG-25"
+				"GFX_MiG-31"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_2_heavy_high_mobility = {
+		pool = {
+			icons = {
+				"GFX_Su-27"
+				"GFX_Su-37"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_light_normal = {
+		pool = {
+			icons = {
+				"GFX_Su-47"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_light_high_mobility = {
+		pool = {
+			icons = {
+				"GFX_Su-47"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_heavy_normal = {
+		pool = {
+			icons = {
+				"GFX_Su-47"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_heavy_high_mobility = {
+		pool = {
+			icons = {
+				"GFX_Su-47"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_light_normal_stealth = {
+		pool = {
+			icons = {
+				"GFX_Su-57"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_light_high_mobility_stealth = {
+		pool = {
+			icons = {
+				"GFX_Su-57"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_heavy_normal_stealth = {
+		pool = {
+			icons = {
+				"GFX_Su-57"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+	MVLV_TSF_classis_3_heavy_high_mobility_stealth = {
+		pool = {
+			icons = {
+				"GFX_Su-57"
+			}
+			models = {
+				"TSF_entity"
+			}
+			weight = 100
+		}
+	}
+}

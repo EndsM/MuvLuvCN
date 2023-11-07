@@ -1,0 +1,42 @@
+
+state={
+	id=664
+	name="STATE_664"
+	resources={
+		steel=13.000
+		chromium=3.000
+	}
+
+	history={
+		1999.1.1 = {
+			owner = H11
+			remove_core_of = H11
+			add_core_of = EEA
+
+		}
+		owner = CZE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			6573 1 
+		}
+		1939.3.14 = {
+			owner = HUN
+			controller = HUN
+			remove_claim_by = HUN
+
+		}
+
+	}
+
+	provinces={
+		3565 3716 6561 6573 9537 11679 
+	}
+	manpower=854300
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

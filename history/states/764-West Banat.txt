@@ -1,0 +1,28 @@
+
+state={
+	id=764
+	name="STATE_764"
+	manpower = 585579
+	state_category = town
+
+	history = { 1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
+			add_core_of = EUR
+			remove_core_of = YUG
+			remove_core_of = SER
+		}
+		owner = YUG
+		controller = YUG
+
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = YUG
+		add_core_of = SER
+	}
+
+	provinces={
+		614 3614 6643 11787
+	}
+}

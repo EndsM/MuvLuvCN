@@ -1,0 +1,100 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_beta_event_1"
+		texturefile = "gfx/event_pictures/BETA_event_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_start_event"
+		texturefile = "gfx/event_pictures/MVLV_Start_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_start_kekki"
+		texturefile = "gfx/event_pictures/MVLV_event_generic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_start_good"
+		texturefile = "gfx/event_pictures/MVLV_event_generi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_start_bad"
+		texturefile = "gfx/event_pictures/MVLV_event_gener.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_ouka_sakusen"
+		texturefile = "gfx/event_pictures/oukasakusen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_ouka"
+		texturefile = "gfx/event_pictures/ouka.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_un_shireibu"
+		texturefile = "gfx/event_pictures/unshireibu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_shireibu"
+		texturefile = "gfx/event_pictures/shireibu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_shirei"
+		texturefile = "gfx/event_pictures/shirei.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_raf_tero"
+		texturefile = "gfx/event_pictures/rafe.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_xfj_project"
+		texturefile = "gfx/event_pictures/xfj.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_hive_capitulation"
+		texturefile = "gfx/event_pictures/MVLV_hive_capitulation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_hive_uncapitulation"
+		texturefile = "gfx/event_pictures/MVLV_hive_uncapitulation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_al_drop"
+		texturefile = "gfx/event_pictures/AL弹投下.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_kou21"
+		texturefile = "gfx/event_pictures/sado.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_yokohama"
+		texturefile = "gfx/event_pictures/yokohama.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_ouka2"
+		texturefile = "gfx/event_pictures/ouka2.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_mvlv_mascot"
+		texturefile = "gfx/event_pictures/mascot.dds"
+		noOfFrames = 21
+		animation_rate_fps = 8
+		looping = yes
+		play_on_show = yes
+	}
+}

@@ -1,0 +1,42 @@
+spriteTypes = {
+
+	spriteType = { 
+		name = "GFX_laser_1_medium"				
+		textureFile = "gfx/interface/technologies/laser_class.dds"  
+	}
+	
+	spriteType = { 
+		name = "GFX_laser_1"				
+		textureFile = "gfx/interface/technologies/laser_class.dds"  
+	}
+   
+	spriteType = { 
+		name = "GFX_heavy_laser_1_medium"						
+		textureFile = "gfx/interface/technologies/hevy_laser.dds" 
+	}
+
+	spriteType = { 
+		name = "GFX_heavy_laser_1"						
+		textureFile = "gfx/interface/technologies/hevy_laser.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_Anti_laser_1_medium"
+		texturefile = "gfx/interface/technologies/anti_laser.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Anti_laser_1"
+		texturefile = "gfx/interface/technologies/anti_laser.dds"
+	}
+
+	spriteType = {
+		name = "GFX_shell_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/shell.dds"
+	}
+
+	spriteType = {
+		name = "GFX_shell_equipment_1"
+		texturefile = "gfx/interface/technologies/shell.dds"
+	}
+}

@@ -1,0 +1,274 @@
+﻿
+units = {
+
+	####### NAVAL UNITS #######
+	##### ATRANTIC FLEET #####
+	fleet = {
+		name = "大西洋方面总军第一舰队"
+		naval_base = 3878
+		task_force = {				
+			name = "第一战队"
+			location = 3878
+			ship = { name = "USS ウィスコンシン" pride_of_the_fleet = yes definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "HMS 金・ジョージ5世" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "HMS デューク・オブ・ヨーク" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第七战队" 
+			location = 3878
+			ship = { name = "USS デ・モイン" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS セイラム" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ダラス" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ニューポート・ニューズ" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第八战队" 
+			location = 3878
+			ship = { name = "USS ウースター" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ロアノーク" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第一水雷战队"
+			location = 3878
+			#Flagship
+			ship = { name = "USS ヴィンセンス" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP } } }
+			#第一駆逐隊
+			ship = { name = "USS 威廉·普拉特" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 达尔格伦" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 马汉" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 金" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第六駆逐隊
+			ship = { name = "USS 昆西" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 麦克多诺" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 露丝" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 法拉格特" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第十一駆逐隊
+			ship = { name = "USS 威尔金森" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 威利斯·李" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 约翰·迈凯伦" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 米彻尔" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第五水雷战队"
+			location = 3878
+			#Flagship
+			ship = { name = "IJN 矢矧" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP } } }
+			#第四駆逐隊
+			ship = { name = "IJN 初雪" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 白雪" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 峰雪" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 浜雪" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			#第九駆逐隊
+			ship = { name = "IJN 磯雪" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 沢霧" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 朝霧" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 浜霧" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第十五駆逐隊
+			ship = { name = "IJN 夕霧" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 海霧" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 島雪" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 松雪" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		}
+	}
+	
+	##### 第二舰队 #####
+	fleet = {
+		name = "大西洋方面总军第二舰队"
+		task_force = {
+			name = "第四战队" 
+			location = 4180
+			ship = { name = "USS アラスカ" definition = battleship equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS グアム" definition = battleship equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ハワイ" definition = battleship equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS フィリピンズ" definition = battleship equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS プエルトリコ" definition = battleship equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS サモア" definition = battleship equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第五战队" 
+			base = 4180
+			location = 4180
+			ship = { name = "USS ペンサコーラ" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ソルトレイクシティー" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第二水雷战队"
+			location = 4180
+			#Flagship
+			ship = { name = "USS ゲティスバーグ" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP } } }
+			#第二駆逐隊
+			ship = { name = "USS クロード・V・リケッツ" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS ローレンス" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS ジョン・金" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS チャールズ・F・アダムズ" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第七駆逐隊
+			ship = { name = "USS パーソンズ" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "USS サマーズ" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS ディケーター" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS ジョン・ポール・ジョーンズ" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第十二駆逐隊
+			ship = { name = "IJN 朝霜" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "IJN 沖波" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 天津風" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 漣" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第四水雷战队"
+			location = 4180
+			#Flagship
+			ship = { name = "USS 约克城" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP } } }
+			#第十七駆逐隊
+			ship = { name = "IJN 鈴波" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 旭日" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 坎宁安" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 约瑟夫·斯特劳斯" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第十駆逐隊
+			ship = { name = "USS 伯克" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "USS 布坎南" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMAS シドニー" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMAS ホバート" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			#第七駆逐隊
+			ship = { name = "USS 奥莱克" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "USS 布林克雷巴士" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 史泰克尔" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 奥哈" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		}
+	}
+	
+	##### 国联太平洋舰队 #####
+	fleet = {
+		name = "极东国联军舰队"
+		naval_base = 13218
+		task_force = {
+			name = "第二战队"
+			location = 13218
+			ship = { name = "USS ニュージャージー" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS アイオワ" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ミズーリ" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP  } } }
+			ship = { name = "USS イリノイ" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP  } } }
+			ship = { name = "USS ケンタッキー" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP  } } }
+		}
+		task_force = {
+			name = "第六战队" 
+			location = 13218
+			ship = { name = "USS ポートランド" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS インディアナポリス" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第三水雷战队"
+			location = 13218
+			#Flagship
+			ship = { name = "USS ロングビーチ" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP  } } }
+			#第二駆逐隊
+			ship = { name = "USS フェクテラー" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS ダメイト" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS フォレスト・ロイアル" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS ホーキンス" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第七駆逐隊
+			ship = { name = "USS ダンカン" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "USS ヘンリー・W・タッカー" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS ロジャース" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS パーキンス" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第十二駆逐隊
+			ship = { name = "USS ヴェゾール" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "USS リアリー" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS ダイス" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS ボーデロン" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			#第二駆逐隊
+			ship = { name = "USS 费尔斯" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 纽曼·佩里" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 弗洛伊德·帕克斯" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS 约翰·克雷格" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第一潜水战队" 
+			location = 13218
+			#第一潜水隊
+			ship = { name = "USS ピン" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ダラドー" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS カンバー" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			#第三潜水隊
+			ship = { name = "USS パンサー" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ティブロン" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS バラクーダ" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			#第五潜水隊
+			ship = { name = "USS バス" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ボニタ" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ニードルフィッシュ" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第二潜水战队"
+			location = 13218
+			#第二潜水隊
+			ship = { name = "USS ユニ" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ウルフフィッシュ" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ホワイティング" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			#第四潜水隊
+			ship = { name = "USS ピカレル" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS グレナディア" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ウルア" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			#第六潜水隊
+			ship = { name = "USS ウォールラス" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS アンバージャック" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ヴォラドア" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP } } }
+		}
+	}
+
+	##### 国联地中海舰队 #####
+	fleet = {
+		name = "地中海方面总军舰队"
+		naval_base = 4076
+		task_force = {
+			name = "第二战队"
+			location = 4076
+			ship = { name = "FS クレマンソー" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP  } } }
+			ship = { name = "FS リシュリュー" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP  } } }
+			ship = { name = "FS ジャン・バール" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP  } } }
+			ship = { name = "MMI イタリア" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP  } } }
+			ship = { name = "MMI ヴィットリオ・ヴェネト" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP  } } }
+		}
+		task_force = {
+			name = "第七战队" 
+			location = 4076
+			ship = { name = "FGS ベルリン" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "FGS ケルン" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第三水雷战队"
+			location = 4076
+			#Flagship
+			ship = { name = "FS セーヌ" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP } } }
+			#
+			ship = { name = "HMAS ダーウィン" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "INS ムンバイ" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "SNG シンガポール" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "HS アテネ" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			#
+			ship = { name = "HNLMS アムステルダム" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "FNS ヘルシンキ" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "BNS ブリュッセル" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "SPS マドリード" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			#
+			ship = { name = "NRP リスボン" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "KD クアラルンプール" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "ROS ブカレスト" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }	
+			ship = { name = "UMS ラングーン" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#
+			ship = { name = "ARA ブエノスアイレス" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "BRP マニラ" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "BRP レイテ" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "INS デリー" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "运输潜水战队" 
+			location = 4076 
+			#タイフーン型
+			ship = { name = "SOV ドミートリー・ドンスコイ" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "SOV ウラジミール・モノマフ" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "SOV シンビルスク" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "SOV セヴァストポリ" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "SOV アルハンゲリスク" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "SOV セヴェルスターリ" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+		}
+	}
+}

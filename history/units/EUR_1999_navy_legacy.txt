@@ -1,0 +1,87 @@
+﻿
+units = {
+
+	##### 本国舰队 #####
+	fleet = {
+		name = "第二舰队" 
+		naval_base = 540 
+		task_force = {
+			name = "第1战队" 
+			location = 540 
+			ship = { name = "HMS サンダラー" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "HMS コンカラー" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "HMS ヴァンガード" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "HMS テメレーア" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {					
+			name = "第1护卫战队" 
+			location = 540 
+			#Flagship
+			ship = { name = "HMS ブリストル" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+			#第十駆逐隊
+			ship = { name = "HMS シェフィールド" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "HMS バーミンガム" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMS ニューカッスル" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMS グラスゴー" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第十二駆逐隊
+			ship = { name = "HMS カーディフ" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "HMS コヴェントリー" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMS エクセター" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMS サウサンプトン" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第十六駆逐隊
+			ship = { name = "HMS グラフトン" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "HMS サザーランド" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMS サマセット" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMS ケント" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {					
+			name = "第2护卫战队" 
+			location = 540 
+			#Flagship
+			ship = { name = "HMS ブレーク" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+			#第十七駆逐隊
+			ship = { name = "HMS ノッティンガム" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "HMS リバプール" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "HMS マンチェスター" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "HMS グロスター" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			#第十六駆逐隊
+			ship = { name = "HMS エディンバラ" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }			
+			ship = { name = "HMS ヨーク" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "HMS ノーサンバーランド" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "HMS リッチモンド" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			#第十六駆逐隊
+			ship = { name = "HMS アイアン・デューク" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "HMS モンマス" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "HMS モントローズ" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "HMS ウエストミンスター" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+		}			
+	}
+
+	##### 地中海舰队 #####
+	fleet = {
+		name = "地中海舰队" 
+		naval_base = 4076 
+		task_force = {
+			name = "第2战队" 
+			location = 4076 
+			ship = { name = "HMS ハウ" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "HMS アンソン" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {					
+			name = "第3护卫战队" 
+			location = 4076 
+			#Flagship
+			ship = { name = "HMS タイガー" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+			#第十七駆逐隊
+			ship = { name = "HMS コーンウォール" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP  } } }		
+			ship = { name = "HMS キャンベルタウン" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP  } } }
+			ship = { name = "HMS チャタム" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP  } } }
+			ship = { name = "HMS カンバーランド" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP  } } }
+			#第十駆逐隊
+			ship = { name = "HMS ノーフォーク" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "HMS アーガイル" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMS ランカスター" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMS マールバラ" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		}			
+	}
+}

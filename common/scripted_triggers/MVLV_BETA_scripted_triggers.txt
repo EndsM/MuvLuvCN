@@ -1,0 +1,383 @@
+BETA前线巢穴 = {
+	any_neighbor_country = {
+		has_war_with = BET
+	}
+}
+
+BETA陆军数量到达出兵上限 = {
+	
+}
+
+BETA陆军数量未到达当前巢穴等级上限 = {
+	OR = {
+		check_variable = {
+			num_divisions < global.BETA各巢穴等级陆军数量上限^巢穴等级
+		}
+		check_variable = {
+			num_divisions = global.BETA各巢穴等级陆军数量上限^巢穴等级
+		}
+	}
+}
+  
+BETA陆军数量未到达当前巢穴等级小侵攻限度 = {
+	OR = {
+		check_variable = {
+			num_divisions < global.BETA各巢穴等级小侵攻陆军数量上限^巢穴等级
+		}
+		check_variable = {
+			num_divisions = global.BETA各巢穴等级小侵攻陆军数量上限^巢穴等级
+		}
+	}
+}
+# BETA光线级数量未到达当前巢穴等级上限 = {
+# 	OR = {
+# 		has_equipment = {
+# 			laser_1 < global.BETA各巢穴等级光线级数量上限^巢穴等级
+# 		}
+# 		has_equipment = {
+# 			laser_1 = global.BETA各巢穴等级光线级数量上限^巢穴等级
+# 		}
+# 	}
+# }
+BETA光线级数量未到达当前巢穴等级上限 = {
+	BET = {
+		has_equipment = {
+			laser_1 < 10000
+		}
+	}
+}
+
+# BETA重光线级数量未到达当前巢穴等级上限 = {
+# 	OR = {
+# 		has_equipment = { heavy_laser_1 < global.BETA各巢穴等级重光线级数量上限^巢穴等级 }
+# 		has_equipment = { heavy_laser_1 = global.BETA各巢穴等级重光线级数量上限^巢穴等级 }
+# 	}
+# }
+BETA重光线级数量未到达当前巢穴等级上限 = {
+	BET = {
+		has_equipment = {
+			heavy_laser_1 < 10000
+		}
+	}
+}
+
+BETA陆军数量低于地下侵攻上限 = {
+	check_variable = {
+		num_divisions < global.BETA各巢穴等级可地下侵攻陆军数量上限^巢穴等级
+	}
+}
+
+樱花作战未成功 = {
+	NOT = {
+		has_idea = BET_broken_original_hive
+	}
+}
+
+巢穴未被占领 = {
+	NOT = {
+		has_idea = mvlv_brokenhive
+	}
+}
+
+难度高于简单 = {
+	check_variable = {
+		global.难度等级 > 1
+	}
+}
+
+难度高于普通 = {
+	check_variable = {
+		global.难度等级 > 2
+	}
+}
+
+困难难度 = {
+	check_variable = {
+		global.难度等级 = 3
+	}
+}
+
+地狱难度 = {
+	check_variable = {
+		global.难度等级 = 4
+	}
+}
+
+摩洛哥可地下侵攻 = {
+	118 = {
+		is_controlled_by = from
+	}
+	290 = {
+		is_controlled_by = AFR
+	}
+	NOT = {
+		has_idea = mvlv_brokenhive
+	}
+	BETA陆军数量低于地下侵攻上限 = yes
+	OR = {
+		地狱难度 = yes
+		and = {
+			困难难度 = yes
+			AFR = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+BETA后续部队可通过地下进入摩洛哥 = {
+	118 = {
+		is_controlled_by = from
+	}
+	NOT = {
+		290 = {
+			is_fully_controlled_by = AFR
+		}
+	}
+	NOT = {
+		has_idea = mvlv_brokenhive
+	}
+	BETA陆军数量低于地下侵攻上限 = yes
+	OR = {
+		地狱难度 = yes
+		and = {
+			困难难度 = yes
+			AFR = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+多弗海峡可地下侵攻 = {
+	29 = {
+		is_controlled_by = from
+	}
+	127 = {
+		is_controlled_by = EUR
+	}
+	NOT = {
+		has_idea = mvlv_brokenhive
+	}
+	BETA陆军数量低于地下侵攻上限 = yes
+	OR = {
+		地狱难度 = yes
+		and = {
+			困难难度 = yes
+			EUR = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+朴茨茅斯可地下侵攻 = {
+	15 = {
+		is_controlled_by = from
+	}
+	808 = {
+		is_controlled_by = EUR
+	}
+	NOT = {
+		has_idea = mvlv_brokenhive
+	}
+	BETA陆军数量低于地下侵攻上限 = yes
+	OR = {
+		地狱难度 = yes
+		and = {
+			困难难度 = yes
+			EUR = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+勘察加可地下侵攻 = {
+	797 = {
+		is_controlled_by = from
+	}
+	637 = {
+		is_controlled_by = SOV
+	}
+	NOT = {
+		has_idea = mvlv_brokenhive
+	}
+	BETA陆军数量低于地下侵攻上限 = yes
+	OR = {
+		地狱难度 = yes
+		and = {
+			困难难度 = yes
+			SOV = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+BETA后续部队可通过地下进入勘察加 = {
+	797 = {
+		is_controlled_by = from
+	}
+	NOT = {
+		637 = {
+			is_fully_controlled_by = SOV
+		}
+	}
+	810 = {
+		is_controlled_by = SOV
+	}
+	NOT = {
+		has_idea = mvlv_brokenhive
+	}
+	BETA陆军数量低于地下侵攻上限 = yes
+	OR = {
+		地狱难度 = yes
+		and = {
+			困难难度 = yes
+			SOV = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+台北可地下侵攻 = {
+	595 = {
+		is_controlled_by = from
+	}
+	524 = {
+		is_controlled_by = CHI
+	}
+	NOT = {
+		has_idea = mvlv_brokenhive
+	}
+	BETA陆军数量低于地下侵攻上限 = yes
+	OR = {
+		地狱难度 = yes
+		and = {
+			困难难度 = yes
+			CHI = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+BETA后续部队可通过地下进入台北 = {
+	595 = {
+		is_controlled_by = from
+	}
+	NOT = {
+		524 = {
+			is_fully_controlled_by = CHI
+		}
+	}
+	807 = {
+		is_controlled_by = CHI
+	}
+	NOT = {
+		has_idea = mvlv_brokenhive
+	}
+	BETA陆军数量低于地下侵攻上限 = yes
+	OR = {
+		地狱难度 = yes
+		and = {
+			困难难度 = yes
+			CHI = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+西西里可地下侵攻 = {
+	156 = {
+		is_controlled_by = from
+	}
+	115 = {
+		is_controlled_by = EUR
+	}
+	NOT = {
+		has_idea = mvlv_brokenhive
+	}
+	BETA陆军数量低于地下侵攻上限 = yes
+	OR = {
+		地狱难度 = yes
+		and = {
+			困难难度 = yes
+			EUR = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+突尼斯可地下侵攻 = {
+	115 = {
+		is_controlled_by = from
+	}
+	458 = {
+		is_controlled_by = AFR
+	}
+	NOT = {
+		has_idea = mvlv_brokenhive
+	}
+	BETA陆军数量低于地下侵攻上限 = yes
+	OR = {
+		地狱难度 = yes
+		and = {
+			困难难度 = yes
+			AFR = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+阿拉斯加可地下侵攻 = {
+	809 = {
+		is_controlled_by = from
+	}
+	790 = {
+		is_controlled_by = SOV
+	}
+	NOT = {
+		has_idea = mvlv_brokenhive
+	}
+	# BETA陆军数量未到达当前巢穴等级上限 = no
+	# BETA陆军数量低于地下侵攻上限 = yes
+	OR = {
+		地狱难度 = yes
+		and = {
+			困难难度 = yes
+			SOV = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+BETA后续部队可通过地下进入阿拉斯加 = {
+	809 = {
+		is_controlled_by = from
+	}
+	NOT = {
+		790 = {
+			is_fully_controlled_by = SOV
+		}
+	}
+	NOT = {
+		has_idea = mvlv_brokenhive
+	}
+	# BETA陆军数量低于地下侵攻上限 = yes
+	OR = {
+		地狱难度 = yes
+		and = {
+			困难难度 = yes
+			SOV = {
+				is_ai = no
+			}
+		}
+	}
+}

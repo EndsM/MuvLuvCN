@@ -1,0 +1,189 @@
+##### OOB #####
+units = {
+	division = {
+		location = 1117
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1117
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1117
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1117
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1117
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1117
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1117
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1117
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1117
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 1117
+		division_template = "战车级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "要击级师团"
+		location = 1117
+		division_template = "要击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "要击级师团"
+		location = 1117
+		division_template = "要击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "要击级师团"
+		location = 1117
+		division_template = "要击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "要击级师团"
+		location = 1117
+		division_template = "要击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "要击级师团"
+		location = 1117
+		division_template = "要击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "要击级师团"
+		location = 1117
+		division_template = "要击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "突击级师团"
+		location = 1117
+		division_template = "突击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "突击级师团"
+		location = 1117
+		division_template = "突击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "突击级师团"
+		location = 1117
+		division_template = "突击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "突击级师团"
+		location = 1117
+		division_template = "突击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "要击级师团"
+		location = 12007
+		division_template = "要击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "要击级师团"
+		location = 12007
+		division_template = "要击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "要击级师团"
+		location = 12007
+		division_template = "要击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "突击级师团"
+		location = 12007
+		division_template = "突击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "突击级师团"
+		location = 11930
+		division_template = "突击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "突击级师团"
+		location = 11930
+		division_template = "突击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "突击级师团"
+		location = 11930
+		division_template = "突击级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "要塞级师团"
+		location = 1117
+		division_template = "要塞级师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+}

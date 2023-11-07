@@ -1,0 +1,312 @@
+characters = {
+	USA_units_leader_1 = {
+		name = "阿尔弗雷德·沃肯"
+		portraits = {
+			army = {
+				large = GFX_阿尔弗雷德沃肯头像
+				small = "gfx/leaders/USA/阿尔弗雷德沃肯小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				inflexible_strategist
+				logistics_wizard
+				organizer
+				offensive_doctrine
+				trait_cautious
+				tsf_officer
+				politically_connected
+				tsf_leader
+				commander_aptitude
+				tsf_commander
+			}
+			skill = 7
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	USA_units_leader_2 = {
+		name = "勇哉·布里吉斯"
+		portraits = {
+			army = {
+				large = GFX_勇哉布里吉斯头像
+				small = "gfx/leaders/USA/勇哉布里吉斯小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				inflexible_strategist
+				trickster
+				tsf_officer
+				war_hero
+				trait_reckless
+			}
+			skill = 7
+			attack_skill = 8
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 6
+			legacy_id = -1
+		}
+	}
+	USA_units_leader_3 = {
+		name = "里昂·久濑"
+		portraits = {
+			army = {
+				large = GFX_里昂久濑头像
+				small = "gfx/leaders/USA/里昂久濑小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_engineer
+				trait_cautious
+				brilliant_strategist
+				harsh_leader
+				tsf_officer
+			}
+			skill = 5
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	USA_units_leader_4 = {
+		name = "盖乌斯·麦克劳德"
+		portraits = {
+			army = {
+				large = GFX_盖乌斯麦克劳德头像
+				small = "gfx/leaders/USA/盖乌斯麦克劳德小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				tsf_officer
+				career_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	USA_units_leader_5 = {
+		name = "菲比·西奥多拉基斯"
+		portraits = {
+			army = {
+				large = GFX_菲比西奥多拉基斯头像
+				small = "gfx/leaders/USA/菲比西奥多拉基斯小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_engineer
+				commando
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	USA_units_leader_6 = {
+		name = "莉莉娅·凯耶尔伯格"
+		portraits = {
+			army = {
+				large = GFX_莉莉娅凯耶尔伯格头像
+				small = "gfx/leaders/USA/莉莉娅凯耶尔伯格小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				tsf_officer
+				trait_reckless
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	USA_units_leader_7 = {
+		name = "达里尔·麦克马纳斯"
+		portraits = {
+			army = {
+				large = GFX_达里尔麦克马纳斯头像
+				small = "gfx/leaders/USA/达里尔麦克马纳斯小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				tsf_officer
+				career_officer
+				brilliant_strategist
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	USA_units_leader_8 = {
+		name = "伊露玛·塔斯雷夫"
+		portraits = {
+			army = {
+				large = GFX_伊露玛塔斯雷夫头像
+				small = "gfx/leaders/USA/伊露玛塔斯雷夫小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				tsf_leader
+				career_officer
+				tsf_officer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	USA_units_leader_9 = {
+		name = "基斯·布雷泽"
+		portraits = {
+			army = {
+				large = GFX_基斯布雷泽头像
+				small = "gfx/leaders/USA/基斯布雷泽小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				commander_aptitude
+				tsf_officer
+				tsf_leader
+				tsf_commander
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	USA_units_leader_10 = {
+		name = "卡洛琳·希尔斯"
+		portraits = {
+			army = {
+				large = GFX_卡洛琳希尔斯头像
+				small = "gfx/leaders/USA/卡洛琳希尔斯小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				tsf_officer
+				tsf_leader
+				true_genius
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	USA_units_leader_11 = {
+		name = "纱罗·艾姆"
+		portraits = {
+			army = {
+				large = GFX_纱罗艾姆头像
+				small = "gfx/leaders/USA/纱罗艾姆小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				tsf_officer
+				tsf_leader
+				career_officer
+			}
+			skill = 5
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	USA_units_leader_12 = {
+		name = "威尔伯特·柯林斯"
+		portraits = {
+			army = {
+				large = GFX_威尔伯特柯林斯头像
+				small = "gfx/leaders/USA/威尔伯特柯林斯小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				tsf_officer
+				career_officer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	USA_units_leader_13 = {
+		name = "阿尔弗雷德·沃肯中校"
+		portraits = {
+			army = {
+				large = GFX_阿尔弗雷德沃肯中校头像
+				small = "gfx/leaders/USA/阿尔弗雷德沃肯中校小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				armor_officer
+				war_hero
+				hill_fighter
+				inflexible_strategist
+				logistics_wizard
+				organizer
+				offensive_doctrine
+				trait_cautious
+				tsf_officer
+				politically_connected
+				tsf_leader
+				commander_aptitude
+				tsf_commander
+			}
+			skill = 9
+			attack_skill = 10
+			defense_skill = 7
+			planning_skill = 6
+			logistics_skill = 5
+			legacy_id = -1
+			visible = {
+				has_character_flag = 角色解锁
+			}
+		}
+	}
+}

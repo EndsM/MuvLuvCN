@@ -1,0 +1,30 @@
+
+state={
+	id=636
+	name="STATE_636"
+	manpower = 180000
+	
+	state_category = city
+
+	history={
+		1999.1.1 = {
+			owner = OSE
+		}
+		owner = OSE
+		add_core_of = OSE
+		buildings = {
+			infrastructure = 3
+			4286 = {
+				naval_base = 1
+			}
+		}
+		
+		victory_points = {
+			4286 1 
+		}
+	}
+	
+	provinces={
+		4286 7302 12159 
+	}
+}

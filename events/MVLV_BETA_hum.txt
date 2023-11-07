@@ -1,0 +1,58 @@
+add_namespace = mvlv_beta_hum
+country_event = {
+	id = mvlv_beta_hum.0
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+	trigger = {
+		is_in_faction_with = BET
+		is_ai = no
+		# 难度高于简单 = yes
+	}
+	# mean_time_to_happen = {
+	# 	days = 20
+	# }
+	immediate = {
+		hidden_effect = {
+			add_dynamic_modifier = {
+				modifier = "上位存在的意志"
+			}
+			set_variable = {上位存在的意志攻击 = 0}
+			set_variable = {上位存在的意志防御 = 0}
+			country_event = {
+				id = mvlv_beta_hum.1
+				days = 40
+			}
+		}
+	}
+}
+
+country_event = {
+	id = mvlv_beta_hum.1
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = yes
+	trigger = {
+		is_in_faction_with = BET
+		# is_ai = no
+	}
+	# mean_time_to_happen = {
+	# 	days = 20
+	# }
+	immediate = {
+		hidden_effect = {
+			add_to_variable = {
+				var = 上位存在的意志攻击
+				value = 0.01
+			}
+			add_to_variable = {
+				var = 上位存在的意志防御
+				value = 0.01
+			}
+		}
+		country_event = {
+			id = mvlv_beta_hum.1
+			days = 40
+		}
+	}
+}

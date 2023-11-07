@@ -1,0 +1,2 @@
+##Merged to templates_BET. If some templates need to add for this specific hive, add it here.
+##templates_BETに統合しました。ハイヴ固有の師団編制が必要な場合、ここに記入してください。

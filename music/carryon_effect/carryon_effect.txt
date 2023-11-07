@@ -1,0 +1,10 @@
+music_station = "Muv-luv"
+
+music = {
+	song = "enzetu_01"
+	chance = {
+		modifier = {
+			factor = 0
+		}
+	}
+}

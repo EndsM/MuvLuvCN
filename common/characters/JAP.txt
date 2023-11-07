@@ -1,0 +1,581 @@
+characters = {
+	JAP_unit_leader_1 = {
+		name = "煌武院悠阳"
+		portraits = {
+			army = {
+				large = GFX_元帅煌武院悠阳头像
+				small = "gfx/leaders/JAP/元帅煌武院悠阳小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				JAP_samurai_lineage
+				politically_connected
+				media_personality
+				tsf_officer
+				true_genius
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_2 = {
+		name = "斑鸠崇继"
+		portraits = {
+			army = {
+				large = GFX_斑鸠崇继头像
+				small = "gfx/leaders/JAP/斑鸠崇继小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				JAP_samurai_lineage
+				politically_connected
+				tsf_officer
+				brilliant_strategist
+				commander_aptitude
+				tsf_leader
+				tsf_commander
+				offensive_doctrine
+				inspirational_leader
+			}
+			skill = 8
+			attack_skill = 7
+			defense_skill = 6
+			planning_skill = 7
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_3 = {
+		name = "篁唯依"
+		portraits = {
+			army = {
+				large = GFX_篁唯依头像
+				small = "gfx/leaders/JAP/篁唯依小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				JAP_samurai_lineage
+				tsf_officer
+				commander_aptitude
+				brilliant_strategist
+				politically_connected
+				tsf_leader
+				tsf_commander
+				trickster
+				trait_engineer
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_4 = {
+		name = "沙雾尚哉"
+		portraits = {
+			army = {
+				large = GFX_沙雾尚哉头像
+				small = "gfx/leaders/JAP/沙雾尚哉小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				inflexible_strategist
+				offensive_doctrine
+				defensive_doctrine
+				tsf_officer
+				commander_aptitude
+				tsf_leader
+				tsf_commander
+			}
+			skill = 6
+			attack_skill = 8
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_5 = {
+		name = "月咏真那"
+		portraits = {
+			army = {
+				large = GFX_月咏真那头像
+				small = "gfx/leaders/JAP/月咏真那小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				JAP_samurai_lineage
+				tsf_officer
+				brilliant_strategist
+				harsh_leader
+				commander_aptitude
+				tsf_leader
+				tsf_commander
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_6 = {
+		name = "神代巽"
+		portraits = {
+			army = {
+				large = GFX_神代巽头像
+				small = "gfx/leaders/JAP/神代巽小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				JAP_samurai_lineage
+				ambusher
+				tsf_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_7 = {
+		name = "巴雪乃"
+		portraits = {
+			army = {
+				large = GFX_巴雪乃头像
+				small = "gfx/leaders/JAP/巴雪乃小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				JAP_samurai_lineage
+				trickster
+				tsf_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_8 = {
+		name = "戎美凪"
+		portraits = {
+			army = {
+				large = GFX_戎美凪头像
+				small = "gfx/leaders/JAP/戎美凪小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				JAP_samurai_lineage
+				trait_reckless
+				tsf_officer
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_9 = {
+		name = "真壁清十郎"
+		portraits = {
+			army = {
+				large = GFX_真壁清十郎头像
+				small = "gfx/leaders/JAP/真壁清十郎小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				JAP_samurai_lineage
+				brilliant_strategist
+				inflexible_strategist
+				tsf_officer
+				commander_aptitude
+				trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 9010
+		}
+	}
+	JAP_unit_leader_10 = {
+		name = "驹木咲代子"
+		portraits = {
+			army = {
+				large = GFX_驹木咲代子头像
+				small = "gfx/leaders/JAP/驹木咲代子小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				tsf_officer
+				tsf_leader
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_11 = {
+		name = "龙浪响"
+		portraits = {
+			army = {
+				large = GFX_龙浪响头像
+				small = "gfx/leaders/JAP/龙浪响小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando
+				commander_aptitude
+				tsf_officer
+				tsf_leader
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_12 = {
+		name = "千堂柚香"
+		portraits = {
+			army = {
+				large = GFX_千堂柚香头像
+				small = "gfx/leaders/JAP/千堂柚香小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				inflexible_strategist
+				trait_reckless
+				tsf_officer
+				tsf_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_13 = {
+		name = "伊隅真理香"
+		portraits = {
+			army = {
+				large = GFX_伊隅真理香头像
+				small = "gfx/leaders/JAP/伊隅真理香小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				tsf_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_14 = {
+		name = "伊隅晓"
+		portraits = {
+			army = {
+				large = GFX_伊隅晓头像
+				small = "gfx/leaders/JAP/伊隅晓小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				tsf_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_15 = {
+		name = "雨宫真理子"
+		portraits = {
+			army = {
+				large = GFX_雨宫真理子头像
+				small = "gfx/leaders/JAP/雨宫真理子小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				JAP_samurai_lineage
+				old_guard
+				trait_reckless
+				tsf_officer
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_16 = {
+		name = "崇宰恭子"
+		portraits = {
+			army = {
+				large = GFX_崇宰恭子头像
+				small = "gfx/leaders/JAP/崇宰恭子小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				JAP_samurai_lineage
+				old_guard
+				politically_connected
+				war_hero
+				tsf_officer
+				commander_aptitude
+				tsf_leader
+				tsf_commander
+			}
+			skill = 7
+			attack_skill = 6
+			defense_skill = 7
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_17 = {
+		name = "浅葱实里"
+		portraits = {
+			army = {
+				large = GFX_浅葱实里头像
+				small = "gfx/leaders/JAP/浅葱实里小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				politically_connected
+				tsf_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_18 = {
+		name = "岩谷荣二"
+		portraits = {
+			army = {
+				large = GFX_岩谷荣二头像
+				small = "gfx/leaders/JAP/岩谷荣二小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				career_officer
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_19 = {
+		name = "月咏真耶"
+		portraits = {
+			army = {
+				large = GFX_月咏真耶头像
+				small = "gfx/leaders/JAP/月咏真耶小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				JAP_samurai_lineage
+				tsf_officer
+				inflexible_strategist
+				commander_aptitude
+				tsf_leader
+				tsf_commander
+			}
+			skill = 6
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_20 = {
+		name = "大上律子"
+		portraits = {
+			army = {
+				large = GFX_大上律子头像
+				small = "gfx/leaders/JAP/大上律子小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				tsf_officer
+				trickster
+				urban_assault_specialist
+				ranger
+				adaptable
+				tsf_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_21 = {
+		name = "美樱乃雫"
+		portraits = {
+			army = {
+				large = GFX_美樱乃雫头像
+				small = "gfx/leaders/JAP/美樱乃雫小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				tsf_officer
+				trait_cautious
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_22 = {
+		name = "楠本纱耶香"
+		portraits = {
+			army = {
+				large = GFX_楠本纱耶香头像
+				small = "gfx/leaders/JAP/楠本纱耶香小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_engineer
+				fortress_buster
+				career_officer
+				politically_connected
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_23 = {
+		name = "松风谅一"
+		portraits = {
+			army = {
+				large = GFX_松风谅一头像
+				small = "gfx/leaders/JAP/松风谅一小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				trait_cautious
+				tsf_officer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	JAP_unit_leader_24 = {
+		name = "篁唯依"
+		portraits = {
+			army = {
+				large = GFX_篁唯依XFJ归来头像
+				small = "gfx/leaders/JAP/篁唯依XFJ归来小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				tsf_officer
+				JAP_samurai_lineage
+				tsf_officer
+				commander_aptitude
+				brilliant_strategist
+				politically_connected
+				tsf_leader
+				tsf_commander
+				trickster
+				trait_engineer
+				commander_aptitude
+				hive_attacker
+				commando
+				skilled_staffer
+				expert_delegator
+				organizer
+			}
+			skill = 8
+			attack_skill = 8
+			defense_skill = 7
+			planning_skill = 6
+			logistics_skill = 8
+			legacy_id = -1
+			visible = {
+				has_character_flag = 角色解锁
+			}
+		}
+	}
+}

@@ -1,0 +1,96 @@
+sub_units = {
+	
+	MVLV_beta_a_target = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 710
+		ai_priority = 2000
+		active = no
+		
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}		
+		
+		combat_width = 10
+		
+		#Size Definitions
+		max_strength = 10000
+		max_organisation = 10000
+		default_morale = 500
+		manpower = 100
+
+		#Misc Abilities
+		training_time = 2050
+		suppression = 30
+		weight = 0.1
+		
+		supply_consumption = 0.0
+
+		forest = {
+			attack = 0.9
+		}
+
+		hills = {
+                        attack = 0.9
+		}
+
+		mountain = {
+                        attack = 0.9
+		}
+
+		jungle = {
+			attack = 0.9
+		}
+
+		marsh = {
+			attack = 0.9
+		}
+
+		fort = {
+			attack = 0.9
+		}
+
+		river = {
+			attack = 0.9
+		}
+
+		amphibious = {
+			attack = 0.9
+		}
+
+		hive_gateclass = {
+			movement = 0.55
+			defence = 0.1
+		}
+
+		hive_mainhall = {
+			movement = 0.55
+			defence = 0.1
+		}
+
+		hive_drift = {
+			movement = 0.55
+			defence = 0.1
+		}
+
+		hive_gate = {
+			movement = 0.55
+			defence = 0.1
+		}
+
+		need = {
+			beta_a_target = 100
+		}
+	}
+
+}

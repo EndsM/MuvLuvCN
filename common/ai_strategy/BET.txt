@@ -1,0 +1,374 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+BET_area_priority = {
+	enable = {
+		original_tag = BET
+		date > 1998.12.31
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = suez
+		value = -1
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = scandinavia
+		value = -1
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = -1
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = -1
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = -1
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = -1
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = -1
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = africa
+		value = -1
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = -1
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = oceania
+		value = -1
+	}
+	
+	#### ハイヴ周辺 ####
+	ai_strategy = {
+		type = area_priority
+		id = kashgar
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = cheorwon
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = evensk
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = mandalay
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = anbar
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = lyon
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = sado
+		value = -100
+	}
+}
+
+
+BET_area_priority_plan_exclude_asia = {
+	enable = {
+		original_tag = BET
+		date > 1999.4.1
+		TAG = EUR
+		NOT = { TAG = JAP }
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = -50
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = -50
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = -50
+	}
+	
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = -50
+	}
+}
+
+BET_defend_doctrine = {
+	enable = {
+		original_tag = BET
+		date > 1998.12.31
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H02
+		value = 10
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H03
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H04
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H05
+		value = 10
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H06
+		value = 10
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H07
+		value = 10
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H08
+		value = 10
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H09
+		value = 10
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H10
+		value = 10
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H11
+		value = 10
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H12
+		value = 10
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H13
+		value = 10
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H14
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H15
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H16
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H17
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H18
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H19
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H20
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H21
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H23
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H25
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H26
+		value = 100
+	}
+}
+
+#BET_template_design = {
+#	enable = {
+#		original_tag = BET
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = infantry
+#		value = -10
+#	}
+#
+#	ai_strategy = {
+#		type = template_prio
+#		id = motorized
+#		value = 10
+#	}
+#
+#	ai_strategy = {
+#		type = template_prio
+#		id = cavalry
+#		value = -100
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = light_armor
+#		value = -100
+#	}
+#
+#	ai_strategy = {
+#		type = template_prio
+#		id = medium_armor
+#		value = -100
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = modern_armor
+#		value = -100
+#	}
+#
+#	ai_strategy = {
+#		type = template_prio
+#		id = heavy_armor
+#		value = -100
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = Tank
+#		value = 25
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = SPG
+#		value = 10
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = MVLV_tsf
+#		value = 30
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = paratroopers
+#		value = -100
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = mechanized
+#		value = 10
+#	}
+#}

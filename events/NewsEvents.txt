@@ -1,0 +1,88 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+news_event = {
+	id = news.334
+	title = news.334.t
+	desc = news.334.d
+	picture = GFX_news_event_germany_victory
+	hidden = yes
+	
+	trigger = {
+		NOT = { 126 = { is_controlled_by = EUR }
+		}
+	}
+	
+	immediate = {
+		country_event = { id = super.2 }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+}
+
+news_event = {
+	id = news.335
+	title = news.335.t
+	desc = news.335.d
+	picture = GFX_news_event_germany_victory
+	hidden = yes
+	
+	trigger = {
+		NOT = { 446 = { is_controlled_by = AFR }
+		}
+	}
+	
+	immediate = {
+		country_event = { id = super.3 }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+}
+
+news_event = {
+	id = news.336
+	title = news.336.t
+	desc = news.336.d
+	picture = GFX_news_event_germany_victory
+	hidden = yes
+	
+	trigger = {
+		NOT = { 524 = { is_controlled_by = CHI }
+		}
+	}
+	
+	immediate = {
+		country_event = { id = super.4 }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+}
+news_event = {
+	id = news.337
+	title = news.337.t
+	desc = news.337.d
+	picture = GFX_news_event_germany_victory
+	hidden = yes
+	
+	trigger = {
+		NOT = { 282 = { is_controlled_by = JAP }
+		}
+	}
+	
+	immediate = {
+		country_event = { id = super.5 }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+}

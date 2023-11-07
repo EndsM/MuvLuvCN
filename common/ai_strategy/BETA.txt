@@ -1,0 +1,369 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+BETA_strategic_plan = {
+	enable = {
+		is_in_faction_with = BET
+		date > 1998.12.31
+	}
+	abort = {
+		NOT = { is_in_faction_with = BET }
+	}
+
+	ai_strategy = { 
+		type = role_ratio
+		id = infantry
+		value = -100
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = garrison
+		value = -100
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = suppression
+		value = -100
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = beta_tank
+		value = 45
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = beta_soldier
+		value = 35
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = beta_warrior
+		value = 15
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = beta_grappler
+		value = 15
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = beta_destroyer
+		value = 20
+	}
+	
+	ai_strategy = { 
+		type = role_ratio
+		id = beta_fort
+		value = 3
+	}
+
+	ai_strategy = { 
+		type = role_ratio
+		id = beta_garrison
+		value = 2
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = -100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = cavalry
+		value = -100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = mountaineers
+		value = -100
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = infantry
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = infantry
+		value = 93
+	}
+	
+	#Air unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = fighter
+		value = 1
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = cas
+		value = 3
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = tactical_bomber
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = strategic_bomber
+		value = 0
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = naval_bomber
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = -300
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 1
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = cas
+		value = 5
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 10 #10 to 5
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 0 #From 40 to 20
+	}
+	
+	ai_strategy = {
+		type = equipment_production_factor
+		id = convoy
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = infantry
+		value = 5
+	}
+}
+
+#BETA_template_design = {
+#	enable = {
+#		is_in_faction_with = BET
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = infantry
+#		value = -10
+#	}
+#
+#	ai_strategy = {
+#		type = template_prio
+#		id = motorized
+#		value = 10
+#	}
+#
+#	ai_strategy = {
+#		type = template_prio
+#		id = cavalry
+#		value = -100
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = light_armor
+#		value = -100
+#	}
+#
+#	ai_strategy = {
+#		type = template_prio
+#		id = medium_armor
+#		value = -100
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = modern_armor
+#		value = -100
+#	}
+#
+#	ai_strategy = {
+#		type = template_prio
+#		id = heavy_armor
+#		value = -100
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = Tank
+#		value = 25
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = SPG
+#		value = 0
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = MVLV_tsf
+#		value = 0
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = paratroopers
+#		value = -100
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = mechanized
+#		value = 10
+#	}
+#}
+
+###BETAの遠征军を制限します。###
+
+send_volunteers_limiter_BETA = {
+	enable = {
+		is_ai = yes
+		has_war = yes
+		date > 1998.12.31
+		is_in_faction_with = BET
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = BET
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H02
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H03
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H04
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H05
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H08
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H09
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H10
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H11
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H12
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H13
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H16
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H17
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H19
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H20
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H21
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H23
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H25
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H26
+		value = -100
+	}
+}

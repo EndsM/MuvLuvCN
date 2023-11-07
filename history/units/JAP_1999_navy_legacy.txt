@@ -1,0 +1,232 @@
+﻿
+units = {
+
+	####### 帝国聯合舰队 #######
+	##### 第一舰队 #####
+	fleet = {
+		name = "第一舰队"
+		naval_base = 9859  # Hiroshima
+		task_force = {				
+			name = "第一战队"
+			location = 9859  #Ominato
+			ship = { name = "IJN 紀伊" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 尾張" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 出雲" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第四战队" 
+			location = 9859  #Ominato
+			ship = { name = "IJN 金剛" definition = battleship equipment = { battleship_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 比叡" definition = battleship equipment = { battleship_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 榛名" definition = battleship equipment = { battleship_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 霧島" definition = battleship equipment = { battleship_2 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第七战队" 
+			location = 9859  #Ominato
+			ship = { name = "IJN 最上" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 三隈" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 鈴谷" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 熊野" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第八战队" 
+			location = 9859  #Ominato
+			ship = { name = "IJN 古鷹" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 加古" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 青葉" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 衣笠" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第九战队" 
+			location = 9859  #Ominato
+			ship = { name = "IJN 球磨" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 多摩" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第一水雷战队"
+			location = 9859  #Ominato
+			#Flagship
+			ship = { name = "IJN 阿武隈" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = JAP } } }
+			#第一駆逐隊
+			ship = { name = "IJN 神風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 朝風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 春風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 松風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第六駆逐隊
+			ship = { name = "IJN 暁" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "IJN 響" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 雷" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 電" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第十一駆逐隊
+			ship = { name = "IJN 秋月" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "IJN 照月" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 涼月" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 初月" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第四水雷战队"
+			location = 9859  #Ominato
+			#Flagship
+			ship = { name = "IJN 由良" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+			#第四駆逐隊
+			ship = { name = "IJN 野分" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 嵐" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 萩風" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 舞風" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			#第九駆逐隊
+			ship = { name = "IJN 朝雲" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "IJN 山雲" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 夏雲" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 峯雲" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第十五駆逐隊
+			ship = { name = "IJN 黒潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "IJN 親潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 早潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 夏潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		}
+	}
+	
+	##### 第二舰队 #####
+	fleet = {
+		name = "第二舰队"
+		naval_base = 12068 #taiwan
+		task_force = {
+			name = "第二战队"
+			location = 12068　#taiwan
+			ship = { name = "IJN 信濃" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 美濃" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 加賀" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第五战队" 
+			base = 11932
+			location = 12068　#taiwan
+			ship = { name = "IJN 高雄" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 愛宕" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 鳥海" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 摩耶" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第二水雷战队"
+			location = 12068　#taiwan
+			#Flagship
+			ship = { name = "IJN 神通" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+			#第二駆逐隊
+			ship = { name = "IJN 村雨" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 夕立" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 春雨" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 五月雨" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第七駆逐隊
+			ship = { name = "IJN 朧" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "IJN 曙" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 漣" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 潮" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第十二駆逐隊
+			ship = { name = "IJN 朝霧" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "IJN 夕霧" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 天霧" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 狭霧" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第五水雷战队"
+			location = 12068　#taiwan
+			#Flagship
+			ship = { name = "IJN 夕張" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = JAP } } }
+			#第十七駆逐隊
+			ship = { name = "IJN 浦風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 磯風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 浜風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 谷風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第十駆逐隊
+			ship = { name = "IJN 秋雲" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "IJN 夕雲" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 巻雲" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 風雲" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			#第十六駆逐隊
+			ship = { name = "IJN 初風" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "IJN 雪風" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 天津風" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 時津風" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+		}
+	}
+	
+	##### 第三舰队 #####
+	fleet = {
+		name = "第三舰队"
+		naval_base = 2489 #Track
+		task_force = {
+			name = "第三战队"
+			location = 2489  #Track
+			ship = { name = "IJN 大和" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 武蔵" definition = battleship equipment = { SH_battleship_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第六战队" 
+			location = 2489  #Track
+			ship = { name = "IJN 妙高" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 那智" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 足柄" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 羽黒" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第三水雷战队"
+			location = 2489  #Track
+			#Flagship
+			ship = { name = "IJN 川内" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+			#第三駆逐隊
+			ship = { name = "IJN 汐風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 帆風" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			#第八駆逐隊
+			ship = { name = "IJN 朝潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "IJN 大潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 満潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 荒潮" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = JAP } } }
+			#第十三駆逐隊
+			ship = { name = "IJN 若竹" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "IJN 呉竹" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "IJN 早苗" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第一潜水战队" 
+			naval_base = 1399
+			location = 1399  #Chisima
+			#第一潜水隊
+			ship = { name = "IJN 蒼龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 雲龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 白龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			#第三潜水隊
+			ship = { name = "IJN 剣龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 瑞龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 黒龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			#第五潜水隊
+			ship = { name = "IJN 神龍" definition = submarine equipment = { submarine_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 脊龍" definition = submarine equipment = { submarine_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 青龍" definition = submarine equipment = { submarine_2 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第二潜水战队"
+			naval_base = 11932
+			location = 11932  #Okinawa
+			#第二潜水隊
+			ship = { name = "IJN 昇龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 黄龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 猛龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			#第四潜水隊
+			ship = { name = "IJN 金龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 潜龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 飛龍" definition = submarine equipment = { submarine_1 = { amount = 1 owner = JAP } } }
+			#第六潜水隊
+			ship = { name = "IJN 福龍" definition = submarine equipment = { submarine_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 土龍" definition = submarine equipment = { submarine_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 弩龍" definition = submarine equipment = { submarine_2 = { amount = 1 owner = JAP } } }
+		}
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	
+}

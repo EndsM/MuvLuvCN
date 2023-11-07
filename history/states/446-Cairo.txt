@@ -1,0 +1,47 @@
+state=
+{
+	id=446
+	name="STATE_446"
+	manpower = 6586596
+	
+	state_category = town
+
+	history=
+	{
+		1999.1.1 = {
+			owner = AFR
+			add_core_of = AFR
+		}
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 20
+			air_base = 5
+			12049 = {
+				naval_base = 4
+                                bunker = 9
+			}
+                        4073 = {
+                               bunker = 9
+                        }
+		}
+
+		victory_points = {
+			12049 50
+		}
+		victory_points = {
+			9957 20
+		}
+		victory_points = {
+			4073 20
+		}
+
+		#add_core_of = EGY
+
+	}
+
+	provinces={
+		1068 3996 4055 4073 4143 7011 7188 10005 10031 12004 12049 992 7117
+	}
+}

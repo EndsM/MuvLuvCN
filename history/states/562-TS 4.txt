@@ -1,0 +1,32 @@
+
+state={
+	id=562
+	name="STATE_562" # Okhotsk
+	manpower = 350000
+	state_category = rural
+	
+#	resources={
+#		steel=50
+#		oil=50
+#		aluminium=50
+#		rubber=5
+#		tungsten=50
+#		chromium=50
+#	}
+
+	history = {
+		1999.1.1 = {
+			owner = H23
+			remove_core_of = H23
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		1714 1805 4810 4881 7772 10572 10598 12518 12650
+	}
+}

@@ -1,0 +1,857 @@
+add_namespace = mvlv_beta_production
+country_event = {
+	id = mvlv_beta_production.0
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = yes
+	trigger = {
+		is_in_faction_with = BET
+	}
+	immediate = {
+		log = "开始刷兵"
+		if = {
+			limit = {
+				not = { has_idea = mvlv_aggressive_beta }
+				is_ai = yes
+			}
+			if = {
+				limit = {
+					BETA陆军数量未到达当前巢穴等级小侵攻限度 = yes
+					# BETA陆军数量未到达当前巢穴等级上限 = yes
+					NOT = {
+						has_idea = mvlv_brokenhive
+					}
+				}
+				混成师团生产 = yes
+				if = {
+					limit = {
+						难度高于普通 = yes
+					}
+					侵攻师团生产 = yes
+				}
+			}
+			else_if = {
+				limit = {
+					BETA陆军数量未到达当前巢穴等级小侵攻限度 = yes
+					# BETA陆军数量未到达当前巢穴等级上限 = yes
+					NOT = {
+						has_idea = mvlv_brokenhive
+					}
+					is_ai = yes
+				}
+				BETA个体数较多时混成师团生产 = yes
+			}
+			else = {
+				BETA人力增加 = yes
+			}
+		}
+		country_event = {
+			id = mvlv_beta_production.0
+			days = 20
+		}
+		# else = {
+		# 	光线级生产 = yes
+		# }
+	}
+}
+
+# # country_event = {
+# # 	id = mvlv_beta_production.1
+# # 	fire_only_once = no
+# # 	is_triggered_only = yes
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 	}
+# # 	immediate = {
+# # 		log = "开始刷重光线"
+# # 		if = {
+# # 			limit = {
+# # 				BETA光线级数量未到达当前巢穴等级上限 = yes
+# # 				NOT = {
+# # 					has_idea = mvlv_brokenhive
+# # 				}
+# # 			}
+# # 			光线级生产 = yes
+# # 		}
+# # 		country_event = {
+# # 			id = mvlv_beta_production.1
+# # 			days = 20
+# # 		}
+# # 	}
+# # }
+
+# # country_event = {
+# # 	id = mvlv_beta_production.2
+# # 	fire_only_once = no
+# # 	is_triggered_only = yes
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 	}
+# # 	immediate = {
+# # 		log = "开始刷光线"
+# # 		if = {
+# # 			limit = {
+# # 				BETA重光线级数量未到达当前巢穴等级上限 = yes
+# # 				NOT = {
+# # 					has_idea = mvlv_brokenhive
+# # 				}
+# # 			}
+# # 			重光线级生产 = yes
+# # 		}
+# # 		country_event = {
+# # 			id = mvlv_beta_production.2
+# # 			days = 20
+# # 		}
+# # 	}
+# # }
+
+country_event = {
+	id = mvlv_beta_production.3
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = yes
+	trigger = {
+		is_in_faction_with = BET
+		NOT = {
+			tag = H21
+		}
+	}
+	immediate = {
+		log = "开始刷火车和运输船"
+		FROM = {
+			运输船生产 = yes
+			火车生产 = yes
+		}
+		country_event = {
+			id = mvlv_beta_production.3
+			days = 20
+		}
+	}
+}
+
+# # country_event = {
+# # 	id = mvlv_beta_production.4
+# # 	fire_only_once = no
+# # 	is_triggered_only = yes
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 	}
+# # 	immediate = {
+# # 		if = {
+# # 			limit = {
+# # 				not = {
+# # 					has_country_flag = 测试
+# # 				}
+# # 			}
+# # 			set_country_flag = 测试
+# # 			混成师团生产 = yes
+# # 		}
+# # 		else = {
+# # 			clr_country_flag = 测试
+# # 		}
+# # 	}
+# # }
+
+# # country_event = {
+# # 	id = mvlv_beta_production.4
+# # 	fire_only_once = no
+# # 	is_triggered_only = yes
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 	}
+# # 	immediate = {
+# # 		if = {
+# # 			limit = {
+# # 				BETA陆军数量未到达当前巢穴等级小侵攻限度 = no
+# # 				BETA陆军数量未到达当前巢穴等级上限 = yes
+# # 				NOT = {
+# # 					has_idea = mvlv_brokenhive
+# # 				}
+# # 			}
+# # 			BETA个体数较多时混成师团生产 = yes
+# # 		}
+# # 		country_event = {
+# # 			id = mvlv_beta_production.4
+# # 			days = 20
+# # 		}
+# # 		# else = {
+# # 		# 	光线级生产 = yes
+# # 		# }
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.0
+# # 	fire_only_once = no
+# # 	is_triggered_only = no
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 		NOT = {
+# # 			has_idea = mvlv_brokenhive
+# # 		}
+# # 	}
+# # 	mean_time_to_happen = {
+# # 		days = 20
+# # 	}
+# # 	immediate = {
+# # 		if = {
+# # 			limit = {
+# # 				BETA陆军数量未到达当前巢穴等级上限 = yes
+# # 			}
+# # 			混成师团生产 = yes
+# # 			侵攻师团生产 = yes
+# # 		}
+# # 		# else = {
+# # 		# 	光线级生产 = yes
+# # 		# }
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.1
+# # 	fire_only_once = no
+# # 	is_triggered_only = no
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 		NOT = {
+# # 			has_idea = mvlv_brokenhive
+# # 		}
+# # 	}
+# # 	mean_time_to_happen = {
+# # 		days = 20
+# # 	}
+# # 	immediate = {
+# # 		if = {
+# # 			limit = {
+# # 				BETA光线级数量未到达当前巢穴等级上限 = yes
+# # 			}
+# # 			光线级生产 = yes
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.2
+# # 	fire_only_once = no
+# # 	is_triggered_only = no
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 		NOT = {
+# # 			has_idea = mvlv_brokenhive
+# # 		}
+# # 	}
+# # 	mean_time_to_happen = {
+# # 		days = 20
+# # 	}
+# # 	immediate = {
+# # 		if = {
+# # 			limit = {
+# # 				BETA重光线级数量未到达当前巢穴等级上限 = yes
+# # 			}
+# # 			重光线级生产 = yes
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.3
+# # 	fire_only_once = no
+# # 	is_triggered_only = no
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 		NOT = {
+# # 			has_idea = mvlv_brokenhive
+# # 		}
+# # 		NOT = {
+# # 			tag = H21
+# # 		}
+# # 	}
+# # 	mean_time_to_happen = {
+# # 		days = 20
+# # 	}
+# # 	immediate = {
+# # 		运输船生产 = yes
+# # 		火车生产 = yes
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.1
+# # 	fire_only_once = no
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 		NOT = {
+# # 			has_idea = mvlv_brokenhive
+# # 		}
+# # 		has_idea = hive_phase_1
+# # 	}
+# # 	mean_time_to_happen = {
+# # 		days = 20
+# # 	}
+# # 	immediate = {
+# # 		if = {
+# # 			limit = {
+# # 				BETA陆军数量未到达当前巢穴等级上限 = yes
+# # 			}
+# # 			FROM = {
+# # 				country_event = {
+# # 					id = mvlv_beta_production.3000
+# # 				}
+# # 			}
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.2
+# # 	fire_only_once = no
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 		NOT = {
+# # 			has_idea = mvlv_brokenhive
+# # 		}
+# # 		has_idea = hive_phase_2
+# # 	}
+# # 	mean_time_to_happen = {
+# # 		days = 20
+# # 	}
+# # 	immediate = {
+# # 		hidden_effect = {
+# # 			add_equipment_to_stockpile = {
+# # 				type = laser_1
+# # 				#amount = 10
+# # 				amount = 30
+# # 			}
+# # 			if = {
+# # 				limit = {
+# # 					BETA陆军数量未到达当前巢穴等级上限 = yes
+# # 				}
+# # 				FROM = {
+# # 					country_event = {
+# # 						id = mvlv_beta_production.3000
+# # 					}
+# # 				}
+# # 			}
+# # 			else = {
+# # 				add_equipment_to_stockpile = {
+# # 					type = laser_1
+# # 					amount = 10
+# # 					# amount = 30
+# # 				}
+# # 			}
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.3
+# # 	fire_only_once = no
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 		NOT = {
+# # 			has_idea = mvlv_brokenhive
+# # 		}
+# # 		has_idea = hive_phase_3
+# # 	}
+# # 	mean_time_to_happen = {
+# # 		days = 20
+# # 	}
+# # 	immediate = {
+# # 		hidden_effect = {
+# # 			add_equipment_to_stockpile = {
+# # 				type = laser_1
+# # 				# amount = 5
+# # 				amount = 15
+# # 			}
+# # 			add_equipment_to_stockpile = {
+# # 				type = heavy_laser_1
+# # 				# amount = 4
+# # 				amount = 12
+# # 			}
+# # 			if = {
+# # 				limit = {
+# # 					BETA陆军数量未到达当前巢穴等级上限 = yes
+# # 				}
+# # 				FROM = {
+# # 					country_event = {
+# # 						id = mvlv_beta_production.4000
+# # 					}
+# # 				}
+# # 			}
+# # 			else = {
+# # 				add_equipment_to_stockpile = {
+# # 					type = heavy_laser_1
+# # 					amount = 16
+# # 					# amount = 48
+# # 				}
+# # 			}
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.4
+# # 	fire_only_once = no
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 		NOT = {
+# # 			has_idea = mvlv_brokenhive
+# # 		}
+# # 		has_idea = hive_phase_4
+# # 	}
+# # 	mean_time_to_happen = {
+# # 		days = 20
+# # 	}
+# # 	immediate = {
+# # 		hidden_effect = {
+# # 			add_equipment_to_stockpile = {
+# # 				type = laser_1
+# # 				# amount = 5
+# # 				amount = 15
+# # 			}
+# # 			add_equipment_to_stockpile = {
+# # 				type = heavy_laser_1
+# # 				# amount = 4
+# # 				amount = 12
+# # 			}
+# # 			if = {
+# # 				limit = {
+# # 					BETA陆军数量未到达当前巢穴等级上限 = yes
+# # 				}
+# # 				FROM = {
+# # 					country_event = {
+# # 						id = mvlv_beta_production.5000
+# # 					}
+# # 				}
+# # 			}
+# # 			else = {
+# # 				add_equipment_to_stockpile = {
+# # 					type = laser_1
+# # 					amount = 25
+# # 					# amount = 75
+# # 				}
+# # 				add_equipment_to_stockpile = {
+# # 					type = heavy_laser_1
+# # 					amount = 20
+# # 					# amount = 60
+# # 				}
+# # 			}
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.5
+# # 	fire_only_once = no
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 		NOT = {
+# # 			has_idea = mvlv_brokenhive
+# # 		}
+# # 		has_idea = hive_phase_5
+# # 	}
+# # 	mean_time_to_happen = {
+# # 		days = 20
+# # 	}
+# # 	immediate = {
+# # 		hidden_effect = {
+# # 			add_equipment_to_stockpile = {
+# # 				type = laser_1
+# # 				#amount = 10
+# # 				amount = 30
+# # 			}
+# # 			add_equipment_to_stockpile = {
+# # 				type = heavy_laser_1
+# # 				# amount = 8
+# # 				amount = 24
+# # 			}
+# # 			if = {
+# # 				limit = {
+# # 					BETA陆军数量未到达当前巢穴等级上限 = yes
+# # 				}
+# # 				FROM = {
+# # 					country_event = {
+# # 						id = mvlv_beta_production.5000
+# # 					}
+# # 				}
+# # 			}
+# # 			else = {
+# # 				add_equipment_to_stockpile = {
+# # 					type = laser_1
+# # 					amount = 25
+# # 					# amount = 75
+# # 				}
+# # 				add_equipment_to_stockpile = {
+# # 					type = heavy_laser_1
+# # 					amount = 20
+# # 					# amount = 60
+# # 				}
+# # 			}
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.6
+# # 	fire_only_once = no
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 		NOT = {
+# # 			has_idea = mvlv_brokenhive
+# # 		}
+# # 		has_idea = hive_phase_6
+# # 	}
+# # 	mean_time_to_happen = {
+# # 		days = 20
+# # 	}
+# # 	immediate = {
+# # 		hidden_effect = {
+# # 			add_equipment_to_stockpile = {
+# # 				type = laser_1
+# # 				# amount = 15
+# # 				amount = 45
+# # 			}
+# # 			add_equipment_to_stockpile = {
+# # 				type = heavy_laser_1
+# # 				# amount = 12
+# # 				amount = 36
+# # 			}
+# # 			if = {
+# # 				limit = {
+# # 					BETA陆军数量未到达当前巢穴等级上限 = yes
+# # 				}
+# # 				FROM = {
+# # 					country_event = {
+# # 						id = mvlv_beta_production.6000
+# # 					}
+# # 				}
+# # 			}
+# # 			else = {
+# # 				add_equipment_to_stockpile = {
+# # 					type = laser_1
+# # 					amount = 30
+# # 					# amount = 90
+# # 				}
+# # 				add_equipment_to_stockpile = {
+# # 					type = heavy_laser_1
+# # 					amount = 24
+# # 					# amount = 72
+# # 				}
+# # 			}
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.7
+# # 	fire_only_once = no
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 		NOT = {
+# # 			has_idea = mvlv_brokenhive
+# # 		}
+# # 		has_idea = hive_phase_7
+# # 	}
+# # 	mean_time_to_happen = {
+# # 		days = 20
+# # 	}
+# # 	immediate = {
+# # 		hidden_effect = {
+# # 			add_equipment_to_stockpile = {
+# # 				type = laser_1
+# # 				# amount = 20
+# # 				amount = 60
+# # 			}
+# # 			add_equipment_to_stockpile = {
+# # 				type = heavy_laser_1
+# # 				# amount = 16
+# # 				amount = 48
+# # 			}
+# # 			if = {
+# # 				limit = {
+# # 					BETA陆军数量未到达当前巢穴等级上限 = yes
+# # 				}
+# # 				FROM = {
+# # 					country_event = {
+# # 						id = mvlv_beta_production.6000
+# # 					}
+# # 				}
+# # 			}
+# # 			else = {
+# # 				add_equipment_to_stockpile = {
+# # 					type = laser_1
+# # 					amount = 25
+# # 					# amount = 75
+# # 				}
+# # 				add_equipment_to_stockpile = {
+# # 					type = heavy_laser_1
+# # 					amount = 20
+# # 					# amount = 60
+# # 				}
+# # 			}
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.8
+# # 	fire_only_once = no
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 		NOT = {
+# # 			has_idea = mvlv_brokenhive
+# # 		}
+# # 		has_idea = hive_phase_8
+# # 	}
+# # 	mean_time_to_happen = {
+# # 		days = 20
+# # 	}
+# # 	immediate = {
+# # 		hidden_effect = {
+# # 			add_equipment_to_stockpile = {
+# # 				type = laser_1
+# # 				# amount = 25
+# # 				amount = 75
+# # 			}
+# # 			add_equipment_to_stockpile = {
+# # 				type = heavy_laser_1
+# # 				# amount = 20
+# # 				amount = 60
+# # 			}
+# # 			if = {
+# # 				limit = {
+# # 					BETA陆军数量未到达当前巢穴等级上限 = yes
+# # 				}
+# # 				FROM = {
+# # 					country_event = {
+# # 						id = mvlv_beta_production.6000
+# # 					}
+# # 				}
+# # 			}
+# # 			else = {
+# # 				add_equipment_to_stockpile = {
+# # 					type = laser_1
+# # 					amount = 25
+# # 					# amount = 75
+# # 				}
+# # 				add_equipment_to_stockpile = {
+# # 					type = heavy_laser_1
+# # 					amount = 20
+# # 					# amount = 60
+# # 				}
+# # 			}
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.9
+# # 	fire_only_once = no
+# # 	hidden = yes
+# # 	trigger = {
+# # 		is_in_faction_with = BET
+# # 		NOT = {
+# # 			has_idea = mvlv_brokenhive
+# # 		}
+# # 		has_idea = hive_phase_9
+# # 	}
+# # 	mean_time_to_happen = {
+# # 		days = 20
+# # 	}
+# # 	immediate = {
+# # 		hidden_effect = {
+# # 			add_equipment_to_stockpile = {
+# # 				type = laser_1
+# # 				# amount = 30
+# # 				amount = 90
+# # 			}
+# # 			add_equipment_to_stockpile = {
+# # 				type = heavy_laser_1
+# # 				# amount = 24
+# # 				amount = 72
+# # 			}
+# # 			if = {
+# # 				limit = {
+# # 					BETA陆军数量未到达当前巢穴等级上限 = yes
+# # 				}
+# # 				FROM = {
+# # 					country_event = {
+# # 						id = mvlv_beta_production.6000
+# # 					}
+# # 				}
+# # 			}
+# # 			else = {
+# # 				add_equipment_to_stockpile = {
+# # 					type = laser_1
+# # 					amount = 30
+# # 					# amount = 90
+# # 				}
+# # 				add_equipment_to_stockpile = {
+# # 					type = heavy_laser_1
+# # 					amount = 24
+# # 					# amount = 72
+# # 				}
+# # 			}
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.3000
+# # 	fire_only_once = no
+# # 	hidden = yes
+# # 	is_triggered_only = yes
+# # 	immediate = {
+# # 		FROM = {
+# # 			random_list = {
+# # 				10 = {
+# # 					capital_scope = {
+# # 						create_unit = {
+# # 							division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+# # 							owner = PREV
+# # 							count = 6
+# # 						}
+# # 					}
+# # 				}
+# # 				10 = {
+# # 					capital_scope = {
+# # 						create_unit = {
+# # 							division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+# # 							owner = PREV
+# # 							count = 3
+# # 						}
+# # 						create_unit = {
+# # 							division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+# # 							owner = PREV
+# # 							count = 9
+# # 						}
+# # 					}
+# # 				}
+# # 				10 = {
+# # 					capital_scope = {
+# # 						create_unit = {
+# # 							division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+# # 							owner = PREV
+# # 							count = 18
+# # 						}
+# # 					}
+# # 				}
+# # 			}
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.4000
+# # 	fire_only_once = no
+# # 	hidden = yes
+# # 	is_triggered_only = yes
+# # 	immediate = {
+# # 		FROM = {
+# # 			country_event = {
+# # 				id = mvlv_beta_production.3000
+# # 			}
+# # 			capital_scope = {
+# # 				create_unit = {
+# # 					division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+# # 					owner = PREV
+# # 					count = 6
+# # 				}
+# # 			}
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.5000
+# # 	fire_only_once = no
+# # 	hidden = yes
+# # 	is_triggered_only = yes
+# # 	immediate = {
+# # 		FROM = {
+# # 			random_list = {
+# # 				10 = {
+# # 					capital_scope = {
+# # 						create_unit = {
+# # 							division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+# # 							owner = PREV
+# # 							count = 9
+# # 						}
+# # 						create_unit = {
+# # 							division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+# # 							owner = PREV
+# # 							count = 3
+# # 						}
+# # 					}
+# # 				}
+# # 				10 = {
+# # 					capital_scope = {
+# # 						create_unit = {
+# # 							division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+# # 							owner = PREV
+# # 							count = 6
+# # 						}
+# # 						create_unit = {
+# # 							division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+# # 							owner = PREV
+# # 							count = 12
+# # 						}
+# # 					}
+# # 				}
+# # 				10 = {
+# # 					capital_scope = {
+# # 						create_unit = {
+# # 							division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+# # 							owner = PREV
+# # 							count = 30
+# # 						}
+# # 					}
+# # 				}
+# # 			}
+# # 		}
+# # 	}
+# # }
+# # country_event = {
+# # 	id = mvlv_beta_production.6000
+# # 	fire_only_once = no
+# # 	hidden = yes
+# # 	is_triggered_only = yes
+# # 	immediate = {
+# # 		FROM = {
+# # 			random_list = {
+# # 				10 = {
+# # 					capital_scope = {
+# # 						create_unit = {
+# # 							division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+# # 							owner = PREV
+# # 							count = 12
+# # 						}
+# # 					}
+# # 				}
+# # 				10 = {
+# # 					capital_scope = {
+# # 						create_unit = {
+# # 							division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+# # 							owner = PREV
+# # 							count = 6
+# # 						}
+# # 						create_unit = {
+# # 							division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+# # 							owner = PREV
+# # 							count = 18
+# # 						}
+# # 					}
+# # 				}
+# # 				10 = {
+# # 					capital_scope = {
+# # 						create_unit = {
+# # 							division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+# # 							owner = PREV
+# # 							count = 36
+# # 						}
+# # 					}
+# # 				}
+# # 			}
+# # 		}
+# # 	}
+# # }

@@ -1,0 +1,33 @@
+state={
+	id=10
+	name="STATE_10"
+	manpower = 3089000
+
+	state_category = large_city
+
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			add_core_of = EEA
+			remove_core_of = POL
+		}
+		owner = POL
+		victory_points = {
+			3544 1
+		}
+		victory_points = {
+			402 1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 6
+			industrial_complex = 2
+			air_base = 5
+		}
+		add_core_of = POL
+	}
+
+	provinces={
+		402 467 524 3482 3544 6511 9400 11492 12562 
+	}
+}

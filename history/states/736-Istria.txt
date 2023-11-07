@@ -1,0 +1,31 @@
+state={
+	id=736
+	name="STATE_736"
+	
+	state_category = city
+
+	history = {
+		1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
+			add_core_of = EUR
+		}
+		victory_points = {
+			6626 1 
+		}
+		owner = ITA
+		#add_core_of = EUR
+		#add_core_of = YUG
+		#add_core_of = SLV
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		599 6626 11595 11735 
+	}
+	manpower=1063159
+	buildings_max_level_factor=1.000
+}

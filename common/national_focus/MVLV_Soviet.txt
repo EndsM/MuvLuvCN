@@ -1,0 +1,958 @@
+focus_tree = {
+	id = soviet_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+		#modifier = {
+		#	add = 10
+		#	original_tag = SOV
+		#}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 20
+		y = 1000
+	}
+	#五年计划
+	focus = {
+		id = "SOV_AnotherFiveYearPlan"
+		icon = GFX_goal_generic_soviet_construction
+		x = 3
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#工厂迁移到阿拉斯加
+	focus = {
+		id = "SOV_RelocateProductionToAlaska"
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {
+			focus = "SOV_AnotherFiveYearPlan"
+		}
+		x = 1
+		y = 1
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			790 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			790 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#吸收难民劳工
+	focus = {
+		id = "SOV_AbsorbRefugeeAsLabourers"
+		icon = GFX_goal_generic_construction
+		prerequisite = {
+			focus = "SOV_RelocateProductionToAlaska"
+		}
+		x = 1
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.1
+		}
+	}
+	#战时经济动员
+	focus = {
+		id = "SOV_WartimeEconomyMobilization"
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {
+			focus = "SOV_AnotherFiveYearPlan"
+		}
+		prerequisite = {
+			focus = "SOV_CollectivismPropaganda"
+		}
+		x = 5
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = "战争动员"
+		}
+	}
+	#全力以赴
+	focus = {
+		id = "SOV_AtAllCosts"
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = "SOV_WartimeEconomyMobilization"
+		}
+		prerequisite = {
+			focus = "SOV_AllEthnicGroupEquality"
+		}
+		mutually_exclusive = {
+			focus = "SOV_SteadyAdvance"
+		}
+		x = 3
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -400
+			add_offsite_building = {
+				type = arms_factory
+				level = 35
+			}
+			add_offsite_building = {
+				type = industrial_complex
+				level = 5
+			}
+		}
+	}
+	#稳健前进
+	focus = {
+		id = "SOV_SteadyAdvance"
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = "SOV_WartimeEconomyMobilization"
+		}
+		mutually_exclusive = {
+			focus = "SOV_AtAllCosts"
+		}
+		x = 7
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -250
+			add_offsite_building = {
+				type = arms_factory
+				level = 25
+			}
+		}
+	}
+	#扩大基础工业
+	focus = {
+		id = "SOV_ExpandBasicIndustry"
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+			focus = "SOV_SteadyAdvance"
+			focus = "SOV_AtAllCosts"
+		}
+		x = 4
+		y = 4
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = industrial_complex
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#先进设备与工艺的引进
+	focus = {
+		id = "SOV_ImportAdvancedEquipmentandTechnology"
+		icon = GFX_goal_generic_production2
+		prerequisite = {
+			focus = "SOV_SteadyAdvance"
+			focus = "SOV_AtAllCosts"
+		}
+		x = 6
+		y = 4
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -100
+			add_ideas = "先进的设备与工艺"
+		}
+	}
+	#科研投资
+	focus = {
+		id = "SOV_InvestInResearch"
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = "SOV_ExpandBasicIndustry"
+			focus = "SOV_ImportAdvancedEquipmentandTechnology"
+		}
+		x = 5
+		y = 5
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	#总结装备生产经验
+	focus = {
+		id = "SOV_ConcludeExperienceFromEquipmentProduction"
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = {
+			focus = "SOV_InvestInResearch"
+		}
+		x = 4
+		y = 6
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "简化生产"
+		}
+	}
+	#G元素研究设施
+	focus = {
+		id = "SOV_GElementResearchFacility"
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = "SOV_InvestInResearch"
+		}
+		x = 6
+		y = 6
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.33
+				uses = 1
+				category = cat_strategic_bomber
+			}
+			add_tech_bonus = {
+				bonus = 0.33
+				uses = 3
+				category = nuclear
+			}
+			add_research_slot = 1
+		}
+	}
+	#加强控制
+	focus = {
+		id = "SOV_EnhanceControl"
+		icon = GFX_goal_support_communism
+		x = 11
+		y = 0
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 160
+		}
+	}
+	#集体主义宣传
+	focus = {
+		id = "SOV_CollectivismPropaganda"
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {
+			focus = "SOV_EnhanceControl"
+		}
+		x = 9
+		y = 1
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 120
+			add_stability = 0.1
+		}
+	}
+	#民族问题
+	focus = {
+		id = "SOV_EthnicGroupsIssue"
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = {
+			focus = "SOV_EnhanceControl"
+		}
+		x = 13
+		y = 1
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	#坚持各民族平等
+	focus = {
+		id = "SOV_AllEthnicGroupEquality"
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = {
+			focus = "SOV_EthnicGroupsIssue"
+		}
+		mutually_exclusive = {
+			focus = "SOV_Russianism"
+		}
+		x = 11
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "优待俄罗斯人"
+			remove_ideas = SOV_russian
+		}
+	}
+	#政治正确
+	focus = {
+		id = "SOV_PoliticalCorrectness"
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = {
+			focus = "SOV_AllEthnicGroupEquality"
+		}
+		mutually_exclusive = {
+			focus = "SOV_SteadyReformation"
+		}
+		x = 9
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "政治正确"
+			remove_ideas = "优待俄罗斯人"
+		}
+	}
+	#稳健改革
+	focus = {
+		id = "SOV_SteadyReformation"
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = {
+			focus = "SOV_AllEthnicGroupEquality"
+		}
+		mutually_exclusive = {
+			focus = "SOV_PoliticalCorrectness"
+		}
+		x = 12
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "平稳改革"
+			remove_ideas = "优待俄罗斯人"
+		}
+	}
+	#大俄罗斯主义
+	focus = {
+		id = "SOV_Russianism"
+		icon = GFX_goal_demand_sudetenland
+		prerequisite = {
+			focus = "SOV_EthnicGroupsIssue"
+		}
+		mutually_exclusive = {
+			focus = "SOV_AllEthnicGroupEquality"
+		}
+		x = 15
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "大俄罗斯主义"
+			remove_ideas = SOV_russian
+		}
+	}
+	#俄罗斯人的领导层
+	focus = {
+		id = "SOV_LeadershipMadeUpByRussianOnly"
+		icon = GFX_goal_demand_sudetenland
+		prerequisite = {
+			focus = "SOV_Russianism"
+		}
+		x = 15
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = SOV_russian2
+			#remove_idea = "大俄罗斯主义"
+		}
+	}
+	#统一的领导层
+	focus = {
+		id = "SOV_UnitedLeadershipClass"
+		icon = GFX_goal_generic_position_armies
+		prerequisite = {
+			focus = "SOV_SteadyReformation"
+			focus = "SOV_LeadershipMadeUpByRussianOnly"
+			focus = "SOV_PoliticalCorrectness"
+		}
+		bypass = {
+			has_completed_focus = "SOV_LeadershipMadeUpByRussianOnly"
+		}
+		x = 12
+		y = 4
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "统一的领导层"
+		}
+	}
+	#重回故乡
+	focus = {
+		id = "SOV_ReturnToOurHome"
+		icon = GFX_goal_generic_air_production
+		prerequisite = {
+			focus = "SOV_UnitedLeadershipClass"
+		}
+		available = {
+			219 = {
+				is_controlled_by = SOV
+			}
+			195 = {
+				is_controlled_by = SOV
+			}
+			202 = {
+				is_controlled_by = SOV
+			}
+			217 = {
+				is_controlled_by = SOV
+			}
+			137 = {
+				is_controlled_by = SOV
+			}
+		}
+		x = 12
+		y = 6
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			set_capital = {
+				state = 219
+			}
+			219 = {
+				add_extra_state_shared_building_slots = 12
+			}
+			195 = {
+				add_extra_state_shared_building_slots = 12
+			}
+			202 = {
+				add_extra_state_shared_building_slots = 12
+			}
+			217 = {
+				add_extra_state_shared_building_slots = 12
+			}
+			137 = {
+				add_extra_state_shared_building_slots = 12
+			}
+		}
+	}
+	#为了夺回祖国
+	focus = {
+		id = "SOV_ForMotherRussia"
+		icon = GFX_goal_generic_major_war
+		x = 23
+		y = 0
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	#重申党——军关系
+	focus = {
+		id = "SOV_RestatePartyAndArmyRelationship"
+		icon = GFX_goal_support_communism
+		prerequisite = {
+			focus = "SOV_ForMotherRussia"
+		}
+		x = 23
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			remove_ideas = SOV_warlord
+			add_political_power = -50
+		}
+	}
+	#确保革新派在军队的地位
+	focus = {
+		id = "SOV_EnsureRevolutionariesPositionInArmy"
+		icon = GFX_goal_generic_special_forces
+		prerequisite = {
+			focus = "SOV_RestatePartyAndArmyRelationship"
+		}
+		x = 21
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.4
+				uses = 2
+				category = land_doctrine
+			}
+			# add_tech_bonus = {
+			# 	bonus = 0.75
+			# 	uses = 2
+			# 	category = land_doctrine
+			# }
+		}
+	}
+	#总体战
+	focus = {
+		id = "SOV_TotalWar"
+		icon = GFX_goal_generic_axis_build_infantry
+		prerequisite = {
+			focus = "SOV_EnsureRevolutionariesPositionInArmy"
+		}
+		mutually_exclusive = {
+			focus = "SOV_EliteForces"
+		}
+		x = 18
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "总体战"
+		}
+	}
+	#钢铁洪流
+	focus = {
+		id = "SOV_FloodOfSteel"
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = {
+			focus = "SOV_TotalWar"
+		}
+		x = 16
+		y = 4
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "钢铁洪流"
+		}
+	}
+	#捍卫雄鹰
+	focus = {
+		id = "SOV_GuardianOfTheMotherland"
+		icon = GFX_goal_generic_territory_or_war
+		prerequisite = {
+			focus = "SOV_TotalWar"
+		}
+		x = 18
+		y = 4
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "捍卫雄鹰"
+		}
+	}
+	#完善的战术
+	focus = {
+		id = "SOV_TacticalPerfection"
+		icon = GFX_focus_eng_crush_the_dream
+		prerequisite = {
+			focus = "SOV_GuardianOfTheMotherland"
+			focus = "SOV_FloodOfSteel"
+		}
+		x = 17
+		y = 5
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "苏联式人海战术"
+		}
+	}
+	#精锐部队
+	focus = {
+		id = "SOV_EliteForces"
+		icon = GFX_goal_generic_territory_or_war
+		prerequisite = {
+			focus = "SOV_EnsureRevolutionariesPositionInArmy"
+		}
+		prerequisite = {
+			focus = "SOV_LeadershipMadeUpByRussianOnly	"
+		}
+		mutually_exclusive = {
+			focus = "SOV_TotalWar"
+		}
+		x = 21
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "精锐部队"
+		}
+	}
+	#红星天降
+	focus = {
+		id = "SOV_FormOrbitalDivers"
+		icon = GFX_goal_generic_build_airforce
+		prerequisite = {
+			focus = "SOV_EliteForces"
+		}
+		x = 21
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			# set_division_template_cap = {
+			# 	division_template = "轨道降下兵团"
+			# 	division_cap = 16
+			# }
+			add_equipment_to_stockpile = {
+				type = transport_plane_equipment
+				amount = 5
+				producer = ROOT
+			}
+		}
+	}
+	#П3计划完成
+	focus = {
+		id = "SOV_ProjectP3Completion"
+		icon = GFX_focus_prc_agrarian_socialism
+		prerequisite = {
+			focus = "SOV_TacticalPerfection"
+			focus = "SOV_FormOrbitalDivers"
+		}
+		x = 19
+		y = 6
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			set_technology = {
+				MVLV_sov_tec = 1
+			}
+			hidden_effect = {
+				SOV = {
+					load_oob = SOV_nf
+				}
+			}
+		}
+	}
+	#红色风暴行动
+	focus = {
+		id = "SOV_OperationRedStorm"
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		prerequisite = {
+			focus = "SOV_ProjectP3Completion"
+		}
+		x = 19
+		y = 7
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -50
+			SOV = {
+				country_event = mvlv_sov.3
+			}
+			unlock_decision_tooltip = {
+				decision = SOV_storms
+				show_effect_tooltip = yes
+				show_modifiers = yes
+			}
+			search_filters = {
+				FOCUS_FILTER_ANNEXATION
+			}
+		}
+	}
+	#中央军事会议
+	focus = {
+		id = "SOV_MilitaryLeadershipSummit"
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = {
+			focus = "SOV_RestatePartyAndArmyRelationship"
+		}
+		x = 25
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			army_experience = 100
+		}
+	}
+	#强化炮兵
+	focus = {
+		id = "SOV_EnhanceArtilleryUnits"
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = {
+			focus = "SOV_MilitaryLeadershipSummit"
+		}
+		x = 23
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "强化炮兵"
+		}
+	}
+	#战役法的改进
+	focus = {
+		id = "SOV_DoctrineImprovement"
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = {
+			focus = SOV_MilitaryLeadershipSummit
+		}
+		x = 25
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.55
+				uses = 2
+				category = land_doctrine
+			}
+			# add_tech_bonus = {
+			# 	bonus = 0.6
+			# 	uses = 2
+			# 	category = land_doctrine
+			# }
+		}
+	}
+	#前线指导
+	focus = {
+		id = "SOV_FrontlineGuidance"
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = "SOV_DoctrineImprovement"
+		}
+		x = 24
+		y = 4
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "前线指导"
+		}
+	}
+	#炮击数据链
+	focus = {
+		id = "SOV_BarrageDataLink"
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = {
+			focus = "SOV_DoctrineImprovement"
+		}
+		x = 26
+		y = 4
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = "炮击数据链"
+		}
+	}
+	#难民征兵
+	focus = {
+		id = "SOV_RefugeeConscription"
+		icon = GFX_goal_generic_build_tank
+		prerequisite = {
+			focus = "SOV_DoctrineImprovement"
+		}
+		x = 28
+		y = 4
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_manpower = 100000
+			add_stability = -0.05
+		}
+	}
+	#为BETA大战争取外援
+	focus = {
+		id = "SOV_SeekExternalSupportForWar"
+		icon = GFX_goal_generic_national_unity
+		x = 34
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	#与日本交涉
+	focus = {
+		id = "SOV_NegotiateWithJapan"
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = {
+			focus = "SOV_SeekExternalSupportForWar"
+		}
+		x = 31
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 75
+		}
+	}
+	#对日军售
+	focus = {
+		id = "SOV_ApproveArmSalesToJapan"
+		icon = GFX_goal_generic_build_tank
+		prerequisite = {
+			focus = "SOV_NegotiateWithJapan"
+		}
+		x = 31
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			JAP = {
+				add_ideas = "钢铁洪流"
+				add_political_power = -100
+			}
+			SOV = {
+				add_political_power = 100
+			}
+		}
+	}
+	#与美国交涉
+	focus = {
+		id = "SOV_NegotiateWithUSA"
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = {
+			focus = "SOV_SeekExternalSupportForWar"
+		}
+		x = 34
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 75
+		}
+	}
+	#与国联交涉
+	focus = {
+		id = "SOV_NegotiateWithUN"
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = {
+			focus = "SOV_SeekExternalSupportForWar"
+		}
+		x = 37
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 75
+		}
+	}
+	#向国联提供更多AL3的秘密
+	focus = {
+		id = "SOV_OfferAdditionalInfoAboutAL3ToUN"
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = {
+			focus = "SOV_NegotiateWithUN"
+		}
+		x = 37
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			SOV = {
+				add_political_power = 100
+			}
+			UNI = {
+				add_ideas = "AL3的更多信息"
+			}
+		}
+	}
+}

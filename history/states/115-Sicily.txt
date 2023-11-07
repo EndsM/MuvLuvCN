@@ -1,0 +1,43 @@
+
+state={
+	id=115
+	name="STATE_115"
+	manpower = 3836571
+	
+	state_category = city
+	history={
+		owner = EUR
+		add_core_of = EUR
+		victory_points = {
+			10074 5 
+		}
+		victory_points = {
+			4159 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			air_base = 4
+			dockyard = 5
+			radar_station = 1
+			10074 = {
+				naval_base = 10
+			}
+			7059 = {
+				naval_base = 2
+			}
+			4159 = {
+				naval_base = 5
+                               coastal_bunker = 5
+                                bunker = 2
+			}
+			4014 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces={
+		1009 1156 3857 4014 4159 7059 7147 10074 12047 
+	}
+}

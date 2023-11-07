@@ -1,0 +1,12 @@
+SOV_red_storm_category = {
+	icon = generic_prepare_civil_war
+
+	picture = GFX_decision_cat_naval_blockade
+	allowed = {
+		is_in_faction_with = SOV
+	}
+
+	visible = {
+		is_puppet = no
+	}
+}

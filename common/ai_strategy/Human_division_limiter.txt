@@ -1,0 +1,156 @@
+###人類国家の師団数を制限します。###
+
+division_limiter = {
+	enable = {
+		set_temp_variable = {
+			upper_limit = num_of_factories
+		}
+		###AIかつカナダ中南米のみ有効
+		if = {
+			limit = {
+				is_in_faction_with = UNI
+				is_ai = yes
+				has_war = yes
+				date > 1999.1.1
+				OR = {
+					original_tag = CEA
+					original_tag = SOA
+					original_tag = CAN
+				}
+			}
+			multiply_temp_variable = {
+				upper_limit = 0.20
+			}
+		}
+		if = {
+			limit = {
+				###ユーコン基地陥落
+				is_in_faction_with = UNI
+				is_ai = yes
+				has_war = yes
+				date > 1999.3.1
+				791 = {
+					OR= { 
+						is_controlled_by = H26
+						is_controlled_by = BET
+					}
+				}
+				OR = {
+					original_tag = CEA
+					original_tag = SOA
+					original_tag = CAN
+				}
+			}
+			multiply_temp_variable = {
+				upper_limit = 3.00
+			}
+		}
+		if = {
+			limit = {
+				###北米が溶けたorBETA陣営が近くにいる
+				is_in_faction_with = UNI
+				is_ai = yes
+				has_war = yes
+				date > 1999.4.1
+				OR = {
+					NOT = {TAG = SOV}
+					NOT = {TAG = USA}
+					NOT = {TAG = UNI}
+					NOT = {TAG = CAN}
+					is_neighbor_of = BET
+					is_neighbor_of = H26
+				}
+				OR = {
+					original_tag = CEA
+					original_tag = SOA
+					original_tag = CAN
+				}
+			}
+			multiply_temp_variable = {
+				upper_limit = 3.00
+			}
+		}
+		check_variable = {
+			num_divisions > upper_limit
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = build_army
+		id = tsf
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = cavalry
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = garrison
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = suppression
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = paratroopers
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = mountaineers
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = marines
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = light_armor
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = heavy_armor
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = medium_armor
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = modern_armor
+		value = -300
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = -300
+	}
+}

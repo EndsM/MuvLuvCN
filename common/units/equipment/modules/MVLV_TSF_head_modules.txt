@@ -1,0 +1,161 @@
+equipment_modules = {
+	MVLV_TSF_basic_head = {
+		category = MVLV_TSF_head_normal_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 2.0
+		}
+		multiply_stats = {
+			breakthrough = 0.1
+			defense = 0.1
+		}
+	}
+	MVLV_TSF_head_normal_1 = {
+		category = MVLV_TSF_head_normal_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5
+			recon = 0.1
+		}
+		multiply_stats = {
+			breakthrough = 0.02
+			defense = 0.02
+		}
+	}
+	MVLV_TSF_head_normal_2 = {
+		category = MVLV_TSF_head_normal_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 7
+			recon = 0.2
+		}
+		multiply_stats = {
+			breakthrough = 0.04
+			defense = 0.04
+		}
+	}
+	MVLV_TSF_head_normal_3 = {
+		category = MVLV_TSF_head_normal_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 10
+			recon = 0.3
+		}
+		multiply_stats = {
+			breakthrough = 0.08
+			defense = 0.08
+		}
+	}
+	MVLV_TSF_head_normal_4 = {
+		category = MVLV_TSF_head_normal_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 15
+			recon = 0.5
+		}
+		multiply_stats = {
+			breakthrough = 0.12
+			defense = 0.12
+		}
+	}
+	MVLV_TSF_head_small_1 = {
+		category = MVLV_TSF_head_small_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 3
+			#armor_value = 10
+		}
+		multiply_stats = {
+			breakthrough = 0.03
+			defense = 0.03
+		}
+	}
+	MVLV_TSF_head_small_2 = {
+		category = MVLV_TSF_head_small_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5
+			#armor_value = 15
+		}
+		multiply_stats = {
+			breakthrough = 0.06
+			defense = 0.06
+		}
+	}
+	MVLV_TSF_head_small_3 = {
+		category = MVLV_TSF_head_small_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 7
+			#armor_value = 17
+		}
+		multiply_stats = {
+			breakthrough = 0.1
+			defense = 0.1
+		}
+	}
+	MVLV_TSF_head_small_4 = {
+		category = MVLV_TSF_head_small_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 10
+			#armor_value = 20
+		}
+		multiply_stats = {
+			breakthrough = 0.15
+			defense = 0.15
+		}
+	}
+	MVLV_TSF_head_spherical_1 = {
+		category = MVLV_TSF_head_spherical_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 7
+			armor_value = 4
+		}
+		multiply_stats = {
+			breakthrough = 0.04
+			defense = 0.04
+			max_strength = 0.02
+		}
+	}
+	MVLV_TSF_head_spherical_2 = {
+		category = MVLV_TSF_head_spherical_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 10
+			armor_value = 6
+		}
+		multiply_stats = {
+			breakthrough = 0.08
+			defense = 0.08
+			max_strength = 0.05
+		}
+	}
+	MVLV_TSF_head_spherical_3 = {
+		category = MVLV_TSF_head_spherical_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 15
+			armor_value = 8
+		}
+		multiply_stats = {
+			breakthrough = 0.12
+			defense = 0.12
+			max_strength = 0.1
+		}
+	}
+	MVLV_TSF_head_spherical_4 = {
+		category = MVLV_TSF_head_spherical_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 20
+			armor_value = 10
+		}
+		multiply_stats = {
+			breakthrough = 0.16
+			defense = 0.16
+			max_strength = 0.2
+		}
+	}
+}

@@ -1,0 +1,1039 @@
+focus_tree = {
+	id = MUV_AFR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AFR
+		}
+	}
+	#ステートIDがわからないために建設系NFが未完成。
+	default = no
+	continuous_focus_position = {
+		x = 20
+		y = 1000
+	}
+	reset_on_civilwar = no
+	#shared_focus = common_refugee_tech_sharing
+	#shared_focus = common_adopt_powered_suits
+	#shared_focus = common_experience_of_BETA_war
+	#shared_focus = common_refugee_support_request
+	focus = {
+		id = AFR_SecureSuezFront
+		icon = GFX_goal_generic_fortify_city
+		cost = 3
+		x = 12
+		y = 0
+		completion_reward = {
+			446 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 12049
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 4073
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		# id = 整合指挥系统
+		id = AFR_ConsolidateCommandingSequence
+		icon = GFX_goal_generic_improve_relations
+		cost = 5
+		x = 20
+		y = 0
+		completion_reward = {
+			add_ideas = 统合的指挥系统
+		}
+	}
+	focus = {
+		# id = 评估防线强度
+		id = AFR_EvaluateDefenceLineCapabaility
+		icon = GFX_goal_generic_propaganda
+		cost = 1
+		prerequisite = {
+			focus = AFR_SecureSuezFront
+		}
+		x = 12
+		y = 1
+		completion_reward = {
+			army_experience = 50
+		}
+	}
+	focus = {
+		# id = 固若金汤
+		id = AFR_UnbreakableDefence
+		icon = GFX_goal_generic_position_armies
+		cost = 1
+		prerequisite = {
+			focus = AFR_EvaluateDefenceLineCapabaility
+		}
+		mutually_exclusive = {
+			focus = AFR_PrepareForAllPossibilities
+		}
+		x = 10
+		y = 2
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		# id = 专注后方
+		id = AFR_FocusOnHomefront
+		icon = GFX_goal_generic_construction
+		cost = 5
+		prerequisite = {
+			focus = AFR_UnbreakableDefence
+		}
+		x = 10
+		y = 3
+		completion_reward = {
+			add_stability = 0.1
+			add_ideas = 专注后方
+		}
+	}
+	focus = {
+		# id = 吸引投资
+		id = AFR_AttractInvestment
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5
+		prerequisite = {
+			focus = AFR_FocusOnHomefront
+		}
+		x = 10
+		y = 4
+		completion_reward = {
+			542 = {
+				add_extra_state_shared_building_slots = 20
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 5
+					instant_build = yes
+				}
+			}
+			543 = {
+				add_extra_state_shared_building_slots = 30
+			}
+		}
+	}
+	focus = {
+		# id = 资源开发
+		id = AFR_IncreaseResourcesProduction
+		icon = GFX_goal_generic_construction2
+		cost = 5
+		prerequisite = {
+			focus = AFR_AttractInvestment
+		}
+		x = 10
+		y = 5
+		completion_reward = {
+			add_ideas = 资源开发
+		}
+	}
+	focus = {
+		id = AFR_ImportAdvancedProductionTech
+		icon = GFX_goal_generic_production2
+		cost = 5
+		prerequisite = {
+			focus = AFR_IncreaseResourcesProduction
+		}
+		x = 10
+		y = 6
+		completion_reward = {
+			add_political_power = -150
+			add_ideas = 先进生产技术
+			EUR = {
+				add_political_power = 150
+			}
+		}
+	}
+	focus = {
+		# id = 解除消费品配额限制
+		id = AFR_LiftConsumerGoodsLimitation
+		icon = GFX_goal_generic_consumer_goods
+		cost = 5
+		prerequisite = {
+			focus = AFR_ImportAdvancedProductionTech
+		}
+		x = 10
+		y = 7
+		completion_reward = {
+			add_stability = 0.1
+			add_ideas = civilian_economy
+		}
+	}
+	focus = {
+		# id = 安全的大陆
+		id = AFR_SafeContinent
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		prerequisite = {
+			focus = AFR_LiftConsumerGoodsLimitation
+		}
+		x = 10
+		y = 8
+		completion_reward = {
+			remove_ideas = 专注后方
+			add_ideas = 安全的大陆
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 5
+			}
+		}
+	}
+	focus = {
+		# id = 太空军计划
+		id = AFR_FormOrbitalCorps
+		icon = GFX_goal_generic_territory_or_war
+		cost = 5
+		prerequisite = {
+			focus = AFR_SafeContinent
+		}
+		x = 8
+		y = 9
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = transport_plane_equipment
+				amount = 10
+				producer = ROOT
+			}
+		}
+	}
+	focus = {
+		# id = 重新定位非联作用
+		id = AFR_Re_evaluateOurPosition
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5
+		prerequisite = {
+			focus = AFR_SafeContinent
+		}
+		x = 10
+		y = 9
+		completion_reward = {
+			add_political_power = 300
+		}
+	}
+	focus = {
+		# id = 安稳的后方
+		id = AFR_SafeHomeFront
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5
+		prerequisite = {
+			focus = AFR_Re_evaluateOurPosition
+		}
+		x = 10
+		y = 10
+		completion_reward = {
+			remove_ideas = 安全的大陆
+			add_ideas = 安稳的后方
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 10
+			}
+		}
+	}
+	focus = {
+		# id = 未雨绸缪
+		id = AFR_PrepareForAllPossibilities
+		icon = GFX_goal_rhineland
+		cost = 1
+		prerequisite = {
+			focus = AFR_EvaluateDefenceLineCapabaility
+		}
+		mutually_exclusive = {
+			focus = AFR_UnbreakableDefence
+		}
+		x = 14
+		y = 2
+		completion_reward = {
+			add_ideas = 未雨绸缪
+		}
+	}
+	focus = {
+		# id = 备用防线
+		id = AFR_SecondaryDefenceLine
+		icon = GFX_goal_generic_fortify_city
+		cost = 5
+		prerequisite = {
+			focus = AFR_PrepareForAllPossibilities
+		}
+		x = 14
+		y = 3
+		completion_reward = {
+			446 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 10126
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 12004
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 7011
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 10005
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 7188
+					instant_build = yes
+				}
+			}
+			447 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 1071
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 堡垒群战术
+		id = AFR_FortificationGroupTactics
+		icon = GFX_goal_generic_defence
+		cost = 5
+		prerequisite = {
+			focus = AFR_SecondaryDefenceLine
+			focus = AFR_NorthAfricaCoastalDefence
+		}
+		x = 14
+		y = 4
+		completion_reward = {
+			add_ideas = 堡垒群战术
+		}
+	}
+	focus = {
+		# id = 请求军事援助
+		id = AFR_RequestMilitaryAids
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 5
+		prerequisite = {
+			focus = AFR_FortificationGroupTactics
+		}
+		x = 14
+		y = 5
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.5
+				uses = 3
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		# id = 参与战术机开发
+		id = AFR_ParticipateInTSFDev
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 5
+		prerequisite = {
+			focus = AFR_RequestMilitaryAids
+		}
+		x = 14
+		y = 6
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = MVLV_tsf_tech
+			}
+		}
+	}
+	focus = {
+		# id = 本土战术机生产
+		id = AFR_LocalizeTSFProduction
+		icon = GFX_goal_generic_production
+		cost = 5
+		prerequisite = {
+			focus = AFR_ParticipateInTSFDev
+		}
+		x = 14
+		y = 7
+		completion_reward = {
+			add_ideas = 本土战术机生产
+		}
+	}
+	focus = {
+		# id = 成熟的防御战理论
+		id = AFR_SeasonedDefenceDoctrine
+		icon = GFX_goal_generic_military_sphere
+		cost = 5
+		prerequisite = {
+			focus = AFR_LocalizeTSFProduction
+		}
+		x = 14
+		y = 8
+		completion_reward = {
+			army_experience = 200
+			remove_ideas = 堡垒群战术
+			add_ideas = 成熟的防御战理论
+		}
+	}
+	focus = {
+		# id = 反击的准备
+		id = AFR_PrepareForCounterAttack
+		icon = GFX_goal_generic_small_arms
+		cost = 5
+		prerequisite = {
+			focus = AFR_SeasonedDefenceDoctrine
+		}
+		x = 14
+		y = 9
+		completion_reward = {
+			remove_ideas = 未雨绸缪
+			add_timed_idea = {
+				idea = 反击的准备
+				days = 180
+			}
+		}
+	}
+	focus = {
+		# id = 剑指安巴尔
+		id = AFR_TargetH09
+		icon = GFX_goal_generic_major_war
+		cost = 1
+		prerequisite = {
+			focus = AFR_PrepareForCounterAttack
+		}
+		available = {
+			NOT = {
+				has_idea = 反击的准备
+			}
+		}
+		x = 14
+		y = 10
+		completion_reward = {
+			add_timed_idea = {
+				idea = 反击
+				days = 60
+			}
+		}
+	}
+	focus = {
+		# id = 北非沿岸防线
+		id = AFR_NorthAfricaCoastalDefence
+		icon = GFX_goal_generic_small_arms
+		cost = 5
+		prerequisite = {
+			focus = AFR_PrepareForAllPossibilities
+		}
+		x = 16
+		y = 3
+		completion_reward = {
+			290 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 12087
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 9945
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 4199
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 12100
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 7215
+					instant_build = yes
+				}
+			}
+			458 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 9994
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 4163
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 7162
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 11921
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 10091
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 11969
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 中东联军的经验
+		id = AFR_LessonsFromJihadUnionForce
+		icon = GFX_goal_generic_attack_allies
+		cost = 5
+		prerequisite = {
+			focus = AFR_ConsolidateCommandingSequence
+		}
+		x = 20
+		y = 1
+		completion_reward = {
+			army_experience = 200
+		}
+	}
+	focus = {
+		# id = 行政系统改革
+		id = AFR_ReformAdministrativeSystem
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 5
+		prerequisite = {
+			focus = AFR_LessonsFromJihadUnionForce
+		}
+		x = 20
+		y = 2
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		# id = 更加紧密的非洲联合
+		id = AFR_aNewAfricaUnion
+		icon = GFX_goal_generic_national_unity
+		cost = 5
+		prerequisite = {
+			focus = AFR_ReformAdministrativeSystem
+		}
+		x = 20
+		y = 3
+		completion_reward = {
+			add_stability = 0.1
+			remove_ideas = loose_alliance
+		}
+	}
+	focus = {
+		# id = 向欧联靠拢
+		id = AFR_IntimateEuropeanUnion
+		icon = GFX_goal_generic_major_alliance
+		cost = 5
+		prerequisite = {
+			focus = AFR_aNewAfricaUnion
+		}
+		mutually_exclusive = {
+			focus = AFR_IndependentAfricaUnion
+		}
+		x = 18
+		y = 4
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 100
+			EUR = {
+				add_political_power = 100
+			}
+		}
+	}
+	focus = {
+		# id = 自主的非洲
+		id = AFR_IndependentAfricaUnion
+		icon = GFX_goal_generic_demand_territory
+		cost = 5
+		prerequisite = {
+			focus = AFR_aNewAfricaUnion
+		}
+		mutually_exclusive = {
+			focus = AFR_IntimateEuropeanUnion
+		}
+		x = 22
+		y = 4
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = 自立自强
+		}
+	}
+	focus = {
+		# id = 资源换工业
+		id = AFR_ResourcesForIndustry
+		icon = GFX_goal_generic_oil_refinery
+		cost = 5
+		prerequisite = {
+			focus = AFR_IntimateEuropeanUnion
+		}
+		x = 18
+		y = 5
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 20
+				add_building_construction = {
+					type = arms_factory
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
+			}
+			EUR = {
+				random_owned_state = {
+					add_resource = {
+						type = chromium
+						amount = 60
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 协防西西里
+		id = AFR_CoopDefenceSicily
+		icon = GFX_goal_generic_construct_civilian
+		cost = 5
+		prerequisite = {
+			focus = AFR_ResourcesForIndustry
+		}
+		x = 18
+		y = 6
+		available = {
+			115 = {
+				is_controlled_by = EUR
+			}
+		}
+		bypass = {
+			115 = {
+				NOT = {
+					is_controlled_by = EUR
+				}
+			}
+		}
+		completion_reward = {
+			458 = {
+				create_unit = {
+					division = "name = \"战术机联队\" division_template = \"战术机联队\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"战术机联队\" division_template = \"战术机联队\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"战术机联队\" division_template = \"战术机联队\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"战术机联队\" division_template = \"战术机联队\" start_experience_factor = 0.1"
+					owner = ROOT
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 购买欧洲战术机
+		id = AFR_PurchaseEuroTSFs
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 5
+		prerequisite = {
+			focus = AFR_CoopDefenceSicily
+		}
+		x = 18
+		y = 7
+		completion_reward = {
+			AFR = {
+				add_political_power = -150
+				# add_equipment_to_stockpile = {
+				# 	type = tsf_equipment_Rafale
+				# 	amount = 600
+				# 	producer = EUR
+				# }
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_1_light
+					amount = 600
+					producer = EUR
+				}
+			}
+			EUR = {
+				add_political_power = 150
+			}
+		}
+	}
+	focus = {
+		# id = 寻求科研合作
+		id = AFR_SeekDevCoop
+		icon = GFX_focus_research
+		cost = 5
+		prerequisite = {
+			focus = AFR_ProvideConsumableForEU
+		}
+		x = 18
+		y = 9
+		completion_reward = {
+			EUR = {
+				add_political_power = 100
+			}
+			add_research_slot = 1
+			add_political_power = -100
+		}
+	}
+	focus = {
+		#id = 为欧联提供消费品
+		id = AFR_ProvideConsumableForEU
+		icon = GFX_goal_generic_consumer_goods
+		cost = 5
+		prerequisite = {
+			focus = AFR_PurchaseEuroTSFs
+		}
+		x = 18
+		y = 8
+		completion_reward = {
+			add_ideas = 与欧联消费品的交易
+			add_political_power = 100
+			EUR = {
+				add_political_power = -100
+				add_ideas = 与非联的交易
+			}
+		}
+	}
+	focus = {
+		# id = 联合压制H12
+		id = AFR_JointH12Suppression
+		icon = GFX_goal_generic_army_tanks
+		cost = 1
+		prerequisite = {
+			focus = AFR_SeekDevCoop
+			focus = AFR_PrepareForCounterAttack
+		}
+		x = 18
+		y = 10
+		completion_reward = {
+			add_timed_idea = {
+				idea = 出击
+				days = 60
+			}
+		}
+	}
+	focus = {
+		# id = 与欧联的有限合作
+		id = AFR_LimitedCoopWithEU
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5
+		prerequisite = {
+			focus = AFR_IndependentAfricaUnion
+		}
+		x = 22
+		y = 5
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 10
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 5
+					instant_build = yes
+				}
+			}
+			EUR = {
+				add_political_power = 100
+			}
+		}
+	}
+	focus = {
+		# id = 增加分担金
+		id = AFR_IncreaseOurShare
+		icon = GFX_goal_generic_improve_relations
+		cost = 5
+		prerequisite = {
+			focus = AFR_WorkWithUNIndustries
+		}
+		x = 22
+		y = 7
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = 国联分担协议修正案
+			remove_ideas = MVLV_UNF
+		}
+	}
+	focus = {
+		# id = 与国联工业合作
+		id = AFR_WorkWithUNIndustries
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 5
+		prerequisite = {
+			focus = AFR_LimitedCoopWithEU
+		}
+		x = 22
+		y = 6
+		completion_reward = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 10
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		# id = 加入国联项目
+		id = AFR_ParticipateInUNProject
+		icon = GFX_focus_research
+		cost = 5
+		prerequisite = {
+			focus = AFR_IncreaseOurShare
+		}
+		x = 22
+		y = 8
+		completion_reward = {
+			UNI = {
+				add_political_power = 100
+			}
+			add_research_slot = 1
+			add_political_power = -50
+		}
+	}
+	focus = {
+		# id = 收获
+		id = AFR_Rewards
+		icon = GFX_goal_generic_propaganda
+		cost = 5
+		prerequisite = {
+			focus = AFR_ParticipateInUNProject
+		}
+		x = 22
+		y = 9
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 3
+				category = MVLV_tsf_tech
+			}
+		}
+	}
+	focus = {
+		# id = 胜利的鼓舞
+		id = AFR_VictoryInspiration
+		icon = GFX_focus_wonderweapons
+		cost = 5
+		prerequisite = {
+			focus = AFR_TargetH09
+			focus = AFR_JointH12Suppression
+		}
+		available = {
+			OR = {
+				675 = {
+					is_controlled_by = AFR
+				}
+				20 = {
+					is_controlled_by = EUR
+				}
+			}
+		}
+		x = 16
+		y = 11
+		completion_reward = {
+			add_timed_idea = {
+				idea = 胜利的鼓舞
+				days = 180
+			}
+		}
+	}
+	focus = {
+		# id = 聘请美国军事顾问
+		id = AFR_EmployUSMilitaryAdvisors
+		icon = GFX_goal_generic_intelligence_exchange
+		relative_position_id = AFR_aNewAfricaUnion
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = AFR_aNewAfricaUnion
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			USA = {
+				add_political_power = 100
+				add_war_support = 0.1
+			}
+			add_political_power = -100
+			army_experience = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		# id = 扩大A-10采购
+		id = "AFR_IncreaseWarthogImportAmount"
+		icon = GFX_goal_generic_national_unity
+		relative_position_id = "AFR_EmployUSMilitaryAdvisors"
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = "AFR_EmployUSMilitaryAdvisors"
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			USA = {
+				add_political_power = 100
+			}
+			add_political_power = -100
+			add_equipment_to_stockpile = {
+				type = tsa_equipment_A-10
+				amount = 480
+				producer = USA
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		# id = 加入NATO情报系统
+		id = "AFR_JoinNATOIntelNetwork"
+		icon = GFX_goal_generic_dangerous_deal
+		relative_position_id = "AFR_IncreaseWarthogImportAmount"
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = "AFR_IncreaseWarthogImportAmount"
+		}
+		available = {
+			USA = {
+				has_completed_focus = USA_US_Euro_AfricaAlliance
+			}
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			USA = {
+				add_political_power = 50
+			}
+			add_political_power = -50
+			add_ideas = NATO情报网
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		# id = 接收NATO非联军
+		id = "AFR_AcceptNATO_AfricaCoalitionForce"
+		icon = GFX_goal_tripartite_pact
+		relative_position_id = "AFR_JoinNATOIntelNetwork"
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = "AFR_JoinNATOIntelNetwork"
+		}
+		available = {
+			USA = {
+				has_completed_focus = USA_NATO_Africa_JointForces
+			}
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 5
+		completion_reward = {
+			USA = {
+				add_political_power = 100
+			}
+			capital_scope = {
+				create_unit = {
+					division = "name = \"战术机联队\" division_template = \"战术机联队\" start_experience_factor = 0.5"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"战术机联队\" division_template = \"战术机联队\" start_experience_factor = 0.5"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"战术机联队\" division_template = \"战术机联队\" start_experience_factor = 0.5"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"战术机联队\" division_template = \"战术机联队\" start_experience_factor = 0.5"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"战术机联队\" division_template = \"战术机联队\" start_experience_factor = 0.5"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"战术机联队\" division_template = \"战术机联队\" start_experience_factor = 0.5"
+					owner = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

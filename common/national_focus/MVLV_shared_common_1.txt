@@ -1,0 +1,878 @@
+###汎用ツリー へ ようこそ ###
+shared_focus = {
+	id = common_refugee_tech_sharing
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 33
+	y = 0
+	#	offset = { 
+	#		x = 
+	#		y = 
+	#		trigger = {	}
+	#	}
+	#	relative_position_id = 
+	#prerequisite = { focus = }
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	#select_effect = { }
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.75
+			uses = 3
+			category = industry
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_civilian_preparing
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = common_refugee_tech_sharing
+	prerequisite = {
+		focus = common_refugee_tech_sharing
+	}
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	#select_effect = { }
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+				type = industrial_complex
+				level = 5
+				instant_build = yes
+			}
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_national_reconstruction_plan
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = common_civilian_preparing
+	prerequisite = {
+		focus = common_civilian_preparing
+	}
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	#select_effect = { }
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 5
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 5
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 5
+				instant_build = yes
+			}
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_adopt_powered_suits
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 2
+	y = 0
+	relative_position_id = common_refugee_tech_sharing
+	#prerequisite = { focus = }
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	#select_effect = { }
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = infantry_weapons
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_construct_tsf_factory
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = common_adopt_powered_suits
+	prerequisite = {
+		focus = common_adopt_powered_suits
+	}
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	#select_effect = { }
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+				type = arms_factory
+				level = 5
+				instant_build = yes
+			}
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_boost_supply_capacity
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = common_construct_tsf_factory
+	prerequisite = {
+		focus = common_construct_tsf_factory
+	}
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	#select_effect = { }
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+				type = dockyard
+				level = 5
+				instant_build = yes
+			}
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_a_step_for_tomorrow
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 1
+	y = 1
+	relative_position_id = common_national_reconstruction_plan
+	prerequisite = {
+		focus = common_national_reconstruction_plan
+		focus = common_boost_supply_capacity
+	}
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 10
+	#select_effect = { }
+	completion_reward = {
+		add_research_slot = 1
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_war_of_men_with_no_gun
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = -1
+	y = 1
+	relative_position_id = common_a_step_for_tomorrow
+	prerequisite = {
+		focus = common_a_step_for_tomorrow
+	}
+	mutually_exclusive = {
+		focus = common_preparing_massive_counterattack
+	}
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 10
+	#select_effect = { }
+	completion_reward = {
+		every_owned_state = {
+			limit = {
+				is_fully_controlled_by = owner
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_preparing_massive_counterattack
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 1
+	y = 1
+	relative_position_id = common_a_step_for_tomorrow
+	prerequisite = {
+		focus = common_a_step_for_tomorrow
+	}
+	mutually_exclusive = {
+		focus = common_war_of_men_with_no_gun
+	}
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 10
+	#select_effect = { }
+	completion_reward = {
+		every_owned_state = {
+			limit = {
+				is_fully_controlled_by = owner
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+#_______________________________________________
+#研究ツリー
+shared_focus = {
+	id = common_experience_of_BETA_war
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 2
+	y = 0
+	relative_position_id = common_adopt_powered_suits
+	#prerequisite = { focus = }
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 10
+	#select_effect = { }
+	completion_reward = {
+		army_experience = 100
+		navy_experience = 100
+		air_experience = 100
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_develop_counter_BETA_tactics
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = common_experience_of_BETA_war
+	prerequisite = {
+		focus = common_experience_of_BETA_war
+	}
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 10
+	#select_effect = { }
+	completion_reward = {
+		add_doctrine_cost_reduction = {
+			name = land_doctrine
+			cost_reduction = 0.33
+			uses = 5
+			category = land_doctrine
+		}
+		# add_tech_bonus = {
+		# 	bonus = 0.5
+		# 	uses = 5
+		# 	category = land_doctrine
+		# }
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_establish_supply_line
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = common_develop_counter_BETA_tactics
+	prerequisite = {
+		focus = common_develop_counter_BETA_tactics
+	}
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	#select_effect = { }
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = MVLV_tsf_tech
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_use_battle_experience_in_research
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = common_establish_supply_line
+	prerequisite = {
+		focus = common_establish_supply_line
+	}
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 10
+	#select_effect = { }
+	completion_reward = {
+		add_research_slot = 1
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+#_______________________________________________
+#政治ツリー
+shared_focus = {
+	id = common_refugee_support_request
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 3
+	y = 0
+	relative_position_id = common_experience_of_BETA_war
+	#prerequisite = { focus = }
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 10
+	#select_effect = { }
+	completion_reward = {
+		add_political_power = 300
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_refugee_job_mediation
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = -1
+	y = 1
+	relative_position_id = common_refugee_support_request
+	prerequisite = {
+		focus = common_refugee_support_request
+	}
+	mutually_exclusive = {
+		focus = common_mobilize_refugee
+	}
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	#select_effect = { }
+	completion_reward = {
+		from = {
+			swap_ideas = {
+				remove_idea = MVLV_UNF
+				add_idea = MVLV_UNF_1
+			}
+		}
+		UNI = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 5
+			}
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_resource_exploit_in_backyard_countries
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = common_refugee_job_mediation
+	prerequisite = {
+		focus = common_refugee_job_mediation
+	}
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	#select_effect = { }
+	completion_reward = {
+		add_stability = 0.1
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_support_tsf_production
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = common_resource_exploit_in_backyard_countries
+	prerequisite = {
+		focus = common_resource_exploit_in_backyard_countries
+	}
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	#select_effect = { }
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 5
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_mobilize_refugee
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 1
+	y = 1
+	relative_position_id = common_refugee_support_request
+	prerequisite = {
+		focus = common_refugee_support_request
+	}
+	mutually_exclusive = {
+		focus = common_refugee_job_mediation
+	}
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	#select_effect = { }
+	completion_reward = {
+		from = {
+			swap_ideas = {
+				remove_idea = MVLV_UNF
+				add_idea = MVLV_UNF_2
+			}
+		}
+		UNI = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 5
+			}
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_refugee_conscription
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = common_mobilize_refugee
+	prerequisite = {
+		focus = common_mobilize_refugee
+	}
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	#select_effect = { }
+	completion_reward = {
+		add_war_support = 0.1
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_support_UNI_forces
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = common_refugee_conscription
+	prerequisite = {
+		focus = common_refugee_conscription
+	}
+	#mutually_exclusive = { focus =  }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 5
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_provide_XM3
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 2
+	y = 1
+	relative_position_id = common_support_UNI_forces
+	prerequisite = {
+		focus = common_support_tsf_production
+		focus = common_support_UNI_forces
+	}
+	#mutually_exclusive = {  }
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	#select_effect = { }
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = MVLV_TSF_chassis
+			amount = 360
+			producer = UNI
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_self_determination
+	icon = GFX_goal_generic_national_unity
+	x = -2
+	y = 1
+	relative_position_id = common_support_UNI_forces
+	prerequisite = {
+		focus = common_support_tsf_production
+		focus = common_support_UNI_forces
+	}
+	mutually_exclusive = {
+		focus = common_human_unification
+	}
+	mutually_exclusive = {
+		focus = common_cooperation_agreement
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 10
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = MVLV_UNF
+			}
+			remove_ideas = MVLV_UNF
+		}
+		if = {
+			limit = {
+				has_idea = MVLV_UNF_1
+			}
+			remove_ideas = MVLV_UNF_1
+		}
+		if = {
+			limit = {
+				has_idea = MVLV_UNF_2
+			}
+			remove_ideas = MVLV_UNF_2
+		}
+		add_timed_idea = {
+			idea = MVLV_UNF_out
+			days = 280
+		}
+		add_war_support = 0.2
+		UNI = {
+			add_stability = -0.1
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_human_unification
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = common_support_UNI_forces
+	prerequisite = {
+		focus = common_support_tsf_production
+		focus = common_support_UNI_forces
+	}
+	mutually_exclusive = {
+		focus = common_self_determination
+	}
+	mutually_exclusive = {
+		focus = common_cooperation_agreement
+	}
+	available = {
+		is_subject = no
+	}
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 10
+	#select_effect = { }
+	completion_reward = {
+		UNI = {
+			puppet = ROOT
+		}
+		add_stability = 0.1
+		add_war_support = 0.1
+		UNI = {
+			add_stability = 0.1
+		}
+		if = {
+			limit = {
+				has_idea = MVLV_UNF
+			}
+			remove_ideas = MVLV_UNF
+		}
+		if = {
+			limit = {
+				has_idea = MVLV_UNF_1
+			}
+			remove_ideas = MVLV_UNF_1
+		}
+		if = {
+			limit = {
+				has_idea = MVLV_UNF_2
+			}
+			remove_ideas = MVLV_UNF_2
+		}
+	}
+	#completation_tooltip = { }
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = common_cooperation_agreement
+	icon = GFX_goal_generic_national_unity
+	x = -4
+	y = 1
+	relative_position_id = common_support_UNI_forces
+	prerequisite = {
+		focus = common_support_tsf_production
+		focus = common_support_UNI_forces
+	}
+	mutually_exclusive = {
+		focus = common_human_unification
+	}
+	mutually_exclusive = {
+		focus = common_self_determination
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 10
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = MVLV_UNF
+			}
+			remove_ideas = MVLV_UNF
+		}
+		if = {
+			limit = {
+				has_idea = MVLV_UNF_1
+			}
+			remove_ideas = MVLV_UNF_1
+		}
+		if = {
+			limit = {
+				has_idea = MVLV_UNF_2
+			}
+			remove_ideas = MVLV_UNF_2
+		}
+		add_ideas = MVLV_UNF_with
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}

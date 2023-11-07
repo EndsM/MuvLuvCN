@@ -1,0 +1,135 @@
+﻿l_simp_chinese:
+ AC_DECISIONS:0 "建造项目"
+ AC_DECISIONS_desc:0 "在同盟国的领土上进行建造。"
+
+ AC_target_country_DECISIONS:0 "建造许可申请"
+ AC_target_country_DECISIONS_desc:0 "外国对我国的建造项目。"
+
+ 
+
+ AC_REQUEST_CONSTRUCTION_PERMISSION_TITLE:0 "申请建造许可"
+ AC_REQUEST_CONSTRUCTION_PERMISSION_ACTION_TITLE:0 "申请建造许可"
+ AC_REQUEST_CONSTRUCTION_PERMISSION_ACTION_DESC:0 "申请在他们地区进行建造的许可。\n\n选择一个由他们控制的地区来启动建造。"
+ 
+ AC_REVOKE_CONSTRUCTION_PERMISSION_TITLE:0 "撤销建造许可"
+ AC_REVOKE_CONSTRUCTION_PERMISSION_ACTION_TITLE:0 "撤销建造许可"
+ AC_REVOKE_CONSTRUCTION_PERMISSION_ACTION_DESC:0 "撤销他们在我们地区进行建造的许可。"
+
+ AC_diplomacy_action_opinion_modifier:0 "它们对我们的意见"
+ AC_acceptance:0 "接受"
+
+ AC_project_being_cancelled:0 "建造项目被取消"
+
+
+
+ AC_project_assigned_factories_modifier:0 "他国建造项目"
+
+
+
+ AC_project_0_text:0 "[?AC_project_assigned_factories^0]x民用工厂  |  §Y[AC_GetConstructionTypeProject0]§!  x[?AC_project_build_amount^0] ： [From.GetName]" 
+ AC_project_0_desc:0 "\n总建造时间: [?AC_project_total_construction_duration_display^0] 日\n建造速度: x[?AC_project_construction_speed_display^0]\n\n右键点击查看目标地区。"
+
+ AC_project_0_decision:0 "[AC_GetProjectText0]"
+ AC_project_0_decision_desc:0 "[AC_GetProjectDesc0]"
+ 
+ AC_project_0_target_decision:0 "[From.AC_GetProject0Factories]x民用工厂  |  §Y[From.AC_GetConstructionTypeProject0]§!  x[From.AC_GetProject0Amount] ： [From.AC_GetProjectState0]"
+ AC_project_0_target_decision_desc:0 "\n国名: [From.GetName]\n已分配工厂: [From.AC_GetProject0Factories]\n建造队列: [From.AC_GetProject0Amount]\n\n。"
+
+
+
+ AC_project_1_text:0 "[?AC_project_assigned_factories^1]x民用工厂  |  §Y[AC_GetConstructionTypeProject1]§!  x[?AC_project_build_amount^1] ： [From.GetName]"
+ AC_project_1_desc:0 "\n总建造时间: [?AC_project_total_construction_duration_display^1] 日\n建造速度: x[?AC_project_construction_speed_display^1]\n\n右键点击查看目标地区。"
+ 
+ AC_project_1_decision:0 "[AC_GetProjectText1]"
+ AC_project_1_decision_desc:0 "[AC_GetProjectDesc1]"
+ 
+ AC_project_1_target_decision:0 "[From.AC_GetProject1Factories]x民用工厂  |  §Y[From.AC_GetConstructionTypeProject1]§!  x[From.AC_GetProject1Amount] ： [From.AC_GetProjectState1]"
+ AC_project_1_target_decision_desc:0 "\n国名: [From.GetName]\n已分配工厂: [From.AC_GetProject1Factories]\n建造队列: [From.AC_GetProject1Amount]\n\n选择此决议将取消建造项目。\n\n右键点击查看目标地区。"
+
+
+
+ AC_project_2_text:0 "[?AC_project_assigned_factories^2]x民用工厂  |  §Y[AC_GetConstructionTypeProject2]§!  x[?AC_project_build_amount^2] ： [From.GetName]"
+ AC_project_2_desc:0 "\n总建造时间: [?AC_project_total_construction_duration_display^2] 日\n建造速度: x[?AC_project_construction_speed_display^2]\n\n右键点击查看目标地区。"
+
+ AC_project_2_decision:0 "[AC_GetProjectText2]"
+ AC_project_2_decision_desc:0 "[AC_GetProjectDesc2]"
+ 
+ AC_project_2_target_decision:0 "[From.AC_GetProject2Factories]x民用工厂  |  §Y[From.AC_GetConstructionTypeProject2]§!  x[From.AC_GetProject2Amount] ： [From.AC_GetProjectState2]"
+ AC_project_2_target_decision_desc:0 "\n国名: [From.GetName]\n已分配工厂: [From.AC_GetProject2Factories]\n建造队列: [From.AC_GetProject2Amount]\n\n选择此决议将取消建造项目。\n\n右键点击查看目标地区。"
+
+ 
+
+ AC_project_3_text:0 "[?AC_project_assigned_factories^3]x民用工厂  |  §Y[AC_GetConstructionTypeProject3]§!  x[?AC_project_build_amount^3] ： [From.GetName]"
+ AC_project_3_desc:0 "\n总建造时间: [?AC_project_total_construction_duration_display^3] 日\n建造速度: x[?AC_project_construction_speed_display^3]\n\n右键点击查看目标地区。"
+
+ AC_project_3_decision:0 "[AC_GetProjectText3]"
+ AC_project_3_decision_desc:0 "[AC_GetProjectDesc3]"
+ 
+ AC_project_3_target_decision:0 "[From.AC_GetProject3Factories]x民用工厂  |  §Y[From.AC_GetConstructionTypeProject3]§!  x[From.AC_GetProject3Amount] ： [From.AC_GetProjectState3]"
+ AC_project_3_target_decision_desc:0 "\n国名: [From.GetName]\n已分配工厂: [From.AC_GetProject3Factories]\n建造队列: [From.AC_GetProject3Amount]\n\n选择此决议将取消建造项目。\n\n右键点击查看目标地区。"
+
+
+
+ AC_project_4_text:0 "[?AC_project_assigned_factories^4]x民用工厂  |  §Y[AC_GetConstructionTypeProject4]§!  x[?AC_project_build_amount^4] ： [From.GetName]"
+ AC_project_4_desc:0 "\n总建造时间: [?AC_project_total_construction_duration_display^4] 日\n建造速度: x[?AC_project_construction_speed_display^4]\n\n右键点击查看目标地区。"
+
+ AC_project_4_decision:0 "[AC_GetProjectText4]"
+ AC_project_4_decision_desc:0 "[AC_GetProjectDesc4]"
+ 
+ AC_project_4_target_decision:0 "[From.AC_GetProject4Factories]x民用工厂  |  §Y[From.AC_GetConstructionTypeProject4]§!  x[From.AC_GetProject4Amount] ： [From.AC_GetProjectState4]"
+ AC_project_4_target_decision_desc:0 "\n国名: [From.GetName]\n已分配工厂: [From.AC_GetProject4Factories]\n建造队列: [From.AC_GetProject4Amount]\n\n选择此决议将取消建造项目。\n\n右键点击查看目标地区。"
+
+
+
+ AC_construction_INF:0 "基础设施\n\n§Y建造所需政治点数:§! §R[?global.PP_INFRASTRUCTURE_COST]§!"
+ AC_construction_AIR:0 "空军基地\n\n§Y建造所需政治点数:§! §R[?global.PP_AIRBASE_COST]§!"
+ AC_construction_AA:0 "防空火炮\n\n§Y建造所需政治点数:§! §R[?global.PP_ANTIAIR_COST]§!"
+ AC_construction_RAD:0 "雷达站\n\n§Y建造所需政治点数:§! §R[?global.PP_RADAR_COST]§!"
+ AC_construction_MIC:0 "军用工厂\n\n§Y建造所需政治点数:§! §R[?global.PP_MILITARY_FACTORY_COST]§!"
+ AC_construction_CIC:0 "民用工厂\n\n§Y建造所需政治点数:§! §R[?global.PP_CIVILIAN_FACTORY_COST]§!"
+ AC_construction_NIC:0 "造船厂\n\n§Y建造所需政治点数:§! §R[?global.PP_DOCKYARD_COST]§!"
+ AC_construction_REF:0 "合成炼油厂\n\n§Y建造所需政治点数:§! §R[?global.PP_REFINERY_COST]§!"
+
+
+
+ AC_build_amount_green:0 "[?ROOT.AC_project_build_amount^-1]"
+ AC_build_amount_red:0 "§R[?ROOT.AC_project_build_amount^-1]§!"
+ AC_building_amount_increase_button_tt:0 "选择在该地区建造的选定建筑数量。\n\n§L最大数量依赖于地区建筑、空余建筑槽及你的科技。§!\n\n§LShift+点击增减5。§!"
+
+
+ 
+ AC_assigned_factories_green:0 "[?ROOT.AC_project_assigned_factories^-1]"
+ AC_assigned_factories_red:0 "§R[?ROOT.AC_project_assigned_factories^-1]§!"
+ AC_assigned_factories_button_tt:0 "选择你分配到该建造项目的民用工厂数量\n\n可用民用工厂数：§! §G[?Root.num_of_civilian_factories_available_for_projects]§!\n\n§LShift+点击增减5。§!"
+  
+
+
+ AC_political_power_cost_tt:0 "§Y所需政治点数:§! §R[?Root.AC_project_political_power_cost^-1]§!\n\n"
+ 
+
+ 
+ AC_allied_construction_icon1_tt:0 "同盟国家建造项目\n\n§L在该地区创建建造项目。§!"
+ 
+
+
+ AC_build_button_text:0 "[AC_GetBuildButtonText]"
+ AC_start_project:0 "开始建造"
+ AC_cancel_project:0 "取消建造"
+ AC_build_button_tt:0 "§G按下该按钮将开始或取消在该地区的建设项目。§!\n\n[AC_GetGUIValues]§L基于与首都距离，最多承受50%的建造速度惩罚。§!\n\n§L最多同时进行五个建造项目。最大数量依赖于国家建造速度补正（10%建造速度+1）。\n\n若无可用建筑槽，或地区的新控制者不在你这边且未给予你建造许可，项目将自动取消。\n\n被取消的项目需要一天时间重新变为可用。§!"
+ AC_gui_values:0 "§Y政治点数消耗:§! [?Root.AC_project_political_power_cost^-1]\n§Y建設期間:§! [?Root.AC_project_construction_duration^-1] 日\n§Y总建造时间:§! [?Root.AC_project_total_construction_duration_display^-1] 日\n§Y建造速度:§! [?Root.AC_project_construction_speed_display^-1]%\n\n"
+
+
+
+ AC_assist_repair_button_text:0 "协助维修"
+ AC_assist_repair_button_tt:0 "帮助该国维修建筑。\n\n§Y每日政治点:§! §R-1§!\n\n§Y持续:§!§! §G180天\n\n§L仅可同时帮助一个国家维修\n\n你可以通过该按钮或决议取消维修支援，在你重新启动支援前有一天冷却。§!"
+
+ AC_construction_opinion:0 "建造项目"
+ 
+ AC_assist_repair_target_idea:0 "维修协助"
+ AC_assist_repair_target_idea_desc:0 "该国接受了同盟国家的维修协助。"
+
+ AC_assist_repair_decision:0 "对[?AC_assist_repair_target.GetName]的§Y维修协助§!"
+ AC_assist_repair_decision_desc:0 "我们目前正在协助一个盟友进行维修。\n\n§L右键查看目标国家。§!"
+
+ AC_assist_repair_CANCEL_decision:0 "取消维修协助"
+ AC_assist_repair_CANCEL_decision_desc:0 "取消维修协助。"

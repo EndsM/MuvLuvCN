@@ -1,0 +1,30 @@
+
+state={
+	id=323
+	name="STATE_323"
+	manpower = 5573791
+	
+	state_category = town
+	resources={
+		chromium=2 # was: 2
+	}
+	history = { 1999.1.1 = { 
+			owner = H13
+			remove_core_of = H13
+		}
+		owner = NEP
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
+		}
+		victory_points = {
+			4987 3 
+		}
+		add_core_of = GEU
+	}
+
+	provinces={
+		4386 4987 5310 7374 10825 10910 12892 
+	}
+}

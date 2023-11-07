@@ -1,0 +1,5 @@
+entity = {
+	name = "equuspedis_entity"
+	pdxmesh = "BetaEquusPedis_mesh"
+	scale = 0.5
+}

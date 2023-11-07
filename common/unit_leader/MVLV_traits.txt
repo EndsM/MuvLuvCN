@@ -1,0 +1,316 @@
+# leader_traits contain a list of UnitLeaderTrait with the following structure:
+# trait_key = {
+# 	type = all # or either of field_marshal, corps_commander, navy
+#	trait_type = basic_trait # or either of status_trait, personality_trait, assignable_trait, basic_terrain_trait, assignable_terrain_trait, exile
+#	attack_skill = 0 # integer
+#	defense_skill = 0 # integer
+#	logistics_skill = 0 # integer
+#	planning_skill = 0 # integer
+#	maneuvering_skill = 0 # integer
+#	coordination_skill = 0 # integer
+#	attack_skill_factor = 0.0 # decimal
+#	defense_skill_factor = 0.0 # decimal
+#	logistics_skill_factor = 0.0 # decimal
+#	planning_skill_factor = 0.0 # decimal
+#	maneuvering_skill_factor = 0.0 # decimal
+#	coordination_skill_factor = 0.0 # decimal
+#	show_in_combat = yes # boolean
+#	override_effect_tooltip = "" # loc key
+#	custom_effect_tooltip = "" # loc key
+#	custom_prerequisite_tooltip = "" # loc key
+#	custom_gain_xp_trigger_tooltip = "" # loc key
+#	mutually_exclusive = other_trait # trait key
+#	parent = other_trait # trait key
+#	num_parents_needed = -1 # integer, -1 means "all"
+#	gui_row = -1 # integer, starts at 0, -1 means auto
+#	gui_column = -1 # integer, starts at 0, -1 means auto
+#	allowed = trigger # scope is a unit leader
+#	prerequisites = trigger # scope is an unit leader
+#	gain_xp = trigger # scope is a combatant
+#	gain_xp_leader = trigger # scope is a unit leader. ROOT is country you are from and FROM is any target nationality for agents
+#	gain_xp_on_spotting = 0 # integer
+#	modifier = { } # list of modifiers
+#	non_shared_modifier = {} #
+#	corps_commander_modifier = {} #
+#	field_marshal_modifier = {} #
+#	sub_unit_modifiers = { # list of sub unit def
+#		# e.g.
+#		submarine {
+#			units = {} # list of adjusters
+#			# list of modifiers e.g.
+#			naval_visibility = -0.1
+#		}
+#	}
+#	trait_xp_factor = {} # list of trait_key/decimal
+#	on_add = effect # scope is an unit leader
+#	on_remove = effect # scope is an unit leader
+#	daily_effect = effect # scope is an unit leader
+#	cost = 1000 # integer
+#	ai_will_do = {} # weight
+#	new_commander_weight = {} # weight
+#	enable_ability = ability_key
+#}
+leader_traits = {
+
+	
+	##################################
+	# Common Traits
+	##################################
+	#指揮官特性
+	
+	tsf_officer = { 
+		type = land
+		trait_type = personality_trait
+		
+		corps_commander_modifier = {
+			max_commander_army_size = -230
+			sickness_chance = -0.5
+		}
+		non_shared_modifier = {
+			experience_gain_factor = 0.1
+		}
+		trait_xp_factor = {
+			hive_attacker = 2
+			tsf_leader = 2
+			# panzer_leader = -0.3
+		}
+		attack_skill_factor = 1
+		defense_skill_factor = 1
+	}
+	commander_aptitude = { 
+		type = land
+		trait_type = personality_trait
+		
+		corps_commander_modifier = {
+			max_commander_army_size = 30
+		}
+		
+		trait_xp_factor = {
+			skilled_staffer = 5
+		}
+		planning_skill_factor = 1
+
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	true_genius = { 
+		type = land
+		trait_type = personality_trait
+		
+		planning_skill = 2
+		logistics_skill = 1
+		
+		corps_commander_modifier = {
+			wounded_chance_factor = -0.9
+			sickness_chance = -0.9
+			skill_bonus_factor = 0.5
+		}
+
+		planning_skill_factor = 2
+		logistics_skill_factor = 1
+		
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	#####
+	JAP_samurai_lineage = { 
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = JAP
+			}
+		}
+		modifier = {
+			special_forces_attack_factor = 0.1
+			special_forces_defence_factor = 0.1
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	MVLV_TEF_lineage = { 
+		type = land
+		trait_type = personality_trait
+		
+		corps_commander_modifier = {
+			Experience_gain_army_unit_factor = 0.50
+		}
+
+		trait_xp_factor = {
+			hive_attacker = 1
+		}
+		
+
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	
+	MVLV_valkyrie_lineage = { 
+		type = land
+		trait_type = personality_trait
+		
+		corps_commander_modifier = {
+			Experience_gain_army_unit_factor = 0.50
+		}
+		
+		trait_xp_factor = {
+			hive_attacker =1
+		}
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+	MVLV_trait_00_unit = { 
+		type = land
+		trait_type = personality_trait
+		
+		corps_commander_modifier = {
+			Experience_gain_army_unit_factor = 1.00
+			max_commander_army_size = -9
+			attrition = -1.0
+			pocket_penalty = -1.0
+			out_of_supply_factor = -1.0
+			org_loss_when_moving = -0.5
+			terrain_penalty_reduction = 0.5
+			skill_bonus_factor = 1.0
+		}
+		
+		# trait_xp_factor = {
+		# 	factor = 0
+		# }
+		
+
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+
+	##################################
+	# Corps Commander traits.
+	##################################
+	#将军スキル
+
+	#####has_trait
+	hive_attacker = {
+		type = corps_commander
+		gain_xp = {
+			OR = {
+				is_fighting_in_terrain = hive_mainhall
+				is_fighting_in_terrain = hive_gateclass
+				is_fighting_in_terrain = hive_super_mainhall
+				is_fighting_in_terrain = hive_drift
+				is_fighting_in_terrain = hive_gate 
+			}
+		}
+		#custom_gain_xp_trigger_tooltip = MVLV_is_battle_hives
+		
+		cost = 1000
+		modifier = {
+			hive_super_mainhall = {
+				attack = 0.20
+			}
+			hive_gateclass = {
+				attack = 0.20
+			}
+			hive_mainhall = {
+				attack = 0.20
+			}
+			hive_drift = {
+				attack = 0.20
+			}
+			hive_gate = {
+				attack = 0.20
+			}
+		}
+		
+		ai_will_do = {
+		factor = 1
+		}
+		
+		gui_row = 17
+	}
+	
+	tsf_leader = { 
+		type = corps_commander
+		gain_xp = {		
+			set_temp_variable = { temp = num_units }	
+			multiply_temp_variable = { temp = 0.8 }
+			set_temp_variable = { cmm = num_special }
+			add_to_temp_variable = { cmm = num_battalions_with_type@MVLV_tsf_battalion }
+			add_to_temp_variable = { cmm = num_battalions_with_type@MVLV_tsa_battalion }
+			add_to_temp_variable = { cmm = num_battalions_with_type@MVLV_asa_battalion }
+			
+			OR = {
+				check_variable = { cmm > temp }
+			}
+		}
+		custom_gain_xp_trigger_tooltip = MVLV_tsf_ratio_over_80
+		
+		attack_skill = 1
+		defense_skill = 1
+		
+		cost = 1000
+		modifier = {
+			army_armor_speed_factor = 0.10
+			army_armor_attack_factor = 0.10
+			army_armor_defence_factor = 0.10
+			wounded_chance_factor = -0.5
+		}
+		trait_xp_factor = {
+			panzer_leader = -0.3
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		gui_row = 16
+	}
+	##################################
+	# Corps Commander assignable traits.
+	##################################
+	#将军上位スキル
+	
+	#tsf_commander = { 
+	#	type = corps_commander
+	#	gain_xp = {
+	#		always = no # not gainable
+	#	}
+	#	prerequisites = {
+	#		has_trait = commander_aptitude
+	#	}
+	#	custom_gain_xp_trigger_tooltip = fighting_with_at_least_23_units
+		
+	#	cost = 500
+		
+	#	planning_skill = 1
+		
+	#	corps_commander_modifier = {
+	#		max_commander_army_size = 16
+	#	}
+
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#	trait_type = assignable_trait
+	#	parent = tsf_leader
+
+	#	gui_row = 16
+	#}
+###########
+}
+	

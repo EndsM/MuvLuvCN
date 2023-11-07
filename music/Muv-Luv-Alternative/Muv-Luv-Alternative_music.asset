@@ -1,0 +1,272 @@
+# Muvluv_Alternative:
+
+music = {
+    name = "Alternative_01"
+    file = "01 未来への咆哮(GAME size).ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_02"
+    file = "02 スタブを征く.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_03"
+    file = "03 凄乃皇.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_04"
+    file = "04 疑念.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_05"
+    file = "05 逡巡.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_06"
+    file = "07 霞.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_07"
+    file = "08 小隊前進！.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_08"
+    file = "09 ブリーフィング.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_09"
+    file = "10 胸騒ぎ.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_10"
+    file = "11 戒厳令.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_11"
+    file = "12 殲滅せよ！.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_12"
+    file = "13 軍靴の足音.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_13"
+    file = "14 血を欲する戦場.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_14"
+    file = "15 迫撃.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_15"
+    file = "16 決断.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_16"
+    file = "17 宿命.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_17"
+    file = "18 激突.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_18"
+    file = "19 生命の炎.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_19"
+    file = "20 PX.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_20"
+    file = "21 迷い.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_21"
+    file = "22 コード911.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_22"
+    file = "23 勝利を我が手に.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_23"
+    file = "24 悔恨の果て.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_24"
+    file = "25 願い.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_25"
+    file = "26 追憶.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_26"
+    file = "27 奪われしもの.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_27"
+    file = "28 翼(GAME size).ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_28"
+    file = "01 強襲上陸.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_29"
+    file = "02 戦場を渡る風.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_30"
+    file = "03 ストームバンガード.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_31"
+    file = "04 屍を越えて.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_32"
+    file = "05 ハイヴの威容.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_33"
+    file = "06 咆吼する魂.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_34"
+    file = "07 惜別.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_35"
+    file = "08 絆.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_36"
+    file = "09 ００ユニット.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_37"
+    file = "10 虚ろな光.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_38"
+    file = "11 雨音.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_39"
+    file = "12 ぬくもり.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_40"
+    file = "13 臨戦態勢.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_41"
+    file = "14 蹂躙.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_42"
+    file = "15 迎撃.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_43"
+    file = "16 徹底抗戦.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_44"
+    file = "17 Carry on(GAME size).ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_45"
+    file = "18 軌道降下.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_46"
+    file = "19 ヴァルキリーズ.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_47"
+    file = "20 オリジナルハイヴ.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_48"
+    file = "21 あ号標的.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_49"
+    file = "22 絶対の危機.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_50"
+    file = "23 冥夜.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_51"
+    file = "24 失われゆくもの.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_52"
+    file = "25 衛士の流儀.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_53"
+    file = "26 旅立つ君に.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Alternative_54"
+    file = "27 マブラヴ.ogg"
+    volume = 0.65
+}

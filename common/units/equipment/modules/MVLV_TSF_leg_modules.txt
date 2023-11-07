@@ -1,0 +1,81 @@
+equipment_modules = {
+	MVLV_TSF_leg_scabbard = {
+		category = MVLV_TSF_leg_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 1
+			#armor_value = 3
+			soft_attack = 3
+		}
+		multiply_stats = {
+			soft_attack = 0.03
+			hard_attack = 0.01
+		}
+	}
+	MVLV_TSF_leg_ram = {
+		category = MVLV_TSF_leg_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 1
+			armor_value = 3
+			soft_attack = 1
+		}
+		multiply_stats = {
+			soft_attack = 0.01
+			hard_attack = 0.01
+			# air_attack = 0.1
+			 breakthrough = 0.05
+			 defense = 0.05
+		}
+	}
+	MVLV_TSF_leg_blade_armor = {
+		category = MVLV_TSF_leg_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5
+			armor_value = 5
+			#soft_attack = 2
+		}
+		multiply_stats = {
+			soft_attack = 0.03
+			hard_attack = 0.01
+		}
+	}
+	MVLV_TSF_leg_moto_knife_1 = {
+		category = MVLV_TSF_leg_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 15
+			ap_attack = 1
+			soft_attack = 8
+			hard_attack =4
+		}
+		multiply_stats = {
+			soft_attack = 0.05
+			hard_attack = 0.03
+		}
+	}
+	MVLV_TSF_leg_moto_knife_2 = {
+		category = MVLV_TSF_leg_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 20
+			ap_attack = 3
+			soft_attack = 12
+			hard_attack =6
+		}
+		multiply_stats = {
+			soft_attack = 0.07
+			hard_attack = 0.05
+		}
+	}
+	MVLV_TSF_leg_ex_ammo = {
+		category = MVLV_TSF_leg_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 1
+			max_organisation = 0.02
+			default_morale = 0.01
+		}
+	}
+}

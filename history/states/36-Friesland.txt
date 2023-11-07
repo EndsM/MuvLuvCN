@@ -1,0 +1,31 @@
+
+state={
+	id=36
+	name="STATE_36"
+	manpower = 2364000
+
+	state_category = city
+
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			add_core_of = EUR
+			remove_core_of = HOL
+		}
+		owner = HOL
+		
+		add_core_of = HOL
+		victory_points = { 6241 5 }
+		victory_points = { 9363 1 }
+		victory_points = { 9335 3 }
+		victory_points = { 6336 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		} 
+	}
+
+	provinces={
+		6241 6286 6336 9309 9335 9363 9403 11318 
+	}
+}

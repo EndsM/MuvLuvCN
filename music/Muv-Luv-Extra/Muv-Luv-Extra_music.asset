@@ -1,0 +1,142 @@
+# Muv-luv-Extra:
+
+music = {
+	name = "Extra_01"
+	file = "01 マブラヴ（Ｇａｍｅ　ｓｉｚｅ）.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_02"
+	file = "02 柊町School days.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_03"
+	file = "03 喧噪.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_04"
+	file = "04 眩い日々.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_05"
+	file = "05 脱力は苦笑いと共に.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_06"
+	file = "06 Ambush.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_07"
+	file = "07 わるだくみ.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_08"
+	file = "08 大混乱.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_09"
+	file = "09 手をつないで行こう!.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_10"
+	file = "10 坂道.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_11"
+	file = "11 小さな公園.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_12"
+	file = "12 送迎最速理論.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_13"
+	file = "13 DOG FIGHT.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_14"
+	file = "14 REVEL YELL!.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_15"
+	file = "15 戦友.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_16"
+	file = "16 護るべき世界.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_17"
+	file = "17 夕暮れ.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_18"
+	file = "18 雨雲.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_19"
+	file = "19 告白.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_20"
+	file = "20 抱擁.ogg"
+	volume = 0.65
+}
+music = {
+	name = "maintheme"
+	file = "21 忍び寄る不安.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_22"
+	file = "22 戦慄.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_23"
+	file = "23 墓標.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_24"
+	file = "24 高貴なる血.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_25"
+	file = "25 こころ.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_26"
+	file = "26 クリスマス.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_27"
+	file = "27 I will.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Extra_28"
+	file = "28 遙かなる地球(ふるさと)の歌.ogg"
+	volume = 0.65
+}

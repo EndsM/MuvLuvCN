@@ -1,0 +1,43 @@
+state = {
+	id = 789
+	name = "STATE_789"
+	state_category = rural
+	manpower = 35000000
+	provinces = {
+		9952
+	}
+	#	resources={
+	#		steel=50
+	#		oil=50
+	#		aluminium=50
+	#		rubber=5
+	#		tungsten=50
+	#		chromium=50
+	#	}
+	history = {
+		1999.1.1 = {
+			owner = H21
+			add_core_of = H21
+			buildings = {
+				hive = 1
+			}
+		}
+		add_core_of = JAP
+		owner = JAP
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 10
+			anti_air_building = 3
+			air_base = 1
+			9952 = {
+				bunker = 3
+				naval_base = 1
+			}
+			radar_station = 3
+		}
+		victory_points = {
+			9952
+			100
+		}
+	}
+}

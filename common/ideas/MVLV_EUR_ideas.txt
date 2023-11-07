@@ -1,0 +1,215 @@
+ideas = {
+	country = {
+		#default national spirits
+		EUR_power = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = 0.05
+				weekly_manpower = 2000
+				war_support_factor = 0.3
+				special_forces_cap = 0.03
+			}
+		}
+		EUR_eng = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				research_speed_factor = -0.1
+				stability_factor = -0.1
+			}
+		}
+		EUR_bunker = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = -0.05
+				production_speed_bunker_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
+			}
+		}
+		A10生产线 = {
+			allowed = {
+				always = no
+			}
+			equipment_bonus = {
+				tsa_equipment = {
+					build_cost_ic = -0.08
+					instant = yes
+				}
+			}
+		}
+		欧洲联合指挥部 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = 0.1
+				max_command_power = 100
+				experience_gain_army = 0.1
+				max_planning = 0.1
+				planning_speed = 0.2
+			}
+		}
+		地狱犬经验 = {
+			allowed = {
+				always = no
+			}
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+					air_attack = 0.05
+					defense = 0.1
+					breakthrough = 0.1
+					instant = yes
+				}
+			}
+		}
+		新骑士训练 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				training_time_army_factor = 0.05
+			}
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+					build_cost_ic = 0.05
+					instant = yes
+					hard_attack = 0.1
+				}
+			}
+		}
+		先进战地医疗 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				casualty_trickleback = 0.2
+				experience_loss_factor = -0.2
+			}
+		}
+		与国联的科研合作 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+		EUR_uni = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				research_speed_factor = 0.15
+			}
+			targeted_modifier = {
+				tag = UNI
+				cic_to_target_factor = 0.05
+				mic_to_target_factor = 0.1
+				trade_cost_for_target_factor = -0.4
+				extra_trade_to_target_factor = 0.2
+				industrial_capacity_factory = 0.05
+			}
+		}
+		AFR_EUR = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+				min_export = 0.1
+				stability_factor = -0.2
+				production_factory_start_efficiency_factor = 0.3
+				production_factory_efficiency_gain_factor = -0.1
+			}
+		}
+		租借地法案 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.15
+			}
+		}
+		欧联的慷慨支援 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = -0.1
+			}
+		}
+		对东欧援助 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		支援炮改进 = {
+			allowed = {
+				always = no
+			}
+			equipment_bonus = {
+				tsf_sub_weapons_equipment = {
+					hard_attack = 0.1
+					soft_attack = 0.1
+					instant = yes
+				}
+			}
+		}
+		真正的欧洲联合 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.25
+				stability_factor = 0.25
+				special_forces_cap = 0.1
+				industrial_capacity_factory = 0.1
+				army_speed_factor = 0.1
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+			}
+		}
+		改造人试验战 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_speed_factor = 0.1
+				army_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		改造人实战 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+				army_speed_factor = 0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+		战术交流 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_speed_factor = 0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+	}
+}

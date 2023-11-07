@@ -1,0 +1,373 @@
+equipment_modules = {
+	MVLV_TSF_no_OS = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+	}
+	MVLV_TSF_basic_OS = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 1
+			experience_loss_factor = -0.03
+		}
+		multiply_stats = {
+			# experience_loss_factor = -0.1
+			soft_attack = 0.05
+			hard_attack = 0.05
+			armor_value = 0.05
+			breakthrough = 0.5
+			defense = 0.5
+			ap_attack = 0.05
+			air_attack = 0.05
+		}
+	}
+	MVLV_TSF_OS_1_normal = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5
+			experience_loss_factor = -0.05
+		}
+		multiply_stats = {
+			# experience_loss_factor = -0.2
+			soft_attack = 0.1
+			hard_attack = 0.1
+			armor_value = 0.1
+			breakthrough = 0.15
+			defense = 0.15
+			ap_attack = 0.1
+			air_attack = 0.1
+		}
+	}
+	MVLV_TSF_OS_2_normal = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 10
+			experience_loss_factor = -0.08
+		}
+		multiply_stats = {
+			# experience_loss_factor = -0.3
+			soft_attack = 0.2
+			hard_attack = 0.2#0.15
+			armor_value = 0.2
+			breakthrough = 0.3
+			defense = 0.3
+			ap_attack = 0.2
+			air_attack = 0.2
+		}
+	}
+	MVLV_TSF_OS_3_normal = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 15
+			experience_loss_factor = -0.12
+		}
+		multiply_stats = {
+			# experience_loss_factor = -0.5
+			soft_attack = 0.3#0.4
+			hard_attack = 0.3#0.2
+			armor_value = 0.3
+			breakthrough = 0.4
+			defense = 0.4
+			ap_attack = 0.3
+			air_attack = 0.4
+		}
+	}
+	MVLV_TSF_OS_4_normal = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 20
+			experience_loss_factor = -0.3
+		}
+		multiply_stats = {
+			# experience_loss_factor = -1
+			soft_attack = 0.6#0.8
+			hard_attack = 0.6#0.4
+			armor_value = 0.5
+			breakthrough = 1
+			defense = 1
+			ap_attack = 0.6
+			air_attack = 0.6
+		}
+	}
+	MVLV_TSF_OS_XM3 = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 18
+			experience_loss_factor = -0.4
+		}
+		multiply_stats = {
+			# experience_loss_factor = -1
+			reliability = -0.5
+			soft_attack = 0.6
+			hard_attack = 0.6
+			armor_value = 0.5
+			breakthrough = 1
+			defense = 1
+			ap_attack = 0.6
+			air_attack = 0.6
+		}
+	}
+	
+	MVLV_TSF_basic_OS_close = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 1
+			# soft_attack = 40
+			# hard_attack = 60
+			# armor_value = 40
+			# ap_attack = 40
+			# air_attack = 30
+			experience_loss_factor = -0.04
+		}
+		multiply_stats = {
+			# experience_loss_factor = -0.2
+			#soft_attack = -0.05
+			hard_attack = 0.1
+			armor_value = 0.03
+			breakthrough = 0.03
+			defense = 0.03
+			#ap_attack = -0.15
+			#air_attack = -0.15
+		}
+	}
+	MVLV_TSF_OS_1_close = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5
+			# soft_attack = 40
+			# hard_attack = 60
+			# armor_value = 40
+			# ap_attack = 40
+			# air_attack = 30
+			experience_loss_factor = -0.06
+		}
+		multiply_stats = {
+			# experience_loss_factor = -0.3
+			#soft_attack = 0.05
+			hard_attack = 0.2
+			armor_value = 0.15
+			breakthrough = 0.2
+			defense = 0.2
+			ap_attack = 0.15
+			air_attack = 0.15
+		}
+	}
+	MVLV_TSF_OS_2_close = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 10
+			# soft_attack = 40
+			# hard_attack = 60
+			# armor_value = 40
+			# ap_attack = 40
+			# air_attack = 30
+			experience_loss_factor = -0.1
+		}
+		multiply_stats = {
+			# experience_loss_factor = -0.4
+			soft_attack = 0.05
+			hard_attack = 0.3
+			armor_value = 0.3
+			breakthrough = 0.35
+			defense = 0.35
+			# ap_attack = -0.05
+			# air_attack = -0.05
+			ap_attack = 0.25
+			air_attack = 0.25
+		}
+	}
+	MVLV_TSF_OS_3_close = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 15
+			# soft_attack = 40
+			# hard_attack = 60
+			# armor_value = 40
+			# ap_attack = 40
+			# air_attack = 30
+			experience_loss_factor = -0.16
+		}
+		multiply_stats = {
+			# experience_loss_factor = -0.75
+			soft_attack = 0.1
+			hard_attack = 0.4
+			armor_value = 0.5
+			breakthrough = 0.5
+			defense = 0.5
+			# ap_attack = -0.03
+			# air_attack = -0.03
+			ap_attack = 0.35
+			air_attack = 0.45
+		}
+	}
+	MVLV_TSF_OS_4_close = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 20
+			# soft_attack = 40
+			# hard_attack = 60
+			# armor_value = 40
+			# ap_attack = 40
+			# air_attack = 30
+			experience_loss_factor = -0.6
+		}
+		multiply_stats = {
+			experience_loss_factor = -1
+			# soft_attack = 0.03
+			# hard_attack = 0.03
+			soft_attack = 0.2
+			hard_attack = 0.9
+			# armor_value = 0.15
+			# breakthrough = 0.15
+			# defense = 0.15
+			armor_value = 1
+			breakthrough = 1
+			defense = 1
+			# ap_attack = 0.03
+			# air_attack = 0.03
+			ap_attack = 0.85
+			air_attack = 0.85
+		}
+	}
+	MVLV_TSF_basic_OS_range = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 1
+			# soft_attack = 40
+			# hard_attack = 60
+			# armor_value = 40
+			# ap_attack = 40
+			# air_attack = 30
+			experience_loss_factor = -0.02
+		}
+		multiply_stats = {
+			soft_attack = 0.1
+			# hard_attack = 0.06
+			# armor_value = 0.03
+			# breakthrough = 0.03
+			# defense = 0.03
+			ap_attack = 0.06
+			air_attack = 0.06
+		}
+	}
+	MVLV_TSF_OS_1_range = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5
+			# soft_attack = 40
+			# hard_attack = 60
+			# armor_value = 40
+			# ap_attack = 40
+			# air_attack = 30
+			 experience_loss_factor = -0.04
+		}
+		multiply_stats = {
+			# experience_loss_factor = -0.1
+			# soft_attack = 0.05
+			# hard_attack = 0.05
+			soft_attack = 0.2
+			#hard_attack = 0.05
+			# armor_value = 0.03
+			# breakthrough = 0.03
+			# defense = 0.03
+			breakthrough = 0.05
+			defense = 0.05
+			# ap_attack = 0.05
+			# air_attack = 0.05
+			ap_attack = 0.05
+			air_attack = 0.1
+		}
+	}
+	MVLV_TSF_OS_2_range = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 10
+			# soft_attack = 40
+			# hard_attack = 60
+			# armor_value = 40
+			# ap_attack = 40
+			# air_attack = 30
+			experience_loss_factor = -0.06
+		}
+		multiply_stats = {
+			# experience_loss_factor = -0.2
+			soft_attack = 0.4
+			hard_attack = 0.05
+			# armor_value = 0.03
+			# breakthrough = 0.03
+			# defense = 0.03
+			armor_value = 0.1
+			breakthrough = 0.2
+			defense = 0.2
+			ap_attack = 0.1
+			air_attack = 0.2
+		}
+	}
+	MVLV_TSF_OS_3_range = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 15
+			# soft_attack = 40
+			# hard_attack = 60
+			# armor_value = 40
+			# ap_attack = 40
+			# air_attack = 30
+			experience_loss_factor = -0.1
+		}
+		multiply_stats = {
+			# experience_loss_factor = -0.3
+			soft_attack = 0.6
+			hard_attack = 0.1
+			# armor_value = 0.03
+			# breakthrough = 0.03
+			# defense = 0.03
+			armor_value = 0.2
+			breakthrough = 0.3
+			defense = 0.3
+			ap_attack = 0.15
+			air_attack = 0.4
+		}
+	}
+	MVLV_TSF_OS_4_range = {
+		category = MVLV_TSF_OS_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 20
+			# soft_attack = 40
+			# hard_attack = 60
+			# armor_value = 40
+			# ap_attack = 40
+			# air_attack = 30
+			experience_loss_factor = -0.2
+		}
+		multiply_stats = {
+			# experience_loss_factor = -0.5
+			# soft_attack = 0.15
+			# hard_attack = 0.15
+			soft_attack = 1.2
+			hard_attack = 0.2
+			# armor_value = 0.03
+			# breakthrough = 0.03
+			# defense = 0.03
+			armor_value = 0.4
+			breakthrough = 0.5
+			defense = 0.5
+			ap_attack = 0.4
+			air_attack = 0.8
+		}
+	}
+}

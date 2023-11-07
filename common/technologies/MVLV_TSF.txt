@@ -1,0 +1,3353 @@
+technologies = {
+	MVLV_research_basic_tsf_framework = {
+		research_cost = 3
+
+		start_year = 1973
+
+		enable_equipments = {
+			MVLV_TSF_classis_0
+		}
+		enable_equipment_modules = {
+			MVLV_TSF_arm_ex_ammo
+			MVLV_TSF_leg_ex_ammo
+			MVLV_TSF_waist_ex_ammo
+			MVLV_TSF_waist_ex_fuel
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -13
+				y = 1
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_1_light_framework
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_tsf_1_heavy_framework
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_tsf_1_light_framework = {
+		research_cost = 3
+
+		start_year = 1973
+
+		enable_equipments = {
+			MVLV_TSF_classis_1_light
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = -1
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_2_light_normal_framework
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_tsf_2_light_high_mobility_framework
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_tsf_2_heavy_normal_framework
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_tsf_2_heavy_high_mobility_framework
+			research_cost_coeff = 1
+		}
+	}
+	# MVLV_research_tsf_1_light_optimize_1 = {
+	# 	research_cost = 3
+
+	# 	folder = {
+	# 		name = MVLV_tsf_folder
+	# 		position = {
+	# 			x = -10
+	# 			y = 11
+	# 		}
+	# 	}
+	# 	path = {
+	# 		leads_to_tech = MVLV_research_tsf_1_light_optimize_2
+	# 		research_cost_coeff = 1
+	# 	}
+	# }
+	# MVLV_research_tsf_1_light_optimize_2 = {
+	# 	research_cost = 3
+
+	# 	folder = {
+	# 		name = MVLV_tsf_folder
+	# 		position = {
+	# 			x = -12
+	# 			y = 11
+	# 		}
+	# 	}
+	# 	path = {
+	# 		leads_to_tech = MVLV_research_tsf_1_light_optimize_3
+	# 		research_cost_coeff = 1
+	# 	}
+	# }
+	# MVLV_research_tsf_1_light_optimize_3 = {
+	# 	research_cost = 3
+
+	# 	folder = {
+	# 		name = MVLV_tsf_folder
+	# 		position = {
+	# 			x = -14
+	# 			y = 11
+	# 		}
+	# 	}
+	# }
+	MVLV_research_tsf_1_heavy_framework = {
+		research_cost = 3
+
+		start_year = 1973
+
+		enable_equipments = {
+			MVLV_TSF_classis_1_heavy
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 3
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		# path = {
+		# 	leads_to_tech = MVLV_research_tsf_1_light_framework
+		# 	research_cost_coeff = 0.3
+		# }
+
+		path = {
+			leads_to_tech = MVLV_research_tsf_2_light_normal_framework
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_tsf_2_light_high_mobility_framework
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_tsf_2_heavy_normal_framework
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_tsf_2_heavy_high_mobility_framework
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_A6
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_A6 = {
+		research_cost = 3
+
+		enable_equipments = {
+			asa_equipment_A-6
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 5
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_A10
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_A12
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_A10 = {
+		research_cost = 3
+
+		enable_equipments = {
+			tsa_equipment_A-10
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -4
+				y = 6
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_A10C
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_A10C = {
+		research_cost = 3
+
+		enable_equipments = {
+			tsa_equipment_A-10C
+		}
+		
+		# MVLV_tsa_battalion = {
+		# 	defense = 0.05
+		# 	armor_value = 0.02
+		# 	maximum_speed = 0.1
+		# }
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 6
+			}
+		}
+	}
+
+	MVLV_research_A12 = {
+		research_cost = 3
+
+		enable_equipments = {
+			asa_equipment_A-12
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 2
+				y = 5
+			}
+		}
+	}
+
+	MVLV_research_tsf_2_light_normal_framework = {
+		research_cost = 3
+
+		enable_equipments = {
+			MVLV_TSF_classis_2_light_normal
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = -2
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_normal_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_high_mobility_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_normal_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_high_mobility_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_normal_stealth_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_high_mobility_stealth_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_normal_stealth_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_high_mobility_stealth_framework
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_tsf_2_light_high_mobility_framework = {
+		research_cost = 3
+
+		enable_equipments = {
+			MVLV_TSF_classis_2_light_high_mobility
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 0
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_normal_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_high_mobility_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_normal_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_high_mobility_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_normal_stealth_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_high_mobility_stealth_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_normal_stealth_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_high_mobility_stealth_framework
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_tsf_2_heavy_normal_framework = {
+		research_cost = 3
+
+		enable_equipments = {
+			MVLV_TSF_classis_2_heavy_normal
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 2
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_normal_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_high_mobility_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_normal_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_high_mobility_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_normal_stealth_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_high_mobility_stealth_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_normal_stealth_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_high_mobility_stealth_framework
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_tsf_2_heavy_high_mobility_framework = {
+		research_cost = 3
+
+		enable_equipments = {
+			MVLV_TSF_classis_2_heavy_high_mobility
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 4
+			}
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_normal_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_high_mobility_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_normal_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_high_mobility_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_normal_stealth_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_heavy_high_mobility_stealth_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_normal_stealth_framework
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_3_light_high_mobility_stealth_framework
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_tsf_3_light_normal_framework = {
+		research_cost = 3
+
+		enable_equipments = {
+			MVLV_TSF_classis_3_light_normal
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = -2
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_4_framework
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_tsf_3_light_high_mobility_framework = {
+		research_cost = 3
+
+		enable_equipments = {
+			MVLV_TSF_classis_3_light_high_mobility
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 0
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_4_framework
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_tsf_3_heavy_normal_framework = {
+		research_cost = 3
+
+		enable_equipments = {
+			MVLV_TSF_classis_3_heavy_normal
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 2
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_4_framework
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_tsf_3_heavy_high_mobility_framework = {
+		research_cost = 3
+
+		enable_equipments = {
+			MVLV_TSF_classis_3_heavy_high_mobility
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 4
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_4_framework
+			research_cost_coeff = 1
+		}
+	}
+
+    MVLV_research_tsf_3_light_normal_stealth_framework = {
+				research_cost = 3
+
+		enable_equipments = {
+			MVLV_TSF_classis_3_light_normal_stealth
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = -2
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_4_framework
+			research_cost_coeff = 1
+		}
+    }
+
+    MVLV_research_tsf_3_light_high_mobility_stealth_framework = {
+		research_cost = 3
+
+		enable_equipments = {
+			MVLV_TSF_classis_3_light_high_mobility_stealth
+		}
+
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 0
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_4_framework
+			research_cost_coeff = 1
+		}
+   }
+
+    MVLV_research_tsf_3_heavy_normal_stealth_framework = {
+		research_cost = 3
+
+		enable_equipments = {
+			MVLV_TSF_classis_3_heavy_normal_stealth
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 2
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_4_framework
+			research_cost_coeff = 1
+		}
+    }
+
+    MVLV_research_tsf_3_heavy_high_mobility_stealth_framework = {
+			research_cost = 3
+
+		enable_equipments = {
+			MVLV_TSF_classis_3_heavy_high_mobility_stealth
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 4
+			}
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		path = {
+			leads_to_tech = MVLV_research_tsf_4_framework
+			research_cost_coeff = 1
+		}
+   }
+
+    MVLV_research_tsf_4_framework = {
+		research_cost = 3
+
+		start_year = 2005
+
+		enable_equipments = {
+			MVLV_TSF_classis_4
+		}
+
+		categories = {
+			MVLV_tsf_tech
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 11
+				y = 1
+			}
+		}
+    }
+
+	MVLV_research_basic_sensor_system = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_sensor_open
+			MVLV_TSF_basic_sensor_system
+		}
+		# artillery_brigade = {
+		# 	soft_attack = 0.1
+		# }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -13
+				y = 11
+			}
+		}
+		start_year = 1973
+		
+		 categories = {
+			electronics
+		 }
+		ai_will_do = {
+			factor = 2
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_vibration_sensor_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_infrared_sensor_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_photo_sensor_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_radar_sensor_1
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_1
+			research_cost_coeff = 1
+		}
+		force_use_small_tech_layout = yes
+	}
+
+	MVLV_research_vibration_sensor_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_vibration_sensor_1
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -10
+				y = 8
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_vibration_sensor_2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_1
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_vibration_sensor_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_vibration_sensor_2
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -4
+				y = 8
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_vibration_sensor_3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_2
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_vibration_sensor_3 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_vibration_sensor_3
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 2
+				y = 8
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_vibration_sensor_4
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_3
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_vibration_sensor_4 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_vibration_sensor_4
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 8
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_4
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_infrared_sensor_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_infrared_sensor_1
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -10
+				y = 10
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_infrared_sensor_2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_1
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_infrared_sensor_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_infrared_sensor_2
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -4
+				y = 10
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_infrared_sensor_3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_2
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_infrared_sensor_3 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_infrared_sensor_3
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 2
+				y = 10
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_infrared_sensor_4
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_3
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_infrared_sensor_4 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_infrared_sensor_4
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 10
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_4
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_photo_sensor_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_photo_sensor_1
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -10
+				y = 12
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_photo_sensor_2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_1
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_photo_sensor_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_photo_sensor_2
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -4
+				y = 12
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_photo_sensor_3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_2
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_photo_sensor_3 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_photo_sensor_3
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 2
+				y = 12
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_photo_sensor_4
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_3
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_photo_sensor_4 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_photo_sensor_4
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 12
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_4
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_radar_sensor_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_radar_sensor_1
+			MVLV_TSF_shoulder_ex_radar_1
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -10
+				y = 14
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_radar_sensor_2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_1
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_radar_sensor_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_radar_sensor_2
+			MVLV_TSF_shoulder_ex_radar_2
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -4
+				y = 14
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_radar_sensor_3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_2
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_radar_sensor_3 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_radar_sensor_3
+			MVLV_TSF_shoulder_ex_radar_3
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 2
+				y = 14
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_radar_sensor_4
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_3
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_radar_sensor_4 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_radar_sensor_4
+			MVLV_TSF_shoulder_ex_radar_4
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 14
+			}
+		}
+
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_4
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_integrated_sensor_1 = {
+		research_cost = 3
+
+		enable_equipment_modules = {
+			MVLV_TSF_integrated_sensor_1
+		}
+
+		dependencies = {
+			MVLV_research_vibration_sensor_1 = 1
+			MVLV_research_infrared_sensor_1 = 1
+			MVLV_research_photo_sensor_1 = 1
+			MVLV_research_radar_sensor_1 = 1
+			MVLV_research_basic_sensor_system = 1
+		}
+
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 11
+			}
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_2
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_integrated_sensor_2 = {
+		research_cost = 3
+
+		enable_equipment_modules = {
+			MVLV_TSF_integrated_sensor_2
+		}
+
+		dependencies = {
+			MVLV_research_vibration_sensor_2 = 1
+			MVLV_research_infrared_sensor_2 = 1
+			MVLV_research_photo_sensor_2 = 1
+			MVLV_research_radar_sensor_2 = 1
+			MVLV_research_integrated_sensor_1 = 1
+		}
+
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 11
+			}
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_3
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_integrated_sensor_3 = {
+		research_cost = 3
+		
+		enable_equipment_modules = {
+			MVLV_TSF_integrated_sensor_3
+		}
+
+		dependencies = {
+			MVLV_research_vibration_sensor_3 = 1
+			MVLV_research_infrared_sensor_3 = 1
+			MVLV_research_photo_sensor_3 = 1
+			MVLV_research_radar_sensor_3 = 1
+			MVLV_research_integrated_sensor_2 = 1
+		}
+
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 11
+			}
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_integrated_sensor_4
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_integrated_sensor_4 = {
+		research_cost = 3
+
+		start_year = 2005
+		
+		enable_equipment_modules = {
+			MVLV_TSF_integrated_sensor_4
+		}
+
+		dependencies = {
+			MVLV_research_vibration_sensor_4 = 1
+			MVLV_research_infrared_sensor_4 = 1
+			MVLV_research_photo_sensor_4 = 1
+			MVLV_research_radar_sensor_4 = 1
+			MVLV_research_integrated_sensor_3 = 1
+		}
+
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 11
+				y = 11
+			}
+		}
+	}
+
+	MVLV_research_basic_assault_cannon = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_basic_assault_cannon
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -13
+				y = 17
+			}
+		}
+		
+		 categories = {
+			artillery
+		 }
+		path = {
+			leads_to_tech = MVLV_research_assault_cannon_1_normal
+			research_cost_coeff = 1
+		}
+		# path = {
+		# 	leads_to_tech = MVLV_research_assault_cannon_1_range
+		# 	research_cost_coeff = 1
+		# }
+	}
+
+	MVLV_research_assault_cannon_1_close = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_assault_cannon_1_close
+		}
+		 categories = {
+			artillery
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -4
+				y = 16
+			}
+		}
+		# path = {
+		# 	leads_to_tech = MVLV_research_assault_cannon_1
+		# 	research_cost_coeff = 1
+		# }
+		# path = {
+		# 	leads_to_tech = MVLV_research_assault_cannon_36_power_1
+		# 	research_cost_coeff = 1
+		# }
+		# path = {
+		# 	leads_to_tech = MVLV_research_assault_cannon_120_power_1
+		# 	research_cost_coeff = 1
+		# }
+	}
+
+	MVLV_research_assault_cannon_1_normal = {
+		research_cost = 3
+
+		enable_equipment_modules = {
+			MVLV_TSF_assault_cannon_1_normal
+		}
+		 categories = {
+			artillery
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 17
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_assault_cannon_1_close
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_assault_cannon_2_normal
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_assault_cannon_2_normal = {
+		research_cost = 3
+
+		enable_equipment_modules = {
+			MVLV_TSF_assault_cannon_2_normal
+		}
+		 categories = {
+			artillery
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 17
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_assault_cannon_3_close
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_assault_cannon_3_normal
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_assault_cannon_3_close = {
+		research_cost = 3
+
+		enable_equipment_modules = {
+			MVLV_TSF_assault_cannon_3_close
+		}
+		 categories = {
+			artillery
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 4
+				y = 16
+			}
+		}
+	}
+
+	MVLV_research_assault_cannon_3_normal = {
+		research_cost = 3
+
+		enable_equipment_modules = {
+			MVLV_TSF_assault_cannon_3_normal
+		}
+		 categories = {
+			artillery
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 4
+				y = 18
+			}
+		}
+	}
+
+	MVLV_research_railgun_1 = {
+		research_cost = 3
+
+		enable_equipment_modules = {
+			MVLV_TSF_railgun_1
+		}
+		
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 17
+			}
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_railgun_2
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_railgun_2 = {
+		research_cost = 3
+
+		enable_equipment_modules = {
+			MVLV_TSF_railgun_2
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 14
+				y = 17
+			}
+		}
+	}
+
+	MVLV_research_basic_armor = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_no_armor
+		}
+		 categories = {
+			armor
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -13
+				y = 20
+			}
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_armor_heavy_alloy
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_armor_heavy_alloy = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_armor_heavy_alloy
+			MVLV_TSF_shoulder_ex_armor_heavy_alloy
+		}
+		 categories = {
+			armor
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 20
+			}
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_armor_composite
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_armor_composite = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_armor_composite
+			MVLV_TSF_shoulder_ex_armor_composite
+		}
+		 categories = {
+			armor
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 20
+			}
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_armor_light_composite
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_armor_light_composite = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_armor_light_composite
+			MVLV_TSF_shoulder_ex_armor_light_composite
+		}
+		 categories = {
+			armor
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 20
+			}
+		}
+
+		path = {
+			leads_to_tech = MVLV_research_armor_light_self_repair
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_armor_light_self_repair = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_armor_light_self_repair
+			MVLV_TSF_shoulder_ex_light_self_repair
+		}
+		 categories = {
+			armor
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 11
+				y = 20
+			}
+		}
+	}
+
+	MVLV_research_fire_control_upd_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_fire_control_upd_1
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 22
+			}
+		}
+		
+		path = {
+			leads_to_tech = MVLV_research_fire_control_upd_2
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_fire_control_upd_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_fire_control_upd_2
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 22
+			}
+		}
+		
+		path = {
+			leads_to_tech = MVLV_research_fire_control_upd_3
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_fire_control_upd_3 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_fire_control_upd_3
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 22
+			}
+		}
+		
+		path = {
+			leads_to_tech = MVLV_research_fire_control_upd_4
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_fire_control_upd_4 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_fire_control_upd_4
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 11
+				y = 22
+			}
+		}
+	}
+
+	MVLV_research_basic_OS = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_no_OS
+			MVLV_TSF_basic_OS
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -13
+				y = 25
+			}
+		}
+		
+		#path = {
+		#	leads_to_tech = MVLV_research_basic_OS_close
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = MVLV_research_basic_OS_range
+		#	research_cost_coeff = 1
+		#}
+		path = {
+			leads_to_tech = MVLV_research_OS_1
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_OS_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_OS_1_normal
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 25
+			}
+		}
+		
+		path = {
+			leads_to_tech = MVLV_research_OS_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_OS_1_close			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_OS_1_range			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_OS_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_OS_2_normal
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 25
+			}
+		}
+		
+		path = {
+			leads_to_tech = MVLV_research_OS_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_OS_2_close			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_OS_2_range			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_OS_3 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_OS_3_normal
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 25
+			}
+		}
+		
+		path = {
+			leads_to_tech = MVLV_research_OS_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_OS_3_close			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_OS_3_range			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_OS_4 = {
+		research_cost = 3
+		start_year = 2005
+		enable_equipment_modules = {
+			MVLV_TSF_OS_4_normal
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 11
+				y = 25
+			}
+		}
+		#path = {
+		#	leads_to_tech = MVLV_research_OS_4_close
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = MVLV_research_OS_4_range			
+		#	research_cost_coeff = 1
+		#}
+	}
+
+	MVLV_research_basic_OS_close = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_basic_OS_close
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -10
+				y = 24
+			}
+		}
+	}
+
+	MVLV_research_OS_1_close = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_OS_1_close
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -4
+				y = 24
+			}
+		}
+	}
+
+	MVLV_research_OS_2_close = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_OS_2_close
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 2
+				y = 24
+			}
+		}
+	}
+
+	MVLV_research_OS_3_close = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_OS_3_close
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 24
+			}
+		}
+	}
+
+	MVLV_research_OS_4_close = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_OS_4_close
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 14
+				y = 24
+			}
+		}
+	}
+
+	MVLV_research_basic_OS_range = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_basic_OS_range
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -10
+				y = 26
+			}
+		}
+	}
+
+	MVLV_research_OS_1_range = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_OS_1_range
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -4
+				y = 26
+			}
+		}
+	}
+
+	MVLV_research_OS_2_range = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_OS_2_range
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 2
+				y = 26
+			}
+		}
+	}
+
+	MVLV_research_OS_3_range = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_OS_3_range
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 26
+			}
+		}
+	}
+
+	MVLV_research_OS_4_range = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_OS_4_range
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 14
+				y = 26
+			}
+		}
+	}
+	MVLV_research_basic_engine = {
+		research_cost = 3
+
+		enable_equipment_modules = {
+			MVLV_TSF_no_engine
+			MVLV_TSF_basic_engine
+		}
+
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -13
+				y = 31
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_1
+			research_cost_coeff = 1
+		}
+		#path = {
+		#	leads_to_tech = MVLV_research_basic_engine_fuel_efficiency
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = MVLV_research_basic_engine_mid_speed_cruising
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = MVLV_research_basic_engine_high_speed_cruising
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = MVLV_research_basic_engine_max_power
+		#	research_cost_coeff = 1
+		#}
+	}
+	MVLV_research_basic_engine_fuel_efficiency = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_basic_engine_fuel_efficiency
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -10
+				y = 30#28
+			}
+		}
+	}
+	#MVLV_research_basic_engine_mid_speed_cruising = {
+	#	research_cost =1.5# 3
+	#	enable_equipment_modules = {
+	#		MVLV_TSF_basic_engine_mid_speed_cruising
+	#	}
+	#	folder = {
+	#		name = MVLV_tsf_folder
+	#		position = {
+	#			x = -10
+	#			y = 30
+	#		}
+	#	}
+	#}
+	MVLV_research_basic_engine_high_speed_cruising = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_basic_engine_high_speed_cruising
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -10
+				y = 32
+			}
+		}
+	}
+	MVLV_research_basic_engine_max_power = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_basic_engine_max_power
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -10
+				y = 34
+			}
+		}
+	}
+	MVLV_research_engine_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_1
+			MVLV_TSF_waist_ex_thruster_1
+			MVLV_TSF_shoulder_ex_thruster_1
+			MVLV_TSF_back_thruster_1
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 31
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_1_fuel_efficiency
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_1_mid_speed_cruising
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_1_high_speed_cruising
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_1_max_power
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_engine_1_fuel_efficiency = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_1_fuel_efficiency
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -4
+				y = 28
+			}
+		}
+	}
+	MVLV_research_engine_1_mid_speed_cruising = {
+		research_cost =1.5# 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_1_mid_speed_cruising
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -4
+				y = 30
+			}
+		}
+	}
+	MVLV_research_engine_1_high_speed_cruising = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_1_high_speed_cruising
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -4
+				y = 32
+			}
+		}
+	}
+	MVLV_research_engine_1_max_power = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_1_max_power
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -4
+				y = 34
+			}
+		}
+	}
+	MVLV_research_engine_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_2
+			MVLV_TSF_waist_ex_thruster_2
+			MVLV_TSF_shoulder_ex_thruster_2
+			MVLV_TSF_back_thruster_2
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 31
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_2_fuel_efficiency
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_2_mid_speed_cruising
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_2_high_speed_cruising
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_2_max_power
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_engine_2_fuel_efficiency = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_2_fuel_efficiency
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 2
+				y = 28
+			}
+		}
+	}
+	MVLV_research_engine_2_mid_speed_cruising = {
+		research_cost =1.5# 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_2_mid_speed_cruising
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 2
+				y = 30
+			}
+		}
+	}
+	MVLV_research_engine_2_high_speed_cruising = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_2_high_speed_cruising
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 2
+				y = 32
+			}
+		}
+	}
+	MVLV_research_engine_2_max_power = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_2_max_power
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 2
+				y = 34
+			}
+		}
+	}
+	MVLV_research_engine_3 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_3
+			MVLV_TSF_waist_ex_thruster_3
+			MVLV_TSF_shoulder_ex_thruster_3
+			MVLV_TSF_back_thruster_3
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 31
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_3_fuel_efficiency
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_3_mid_speed_cruising
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_3_high_speed_cruising
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_engine_3_max_power
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_engine_3_fuel_efficiency = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_3_fuel_efficiency
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 28
+			}
+		}
+	}
+	MVLV_research_engine_3_mid_speed_cruising = {
+		research_cost =1.5# 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_3_mid_speed_cruising
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 30
+			}
+		}
+	}
+	MVLV_research_engine_3_high_speed_cruising = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_3_high_speed_cruising
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 32
+			}
+		}
+	}
+	MVLV_research_engine_3_max_power = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_engine_3_max_power
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 34
+			}
+		}
+	}
+	MVLV_research_engine_4 = {
+		research_cost = 3
+		start_year = 2005
+		enable_equipment_modules = {
+			MVLV_TSF_engine_4
+			MVLV_TSF_waist_ex_thruster_4
+			MVLV_TSF_shoulder_ex_thruster_4
+			MVLV_TSF_back_thruster_4
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 11
+				y = 31
+			}
+		}
+		#path = {
+		#	leads_to_tech = MVLV_research_engine_4_fuel_efficiency
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = MVLV_research_engine_4_mid_speed_cruising
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = MVLV_research_engine_4_high_speed_cruising
+		#	research_cost_coeff = 1
+		#}
+		#path = {
+		#	leads_to_tech = MVLV_research_engine_4_max_power
+		#	research_cost_coeff = 1
+		#}
+	}
+	#MVLV_research_engine_4_fuel_efficiency = {
+	#	research_cost =1.5# 3
+	#	enable_equipment_modules = {
+	#		MVLV_TSF_engine_4_fuel_efficiency
+	#	}
+	#	folder = {
+	#		name = MVLV_tsf_folder
+	#		position = {
+	#			x = 14
+	#			y = 28
+	#		}
+	#	}
+	#}
+	#MVLV_research_engine_4_mid_speed_cruising = {
+	#	research_cost =1.5# 3
+	#	enable_equipment_modules = {
+	#		MVLV_TSF_engine_4_mid_speed_cruising
+	#	}
+	#	folder = {
+	#		name = MVLV_tsf_folder
+	#		position = {
+	#			x = 14
+	#			y = 30
+	#		}
+	#	}
+	#}
+	#MVLV_research_engine_4_high_speed_cruising = {
+	#	research_cost =1.5# 3
+	#	enable_equipment_modules = {
+	#		MVLV_TSF_engine_4_high_speed_cruising
+	#	}
+	#	folder = {
+	#		name = MVLV_tsf_folder
+	#		position = {
+	#			x = 14
+	#			y = 32
+	#		}
+	#	}
+	#}
+	#MVLV_research_engine_4_max_power = {
+	#	research_cost =1.5# 3
+	#	enable_equipment_modules = {
+	#		MVLV_TSF_engine_4_max_power
+	#	}
+	#	folder = {
+	#		name = MVLV_tsf_folder
+	#		position = {
+	#			x = 14
+	#			y = 34
+	#		}
+	#	}
+	#}
+	MVLV_research_basic_head = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_basic_head
+		}
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -13
+				y = 38
+			}
+		}
+		 categories = {
+			electronics
+		 }
+		path = {
+			leads_to_tech = MVLV_research_head_small_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_head_normal_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_head_spherical_1
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_head_small_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_head_small_1
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 36
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_head_small_2
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_head_small_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_head_small_2
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 36
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_head_small_3
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_head_small_3 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_head_small_3
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 36
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_head_small_4
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_head_small_4 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_head_small_4
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 11
+				y = 36
+			}
+		}
+	}
+	MVLV_research_head_normal_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_head_normal_1
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 38
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_head_normal_2
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_head_normal_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_head_normal_2
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 38
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_head_normal_3
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_head_normal_3 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_head_normal_3
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 38
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_head_normal_4
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_head_normal_4 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_head_normal_4
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 11
+				y = 38
+			}
+		}
+	}
+	MVLV_research_head_spherical_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_head_spherical_1
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 40
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_head_spherical_2
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_head_spherical_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_head_spherical_2
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 40
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_head_spherical_3
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_head_spherical_3 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_head_spherical_3
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 40
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_head_spherical_4
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_head_spherical_4 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_head_spherical_4
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 11
+				y = 40
+			}
+		}
+	}
+	MVLV_research_basic_back_hanger = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_basic_back_hanger
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -13
+				y = 45
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_back_upside_hanger
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_back_downside_hanger
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_back_supply_hanger
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_back_upside_hanger = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_back_upside_hanger
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 46
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_back_gunblade_hanger_1
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_back_downside_hanger = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_back_downside_hanger
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 44
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_back_gunblade_hanger_1
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_back_gunblade_hanger_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_back_gunblade_hanger_1
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -3
+				y = 45
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_back_gunblade_hanger_2
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_back_gunblade_hanger_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_back_gunblade_hanger_2
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 1
+				y = 45
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_back_general_hanger
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_back_general_hanger = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_back_general_hanger
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 45
+			}
+		}
+	}
+	MVLV_research_back_supply_hanger = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_back_supply_hanger
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -10
+				y = 42
+			}
+		}
+	}
+	# MVLV_research_back_turbo_hanger = {
+	# 	research_cost = 3
+	# 	enable_equipment_modules = {
+	# 		MVLV_TSF_back_turbo
+	# 	}
+	# 	folder = {
+	# 		name = MVLV_tsf_folder
+	# 		position = {
+	# 			x = -7
+	# 			y = 48
+	# 		}
+	# 	}
+	# }
+	MVLV_research_phoenix_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_back_phoenix_1
+			MVLV_TSF_shoulder_phoenix_1
+		}
+		 categories = {
+			artillery
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 56
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_phoenix_2
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_phoenix_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_back_phoenix_2
+			MVLV_TSF_shoulder_phoenix_2
+		}
+		 categories = {
+			artillery
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 56
+			}
+		}
+		# path = {
+		# 	leads_to_tech = MVLV_research_general_missile
+		# 	research_cost_coeff = 1
+		# }
+	}
+	MVLV_research_general_missile = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_back_general_missile
+			MVLV_TSF_shoulder_general_missile
+		}
+		 categories = {
+			artillery
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 58
+			}
+		}
+	}
+
+	MVLV_research_basic_melee = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_arm_scabbard
+			MVLV_TSF_leg_scabbard
+			MVLV_TSF_melee_sword
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 52
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_fixed_blade
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_blade_armor
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_moto_knife_1
+			research_cost_coeff = 1
+		}
+	}
+
+	MVLV_research_fixed_blade = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_melee_fixed_blade
+			MVLV_TSF_arm_fixed_blade
+			# MVLV_TSF_leg_fixed_blade
+			MVLV_TSF_shoulder_fixed_blade
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 50
+			}
+		}
+	}
+
+	MVLV_research_blade_armor = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_melee_blade_armor
+			MVLV_TSF_arm_blade_armor
+			MVLV_TSF_leg_blade_armor
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 54
+			}
+		}
+	}
+	
+	MVLV_research_moto_knife_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_arm_moto_knife_1
+			MVLV_TSF_leg_moto_knife_1
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 52
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_moto_knife_2
+			research_cost_coeff = 1
+		}
+	}
+	
+	MVLV_research_moto_knife_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_arm_moto_knife_2
+			MVLV_TSF_leg_moto_knife_2
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 52
+			}
+		}
+	}
+	
+	MVLV_research_structural_enhance_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_structural_enhance_1
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 60
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_structural_enhance_2
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_structural_enhance_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_structural_enhance_2
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 60
+			}
+		}
+	}
+	MVLV_research_data_link_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_data_link_1
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 62
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_data_link_2
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_data_link_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_data_link_2
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 62
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_data_link_3
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_data_link_3 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_data_link_3
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 62
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_data_link_4
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_data_link_4 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_data_link_4
+		}
+		 categories = {
+			electronics
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 11
+				y = 62
+			}
+		}
+	}
+	MVLV_research_basic_coating = {
+		research_cost = 3
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -13
+				y = 66
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_anti_laser_coating_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_stealth_coating_1
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_anti_laser_coating_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_anti_laser_coating_1
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 64
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_anti_laser_coating_2
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_anti_laser_coating_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_anti_laser_coating_2
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -1
+				y = 64
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_anti_laser_coating_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_anti_laser_stealth_coating_1
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_anti_laser_coating_3 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_anti_laser_coating_3
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 64
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_anti_laser_coating_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_anti_laser_stealth_coating_1
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_anti_laser_coating_4 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_anti_laser_coating_4
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 11
+				y = 64
+			}
+		}
+	}
+	MVLV_research_stealth_coating_1 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_stealth_coating_1
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 5
+				y = 68
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_stealth_coating_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_research_anti_laser_stealth_coating_1
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_stealth_coating_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_stealth_coating_2
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 11
+				y = 68
+			}
+		}
+	}
+	MVLV_research_anti_laser_stealth_coating_1 = {
+		research_cost = 3
+
+		enable_equipment_modules = {
+			MVLV_TSF_anti_laser_stealth_coating_1
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		dependencies = {
+			MVLV_research_anti_laser_coating_2 = 1
+			MVLV_research_stealth_coating_1 = 1
+		}
+
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 8
+				y = 66
+			}
+		}
+		path = {
+			leads_to_tech = MVLV_research_anti_laser_stealth_coating_2
+			research_cost_coeff = 1
+		}
+	}
+	MVLV_research_anti_laser_stealth_coating_2 = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_anti_laser_stealth_coating_2
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = 11
+				y = 66
+			}
+		}
+	}
+	MVLV_research_reactive_armor = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_reactive_armor
+		}
+		 categories = {
+			armor
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 70
+			}
+		}
+	}
+	MVLV_research_multi_purpose_armor = {
+		research_cost = 3
+		enable_equipment_modules = {
+			MVLV_TSF_arm_multi_purpose_armor
+			MVLV_TSF_shield_multi_purpose_armor
+		}
+		 categories = {
+			MVLV_tsf_tech
+		 }
+		folder = {
+			name = MVLV_tsf_folder
+			position = {
+				x = -7
+				y = 72
+			}
+		}
+	}
+}

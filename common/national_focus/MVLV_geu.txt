@@ -1,0 +1,1688 @@
+focus_tree = {
+	id = geu_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GEU
+		}
+		#modifier = {
+		#	add = 10
+		#	original_tag = GEU
+		#}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 20
+		y = 1000
+	}
+	reset_on_civilwar = no
+	focus = {
+		id = geug_1
+		icon = GFX_goal_generic_major_war
+		available = {
+		}
+		will_lead_to_war_with = IRQ
+		x = 3
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = -100
+		}
+	}
+	focus = {
+		id = geug_3
+		icon = GFX_goal_generic_major_war
+		available = {
+			has_stability > 0.65
+		}
+		prerequisite = {
+			focus = geug_1
+		}
+		bypass = {
+		}
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = geug_1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 200
+			remove_ideas = GEU_KODA
+		}
+	}
+	focus = {
+		id = geug_4
+		icon = GFX_goal_rhineland
+		prerequisite = {
+			focus = geug_3
+		}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = geug_3
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+	focus = {
+		id = geug_5
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = geug_3
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = geug_3
+		ai_will_do = {
+			factor = 15
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+	}
+	focus = {
+		id = geug_6
+		icon = GFX_goal_generic_construct_military
+		prerequisite = {
+			focus = geug_4
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = geug_4
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			724 = {
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+						level < 4
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = geug_7
+		icon = GFX_focus_generic_little_entente
+		prerequisite = {
+			focus = geug_5
+		}
+		mutually_exclusive = {
+			focus = geug_8
+		}
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = geug_5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_manpower = 150000
+		}
+	}
+	focus = {
+		id = geug_8
+		icon = GFX_focus_generic_japanese_imperial_glory
+		prerequisite = {
+			focus = geug_5
+		}
+		mutually_exclusive = {
+			focus = geug_7
+		}
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = geug_5
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			army_experience = 300
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.55
+				uses = 1
+				category = land_doctrine
+			}
+			# add_tech_bonus = {
+			# 	name = land_doc_bonus
+			# 	bonus = 1.2
+			# 	uses = 1
+			# 	category = land_doctrine
+			# }
+		}
+	}
+	focus = {
+		id = geug_9
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = geug_8
+			focus = geug_7
+		}
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = geug_8
+		ai_will_do = {
+			factor = 15
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	########################################################################################################		
+	focus = {
+		id = geu_join
+		icon = GFX_goal_generic_neutrality_focus
+		mutually_exclusive = {
+			focus = geu_is_god
+		}
+		available = {
+		}
+		x = 12
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_stability = 0.15
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = geu_rep1
+		icon = GFX_focus_jap_spiritual_mobilization
+		prerequisite = {
+			focus = geu_join
+		}
+		available = {
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = geu_join
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction=0.5
+				uses = 2
+				category = cat_superior_firepower
+			}
+		}
+	}
+	focus = {
+		id = geu_rep2
+		icon = GFX_goal_generic_production
+		prerequisite = {
+			focus = geu_rep1
+		}
+		available = {
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = geu_rep1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = geu_rep3
+		icon = GFX_goal_generic_national_unity
+		prerequisite = {
+			focus = geu_rep1
+		}
+		available = {
+		}
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = geu_rep1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 300
+		}
+	}
+	focus = {
+		id = geu_rep4
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = {
+			focus = geu_rep2
+		}
+		available = {
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = geu_rep2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_resource = {
+					type = steel
+					amount = 65
+				}
+			}
+			random_owned_state = {
+				add_resource = {
+					type = oil
+					amount = 65
+				}
+			}
+		}
+	}
+	focus = {
+		id = geu_rep5
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = {
+			focus = geu_rep4
+		}
+		available = {
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = geu_rep4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = GEU_uni
+			remove_ideas = MVLV_UNF
+			army_experience = 25
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 1
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1
+				uses = 1
+				category = armor
+			}
+		}
+	}
+	focus = {
+		id = geu_rep6
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = {
+			focus = geu_rep5
+		}
+		available = {
+		}
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = geu_rep5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -150
+			add_manpower = -100000
+			add_ideas = GEU_GAS
+		}
+	}
+	focus = {
+		id = geu_rep7
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = {
+			focus = geu_rep5
+		}
+		available = {
+		}
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = geu_rep5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+GEU={add_political_power = -100
+			add_equipment_to_stockpile = {
+				type = MVLV_TSF_chassis
+				amount = 550
+				producer = UNI}
+			}
+		}
+	}
+	focus = {
+		id = geu_rep8
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = {
+			focus = geu_rep6
+		}
+		available = {
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = geu_rep6
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = geu_rep9
+		icon = GFX_focus_RAJ_indian_gurkhas
+		prerequisite = {
+			focus = geu_rep8
+		}
+		available = {
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = geu_rep8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = GEU_good
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+	focus = {
+		id = geu_rep10
+		icon = GFX_focus_RAJ_two_nation_theory
+		prerequisite = {
+			focus = geu_rep7
+		}
+		available = {
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = geu_rep7
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = geu_rep11
+		icon = GFX_focus_generic_paratrooper
+		prerequisite = {
+			focus = geu_rep10
+		}
+		available = {
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = geu_rep10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = transport_plane_equipment
+				amount = 5
+				producer = ROOT
+			}
+			hidden_effect = {
+				GEU = {
+					load_oob = GEU_uni
+				}
+			}
+		}
+	}
+	focus = {
+		id = geu_rep12
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		prerequisite = {
+			focus = geu_rep10
+		}
+		available = {
+		}
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = geu_rep10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			remove_ideas = GEU_jacaruta
+			add_stability = 0.35
+			add_political_power = -100
+		}
+	}
+	#######################################################################################
+	focus = {
+		id = geu_is_god
+		available = {
+		}
+		mutually_exclusive = {
+			focus = geu_join
+		}
+		x = 28
+		y = 0
+		cost = 5
+		icon = GFX_goal_generic_major_alliance
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_stability = 0.15
+			add_war_support = 0.15
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = geu_go1
+		icon = GFX_focus_generic_japanese_imperial_glory
+		prerequisite = {
+			focus = geu_is_god
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = geu_is_god
+		ai_will_do = {
+			factor = 5
+		}
+		completion_reward = {add_political_power = -300
+			remove_ideas = MVLV_UNF
+			add_timed_idea = {
+				idea = GEU_bad
+				days = 200
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+	focus = {
+		id = geu_go2
+		icon = GFX_focus_generic_rubber
+		prerequisite = {
+			focus = geu_go1
+		}
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = geu_go1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = geu_go3
+		icon = GFX_focus_generic_provoke_border_clashes
+		prerequisite = {
+			focus = geu_go1
+		}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = geu_go1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction=0.5
+				uses = 3
+				category = cat_grand_battle_plan
+			}
+		}
+	}
+	focus = {
+		id = geu_go4
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = {
+			focus = geu_go3
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = geu_go3
+		available = {
+			NOT = {
+				has_idea = GEU_bad
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.05
+			army_experience = 150
+		}
+	}
+	focus = {
+		id = geu_go5
+		icon = GFX_focus_rocketry
+		prerequisite = {
+			focus = geu_go4
+		}
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = geu_go4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = air_doc_bonus
+				cost_reduction=0.5
+				uses = 2
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = geu_go6
+		icon = GFX_goal_continuous_reduce_training_time
+		prerequisite = {
+			focus = geu_go4
+		}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = geu_go4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			army_experience = 250
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction=0.3
+				uses = 3
+				category = cat_grand_battle_plan
+			}
+		}
+	}
+	focus = {
+		id = geu_go7
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {
+			focus = geu_go5
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = geu_go5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = GEU_kei
+				days = 80
+			}
+			add_ideas = GEU_jacaruta1
+			remove_ideas = GEU_jacaruta
+		}
+	}
+	focus = {
+		id = geu_go8
+		icon = GFX_focus_generic_concessions
+		prerequisite = {
+			focus = geu_go7
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = geu_go7
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = geu_go9
+		icon = GFX_goal_demand_sudetenland
+		prerequisite = {
+			focus = geu_go6
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = geu_go6
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			GEU = {
+			 	load_oob = GEU_tank
+			 }
+		}
+	}
+	focus = {
+		id = geu_go10
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = {
+			focus = geu_go9
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = geu_go9
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = 提高火力
+		}
+	}
+	focus = {
+		id = geu_go11
+		icon = GFX_focus_generic_military_academy
+		prerequisite = {
+			focus = geu_go10
+			focus = geu_go8
+		}
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = geu_go10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 200
+		}
+	}
+	focus = {
+		id = geu_go12
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {
+			focus = geu_go11
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = geu_go11
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = GEU_kei
+				days = 80
+			}
+		}
+	}
+	focus = {
+		id = geu_go13
+		icon = GFX_goal_anschluss
+		prerequisite = {
+			focus = geu_go12
+		}
+		available = {
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = geu_go12
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = GEU_res
+		}
+	}
+	focus = {
+		id = geu_go14
+		icon = GFX_focus_hol_the_foundations_of_defense
+		prerequisite = {
+			focus = geu_go12
+		}
+		available = {
+			has_idea = GEU_jacaruta1
+			has_stability > 0.8
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = geu_go12
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = GEU_jacaruta2
+			remove_ideas = GEU_jacaruta1
+		}
+	}
+	focus = {
+		id = geu_go15
+		icon = GFX_focus_mex_privatisation
+		prerequisite = {
+			focus = geu_go12
+		}
+		available = {
+		}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = geu_go12
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 400
+		}
+	}
+	###########################################################################
+	focus = {
+		id = geu_ghard1
+		icon = GFX_focus_generic_coastal_fort
+		prerequisite = {
+			focus = geu_rep3
+			focus = geu_go2
+		}
+		available = {
+		}
+		bypass = {
+		}
+		x = 6
+		y = 1
+		cost = 5
+		relative_position_id = geu_rep3
+		ai_will_do = {
+			factor = 99
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = MVLV_TSF_chassis
+				amount = 250
+				producer = ROOT
+			}
+		}
+	}
+	focus = {
+		id = geu_ghard2
+		icon = GFX_focus_generic_the_giant_wakes
+		prerequisite = {
+			focus = geu_ghard1
+		}
+		mutually_exclusive = {
+			focus = geu_ghard3
+		}
+		available = {
+		}
+		x = -3
+		y = 1
+		cost = 7
+		relative_position_id = geu_ghard1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = -0.1
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = geu_ghard3
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = {
+			focus = geu_ghard1
+		}
+		mutually_exclusive = {
+			focus = geu_ghard2
+		}
+		available = {
+		}
+		x = 3
+		y = 1
+		cost = 5
+		relative_position_id = geu_ghard1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -100
+			add_equipment_to_stockpile = {
+				type = MVLV_TSF_chassis
+				amount = 500
+				producer = ROOT
+			}
+		}
+	}
+	focus = {
+		id = geu_ghard4
+		icon = GFX_focus_generic_diplomatic_treaty
+		prerequisite = {
+			focus = geu_ghard2
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = geu_ghard2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = -0.1
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = geu_ghard5
+		icon = GFX_focus_generic_army_tanks2
+		prerequisite = {
+			focus = geu_ghard4
+		}
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = geu_ghard4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -150
+			add_doctrine_cost_reduction = {
+				name = land_doctrine
+				cost_reduction = 0.5
+				uses = 3
+				category = land_doctrine
+			}
+			# add_tech_bonus = {
+			# 	name = land_doc_bonus
+			# 	bonus = 0.5
+			# 	uses = 3
+			# 	category = land_doctrine
+			# }
+		}
+	}
+	focus = {
+		id = geu_ghard8
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = geu_ghard3
+		}
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = geu_ghard3
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -150
+			add_stability = 0.05
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = geu_ghard9		# 
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+			focus = geu_ghard3
+		}
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = geu_ghard3
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.15
+			add_war_support = 0.3
+		}
+	}
+	focus = {
+		id = geu_ghard10
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = {
+			focus = geu_ghard9
+			focus = geu_ghard8
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = geu_ghard9
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = GEU_com
+		}
+	}
+	######################################################################
+	focus = {
+		id = geu_kaihatu1
+		icon = GFX_goal_continuous_repairments
+		x = 40
+		y = 0
+		cost = 5
+		#relative_position_id = geu_ghard7
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.5
+				uses = 2
+				category = electronics
+			}
+		}
+	}
+	focus = {
+		id = geu_kaihatu2
+		icon = GFX_goal_continuous_def_against_influence
+		prerequisite = {
+			focus = geu_kaihatu1
+		}
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = geu_kaihatu1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = geu_kaihatu3
+		icon = GFX_goal_continuous_research
+		prerequisite = {
+			focus = geu_kaihatu2
+		}
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = geu_kaihatu2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = industrial_complex
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = geu_kaihatu4
+		icon = GFX_goal_generic_air_production
+		prerequisite = {
+			focus = geu_kaihatu2
+		}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = geu_kaihatu2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			capital_scope = {
+				add_building_construction = {
+					type = bunker
+					level = 6
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+						level < 6
+					}
+				}
+			}
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = geu_kaihatu5
+		icon = GFX_focus_generic_tungsten
+		prerequisite = {
+			focus = geu_kaihatu3
+		}
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = geu_kaihatu3
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			capital_scope = {
+				add_resource = {
+					type = tungsten
+					amount = 65
+				}
+			}
+			capital_scope = {
+				add_resource = {
+					type = aluminium
+					amount = 65
+				}
+			}
+		}
+	}
+	focus = {
+		id = geu_kaihatu6
+		icon = GFX_focus_generic_steel
+		prerequisite = {
+			focus = geu_kaihatu3
+		}
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = geu_kaihatu3
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			capital_scope = {
+				add_resource = {
+					type = steel
+					amount = 65
+				}
+			}
+			capital_scope = {
+				add_resource = {
+					type = chromium
+					amount = 65
+				}
+			}
+		}
+	}
+	focus = {
+		id = geu_kaihatu7		# 
+		icon = GFX_goal_generic_production2
+		prerequisite = {
+			focus = geu_kaihatu4
+		}
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = geu_kaihatu4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = arms_factory
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+	focus = {
+		id = geu_kaihatu8
+		icon = GFX_goal_generic_position_armies
+		prerequisite = {
+			focus = geu_kaihatu4
+		}
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = geu_kaihatu4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = MVLV_tsf_tech
+			}
+		}
+	}
+	focus = {
+		id = geu_kaihatu9
+		icon = GFX_goal_generic_construction
+		prerequisite = {
+			focus = geu_kaihatu1
+		}
+		x = 5
+		y = 1
+		cost = 5
+		relative_position_id = geu_kaihatu1
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			capital_scope = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 8
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = geu_kaihatu10
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = {
+			focus = geu_kaihatu9
+		}
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = geu_kaihatu9
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = geu_kaihatu11
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = geu_kaihatu9
+		}
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = geu_kaihatu9
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = geu_kaihatu12
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+			focus = geu_kaihatu10
+			focus = geu_kaihatu11
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = geu_kaihatu11
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = geu_kaihatu13
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {
+			focus = geu_kaihatu12
+		}
+		x = -2
+		y = 1
+		cost = 10
+		available = {
+			429 = {
+				is_controlled_by = GEU
+			}
+			796 = {
+				is_controlled_by = GEU
+			}
+			439 = {
+				is_controlled_by = GEU
+			}
+		}
+		relative_position_id = geu_kaihatu12
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			429 = {
+				add_extra_state_shared_building_slots = 16
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+	focus = {
+		id = geu_kaihatu14
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {
+			focus = geu_kaihatu12
+		}
+		x = 2
+		y = 1
+		cost = 10
+		available = {
+			527 = {
+				is_controlled_by = GEU
+			}
+			525 = {
+				is_controlled_by = GEU
+			}
+		}
+		relative_position_id = geu_kaihatu12
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			525 = {
+				add_extra_state_shared_building_slots = 16
+			}
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+	}
+}

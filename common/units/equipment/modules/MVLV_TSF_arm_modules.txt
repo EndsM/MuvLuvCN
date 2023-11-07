@@ -1,0 +1,164 @@
+equipment_modules = {
+	MVLV_TSF_arm_scabbard = {
+		category = MVLV_TSF_arm_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 1
+			#armor_value = 3
+			soft_attack = 3
+			# default_morale = 0.05
+		}
+		#multiply_stats = {
+		#	soft_attack = 0.03
+		#	hard_attack = 0.01
+		# air_attack = 0.05
+		# breakthrough = 0.05
+		# defense = 0.05
+		#}
+	}
+	MVLV_TSF_arm_fixed_blade = {
+		category = MVLV_TSF_arm_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 3
+			#armor_value = 2
+			soft_attack = 2
+			# default_morale = 0.05
+		}
+		multiply_stats = {
+			soft_attack = 0.05
+			hard_attack = 0.03
+		}
+	}
+	MVLV_TSF_arm_blade_armor = {
+		category = MVLV_TSF_arm_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5
+			soft_attack = 1
+			armor_value = 5
+		}
+		multiply_stats = {
+			soft_attack = 0.03
+			hard_attack = 0.01
+		}
+	}
+	MVLV_TSF_arm_moto_knife_1 = {
+		category = MVLV_TSF_arm_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 15
+			ap_attack = 1
+			soft_attack = 8
+			hard_attack = 4
+		}
+		multiply_stats = {
+			soft_attack = 0.05
+			hard_attack = 0.03
+		}
+	}
+	MVLV_TSF_arm_moto_knife_2 = {
+		category = MVLV_TSF_arm_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 20
+			ap_attack = 3
+			soft_attack = 12
+			hard_attack = 6
+		}
+		multiply_stats = {
+			soft_attack = 0.07
+			hard_attack = 0.05
+		}
+	}
+	MVLV_TSF_arm_ex_ammo = {
+		category = MVLV_TSF_arm_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 1
+			max_organisation = 0.02
+			default_morale = 0.01
+		}
+	}
+	MVLV_TSF_arm_ex_sensor_1 = {
+		category = MVLV_TSF_arm_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 2
+			recon = 0.01
+		}
+		multiply_stats = {
+			breakthrough = 0.05
+			defense = 0.05
+			soft_attack = 0.01
+			hard_attack = 0.01
+			ap_attack = 0.01
+			air_attack = 0.01
+		}
+	}
+	MVLV_TSF_arm_ex_sensor_2 = {
+		category = MVLV_TSF_arm_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 4
+			recon = 0.02
+		}
+		multiply_stats = {
+			breakthrough = 0.1
+			defense = 0.1
+			soft_attack = 0.02
+			hard_attack = 0.02
+			ap_attack = 0.02
+			air_attack = 0.02
+		}
+	}
+	MVLV_TSF_arm_ex_sensor_3 = {
+		category = MVLV_TSF_arm_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 6
+			recon = 0.03
+		}
+		multiply_stats = {
+			breakthrough = 0.15
+			defense = 0.15
+			soft_attack = 0.03
+			hard_attack = 0.03
+			ap_attack = 0.03
+			air_attack = 0.03
+		}
+	}
+	MVLV_TSF_arm_ex_sensor_4 = {
+		category = MVLV_TSF_arm_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 8
+			recon = 0.04
+		}
+		multiply_stats = {
+			breakthrough = 0.25
+			defense = 0.25
+			soft_attack = 0.04
+			hard_attack = 0.04
+			ap_attack = 0.04
+			air_attack = 0.04
+		}
+	}
+	MVLV_TSF_arm_multi_purpose_armor = {
+		category = MVLV_TSF_arm_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 3
+			armor_value = 7
+			soft_attack = 1
+		}
+		multiply_stats = {
+			breakthrough = 0.05
+			defense = 0.05
+			# 	soft_attack = 0.04
+			# 	hard_attack = 0.04
+			# 	ap_attack = 0.04
+			# 	air_attack = 0.04
+		}
+	}
+}

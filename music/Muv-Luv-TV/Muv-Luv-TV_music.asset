@@ -1,0 +1,17 @@
+# Muv-luv_TV:
+
+music = {
+    name = "Muv-Luv-TV_06"
+    file = "06 - Not Yet Dead.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Muv-Luv-TV_10"
+    file = "10 - On the Winds of Destiny.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Muv-Luv-TV_15"
+    file = "15 - Spark of Hope.ogg"
+    volume = 0.65
+}

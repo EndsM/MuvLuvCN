@@ -1,0 +1,54 @@
+equipments = {
+
+	beta_srf = {
+		year = 1936
+	
+		is_archetype = yes
+		picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 1.9
+		maximum_speed = 4
+
+		#Defensive Abilities
+		defense = 80
+		breakthrough = 19022
+		hardness = 0.99
+		armor_value = 150
+
+		#Offensive Abilities
+		soft_attack = 40000#59780
+		hard_attack = 40000#52350
+		#soft_attack = 20000
+		#hard_attack = 20000
+		ap_attack = 1112
+		air_attack = 5000
+
+		#Space taken in convoy
+		lend_lease_cost = 195000
+		
+		 build_cost_ic = 200000#196505
+		# build_cost_ic = 50000
+		#build_cost_ic = 100000
+		resources = { rubber = 10
+			}
+		
+	}
+
+
+	beta_srf_0 = {
+		year = 1918
+
+		archetype = beta_srf
+		priority = 25
+		visual_level = 0
+		is_convertable = yes
+	}
+}

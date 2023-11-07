@@ -1,0 +1,22 @@
+﻿
+division_template = {
+	name = "A-Target"
+	is_locked = yes
+	division_names_group = BET_SRF_01
+	regiments = {
+		MVLV_beta_a_target = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	#喀什
+	#____________________________________________________________
+	division = {
+		name = "あ号標的"
+		location = 13254
+		division_template = "A-Target"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+}
+###Air Forces###

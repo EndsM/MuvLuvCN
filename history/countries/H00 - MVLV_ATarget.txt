@@ -1,0 +1,97 @@
+capital = 812 #首都
+
+1999.1.1 = {
+	oob = "H00_1999"
+
+	declare_war_on = { target = UNI type = beta_wargoal_focus } #戦争状態を設定
+	
+	set_technology = { #初期研究を定義
+		MVLV_beta_h00_tec = 1
+		can_hive = 1
+	}
+	add_ideas = { #初期国家精神を定義
+		hive_phase_5
+		limited_exports
+		limited_conscription
+		partial_economic_mobilisation
+		MVLV_H00_idea
+	}
+	
+	set_convoys = 0 #初期輸送船数を定義
+}
+set_rule = { can_join_factions = no }
+set_stability = 1 #初期安定度を定義
+set_war_support = 1 #初期戦争協力度を定義
+
+set_research_slots = 0 #初期研究枠を定義
+
+army_experience = 0 #初期陸軍経験値を定義
+
+add_political_power = 0 #初期政治力を定義
+
+add_offsite_building = { type = arms_factory level = 1 } #MAP外軍需を定義
+add_offsite_building = { type = industrial_complex level = 1 } #MAP外民需を定義
+
+set_politics = { #初期政体を定義
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = { #初期支持率を定義
+	fascism = 100
+}
+
+
+###各政体における指導者を定義###
+create_country_leader = {
+	name = "上位存在"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "GFX_portrait_superior_existance2"
+	expire = "2040.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+	
+create_country_leader = {
+	name = "上位存在"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "GFX_portrait_superior_existance2"
+	expire = "2040.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "上位存在"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "GFX_portrait_superior_existance2"
+	expire = "2040.1.1"
+	ideology = centrism
+	traits = {
+		
+	}
+}
+
+###初期将軍及び元帥を定義###
+create_field_marshal = {
+	name = "上位存在 "
+	gfx = "GFX_portrait_superior_existance2"
+	traits = { 
+		offensive_doctrine
+		
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+
+###初期提督を定義###

@@ -1,0 +1,31 @@
+
+state={
+	id=655
+	name="STATE_655"
+	manpower = 94759
+	resources={
+		oil = 10
+	}
+	state_category = town
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_claim_by = JAP
+		add_extra_state_shared_building_slots = 7
+		buildings = {
+			infrastructure = 4
+			arms_factory = 15
+			air_base = 1
+            1742 = {
+                coastal_bunker = 8
+            }
+			855 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		855 1742 1755 
+	}
+}

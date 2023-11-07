@@ -1,0 +1,25 @@
+sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
+	name = "beta_attack_bigevent_sound" #name you're using for the sound
+	file = "customsound/tno_se_custom_beta_attack.wav" ## location of the sound file
+	always_load = no
+}
+sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
+	name = "london_fall_bigevent_sound" #name you're using for the sound
+	file = "customsound/tno_se_custom_london_fall.wav" ## location of the sound file
+	always_load = no
+}
+sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
+	name = "cairo_fall_bigevent_sound" #name you're using for the sound
+	file = "customsound/tno_se_custom_cairo_fall.wav" ## location of the sound file
+	always_load = no
+}
+sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
+	name = "taipei_fall_bigevent_sound" #name you're using for the sound
+	file = "customsound/tno_se_custom_taipei_fall.wav" ## location of the sound file
+	always_load = no
+}
+sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
+	name = "tokyo_fall_bigevent_sound" #name you're using for the sound
+	file = "customsound/tno_se_custom_tokyo_fall.wav" ## location of the sound file
+	always_load = no
+}

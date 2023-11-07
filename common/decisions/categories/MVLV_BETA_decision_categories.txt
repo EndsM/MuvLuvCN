@@ -1,0 +1,14 @@
+BETA_category = {
+	icon = generic_propaganda
+	priority = 10
+	allowed = {
+		is_in_faction_with = BET
+	}
+}
+BETA地下侵攻 = {
+	icon = generic_propaganda
+	priority = 10
+	allowed = {
+		is_in_faction_with = BET
+	}
+}

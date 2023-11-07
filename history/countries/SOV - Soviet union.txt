@@ -1,0 +1,1141 @@
+capital = 790 #首都
+create_equipment_variant = {
+    name = "MiG-21"
+    type = MVLV_TSF_classis_1_heavy
+	parent_version = 0
+    obsolete = yes
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_1
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_1
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_1_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_heavy_alloy
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_1
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_scabbard
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_ex_ammo
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+    }
+	icon = "GFX_MiG-21"
+}
+create_equipment_variant = {
+    name = "MiG-21PF"
+    type = MVLV_TSF_classis_1_heavy
+	parent_version = 0
+    obsolete = yes
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_1
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_1_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_heavy_alloy
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_1
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_scabbard
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_ex_ammo
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+        MVLV_TSF_sp_slot_1 = MVLV_TSF_data_link_1
+    }
+	icon = "GFX_MiG-21"
+}
+create_equipment_variant = {
+    name = "MiG-21bis"
+    type = MVLV_TSF_classis_1_heavy
+	parent_version = 0
+    obsolete = yes
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_1
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_1_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_heavy_alloy
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_1
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_scabbard
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_ex_ammo
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+    }
+	icon = "GFX_MiG-21"
+}
+create_equipment_variant = {
+    name = "MiG-23"
+    type = MVLV_TSF_classis_1_light
+	parent_version = 0
+    obsolete = yes
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_1
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_1
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_1_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_heavy_alloy
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_1
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_scabbard
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_ex_ammo
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+        MVLV_TSF_sp_slot_1 = MVLV_TSF_data_link_1
+    }
+	icon = "GFX_MiG-23"
+}
+create_equipment_variant = {
+    name = "MiG-23MLD"
+    type = MVLV_TSF_classis_1_light
+	parent_version = 0
+    obsolete = yes
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_1
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_1
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_1_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_heavy_alloy
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_1
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_scabbard
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_ex_ammo
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+        MVLV_TSF_sp_slot_1 = MVLV_TSF_data_link_1
+    }
+	icon = "GFX_MiG-23"
+}
+create_equipment_variant = {
+    name = "MiG-27短吻鳄"
+    type = MVLV_TSF_classis_2_light_normal
+	parent_version = 0
+    obsolete = yes
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_2
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_heavy_alloy
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_scabbard
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_ex_ammo
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+        MVLV_TSF_sp_slot_1 = MVLV_TSF_data_link_1
+    }
+	icon = "GFX_MiG-27"
+}
+create_equipment_variant = {
+    name = "MiG-29燕子"
+    type = MVLV_TSF_classis_2_light_normal
+	parent_version = 0
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_2
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_heavy_alloy
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_fixed_blade
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_moto_knife_1
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+        MVLV_TSF_sp_slot_1 = MVLV_TSF_data_link_1
+    }
+	icon = "GFX_MiG-29燕子"
+}
+create_equipment_variant = {
+    name = "MiG-29M"
+    type = MVLV_TSF_classis_2_light_normal
+	parent_version = 0
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_2
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_fixed_blade
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_moto_knife_1
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+        MVLV_TSF_sp_slot_1 = MVLV_TSF_data_link_1
+    }
+	icon = "GFX_MiG-29燕子"
+}
+create_equipment_variant = {
+    name = "MiG-29M2朱红之剑"
+    type = MVLV_TSF_classis_2_light_normal
+	parent_version = 0
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_2
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_fixed_blade
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_2
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_moto_knife_2
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+        MVLV_TSF_sp_slot_1 = MVLV_TSF_data_link_2
+    }
+	icon = "GFX_MiG-29燕子"
+}
+create_equipment_variant = {
+    name = "MiG-29OVT"
+    type = MVLV_TSF_classis_2_light_normal
+	parent_version = 0
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_2
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_thruster_2
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_moto_knife_1
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_thruster_2
+    }
+	icon = "GFX_MiG-29燕子"
+}
+create_equipment_variant = {
+    name = "MiG-35"
+    type = MVLV_TSF_classis_2_light_normal
+	parent_version = 0
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_3
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_3_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_3
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_thruster_3
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_moto_knife_1
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_thruster_3
+    }
+	icon = "GFX_MiG-35"
+}
+create_equipment_variant = {
+    name = "MiG-25"
+    type = MVLV_TSF_classis_2_heavy_normal
+	parent_version = 0
+    obsolete = yes
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_2_high_speed_cruising
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_1
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_heavy_alloy
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_multi_purpose_armor
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_scabbard
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+    }
+	icon = "GFX_MiG-25"
+}
+create_equipment_variant = {
+    name = "MiG-31火狐"
+    type = MVLV_TSF_classis_2_heavy_normal
+	parent_version = 0
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_2_high_speed_cruising
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_thruster_2
+        MVLV_TSF_back_slot = MVLV_TSF_back_phoenix_2
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_moto_knife_1
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+    }
+	icon = "GFX_MiG-31"
+}
+# create_equipment_variant = {
+#     name = "1.44工程"
+#     type = MVLV_TSF_classis_3_heavy_normal_stealth
+# 	parent_version = 0
+#     obsolete = yes
+#     #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+#     modules = {
+#         MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+#         MVLV_TSF_engine_slot = MVLV_TSF_engine_1
+#         MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_1
+#         MVLV_TSF_OS_slot = MVLV_TSF_OS_1_normal
+#         MVLV_TSF_armor_slot = MVLV_TSF_armor_heavy_alloy
+#         MVLV_TSF_head_slot = MVLV_TSF_head_normal_1
+#         MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+#         MVLV_TSF_back_slot = MVLV_TSF_back_downside_hanger
+#         MVLV_TSF_arm_slot = MVLV_TSF_arm_scabbard
+#         MVLV_TSF_leg_slot = MVLV_TSF_leg_ex_ammo
+#         MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+#     }
+# }
+create_equipment_variant = {
+    name = "Su-27"
+    type = MVLV_TSF_classis_2_heavy_normal
+	parent_version = 0
+    obsolete = yes
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_1
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_1
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_scabbard
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_blade_armor
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+    }
+	icon = "GFX_Su-27"
+}
+create_equipment_variant = {
+    name = "Su-27SM"
+    type = MVLV_TSF_classis_2_heavy_normal
+	parent_version = 0
+    obsolete = yes
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_2
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_blade_armor
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+    }
+	icon = "GFX_Su-27"
+}
+create_equipment_variant = {
+    name = "Su-27M2"
+    type = MVLV_TSF_classis_2_heavy_high_mobility
+	parent_version = 0
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_2
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_blade_armor
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_thruster_2
+    }
+	icon = "GFX_Su-27"
+}
+create_equipment_variant = {
+    name = "Su-27SK"
+    type = MVLV_TSF_classis_2_heavy_normal
+	parent_version = 0
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_2
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_blade_armor
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+    }
+	icon = "GFX_Su-27"
+}
+# create_equipment_variant = {
+#     name = "Su-32"
+#     type = MVLV_TSF_classis_2_heavy_normal
+# 	parent_version = 0
+#     obsolete = yes
+#     #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+#     modules = {
+#         MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+#         MVLV_TSF_engine_slot = MVLV_TSF_engine_1
+#         MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_1
+#         MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+#         MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+#         MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+#         MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+#         MVLV_TSF_back_slot = MVLV_TSF_back_phoenix_2
+#         MVLV_TSF_arm_slot = MVLV_TSF_arm_scabbard
+#         MVLV_TSF_leg_slot = MVLV_TSF_leg_blade_armor
+#         MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+#     }
+# }
+# create_equipment_variant = {
+#     name = "Su-33"
+#     type = MVLV_TSF_classis_2_heavy_normal
+# 	parent_version = 0
+#     obsolete = yes
+#     #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+#     modules = {
+#         MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+#         MVLV_TSF_engine_slot = MVLV_TSF_engine_1
+#         MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_1
+#         MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+#         MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+#         MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+#         MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+#         MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+#         MVLV_TSF_arm_slot = MVLV_TSF_arm_scabbard
+#         MVLV_TSF_leg_slot = MVLV_TSF_leg_blade_armor
+#         MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+#     }
+# }
+create_equipment_variant = {
+    name = "Su-37UB终结者"
+    type = MVLV_TSF_classis_2_heavy_high_mobility
+	parent_version = 0
+    obsolete = yes
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_2
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_fixed_blade
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_blade_armor
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_thruster_2
+        MVLV_TSF_sp_slot_1 = MVLV_TSF_melee_fixed_blade
+    }
+	icon = "GFX_Su-37"
+}
+create_equipment_variant = {
+    name = "Su-37M2终结者"
+    type = MVLV_TSF_classis_2_heavy_high_mobility
+	parent_version = 0
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_2
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_3
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_3_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_fixed_blade
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_blade_armor
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_thruster_2
+        MVLV_TSF_sp_slot_1 = MVLV_TSF_melee_fixed_blade
+    }
+	icon = "GFX_Su-37"
+}
+create_equipment_variant = {
+    name = "Su-47"
+    type = MVLV_TSF_classis_3_heavy_high_mobility
+	parent_version = 0
+    obsolete = yes
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_3
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_3
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_3_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_3
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_fixed_blade
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_blade_armor
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_thruster_3
+        MVLV_TSF_sp_slot_1 = MVLV_TSF_melee_fixed_blade
+    }
+	icon = "GFX_Su-47"
+}
+create_equipment_variant = {
+    name = "Su-47E"
+    type = MVLV_TSF_classis_3_heavy_high_mobility
+	parent_version = 0
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_3
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_3
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_3_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_3
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_fixed_blade
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_blade_armor
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_thruster_3
+        MVLV_TSF_sp_slot_1 = MVLV_TSF_melee_fixed_blade
+    }
+	icon = "GFX_Su-47"
+}
+create_equipment_variant = {
+    name = "Su-47PZ"
+    type = MVLV_TSF_classis_3_heavy_high_mobility
+	parent_version = 0
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_3
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_3
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_3_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_3
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_fixed_blade
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_blade_armor
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_thruster_3
+        MVLV_TSF_sp_slot_1 = MVLV_TSF_melee_fixed_blade
+    }
+	icon = "GFX_Su-47"
+}
+create_equipment_variant = {
+    name = "Su-47PZX1"
+    type = MVLV_TSF_classis_3_heavy_high_mobility
+	parent_version = 0
+    #allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
+    modules = {
+        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+        MVLV_TSF_engine_slot = MVLV_TSF_engine_3
+        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_3
+        MVLV_TSF_OS_slot = MVLV_TSF_OS_3_normal
+        MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+        MVLV_TSF_head_slot = MVLV_TSF_head_small_3
+        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_fixed_blade
+        MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+        MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+        MVLV_TSF_leg_slot = MVLV_TSF_leg_blade_armor
+        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_thruster_3
+        MVLV_TSF_sp_slot_1 = MVLV_TSF_melee_fixed_blade
+    }
+	icon = "GFX_Su-47"
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		UNI_basic_concept_research = 1
+		UNI_assault_cannon_improvement_1 = 1
+		UNI_Blade_improvement_1 = 1
+		UNI_Blade_improvement_2 = 1
+		UNI_Schurzen_1 = 1
+		#		UNI_Jumping_unit_improvement = 1
+		UNI_Manipulator_improvement = 1
+		#		UNI_Carrying_ammunition_increase = 1
+		SOV_MiG-21 = 1
+		SOV_Su-11 = 1
+		SOV_MiG-23 = 1
+		SOV_MiG-27 = 1
+		SOV_MiG-31 = 1
+		SOV_MiG-29 = 1
+		SOV_Su-37 = 1
+		SOV_MiG-25 = 1
+		SOV_Su-27 = 1
+		generic_A-6 = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		MVLV_research_basic_tsf_framework=1
+		MVLV_research_tsf_1_light_framework=1
+		MVLV_research_tsf_1_heavy_framework=1
+		MVLV_research_A6=1
+		MVLV_research_tsf_2_light_normal_framework=1
+		MVLV_research_tsf_2_light_high_mobility_framework=1
+		MVLV_research_tsf_2_heavy_normal_framework=1
+		MVLV_research_tsf_2_heavy_high_mobility_framework=1
+		MVLV_research_tsf_3_heavy_high_mobility_framework=1
+		MVLV_research_basic_sensor_system=1
+		MVLV_research_vibration_sensor_1=1
+		MVLV_research_infrared_sensor_1=1
+		MVLV_research_photo_sensor_1=1
+		MVLV_research_radar_sensor_1=1
+		MVLV_research_integrated_sensor_1=1
+		MVLV_research_vibration_sensor_2=1
+		MVLV_research_infrared_sensor_2=1
+		MVLV_research_photo_sensor_2=1
+		MVLV_research_radar_sensor_2=1
+		MVLV_research_integrated_sensor_2=1
+		MVLV_research_vibration_sensor_3=1
+		MVLV_research_infrared_sensor_3=1
+		MVLV_research_photo_sensor_3=1
+		MVLV_research_basic_assault_cannon=1
+		MVLV_research_assault_cannon_36_power_1=1
+		MVLV_research_assault_cannon_36_power_2=1
+		MVLV_research_assault_cannon_120_power_1=1
+		MVLV_research_assault_cannon_120_power_2=1
+		MVLV_research_basic_armor=1
+		MVLV_research_armor_heavy_alloy=1
+		MVLV_research_armor_composite=1
+		MVLV_research_armor_light_composite=1
+		MVLV_research_basic_OS=1
+		MVLV_research_basic_OS_flight_control_enhance=1
+		MVLV_research_basic_OS_fire_control_enhance=1
+		MVLV_research_OS_1=1
+		MVLV_research_OS_1_flight_control_enhance=1
+		MVLV_research_OS_1_fire_control_enhance=1
+		MVLV_research_OS_2=1
+		MVLV_research_OS_2_flight_control_enhance=1
+		MVLV_research_OS_2_fire_control_enhance=1
+		MVLV_research_OS_3=1
+		MVLV_research_basic_engine=1
+		MVLV_research_basic_engine_fuel_efficiency=1
+		MVLV_research_basic_engine_mid_speed_cruising=1
+		MVLV_research_basic_engine_high_speed_cruising=1
+		MVLV_research_basic_engine_max_power=1
+		MVLV_research_engine_1=1
+		MVLV_research_engine_1_fuel_efficiency=1
+		MVLV_research_engine_1_mid_speed_cruising=1
+		MVLV_research_engine_1_high_speed_cruising=1
+		MVLV_research_engine_1_max_power=1
+		MVLV_research_engine_2=1
+		MVLV_research_engine_2_fuel_efficiency=1
+		MVLV_research_engine_2_mid_speed_cruising=1
+		MVLV_research_engine_2_high_speed_cruising=1
+		MVLV_research_engine_2_max_power=1
+		MVLV_research_engine_3=1
+		MVLV_research_basic_head=1
+		MVLV_research_head_small_1=1
+		MVLV_research_head_small_2=1
+		MVLV_research_head_small_3=1
+		MVLV_research_basic_back_hanger=1
+		MVLV_research_back_upside_hanger=1
+		MVLV_research_back_supply_hanger=1
+		MVLV_research_back_turbo_hanger=1
+		MVLV_research_basic_melee=1
+		MVLV_research_moto_knife=1
+
+		MVLV_research_basic_assault_cannon=1
+		MVLV_research_assault_cannon_1_normal=1
+		MVLV_research_assault_cannon_2_normal=1
+	}
+}
+
+#set_country_flag = monroe_doctrine #国旗を設定
+1999.1.1 = {
+	oob = "SOV_1999"
+	load_oob = "MVLV_gunship"
+	load_oob = "MVLV_normal_rocket"
+	load_oob = "MVLV_TSF"
+	load_oob = "MVLV_diver"
+	add_to_war = {
+		targeted_alliance = UNI
+		enemy = BET
+	}	#戦争状態を設定
+	set_technology = {
+		#初期研究を定義
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		motorised_infantry = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_engineers2 = 1
+		tech_engineers3 = 1
+		tech_engineers4 = 1
+		tech_recon = 1
+		tech_recon2 = 1
+		tech_recon3 = 1
+		tech_recon4 = 1
+		tech_field_hospital = 1
+		tech_field_hospital2 = 1
+		tech_field_hospital3 = 1
+		tech_field_hospital4 = 1
+		tech_logistics_company = 1
+		tech_logistics_company2 = 1
+		tech_logistics_company3 = 1
+		tech_logistics_company4 = 1
+		tech_military_police = 1
+		tech_military_police2 = 1
+		tech_military_police3 = 1
+		tech_military_police4 = 1
+		tech_maintenance_company = 1
+		tech_maintenance_company2 = 1
+		tech_maintenance_company3 = 1
+		tech_maintenance_company4 = 1
+		tech_signal_company = 1
+		tech_signal_company2 = 1
+		tech_signal_company3 = 1
+		tech_signal_company4 = 1
+		basic_train = 1
+		wartime_train = 1
+		gw_artillery = 1
+		interwar_artillery = 1
+		artillery1 = 1
+		artillery2 = 1
+		rocket_artillery = 1
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		basic_medium_tank = 1
+		improved_medium_tank = 1
+		advanced_medium_tank = 1
+		AA_tankI = 1
+		AA_tankII = 1
+		early_destroyer = 1
+		mtg_transport = 1
+		mtg_landing_craft = 1
+		mtg_tank_landing_craft = 1
+		fleet_in_being = 1
+		fighter = 1
+                                CAS1 = 1
+		CAS2 = 1
+		jet_tactical_bomber1 = 1
+		jet_tactical_bomber2 = 1
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		assembly_line_production = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		construction4 = 1
+		construction5 = 1
+		fuel_silos = 1
+		fuel_refining = 1
+		streamlined_line = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+		dispersed_industry4 = 1
+		dispersed_industry5 = 1
+		interwar_antiair = 1
+		experimental_rockets = 1
+		rocket_engines = 1
+		jet_engines = 1
+		
+		MVLV_shell_tech = 1
+		
+		###陸军ドクトリン###
+		superior_firepower = 1
+		# ###TSF###
+		# UNI_basic_concept_research = 1
+		# UNI_assault_cannon_improvement_1 = 1
+		# UNI_Blade_improvement_1 = 1
+		# UNI_Blade_improvement_2 = 1
+		# UNI_Schurzen_1 = 1
+		# #		UNI_Jumping_unit_improvement = 1
+		# UNI_Manipulator_improvement = 1
+		# #		UNI_Carrying_ammunition_increase = 1
+		# SOV_MiG-21 = 1
+		# SOV_Su-11 = 1
+		# SOV_MiG-23 = 1
+		# SOV_MiG-27 = 1
+		# SOV_MiG-31 = 1
+		# SOV_MiG-29 = 1
+		# SOV_Su-37 = 1
+		# SOV_MiG-25 = 1
+		# SOV_Su-27 = 1
+		# generic_A-6 = 1
+		
+		
+		
+		tech_special_forces = 1
+		###军需・民需建築許可###
+		MVLV_EnableBuilding_arms_factory = 1
+		MVLV_EnableBuilding_industrial_complex = 1
+		###戦術###
+		human_combat_tactics = 1
+		#战术机
+		# MVLV_TSF_basic_concept_research = 1
+		# MVLV_TSF_thruster_1_research = 1
+		# MVLV_TSF_thruster_2_research = 1
+		# MVLV_TSF_thruster_3_research = 1
+		# MVLV_TSF_classis_1_research = 1
+		# MVLV_TSF_back_1_research = 1
+		# MVLV_TSF_classis_1_improved_research = 1
+		# MVLV_TSF_logistics_improve_research = 1
+		# MVLV_TSF_vs_beta_theory_research = 1
+		# MVLV_TSF_back_1_research = 1
+		# MVLV_TSF_classis_2_research = 1
+		# MVLV_TSF_improved_weapon_mounting_research = 1
+		# MVLV_TSF_recon_research = 1
+		# MVLV_TSF_armament_1_research = 1
+		# MVLV_TSF_armament_2_research = 1
+
+		
+		# #战术机
+		# MVLV_research_basic_tsf_framework=1
+		# MVLV_research_tsf_1_light_framework=1
+		# MVLV_research_tsf_1_heavy_framework=1
+		# MVLV_research_tsf_2_light_normal_framework=1
+		# MVLV_research_tsf_2_light_high_mobility_framework=1
+		# MVLV_research_tsf_2_heavy_normal_framework=1
+		# MVLV_research_tsf_2_heavy_high_mobility_framework=1
+		# MVLV_research_tsf_3_heavy_normal_framework=1
+		# MVLV_research_basic_sensor_system=1
+		# MVLV_research_vibration_sensor_1=1
+		# MVLV_research_infrared_sensor_1=1
+		# MVLV_research_photo_sensor_1=1
+		# MVLV_research_radar_sensor_1=1
+		# MVLV_research_integrated_sensor_1=1
+		# MVLV_research_vibration_sensor_2=1
+		# MVLV_research_infrared_sensor_2=1
+		# MVLV_research_photo_sensor_2=1
+		# MVLV_research_radar_sensor_2=1
+		# MVLV_research_integrated_sensor_2=1
+		# MVLV_research_vibration_sensor_3=1
+		# MVLV_research_infrared_sensor_3=1
+		# MVLV_research_photo_sensor_3=1
+		# MVLV_research_basic_assault_cannon=1
+		# MVLV_research_assault_cannon_36_power_1=1
+		# MVLV_research_assault_cannon_36_power_2=1
+		# MVLV_research_assault_cannon_120_power_1=1
+		# MVLV_research_assault_cannon_120_power_2=1
+		# MVLV_research_basic_armor=1
+		# MVLV_research_armor_heavy_alloy=1
+		# MVLV_research_armor_composite=1
+		# MVLV_research_armor_light_composite=1
+		# MVLV_research_basic_OS=1
+		# MVLV_research_basic_OS_flight_control_enhance=1
+		# MVLV_research_basic_OS_fire_control_enhance=1
+		# MVLV_research_OS_1=1
+		# MVLV_research_OS_1_flight_control_enhance=1
+		# MVLV_research_OS_1_fire_control_enhance=1
+		# MVLV_research_OS_2=1
+		# MVLV_research_OS_2_flight_control_enhance=1
+		# MVLV_research_OS_2_fire_control_enhance=1
+		# MVLV_research_OS_3=1
+		# MVLV_research_basic_engine=1
+		# MVLV_research_basic_engine_fuel_efficiency=1
+		# MVLV_research_basic_engine_mid_speed_cruising=1
+		# MVLV_research_basic_engine_high_speed_cruising=1
+		# MVLV_research_basic_engine_max_power=1
+		# MVLV_research_engine_1=1
+		# MVLV_research_engine_1_fuel_efficiency=1
+		# MVLV_research_engine_1_mid_speed_cruising=1
+		# MVLV_research_engine_1_high_speed_cruising=1
+		# MVLV_research_engine_1_max_power=1
+		# MVLV_research_engine_2=1
+		# MVLV_research_engine_2_fuel_efficiency=1
+		# MVLV_research_engine_2_mid_speed_cruising=1
+		# MVLV_research_engine_2_high_speed_cruising=1
+		# MVLV_research_engine_2_max_power=1
+		# MVLV_research_engine_3=1
+		# MVLV_research_basic_head=1
+		# MVLV_research_head_small_1=1
+		# MVLV_research_head_small_2=1
+		# MVLV_research_head_small_3=1
+		# MVLV_research_basic_back_hanger=1
+		# MVLV_research_back_upside_hanger=1
+		# MVLV_research_back_supply_hanger=1
+		# MVLV_research_back_turbo_hanger=1
+		# MVLV_research_basic_melee=1
+		# MVLV_research_moto_knife=1
+
+		# MVLV_research_basic_assault_cannon=1
+		# MVLV_research_assault_cannon_1_normal=1
+		# MVLV_research_assault_cannon_2_normal=1
+	}
+	add_tech_bonus = {
+		#工業バフ
+		name = TSF3
+		bonus = 1
+		uses = 1
+		technology = MVLV_TSF_classis_3_research
+	}
+	add_tech_bonus = {
+		#工業バフ
+		name = industry
+		bonus = 1000
+		uses = 5
+		category = concentrated_industry_category
+		category = dispersed_industry_category
+	}
+	add_tech_bonus = {
+		#ラインバフ
+		name = line
+		bonus = 1000
+		uses = 1
+		technology = flexible_line
+		technology = streamlined_line
+	}
+	add_ideas = {
+		#初期国家精神を定義
+		limited_exports
+		service_by_requirement
+		tot_economic_mobilisation
+		mvlv_nuclear_winter
+		mvlv_prominence_problem
+		SOV_comunist_party
+		SOV_warlord
+		SOV_russian
+		mvlv_parmanent
+		mvlv_altanative_3
+		MVLV_UNF
+	}
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		set_technology = {
+			basic_naval_mines = 1
+			submarine_mine_laying = 1
+			improved_submarine_mine_laying = 1
+			improved_naval_mines = 1
+			degaussing = 1
+			advanced_naval_mines = 1
+			airdrop_mines = 1
+			modern_naval_mines = 1
+			airsweep_mines = 1
+			basic_torpedo = 1
+			basic_battery = 1
+			basic_light_battery = 1
+			improved_light_battery = 1
+			advanced_light_battery = 1
+			basic_light_shell = 1
+			improved_light_shell = 1
+			basic_heavy_battery = 1
+			improved_heavy_battery = 1
+			advanced_heavy_battery = 1
+			basic_heavy_shell = 1
+			improved_heavy_shell = 1
+			basic_secondary_battery = 1
+			improved_secondary_battery = 1
+			dp_secondary_battery = 1
+			basic_medium_battery = 1
+			improved_medium_battery = 1
+			advanced_medium_battery = 1
+			basic_medium_shell = 1
+			improved_medium_shell = 1
+			improved_ship_torpedo_launcher = 1
+			early_ship_hull_submarine = 1
+			basic_ship_hull_submarine = 1
+			improved_ship_hull_submarine = 1
+			advanced_ship_hull_submarine = 1
+			basic_submarine_snorkel = 1
+			improved_submarine_snorkel = 1
+			early_ship_hull_light = 1
+			basic_ship_hull_light = 1
+			improved_ship_hull_light = 1
+			advanced_ship_hull_light = 1
+			early_ship_hull_cruiser = 1
+			basic_ship_hull_cruiser = 1
+			improved_ship_hull_cruiser = 1
+			advanced_ship_hull_cruiser = 1
+			early_ship_hull_heavy = 1
+			basic_ship_hull_heavy = 1
+			ship_hull_super_heavy = 1
+			improved_ship_hull_heavy = 1
+			advanced_ship_hull_heavy = 1
+			basic_heavy_armor_scheme = 1
+			improved_heavy_armor_scheme = 1
+			early_ship_hull_carrier = 1
+			basic_ship_hull_carrier = 1
+			improved_ship_hull_carrier = 1
+			advanced_ship_hull_carrier = 1
+			basic_torpedo = 1
+			magnetic_detonator = 1
+			homing_torpedo = 1
+			electric_torpedo = 1
+			improved_ship_torpedo_launcher = 1
+			advanced_ship_torpedo_launcher = 1
+			modern_ship_torpedo_launcher = 1
+			improved_airplane_launcher = 1
+			basic_cruiser_armor_scheme = 1
+			improved_cruiser_armor_scheme = 1
+			advanced_cruiser_armor_scheme = 1
+			smoke_generator = 1
+			mtg_transport = 1
+			mtg_landing_craft = 1
+			mtg_tank_landing_craft = 1
+			coastal_defense_ships = 1
+			basic_secondary_battery = 1
+			basic_depth_charges = 1
+			improved_depth_charges = 1
+			advanced_depth_charges = 1
+			modern_depth_charges = 1
+			sonar = 1
+			improved_sonar = 1
+			damage_control_1 = 1
+			damage_control_2 = 1
+			damage_control_3 = 1
+			fire_control_methods_1 = 1
+			fire_control_methods_2 = 1
+			fire_control_methods_3 = 1
+		}
+		set_naval_oob = "SOV_1999_navy"
+	}
+	if = {
+		limit = {
+			not = {
+				has_dlc = "Man the Guns"
+			}
+		}
+		set_technology = {
+			early_submarine = 1
+			basic_submarine = 1
+			improved_submarine = 1
+			advanced_submarine = 1
+			early_destroyer = 1
+			basic_destroyer = 1
+			improved_destroyer = 1
+			advanced_destroyer = 1
+			early_light_cruiser = 1
+			basic_light_cruiser = 1
+			improved_light_cruiser = 1
+			advanced_light_cruiser = 1
+			early_heavy_cruiser = 1
+			basic_heavy_cruiser = 1
+			improved_heavy_cruiser = 1
+			advanced_heavy_cruiser = 1
+			early_battleship = 1
+			basic_battleship = 1
+			improved_battleship = 1
+			advanced_battleship = 1
+			early_battlecruiser = 1
+			basic_battlecruiser = 1
+			heavy_battleship = 1
+			heavy_battleship2 = 1
+			early_carrier = 1
+			basic_carrier = 1
+			improved_carrier = 1
+			advanced_carrier = 1
+			transport = 1
+			landing_craft = 1
+			tank_landing_craft = 1
+		}
+		set_naval_oob = "SOV_1999_navy_legacy"
+	}
+	set_convoys = 1000	#初期运输船数を定義
+}
+
+set_stability = 0.8#初期安定度を定義
+set_war_support = 0.7#初期戦争協力度を定義
+set_research_slots = 4#初期研究枠を定義
+# army_experience = 100 #初期陸军経験値を定義
+army_experience = 300
+navy_experience = 100
+add_political_power = -300#初期政治力を定義
+add_offsite_building = {
+	type = arms_factory
+	level = 35#20
+}
+#MAP外军需を定義
+add_offsite_building = {
+	type = industrial_complex
+	level = 30#25
+}
+#MAP外民需を定義
+add_offsite_building = {
+	type = dockyard
+	level = 5
+}
+#MAP外海军工廠を定義
+set_politics = {
+	#初期政体を定義
+	ruling_party = communism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	#初期支持率を定義
+	democratic = 10
+	fascism = 2
+	communism = 88
+}
+
+###各政体における指導者を定義###
+create_country_leader = {
+	name = "苏联共产党"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "Moscow.dds"
+	expire = "1953.3.1"
+	ideology = stalinism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konstantin Rodzaevsky"
+	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
+	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Fyodorovich Kerensky"
+	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	picture = "Portrait_Soviet_Generic_1.dds"
+	expire = "1953.3.1"
+	ideology = socialism
+	traits = {
+	}
+}
+
+recruit_character = SOV_units_leader_1
+recruit_character = SOV_units_leader_2
+recruit_character = SOV_units_leader_3
+recruit_character = SOV_units_leader_4
+recruit_character = SOV_units_leader_5
+recruit_character = SOV_units_leader_6
+recruit_character = SOV_units_leader_7
+recruit_character = SOV_units_leader_8
+recruit_character = SOV_units_leader_9
+recruit_character = SOV_units_leader_10
+recruit_character = SOV_units_leader_11
+recruit_character = 叶莲娜莫罗佐娃
+###初期将军及び元帥を定義###
+
+###初期提督を定義###
+create_navy_leader = {
+	name = "Filipp Oktyabrskiy"
+	picture = "Portrait_Soviet_Filipp_Oktyabrsky.dds"
+	traits = {
+		ironside
+	}
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Sergey Gorshkov"
+	id = 411
+	picture = "Portrait_Soviet_Sergey_Gorshkov.dds"
+	traits = {
+	}
+	skill = 3
+}

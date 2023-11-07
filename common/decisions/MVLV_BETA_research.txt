@@ -1,0 +1,68 @@
+# beta_research = {
+# 	tank_research_1 = {
+# 		icon = generic_nationalism
+# 		available = {
+# 			check_variable = {
+# 				num_equipment@beta_tank>1000
+# 			}
+# 		}
+# 		fire_only_once = no
+# 		visible = {
+# 			has_war_with = BET
+# 		}
+# 		complete_effect = {
+# 			add_equipment_to_stockpile = {
+# 				type = beta_tank
+# 				amount = -1000
+# 			}
+# 			add_equipment_to_stockpile = {
+# 				type = MVLV_TSF_chassis
+# 				amount = 4
+# 			}
+# 		}
+# 	}
+# 	tank_research_2 = {
+# 		icon = generic_nationalism
+# 		available = {
+# 			check_variable = {
+# 				num_equipment@beta_tank>10000
+# 			}
+# 		}
+# 		fire_only_once = no
+# 		visible = {
+# 			has_war_with = BET
+# 		}
+# 		complete_effect = {
+# 			add_equipment_to_stockpile = {
+# 				type = beta_tank
+# 				amount = -10000
+# 			}
+# 			add_equipment_to_stockpile = {
+# 				type = MVLV_TSF_chassis
+# 				amount = 40
+# 			}
+# 		}
+# 	}
+# 	tank_research_3 = {
+# 		icon = generic_nationalism
+# 		available = {
+# 			check_variable = {
+# 				num_equipment@beta_tank>100000
+# 			}
+# 		}
+# 		fire_only_once = no
+# 		visible = {
+# 			has_war_with = BET
+# 		}
+# 		complete_effect = {
+# 			add_equipment_to_stockpile = {
+# 				type = beta_tank
+# 				amount = -100000
+# 			}
+# 			add_equipment_to_stockpile = {
+# 				type = MVLV_TSF_chassis
+# 				amount = 400
+# 			}
+# 		}
+# 	}
+# }

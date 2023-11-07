@@ -1,0 +1,20 @@
+﻿division_template = {
+	name = "A-04"
+	is_locked = yes
+	regiments = {
+		MVLV_xg_battalion = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+	}
+}
+
+##### OOB #####
+units = {
+	division = {
+		name = "伊隅女武神"
+		location = 4973
+		division_template = "A-04"
+		start_experience_factor = 1.0
+		force_equipment_variants = { xg_equipment_1   = { owner = "UNI" } }
+		force_equipment_variants = { jeg_equipment_T00R  = { owner = "JAP" } }
+	}
+}

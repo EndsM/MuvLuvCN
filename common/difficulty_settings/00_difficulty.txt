@@ -1,0 +1,85 @@
+difficulty_settings = {
+	difficulty_setting = {
+		key = "custom_diff_strong_jap"
+		modifier = diff_strong_ai_generic
+		countries = { JAP }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_usa"
+		modifier = diff_strong_ai_generic
+		countries = { USA }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_can"
+		modifier = diff_strong_ai_generic
+		countries = { CAN }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_chi"
+		modifier = diff_strong_ai_generic
+		countries = { CHI }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_sov"
+		modifier = diff_strong_ai_generic
+		countries = { SOV }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_uni"
+		modifier = diff_strong_ai_generic
+		countries = { UNI }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_ose"
+		modifier = diff_strong_ai_generic
+		countries = { OSE }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_eur"
+		modifier = diff_strong_ai_generic
+		countries = { EUR }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_geu"
+		modifier = diff_strong_ai_generic
+		countries = { GEU }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_cea"
+		modifier = diff_strong_ai_generic
+		countries = { CEA }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_soa"
+		modifier = diff_strong_ai_generic
+		countries = { SOA }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "custom_diff_strong_afr"
+		modifier = diff_strong_ai_generic
+		countries = { AFR }
+		multiplier = 2.0
+	}
+}

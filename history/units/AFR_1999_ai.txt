@@ -1,0 +1,98 @@
+﻿units = {
+	division = {
+		location = 8124
+		division_template = "战术机联队"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "AFR"
+				creator = EUR
+				version_name = "幻影2000"
+			}
+		}
+	}
+	
+	division = {
+		location = 8124
+		division_template = "战术机联队"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "AFR"
+				creator = SOV
+				version_name = "MiG-29燕子"
+			}
+		}
+	}
+	
+	division = {
+		location = 8124
+		division_template = "战术机联队"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "AFR"
+				creator = EUR
+				version_name = "幻影III"
+			}
+		}
+	}
+	
+	division = {
+		location = 8124
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		location = 8124
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		location = 8124
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		location = 8124
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		location = 8124
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		location = 8124
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		location = 8124
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		location = 8124
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		location = 8124
+		division_template = "战术机联队"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,514 @@
+music_station = "Schwarzesmarken"
+
+music = {
+	song = "Schwarzesmarken_01"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_02"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_03"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_04"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_05"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_06"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_07"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_08"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_09"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_10"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_11"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_12"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_13"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_14"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_15"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_16"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_17"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_18"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_19"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_20"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_21"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_22"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_23"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_24"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_25"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_26"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_27"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_28"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_29"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_30"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_31"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_32"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_33"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_34"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_35"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_36"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_37"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_38"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_39"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_40"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_41"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_42"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_43"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_44"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_45"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_46"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_47"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_48"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_49"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_50"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_51"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_52"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_53"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_54"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_55"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_56"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_57"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_58"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_59"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_60"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_61"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_62"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_63"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+music = {
+	song = "Schwarzesmarken_64"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}

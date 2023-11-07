@@ -1,0 +1,11 @@
+#al_categories = {
+#	icon = generic_propaganda
+#	priority = 10
+#	visible_when_empty = yes
+#	allowed = {
+#		not = {
+#			is_in_faction_with = BET
+#		}
+#		# always = yes
+#	}
+#}

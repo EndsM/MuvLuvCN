@@ -1,0 +1,119 @@
+add_namespace = mvlv_beta_atk
+country_event = {
+	id = mvlv_beta_atk.0
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = yes
+	trigger = {
+		is_in_faction_with = BET
+	}
+	immediate = {
+		if = {
+			limit = {
+				has_idea = mvlv_aggressive_beta
+			}
+			大侵攻结束 = yes
+		}
+		# else_if = {
+		# 	limit = {
+		# 		BETA陆军数量未到达当前巢穴等级上限 = yes
+		# 		has_idea = mvlv_aggressive_beta
+		# 	}
+		# 	大侵攻结束 = yes
+		# }
+		else_if = {
+			limit = {
+				has_idea = mvlv_aggressive_beta2
+			}
+			if = {
+				limit = {
+					BETA陆军数量未到达当前巢穴等级上限 = no
+				}
+				remove_ideas = mvlv_aggressive_beta2
+				大侵攻开始 = yes
+				重置大侵攻进度 = yes
+			}
+			else_if = {
+				limit = {
+					BETA陆军数量未到达当前巢穴等级小侵攻限度 = yes
+				}
+				小侵攻结束 = yes
+			}
+		}
+		else_if = {
+			limit = {
+				any_enemy_country = {
+					is_neighbor_of = ROOT
+				}
+			}
+			if = {
+				limit = {
+					BETA陆军数量未到达当前巢穴等级小侵攻限度 = yes
+				}
+				重置小侵攻进度 = yes
+			}
+			else_if = {
+				limit = {
+					BETA陆军数量未到达当前巢穴等级上限 = yes
+				}
+				重置大侵攻进度 = yes
+				random_list = {
+					global.BETA侵攻启动成功概率数组^小侵攻进度 = {
+						小侵攻开始 = yes
+						重置小侵攻进度 = yes
+					}
+					global.BETA侵攻启动失败概率数组^小侵攻进度 = {
+						小侵攻进度增加 = yes
+					}
+				}
+			}
+			else = {
+				# random_list = {
+				# 	global.BETA侵攻启动成功概率数组^小侵攻进度 = {
+				# 		小侵攻开始 = yes
+				# 		重置小侵攻进度 = yes
+				# 	}
+				# 	global.BETA侵攻启动失败概率数组^小侵攻进度 = {
+				# 		random_list = {
+				# 			global.BETA侵攻启动成功概率数组^大侵攻进度 = {
+				# 				大侵攻开始 = yes
+				# 				重置大侵攻进度 = yes
+				# 			}
+				# 			global.BETA侵攻启动失败概率数组^大侵攻进度 = {
+				# 				大侵攻进度增加 = yes
+				# 			}
+				# 		}
+				# 		小侵攻进度增加 = yes
+				# 	}
+				# }
+				random_list = {
+					global.BETA侵攻启动成功概率数组^大侵攻进度 = {
+					大侵攻开始 = yes
+					重置大侵攻进度 = yes
+					}
+					global.BETA侵攻启动失败概率数组^大侵攻进度 = {
+						大侵攻进度增加 = yes
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					BETA陆军数量未到达当前巢穴等级小侵攻限度 = yes
+				}
+				重置小侵攻进度 = yes
+			}
+			else_if = {
+				limit = {
+					BETA陆军数量未到达当前巢穴等级上限 = yes
+				}
+				重置大侵攻进度 = yes
+			}
+		}
+		country_event = {
+			id = mvlv_beta_atk.0
+			days = 30
+		}
+	}
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=34
+	name="STATE_34"
+	manpower = 3381300
+	
+	state_category = large_city
+
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			add_core_of = EUR
+			remove_core_of = BEL
+		}
+		owner = BEL
+		victory_points = {
+			3516 5
+		}
+		victory_points = {
+			11519 10
+		}
+		victory_points = {
+			9536 3
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 1
+
+		}
+		add_core_of = BEL
+	}
+
+	provinces={
+		3488 3516 6537 9418 9444 9536 11407 11519 13081 
+	}
+}

@@ -1,0 +1,50 @@
+equipment_modules = {
+	MVLV_TSF_data_link_1 = {
+		category = MVLV_TSF_data_link_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 2
+			initiative = 0.01
+		}
+		multiply_stats = {
+			breakthrough = 0.03
+			defense = 0.02
+		}
+	}
+	MVLV_TSF_data_link_2 = {
+		category = MVLV_TSF_data_link_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 3
+			initiative = 0.015
+		}
+		multiply_stats = {
+			breakthrough = 0.05
+			defense = 0.03
+		}
+	}
+	MVLV_TSF_data_link_3 = {
+		category = MVLV_TSF_data_link_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 4			#20
+			initiative = 0.02
+		}
+		multiply_stats = {
+			breakthrough = 0.07
+			defense = 0.05
+		}
+	}
+	MVLV_TSF_data_link_4 = {
+		category = MVLV_TSF_data_link_type
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			build_cost_ic = 5			#30
+			initiative = 0.025
+		}
+		multiply_stats = {
+			breakthrough = 0.1
+			defense = 0.07
+		}
+	}
+}

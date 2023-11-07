@@ -1,0 +1,643 @@
+spriteTypes = {	
+##大戦型戦車###
+	SpriteType = {
+		name = "GFX_gwtank_medium"
+		texturefile = "gfx/interface/technologies/USA_imp_main_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_gwtank_medium"
+		texturefile = "gfx/interface/technologies/USA_adv_light_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_gwtank_medium"
+		texturefile = "gfx/interface/technologies/chi_gwtank.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_gwtank_medium"
+		texturefile = "gfx/interface/technologies/chi_gwtank.dds"
+	}
+	SpriteType = {
+		name = "GFX_EEA_gwtank_medium"
+		texturefile = "gfx/interface/technologies/chi_gwtank.dds"
+	}
+	SpriteType = {
+		name = "GFX_AFR_gwtank_medium"
+		texturefile = "gfx/interface/technologies/chi_gwtank.dds"
+	}
+
+###主力戦車＆ヘリコプター###
+	SpriteType = {
+		name = "GFX_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/AH1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/EC665.dds"
+	}	
+	SpriteType = {
+		name = "GFX_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Centurion.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Chieftain.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/L2.dds"
+	}
+	SpriteType = {
+		name = "GFX_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/L2A6.dds"
+	}
+	SpriteType = {
+		name = "GFX_main_battle_tank2_medium"
+		texturefile = "gfx/interface/technologies/weapon/L2A7.dds"
+	}
+	SpriteType = {
+		name = "GFX_AA_tankI_medium"
+		texturefile = "gfx/interface/technologies/weapon/AMX-13DCA.dds"
+	}
+	SpriteType = {
+		name = "GFX_AA_tankII_medium"
+		texturefile = "gfx/interface/technologies/weapon/marksman.dds"
+	}
+
+	###国联###
+	SpriteType = {
+		name = "GFX_UNI_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/M48.dds"
+	}		
+	SpriteType = {
+		name = "GFX_UNI_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/M60.dds"
+	}
+
+	###日本###
+	SpriteType = {
+		name = "GFX_JAP_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/AH1J.dds"
+	}	
+	SpriteType = {
+		name = "GFX_JAP_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/AH64.dds"
+	}			
+	SpriteType = {
+		name = "GFX_JAP_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/T61.dds"
+	}		
+	SpriteType = {
+		name = "GFX_JAP_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/T74.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/T90.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/JAP_adv_main_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_JAP_main_battle_tank2_medium"
+		texturefile = "gfx/interface/technologies/weapon/T10.dds"
+	}
+
+	###ソ連###
+	SpriteType = {
+		name = "GFX_SOV_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Mi24.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Ka50.dds"
+	}		
+	SpriteType = {
+		name = "GFX_SOV_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/T-55.dds"
+	}		
+	SpriteType = {
+		name = "GFX_SOV_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/T-62.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/T-72.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/T-80.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_main_battle_tank2_medium"
+		texturefile = "gfx/interface/technologies/weapon/T-14.dds"
+	}
+
+	###アメリカ###
+	SpriteType = {
+		name = "GFX_USA_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/AH1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/AH64.dds"
+	}		
+	SpriteType = {
+		name = "GFX_USA_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/M48.dds"
+	}		
+	SpriteType = {
+		name = "GFX_USA_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/M60.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/M1A1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/M1A2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_main_battle_tank2_medium"
+		texturefile = "gfx/interface/technologies/weapon/M1A2C.dds"
+	}
+
+	###中華###
+	SpriteType = {
+		name = "GFX_CHI_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/WZ9.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/WZ10.dds"
+	}			
+	SpriteType = {
+		name = "GFX_CHI_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/ZTZ59.dds"
+	}		
+	SpriteType = {
+		name = "GFX_CHI_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/ZTZ80.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/ZTZ96.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/ZTZ99.dds"
+	}	
+	SpriteType = {
+		name = "GFX_CHI_main_battle_tank2_medium"
+		texturefile = "gfx/interface/technologies/weapon/ZTZ99A.dds"
+	}
+
+	###欧州###
+	SpriteType = {
+		name = "GFX_EUR_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Linx.dds"
+	}	
+	SpriteType = {
+		name = "GFX_EUR_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/EC665.dds"
+	}			
+	SpriteType = {
+		name = "GFX_EUR_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Centurion.dds"
+	}		
+	SpriteType = {
+		name = "GFX_EUR_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Chieftain.dds"
+	}
+	SpriteType = {
+		name = "GFX_EUR_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/L2.dds"
+	}
+	SpriteType = {
+		name = "GFX_EUR_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/L2A6.dds"
+	}	
+	SpriteType = {
+		name = "GFX_EUR_main_battle_tank2_medium"
+		texturefile = "gfx/interface/technologies/weapon/L2A7.dds"
+	}
+
+	###東欧###
+	SpriteType = {
+		name = "GFX_EEA_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Mi24.dds"
+	}	
+	SpriteType = {
+		name = "GFX_EEA_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Mi28.dds"
+	}		
+	SpriteType = {
+		name = "GFX_EEA_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/T-55.dds"
+	}		
+	SpriteType = {
+		name = "GFX_EEA_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/T-62.dds"
+	}
+	SpriteType = {
+		name = "GFX_EEA_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/T-72.dds"
+	}
+	SpriteType = {
+		name = "GFX_EEA_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/T-80.dds"
+	}
+	SpriteType = {
+		name = "GFX_EEA_main_battle_tank2_medium"
+		texturefile = "gfx/interface/technologies/weapon/L2A7.dds"
+	}	
+
+	###オーストラリア###
+	SpriteType = {
+		name = "GFX_OSE_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/EC665.dds"
+	}			
+	SpriteType = {
+		name = "GFX_OSE_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Centurion.dds"
+	}		
+	SpriteType = {
+		name = "GFX_OSE_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/L1.dds"
+	}
+	SpriteType = {
+		name = "GFX_OSE_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/M1A1.dds"
+	}
+	SpriteType = {
+		name = "GFX_OSE_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/M1A2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_OSE_main_battle_tank2_medium"
+		texturefile = "gfx/interface/technologies/weapon/M1A2C.dds"
+	}
+
+	###アフリカ###
+	SpriteType = {
+		name = "GFX_AFR_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Mi24.dds"
+	}	
+	SpriteType = {
+		name = "GFX_AFR_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Mi28.dds"
+	}
+	SpriteType = {
+		name = "GFX_AFR_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Centurion.dds"
+	}		
+	SpriteType = {
+		name = "GFX_AFR_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Chieftain.dds"
+	}
+	SpriteType = {
+		name = "GFX_AFR_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Challenger1.dds"
+	}
+	SpriteType = {
+		name = "GFX_AFR_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/Challenger2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_AFR_main_battle_tank2_medium"
+		texturefile = "gfx/interface/technologies/weapon/Challenger2Mk2.dds"
+	}
+
+	###大東亜###
+	SpriteType = {
+		name = "GFX_GEU_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/T-55.dds"
+	}		
+	SpriteType = {
+		name = "GFX_GEU_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/T-62.dds"
+	}
+	SpriteType = {
+		name = "GFX_GEU_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/K1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GEU_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/weapon/K1A1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_GEU_main_battle_tank2_medium"
+		texturefile = "gfx/interface/technologies/weapon/K2.dds"
+	}
+
+###砲兵###
+	SpriteType = {
+		name = "GFX_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/Art_1_comintern.dds"
+	}	
+	SpriteType = {
+		name = "GFX_interwar_artillery_medium"
+		texturefile = "gfx/interface/technologies/artillery1.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery1_medium"
+		texturefile = "gfx/interface/technologies/Art_2_comintern.dds"
+	}	
+	SpriteType = {
+		name = "GFX_artillery2_medium"
+		texturefile = "gfx/interface/technologies/artillery2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_artillery3_medium"
+		texturefile = "gfx/interface/technologies/artillery3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Art_3_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_artillery5_medium"
+		texturefile = "gfx/interface/technologies/artillery5.dds"
+	}		
+	SpriteType = {
+		name = "GFX_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_artillery2_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_rocket_artillery3_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery3.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_2_allies.dds"
+	}
+
+	###アメリカ###
+	SpriteType = {
+		name = "GFX_USA_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/Art_1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_artillery1_medium"
+		texturefile = "gfx/interface/technologies/Art_2_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Art_3_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_rocket_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_2_allies.dds"
+	}
+
+	###日本帝国###
+	SpriteType = {
+		name = "GFX_JAP_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/Art_1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_artillery1_medium"
+		texturefile = "gfx/interface/technologies/Art_2_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Art_3_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_rocket_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_2_axis.dds"
+	}
+
+	###ソ連###
+	SpriteType = {
+		name = "GFX_SOV_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/chi_artillery_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_artillery1_medium"
+		texturefile = "gfx/interface/technologies/Art_2_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Art_3_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_rocket_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_2_comintern.dds"
+	}
+
+	###欧州###
+	SpriteType = {
+		name = "GFX_EUR_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/Art_1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_EUR_artillery1_medium"
+		texturefile = "gfx/interface/technologies/Art_2_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_EUR_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Art_3_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_EUR_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_EUR_rocket_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_2_axis.dds"
+	}
+
+	###東欧###
+	SpriteType = {
+		name = "GFX_EEA_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/chi_artillery_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_EEA_artillery1_medium"
+		texturefile = "gfx/interface/technologies/Art_2_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_EEA_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Art_3_comintern.dds"
+	}	
+	SpriteType = {
+		name = "GFX_EEA_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_EEA_rocket_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_2_comintern.dds"
+	}
+
+
+###自走機関砲###
+	###日本###
+	SpriteType = {
+		name = "GFX_JAP_AA_tankI_medium"
+		texturefile = "gfx/interface/technologies/weapon/M163.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_AA_tankII_medium"
+		texturefile = "gfx/interface/technologies/weapon/T87.dds"
+	}
+
+	###ソ連###
+	SpriteType = {
+		name = "GFX_SOV_AA_tankI_medium"
+		texturefile = "gfx/interface/technologies/weapon/ZSU-23-4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_AA_tankII_medium"
+		texturefile = "gfx/interface/technologies/weapon/2K22.dds"
+	}
+
+	###アメリカ###
+	SpriteType = {
+		name = "GFX_USA_AA_tankI_medium"
+		texturefile = "gfx/interface/technologies/weapon/M163.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_AA_tankII_medium"
+		texturefile = "gfx/interface/technologies/weapon/LAV-AD.dds"
+	}
+
+	###中華###
+	SpriteType = {
+		name = "GFX_CHI_AA_tankI_medium"
+		texturefile = "gfx/interface/technologies/weapon/ZSU-23-4.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHI_AA_tankII_medium"
+		texturefile = "gfx/interface/technologies/weapon/T95.dds"
+	}
+
+	###欧州###
+	SpriteType = {
+		name = "GFX_EUR_AA_tankI_medium"
+		texturefile = "gfx/interface/technologies/weapon/SIDAM 25.dds"
+	}
+	SpriteType = {
+		name = "GFX_EUR_AA_tankII_medium"
+		texturefile = "gfx/interface/technologies/weapon/Gepard.dds"
+	}
+
+	###東欧###
+	SpriteType = {
+		name = "GFX_EEA_AA_tankI_medium"
+		texturefile = "gfx/interface/technologies/weapon/ZSU-23-4.dds"
+	}
+	SpriteType = {
+		name = "GFX_EEA_AA_tankII_medium"
+		texturefile = "gfx/interface/technologies/weapon/2K22.dds"
+	}
+
+	###大東亜###
+	SpriteType = {
+		name = "GFX_GEU_AA_tankI_medium"
+		texturefile = "gfx/interface/technologies/weapon/ZSU-23-4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GEU_AA_tankII_medium"
+		texturefile = "gfx/interface/technologies/weapon/K30.dds"
+	}
+
+###戦略爆撃機###
+	SpriteType = {
+		name = "GFX_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/Tu-95.dds"
+	}
+	SpriteType = {
+		name = "GFX_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/Tu-22M.dds"
+	}
+
+	###アメリカ###
+	SpriteType = {
+		name = "GFX_USA_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/B-52.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/B-1B.dds"
+	}
+
+	###欧州###
+	SpriteType = {
+		name = "GFX_EUR_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/Victor.dds"
+	}
+	SpriteType = {
+		name = "GFX_EUR_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/Vulcan.dds"
+	}
+
+	###ソ連###
+	SpriteType = {
+		name = "GFX_SOV_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/Tu-95.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/Tu-160.dds"
+	}	
+
+	###中華###
+	SpriteType = {
+		name = "GFX_CHI_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/Tu-16.dds"
+	}
+
+	###東欧###
+	SpriteType = {
+		name = "GFX_EEA_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/Tu-95.dds"
+	}
+	SpriteType = {
+		name = "GFX_EEA_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/Tu-22M.dds"
+	}
+	
+###軌道爆撃&光线级###
+	SpriteType = {
+		name = "GFX_fighter1_medium"
+		texturefile = "gfx/interface/technologies/fighter1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_fighter3_medium"
+		texturefile = "gfx/interface/technologies/fighter3.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAS1_medium"
+		texturefile = "gfx/interface/technologies/CAS1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_CAS2_medium"
+		texturefile = "gfx/interface/technologies/CAS2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_AL_shell_1_medium"
+		texturefile = "gfx/interface/technologies/anti_lase.dds"
+	}
+	SpriteType = {
+		name = "GFX_MVLV_shell_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/shell.dds"
+	}
+}

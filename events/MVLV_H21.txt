@@ -1,0 +1,39 @@
+﻿add_namespace = mvlv_h21
+
+#____________________________________________________________
+#用途
+#佐渡島ハイヴ限定イベント
+#
+#id:mvlv_h21.1 effect:佐渡島ハイヴの停滞アイデアを時限削除
+#
+#____________________________________________________________
+
+#佐渡のデバフアイデアを削除する
+#日付以降で日本がプレイヤーであれば強制削除
+#____________________________________________________________
+country_event = {
+	id = mvlv_h21.1
+	desc = mvlv_h21.1.d
+	title = mvlv_h21.1.t
+	picture = BETA_event_1.dds
+	fire_only_once = yes
+	
+	trigger = {
+		tag = H21
+		date > 1999.10.25
+		OR = { 
+			date > 2001.10.25
+			JAP = { is_ai = no }
+		}
+	}
+	
+	option = {
+		remove_ideas = { mvlv_standby_sado }
+		if = {
+			limit = {
+				NOT = { has_idea = mvlv_aggressive_beta }
+			}
+			add_ideas = mvlv_aggressive_beta
+		}
+	}
+}

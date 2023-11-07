@@ -1,0 +1,28 @@
+
+state={
+	id=806
+	name="STATE_806" # Leinster
+	manpower = 300000
+	
+	state_category = city
+	
+	history = {
+		1999.1.1 = {
+			owner = EEA
+			add_core_of = EEA
+			add_core_of = EUR
+			remove_core_of = IRE
+		}
+		owner = IRE
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		add_core_of = IRE
+	}
+
+	provinces={
+		369 3359 11303 
+	}
+}

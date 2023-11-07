@@ -1,0 +1,752 @@
+﻿division_template = {
+	name = "海兵队"
+	regiments = {
+		MVLV_asa_battalion= { x = 0 y = 0 }
+		MVLV_asa_battalion= { x = 0 y = 1 }
+		MVLV_asa_battalion= { x = 0 y = 2 }
+		MVLV_asa_battalion= { x = 0 y = 3 }
+		MVLV_asa_battalion= { x = 1 y = 0 }
+	}
+	priority = 0
+}
+###### OOB ######
+units = {
+	####### CONUS Theater #######
+	### Carribean Forces ###
+	division = {
+		location = 1440
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 7617
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 9297
+		division_template = "重装师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9297
+		division_template = "重装师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9297
+		division_template = "重装师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9297
+		division_template = "重装师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9297
+		division_template = "重装师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9297
+		division_template = "重装师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9671
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 9671
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 9671
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 4067
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 4067
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15E打击鹰"
+			}
+		}
+	}
+	division = {
+		location = 4067
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15E打击鹰"
+			}
+		}
+	}
+	division = {
+		location = 4067
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 4067
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 9671
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		name = 第一海兵师团
+		location = 9671
+		division_template = "海兵队"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9671
+		division_template = "战术攻击机联队"
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9671
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 3957
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		location = 3957
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16A战隼"
+			}
+		}
+	}
+	division = {
+		name = 猎人大队
+		location = 3957
+		division_template = "战术机大队"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15E打击鹰"
+			}
+		}
+	}
+	division = {
+		location = 3693
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15E打击鹰"
+			}
+		}
+	}
+	division = {
+		location = 3693
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15E打击鹰"
+			}
+		}
+	}
+	division = {
+		location = 3693
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15E打击鹰"
+			}
+		}
+	}
+	division = {
+		location = 6881
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15E打击鹰"
+			}
+		}
+	}
+	division = {
+		location = 6881
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15E打击鹰"
+			}
+		}
+	}
+	division = {
+		location = 6881
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15E打击鹰"
+			}
+		}
+	}
+	division = {
+		name = "第65战斗教导团 Infinities"
+		location = 10591
+		division_template = "战术机大队"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_3_heavy_normal_stealth = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-22A猛禽"
+			}
+		}
+	}
+	division = {
+		location = 3957
+		division_template = "战术机联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_heavy_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-15E打击鹰"
+			}
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 6732
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}
+		location = 6732
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	# II Army Corps #
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3878
+		division_template = "重装旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 3878
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 44
+		}
+		location = 3878
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	# III Army Corps #
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 6984
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 6984
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 6855
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 38
+		}
+		location = 6855
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	# VI Army Corps #
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 9450
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		}
+		location = 9450
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 12384
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 12384
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	# VIII Army Corps #
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12782
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		}
+		location = 12782
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 45
+		}
+		location = 12782
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12782
+		division_template = "战术机大队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 12586
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 12586
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	# IX Army Corps (CO: DeWitt) #
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9671
+		division_template = "重装旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 40
+		}
+		location = 9671
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 41
+		}
+		location = 9671
+		division_template = "轻装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 13091
+		division_template = "重装旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 13067
+		division_template = "重装旅"
+		start_experience_factor = 0.1
+	}
+	### Hawaiian Department ###
+	division = {
+		location = 4180
+		division_template = "轻装旅"		# older equipment, less training than NG division
+		start_experience_factor = 0.2
+	}
+	# North Pacific Defenses #
+	division = {
+		location = 13052
+		division_template = "重装旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 13047
+		division_template = "重装旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 12140
+		division_template = "重装旅"
+		start_experience_factor = 0.1
+	}
+	# South Pacific Defenses #
+	division = {
+		location = 13048
+		division_template = "重装旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 13049
+		division_template = "重装旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 13050
+		division_template = "重装旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 13053
+		division_template = "重装旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		location = 13051
+		division_template = "重装旅"
+		start_experience_factor = 0.1
+	}
+}
+
+## Air oob
+air_wings = {
+	378 = {		name = "G弾投下部隊"
+                                     strat_bomber_equipment_1 = {
+			owner = "USA" 
+			amount = 2
+		}
+		
+		 name = "炮击部队"
+		MVLV_AL_shell_equipment_1  = {
+		 	owner = "USA"
+			amount = 1000
+		}
+		name = "第一舰队"
+		transport_plane_equipment_1 = {
+			owner = "USA"
+			amount = 5
+		}
+		# name = "第一舰队"
+		# CAS_equipment_2 = {
+		# 	owner = "USA"
+		# 	amount = 380
+		# }
+		# name = "第一轰炸联队"
+		# jet_tac_bomber_equipment_1 = {
+		# 	owner = "USA"
+		# 	amount = 100
+		# }
+	}
+	359 = {
+		# name = "炮击部队"
+		# fighter_equipment_1 = {
+		# 	owner = "USA"
+		# 	amount = 320
+		# }
+		name = "第二舰队"
+		transport_plane_equipment_1 = {
+			owner = "USA"
+			amount = 5
+		}
+		# name = "第二舰队"
+		# CAS_equipment_2 = {
+		# 	owner = "USA"
+		# 	amount = 380
+		# }
+	}
+	# 463 = {
+	# 	name = "第二轰炸联队"
+	# 	jet_tac_bomber_equipment_1 = {
+	# 		owner = "USA"
+	# 		amount = 100
+	# 	}
+	# }
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "USA"
+		}
+		requested_factories = 6
+		progress = 0.1
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "USA"
+		}
+		requested_factories = 5
+		progress = 0.3
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_2
+			creator = "USA"
+		}
+		requested_factories = 15
+		progress = 0.3
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "USA"
+		}
+		requested_factories = 5
+		progress = 0.3
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = medium_tank_equipment_3
+			creator = "USA"
+		}
+		requested_factories = 15
+		progress = 0.3
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = tsf_equipment_F-15E
+			creator = "USA"
+		}
+		requested_factories = 25
+		progress = 0.3
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = tsf_equipment_F-18EF
+			creator = "USA"
+		}
+		requested_factories = 15
+		progress = 0.3
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = tsf_equipment_F-16
+			creator = "USA"
+		}
+		requested_factories = 20
+		progress = 0.3
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = tsf_equipment_F-22
+			creator = "USA"
+		}
+		requested_factories = 15
+		progress = 0.3
+		efficiency = 100
+	}
+}

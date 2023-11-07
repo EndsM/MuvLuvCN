@@ -1,0 +1,103 @@
+add_namespace = mvlv_beta_eat
+country_event = {
+	id = mvlv_beta_eat.0
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option ={
+		hidden_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_owned_by = BET
+						is_owned_by = H26
+						is_owned_by = H25
+						is_owned_by = H23
+						is_owned_by = H21
+						is_owned_by = H20
+						is_owned_by = H19
+						is_owned_by = H18
+						is_owned_by = H17
+						is_owned_by = H16
+						is_owned_by = H15
+						is_owned_by = H14
+						is_owned_by = H13
+						is_owned_by = H12
+						is_owned_by = H11
+						is_owned_by = H10
+						is_owned_by = H09
+						is_owned_by = H08
+						is_owned_by = H07
+						is_owned_by = H06
+						is_owned_by = H05
+						is_owned_by = H04
+						is_owned_by = H03
+						is_owned_by = H02
+					}
+				}
+				while_loop_effect = {
+					limit = {
+						THIS = {
+							check_variable = { state_population_k > 2000 }
+						}
+					}
+					THIS = {
+						add_manpower = -2000000
+					}
+				}
+				set_variable = {
+					人口 = state_population
+				}
+				multiply_variable = {
+					人口 = -1
+				}
+				THIS = {
+					add_manpower = 人口
+				}
+				if = {
+					limit = {
+						is_capital = yes
+					}
+					THIS = {
+						add_manpower = 1000
+					}
+				}
+				OWNER = {
+					add_offsite_building = { type = arms_factory level = PREV.arms_factory_level }
+					# add_offsite_building = { type = arms_factory level = PREV.industrial_complex_level }
+					# add_offsite_building = { type = arms_factory level = PREV.building_level@dockyard }
+				}
+				BET = {
+					add_offsite_building = { type = arms_factory level = PREV.arms_factory_level }
+					# add_offsite_building = { type = arms_factory level = PREV.industrial_complex_level }
+					# add_offsite_building = { type = arms_factory level = PREV.building_level@dockyard }
+				}
+				THIS = {
+					remove_building = {
+						type = arms_factory
+						level = arms_factory_level
+					}
+					remove_building = {
+						type = industrial_complex
+						level = industrial_complex_level
+					}
+					remove_building = {
+						type = dockyard
+						level = building_level@dockyard
+					}
+				}
+				# add_manpower = -2000000
+				# add_manpower = -2000000
+				# add_manpower = -2000000
+				# add_manpower = -2000000
+				# add_manpower = -2000000
+				# add_manpower = -2000000
+				# add_manpower = -2000000
+				# add_manpower = -2000000
+				# add_manpower = -2000000
+				# add_manpower = -2000000
+			}
+		}
+	}
+}

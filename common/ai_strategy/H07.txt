@@ -1,0 +1,248 @@
+H07_defend_doctrine = {
+	enable = {
+		original_tag = H07
+		date > 1998.12.31
+	}
+	
+#	ai_strategy = {
+#		type = dont_defend_ally_borders
+#		id = BET
+#		value = 100
+#	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H03
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H04
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H05
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H06
+		value = 100
+	}
+
+#	ai_strategy = {
+#		type = dont_defend_ally_borders
+#		id = H07
+#		value = 100
+#	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H08
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H09
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H10
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H11
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H12
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H13
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H14
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H15
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H16
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H17
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H18
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H19
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H20
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H21
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H23
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H25
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H26
+		value = 100
+	}
+}
+
+###近隣国家がステートとられたら援军を出す###
+# H07_frontline_def = {
+# 	enable = {
+# 		is_ai = yes
+# 		date > 1998.12.31
+# 		original_tag = H07
+		
+# 		OR = {
+# 			H12 = { surrender_progress > 0.1 }
+# 			any_state = {
+# 				is_owned_by = H12
+# 				NOT = { is_controlled_by = H12}
+# 				is_capital = no
+# 			}
+# 			check_variable = { num_divisions > var_hive_aliment_H07 }
+# 		}
+# 	}
+# 	abort_when_not_enabled = yes
+
+# 	ai_strategy = {
+# 		type = force_defend_ally_borders
+# 		Id = H12
+# 		value = 1
+# 	}
+# }
+
+#H07_template_design = {
+#	enable = {
+#		original_tag = H07
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = infantry
+#		value = -10
+#	}
+#
+#	ai_strategy = {
+#		type = template_prio
+#		id = motorized
+#		value = 10
+#	}
+#
+#	ai_strategy = {
+#		type = template_prio
+#		id = cavalry
+#		value = -100
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = light_armor
+#		value = -100
+#	}
+#
+#	ai_strategy = {
+#		type = template_prio
+#		id = medium_armor
+#		value = -100
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = modern_armor
+#		value = -100
+#	}
+#
+#	ai_strategy = {
+#		type = template_prio
+#		id = heavy_armor
+#		value = -100
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = Tank
+#		value = 25
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = SPG
+#		value = 10
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = MVLV_tsf
+#		value = 30
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = paratroopers
+#		value = -100
+#	}
+#	
+#	ai_strategy = {
+#		type = template_prio
+#		id = mechanized
+#		value = 10
+#	}
+#}

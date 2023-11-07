@@ -1,0 +1,30 @@
+初始化 = {
+	跨边界连线加速 = yes
+}
+跨边界连线加速 = {
+	809 = {
+		add_province_modifier = {
+			static_modifiers = { cross_map }
+			province = {
+				id = 13204
+				id = 13063
+			}
+		}
+	}
+	632 = {
+		add_province_modifier = {
+			static_modifiers = { cross_map }
+			province = {
+				id = 13047
+			}
+		}
+	}
+	631 = {
+		add_province_modifier = {
+			static_modifiers = { cross_map }
+			province = {
+				id = 13052
+			}
+		}
+	}
+}

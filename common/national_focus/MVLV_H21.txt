@@ -1,0 +1,81 @@
+focus_tree = {
+	id = sadoshima_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			TAG = H21
+		}
+	}
+	focus = {
+		id = BET_srf21
+		icon = GFX_focus_jap_zaibatsu
+		x = 1
+		y = 0
+
+		available = { 
+			date > 2002.3.15
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+
+		completion_reward = { 
+			hidden_effect = {
+				division_template = {
+					name = "超重光线师团"
+					division_names_group = BET_SRF_01
+					regiments = {
+						MVLV_beta_srf = { x = 0 y = 0 }
+					}
+				}
+		        capital_scope = {
+					create_unit = {
+					division = "name = \"Г標的\" division_template = \"超重光线师团\" start_experience_factor = 0.5" 
+					owner = ROOT
+					}
+				}
+			}			
+		}
+		ai_will_do = { factor = 6 }
+	}
+	focus = {
+		id = BET_not_broken_hive
+		icon = GFX_focus_jap_zaibatsu
+		x = 17
+		y = 0
+
+		available = { 
+			UNI = { 
+				has_completed_focus = UNI_sadogashima
+			}
+			789 = {
+				is_controlled_by = H21
+			}
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 8
+
+		completion_reward = { 
+			load_oob = H21_yokohama2
+			add_timed_idea =  { 
+				idea = H21_sado
+				days = 50
+			}
+			add_timed_idea =  { 
+				idea = mvlv_aggressive_beta
+				days = 50
+			}#####
+			JAP = { country_event = mvlv_uni.22
+			}
+			UNI = { country_event = mvlv_uni.22
+			}
+		}
+
+		ai_will_do = { factor = 10 }
+	}
+}

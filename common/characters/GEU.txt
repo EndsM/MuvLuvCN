@@ -1,0 +1,116 @@
+characters = {
+	GEU_units_leader_1 = {
+		name = "乔纳森·乔斯丁"
+		portraits = {
+			army = {
+				large = GFX_乔纳森乔斯丁头像
+				small = "gfx/leaders/GEU/乔纳森乔斯丁小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				armor_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+	GEU_units_leader_2 = {
+		name = "尼多姆·拉瓦南德"
+		portraits = {
+			army = {
+				large = GFX_尼多姆拉瓦南德头像
+				small = "gfx/leaders/GEU/尼多姆拉瓦南德小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = -1
+		}
+	}
+	GEU_units_leader_3 = {
+		name = "幸田来未"
+		portraits = {
+			army = {
+				large = GFX_幸田来未头像
+				small = "gfx/leaders/GEU/幸田来未小图.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				trickster
+				brilliant_strategist
+				commando
+				jungle_rat
+				ranger
+				adaptable
+				media_personality
+				organizer
+				tsf_officer
+				commander_aptitude
+				tsf_leader
+				tsf_commander
+			}
+			skill = 9
+			attack_skill = 7
+			defense_skill = 7
+			planning_skill = 7
+			logistics_skill = 7
+			legacy_id = -1
+		}
+	}
+	GEU_units_leader_4 = {
+		name = "塔莉莎·玛南戴尔"
+		portraits = {
+			army = {
+				large = GFX_塔莉莎玛南戴尔头像
+				small = "gfx/leaders/GEU/塔莉莎玛南戴尔小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				jungle_rat
+				tsf_officer
+				tsf_leader
+				trickster
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+	GEU_units_leader_5 = {
+		name = "道格拉斯·格蕾丝"
+		portraits = {
+			army = {
+				large = GFX_道格拉斯格蕾丝头像
+				small = "gfx/leaders/GEU/道格拉斯格蕾丝小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				jungle_rat
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+}

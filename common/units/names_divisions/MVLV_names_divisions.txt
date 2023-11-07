@@ -1,0 +1,177 @@
+﻿MVLV_ARM_01 = {
+	name = "重装师"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"medium_armor"
+		"modern_armor"
+	}
+	fallback_name = "第%d重装师"
+}
+
+MVLV_ARM_02 = {
+	name = "重装旅"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"medium_armor"
+		"modern_armor"
+	}
+	fallback_name = "第%d重装旅"
+}
+
+MVLV_INF_01 = {
+	name = "步兵师"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "第%d步兵师"
+}
+
+MVLV_INF_02 = {
+	name = "轻装师"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "第%d轻装师"
+}
+
+MVLV_INF_03 = {
+	name = "步兵旅"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "第%d步兵旅"
+}
+
+MVLV_INF_04 = {
+	name = "轻装旅"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "第%d轻装旅"
+}
+
+MVLV_TSF_01 = {
+	name = "战术机联队"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"MVLV_tsf_battalion"
+	}
+	fallback_name = "第%d战术机联队"
+}
+
+MVLV_TSF_02 = {
+	name = "战术机大队"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"MVLV_tsf_battalion"
+	}
+	fallback_name = "第%d战术机大队"
+}
+
+MVLV_PAR_01 = {
+	name = "轨道降下兵团"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"paratrooper"
+	}
+	fallback_name = "第%d轨道降下兵团"
+}
+
+MVLV_TSA_01 = {
+	name = "战术攻击机联队"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"MVLV_tsa_battalion"
+	}
+	fallback_name = "第%d战术攻击机联队"
+}
+
+MVLV_TSA_02 = {
+	name = "战术攻击机大队"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"MVLV_tsa_battalion"
+	}
+	fallback_name = "第%d战术攻击机大队"
+}
+
+MVLV_ASA_01 = {
+	name = "强袭攻击机联队"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"MVLV_tsa_battalion"
+	}
+	fallback_name = "第%d强袭攻击机联队"
+}
+
+MVLV_ASA_02 = {
+	name = "强袭攻击机大队"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"MVLV_tsa_battalion"
+	}
+	fallback_name = "第%d强袭攻击机大队"
+}
+
+MVLV_GUNSHIP_01 = {
+	name = "陆航旅"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"light_armor"
+	}
+	fallback_name = "第%d陆航旅"
+}
+
+MVLV_JEG_01 = {
+	name = "斯卫联队"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"mountaineers"
+	}
+	fallback_name = "第%d斯卫联队"
+}
+
+MVLV_JEG_02 = {
+	name = "斯卫大队"
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"mountaineers"
+	}
+	fallback_name = "第%d斯卫大队"
+}

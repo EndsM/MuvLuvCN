@@ -1,0 +1,343 @@
+#
+BETA_category = {
+	# BETA_aggressive_mission = {
+	# 	activation = {
+	# 		MVLV_limiter_calc_script = yes
+	# 		subtract_from_temp_variable = {
+	# 			upper_limit = 3
+	# 		}
+	# 		check_variable = {
+	# 			num_divisions > upper_limit
+	# 		}
+	# 		any_neighbor_country = {
+	# 			is_in_faction_with = UNI
+	# 		}
+	# 		NOT = {
+	# 			has_idea = mvlv_aggressive_beta
+	# 		}
+	# 		NOT = {
+	# 			has_idea = hive_thinning_state
+	# 		}
+	# 		NOT = {
+	# 			has_global_flag = easy_world
+	# 		}
+	# 		NOT = {
+	# 			has_country_flag = disabled_aggressive_beta
+	# 			has_idea = mvlv_standby_sado
+	# 			tag = H00
+	# 			tag = BET
+	# 		}
+	# 	}
+	# 	available = {
+	# 		NOT = {
+	# 			MVLV_limiter_calc_script = yes
+	# 			subtract_from_temp_variable = {
+	# 				upper_limit = 3
+	# 			}
+	# 			check_variable = {
+	# 				num_divisions > upper_limit
+	# 			}
+	# 		}
+	# 	}
+	# 	visible = {
+	# 		MVLV_limiter_calc_script = yes
+	# 		subtract_from_temp_variable = {
+	# 			upper_limit = 3
+	# 		}
+	# 		is_in_faction_with = BET
+	# 		check_variable = {
+	# 			num_divisions > upper_limit
+	# 		}
+	# 		any_neighbor_country = {
+	# 			is_in_faction_with = UNI
+	# 		}
+	# 		NOT = {
+	# 			has_idea = mvlv_aggressive_beta
+	# 		}
+	# 		NOT = {
+	# 			has_idea = hive_thinning_state
+	# 		}
+	# 		NOT = {
+	# 			has_global_flag = easy_world
+	# 		}
+	# 		NOT = {
+	# 			has_country_flag = disabled_aggressive_beta
+	# 			has_idea = mvlv_standby_sado
+	# 			tag = H00
+	# 			tag = BET
+	# 		}
+	# 	}
+	# 	fire_only_once = no
+	# 	days_mission_timeout = 40
+	# 	is_good = yes
+	# 	cancel_if_not_visible = yes
+	# 	timeout_effect = {
+	# 		add_ideas = {
+	# 			mvlv_aggressive_beta
+	# 		}
+	# 		remove_ideas = mvlv_aggressive_beta2
+	# 	}
+	# }
+	BETA_aggressive_mission_event = {
+		activation = {
+			has_dlc = "La Resistance"
+			has_active_mission = BETA_aggressive_mission
+		}
+		visible = {
+			has_active_mission = BETA_aggressive_mission
+		}
+		fire_only_once = no
+		is_good = yes
+		cancel_if_not_visible = yes
+		available = {
+			NOT = {
+				has_active_mission = BETA_aggressive_mission
+			}
+		}
+		days_mission_timeout = 20
+		timeout_effect = {
+			every_enemy_country = {
+				limit = {
+					any_neighbor_country = {
+						tag = ROOT
+					}
+					has_intelligence_agency = yes
+					has_done_agency_upgrade = upgrade_form_department
+				}
+				country_event = mvlv_uni.32
+			}
+		}
+	}
+	# BETA_aggressive_of_mission = {
+	# 	activation = {
+	# 		has_idea = mvlv_aggressive_beta
+	# 	}
+	# 	available = {
+	# 		always = no
+	# 	}
+	# 	visible = {
+	# 		has_idea = mvlv_aggressive_beta
+	# 	}
+	# 	modifier = {
+	# 	}
+	# 	fire_only_once = no
+	# 	days_mission_timeout = 30
+	# 	is_good = yes
+	# 	cancel_if_not_visible = yes
+	# 	timeout_effect = {
+	# 		remove_ideas = {
+	# 			mvlv_aggressive_beta
+	# 		}
+	# 	}
+	# }
+	# BETA_test_decision = {
+	# 	allowed = {
+	# 		always = yes
+	# 	}
+	# 	available = {
+	# 		MVLV_limiter_calc_script = yes
+	# 		subtract_from_temp_variable = {
+	# 			upper_limit = 3
+	# 		}
+	# 		is_in_faction_with = BET
+	# 		check_variable = {
+	# 			num_divisions > upper_limit
+	# 		}
+	# 		any_neighbor_country = {
+	# 			is_in_faction_with = UNI
+	# 		}
+	# 		NOT = {
+	# 			has_idea = mvlv_aggressive_beta
+	# 		}
+	# 		NOT = {
+	# 			has_idea = hive_thinning_state
+	# 		}
+	# 		NOT = {
+	# 			has_global_flag = easy_world
+	# 		}
+	# 	}
+	# 	visible = {
+	# 		is_in_faction_with = BET
+	# 		any_neighbor_country = {
+	# 			is_in_faction_with = UNI
+	# 		}
+	# 	}
+	# 	cost = upper_limit
+	# 	modifier = {
+	# 	}
+	# 	fire_only_once = no
+	# 	days_remove = 30
+	# 	complete_effect = {
+	# 		add_ideas = {
+	# 			mvlv_aggressive_beta
+	# 		}
+	# 		if = {
+	# 			limit = {
+	# 				has_idea = mvlv_aggressive_beta2
+	# 			}
+	# 			remove_ideas = mvlv_aggressive_beta2
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		base = -100
+	# 	}
+	# 	remove_effect = {
+	# 		remove_ideas = {
+	# 			mvlv_aggressive_beta
+	# 		}
+	# 	}
+	# }
+	#######
+	beta_speed_up_production = {
+		icon = generic_prepare_civil_war
+		available = {
+			ROOT = {
+				num_divisions < 50
+				has_manpower > 1500000
+				is_in_faction_with = BET
+			}
+                                                NOT={has_idea=mvlv_brokenhive}
+		}
+		days_remove = 1
+		days_re_enable = 21
+		fire_only_once = no
+		cost = var:beta_speed_up_production_cost?25
+		modifier = {
+		}
+		complete_effect = {
+			add_timed_idea = {
+				idea = beta_speed_up_production
+				days = 20
+			}
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 50
+				date > 1999.1.1
+			}
+		}
+	}
+	beta_H21 = {
+		icon = generic_prepare_civil_war
+		available = {
+			OR = {
+				282 = {
+					is_controlled_by = JAP
+				}
+				533 = {
+					is_controlled_by = JAP
+				}
+				534 = {
+					is_controlled_by = JAP
+				}
+			}
+			789 = {
+				is_controlled_by = H21
+			}
+			tag = H21
+			NOT = {
+				has_idea = hive_thinning_state
+			}
+			NOT = {
+				JAP = {
+					has_idea = mvlv_difficulty_ai
+				}
+			}
+		}
+		days_remove = 10
+		days_re_enable = 90
+		fire_only_once = no
+		cost = 0
+		modifier = {
+		}
+		complete_effect = {
+			H21 = {
+				country_event = BETA.10
+			}
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	beta_production = {
+		icon = generic_prepare_civil_war
+		available = {
+			NOT = {
+				has_idea = mvlv_brokenhive
+			}
+		}
+		days_remove = 1
+		days_re_enable = 7
+		fire_only_once = no
+		cost = 0
+		modifier = {
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 50
+				date > 1999.1.1
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					has_template = "混成巢穴卫队"
+				}
+				delete_unit_template_and_units = {
+					division_template = "混成巢穴卫队"
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_template = "混成巢穴卫队"
+					}
+				}
+				load_oob = "redeploy_BET_1999"
+				if = {
+					limit = {
+						NOT = {
+							has_idea = mvlv_brokenhive
+						}
+					}
+					capital_scope = {
+						create_unit = {
+							division = "name = \"巢穴卫队\" division_template = \"混成巢穴卫队\" start_experience_factor = 0.5"
+							owner = PREV
+							count = 20
+						}
+					}
+				}
+			}
+		}
+	}
+	# beta_atk = {
+	# 	icon = generic_prepare_civil_war
+	# 	available = {
+	# 		FROM = {
+	# 			is_in_faction_with = UNI
+	# 			has_war_with = ROOT
+	# 			is_neighbor_of = ROOT
+	# 		}
+	# 		难度高于简单 = no
+	# 	}
+
+	# 	visible = {
+	# 	}
+
+	# 	target_trigger = {
+	# 		FROM = {
+	# 			NOT = { is_in_faction_with = ROOT }
+	# 			is_in_faction_with = UNI
+	# 			has_war_with = ROOT
+	# 			is_neighbor_of = ROOT
+	# 		}
+	# 	}
+	# }
+}

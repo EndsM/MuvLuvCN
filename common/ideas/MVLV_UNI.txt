@@ -1,0 +1,117 @@
+ideas = {
+	country = {
+		UNI_improve_refugee_camp = {
+			allowed = {
+				always = no
+			}
+                                                modifier = {
+				consumer_goods_factor = 0.3
+			}
+		}
+	}
+	# TECHNOLOGY
+	aircraft_manufacturer = {
+		designer = yes
+		UNI_boeing = {
+			allowed = {
+				original_tag = UNI
+			}
+			research_bonus = {
+				MVLV_tsf_tech = 0.15
+			}
+			traits = {
+				medium_tank_manufacturer
+			}
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+					ap_attack = 0.1
+					breakthrough = 0.1
+					defense = 0.1
+				}
+			}
+			cost = 300
+			modifier = {
+			}
+		}
+		UNI_Dassault = {
+			cost = 300
+			allowed = {
+				original_tag = UNI
+			}
+			research_bonus = {
+				MVLV_tsf_tech = 0.15
+			}
+			traits = {
+			}
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+					build_cost_ic = 0.1
+					soft_attack = -0.1
+					defense = 0.1
+					armor_value = 0.2
+				}
+			}
+		}
+		UNI_ilyushin_design_bureau = {
+			cost = 300
+			allowed = {
+				original_tag = UNI
+			}
+			research_bonus = {
+				MVLV_tsf_tech = 0.18
+			}
+			traits = {
+				CIWS_MUV
+			}
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+					build_cost_ic = 0.05
+					air_attack = -0.05
+					soft_attack = 0.1
+					hard_attack = 0.05
+					armor_value = 0.05
+					defense = 0.05
+				}
+			}
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.03
+			}
+		}
+		UNI_mitsubishi = {
+			cost = 300
+			allowed = {
+				original_tag = UNI
+			}
+			research_bonus = {
+				MVLV_tsf_tech = 0.15
+			}
+			#traits = { fast_tank_manufacturer }##エラーはいてたぞ20210119
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+					maximum_speed = 0.15
+					hard_attack = 0.05
+				}
+			}
+			modifier = {
+			}
+		}
+		UNIDO = {
+			cost = 150
+			allowed = {
+				original_tag = UNI
+			}
+			research_bonus = {
+				MVLV_tsf_tech = 0.2
+			}
+			traits = {
+			}
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+					build_cost_ic = -0.1
+					maximum_speed = 0.05
+				}
+			}
+		}
+	}
+}

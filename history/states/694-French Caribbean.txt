@@ -1,0 +1,40 @@
+state={
+	id=694
+	name="STATE_694"
+	manpower = 444290
+
+	state_category = metropolis
+
+	resources={
+		steel=4000
+		oil=4000
+		aluminium=4000
+		tungsten=4000
+		chromium=4000
+	}
+
+	history={
+		1999.1.1 = {
+			owner = UNI
+		}
+		add_core_of = UNI
+		owner = FRA
+		victory_points = {
+			9377 200
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 10
+			177 = {
+				naval_base = 3
+			}
+			9377 = {
+				naval_base = 8
+			}
+		}
+	}
+	
+	provinces={
+		177 9377 13084 
+	}
+}

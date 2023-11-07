@@ -1,0 +1,35 @@
+division_template = {
+	name = "强袭攻击机联队"
+	division_names_group = MVLV_ASA_01
+	regiments = {
+		MVLV_asa_battalion = { x = 0 y = 0 }
+		MVLV_asa_battalion = { x = 0 y = 1 }
+		MVLV_asa_battalion = { x = 0 y = 2 }
+		MVLV_asa_battalion = { x = 0 y = 3 }
+		MVLV_asa_battalion = { x = 1 y = 0 }
+		MVLV_asa_battalion = { x = 1 y = 1 }
+		MVLV_asa_battalion = { x = 1 y = 2 }
+		MVLV_asa_battalion = { x = 1 y = 3 }
+		MVLV_asa_battalion = { x = 2 y = 0 }
+		MVLV_asa_battalion = { x = 2 y = 1 }
+	}
+	priority = 0
+	support = {
+		engineer = { x = 0 y = 0 }  
+		maintenance_company = { x = 0 y = 1 }
+		field_hospital =  { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "强袭攻击机大队"
+	division_names_group = MVLV_ASA_02
+	regiments = {
+		MVLV_asa_battalion = { x = 0 y = 0 }
+		MVLV_asa_battalion = { x = 0 y = 1 }
+		MVLV_asa_battalion = { x = 0 y = 2 }
+		MVLV_asa_battalion = { x = 1 y = 0 }
+		MVLV_asa_battalion = { x = 1 y = 1 }
+	}
+	priority = 0
+}

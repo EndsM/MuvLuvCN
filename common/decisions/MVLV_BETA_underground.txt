@@ -1,0 +1,602 @@
+BETA地下侵攻 = {
+	BETA地下侵攻摩洛哥 = {
+		icon = generic_prepare_civil_war
+		available = {
+			is_in_faction_with = BET
+			摩洛哥可地下侵攻 = yes
+		}
+		visible = {
+			118 = {
+				is_controlled_by = from
+			}
+			290 = {
+				is_controlled_by = AFR
+			}
+		}
+		days_remove = 90
+		days_re_enable = 0
+		fire_only_once = no
+		cost = 0
+		modifier = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					摩洛哥可地下侵攻 = yes
+				}
+				290 = {
+					create_unit = {
+						division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	# BETA地下后续部队进入摩洛哥 = {
+	# 	icon = generic_prepare_civil_war
+	# 	available = {
+	# 		and = {
+	# 			is_in_faction_with = BET
+	# 			BETA后续部队可通过地下进入摩洛哥 = yes
+	# 		}
+	# 	}
+	# 	visible = {
+	# 		118 = {
+	# 			is_controlled_by = from
+	# 		}
+	# 		NOT = {
+	# 			290 = {
+	# 				is_fully_controlled_by = AFR
+	# 			}
+	# 		}
+	# 	}
+	# 	days_remove = 30
+	# 	days_re_enable = 0
+	# 	fire_only_once = no
+	# 	cost = 0
+	# 	modifier = {
+	# 	}
+	# 	complete_effect = {
+	# 	}
+	# 	remove_effect = {
+	# 		if = {
+	# 			limit = {
+	# 				BETA后续部队可通过地下进入摩洛哥 = yes
+	# 			}
+	# 			290 = {
+	# 				create_unit = {
+	# 					division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+	# 					owner = PREV
+	# 					count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+	# 					allow_spawning_on_enemy_provs = yes
+	# 				}
+	# 				create_unit = {
+	# 					division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+	# 					owner = PREV
+	# 					count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+	# 					allow_spawning_on_enemy_provs = yes
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 20
+	# 	}
+	# }
+	BETA地下侵攻多弗海峡 = {
+		icon = generic_prepare_civil_war
+		available = {
+			and = {
+				is_in_faction_with = BET
+				多弗海峡可地下侵攻 = yes
+			}
+		}
+		visible = {
+			29 = {
+				is_controlled_by = from
+			}
+			127 = {
+				is_fully_controlled_by = EUR
+			}
+		}
+		days_remove = 90
+		days_re_enable = 0
+		fire_only_once = no
+		cost = 0
+		modifier = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					多弗海峡可地下侵攻 = yes
+				}
+				127 = {
+					create_unit = {
+						division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	BETA地下侵攻朴茨茅斯 = {
+		icon = generic_prepare_civil_war
+		available = {
+			and = {
+				is_in_faction_with = BET
+				朴茨茅斯可地下侵攻 = yes
+			}
+		}
+		visible = {
+			15 = {
+				is_controlled_by = from
+			}
+			808 = {
+				is_fully_controlled_by = EUR
+			}
+		}
+		days_remove = 90
+		days_re_enable = 0
+		fire_only_once = no
+		cost = 0
+		modifier = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					朴茨茅斯可地下侵攻 = yes
+				}
+				808 = {
+					create_unit = {
+						division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	BETA地下侵攻勘察加 = {
+		icon = generic_prepare_civil_war
+		available = {
+			and = {
+				is_in_faction_with = BET
+				勘察加可地下侵攻 = yes
+			}
+		}
+		visible = {
+			797 = {
+				is_controlled_by = from
+			}
+			637 = {
+				is_controlled_by = SOV
+			}
+		}
+		days_remove = 90
+		days_re_enable = 0
+		fire_only_once = no
+		cost = 0
+		modifier = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					勘察加可地下侵攻 = yes
+				}
+				637 = {
+					create_unit = {
+						division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	# BETA后续部队进入勘察加 = {
+	# 	icon = generic_prepare_civil_war
+	# 	available = {
+	# 		and = {
+	# 			is_in_faction_with = BET
+	# 			BETA后续部队可通过地下进入勘察加 = yes
+	# 		}
+	# 	}
+	# 	visible = {
+	# 		797 = {
+	# 			is_controlled_by = from
+	# 		}
+	# 		NOT = {
+	# 			637 = {
+	# 				is_fully_controlled_by = SOV
+	# 			}
+	# 		}
+	# 		810 = {
+	# 			is_controlled_by = SOV
+	# 		}
+	# 	}
+	# 	days_remove = 30
+	# 	days_re_enable = 0
+	# 	fire_only_once = no
+	# 	cost = 0
+	# 	modifier = {
+	# 	}
+	# 	complete_effect = {
+	# 	}
+	# 	remove_effect = {
+	# 		if = {
+	# 			limit = {
+	# 				BETA后续部队可通过地下进入勘察加 = yes
+	# 			}
+	# 			637 = {
+	# 				create_unit = {
+	# 					division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+	# 					owner = PREV
+	# 					count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+	# 					allow_spawning_on_enemy_provs = yes
+	# 				}
+	# 				create_unit = {
+	# 					division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+	# 					owner = PREV
+	# 					count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+	# 					allow_spawning_on_enemy_provs = yes
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 20
+	# 	}
+	# }
+	BETA地下侵攻台北 = {
+		icon = generic_prepare_civil_war
+		available = {
+			and = {
+				is_in_faction_with = BET
+				台北可地下侵攻 = yes
+			}
+		}
+		visible = {
+			595 = {
+				is_controlled_by = from
+			}
+			524 = {
+				is_controlled_by = CHI
+			}
+		}
+		days_remove = 90
+		days_re_enable = 0
+		fire_only_once = no
+		cost = 0
+		modifier = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					台北可地下侵攻 = yes
+				}
+				524 = {
+					create_unit = {
+						division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	# BETA后续部队进入台北 = {
+	# 	icon = generic_prepare_civil_war
+	# 	available = {
+	# 		and = {
+	# 			is_in_faction_with = BET
+	# 			BETA后续部队可通过地下进入台北 = yes
+	# 		}
+	# 	}
+	# 	visible = {
+	# 		595 = {
+	# 			is_controlled_by = from
+	# 		}
+	# 		NOT = {
+	# 			524 = {
+	# 				is_fully_controlled_by = CHI
+	# 			}
+	# 		}
+	# 		807 = {
+	# 			is_controlled_by = CHI
+	# 		}
+	# 	}
+	# 	days_remove = 30
+	# 	days_re_enable = 0
+	# 	fire_only_once = no
+	# 	cost = 0
+	# 	modifier = {
+	# 	}
+	# 	complete_effect = {
+	# 	}
+	# 	remove_effect = {
+	# 		if = {
+	# 			limit = {
+	# 				BETA后续部队可通过地下进入台北 = yes
+	# 			}
+	# 			524 = {
+	# 				create_unit = {
+	# 					division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+	# 					owner = PREV
+	# 					count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+	# 					allow_spawning_on_enemy_provs = yes
+	# 				}
+	# 				create_unit = {
+	# 					division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+	# 					owner = PREV
+	# 					count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+	# 					allow_spawning_on_enemy_provs = yes
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 20
+	# 	}
+	# }
+	BETA地下侵攻西西里 = {
+		icon = generic_prepare_civil_war
+		available = {
+			and = {
+				is_in_faction_with = BET
+				西西里可地下侵攻 = yes
+			}
+		}
+		visible = {
+			156 = {
+				is_controlled_by = from
+			}
+			115 = {
+				is_controlled_by = EUR
+			}
+		}
+		days_remove = 90
+		days_re_enable = 0
+		fire_only_once = no
+		cost = 0
+		modifier = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					西西里可地下侵攻 = yes
+				}
+				115 = {
+					create_unit = {
+						division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	BETA地下侵攻突尼斯 = {
+		icon = generic_prepare_civil_war
+		available = {
+			and = {
+				is_in_faction_with = BET
+				突尼斯可地下侵攻 = yes
+			}
+		}
+		visible = {
+			115 = {
+				is_controlled_by = from
+			}
+			458 = {
+				is_controlled_by = AFR
+			}
+		}
+		days_remove = 90
+		days_re_enable = 0
+		fire_only_once = no
+		cost = 0
+		modifier = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					突尼斯可地下侵攻 = yes
+				}
+				458 = {
+					create_unit = {
+						division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	# BETA地下侵攻阿拉斯加 = {
+	# 	icon = generic_prepare_civil_war
+	# 	available = {
+	# 		and = {
+	# 			is_in_faction_with = BET
+	# 			阿拉斯加可地下侵攻 = yes
+	# 		}
+	# 	}
+	# 	visible = {
+	# 		809 = {
+	# 			is_controlled_by = from
+	# 		}
+	# 		790 = {
+	# 			is_controlled_by = SOV
+	# 		}
+	# 	}
+	# 	days_remove = 90
+	# 	days_re_enable = 0
+	# 	fire_only_once = no
+	# 	cost = 0
+	# 	modifier = {
+	# 	}
+	# 	complete_effect = {
+	# 	}
+	# 	remove_effect = {
+	# 		if = {
+	# 			limit = {
+	# 				阿拉斯加可地下侵攻 = yes
+	# 			}
+	# 			790 = {
+	# 				create_unit = {
+	# 					division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+	# 					owner = PREV
+	# 					count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+	# 					allow_spawning_on_enemy_provs = yes
+	# 				}
+	# 				create_unit = {
+	# 					division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+	# 					owner = PREV
+	# 					count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+	# 					allow_spawning_on_enemy_provs = yes
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 20
+	# 	}
+	# }
+	# BETA后续部队进入阿拉斯加 = {
+	# 	icon = generic_prepare_civil_war
+	# 	available = {
+	# 		and = {
+	# 			is_in_faction_with = BET
+	# 			BETA后续部队可通过地下进入阿拉斯加 = yes
+	# 		}
+	# 	}
+	# 	visible = {
+	# 		809 = {
+	# 			is_controlled_by = from
+	# 		}
+	# 		NOT = {
+	# 			790 = {
+	# 				is_fully_controlled_by = SOV
+	# 			}
+	# 		}
+	# 	}
+	# 	days_remove = 20
+	# 	days_re_enable = 0
+	# 	fire_only_once = no
+	# 	cost = 0
+	# 	modifier = {
+	# 	}
+	# 	complete_effect = {
+	# 	}
+	# 	remove_effect = {
+	# 		if = {
+	# 			limit = {
+	# 				BETA后续部队可通过地下进入阿拉斯加 = yes
+	# 			}
+	# 			790 = {
+	# 				create_unit = {
+	# 					division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+	# 					owner = PREV
+	# 					count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+	# 					allow_spawning_on_enemy_provs = yes
+	# 				}
+	# 				create_unit = {
+	# 					division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+	# 					owner = PREV
+	# 					count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+	# 					allow_spawning_on_enemy_provs = yes
+	# 				}
+	# 			}
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 20
+	# 	}
+	# }
+}

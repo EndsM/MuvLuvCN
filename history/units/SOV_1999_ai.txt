@@ -1,0 +1,106 @@
+﻿units = {
+	division = {
+		location = 13238
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 13238
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 13238
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 13238
+		division_template = "重装师"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 13238
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 13238
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 13238
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 13238
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 1742
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 1742
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+	division = {
+		location = 1742
+		division_template = "战术机联队"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_heavy = {
+				owner = "SOV"
+				creator = SOV
+				version_name = "MiG-21bis"
+			}
+		}
+	}
+}
