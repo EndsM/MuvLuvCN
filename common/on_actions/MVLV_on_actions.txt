@@ -197,9 +197,10 @@ on_actions = {
 							add_manpower = -2000000
 							add_manpower = -2000000
 							add_manpower = -2000000
+							set_state_category = betaland
 						}
 					}
-					set_state_category = betaland
+					
 				}
 			}
 		}

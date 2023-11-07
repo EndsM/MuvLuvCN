@@ -79,7 +79,8 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			Orientation = lower_left
 		}
 	}
-containerWindowType = {
+	
+	containerWindowType = {
 		name = "TNO_SG_big_event_h00_attack_custom_window"
 		size = { width = 220 height = 128 }
 		position = { x=0 y=-210 }
@@ -2354,4 +2355,4 @@ containerWindowType = {
 		}
 	}
 	
-###################################################################################
+}

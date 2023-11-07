@@ -24,8 +24,8 @@ replace_path="portraits"
 tags={
 	"Alternative History"
 }
-name="muvluvCN"
+name="muvluvCNTest"
 picture="thumbnail.png"
 supported_version="1.13.*"
-path="mod/muvluvCN"
+path="mod/muvluvCNTest"
 remote_file_id="2800380626"
