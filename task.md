@@ -1,6 +1,6 @@
 ## Goal of this repo
 
-Remove as much "red dot" as possible
+Remove as much "red dot" as possible, which includes errors and warnings.
 
 ### Current Goal
 
@@ -30,4 +30,6 @@ Mark as finished after finish certain task.
 
 - Task 7: Replace the chinese naming in national_focus
 
-- Task 8; Replace the chinese naming in decisions as well.
+- Task 8: Replace the chinese naming in decisions as well.
+
+- Task 9: Change the naming of those chinese-named effects and triggers.
