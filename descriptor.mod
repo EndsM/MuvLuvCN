@@ -2,7 +2,7 @@ version="0.2.26"
 replace_path="events"
 # It doesn't exist now: common/ai_equipment
 replace_path="common/ai_equipment"
-replace_path="common/ai_strategy_plan"
+replace_path="common/ai_strategy_plans"
 replace_path="common/ai_strategy"
 replace_path="common/ai_templates"
 replace_path="common/country_tags"
