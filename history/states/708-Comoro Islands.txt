@@ -1,15 +1,14 @@
-state={
-	id=708
-	name="STATE_708"
+state = {
+	id = 708
+	name = "STATE_708"
 	manpower = 1267030
-	resources={
-		aluminium=30
-		steel=40
+	resources = {
+		aluminium = 30
+		steel = 40
 	}
-
 	state_category = small_island
-
-	history={
+	history = {
+		owner = AFR
 		1999.1.1 = {
 			owner = AFR
 			add_core_of = AFR
@@ -24,8 +23,7 @@ state={
 			}
 		}
 	}
-
-	provinces={
-		13072 
+	provinces = {
+		13072
 	}
 }
