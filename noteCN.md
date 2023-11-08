@@ -12,7 +12,7 @@ This note will be written in chinese. `English user can refer to git history to 
 
 ### 2023.11.7
 
-在onaction部分，将“被beta攻陷地区”的效果里，把地区标记为betaland的条目放到了FROM.FROM里面，因为原本的方法使得该效果处于country scope里面。
+在on_action部分，将“被beta攻陷地区”的效果里，把地区标记为betaland的条目放到了FROM.FROM里面，因为原本的方法使得该效果处于country scope里面。
 
 将common/decision以及其子目录改为了replace的加载方法，因此保证在未来hoi4版本更新时，可以减少对于该部分的修改。
 
@@ -31,3 +31,9 @@ common/scripted_effects路径的加载方式也改为了replace。
 游戏开始的betaland在加载后人口恢复的问题，适役人口依旧是0的，但是很明显游戏没有自带修正平民人口的修正，导致在加载后依旧是以state历史为准的。
 
 这一问题不适宜使用修改state历史的方式解决，可以在beta事件1里面对人口进行削减，这个可以之后进行测试。
+
+### 2023.11.8
+
+今天先从简单的开始处理，开始把国家精神部分的中文命名改为英文命名，并且添加相应的localization，注意，这一改动必定会导致旧有存档无效。
+
+在14:25 UTC-8时遇到了新的崩溃问题，这次有两个怀疑对象，1. ai策略部分很多遗失了取消条件的策略。2.on_action部分还在触发原版的很多东西，但是这些东西在mod里面缺失对应的地址，可能引发空地址问题。

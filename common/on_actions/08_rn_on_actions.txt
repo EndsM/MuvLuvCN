@@ -1,3 +1,4 @@
+# Realistic Nuke on actions, however here are some more bugs lies around.
 on_actions = {
 	on_startup = {
 		effect = {
