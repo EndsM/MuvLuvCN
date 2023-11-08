@@ -13,12 +13,10 @@ state = {
 			owner = GEU
 		}
 		victory_points = {
-			7381
-			5
+			7381 5
 		}
 		victory_points = {
-			4608
-			3
+			4608 3
 		}
 		buildings = {
 			infrastructure = 5
