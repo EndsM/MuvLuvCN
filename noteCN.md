@@ -1,6 +1,6 @@
 ## Note
 
-This note will be written in chinese. English user can refer to git history to see the comments.
+This note will be written in chinese. `English user can refer to git history to see the comments.`
 
 该笔记将用中文进行记录。
 
@@ -20,4 +20,14 @@ This note will be written in chinese. English user can refer to git history to s
 
 在特种作战学说这一科技树中，注释掉了submod里面的特殊兵种的加成以减少相关报错，并将相关加成给予了强袭步行攻击机，因此事实上加强了这一海军陆战队等价兵种。
 
-给游戏地图中增加了5个缺失的港口建筑的位置描述，因此修复了游戏AI功能遍历海军逻辑时，由于该exception而无限循环，导致CPU、GPU、内存占用无限大而最终内存泄漏崩溃的问题。
+给游戏地图中增加了5个`缺失的港口建筑`的`位置描述`，因此修复了游戏AI功能遍历海军逻辑时，由于该exception而无限循环，导致CPU、GPU、内存占用无限大而最终`内存泄漏`崩溃的问题。
+
+common/scripted_effects路径的加载方式也改为了replace。
+
+删除了名字错误的scripted_gui文件夹，正确名称的保留了。
+
+修复了“超事件”的一些错误，这个也是可能导致崩溃的原因。09c419f 以及 cc5e278
+
+游戏开始的betaland在加载后人口恢复的问题，适役人口依旧是0的，但是很明显游戏没有自带修正平民人口的修正，导致在加载后依旧是以state历史为准的。
+
+这一问题不适宜使用修改state历史的方式解决，可以在beta事件1里面对人口进行削减，这个可以之后进行测试。
