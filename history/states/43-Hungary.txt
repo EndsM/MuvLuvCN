@@ -11,7 +11,6 @@ state={
 			remove_core_of = HUN
 			buildings = {
 				hive = 1
-
 			}
 
 		}

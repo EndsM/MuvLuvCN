@@ -1,15 +1,13 @@
-
-state={
-	id=4
-	name="STATE_4"
+state = {
+	id = 4
+	name = "STATE_4"
 	manpower = 2595983
-	resources={
-		oil=1 # was: 2
+	resources = {
+		oil = 1		# was: 2
 	}
-	
 	state_category = large_city
-	
-	history = { 1999.1.1 = { 
+	history = {
+		1999.1.1 = {
 			owner = H05
 			remove_core_of = H05
 			remove_core_of = AUS
@@ -17,10 +15,12 @@ state={
 		}
 		owner = AUS
 		victory_points = {
-			11666 1.0 
+			11666
+			1
 		}
 		victory_points = {
-			9648 1 
+			9648
+			1
 		}
 		buildings = {
 			infrastructure = 3
@@ -29,10 +29,8 @@ state={
 			air_base = 6
 		}
 		add_core_of = AUS
-
 	}
-
-	provinces={
-		653 704 3700 3718 6690 6739 9527 9646 9648 9661 9679 11630 11666 
+	provinces = {
+		653 704 3700 3718 6690 6739 9527 9646 9648 9661 9679 11630 11666
 	}
 }
