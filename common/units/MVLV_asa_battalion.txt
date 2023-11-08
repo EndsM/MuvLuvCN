@@ -1,5 +1,4 @@
 sub_units = {
-
 	MVLV_asa_battalion = {
 		sprite = "asa"
 		map_icon_category = armored
