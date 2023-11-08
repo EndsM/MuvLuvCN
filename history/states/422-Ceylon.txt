@@ -1,22 +1,19 @@
-state=
-{
-	id=422
-	name="STATE_422"
+state = {
+	id = 422
+	name = "STATE_422"
 	manpower = 5500000
-	
 	state_category = rural
-
-	resources={
+	resources = {
 	}
-
-	history = { 1999.1.1 = { 
+	history = {
+		1999.1.1 = {
 			owner = GEU
 			remove_core_of = GEU
 		}
 		owner = GEU
 		add_core_of = GEU
 		victory_points = {
-			10201 3 
+			10201 3
 		}
 		buildings = {
 			infrastructure = 3
@@ -30,10 +27,8 @@ state=
 				coastal_bunker = 3
 			}
 		}
-
 	}
-	
-	provinces={
-		1213 4219 7260 7344 10201 10229 10287 12258 
+	provinces = {
+		1213 4219 7260 7344 10201 10229 10287 12258
 	}
 }
