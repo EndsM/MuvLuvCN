@@ -5,7 +5,8 @@ state={
 	manpower = 6174000
 	state_category = large_city
 
-	history = { 
+	history = {
+		owner = H20
 		1999.1.1 = { 
 			owner = H20
 			add_core_of = JAP

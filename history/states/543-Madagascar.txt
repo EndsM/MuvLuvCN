@@ -10,6 +10,7 @@ state={
 	state_category = rural
 	
 	history={
+		owner = AFR
 		1999.1.1 = {
 			owner = AFR
 			add_core_of = AFR

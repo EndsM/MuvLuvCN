@@ -1,23 +1,20 @@
-state=
-{
-	id=524
-	name="STATE_524"
+state = {
+	id = 524
+	name = "STATE_524"
 	manpower = 6000000
-
 	state_category = megalopolis
-	history={
-		1999.1.1 = { 
+	history = {
+		owner = CHI
+		1999.1.1 = {
 			owner = CHI
-
 			buildings = {
-			infrastructure = 5
-			air_base = 5
-			industrial_complex = 8
-			arms_factory = 6
-
+				infrastructure = 5
+				air_base = 5
+				industrial_complex = 8
+				arms_factory = 6
 				7214 = {
-				coastal_bunker = 3
-				bunker = 2
+					coastal_bunker = 3
+					bunker = 2
 				}
 				9955 = {
 					coastal_bunker = 3
@@ -27,12 +24,11 @@ state=
 		}
 		add_core_of = CHI
 		add_core_of = PRC
-
 		victory_points = {
 			7186 20
 		}
 	}
-	provinces={
+	provinces = {
 		4096 7186 7214 9955 11959
 	}
 }
