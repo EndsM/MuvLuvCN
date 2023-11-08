@@ -5,6 +5,5 @@ state_categories={
 		local_non_core_manpower = -1
 		#local_factories = -1
 		color = { 0 0 0 }
-
 	}
 }

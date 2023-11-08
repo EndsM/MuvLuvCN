@@ -2,17 +2,17 @@
 
 Remove as much "red dot" as possible
 
-### Current Goal ###
+### Current Goal
 
 launch tapering operation on BETA
 
 BETA: Bugs that Extremely complex That makes me go Aaaaaaaa
 
-### quick notes ###
+### quick notes
 
 Use "git repack -a -f -d --depth=250 --window=250" to trim the .git folder, this is recommended way by Linux.
 
-### Task List ###
+### Task List
 
 Mark as finished after finish certain task.
 
