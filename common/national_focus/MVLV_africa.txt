@@ -409,7 +409,7 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = AFR_prepare_for_the_worse
 			add_timed_idea = {
-				idea = 反击的准备
+				idea = AFR_prepare_for_counterattack
 				days = 180
 			}
 		}
@@ -424,7 +424,7 @@ focus_tree = {
 		}
 		available = {
 			NOT = {
-				has_idea = 反击的准备
+				has_idea = AFR_prepare_for_counterattack
 			}
 		}
 		x = 14
