@@ -115,7 +115,7 @@ ideas = {
 				industrial_capacity_factory = 0.05
 			}
 		}
-		与非联的交易 = {
+		EUR_trade_with_africa = {
 			allowed = {
 				always = no
 			}

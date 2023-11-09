@@ -740,7 +740,7 @@ focus_tree = {
 			add_political_power = 100
 			EUR = {
 				add_political_power = -100
-				add_ideas = 与非联的交易
+				add_ideas = EUR_trade_with_africa
 			}
 		}
 	}
