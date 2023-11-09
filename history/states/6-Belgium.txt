@@ -1,37 +1,38 @@
-
-state={
-	id=6
-	name="STATE_6" # Flanders
+state = {
+	id = 6
+	name = "STATE_6"	# Flanders
 	manpower = 4747700
-	resources={
-		steel=25 # was: 48
+	resources = {
+		steel = 25		# was: 48
 	}
-	
 	state_category = metropolis
-
-	history = { 1999.1.1 = { 
+	history = {
+		1999.1.1 = {
 			owner = H05
 			remove_core_of = H05
 			add_core_of = EUR
 			remove_core_of = BEL
 		}
 		owner = BEL
-		victory_points = { 516 1 }
-		victory_points = { 6598 1 }
-		victory_points = { 6560 1 }
+		victory_points = {
+			516 1
+		}
+		victory_points = {
+			6598 1
+		}
+		victory_points = {
+			6560 1
+		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 5
 			industrial_complex = 7
 			air_base = 3
 		}
-		
 		add_extra_state_shared_building_slots = 2
-		
 		add_core_of = BEL
 	}
-
-	provinces={
-		516 3576 6446 6560 6598 9574 11419 13068 
+	provinces = {
+		516 3576 6446 6560 6598 9574 11419 13068
 	}
 }
