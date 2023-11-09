@@ -75,7 +75,7 @@ ideas = {
 			default = yes
 			allowed_to_remove = {
 				NOT = {
-					has_idea = AFR_a_safe_homefront
+					has_idea = AFR_stable_homefront
 					has_idea = AFR_a_safe_continent
 				}
 			}
