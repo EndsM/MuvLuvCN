@@ -47,7 +47,7 @@ ideas = {
 				production_speed_infrastructure_factor = 0.1
 			}
 		}
-		资源开发 = {
+		AFR_expand_resources_extraction = {
 			allowed = {
 				always = no
 			}

@@ -126,6 +126,8 @@
   AFR_eua_desc:0 "非洲从欧洲得到了巨大的援助，但这也表明非洲在欧洲和世界上的话语权正在下降。仅变更一条生产线就必须向欧洲企业请示，这被认为是旧宗主国在经济上的再殖民地化。"
   AFR_focus_on_homefront:0 "专注后方"
   AFR_focus_on_homefront_desc:0 ""
+  AFR_expand_resources_extraction:0 "资源开发"
+  AFR_expand_resources_extraction_desc:0 ""
 
   GEU_jp_support:0 "日本的工厂迁移"
   GEU_jp_support_desc:0 "BETA国土被侵略的日本向东南亚转移了很多军事物资的生产据点。这也给搬迁地大东亚联合带来了实惠。"
