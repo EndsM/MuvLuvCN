@@ -12,7 +12,6 @@ SOV_red_storm_category = {
 		}
 		days_remove = 185
 		fire_only_once = yes
-
 		complete_effect = {
 			add_timed_idea = {
 				idea = SOV_storm3
@@ -23,12 +22,10 @@ SOV_red_storm_category = {
 		remove_effect = {
 			country_event = mvlv_sov.2
 		}
-
 		modifier = {
 		}
-
 		ai_will_do = {
 			factor = 0
 		}
-	 }
+	}
 }
