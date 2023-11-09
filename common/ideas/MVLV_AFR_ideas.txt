@@ -262,7 +262,7 @@ ideas = {
 				army_morale_factor = 0.1
 			}
 		}
-		NATO情报网 = {
+		AFR_nato_intel_network = {
 			allowed = {
 				always = no
 			}
