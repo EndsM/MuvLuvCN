@@ -138,6 +138,8 @@
   AFR_prepare_for_the_worse_desc:0 ""
   AFR_entrenchment_group_tactics:0 "堡垒群战术"
   AFR_entrenchment_group_tactics_desc:0 ""
+  AFR_localized_TSF_production:0 "本土战术机生产"
+  AFR_localized_TSF_production_desc:0 ""
 
   GEU_jp_support:0 "日本的工厂迁移"
   GEU_jp_support_desc:0 "BETA国土被侵略的日本向东南亚转移了很多军事物资的生产据点。这也给搬迁地大东亚联合带来了实惠。"

@@ -377,7 +377,7 @@ focus_tree = {
 		x = 14
 		y = 7
 		completion_reward = {
-			add_ideas = 本土战术机生产
+			add_ideas = AFR_localized_TSF_production
 		}
 	}
 	focus = {
