@@ -234,7 +234,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.1
 			}
 		}
-		国联分担协议修正案 = {
+		AFR_increase_UNF = {
 			allowed = {
 				always = no
 			}

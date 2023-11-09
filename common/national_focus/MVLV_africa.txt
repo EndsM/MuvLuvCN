@@ -803,7 +803,7 @@ focus_tree = {
 		y = 7
 		completion_reward = {
 			add_political_power = 100
-			add_ideas = 国联分担协议修正案
+			add_ideas = AFR_increase_UNF
 			remove_ideas = MVLV_UNF
 		}
 	}
