@@ -658,7 +658,7 @@ focus_tree = {
 			USA = {
 				add_political_power = 50
 			}
-			add_ideas = A10生产线
+			add_ideas = EUR_a10_production_line
 		}
 		ai_will_do = {
 			factor = 1

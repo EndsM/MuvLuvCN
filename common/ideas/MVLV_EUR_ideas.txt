@@ -31,7 +31,7 @@ ideas = {
 				production_speed_coastal_bunker_factor = 0.1
 			}
 		}
-		A10生产线 = {
+		EUR_a10_production_line = {
 			allowed = {
 				always = no
 			}
