@@ -52,7 +52,7 @@ focus_tree = {
 		x = 20
 		y = 0
 		completion_reward = {
-			add_ideas = 统合的指挥系统
+			add_ideas = AFR_joint_command_system
 		}
 	}
 	focus = {
