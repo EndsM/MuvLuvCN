@@ -129,7 +129,7 @@ ideas = {
 				}
 			}
 		}
-		成熟的防御战理论 = {
+		AFR_proven_defence_doctrine = {
 			allowed = {
 				always = no
 			}

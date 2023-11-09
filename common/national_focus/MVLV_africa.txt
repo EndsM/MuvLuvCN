@@ -393,7 +393,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 200
 			remove_ideas = AFR_entrenchment_group_tactics
-			add_ideas = 成熟的防御战理论
+			add_ideas = AFR_proven_defence_doctrine
 		}
 	}
 	focus = {
