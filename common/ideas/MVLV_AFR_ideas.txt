@@ -35,6 +35,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.25
 			}
 		}
+		# Change naming start from here
 		专注后方 = {
 			allowed = {
 				always = no
