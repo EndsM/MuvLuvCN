@@ -318,6 +318,8 @@
   CHI_overseas_chinese_network_desc:0 "在东南亚、北美洲等地的华人共同体建立网络，通过他们把民生产品的生产委托给国外，成功地动员台湾几乎所有的工厂参加BETA战争。"
   CHI_one_country_two_systems:0 "第三次国共合作"
   CHI_one_country_two_systems_desc:0 "1986年，国共两国政府签署了《对BETA共同作战条约》，这是第三次国共合作，但由于大陆失陷，双方的力量关系发生了很大的扭曲。"
+  CHI_absorb_US_TSF_tech:0 "美国战术机技术"
+  CHI_absorb_US_TSF_tech_desc:0 ""
 
   SOV_army1:0 "炮兵特化"
   SOV_army2:0 "环境训练"

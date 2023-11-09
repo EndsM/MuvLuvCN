@@ -1121,7 +1121,7 @@ focus_tree = {
 				add_political_power = 100
 			}
 			add_political_power = -100
-			add_ideas = 美国战术机技术
+			add_ideas = CHI_absorb_US_TSF_tech
 		}
 		ai_will_do = {
 			factor = 1

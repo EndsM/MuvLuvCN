@@ -184,7 +184,7 @@ ideas = {
 				research_speed_factor = 0.1
 			}
 		}
-		美国战术机技术 = {
+		CHI_absorb_US_TSF_tech = {
 			allowed = {
 				always = no
 			}
