@@ -134,6 +134,8 @@
   AFR_a_safe_continent_desc:0 ""
   AFR_stable_homefront:0 "安稳的后方"
   AFR_stable_homefront_desc:0 ""
+  AFR_prepare_for_the_worse:0 "未雨绸缪"
+  AFR_prepare_for_the_worse_desc:0 ""
 
   GEU_jp_support:0 "日本的工厂迁移"
   GEU_jp_support_desc:0 "BETA国土被侵略的日本向东南亚转移了很多军事物资的生产据点。这也给搬迁地大东亚联合带来了实惠。"
@@ -186,6 +188,7 @@
   UNI_Dassault:0 "达索"
   UNI_ilyushin_design_bureau:0 "伊留申"
   UNI_mitsubishi:0 "三菱重工"
+
   EUR_eng:0 "为英国服务的欧盟"
   EUR_eng_desc:0 "作为欧洲联盟唯一拥有国土的大国，英国在欧盟拥有巨大的权力，可以自由使用欧盟的资源。 当然反对它的成员国很多，欧盟濒临分裂。"
   mvlv_parmanent:0 "常任理事国"

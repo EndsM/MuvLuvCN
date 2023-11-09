@@ -258,7 +258,7 @@ focus_tree = {
 		x = 14
 		y = 2
 		completion_reward = {
-			add_ideas = 未雨绸缪
+			add_ideas = AFR_prepare_for_the_worse
 		}
 	}
 	focus = {
@@ -407,7 +407,7 @@ focus_tree = {
 		x = 14
 		y = 9
 		completion_reward = {
-			remove_ideas = 未雨绸缪
+			remove_ideas = AFR_prepare_for_the_worse
 			add_timed_idea = {
 				idea = 反击的准备
 				days = 180

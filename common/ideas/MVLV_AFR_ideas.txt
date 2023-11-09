@@ -93,7 +93,7 @@ ideas = {
 				war_support_factor = -0.5
 			}
 		}
-		未雨绸缪 = {
+		AFR_prepare_for_the_worse = {
 			allowed = {
 				always = no
 			}
