@@ -16,6 +16,7 @@
   UNI_joint_research_USA:0 "与美国的秘密战术机研发合作"
   UNI_joint_research_JAP:0 "与日本的秘密战术机研发合作"
   UNI_joint_research_ind:0 "自主研发新一代战术机"
+
   mvlv_difficulty_easy:0 "简单"
   mvlv_difficulty_easy_desc:0 "BETA很强大，保佑独自作战的你"
   mvlv_difficulty_normal:0 "普通"
@@ -28,6 +29,7 @@
   mvlv_difficulty_ai_desc:0 "他们是AI。也就是说，比你弱得多。所以这个世界决定给予他们慈悲。"
   mvlv_difficulty_beta:0 "难度选择：BETA"
   mvlv_difficulty_beta_desc:0 "他们来了，他们势不可挡，用那丑陋的外表和凶恶的力量吞噬一切。"
+
   beta_resource:0 "BETA资源"
   beta_resource_desc:0 "BETA的生产力可谓取之不尽，用之不竭，但其材料仍笼罩在谜团中。"
   hive_phase_1:0 "阶段1"
@@ -52,8 +54,10 @@
   hive_recently_phaseUp_desc:0 "这个巢穴最近规模扩大了，所以短期内不会继续成长。\n\n……至少几个月之内。"
   hive_thinning_state:0 "被渐减作战的巢穴"
   hive_thinning_state_desc:0 "因为被实施了渐减作战，从这个巢穴将只生产少量BETA。\n\n这是你的士兵带来的最好结果。"
+
   beta_speed_up_production:0 "BETA的危机感"
   beta_speed_up_production_desc:0 "过度刺激BETA导致其提前进行战力补充。"
+
   mvlv_aggressive_beta:0 "大规模侵攻"
   mvlv_aggressive_beta_desc:0 "巢穴中的BETA在数量上已经饱和，正在进军寻找新的领地。它们势不可挡。"
   mvlv_aggressive_beta2:0 "小规模侵攻"
@@ -109,12 +113,20 @@
   SOV_storm3:0 "红色风暴行动"
   SOV_storm3_desc:0 "我们的目的地只有莫斯科！"
   SOV_storm2:0 "代价"
+
   EUR_power:0 "欧洲联盟理事会"
   EUR_power_desc:0 "欧盟理事会是欧盟最高的决策机构，由欧盟各国政府组成，尽管英国的权力越来越大，但它将分散在世界各地的欧洲人团结在对BETA战争之下。"
+
   mvlv_leased_land:0 "租借地经济"
   mvlv_leased_land_desc:0 "非洲有很多欧洲国家的租借地。这为当地经济做出了巨大贡献，但同时也有很多非洲人对此不以为然。"
+
   AFR_eu_support:0 "欧盟的积极支援"
   AFR_eu_support_desc:0 "非洲对于欧盟来说具有非常多的意义，绝对要避免苏伊士和西西里的陷落。为此，欧盟对非洲国家进行了大量投资。"
+  AFR_eua:0 "经济殖民地"
+  AFR_eua_desc:0 "非洲从欧洲得到了巨大的援助，但这也表明非洲在欧洲和世界上的话语权正在下降。仅变更一条生产线就必须向欧洲企业请示，这被认为是旧宗主国在经济上的再殖民地化。"
+  AFR_focus_on_homefront:0 "专注后方"
+  AFR_focus_on_homefront_desc:0 ""
+
   GEU_jp_support:0 "日本的工厂迁移"
   GEU_jp_support_desc:0 "BETA国土被侵略的日本向东南亚转移了很多军事物资的生产据点。这也给搬迁地大东亚联合带来了实惠。"
   GEU_ast_support:0 "来自澳大利亚的积极支援"
@@ -125,8 +137,6 @@
   OSE_refugees_desc:0 "澳大利亚协助国联收容了很多难民。虽可作为劳动力，但很多地区的治安恶化也令人担忧。"
   GEU_jacaruta:0 "雅加达宣言"
   GEU_jacaruta_desc:0 "大东亚联合是由东南亚、印度、朝鲜等国家联合成立的共同体，由于聚集了众多国家，军队的装备、作战完全没有统一，给军事行动带来了显著的障碍。为了解决这一问题，签署了旨在建立统一装备、统一作战的机关的《雅加达宣言》。但是，目前连设立机关的可能性都没有，因此预计混乱将会持续一段时间。"
-  AFR_eua:0 "经济殖民地"
-  AFR_eua_desc:0 "非洲从欧洲得到了巨大的援助，但这也表明非洲在欧洲和世界上的话语权正在下降。仅变更一条生产线就必须向欧洲企业请示，这被认为是旧宗主国在经济上的再殖民地化。"
   USA_refugees:0 "难民志愿兵"
   USA_refugees_desc:0 "美国虽然接受了很多BETA战争产生的难民，但是并没有给予这些难民公民权。因此，大部分难民被迫过着严酷的生活，有的地区治安极度恶化。在这种情况下，成为军人几乎是难民获得美国公民权的唯一方法，很多难民作为志愿兵加入了美军。"
   USA_refugees2:0 "难民特别城区"

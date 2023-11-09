@@ -36,7 +36,7 @@ ideas = {
 			}
 		}
 		# Change naming start from here
-		专注后方 = {
+		AFR_focus_on_homefront = {
 			allowed = {
 				always = no
 			}

@@ -98,7 +98,7 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			add_stability = 0.1
-			add_ideas = 专注后方
+			add_ideas = AFR_focus_on_homefront
 		}
 	}
 	focus = {
@@ -187,7 +187,7 @@ focus_tree = {
 		x = 10
 		y = 8
 		completion_reward = {
-			remove_ideas = 专注后方
+			remove_ideas = AFR_focus_on_homefront
 			add_ideas = 安全的大陆
 			every_owned_state = {
 				add_extra_state_shared_building_slots = 5
