@@ -1,12 +1,10 @@
-
-state={
-	id=11
-	name="STATE_11"
+state = {
+	id = 11
+	name = "STATE_11"
 	manpower = 1353130
-	
 	state_category = town
-	
-	history = { 1999.1.1 = { 
+	history = {
+		1999.1.1 = {
 			owner = H05
 			remove_core_of = H05
 			add_core_of = SOV
@@ -24,8 +22,7 @@ state={
 		}
 		add_core_of = LIT
 	}
-
-	provinces={
-		327 3272 6281 6296 6407 9246 9357 9374 9404 9438 11226 11312 11498 
+	provinces = {
+		327 3272 6281 6296 6407 9246 9357 9374 9404 9438 11226 11312 11498
 	}
 }

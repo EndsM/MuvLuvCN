@@ -1,11 +1,10 @@
-state={
-	id=10
-	name="STATE_10"
+state = {
+	id = 10
+	name = "STATE_10"
 	manpower = 3089000
-
 	state_category = large_city
-
-	history = { 1999.1.1 = { 
+	history = {
+		1999.1.1 = {
 			owner = H05
 			remove_core_of = H05
 			add_core_of = EEA
@@ -26,8 +25,7 @@ state={
 		}
 		add_core_of = POL
 	}
-
-	provinces={
-		402 467 524 3482 3544 6511 9400 11492 12562 
+	provinces = {
+		402 467 524 3482 3544 6511 9400 11492 12562
 	}
 }
