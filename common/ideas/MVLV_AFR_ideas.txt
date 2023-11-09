@@ -222,13 +222,16 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.2
 			}
 		}
-		与非联的交易 = {
+		AFR_EUR = {
 			allowed = {
 				always = no
 			}
 			modifier = {
-				consumer_goods_factor = -0.05
-				local_resources_factor = 0.1
+				consumer_goods_factor = 0.05
+				min_export = 0.1
+				stability_factor = -0.2
+				production_factory_start_efficiency_factor = 0.3
+				production_factory_efficiency_gain_factor = -0.1
 			}
 		}
 		国联分担协议修正案 = {
