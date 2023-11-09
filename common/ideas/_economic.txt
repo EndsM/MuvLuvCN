@@ -75,7 +75,7 @@ ideas = {
 			default = yes
 			allowed_to_remove = {
 				NOT = {
-					has_idea = 安稳的后方
+					has_idea = AFR_a_safe_homefront
 					has_idea = AFR_a_safe_continent
 				}
 			}
