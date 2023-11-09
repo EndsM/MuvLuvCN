@@ -757,7 +757,7 @@ focus_tree = {
 		y = 10
 		completion_reward = {
 			add_timed_idea = {
-				idea = 出击
+				idea = AFR_launch_an_assault
 				days = 60
 			}
 		}

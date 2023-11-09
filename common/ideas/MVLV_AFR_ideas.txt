@@ -164,7 +164,7 @@ ideas = {
 				army_morale_factor = 0.2
 			}
 		}
-		出击 = {
+		AFR_launch_an_assault = {
 			allowed = {
 				always = no
 			}
