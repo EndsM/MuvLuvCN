@@ -155,7 +155,7 @@
   AFR_independent:0 "自立自强"
   AFR_independent_desc:0 ""
   AFR_trade_with_eur:0 "与欧联的消费品贸易"
-  AFR_trade_with_eur_desc_0 ""
+  AFR_trade_with_eur_desc:0 ""
   AFR_increase_UNF:0 "国联分担协议修正案"
   AFR_increase_UNF_desc:0 ""
 
@@ -300,6 +300,7 @@
   OSE_human:0 "适才适所"
   OSE_tank:0 "国营坦克工厂"
   OSE_geu:0 "大东亚联合紧急支援"
+
   CHI_I1:0 "华侨资本"
   CHI_I2:0 "犹太资本"
   CHI_I3:0 "搞活工厂"
@@ -311,6 +312,7 @@
   CHI_overseas_chinese_network_desc:0 "在东南亚、北美洲等地的华人共同体建立网络，通过他们把民生产品的生产委托给国外，成功地动员台湾几乎所有的工厂参加BETA战争。"
   CHI_one_country_two_systems:0 "第三次国共合作"
   CHI_one_country_two_systems_desc:0 "1986年，国共两国政府签署了《对BETA共同作战条约》，这是第三次国共合作，但由于大陆失陷，双方的力量关系发生了很大的扭曲。"
+
   SOV_army1:0 "炮兵特化"
   SOV_army2:0 "环境训练"
   SOV_army3:0 "迅速转换"
