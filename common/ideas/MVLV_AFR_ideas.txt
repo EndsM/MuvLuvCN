@@ -103,7 +103,7 @@ ideas = {
 				production_speed_coastal_bunker_factor = 0.25
 			}
 		}
-		堡垒群战术 = {
+		AFR_entrenchment_group_tactics = {
 			allowed = {
 				always = no
 			}

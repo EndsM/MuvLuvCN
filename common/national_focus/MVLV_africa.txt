@@ -326,7 +326,7 @@ focus_tree = {
 		x = 14
 		y = 4
 		completion_reward = {
-			add_ideas = 堡垒群战术
+			add_ideas = AFR_entrenchment_group_tactics
 		}
 	}
 	focus = {
@@ -392,7 +392,7 @@ focus_tree = {
 		y = 8
 		completion_reward = {
 			army_experience = 200
-			remove_ideas = 堡垒群战术
+			remove_ideas = AFR_entrenchment_group_tactics
 			add_ideas = 成熟的防御战理论
 		}
 	}
