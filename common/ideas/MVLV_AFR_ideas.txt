@@ -55,7 +55,7 @@ ideas = {
 				local_resources_factor = 0.15
 			}
 		}
-		先进生产技术 = {
+		AFR_advanced_production_technology = {
 			allowed = {
 				always = no
 			}
@@ -64,7 +64,7 @@ ideas = {
 				industrial_capacity_factory = 0.1
 			}
 		}
-		安全的大陆 = {
+		AFR_a_safe_continent = {
 			allowed = {
 				always = no
 			}

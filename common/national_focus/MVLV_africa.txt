@@ -155,7 +155,7 @@ focus_tree = {
 		y = 6
 		completion_reward = {
 			add_political_power = -150
-			add_ideas = 先进生产技术
+			add_ideas = AFR_advanced_production_technology
 			EUR = {
 				add_political_power = 150
 			}
@@ -188,7 +188,7 @@ focus_tree = {
 		y = 8
 		completion_reward = {
 			remove_ideas = AFR_focus_on_homefront
-			add_ideas = 安全的大陆
+			add_ideas = AFR_a_safe_continent
 			every_owned_state = {
 				add_extra_state_shared_building_slots = 5
 			}
@@ -237,7 +237,7 @@ focus_tree = {
 		x = 10
 		y = 10
 		completion_reward = {
-			remove_ideas = 安全的大陆
+			remove_ideas = AFR_a_safe_continent
 			add_ideas = 安稳的后方
 			every_owned_state = {
 				add_extra_state_shared_building_slots = 10

@@ -128,6 +128,10 @@
   AFR_focus_on_homefront_desc:0 ""
   AFR_expand_resources_extraction:0 "资源开发"
   AFR_expand_resources_extraction_desc:0 ""
+  AFR_advanced_production_technology:0 "先进生产技术"
+  AFR_advanced_production_technology_desc:0 ""
+  AFR_a_safe_continent:0 "安全的大陆"
+  AFR_a_safe_continent_desc:0 ""
 
   GEU_jp_support:0 "日本的工厂迁移"
   GEU_jp_support_desc:0 "BETA国土被侵略的日本向东南亚转移了很多军事物资的生产据点。这也给搬迁地大东亚联合带来了实惠。"

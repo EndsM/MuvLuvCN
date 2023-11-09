@@ -76,7 +76,7 @@ ideas = {
 			allowed_to_remove = {
 				NOT = {
 					has_idea = 安稳的后方
-					has_idea = 安全的大陆
+					has_idea = AFR_a_safe_continent
 				}
 			}
 			cancel_if_invalid = no
