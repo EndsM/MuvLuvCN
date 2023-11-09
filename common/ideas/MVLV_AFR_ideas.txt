@@ -212,7 +212,7 @@ ideas = {
 				army_core_defence_factor = 0.1
 			}
 		}
-		与欧联消费品的交易 = {
+		AFR_trade_with_eur = {
 			allowed = {
 				always = no
 			}

@@ -152,6 +152,8 @@
   AFR_joint_command_system_desc:0 ""
   AFR_independent:0 "自立自强"
   AFR_independent_desc:0 ""
+  AFR_trade_with_eur:0 "与欧联的消费品贸易"
+  AFR_trade_with_eur_desc_0 ""
 
   GEU_jp_support:0 "日本的工厂迁移"
   GEU_jp_support_desc:0 "BETA国土被侵略的日本向东南亚转移了很多军事物资的生产据点。这也给搬迁地大东亚联合带来了实惠。"
