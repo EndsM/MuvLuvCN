@@ -144,6 +144,8 @@
   AFR_proven_defence_doctrine_desc:0 ""
   AFR_prepare_for_counterattack:0 "反击的准备"
   AFR_prepare_for_counterattack_desc:0 ""
+  AFR_target_H09:0 "剑指安巴尔"
+  AFR_target_H09_desc:0 ""
 
   GEU_jp_support:0 "日本的工厂迁移"
   GEU_jp_support_desc:0 "BETA国土被侵略的日本向东南亚转移了很多军事物资的生产据点。这也给搬迁地大东亚联合带来了实惠。"

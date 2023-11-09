@@ -152,7 +152,7 @@ ideas = {
 				industrial_capacity_factory = 0.5
 			}
 		}
-		反击 = {
+		AFR_target_H09 = {
 			allowed = {
 				always = no
 			}
