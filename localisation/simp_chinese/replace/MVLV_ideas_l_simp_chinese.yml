@@ -160,6 +160,8 @@
   AFR_increase_UNF_desc:0 ""
   AFR_EUR:0 "欧联经济影响"
   AFR_EUR_desc:0 "随着欧洲对非洲加大投资力度以拉近两国的关系，非洲联合因此有效规制了欧洲企业在非洲的行动，并使得非洲在两国贸易中获取到更多的好处，不过相对应的，非洲需要向欧洲投资者提供更多的回报。"
+  AFR_victory_inspiration:0 "胜利的鼓舞"
+  AFR_victory_inspiration_desc:0 ""
 
   GEU_jp_support:0 "日本的工厂迁移"
   GEU_jp_support_desc:0 "BETA国土被侵略的日本向东南亚转移了很多军事物资的生产据点。这也给搬迁地大东亚联合带来了实惠。"

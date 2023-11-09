@@ -250,7 +250,7 @@ ideas = {
 				industrial_capacity_factory = 0.05
 			}
 		}
-		胜利的鼓舞 = {
+		AFR_victory_inspiration = {
 			allowed = {
 				always = no
 			}
