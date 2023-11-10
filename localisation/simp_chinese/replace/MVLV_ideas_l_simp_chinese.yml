@@ -302,6 +302,8 @@
   JAP_tested_railgun_desc:0 ""
   JAP_joint_railgun_production:0 "联合生产电磁炮"
   JAP_joint_railgun_production_desc:0 ""
+  JAP_expand_strat_research_society:0 "战略研究会扩大"
+  JAP_expand_strat_research_society_desc:0 ""
 
   national_tsf_arsenal:0 "许可生产管理局"
   NITT:0 "国立对BETA兵器研究所"

@@ -159,7 +159,7 @@ ideas = {
 				}
 			}
 		}
-		战略研究会扩大 = {
+		JAP_expand_strat_research_society = {
 			allowed = {
 				always = no
 			}
