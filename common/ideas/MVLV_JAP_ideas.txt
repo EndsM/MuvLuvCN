@@ -83,7 +83,7 @@ ideas = {
 				stability_factor = -0.05
 			}
 		}
-		扩充斯卫军 = {
+		JAP_expand_IJRG = {
 			allowed = {
 				always = no
 			}

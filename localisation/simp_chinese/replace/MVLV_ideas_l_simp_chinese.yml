@@ -286,6 +286,9 @@
   JAP_killed_shougun_desc:0 "前将军殿下的死对帝国国民来说是最大的悲剧，国内混乱。因此想恢复秩序恐怕需要很多时间。"
   JAP_information:0 "战略研究会"
   JAP_information_desc:0 ""
+  JAP_expand_IJRG:0 "扩充斯卫军"
+  JAP_expand_IJRG_desc:0 ""
+
   national_tsf_arsenal:0 "许可生产管理局"
   NITT:0 "国立对BETA兵器研究所"
   CAN_atomic:0 "核污染"

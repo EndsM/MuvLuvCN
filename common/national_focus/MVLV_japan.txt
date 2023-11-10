@@ -441,7 +441,7 @@ focus_tree = {
 		cost = 5
 		#select_effect = { }
 		completion_reward = {
-			add_ideas = 扩充斯卫军
+			add_ideas = JAP_expand_IJRG
 		}
 	}
 	#重返京都#
