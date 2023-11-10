@@ -158,7 +158,7 @@ ideas = {
 				army_artillery_defence_factor = 0.1
 			}
 		}
-		日式生产技术 = {
+		GEU_japan_production_tech = {
 			allowed = {
 				always = no
 			}

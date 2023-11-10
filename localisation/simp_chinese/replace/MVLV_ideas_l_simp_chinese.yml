@@ -296,6 +296,7 @@
   JAP_reconstruct_defence_line_desc:0 ""
   JAP_import_food_from_geu:0 "进口大东亚粮食"
   JAP_import_food_from_geu_desc:0 ""
+  
 
   national_tsf_arsenal:0 "许可生产管理局"
   NITT:0 "国立对BETA兵器研究所"
@@ -397,6 +398,8 @@
   GEU_com:0 "军民一体"
   GEU_increase_firepower:0 "提高火力"
   GEU_increase_firepower_desc:0 ""
+  GEU_japan_production_tech:0 "日式生产技术"
+  GEU_japan_production_tech_desc:0 ""
 
   Reactive_Armour:0 "爆式反应装甲的设计公司"
   Shenyang:0 "沈阳"
