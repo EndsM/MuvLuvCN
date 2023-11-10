@@ -127,14 +127,7 @@ ideas = {
 				consumer_goods_factor = -0.05
 			}
 		}
-		日式生产技术 = {
-			allowed = {
-				always = no
-			}
-			modifier = {
-				industrial_capacity_factory = 0.1
-			}
-		}
+		
 		日苏技术交流协定 = {
 			allowed = {
 				always = no

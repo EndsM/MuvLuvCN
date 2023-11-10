@@ -158,5 +158,13 @@ ideas = {
 				army_artillery_defence_factor = 0.1
 			}
 		}
+		日式生产技术 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+		}
 	}
 }
