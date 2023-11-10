@@ -127,8 +127,7 @@ ideas = {
 				consumer_goods_factor = -0.05
 			}
 		}
-		
-		日苏技术交流协定 = {
+		JAP_japan_soviet_tech_exchange = {
 			allowed = {
 				always = no
 			}

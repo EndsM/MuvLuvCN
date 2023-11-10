@@ -558,12 +558,12 @@ focus_tree = {
 		#select_effect = { }
 		completion_reward = {
 			add_timed_idea = {
-				idea = 日苏技术交流协定
+				idea = JAP_japan_soviet_tech_exchange
 				days = 365
 			}
 			SOV = {
 				add_timed_idea = {
-					idea = 日苏技术交流协定
+					idea = JAP_japan_soviet_tech_exchange
 					days = 365
 				}
 			}

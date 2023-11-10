@@ -296,7 +296,8 @@
   JAP_reconstruct_defence_line_desc:0 ""
   JAP_import_food_from_geu:0 "进口大东亚粮食"
   JAP_import_food_from_geu_desc:0 ""
-  
+  JAP_japan_soviet_tech_exchange:0 "日苏技术交流协定"
+  JAP_japan_soviet_tech_exchange_desc:0 ""
 
   national_tsf_arsenal:0 "许可生产管理局"
   NITT:0 "国立对BETA兵器研究所"
