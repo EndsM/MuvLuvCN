@@ -89,7 +89,7 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			add_political_power = 150
-			add_ideas = 欧洲联合指挥部
+			add_ideas = EUR_joint_euro_command
 			add_stability = 0.1
 		}
 		ai_will_do = {

@@ -42,7 +42,7 @@ ideas = {
 				}
 			}
 		}
-		欧洲联合指挥部 = {
+		EUR_joint_euro_command = {
 			allowed = {
 				always = no
 			}
