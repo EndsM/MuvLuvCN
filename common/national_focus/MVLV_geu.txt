@@ -888,7 +888,7 @@ GEU={add_political_power = -100
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = 提高火力
+			add_ideas = GEU_increase_firepower
 		}
 	}
 	focus = {

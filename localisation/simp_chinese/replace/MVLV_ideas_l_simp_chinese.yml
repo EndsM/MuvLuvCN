@@ -384,6 +384,9 @@
   GEU_jacaruta2:0 "改正雅加达宣言"
   GEU_res:0 "改善了的研究机构"
   GEU_com:0 "军民一体"
+  GEU_increase_firepower:0 "提高火力"
+  GEU_increase_firepower_desc:0 ""
+
   Reactive_Armour:0 "爆式反应装甲的设计公司"
   Shenyang:0 "沈阳"
   seito:0 "成都"
