@@ -141,7 +141,7 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
-		支援炮改进 = {
+		EUR_improve_mk57_cannon = {
 			allowed = {
 				always = no
 			}
