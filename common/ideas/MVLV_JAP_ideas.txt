@@ -110,7 +110,7 @@ ideas = {
 				army_speed_factor = 0.1
 			}
 		}
-		重建防卫线 = {
+		JAP_reconstruct_defence_line = {
 			allowed = {
 				always = no
 			}

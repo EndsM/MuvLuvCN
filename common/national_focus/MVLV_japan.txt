@@ -70,7 +70,7 @@ focus_tree = {
 		#select_effect = { }
 		completion_reward = {
 			add_timed_idea = {
-				idea = 重建防卫线
+				idea = JAP_reconstruct_defence_line
 				days = 180
 			}
 		}
