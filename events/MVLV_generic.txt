@@ -1209,7 +1209,7 @@ country_event = {
 	trigger = {
 		TAG = JAP
 		has_idea = JAP_information
-		# remove_ideas=强势内阁
+		# remove_ideas=JAP_strong_cabinet
 		282 = {
 			is_controlled_by = JAP
 		}

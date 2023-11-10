@@ -780,7 +780,7 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			add_stability = -0.1
-			add_ideas = 强势内阁
+			add_ideas = JAP_strong_cabinet
 		}
 	}
 	#要求工业援助#
