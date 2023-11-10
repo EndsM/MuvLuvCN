@@ -5,7 +5,7 @@ USA_default = {
 	enable = {
 		# Allowed by default
 		# Can add more diversity that can be set in gamerule later
-		original_tag = USA
+		
 	}
 	abort = {
 	}
@@ -18,5 +18,8 @@ USA_default = {
 		USA_Superpower
 		USA_ExpandLockheed
 		USA_21stCenturyArmsRace
+		# Then deal with the refugee issue fast
+		USA_PeaceAboveElse
+		USA_RefugeeIssue
 	}
 }
