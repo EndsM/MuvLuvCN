@@ -1,0 +1,22 @@
+USA_default = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		# Allowed by default
+		# Can add more diversity that can be set in gamerule later
+		original_tag = USA
+	}
+	abort = {
+	}
+	ai_national_focuses = {
+		# Will chose once able to select
+		USA_support_japanese
+		# Will priorities the effective ones
+		USA_WarOrPeace
+		USA_ArsenalofDemocracy
+		USA_Superpower
+		USA_ExpandLockheed
+		USA_21stCenturyArmsRace
+	}
+}
