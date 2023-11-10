@@ -785,7 +785,7 @@ focus_tree = {
 		x = 25
 		y = 4
 		completion_reward = {
-			add_ideas = 改造人实战
+			add_ideas = EUR_deploy_modified_human
 		}
 		ai_will_do = {
 			factor = 3
