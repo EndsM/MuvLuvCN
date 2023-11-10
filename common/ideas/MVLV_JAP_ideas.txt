@@ -135,7 +135,7 @@ ideas = {
 				MVLV_tsf_tech = 0.1
 			}
 		}
-		试验成功的电磁炮 = {
+		JAP_tested_railgun = {
 			allowed = {
 				always = no
 			}

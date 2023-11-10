@@ -593,7 +593,7 @@ focus_tree = {
 		cost = 5
 		#select_effect = { }
 		completion_reward = {
-			add_ideas = 试验成功的电磁炮
+			add_ideas = JAP_tested_railgun
 			country_event = mvlv_jap.18
 		}
 	}
