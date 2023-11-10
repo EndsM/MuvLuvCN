@@ -124,7 +124,7 @@ ideas = {
 				local_resources_factor = 0.1
 			}
 		}
-		租借地法案 = {
+		EUR_afr_concession_bill = {
 			allowed = {
 				always = no
 			}

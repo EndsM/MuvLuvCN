@@ -113,7 +113,7 @@ focus_tree = {
 			}
 			EUR = {
 				remove_ideas = mvlv_leased_land
-				add_ideas = 租借地法案
+				add_ideas = EUR_afr_concession_bill
 			}
 		}
 		ai_will_do = {
