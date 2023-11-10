@@ -133,15 +133,6 @@ ideas = {
 				consumer_goods_factor = -0.15
 			}
 		}
-		欧联的慷慨支援 = {
-			allowed = {
-				always = no
-			}
-			modifier = {
-				stability_factor = 0.05
-				consumer_goods_factor = -0.1
-			}
-		}
 		对东欧援助 = {
 			allowed = {
 				always = no

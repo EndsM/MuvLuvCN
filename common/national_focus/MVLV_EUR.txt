@@ -329,7 +329,7 @@ focus_tree = {
 		y = 7
 		completion_reward = {
 			EEA = {
-				add_ideas = 欧联的慷慨支援
+				add_ideas = EEA_generous_aid_from_eur
 			}
 			EUR = {
 				add_stability = -0.1
