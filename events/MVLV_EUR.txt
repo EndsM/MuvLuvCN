@@ -90,7 +90,7 @@ country_event = {
 				EEA_MiG-25 = 1
 				EEA_MiG-31 = 1
 			}
-			add_ideas = 真正的欧洲联合
+			add_ideas = EUR_the_true_european_union
 			remove_ideas = EUR_aid_the_eea
 			remove_ideas = 战术交流
 		}

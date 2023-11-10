@@ -153,7 +153,7 @@ ideas = {
 				}
 			}
 		}
-		真正的欧洲联合 = {
+		EUR_the_true_european_union = {
 			allowed = {
 				always = no
 			}
