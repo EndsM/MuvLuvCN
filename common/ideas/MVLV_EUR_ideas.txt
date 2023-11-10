@@ -133,7 +133,7 @@ ideas = {
 				consumer_goods_factor = -0.15
 			}
 		}
-		对东欧援助 = {
+		EUR_aid_the_eea = {
 			allowed = {
 				always = no
 			}
