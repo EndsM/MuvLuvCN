@@ -119,7 +119,7 @@ ideas = {
 				production_speed_coastal_bunker_factor = 0.1
 			}
 		}
-		进口大东亚粮食 = {
+		JAP_import_food_from_geu = {
 			allowed = {
 				always = no
 			}

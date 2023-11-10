@@ -618,7 +618,7 @@ focus_tree = {
 		cost = 5
 		#select_effect = { }
 		completion_reward = {
-			add_ideas = 进口大东亚粮食
+			add_ideas = JAP_import_food_from_geu
 			GEU = {
 				add_ideas = 日式生产技术
 			}
