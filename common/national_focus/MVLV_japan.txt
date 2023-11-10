@@ -300,7 +300,7 @@ focus_tree = {
 		cost = 5
 		#select_effect = { }
 		completion_reward = {
-			add_ideas = 为AL4项目助力
+			add_ideas = JAP_funding_al4
 			set_country_flag = kazuki_yuuko
 		}
 		#completation_tooltip = { }
