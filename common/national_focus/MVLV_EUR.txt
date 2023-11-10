@@ -192,7 +192,7 @@ focus_tree = {
 		x = 8
 		y = 4
 		completion_reward = {
-			add_ideas = 与国联的科研合作
+			add_ideas = EUR_tech_collaboration_with_uni
 		}
 		ai_will_do = {
 			factor = 1
@@ -697,7 +697,7 @@ focus_tree = {
 		x = 23
 		y = 2
 		completion_reward = {
-			add_ideas = 地狱犬经验
+			add_ideas = EUR_ja44_tatic
 		}
 		ai_will_do = {
 			factor = 3
@@ -714,7 +714,7 @@ focus_tree = {
 		x = 23
 		y = 3
 		completion_reward = {
-			add_ideas = 新骑士训练
+			add_ideas = EUR_new_knight_training
 		}
 		ai_will_do = {
 			factor = 3
@@ -768,7 +768,7 @@ focus_tree = {
 		x = 25
 		y = 3
 		completion_reward = {
-			add_ideas = 先进战地医疗
+			add_ideas = EUR_advance_field_medic
 		}
 		ai_will_do = {
 			factor = 3

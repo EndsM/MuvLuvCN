@@ -54,7 +54,7 @@ ideas = {
 				planning_speed = 0.2
 			}
 		}
-		地狱犬经验 = {
+		EUR_ja44_tatic = {
 			allowed = {
 				always = no
 			}
@@ -67,7 +67,7 @@ ideas = {
 				}
 			}
 		}
-		新骑士训练 = {
+		EUR_new_knight_training = {
 			allowed = {
 				always = no
 			}
@@ -82,7 +82,7 @@ ideas = {
 				}
 			}
 		}
-		先进战地医疗 = {
+		EUR_advance_field_medic = {
 			allowed = {
 				always = no
 			}
@@ -91,7 +91,7 @@ ideas = {
 				experience_loss_factor = -0.2
 			}
 		}
-		与国联的科研合作 = {
+		EUR_tech_collaboration_with_uni = {
 			allowed = {
 				always = no
 			}
