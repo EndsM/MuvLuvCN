@@ -749,7 +749,7 @@ focus_tree = {
 		y = 2
 		completion_reward = {
 			add_timed_idea = {
-				idea = 改造人试验战
+				idea = EUR_modified_human_field_test
 				days = 90
 			}
 		}

@@ -168,7 +168,7 @@ ideas = {
 				army_core_defence_factor = 0.2
 			}
 		}
-		改造人试验战 = {
+		EUR_modified_human_field_test = {
 			allowed = {
 				always = no
 			}
