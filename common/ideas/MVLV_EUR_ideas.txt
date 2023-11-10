@@ -189,7 +189,7 @@ ideas = {
 				army_defence_factor = 0.05
 			}
 		}
-		战术交流 = {
+		EUR_tatical_exchange = {
 			allowed = {
 				always = no
 			}

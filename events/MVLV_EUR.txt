@@ -92,7 +92,7 @@ country_event = {
 			}
 			add_ideas = EUR_the_true_european_union
 			remove_ideas = EUR_aid_the_eea
-			remove_ideas = 战术交流
+			remove_ideas = EUR_tatical_exchange
 		}
 	}
 }
