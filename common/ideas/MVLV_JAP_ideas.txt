@@ -148,7 +148,7 @@ ideas = {
 				}
 			}
 		}
-		联合生产电磁炮 = {
+		JAP_joint_railgun_production = {
 			allowed = {
 				always = no
 			}

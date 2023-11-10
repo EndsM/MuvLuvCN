@@ -715,9 +715,9 @@ focus_tree = {
 		cost = 5
 		#select_effect = { }
 		completion_reward = {
-			add_ideas = 联合生产电磁炮
+			add_ideas = JAP_joint_railgun_production
 			UNI = {
-				add_ideas = 联合生产电磁炮
+				add_ideas = JAP_joint_railgun_production
 			}
 		}
 	}
