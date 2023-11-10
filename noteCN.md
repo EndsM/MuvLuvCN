@@ -59,3 +59,5 @@ common/scripted_effects路径的加载方式也改为了replace。
 AI国策组写好了，理论上让美国变强了10倍甚至9倍，强而有力啊强而有力。
 
 回头要解决一下BETA把全球的光线级都调到东南亚的问题，我觉得大东亚联合再怎么顶也顶不住这个。
+
+scripted_enums和equipment_groups需要回头重构一下。
