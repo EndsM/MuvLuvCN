@@ -908,7 +908,7 @@ focus_tree = {
 			add_political_power = 50
 			swap_ideas = {
 				remove_idea = JAP_expand_strat_research_society
-				add_idea = 战略研究会默许
+				add_idea = JAP_acquiesce_strat_research_society
 			}
 		}
 	}
@@ -926,7 +926,7 @@ focus_tree = {
 			country_event = mvlv_jap.22
 			add_political_power = 50
 			swap_ideas = {
-				remove_idea = 战略研究会默许
+				remove_idea = JAP_acquiesce_strat_research_society
 				add_idea = 战略研究会渗透
 			}
 		}

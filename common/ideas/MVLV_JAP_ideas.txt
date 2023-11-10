@@ -169,7 +169,7 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
-		战略研究会默许 = {
+		JAP_acquiesce_strat_research_society = {
 			allowed = {
 				always = no
 			}
