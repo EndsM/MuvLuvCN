@@ -946,7 +946,7 @@ focus_tree = {
 			add_political_power = 50
 			swap_ideas = {
 				remove_idea = JAP_incitement_from_strat_research_society
-				add_idea = 战略研究会异动
+				add_idea = JAP_strat_research_societys_plot
 			}
 		}
 	}

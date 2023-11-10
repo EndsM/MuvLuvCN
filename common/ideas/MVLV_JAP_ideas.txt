@@ -189,7 +189,7 @@ ideas = {
 				stability_factor = -0.2
 			}
 		}
-		战略研究会异动 = {
+		JAP_strat_research_societys_plot = {
 			allowed = {
 				always = no
 			}

@@ -139,7 +139,7 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		TAG = JAP
-		has_idea = 战略研究会异动
+		has_idea = JAP_strat_research_societys_plot
 		282 = {
 			is_controlled_by = JAP
 		}
@@ -260,7 +260,7 @@ country_event = {
 	option = {
 		name = mvlv_jap.12.a
 		remove_ideas = JAP_puppet_shogun
-		remove_ideas = 战略研究会异动
+		remove_ideas = JAP_strat_research_societys_plot
 		add_ideas = JAP_shogun
 		if = {
 			limit = {
@@ -307,7 +307,7 @@ country_event = {
 	option = {
 		name = mvlv_jap.13.a
 		remove_ideas = JAP_puppet_shogun
-		remove_ideas = 战略研究会异动
+		remove_ideas = JAP_strat_research_societys_plot
 		add_ideas = JAP_shogun
 		add_ideas = 家国传统
 		if = {
@@ -352,7 +352,7 @@ country_event = {
 			}
 		}
 		remove_ideas = JAP_puppet_shogun
-		remove_ideas = 战略研究会异动
+		remove_ideas = JAP_strat_research_societys_plot
 		if = {
 			limit = {
 				check_variable = {
