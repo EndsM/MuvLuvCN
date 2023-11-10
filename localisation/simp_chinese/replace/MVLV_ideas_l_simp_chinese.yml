@@ -306,6 +306,8 @@
   JAP_expand_strat_research_society_desc:0 ""
   JAP_acquiesce_strat_research_society:0 "战略研究会默许"
   JAP_acquiesce_strat_research_society_desc:0 ""
+  JAP_incitement_from_strat_research_society:0 "战略研究会渗透"
+  JAP_incitement_from_strat_research_society_desc:0 ""
 
   national_tsf_arsenal:0 "许可生产管理局"
   NITT:0 "国立对BETA兵器研究所"

@@ -179,7 +179,7 @@ ideas = {
 				stability_factor = -0.15
 			}
 		}
-		战略研究会渗透 = {
+		JAP_incitement_from_strat_research_society = {
 			allowed = {
 				always = no
 			}
