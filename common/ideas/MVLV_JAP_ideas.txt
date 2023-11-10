@@ -101,7 +101,7 @@ ideas = {
 				research_speed_factor = 0.15
 			}
 		}
-		明星作战的收尾 = {
+		JAP_conclude_operation_lucifer = {
 			allowed = {
 				always = no
 			}

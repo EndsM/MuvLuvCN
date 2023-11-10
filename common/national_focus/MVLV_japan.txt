@@ -37,7 +37,7 @@ focus_tree = {
 		#select_effect = { }
 		completion_reward = {
 			add_timed_idea = {
-				idea = 明星作战的收尾
+				idea = JAP_conclude_operation_lucifer
 				days = 30
 			}
 			activate_decision = operation_bright_star
