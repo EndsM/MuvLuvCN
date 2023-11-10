@@ -199,7 +199,7 @@ ideas = {
 				stability_factor = -0.3
 			}
 		}
-		宣传日本使命 = {
+		JAP_promote_japanese_destiny = {
 			allowed = {
 				always = no
 			}
