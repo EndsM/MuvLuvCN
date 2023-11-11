@@ -487,18 +487,6 @@ ideas = {
 				planning_speed = 0.25
 			}
 		}
-		受质疑的G弹计划 = {
-			allowed = {
-				always = no
-			}
-			available = {
-				date < 2001.12.31
-			}
-			modifier = {
-				nuclear_production_factor = -0.9
-				production_speed_nuclear_reactor_factor = -0.9
-			}
-		}
 		#AL3的更多信息
 		"AL3的更多信息" = {
 			modifier = {
