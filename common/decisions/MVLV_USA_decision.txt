@@ -1,4 +1,3 @@
-
 USA_dawn_plan_categories = {
 	#曙光计划-开始2#
 	USA_dawn_plan_start2 = {
@@ -1968,15 +1967,17 @@ USA_dawn_plan_categories = {
 		}
 	}
 }
+
 #拉格朗日计划#
-USA_Lagrange_Plan_categories= {
-	移民舰船坞材料准备（至少库存10轨道驱逐舰）={	
-                                icon = generic_prepare_civil_war
-		available = {date<2001.1.1
-			check_variable = {num_equipment@transport_plane_equipment_1>9}
-		}
-		activation = {
-			has_completed_focus = "拉格朗日计划"
+USA_Lagrange_Plan_categories = {
+	USA_lagrange_plan_1 = {
+		icon = generic_prepare_civil_war
+		available = {
+			date < 2001.01.01
+			has_equipment = {
+				transport_plane_equipment_1 > 9
+			}
+			has_completed_focus = USA_EvacuateFromEarth
 		}
 		visible = {
 			has_idea = USA_project_lagrange_start
@@ -1987,7 +1988,11 @@ USA_Lagrange_Plan_categories= {
 		fire_only_once = yes
 		cost = 0
 		days_remove = 100
-                                complete_effect = {USA={country_event=mvlv_usa.3}}
+		complete_effect = {
+			USA = {
+				country_event = mvlv_usa.3
+			}
+		}
 		modifier = {
 			consumer_goods_factor = 0.1
 		}
@@ -1997,14 +2002,15 @@ USA_Lagrange_Plan_categories= {
 				add_idea = "拉格朗日计划-船坞建设"
 			}
 		}
-              }
-	移民舰船坞建设（至少库存20轨道驱逐舰）={	
-                                icon = generic_prepare_civil_war
-		available = {date<2001.1.1
-			 check_variable = {num_equipment@transport_plane_equipment_1>19}
-		}
-		activation = {
-			has_completed_focus = "拉格朗日计划"
+	}
+	USA_lagrange_plan_2 = {
+		icon = generic_prepare_civil_war
+		available = {
+			date < 2001.1.1
+			has_equipment = {
+				transport_plane_equipment_1 > 19
+			}
+			has_completed_focus = USA_EvacuateFromEarth
 		}
 		visible = {
 			has_idea = "拉格朗日计划-船坞建设"
@@ -2014,8 +2020,12 @@ USA_Lagrange_Plan_categories= {
 		}
 		fire_only_once = yes
 		cost = 0
-		days_remove =100
-                                complete_effect = {USA={country_event=mvlv_usa.4}}
+		days_remove = 100
+		complete_effect = {
+			USA = {
+				country_event = mvlv_usa.4
+			}
+		}
 		modifier = {
 			consumer_goods_factor = 0.15
 		}
@@ -2025,17 +2035,17 @@ USA_Lagrange_Plan_categories= {
 				add_idea = "拉格朗日计划-进行中"
 			}
 		}
-                }
-	移民舰队制造中（至少库存30轨道驱逐舰）={	
-                                icon = generic_prepare_civil_war
-		available = {#date<2001.1.1
-			 check_variable = {num_equipment@transport_plane_equipment_1>29}
-		}
-		activation = {
-			has_completed_focus = "拉格朗日计划"
+	}
+	USA_lagrange_plan_3 = {
+		icon = generic_prepare_civil_war
+		available = {
+			has_equipment = {
+				transport_plane_equipment_1 > 29
+			}
+			has_completed_focus = USA_EvacuateFromEarth
 		}
 		visible = {
-			has_idea =  "拉格朗日计划-进行中"
+			has_idea = "拉格朗日计划-进行中"
 		}
 		ai_will_do = {
 			factor = 20
@@ -2043,108 +2053,177 @@ USA_Lagrange_Plan_categories= {
 		fire_only_once = yes
 		cost = 0
 		days_remove = 400
-                                complete_effect = {USA={country_event=mvlv_usa.5}}
+		complete_effect = {
+			USA = {
+				country_event = mvlv_usa.5
+			}
+		}
 		modifier = {
 			consumer_goods_factor = 0.2
 		}
-		remove_effect = {          USA={country_event=mvlv_usa.6}
-			swap_ideas = {	remove_idea = "拉格朗日计划-进行中"
-				add_idea = "拉格朗日计划-远航准备"}
+		remove_effect = {
+			USA = {
+				country_event = mvlv_usa.6
+			}
+			swap_ideas = {
+				remove_idea = "拉格朗日计划-进行中"
+				add_idea = "拉格朗日计划-远航准备"
+			}
 		}
-                }
-	开始转移人员（至少库存200轨道驱逐舰）={	
-                               icon = generic_prepare_civil_war
-		available = {date>2001.12.31
-			 check_variable = {num_equipment@transport_plane_equipment_1>199}
-		}
-		activation = {
-			has_completed_focus = "拉格朗日计划"
+	}
+	USA_lagrange_plan_4 = {
+		icon = generic_prepare_civil_war
+		available = {
+			date > 2001.12.31
+			has_equipment = {
+				transport_plane_equipment_1 > 199
+			}
+			has_completed_focus = USA_EvacuateFromEarth
 		}
 		visible = {
-			has_idea =  "拉格朗日计划-远航准备"
+			has_idea = "拉格朗日计划-远航准备"
 		}
 		ai_will_do = {
 			factor = 20
 		}
 		fire_only_once = yes
 		cost = 0
-		days_remove =30
-		complete_effect = {USA={country_event=mvlv_usa.100}
-                                                            UNI={country_event=mvlv_usa.100}
-			add_equipment_to_stockpile = {type = transport_plane_equipment
-				amount = -200}
+		days_remove = 30
+		complete_effect = {
+			USA = {
+				country_event = mvlv_usa.100
+			}
+			UNI = {
+				country_event = mvlv_usa.100
+			}
+			add_equipment_to_stockpile = {
+				type = transport_plane_equipment
+				amount = -200
+			}
 			add_stability = -0.4
 			add_war_support = -0.4
 		}
 		remove_effect = {
 			remove_ideas = "拉格朗日计划-远航准备"
-
-                                                USA={country_event=mvlv_generic.100    
-			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
-			add_equipment_to_stockpile = {type = transport_plane_equipment
-				amount = -200}
-                                                }
-                                                UNI={country_event=mvlv_generic.100      
+			USA = {
+				country_event = mvlv_generic.100
+				add_timed_idea = {
+					idea = "安抚留在地球的人们"
+					days = 90
+				}
+				add_equipment_to_stockpile = {
+					type = transport_plane_equipment
+					amount = -200
+				}
+			}
+			UNI = {
+				country_event = mvlv_generic.100
 				add_stability = -0.2
 				add_war_support = -0.2
-			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
-                                                }
-                                                SOV={country_event=mvlv_generic.100    
+				add_timed_idea = {
+					idea = "安抚留在地球的人们"
+					days = 90
+				}
+			}
+			SOV = {
+				country_event = mvlv_generic.100
 				add_stability = -0.2
 				add_war_support = -0.2
-			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
-                                                }
-                                                CHI={country_event=mvlv_generic.100    
+				add_timed_idea = {
+					idea = "安抚留在地球的人们"
+					days = 90
+				}
+			}
+			CHI = {
+				country_event = mvlv_generic.100
 				add_stability = -0.2
 				add_war_support = -0.2
-			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
-                                                }
-                                                JAP={country_event=mvlv_generic.100    
+				add_timed_idea = {
+					idea = "安抚留在地球的人们"
+					days = 90
+				}
+			}
+			JAP = {
+				country_event = mvlv_generic.100
 				add_stability = -0.2
 				add_war_support = -0.2
-			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
-                                                }
-                                                EUR={country_event=mvlv_generic.100    
+				add_timed_idea = {
+					idea = "安抚留在地球的人们"
+					days = 90
+				}
+			}
+			EUR = {
+				country_event = mvlv_generic.100
 				add_stability = -0.2
 				add_war_support = -0.2
-			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
-                                                }
-                                                AFR={country_event=mvlv_generic.100    
+				add_timed_idea = {
+					idea = "安抚留在地球的人们"
+					days = 90
+				}
+			}
+			AFR = {
+				country_event = mvlv_generic.100
 				add_stability = -0.2
 				add_war_support = -0.2
-			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
-                                                }
-                                                EEA={country_event=mvlv_generic.100    
+				add_timed_idea = {
+					idea = "安抚留在地球的人们"
+					days = 90
+				}
+			}
+			EEA = {
+				country_event = mvlv_generic.100
 				add_stability = -0.2
 				add_war_support = -0.2
-			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
-                                                }
-                                                GEU={country_event=mvlv_generic.100    
+				add_timed_idea = {
+					idea = "安抚留在地球的人们"
+					days = 90
+				}
+			}
+			GEU = {
+				country_event = mvlv_generic.100
 				add_stability = -0.2
 				add_war_support = -0.2
-			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
-                                                }
-                                                OSE={country_event=mvlv_generic.100    
+				add_timed_idea = {
+					idea = "安抚留在地球的人们"
+					days = 90
+				}
+			}
+			OSE = {
+				country_event = mvlv_generic.100
 				add_stability = -0.2
 				add_war_support = -0.2
-			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
-                                                }
-                                                SOA={country_event=mvlv_generic.100    
+				add_timed_idea = {
+					idea = "安抚留在地球的人们"
+					days = 90
+				}
+			}
+			SOA = {
+				country_event = mvlv_generic.100
 				add_stability = -0.2
 				add_war_support = -0.2
-			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
-                                                }
-                                                CEA={country_event=mvlv_generic.100    
+				add_timed_idea = {
+					idea = "安抚留在地球的人们"
+					days = 90
+				}
+			}
+			CEA = {
+				country_event = mvlv_generic.100
 				add_stability = -0.2
 				add_war_support = -0.2
-			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
-                                                } 
-                                                CAN={country_event=mvlv_generic.100       
+				add_timed_idea = {
+					idea = "安抚留在地球的人们"
+					days = 90
+				}
+			}
+			CAN = {
+				country_event = mvlv_generic.100
 				add_stability = -0.2
-				add_war_support = -0.2        
-			add_timed_idea ={idea=  "安抚留在地球的人们"   days=90}
-                                                }
+				add_war_support = -0.2
+				add_timed_idea = {
+					idea = "安抚留在地球的人们"
+					days = 90
+				}
+			}
 		}
-              }
-
+	}
 }

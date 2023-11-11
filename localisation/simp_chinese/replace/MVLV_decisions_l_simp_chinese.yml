@@ -51,3 +51,7 @@
  SOV_red_storm_category_desc:0 "这是一次动员全部力量，以莫斯科为目标的重大反攻行动，红色风暴行动\n一切都准备好了，就等总书记同志的命令！"
  SOV_storms:1 "红色风暴行动 开始"
  SOV_storms_desc:0 ""
+
+  USA_lagrange_plan_1:0 "移民舰船坞材料准备（至少库存10轨道驱逐舰）"
+  USA_lagrange_plan_2:0 "移民舰船坞建设（至少库存20轨道驱逐舰）"
+  
