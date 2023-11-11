@@ -413,7 +413,7 @@ ideas = {
 				army_attack_factor = 0.1
 			}
 		}
-		联合指挥部 = {
+		UNI_joint_command = {
 			allowed = {
 				always = no
 			}
