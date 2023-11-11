@@ -1,6 +1,5 @@
 
 USA_dawn_plan_categories = {
-	
 	#曙光计划-开始2#
 	USA_dawn_plan_start2 = {
 		icon = generic_prepare_civil_war
@@ -1980,7 +1979,7 @@ USA_Lagrange_Plan_categories= {
 			has_completed_focus = "拉格朗日计划"
 		}
 		visible = {
-			has_idea = "拉格朗日计划-启动"
+			has_idea = USA_project_lagrange_start
 		}
 		ai_will_do = {
 			factor = 20
@@ -1994,7 +1993,7 @@ USA_Lagrange_Plan_categories= {
 		}
 		remove_effect = {
 			swap_ideas = {
-				remove_idea = "拉格朗日计划-启动"
+				remove_idea = USA_project_lagrange_start
 				add_idea = "拉格朗日计划-船坞建设"
 			}
 		}

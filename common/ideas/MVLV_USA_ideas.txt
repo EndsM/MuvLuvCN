@@ -291,7 +291,7 @@ ideas = {
 			# }
 		}
 		#拉格朗日计划#
-		"拉格朗日计划-启动" = {
+		USA_project_lagrange_start = {
 			allowed = {
 				always = no
 			}
