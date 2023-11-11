@@ -352,7 +352,7 @@ ideas = {
 				army_org_regain = -0.05
 			}
 		}
-		樱花作战的经验 = {
+		UNI_experience_from_operation_ouka = {
 			allowed = {
 				always = no
 			}
@@ -360,7 +360,7 @@ ideas = {
 				army_attack_factor = 0.1
 			}
 		}
-		反攻的开始 = {
+		UNI_counterattack_start = {
 			allowed = {
 				always = no
 			}
@@ -373,7 +373,7 @@ ideas = {
 				# production_factory_start_efficiency_factor = 
 			}
 		}
-		国际联合研究院 = {
+		UNI_international_joint_research = {
 			allowed = {
 				always = no
 			}
