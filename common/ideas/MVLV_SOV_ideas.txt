@@ -169,7 +169,7 @@ ideas = {
 			}
 		}
 		#苏联式人海战术
-		"苏联式人海战术" = {
+		SOV_soviet_human_wave = {
 			picture = generic_communist_army
 			modifier = {
 				consumer_goods_factor = 0.05

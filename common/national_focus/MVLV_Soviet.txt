@@ -628,7 +628,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = "苏联式人海战术"
+			add_ideas = SOV_soviet_human_wave
 		}
 	}
 	#精锐部队
