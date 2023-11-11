@@ -1,7 +1,7 @@
 ideas = {
 	country = {
-		#default national spirits
-		#全連邦共産党
+		# default national spirits
+		# 全連邦共産党
 		SOV_comunist_party = {
 			allowed = {
 				always = no
@@ -12,7 +12,7 @@ ideas = {
 				weekly_manpower = 2000
 			}
 		}
-		#前線部隊の军閥化
+		# 前線部隊の军閥化
 		SOV_warlord = {
 			allowed = {
 				always = no
@@ -23,7 +23,7 @@ ideas = {
 				planning_speed = -0.1
 			}
 		}
-		#ロシア人優遇
+		# ロシア人優遇
 		SOV_russian = {
 			allowed = {
 				always = no
@@ -102,7 +102,7 @@ ideas = {
 				special_forces_cap = 0.25
 			}
 		}
-		#战争动员
+		# 战争动员
 		SOV_war_mobilization = {
 			picture = GFX_goal_generic_soviet_construction
 			allowed = {
@@ -112,7 +112,7 @@ ideas = {
 				consumer_goods_factor = -0.05
 			}
 		}
-		#先进的设备与工艺
+		# 先进的设备与工艺
 		SOV_advanced_production_tech = {
 			allowed = {
 				always = no
@@ -121,7 +121,7 @@ ideas = {
 				industrial_capacity_factory = 0.1
 			}
 		}
-		#简化生产
+		# 简化生产
 		SOV_streamlined_production = {
 			picture = low_economic_mobilisation
 			equipment_bonus = {
@@ -143,14 +143,14 @@ ideas = {
 				}
 			}
 		}
-		#总体战
+		# 总体战
 		SOV_total_war = {
 			modifier = {
 				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
 			}
 		}
-		#钢铁洪流
+		# 钢铁洪流
 		SOV_steel_storm = {
 			modifier = {
 				army_breakthrough_factor = 0.05
@@ -158,7 +158,7 @@ ideas = {
 				army_defence_factor = 0.05
 			}
 		}
-		#捍卫雄鹰
+		# 捍卫雄鹰
 		SOV_guardian_of_the_motherland = {
 			equipment_bonus = {
 				MVLV_TSF_chassis = {
@@ -168,7 +168,7 @@ ideas = {
 				}
 			}
 		}
-		#苏联式人海战术
+		# 苏联式人海战术
 		SOV_soviet_human_wave = {
 			picture = generic_communist_army
 			modifier = {
@@ -180,7 +180,7 @@ ideas = {
 				army_armor_defence_factor = 0.1
 			}
 		}
-		#精锐部队
+		# 精锐部队
 		SOV_elite_force = {
 			picture = GFX_goal_generic_territory_or_war
 			modifier = {
@@ -189,7 +189,7 @@ ideas = {
 				special_forces_defence_factor = 0.1
 			}
 		}
-		#前线指导
+		# 前线指导
 		SOV_frontline_guidance = {
 			picture = generic_manpower_bonus
 			allowed = {
@@ -229,7 +229,7 @@ ideas = {
 				}
 			}
 		}
-		#炮击数据链
+		# 炮击数据链
 		SOV_artillery_datalink = {
 			picture = low_economic_mobilisation
 			allowed = {
@@ -247,7 +247,7 @@ ideas = {
 				army_artillery_defence_factor = 0.1
 			}
 		}
-		#强化炮兵
+		# 强化炮兵
 		SOV_enhance_artillery_units = {
 			picture = generic_artillery_regiments
 			allowed = {
