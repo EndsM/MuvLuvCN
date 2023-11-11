@@ -970,7 +970,7 @@ focus_tree = {
 		cost = 4
 		completion_reward = {
 			add_stability = -0.1
-			add_ideas = 三班倒
+			add_ideas = MVLV_three_shift_system
 		}
 		ai_will_do = {
 			factor = 1

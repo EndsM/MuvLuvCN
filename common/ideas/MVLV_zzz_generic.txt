@@ -726,7 +726,7 @@ ideas = {
 				production_speed_coastal_bunker_factor = 0.2
 			}
 		}
-		三班倒 = {
+		MVLV_three_shift_system = {
 			allowed = {
 				always = no
 			}
