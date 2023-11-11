@@ -190,7 +190,7 @@ ideas = {
 			}
 		}
 		#前线指导
-		"前线指导" = {
+		SOV_frontline_guidance = {
 			picture = generic_manpower_bonus
 			allowed = {
 				always = no
