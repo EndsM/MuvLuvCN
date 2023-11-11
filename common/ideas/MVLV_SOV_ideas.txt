@@ -159,8 +159,7 @@ ideas = {
 			}
 		}
 		#捍卫雄鹰
-		"捍卫雄鹰" = {
-			picture = 捍卫雄鹰
+		SOV_guardian_of_the_motherland = {
 			equipment_bonus = {
 				MVLV_TSF_chassis = {
 					defense = 0.05

@@ -610,7 +610,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = "捍卫雄鹰"
+			add_ideas = SOV_guardian_of_the_motherland
 		}
 	}
 	#完善的战术

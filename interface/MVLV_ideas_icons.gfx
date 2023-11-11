@@ -9,7 +9,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/goal_generic_production.dds"
 	}
 	SpriteType = {
-		name = "GFX_idea_捍卫雄鹰"
+		name = "GFX_idea_SOV_guardian_of_the_motherland"
 		texturefile = "gfx/interface/ideas/load_14.dds"
 	}
 	SpriteType = {
