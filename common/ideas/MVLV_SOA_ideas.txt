@@ -31,25 +31,7 @@ ideas = {
 				weekly_manpower = 1000
 			}
 		}
-		三班倒 = {
-			allowed = {
-				always = no
-			}
-			modifier = {
-				stability_weekly = -0.005
-				war_support_weekly = -0.005
-				industrial_capacity_factory = 0.5
-			}
-		}
-		倾囊相授 = {
-			allowed = {
-				always = no
-			}
-			modifier = {
-				license_production_speed = 0.5
-				license_tech_difference_speed = 1
-			}
-		}
+		
 		汇聚的科研人员 = {
 			allowed = {
 				always = no
