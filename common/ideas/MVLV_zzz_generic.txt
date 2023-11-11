@@ -698,6 +698,15 @@ ideas = {
 				#research_speed_factor = 0.10
 			}
 		}
-		#
+		# refugee labor camp series
+		mvlv_refugee_labor = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain = -0.25
+				industrial_capacity_factory = 0.25
+			}
+		}
 	}
 }

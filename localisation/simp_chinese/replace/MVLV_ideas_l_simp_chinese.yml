@@ -48,6 +48,9 @@
 
   beta_resource:0 "BETA资源"
   beta_resource_desc:0 "BETA的生产力可谓取之不尽，用之不竭，但其材料仍笼罩在谜团中。"
+  beta_speed_up_production:0 "BETA的危机感"
+  beta_speed_up_production_desc:0 "过度刺激BETA导致其提前进行战力补充。"
+
   hive_phase_1:0 "阶段1"
   hive_phase_1_desc:0 "巢穴规模"
   hive_phase_2:0 "阶段2"
@@ -70,9 +73,6 @@
   hive_recently_phaseUp_desc:0 "这个巢穴最近规模扩大了，所以短期内不会继续成长。\n\n……至少几个月之内。"
   hive_thinning_state:0 "被渐减作战的巢穴"
   hive_thinning_state_desc:0 "因为被实施了渐减作战，从这个巢穴将只生产少量BETA。\n\n这是你的士兵带来的最好结果。"
-
-  beta_speed_up_production:0 "BETA的危机感"
-  beta_speed_up_production_desc:0 "过度刺激BETA导致其提前进行战力补充。"
 
   mvlv_aggressive_beta:0 "大规模侵攻"
   mvlv_aggressive_beta_desc:0 "巢穴中的BETA在数量上已经饱和，正在进军寻找新的领地。它们势不可挡。"

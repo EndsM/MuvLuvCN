@@ -31,15 +31,7 @@ ideas = {
 				weekly_manpower = 1000
 			}
 		}
-		难民工人 = {
-			allowed = {
-				always = no
-			}
-			modifier = {
-				political_power_gain = -0.25
-				industrial_capacity_factory = 0.25
-			}
-		}
+		
 		拉美联合协定 = {
 			allowed = {
 				always = no
