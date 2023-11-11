@@ -1,7 +1,7 @@
 spriteTypes = {
 	# change naming later
 	SpriteType = {
-		name = "GFX_idea_钢铁洪流"
+		name = "GFX_idea_SOV_steel_storm"
 		texturefile = "gfx/interface/ideas/nthetical_upgI.dds"
 	}
 	SpriteType = {
