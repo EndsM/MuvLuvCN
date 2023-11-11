@@ -123,7 +123,7 @@ ideas = {
 			}
 		}
 		#简化生产
-		"简化生产" = {
+		SOV_streamlined_production = {
 			picture = low_economic_mobilisation
 			equipment_bonus = {
 				infantry_equipment = {

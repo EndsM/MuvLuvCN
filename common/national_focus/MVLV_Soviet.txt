@@ -246,7 +246,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = "简化生产"
+			add_ideas = SOV_streamlined_production
 		}
 	}
 	#G元素研究设施
