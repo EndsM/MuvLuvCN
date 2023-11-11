@@ -421,7 +421,7 @@ ideas = {
 				research_speed_factor = 0.1
 			}
 		}
-		国联工业整备 = {
+		UNI_industrial_restructure = {
 			allowed = {
 				always = no
 			}
@@ -431,7 +431,7 @@ ideas = {
 				# license_purchase_cost = UNI_industrial_dep_license_cost
 			}
 		}
-		延长工作时长 = {
+		UNI_extend_working_hours = {
 			allowed = {
 				always = no
 			}

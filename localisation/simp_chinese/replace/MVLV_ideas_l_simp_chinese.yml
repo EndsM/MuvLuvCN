@@ -48,6 +48,10 @@
   UNI_unify_datalink_desc:0 ""
   UNI_joint_command:0 "联合指挥部"
   UNI_joint_command_desc:0 ""
+  UNI_industrial_restructure:0 "国联工业整备"
+  UNI_industrial_restructure_desc:0 ""
+  UNI_extend_working_hours:0 "延长工作时长"
+  UNI_extend_working_hours_desc:0 ""
 
   SOV_russian:0 "优待俄罗斯人"
   SOV_russian_desc:0 "现在的苏联军队是按照民族划分编成部队的，这必然导致占据上层的俄罗斯人受到优待。"
