@@ -1,4 +1,4 @@
-spriteTypes = {	
+spriteTypes = {
 	#通用将领
 	SpriteType = {
 		name = "GFX_女卫士头像"
@@ -48,9 +48,7 @@ spriteTypes = {
 		name = "GFX_伊莎贝拉格林头像小图"
 		textureFile = "gfx/leaders/特殊/伊莎贝拉格林小图.dds"
 	}
-
 	#jap leader gfx
-	
 	SpriteType = {
 		name = "GFX_portrait_denka"
 		textureFile = "gfx/leaders/JAP/denka.dds"
@@ -67,8 +65,6 @@ spriteTypes = {
 		name = "GFX_portrait_superior_existance"
 		textureFile = "gfx/leaders/BET/cbth5-jlbbi.dds"
 	}
-
-
 	#日本将领
 	SpriteType = {
 		name = "GFX_元帅煌武院悠阳头像"
@@ -262,7 +258,6 @@ spriteTypes = {
 		name = "GFX_松风谅一头像_small"
 		textureFile = "gfx/leaders/JAP/松风谅一小图.dds"
 	}
-
 	#非联将领
 	SpriteType = {
 		name = "GFX_易卜拉欣杜鲁头像"
@@ -288,7 +283,6 @@ spriteTypes = {
 		name = "GFX_丽塔卡纳莱斯头像_small"
 		textureFile = "gfx/leaders/AFR/丽塔卡纳莱斯小图.dds"
 	}
-
 	#中华家将领
 	SpriteType = {
 		name = "GFX_崔亦菲头像"
@@ -330,7 +324,6 @@ spriteTypes = {
 		name = "GFX_孙立军头像_small"
 		textureFile = "gfx/leaders/CHI/孙立军小图.dds"
 	}
-
 	#东欧将领
 	SpriteType = {
 		name = "GFX_格雷特尔耶克伦头像"
@@ -372,7 +365,6 @@ spriteTypes = {
 		name = "GFX_约阿希姆巴尔克头像_small"
 		textureFile = "gfx/leaders/EEA/约阿希姆巴尔克小图.dds"
 	}
-
 	#欧盟头像
 	SpriteType = {
 		name = "GFX_威尔弗里德艾悉贝尔加头像"
@@ -486,7 +478,6 @@ spriteTypes = {
 		name = "GFX_休温斯顿头像_small"
 		textureFile = "gfx/leaders/EUR/休温斯顿小图.dds"
 	}
-
 	#大东亚将领
 	SpriteType = {
 		name = "GFX_幸田来未头像"
@@ -528,7 +519,6 @@ spriteTypes = {
 		name = "GFX_道格拉斯格蕾丝头像_small"
 		textureFile = "gfx/leaders/GEU/道格拉斯格蕾丝小图.dds"
 	}
-
 	#苏联将领
 	SpriteType = {
 		name = "GFX_菲卡吉雅拉托洛瓦头像"
@@ -618,7 +608,6 @@ spriteTypes = {
 		name = "GFX_利特维年科头像_small"
 		textureFile = "gfx/leaders/SOV/利特维年科小图.dds"
 	}
-
 	#国联将领
 	SpriteType = {
 		name = "GFX_伊隅美知留头像"
@@ -844,7 +833,6 @@ spriteTypes = {
 		name = "GFX_耶齐桑德克国联头像_small"
 		textureFile = "gfx/leaders/UNI/耶齐桑德克国联小图.dds"
 	}
-	
 	#美国将领
 	SpriteType = {
 		name = "GFX_勇哉布里吉斯头像"
@@ -950,19 +938,12 @@ spriteTypes = {
 		name = "GFX_阿尔弗雷德沃肯中校头像_small"
 		textureFile = "gfx/leaders/USA/阿尔弗雷德沃肯中校小图.dds"
 	}
-
-
-	
-
-	
-
 	#BETA leaders
-	
-    SpriteType = {
+	SpriteType = {
 		name = "GFX_兵士级头像"
 		textureFile = "gfx/leaders/BET/兵士级.dds"
 	}
-    SpriteType = {
+	SpriteType = {
 		name = "GFX_兵士级头像_small"
 		textureFile = "gfx/leaders/BET/兵士级小图.dds"
 	}
@@ -970,7 +951,7 @@ spriteTypes = {
 		name = "GFX_光线级头像"
 		textureFile = "gfx/leaders/BET/光线级.dds"
 	}
-    SpriteType = {
+	SpriteType = {
 		name = "GFX_光线级头像_small"
 		textureFile = "gfx/leaders/BET/光线级小图.dds"
 	}
@@ -978,7 +959,7 @@ spriteTypes = {
 		name = "GFX_战车级头像"
 		textureFile = "gfx/leaders/BET/战车级.dds"
 	}
-    SpriteType = {
+	SpriteType = {
 		name = "GFX_战车级头像_small"
 		textureFile = "gfx/leaders/BET/战车级小图.dds"
 	}
@@ -986,7 +967,7 @@ spriteTypes = {
 		name = "GFX_突击级头像"
 		textureFile = "gfx/leaders/BET/突击级.dds"
 	}
-    SpriteType = {
+	SpriteType = {
 		name = "GFX_突击级头像_small"
 		textureFile = "gfx/leaders/BET/突击级小图.dds"
 	}
@@ -994,7 +975,7 @@ spriteTypes = {
 		name = "GFX_斗士级头像"
 		textureFile = "gfx/leaders/BET/斗士级.dds"
 	}
-    SpriteType = {
+	SpriteType = {
 		name = "GFX_斗士级头像_small"
 		textureFile = "gfx/leaders/BET/斗士级小图.dds"
 	}
@@ -1002,7 +983,7 @@ spriteTypes = {
 		name = "GFX_要击级头像"
 		textureFile = "gfx/leaders/BET/要击级.dds"
 	}
-    SpriteType = {
+	SpriteType = {
 		name = "GFX_要击级头像_small"
 		textureFile = "gfx/leaders/BET/要击级小图.dds"
 	}
@@ -1010,7 +991,7 @@ spriteTypes = {
 		name = "GFX_要塞级头像"
 		textureFile = "gfx/leaders/BET/要塞级.dds"
 	}
-    SpriteType = {
+	SpriteType = {
 		name = "GFX_要塞级头像_small"
 		textureFile = "gfx/leaders/BET/要塞级小图.dds"
 	}
@@ -1018,7 +999,7 @@ spriteTypes = {
 		name = "GFX_重光线级头像"
 		textureFile = "gfx/leaders/BET/重光线级.dds"
 	}
-    SpriteType = {
+	SpriteType = {
 		name = "GFX_重光线级头像_small"
 		textureFile = "gfx/leaders/BET/重光线级小图.dds"
 	}
@@ -1026,7 +1007,7 @@ spriteTypes = {
 		name = "GFX_头脑级头像"
 		textureFile = "gfx/leaders/BET/头脑级.dds"
 	}
-    SpriteType = {
+	SpriteType = {
 		name = "GFX_头脑级头像_small"
 		textureFile = "gfx/leaders/BET/头脑级小图.dds"
 	}
@@ -1034,7 +1015,7 @@ spriteTypes = {
 		name = "GFX_上位存在头像"
 		textureFile = "gfx/leaders/BET/上位存在.dds"
 	}
-    SpriteType = {
+	SpriteType = {
 		name = "GFX_上位存在头像_small"
 		textureFile = "gfx/leaders/BET/上位存在小图.dds"
 	}

@@ -35,32 +35,26 @@ spriteTypes = {
 		name = "GFX_idea_hive_phase_9"
 		texturefile = "gfx/interface/ideas/hive_p9.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_idea_mvlv_difficulty_beta"
 		texturefile = "gfx/interface/ideas/beta.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_idea_hive_recently_phaseUp"
 		texturefile = "gfx/interface/ideas/HivePhaseUp.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_idea_mvlv_aggressive_beta"
 		texturefile = "gfx/interface/ideas/AggressiveBeta.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_idea_mvlv_aggressive_beta2"
 		texturefile = "gfx/interface/ideas/AggressiveBeta.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_idea_hive_thinning_state"
 		texturefile = "gfx/interface/ideas/HiveThinning.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_idea_mvlv_difficulty_easy"
 		texturefile = "gfx/interface/ideas/EASY.dds"
@@ -97,7 +91,6 @@ spriteTypes = {
 		name = "GFX_idea_mvlv_brokenhive"
 		texturefile = "gfx/interface/ideas/brokenhive.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_idea_betawar_situation_1"
 		texturefile = "gfx/interface/ideas/betawar_situation_1.dds"
@@ -114,7 +107,6 @@ spriteTypes = {
 		name = "GFX_idea_betawar_situation_4"
 		texturefile = "gfx/interface/ideas/betawar_situation_4.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_idea_BET_end_game"
 		texturefile = "gfx/interface/ideas/end.dds"
@@ -188,19 +180,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/eur.dds"
 	}
 	spriteType = {
-			name = "GFX_idea_mvlv_altanative_3"
-			texturefile = "gfx/interface/ideas/alt3.dds"
+		name = "GFX_idea_mvlv_altanative_3"
+		texturefile = "gfx/interface/ideas/alt3.dds"
 	}
 	spriteType = {
-			name = "GFX_idea_mvlv_altanative_4"
-			texturefile = "gfx/interface/ideas/alt4.dds"
+		name = "GFX_idea_mvlv_altanative_4"
+		texturefile = "gfx/interface/ideas/alt4.dds"
 	}
 	spriteType = {
-			name = "GFX_idea_mvlv_altanative_5"
-			texturefile = "gfx/interface/ideas/alt5.dds"
+		name = "GFX_idea_mvlv_altanative_5"
+		texturefile = "gfx/interface/ideas/alt5.dds"
 	}
-	
-
 	spriteType = {
 		name = "GFX_idea_UNI_xmosi"
 		texturefile = "gfx/interface/ideas/XM3.dds"
@@ -241,7 +231,6 @@ spriteTypes = {
 		name = "GFX_idea_UNI_boeing"
 		texturefile = "gfx/interface/ideas/idea_boeing.dds"
 	}
-
 	spriteType = {
 		name = "GFX_idea_JAP_puppet_shogun"
 		texturefile = "gfx/interface/ideas/idea_jap_militarism_shogun.dds"
@@ -266,9 +255,6 @@ spriteTypes = {
 		name = "GFX_idea_JAP_kou21"
 		texturefile = "gfx/interface/ideas/kou21.dds"
 	}
-
-
-
 	spriteType = {
 		name = "GFX_idea_USA_country"
 		texturefile = "gfx/interface/ideas/usa.dds"
@@ -277,7 +263,6 @@ spriteTypes = {
 		name = "GFX_idea_USA_refugees"
 		texturefile = "gfx/interface/ideas/usar.dds"
 	}
-
 	spriteType = {
 		name = "GFX_idea_SOV_comunist_party"
 		texturefile = "gfx/interface/ideas/trotskyite_plot_purged.dds"
@@ -294,8 +279,6 @@ spriteTypes = {
 		name = "GFX_idea_SOV_russian2"
 		texturefile = "gfx/interface/ideas/idea_jap_the_unthinkable_option.dds"
 	}
-	
-
 	spriteType = {
 		name = "GFX_idea_EUR_power"
 		texturefile = "gfx/interface/ideas/eu.dds"
@@ -304,8 +287,6 @@ spriteTypes = {
 		name = "GFX_idea_EUR_eng"
 		texturefile = "gfx/interface/ideas/engeu.dds"
 	}
-
-
 	spriteType = {
 		name = "GFX_idea_AFR_eua"
 		texturefile = "gfx/interface/ideas/eua.dds"
@@ -314,20 +295,18 @@ spriteTypes = {
 		name = "GFX_idea_AFR_eu_support"
 		texturefile = "gfx/interface/ideas/eu_economy.dds"
 	}
-
 	spriteType = {
-			name = "GFX_idea_CAN_atomic"
-			texturefile = "gfx/interface/ideas/atom.dds"
+		name = "GFX_idea_CAN_atomic"
+		texturefile = "gfx/interface/ideas/atom.dds"
 	}
 	spriteType = {
-			name = "GFX_idea_CAN_us"
-			texturefile = "gfx/interface/ideas/canus.dds"
+		name = "GFX_idea_CAN_us"
+		texturefile = "gfx/interface/ideas/canus.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_CAN_noatomic"
 		texturefile = "gfx/interface/ideas/cannoatom.dds"
 	}
-
 	spriteType = {
 		name = "GFX_idea_SOA_happy"
 		texturefile = "gfx/interface/ideas/happy.dds"
@@ -340,7 +319,6 @@ spriteTypes = {
 		name = "GFX_idea_SOA_nosaast"
 		texturefile = "gfx/interface/ideas/idea_prc_low_popular_support3.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_idea_OSE_food"
 		texturefile = "gfx/interface/ideas/food.dds"
@@ -465,7 +443,6 @@ spriteTypes = {
 		name = "GFX_idea_CHI_one_country_two_systems"
 		texturefile = "gfx/interface/ideas/idea_jap_ichi_go.dds"
 	}
-
 	spriteType = {
 		name = "GFX_idea_GEU_jp_support"
 		texturefile = "gfx/interface/ideas/grand_battle_plan.dds"
@@ -542,5 +519,4 @@ spriteTypes = {
 		name = "GFX_idea_Khatia"
 		texturefile = "gfx/interface/ideas/Khatia.dds"
 	}
-	
 }
