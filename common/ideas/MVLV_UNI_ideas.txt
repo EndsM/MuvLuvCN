@@ -447,7 +447,7 @@ ideas = {
 				industrial_capacity_factory = 0.1
 			}
 		}
-		引进他国先进技术 = {
+		UNI_absorb_external_military_tech = {
 			allowed = {
 				always = no
 			}

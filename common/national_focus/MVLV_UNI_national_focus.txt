@@ -2416,7 +2416,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = "引进他国先进技术"
+			add_ideas = UNI_absorb_external_military_tech
 		}
 	}
 	focus = {
