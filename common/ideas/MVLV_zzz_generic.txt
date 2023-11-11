@@ -641,7 +641,7 @@ ideas = {
 				industrial_capacity_factory = 0.5
 			}
 		}
-		倾囊相授 = {
+		MVLV_unconditional_tsf_license = {
 			allowed = {
 				always = no
 			}
