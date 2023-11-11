@@ -88,7 +88,7 @@ ideas = {
 				production_speed_infrastructure_factor = 0.15
 			}
 		}
-		#特别战争工厂#
+		# 特别战争工厂
 		USA_refugees4 = {
 			allowed = {
 				always = no
@@ -102,7 +102,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.15
 			}
 		}
-		#扩大公民范围#
+		# 扩大公民范围
 		USA_refugees5 = {
 			allowed = {
 				always = no
@@ -119,7 +119,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.1
 			}
 		}
-		#新的祖国#
+		# 新的祖国
 		USA_refugees6 = {
 			allowed = {
 				always = no
@@ -136,7 +136,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.15
 			}
 		}
-		#建设动员#
+		# 建设动员
 		USA_refugees7 = {
 			allowed = {
 				always = no
@@ -152,7 +152,7 @@ ideas = {
 				production_speed_buildings_factor = 0.15
 			}
 		}
-		#超级强权#
+		# 超级强权
 		USA_superpower = {
 			allowed = {
 				always = no
@@ -163,7 +163,7 @@ ideas = {
 				political_power_gain = 0.25
 			}
 		}
-		#曙光计划-开始#
+		# 曙光计划-开始
 		USA_dawn_plan_start1 = {
 			allowed = {
 				always = no
@@ -172,7 +172,7 @@ ideas = {
 				political_power_gain = 0.1
 			}
 		}
-		#曙光计划-开始2#
+		# 曙光计划-开始2
 		USA_dawn_plan_start2 = {
 			allowed = {
 				always = no
@@ -183,7 +183,7 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
-		#曙光计划-开始3#
+		# 曙光计划-开始3
 		USA_dawn_plan_start3 = {
 			allowed = {
 				always = no
@@ -194,7 +194,7 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
-		#曙光计划-发展1，变化#
+		# 曙光计划-发展1，变化
 		USA_dawn_plan_advance1_change = {
 			allowed = {
 				always = no
@@ -272,8 +272,8 @@ ideas = {
 				research_speed_factor = 0.05
 			}
 		}
-		#扩大太空军#
-		"扩大太空军" = {
+		# 扩大太空军
+		USA_expand_aerospace_force = {
 			allowed = {
 				always = no
 			}
@@ -282,13 +282,13 @@ ideas = {
 				political_power_gain = 0.15
 				# special_forces_cap = 0.05}
 			}
-			#equipment_bonus = {
-			#		transport_plane_equipment = {
-			#			build_cost_ic = -0.10
-			#			maximum_speed = 0.05
-			#                                                 instant = yes
-			#		}
-			#}
+			# equipment_bonus = {
+			# 	transport_plane_equipment = {
+			# 		build_cost_ic = -0.1
+			# 		maximum_speed = 0.05
+			# 		instant = yes
+			# 	}
+			# }
 		}
 		#拉格朗日计划#
 		"拉格朗日计划-启动" = {
@@ -344,13 +344,13 @@ ideas = {
 				consumer_goods_factor = 0.1
 				industrial_capacity_factory = 0.5
 			}
-			#equipment_bonus = {
-			#		transport_plane_equipment = {
-			#			build_cost_ic = -0.30
-			#			maximum_speed = 0.05
-			#                                              instant = yes
-			#		}
-			#}
+			# equipment_bonus = {
+			# 	transport_plane_equipment = {
+			# 		build_cost_ic = -0.3
+			# 		maximum_speed = 0.05
+			# 		instant = yes
+			# 	}
+			# }
 		}
 		#民用燃油充足#
 		USA_Adequate_fuel_for_civil_use = {

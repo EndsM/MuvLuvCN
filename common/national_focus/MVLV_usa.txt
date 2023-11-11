@@ -26,7 +26,11 @@ focus_tree = {
 			282 = {
 				is_controlled_by = JAP
 			}
-			NOT={JAP={has_completed_focus =JAP_NoTraitorsTomorrow}}
+			NOT = {
+				JAP = {
+					has_completed_focus = JAP_NoTraitorsTomorrow
+				}
+			}
 		}
 		#bypass = { }
 		#cancel = { }
@@ -75,7 +79,6 @@ focus_tree = {
 		y = 1
 		cost = 5
 		relative_position_id = USA_WarOrPeace
-                                
 		ai_will_do = {
 			factor = 10
 		}
@@ -233,7 +236,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		completion_reward = {add_tech_bonus = {
+		completion_reward = {
+			add_tech_bonus = {
 				bonus = 1.5
 				uses = 1
 				name = mech_army_bonus
@@ -269,7 +273,6 @@ focus_tree = {
 			}
 		}
 	}
-
 	#组建美洲联军#
 	focus = {
 		id = USA_FormAmericaCoalitionForce
@@ -277,7 +280,6 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_EagleModiProject
 		}
-		
 		x = 1
 		y = 1
 		cost = 15
@@ -288,9 +290,9 @@ focus_tree = {
 		completion_reward = {
 			capital_scope = {
 				create_unit = {
-					division = "name = \"战术机联队\" division_template = \"战术机联队\" start_experience_factor = 0.1"# force_equipment_variants = { tsf_equipment_F-22 = { creator = \"USA\" } }"
+					division = "name = \"战术机联队\" division_template = \"战术机联队\" start_experience_factor = 0.1"					# force_equipment_variants = { tsf_equipment_F-22 = { creator = \"USA\" } }"
 					owner = ROOT
-                                                                                count = 12
+					count = 12
 				}
 			}
 			add_equipment_to_stockpile = {
@@ -434,7 +436,6 @@ focus_tree = {
 			}
 		}
 	}
-
 	#超大国#
 	focus = {
 		id = USA_Superpower
@@ -555,7 +556,7 @@ focus_tree = {
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
 			focus = USA_ProjectDawn
-                                                focus = USA_EvacuateFromEarth
+			focus = USA_EvacuateFromEarth
 		}
 		x = 2
 		y = 1
@@ -565,9 +566,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-                                              #set_division_template_cap = { division_template = "轨道降下兵团" division_cap = 18 }
+			#set_division_template_cap = { division_template = "轨道降下兵团" division_cap = 18 }
 			add_political_power = -100
-			add_ideas = "扩大太空军"
+			add_ideas = USA_expand_aerospace_force
 		}
 	}
 	#拉格朗日计划#
@@ -590,10 +591,10 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -100
 			add_war_support = 0.15
-                                                add_ideas = "拉格朗日计划-启动"
+			add_ideas = "拉格朗日计划-启动"
 		}
 	}
-		#难民问题#
+	#难民问题#
 	focus = {
 		id = USA_RefugeeIssue
 		icon = GFX_goal_tripartite_pact
@@ -621,7 +622,9 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_RefugeeIssue
 		}
-                                available = {has_idea=隔离难民 }
+		available = {
+			has_idea = 隔离难民
+		}
 		mutually_exclusive = {
 			focus = USA_AcceptRefugees
 		}
@@ -654,7 +657,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		completion_reward = {#add_to_variable={卫士训练规模=240}
+		completion_reward = {
+			#add_to_variable={卫士训练规模=240}
 			add_manpower = 500000
 			swap_ideas = {
 				remove_idea = USA_refugees2
@@ -698,7 +702,9 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_RefugeeIssue
 		}
-                                available = {has_idea=归化难民 }
+		available = {
+			has_idea = 归化难民
+		}
 		mutually_exclusive = {
 			focus = USA_DetainZone
 		}
@@ -730,7 +736,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		completion_reward = {#add_to_variable={卫士训练规模=120}
+		completion_reward = {
+			#add_to_variable={卫士训练规模=120}
 			swap_ideas = {
 				remove_idea = USA_refugees5
 				add_idea = USA_refugees6
@@ -761,7 +768,6 @@ focus_tree = {
 			}
 		}
 	}
-	
 	#美洲能源矿产开发计划#
 	focus = {
 		id = USA_ContinentResourcesDev
@@ -818,7 +824,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-                                                add_ideas =USA_Adequate_fuel_for_civil_use
+			add_ideas = USA_Adequate_fuel_for_civil_use
 			random_owned_state = {
 				add_resource = {
 					type = oil
@@ -886,8 +892,7 @@ focus_tree = {
 			}
 		}
 	}
-####################    国际影响力国策   ######################
-	
+	####################    国际影响力国策   ######################
 	#东京协议#
 	focus = {
 		id = "东京协议"
@@ -979,10 +984,17 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		completion_reward = {USA={army_experience =50    add_political_power = 50
-                                                   add_war_support = 0.1}
-                                       EUR={army_experience =50                add_political_power = 50
-                                                add_war_support = 0.1}
+		completion_reward = {
+			USA = {
+				army_experience = 50
+				add_political_power = 50
+				add_war_support = 0.1
+			}
+			EUR = {
+				army_experience = 50
+				add_political_power = 50
+				add_war_support = 0.1
+			}
 		}
 	}
 	#战术协调#
@@ -1050,8 +1062,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = {AFR={add_political_power = 50}
-                                               EUR={add_political_power = 50}
+		completion_reward = {
+			AFR = {
+				add_political_power = 50
+			}
+			EUR = {
+				add_political_power = 50
+			}
 			add_political_power = 100
 		}
 	}
@@ -1069,9 +1086,16 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		available = { 788= { is_fully_controlled_by = UNI  } 
-                                                773 = { is_fully_controlled_by = AFR  } }  
-		completion_reward = {add_political_power = 100
+		available = {
+			788 = {
+				is_fully_controlled_by = UNI
+			}
+			773 = {
+				is_fully_controlled_by = AFR
+			}
+		}
+		completion_reward = {
+			add_political_power = 100
 			788 = {
 				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
@@ -1109,9 +1133,16 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		available = { 719 = { is_fully_controlled_by = AFR  } 
-                                                681 = { is_fully_controlled_by = AFR  } }  
-		completion_reward = {add_political_power = 100
+		available = {
+			719 = {
+				is_fully_controlled_by = AFR
+			}
+			681 = {
+				is_fully_controlled_by = AFR
+			}
+		}
+		completion_reward = {
+			add_political_power = 100
 			719 = {
 				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
@@ -1144,13 +1175,28 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		available = { 558 = { is_fully_controlled_by = AFR  } 
-                                                776 = { is_fully_controlled_by = AFR }
-                                              777 = { is_fully_controlled_by = AFR  }
-                                               779 = { is_fully_controlled_by = AFR  }
-                                             298 = { is_fully_controlled_by = AFR  }
-                                                700 = { is_fully_controlled_by = AFR } } 
-		completion_reward = {add_political_power = 100
+		available = {
+			558 = {
+				is_fully_controlled_by = AFR
+			}
+			776 = {
+				is_fully_controlled_by = AFR
+			}
+			777 = {
+				is_fully_controlled_by = AFR
+			}
+			779 = {
+				is_fully_controlled_by = AFR
+			}
+			298 = {
+				is_fully_controlled_by = AFR
+			}
+			700 = {
+				is_fully_controlled_by = AFR
+			}
+		}
+		completion_reward = {
+			add_political_power = 100
 			558 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -1257,10 +1303,20 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		available = { 277 = { is_fully_controlled_by = CEA  } 
-                                                315 = { is_fully_controlled_by = CEA  }
-                                              304= { is_fully_controlled_by = CEA  }
-                                               685 = { is_fully_controlled_by = CEA } }  
+		available = {
+			277 = {
+				is_fully_controlled_by = CEA
+			}
+			315 = {
+				is_fully_controlled_by = CEA
+			}
+			304 = {
+				is_fully_controlled_by = CEA
+			}
+			685 = {
+				is_fully_controlled_by = CEA
+			}
+		}
 		completion_reward = {
 			add_political_power = 100
 			277 = {
@@ -1333,7 +1389,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 100
-			CEA = {add_political_power = 100
+			CEA = {
+				add_political_power = 100
 			}
 		}
 	}
@@ -1351,10 +1408,20 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		available = { 500 = { is_fully_controlled_by =SOA  } 
-                                                499 = { is_fully_controlled_by = SOA  }
-                                              510 = { is_fully_controlled_by = SOA }
-                                               279 = { is_fully_controlled_by = SOA  }}  
+		available = {
+			500 = {
+				is_fully_controlled_by = SOA
+			}
+			499 = {
+				is_fully_controlled_by = SOA
+			}
+			510 = {
+				is_fully_controlled_by = SOA
+			}
+			279 = {
+				is_fully_controlled_by = SOA
+			}
+		}
 		completion_reward = {
 			add_political_power = 100
 			500 = {
