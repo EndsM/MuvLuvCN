@@ -516,7 +516,7 @@ focus_tree = {
 			every_owned_state = {
 				add_extra_state_shared_building_slots = 5
 			}
-			add_ideas = mvlv_refugee_labor
+			add_ideas = MVLV_refugee_labor
 		}
 		ai_will_do = {
 			factor = 1

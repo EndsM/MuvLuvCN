@@ -699,7 +699,7 @@ ideas = {
 			}
 		}
 		# refugee labor camp series
-		mvlv_refugee_labor = {
+		MVLV_refugee_labor = {
 			allowed = {
 				always = no
 			}
