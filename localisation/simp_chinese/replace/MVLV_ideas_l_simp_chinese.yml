@@ -145,6 +145,8 @@
   SOV_streamlined_production_desc:0 ""
   SOV_total_war:0 "总体战"
   SOV_total_war_desc:0 ""
+  SOV_steel_storm:0 "钢铁洪流"
+  SOV_steel_storm_desc:0 ""
 
   EUR_power:0 "欧洲联盟理事会"
   EUR_power_desc:0 "欧盟理事会是欧盟最高的决策机构，由欧盟各国政府组成，尽管英国的权力越来越大，但它将分散在世界各地的欧洲人团结在对BETA战争之下。"

@@ -593,7 +593,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = "钢铁洪流"
+			add_ideas = SOV_steel_storm
 		}
 	}
 	#捍卫雄鹰
@@ -891,7 +891,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			JAP = {
-				add_ideas = "钢铁洪流"
+				add_ideas = SOV_steel_storm
 				add_political_power = -100
 			}
 			SOV = {

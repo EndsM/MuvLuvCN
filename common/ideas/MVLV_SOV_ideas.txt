@@ -153,7 +153,7 @@ ideas = {
 			}
 		}
 		#钢铁洪流
-		"钢铁洪流" = {
+		SOV_steel_storm = {
 			picture = 钢铁洪流
 			modifier = {
 				army_breakthrough_factor = 0.05
