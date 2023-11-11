@@ -951,7 +951,7 @@ focus_tree = {
 				add_political_power = 100
 			}
 			UNI = {
-				add_ideas = "AL3的更多信息"
+				add_ideas = UNI_additional_data_of_al3
 			}
 		}
 	}

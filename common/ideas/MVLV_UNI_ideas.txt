@@ -487,8 +487,8 @@ ideas = {
 				planning_speed = 0.25
 			}
 		}
-		#AL3的更多信息
-		"AL3的更多信息" = {
+		# AL3的追加数据
+		UNI_additional_data_of_al3 = {
 			modifier = {
 				research_speed_factor = 0.1
 			}
