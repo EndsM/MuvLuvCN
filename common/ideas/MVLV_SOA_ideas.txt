@@ -31,14 +31,5 @@ ideas = {
 				weekly_manpower = 1000
 			}
 		}
-		
-		汇聚的科研人员 = {
-			allowed = {
-				always = no
-			}
-			modifier = {
-				research_speed_factor = 0.4
-			}
-		}
 	}
 }
