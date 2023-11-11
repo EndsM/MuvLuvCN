@@ -381,7 +381,7 @@ ideas = {
 				research_speed_factor = 0.2
 			}
 		}
-		全球产业合作 = {
+		UNI_global_industry_cooperation = {
 			allowed = {
 				always = no
 			}
