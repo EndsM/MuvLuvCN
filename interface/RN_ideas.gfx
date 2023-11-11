@@ -1,5 +1,4 @@
-spriteTypes = {	
-
+spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_anarafgbrebw"
 		texturefile = "gfx/interface/ideas/idea_anarafgbrebw.dds"
@@ -12,5 +11,4 @@ spriteTypes = {
 		name = "GFX_idea_world_reznya"
 		texturefile = "gfx/interface/ideas/idea_world_reznya.dds"
 	}
-	
 }

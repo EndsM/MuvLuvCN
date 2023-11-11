@@ -1,1033 +1,1033 @@
 spriteTypes = {
 	#通用将领
-	SpriteType = {
+	spriteType = {
 		name = "GFX_女卫士头像"
 		textureFile = "gfx/leaders/通用/女卫士.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_女卫士头像_small"
 		textureFile = "gfx/leaders/通用/女卫士小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_欧菲莉亚头像"
 		textureFile = "gfx/leaders/特殊/欧菲莉亚.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_欧菲莉亚头像小图"
 		textureFile = "gfx/leaders/特殊/欧菲莉亚小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_罗蕾莱舒瓦茨头像"
 		textureFile = "gfx/leaders/特殊/罗蕾莱舒瓦茨.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_罗蕾莱舒瓦茨头像小图"
 		textureFile = "gfx/leaders/特殊/罗蕾莱舒瓦茨小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_薇薇安达奥比涅头像"
 		textureFile = "gfx/leaders/特殊/薇薇安达奥比涅.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_薇薇安达奥比涅小图"
 		textureFile = "gfx/leaders/特殊/薇薇安达奥比涅小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_叶莲娜莫罗佐娃头像"
 		textureFile = "gfx/leaders/特殊/叶莲娜莫罗佐娃.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_叶莲娜莫罗佐娃头像小图"
 		textureFile = "gfx/leaders/特殊/叶莲娜莫罗佐娃小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊莎贝拉格林头像"
 		textureFile = "gfx/leaders/特殊/伊莎贝拉格林.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊莎贝拉格林头像小图"
 		textureFile = "gfx/leaders/特殊/伊莎贝拉格林小图.dds"
 	}
 	#jap leader gfx
-	SpriteType = {
+	spriteType = {
 		name = "GFX_portrait_denka"
 		textureFile = "gfx/leaders/JAP/denka.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_portrait_煌武院悠阳"
 		textureFile = "gfx/leaders/JAP/denka.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_煌武院悠阳头像"
 		textureFile = "gfx/leaders/JAP/煌武院悠阳.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_portrait_superior_existance"
 		textureFile = "gfx/leaders/BET/cbth5-jlbbi.dds"
 	}
 	#日本将领
-	SpriteType = {
+	spriteType = {
 		name = "GFX_元帅煌武院悠阳头像"
 		textureFile = "gfx/leaders/JAP/元帅煌武院悠阳.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_元帅煌武院悠阳头像_small"
 		textureFile = "gfx/leaders/JAP/元帅煌武院悠阳小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_斑鸠崇继头像"
 		textureFile = "gfx/leaders/JAP/斑鸠崇继.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_斑鸠崇继头像_small"
 		textureFile = "gfx/leaders/JAP/斑鸠崇继小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_篁唯依头像"
 		textureFile = "gfx/leaders/JAP/篁唯依.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_篁唯依头像_small"
 		textureFile = "gfx/leaders/JAP/篁唯依小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_篁唯依XFJ归来头像"
 		textureFile = "gfx/leaders/JAP/篁唯依XFJ归来.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_篁唯依XFJ归来头像_small"
 		textureFile = "gfx/leaders/JAP/篁唯依XFJ归来小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_沙雾尚哉头像"
 		textureFile = "gfx/leaders/JAP/沙雾尚哉.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_沙雾尚哉头像_small"
 		textureFile = "gfx/leaders/JAP/沙雾尚哉小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_月咏真那头像"
 		textureFile = "gfx/leaders/JAP/月咏真那.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_月咏真那头像_small"
 		textureFile = "gfx/leaders/JAP/月咏真那小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_神代巽头像"
 		textureFile = "gfx/leaders/JAP/神代巽.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_神代巽头像_small"
 		textureFile = "gfx/leaders/JAP/神代巽小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_巴雪乃头像"
 		textureFile = "gfx/leaders/JAP/巴雪乃.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_巴雪乃头像_small"
 		textureFile = "gfx/leaders/JAP/巴雪乃小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_戎美凪头像"
 		textureFile = "gfx/leaders/JAP/戎美凪.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_戎美凪头像_small"
 		textureFile = "gfx/leaders/JAP/戎美凪小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_真壁清十郎头像"
 		textureFile = "gfx/leaders/JAP/真壁清十郎.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_真壁清十郎头像_small"
 		textureFile = "gfx/leaders/JAP/真壁清十郎小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_驹木咲代子头像"
 		textureFile = "gfx/leaders/JAP/驹木咲代子.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_驹木咲代子头像_small"
 		textureFile = "gfx/leaders/JAP/驹木咲代子小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_龙浪响头像"
 		textureFile = "gfx/leaders/JAP/龙浪响.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_龙浪响头像_small"
 		textureFile = "gfx/leaders/JAP/龙浪响小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_千堂柚香头像"
 		textureFile = "gfx/leaders/JAP/千堂柚香.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_千堂柚香头像_small"
 		textureFile = "gfx/leaders/JAP/千堂柚香小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊隅真理香头像"
 		textureFile = "gfx/leaders/JAP/伊隅真理香.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊隅真理香头像_small"
 		textureFile = "gfx/leaders/JAP/伊隅真理香小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊隅晓头像"
 		textureFile = "gfx/leaders/JAP/伊隅晓.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊隅晓头像_small"
 		textureFile = "gfx/leaders/JAP/伊隅晓小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_雨宫真理子头像"
 		textureFile = "gfx/leaders/JAP/雨宫真理子.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_雨宫真理子头像_small"
 		textureFile = "gfx/leaders/JAP/雨宫真理子小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_崇宰恭子头像"
 		textureFile = "gfx/leaders/JAP/崇宰恭子.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_崇宰恭子头像_small"
 		textureFile = "gfx/leaders/JAP/崇宰恭子小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_浅葱实里头像"
 		textureFile = "gfx/leaders/JAP/浅葱实里.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_浅葱实里头像_small"
 		textureFile = "gfx/leaders/JAP/浅葱实里小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_岩谷荣二头像"
 		textureFile = "gfx/leaders/JAP/岩谷荣二.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_岩谷荣二头像_small"
 		textureFile = "gfx/leaders/JAP/岩谷荣二小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_月咏真耶头像"
 		textureFile = "gfx/leaders/JAP/月咏真耶.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_月咏真耶头像_small"
 		textureFile = "gfx/leaders/JAP/月咏真耶小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_大上律子头像"
 		textureFile = "gfx/leaders/JAP/大上律子.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_大上律子头像_small"
 		textureFile = "gfx/leaders/JAP/大上律子小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_美樱乃雫头像"
 		textureFile = "gfx/leaders/JAP/美樱乃雫.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_美樱乃雫头像_small"
 		textureFile = "gfx/leaders/JAP/美樱乃雫小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_楠本纱耶香头像"
 		textureFile = "gfx/leaders/JAP/楠本纱耶香.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_楠本纱耶香头像_small"
 		textureFile = "gfx/leaders/JAP/楠本纱耶香小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_松风谅一头像"
 		textureFile = "gfx/leaders/JAP/松风谅一.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_松风谅一头像_small"
 		textureFile = "gfx/leaders/JAP/松风谅一小图.dds"
 	}
 	#非联将领
-	SpriteType = {
+	spriteType = {
 		name = "GFX_易卜拉欣杜鲁头像"
 		textureFile = "gfx/leaders/AFR/易卜拉欣杜鲁.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_易卜拉欣杜鲁头像_small"
 		textureFile = "gfx/leaders/AFR/易卜拉欣杜鲁小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_梅尔维纳阿德巴尼头像"
 		textureFile = "gfx/leaders/AFR/梅尔维纳阿德巴尼.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_梅尔维纳阿德巴尼头像_small"
 		textureFile = "gfx/leaders/AFR/梅尔维纳阿德巴尼小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_丽塔卡纳莱斯头像"
 		textureFile = "gfx/leaders/AFR/丽塔卡纳莱斯.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_丽塔卡纳莱斯头像_small"
 		textureFile = "gfx/leaders/AFR/丽塔卡纳莱斯小图.dds"
 	}
 	#中华家将领
-	SpriteType = {
+	spriteType = {
 		name = "GFX_崔亦菲头像"
 		textureFile = "gfx/leaders/CHI/崔亦菲.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_崔亦菲头像_small"
 		textureFile = "gfx/leaders/CHI/崔亦菲小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_李琳美头像"
 		textureFile = "gfx/leaders/CHI/李琳美.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_李琳美头像_small"
 		textureFile = "gfx/leaders/CHI/李琳美小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_王晓芬头像"
 		textureFile = "gfx/leaders/CHI/王晓芬.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_王晓芬头像_small"
 		textureFile = "gfx/leaders/CHI/王晓芬小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_楼雅华头像"
 		textureFile = "gfx/leaders/CHI/楼雅华.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_楼雅华头像_small"
 		textureFile = "gfx/leaders/CHI/楼雅华小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_孙立军头像"
 		textureFile = "gfx/leaders/CHI/孙立军.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_孙立军头像_small"
 		textureFile = "gfx/leaders/CHI/孙立军小图.dds"
 	}
 	#东欧将领
-	SpriteType = {
+	spriteType = {
 		name = "GFX_格雷特尔耶克伦头像"
 		textureFile = "gfx/leaders/EEA/格雷特尔耶克伦.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_格雷特尔耶克伦头像_small"
 		textureFile = "gfx/leaders/EEA/格雷特尔耶克伦小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_安妮特霍森菲尔德头像"
 		textureFile = "gfx/leaders/EEA/安妮特霍森菲尔德.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_安妮特霍森菲尔德头像_small"
 		textureFile = "gfx/leaders/EEA/安妮特霍森菲尔德小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_苏茜扎普头像"
 		textureFile = "gfx/leaders/EEA/苏茜扎普.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_苏茜扎普头像_small"
 		textureFile = "gfx/leaders/EEA/苏茜扎普小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_喀尔刻施泰因霍夫头像"
 		textureFile = "gfx/leaders/EEA/喀尔刻施泰因霍夫.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_喀尔刻施泰因霍夫头像_small"
 		textureFile = "gfx/leaders/EEA/喀尔刻施泰因霍夫小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_约阿希姆巴尔克头像"
 		textureFile = "gfx/leaders/EEA/约阿希姆巴尔克.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_约阿希姆巴尔克头像_small"
 		textureFile = "gfx/leaders/EEA/约阿希姆巴尔克小图.dds"
 	}
 	#欧盟头像
-	SpriteType = {
+	spriteType = {
 		name = "GFX_威尔弗里德艾悉贝尔加头像"
 		textureFile = "gfx/leaders/EUR/威尔弗里德艾悉贝尔加.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_威尔弗里德艾悉贝尔加头像_small"
 		textureFile = "gfx/leaders/EUR/威尔弗里德艾悉贝尔加小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_吉克琳德法伦霍斯特头像"
 		textureFile = "gfx/leaders/EUR/吉克琳德法伦霍斯特.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_吉克琳德法伦霍斯特头像_small"
 		textureFile = "gfx/leaders/EUR/吉克琳德法伦霍斯特小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_盖尔哈德莱勒斯坦因头像"
 		textureFile = "gfx/leaders/EUR/盖尔哈德莱勒斯坦因.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_盖尔哈德莱勒斯坦因头像_small"
 		textureFile = "gfx/leaders/EUR/盖尔哈德莱勒斯坦因小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_布里吉特维斯特奈赫头像"
 		textureFile = "gfx/leaders/EUR/布里吉特维斯特奈赫.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_布里吉特维斯特奈赫头像_small"
 		textureFile = "gfx/leaders/EUR/布里吉特维斯特奈赫小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_贝尔纳黛特莉维艾尔头像"
 		textureFile = "gfx/leaders/EUR/贝尔纳黛特莉维艾尔.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_贝尔纳黛特莉维艾尔头像_small"
 		textureFile = "gfx/leaders/EUR/贝尔纳黛特莉维艾尔小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊尔芙丽德冯菲耶拿头像"
 		textureFile = "gfx/leaders/EUR/伊尔芙丽德冯菲耶拿.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊尔芙丽德冯菲耶拿头像_small"
 		textureFile = "gfx/leaders/EUR/伊尔芙丽德冯菲耶拿小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_露娜泰蕾莎冯魏茨列本头像"
 		textureFile = "gfx/leaders/EUR/露娜泰蕾莎冯魏茨列本.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_露娜泰蕾莎冯魏茨列本头像_small"
 		textureFile = "gfx/leaders/EUR/露娜泰蕾莎冯魏茨列本小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_海尔嘉萝丝冯法肯迈尔头像"
 		textureFile = "gfx/leaders/EUR/海尔嘉萝丝冯法肯迈尔.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_海尔嘉萝丝冯法肯迈尔头像_small"
 		textureFile = "gfx/leaders/EUR/海尔嘉萝丝冯法肯迈尔小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_史黛拉布瑞梅尔头像"
 		textureFile = "gfx/leaders/EUR/史黛拉布瑞梅尔.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_史黛拉布瑞梅尔头像_small"
 		textureFile = "gfx/leaders/EUR/史黛拉布瑞梅尔小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_莫妮卡贾寇萨头像"
 		textureFile = "gfx/leaders/EUR/莫妮卡贾寇萨.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_莫妮卡贾寇萨头像_small"
 		textureFile = "gfx/leaders/EUR/莫妮卡贾寇萨小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_瓦莱里奥贾寇萨头像"
 		textureFile = "gfx/leaders/EUR/瓦莱里奥贾寇萨.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_瓦莱里奥贾寇萨头像_small"
 		textureFile = "gfx/leaders/EUR/瓦莱里奥贾寇萨小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_沃尔夫冈布劳尔头像"
 		textureFile = "gfx/leaders/EUR/沃尔夫冈布劳尔.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_沃尔夫冈布劳尔头像_small"
 		textureFile = "gfx/leaders/EUR/沃尔夫冈布劳尔小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_蕾雅盖格兰头像"
 		textureFile = "gfx/leaders/EUR/蕾雅盖格兰.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_蕾雅盖格兰头像_small"
 		textureFile = "gfx/leaders/EUR/蕾雅盖格兰小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_休温斯顿头像"
 		textureFile = "gfx/leaders/EUR/休温斯顿.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_休温斯顿头像_small"
 		textureFile = "gfx/leaders/EUR/休温斯顿小图.dds"
 	}
 	#大东亚将领
-	SpriteType = {
+	spriteType = {
 		name = "GFX_幸田来未头像"
 		textureFile = "gfx/leaders/GEU/幸田来未.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_幸田来未头像_small"
 		textureFile = "gfx/leaders/GEU/幸田来未小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_尼多姆拉瓦南德头像"
 		textureFile = "gfx/leaders/GEU/尼多姆拉瓦南德.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_尼多姆拉瓦南德头像_small"
 		textureFile = "gfx/leaders/GEU/尼多姆拉瓦南德小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_乔纳森乔斯丁头像"
 		textureFile = "gfx/leaders/GEU/乔纳森乔斯丁.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_乔纳森乔斯丁头像_small"
 		textureFile = "gfx/leaders/GEU/乔纳森乔斯丁小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_塔莉莎玛南戴尔头像"
 		textureFile = "gfx/leaders/GEU/塔莉莎玛南戴尔.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_塔莉莎玛南戴尔头像_small"
 		textureFile = "gfx/leaders/GEU/塔莉莎玛南戴尔小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_道格拉斯格蕾丝头像"
 		textureFile = "gfx/leaders/GEU/道格拉斯格蕾丝.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_道格拉斯格蕾丝头像_small"
 		textureFile = "gfx/leaders/GEU/道格拉斯格蕾丝小图.dds"
 	}
 	#苏联将领
-	SpriteType = {
+	spriteType = {
 		name = "GFX_菲卡吉雅拉托洛瓦头像"
 		textureFile = "gfx/leaders/SOV/菲卡吉雅拉托洛瓦.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_菲卡吉雅拉托洛瓦头像_small"
 		textureFile = "gfx/leaders/SOV/菲卡吉雅拉托洛瓦小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_克丽斯嘉巴切诺娃头像"
 		textureFile = "gfx/leaders/SOV/克丽斯嘉巴切诺娃.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_克丽斯嘉巴切诺娃头像_small"
 		textureFile = "gfx/leaders/SOV/克丽斯嘉巴切诺娃小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_玛缇卡巴切诺娃头像"
 		textureFile = "gfx/leaders/SOV/玛缇卡巴切诺娃.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_玛缇卡巴切诺娃头像_small"
 		textureFile = "gfx/leaders/SOV/玛缇卡巴切诺娃小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊妮亚谢斯切娜头像"
 		textureFile = "gfx/leaders/SOV/伊妮亚谢斯切娜.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊妮亚谢斯切娜头像_small"
 		textureFile = "gfx/leaders/SOV/伊妮亚谢斯切娜小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_娜塔莎伊凡诺瓦头像"
 		textureFile = "gfx/leaders/SOV/娜塔莎伊凡诺瓦.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_娜塔莎伊凡诺瓦头像_small"
 		textureFile = "gfx/leaders/SOV/娜塔莎伊凡诺瓦小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_托妮娅彭斯科纳头像"
 		textureFile = "gfx/leaders/SOV/托妮娅彭斯科纳.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_托妮娅彭斯科纳头像_small"
 		textureFile = "gfx/leaders/SOV/托妮娅彭斯科纳小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_格内欣头像"
 		textureFile = "gfx/leaders/SOV/格内欣.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_格内欣头像_small"
 		textureFile = "gfx/leaders/SOV/格内欣小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_洛戈夫斯基头像"
 		textureFile = "gfx/leaders/SOV/洛戈夫斯基.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_洛戈夫斯基头像_small"
 		textureFile = "gfx/leaders/SOV/洛戈夫斯基小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_别良耶夫头像"
 		textureFile = "gfx/leaders/SOV/别良耶夫.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_别良耶夫头像_small"
 		textureFile = "gfx/leaders/SOV/别良耶夫小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_耶齐桑德克头像"
 		textureFile = "gfx/leaders/SOV/耶齐桑德克.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_耶齐桑德克头像_small"
 		textureFile = "gfx/leaders/SOV/耶齐桑德克小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_利特维年科头像"
 		textureFile = "gfx/leaders/SOV/利特维年科.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_利特维年科头像_small"
 		textureFile = "gfx/leaders/SOV/利特维年科小图.dds"
 	}
 	#国联将领
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊隅美知留头像"
 		textureFile = "gfx/leaders/UNI/伊隅美知留.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊隅美知留头像_small"
 		textureFile = "gfx/leaders/UNI/伊隅美知留小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_速濑水月头像"
 		textureFile = "gfx/leaders/UNI/速濑水月.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_速濑水月头像_small"
 		textureFile = "gfx/leaders/UNI/速濑水月小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_保罗拉达比诺德头像"
 		textureFile = "gfx/leaders/UNI/保罗拉达比诺德.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_保罗拉达比诺德头像_small"
 		textureFile = "gfx/leaders/UNI/保罗拉达比诺德小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_宗像美冴头像"
 		textureFile = "gfx/leaders/UNI/宗像美冴.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_宗像美冴头像_small"
 		textureFile = "gfx/leaders/UNI/宗像美冴小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_风间祷子头像"
 		textureFile = "gfx/leaders/UNI/风间祷子.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_风间祷子头像_small"
 		textureFile = "gfx/leaders/UNI/风间祷子小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_艾伦艾斯头像"
 		textureFile = "gfx/leaders/UNI/艾伦艾斯.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_艾伦艾斯头像_small"
 		textureFile = "gfx/leaders/UNI/艾伦艾斯小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_香月夕呼头像"
 		textureFile = "gfx/leaders/UNI/香月夕呼.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_香月夕呼头像_small"
 		textureFile = "gfx/leaders/UNI/香月夕呼小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_乔塞特头像"
 		textureFile = "gfx/leaders/UNI/乔塞特.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_乔塞特头像_small"
 		textureFile = "gfx/leaders/UNI/乔塞特小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_凉宫遥头像"
 		textureFile = "gfx/leaders/UNI/凉宫遥.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_凉宫遥头像_small"
 		textureFile = "gfx/leaders/UNI/凉宫遥小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_凉宫茜头像"
 		textureFile = "gfx/leaders/UNI/凉宫茜.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_凉宫茜头像_small"
 		textureFile = "gfx/leaders/UNI/凉宫茜小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_柏木晴子头像"
 		textureFile = "gfx/leaders/UNI/柏木晴子.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_柏木晴子头像_small"
 		textureFile = "gfx/leaders/UNI/柏木晴子小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_社霞头像"
 		textureFile = "gfx/leaders/UNI/社霞.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_社霞头像_small"
 		textureFile = "gfx/leaders/UNI/社霞小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_蕾贝卡琳特头像"
 		textureFile = "gfx/leaders/UNI/蕾贝卡琳特.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_蕾贝卡琳特头像_small"
 		textureFile = "gfx/leaders/UNI/蕾贝卡琳特小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_奥尔森头像"
 		textureFile = "gfx/leaders/UNI/奥尔森.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_奥尔森头像_small"
 		textureFile = "gfx/leaders/UNI/奥尔森小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_神宫寺麻里奈头像"
 		textureFile = "gfx/leaders/UNI/神宫寺麻里奈.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_神宫寺麻里奈头像_small"
 		textureFile = "gfx/leaders/UNI/神宫寺麻里奈小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_香月素子头像"
 		textureFile = "gfx/leaders/UNI/香月素子.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_香月素子头像_small"
 		textureFile = "gfx/leaders/UNI/香月素子小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_亨利盖岑头像"
 		textureFile = "gfx/leaders/UNI/亨利盖岑.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_亨利盖岑头像_small"
 		textureFile = "gfx/leaders/UNI/亨利盖岑小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_白银武头像"
 		textureFile = "gfx/leaders/UNI/白银武.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_白银武头像_small"
 		textureFile = "gfx/leaders/UNI/白银武小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_御剑冥夜头像"
 		textureFile = "gfx/leaders/UNI/御剑冥夜.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_御剑冥夜头像_small"
 		textureFile = "gfx/leaders/UNI/御剑冥夜小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_榊千鹤头像"
 		textureFile = "gfx/leaders/UNI/榊千鹤.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_榊千鹤头像_small"
 		textureFile = "gfx/leaders/UNI/榊千鹤小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_珠濑壬姬头像"
 		textureFile = "gfx/leaders/UNI/珠濑壬姬.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_珠濑壬姬头像_small"
 		textureFile = "gfx/leaders/UNI/珠濑壬姬小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_彩峰慧头像"
 		textureFile = "gfx/leaders/UNI/彩峰慧.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_彩峰慧头像_small"
 		textureFile = "gfx/leaders/UNI/彩峰慧小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_铠衣美琴头像"
 		textureFile = "gfx/leaders/UNI/铠衣美琴.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_铠衣美琴头像_small"
 		textureFile = "gfx/leaders/UNI/铠衣美琴小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_00单元头像"
 		textureFile = "gfx/leaders/UNI/00单元.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_00单元头像_small"
 		textureFile = "gfx/leaders/UNI/00单元小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_勇哉布里吉斯国联头像"
 		textureFile = "gfx/leaders/UNI/勇哉布里吉斯国联.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_勇哉布里吉斯国联头像_small"
 		textureFile = "gfx/leaders/UNI/勇哉布里吉斯国联小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊妮亚谢斯切娜国联头像"
 		textureFile = "gfx/leaders/UNI/伊妮亚谢斯切娜国联.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊妮亚谢斯切娜国联头像_small"
 		textureFile = "gfx/leaders/UNI/伊妮亚谢斯切娜国联小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_菲卡吉雅拉托洛瓦国联头像"
 		textureFile = "gfx/leaders/UNI/菲卡吉雅拉托洛瓦国联.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_菲卡吉雅拉托洛瓦国联头像_small"
 		textureFile = "gfx/leaders/UNI/菲卡吉雅拉托洛瓦国联小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_耶齐桑德克国联头像"
 		textureFile = "gfx/leaders/UNI/耶齐桑德克国联.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_耶齐桑德克国联头像_small"
 		textureFile = "gfx/leaders/UNI/耶齐桑德克国联小图.dds"
 	}
 	#美国将领
-	SpriteType = {
+	spriteType = {
 		name = "GFX_勇哉布里吉斯头像"
 		textureFile = "gfx/leaders/USA/勇哉布里吉斯.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_勇哉布里吉斯头像_small"
 		textureFile = "gfx/leaders/USA/勇哉布里吉斯小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_里昂久濑头像"
 		textureFile = "gfx/leaders/USA/里昂久濑.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_里昂久濑头像_small"
 		textureFile = "gfx/leaders/USA/里昂久濑小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_阿尔弗雷德沃肯头像"
 		textureFile = "gfx/leaders/USA/阿尔弗雷德沃肯.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_阿尔弗雷德沃肯头像_small"
 		textureFile = "gfx/leaders/USA/阿尔弗雷德沃肯小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_盖乌斯麦克劳德头像"
 		textureFile = "gfx/leaders/USA/盖乌斯麦克劳德.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_盖乌斯麦克劳德头像_small"
 		textureFile = "gfx/leaders/USA/盖乌斯麦克劳德小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_菲比西奥多拉基斯头像"
 		textureFile = "gfx/leaders/USA/菲比西奥多拉基斯.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_菲比西奥多拉基斯头像_small"
 		textureFile = "gfx/leaders/USA/菲比西奥多拉基斯小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_莉莉娅凯耶尔伯格头像"
 		textureFile = "gfx/leaders/USA/莉莉娅凯耶尔伯格.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_莉莉娅凯耶尔伯格头像_small"
 		textureFile = "gfx/leaders/USA/莉莉娅凯耶尔伯格小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_达里尔麦克马纳斯头像"
 		textureFile = "gfx/leaders/USA/达里尔麦克马纳斯.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_达里尔麦克马纳斯头像_small"
 		textureFile = "gfx/leaders/USA/达里尔麦克马纳斯小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊露玛塔斯雷夫头像"
 		textureFile = "gfx/leaders/USA/伊露玛塔斯雷夫.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_伊露玛塔斯雷夫头像_small"
 		textureFile = "gfx/leaders/USA/伊露玛塔斯雷夫小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_基斯布雷泽头像"
 		textureFile = "gfx/leaders/USA/基斯布雷泽.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_基斯布雷泽头像_small"
 		textureFile = "gfx/leaders/USA/基斯布雷泽小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_卡洛琳希尔斯头像"
 		textureFile = "gfx/leaders/USA/卡洛琳希尔斯.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_卡洛琳希尔斯头像_small"
 		textureFile = "gfx/leaders/USA/卡洛琳希尔斯小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_纱罗艾姆头像"
 		textureFile = "gfx/leaders/USA/纱罗艾姆.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_纱罗艾姆头像_small"
 		textureFile = "gfx/leaders/USA/纱罗艾姆小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_威尔伯特柯林斯头像"
 		textureFile = "gfx/leaders/USA/威尔伯特柯林斯.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_威尔伯特柯林斯头像_small"
 		textureFile = "gfx/leaders/USA/威尔伯特柯林斯小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_阿尔弗雷德沃肯中校头像"
 		textureFile = "gfx/leaders/USA/阿尔弗雷德沃肯中校.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_阿尔弗雷德沃肯中校头像_small"
 		textureFile = "gfx/leaders/USA/阿尔弗雷德沃肯中校小图.dds"
 	}
 	#BETA leaders
-	SpriteType = {
+	spriteType = {
 		name = "GFX_兵士级头像"
 		textureFile = "gfx/leaders/BET/兵士级.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_兵士级头像_small"
 		textureFile = "gfx/leaders/BET/兵士级小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_光线级头像"
 		textureFile = "gfx/leaders/BET/光线级.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_光线级头像_small"
 		textureFile = "gfx/leaders/BET/光线级小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_战车级头像"
 		textureFile = "gfx/leaders/BET/战车级.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_战车级头像_small"
 		textureFile = "gfx/leaders/BET/战车级小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_突击级头像"
 		textureFile = "gfx/leaders/BET/突击级.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_突击级头像_small"
 		textureFile = "gfx/leaders/BET/突击级小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_斗士级头像"
 		textureFile = "gfx/leaders/BET/斗士级.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_斗士级头像_small"
 		textureFile = "gfx/leaders/BET/斗士级小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_要击级头像"
 		textureFile = "gfx/leaders/BET/要击级.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_要击级头像_small"
 		textureFile = "gfx/leaders/BET/要击级小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_要塞级头像"
 		textureFile = "gfx/leaders/BET/要塞级.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_要塞级头像_small"
 		textureFile = "gfx/leaders/BET/要塞级小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_重光线级头像"
 		textureFile = "gfx/leaders/BET/重光线级.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_重光线级头像_small"
 		textureFile = "gfx/leaders/BET/重光线级小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_头脑级头像"
 		textureFile = "gfx/leaders/BET/头脑级.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_头脑级头像_small"
 		textureFile = "gfx/leaders/BET/头脑级小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_上位存在头像"
 		textureFile = "gfx/leaders/BET/上位存在.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_上位存在头像_small"
 		textureFile = "gfx/leaders/BET/上位存在小图.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_portrait_superior_existance"
 		textureFile = "gfx/leaders/BET/cbth5-jlbbi.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_portrait_superior_existance"
 		textureFile = "gfx/leaders/BET/zunou.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_portrait_superior_existance2"
 		textureFile = "gfx/leaders/BET/cbth5-jlbbi.dds"
 	}
