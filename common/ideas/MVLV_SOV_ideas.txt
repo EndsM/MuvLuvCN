@@ -248,7 +248,7 @@ ideas = {
 			}
 		}
 		#强化炮兵
-		"强化炮兵" = {
+		SOV_enhance_artillery_units = {
 			picture = generic_artillery_regiments
 			allowed = {
 				always = no
