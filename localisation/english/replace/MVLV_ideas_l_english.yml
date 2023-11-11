@@ -66,6 +66,8 @@
   UNI_invest_more_on_al4_desc:0 ""
   UNI_emergency_security_council:0 "紧急安全理事会"
   UNI_emergency_security_council_desc:0 ""
+  UNI_additional_data_of_al3:0 "AL3的追加数据"
+  UNI_additional_data_of_al3_desc:0 ""
 
   SOV_russian:0 "优待俄罗斯人"
   SOV_russian_desc:0 "现在的苏联军队是按照民族划分编成部队的，这必然导致占据上层的俄罗斯人受到优待。"
@@ -238,6 +240,10 @@
   USA_dawn_plan_advance1_weapon:0 "曙光计划-生产系统改进"
   USA_dawn_plan_advance1_weapon_desc:0 ""
   USA_dawn_plan_advance1_factory:0 "曙光计划-"
+  USA_expand_aerospace_force:0 "扩大太空军"
+  USA_expand_aerospace_force_desc:0 ""
+  USA_project_lagrange_start:0 "拉格朗日计划-启动"
+  USA_project_lagrange_start_desc:0 ""
 
   EUR_eng:0 "为英国服务的欧盟"
   EUR_eng_desc:0 "作为欧洲联盟唯一拥有国土的大国，英国在欧盟拥有巨大的权力，可以自由使用欧盟的资源。 当然反对它的成员国很多，欧盟濒临分裂。"

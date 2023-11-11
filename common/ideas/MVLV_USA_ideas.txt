@@ -352,7 +352,7 @@ ideas = {
 			# 	}
 			# }
 		}
-		#民用燃油充足#
+		# 民用燃油充足
 		USA_Adequate_fuel_for_civil_use = {
 			allowed = {
 				always = no
