@@ -646,7 +646,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_timed_idea = {
-				idea = 补助金发放
+				idea = OSE_payment_of_grants
 				days = 90
 			}
 			add_stability = 0.35

@@ -122,7 +122,7 @@ ideas = {
 				weekly_manpower = -1000
 			}
 		}
-		补助金发放 = {
+		OSE_payment_of_grants = {
 			allowed = {
 				always = no
 			}
