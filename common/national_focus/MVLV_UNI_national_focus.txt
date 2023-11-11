@@ -2360,7 +2360,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = "优化生产监督方法"
+			add_ideas = UNI_optimize_production_control
 		}
 	}
 	focus = {

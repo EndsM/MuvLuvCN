@@ -439,7 +439,7 @@ ideas = {
 				industrial_capacity_factory = 0.05
 			}
 		}
-		优化生产监督方法 = {
+		UNI_optimize_production_control = {
 			allowed = {
 				always = no
 			}
