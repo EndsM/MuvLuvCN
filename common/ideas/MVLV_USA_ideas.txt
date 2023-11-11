@@ -307,7 +307,7 @@ ideas = {
 				}
 			}
 		}
-		"拉格朗日计划-船坞建设" = {
+		USA_project_lagrange_space_dockyard = {
 			allowed = {
 				always = no
 			}

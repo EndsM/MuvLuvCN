@@ -1999,7 +1999,7 @@ USA_Lagrange_Plan_categories = {
 		remove_effect = {
 			swap_ideas = {
 				remove_idea = USA_project_lagrange_start
-				add_idea = "拉格朗日计划-船坞建设"
+				add_idea = USA_project_lagrange_space_dockyard
 			}
 		}
 	}
@@ -2013,7 +2013,7 @@ USA_Lagrange_Plan_categories = {
 			has_completed_focus = USA_EvacuateFromEarth
 		}
 		visible = {
-			has_idea = "拉格朗日计划-船坞建设"
+			has_idea = USA_project_lagrange_space_dockyard
 		}
 		ai_will_do = {
 			factor = 20
@@ -2031,7 +2031,7 @@ USA_Lagrange_Plan_categories = {
 		}
 		remove_effect = {
 			swap_ideas = {
-				remove_idea = "拉格朗日计划-船坞建设"
+				remove_idea = USA_project_lagrange_space_dockyard
 				add_idea = "拉格朗日计划-进行中"
 			}
 		}
