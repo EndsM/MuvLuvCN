@@ -33,7 +33,7 @@ ideas = {
 				research_speed_factor = 0.05
 			}
 		}
-		"优待俄罗斯人" = {
+		SOV_russian_2 = {
 			picture = GFX_goal_generic_propaganda
 			allowed = {
 				always = no
