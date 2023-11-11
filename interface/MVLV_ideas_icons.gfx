@@ -1,18 +1,18 @@
 spriteTypes = {
 	# change naming later
-	SpriteType = {
+	spriteType = {
 		name = "GFX_idea_SOV_steel_storm"
 		texturefile = "gfx/interface/ideas/nthetical_upgI.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_idea_SOV_advanced_production_tech"
 		texturefile = "gfx/interface/ideas/goal_generic_production.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_idea_SOV_guardian_of_the_motherland"
 		texturefile = "gfx/interface/ideas/load_14.dds"
 	}
-	SpriteType = {
+	spriteType = {
 		name = "GFX_idea_SOV_total_war"
 		texturefile = "gfx/interface/ideas/focus_chi_army_reform.dds"
 	}
