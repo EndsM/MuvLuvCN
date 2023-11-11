@@ -181,7 +181,7 @@ ideas = {
 			}
 		}
 		#精锐部队
-		"精锐部队" = {
+		SOV_elite_force = {
 			picture = GFX_goal_generic_territory_or_war
 			modifier = {
 				special_forces_cap = 0.05
