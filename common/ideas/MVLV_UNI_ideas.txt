@@ -405,7 +405,7 @@ ideas = {
 				army_org_factor = 0.1
 			}
 		}
-		统一数据链 = {
+		UNI_unify_datalink = {
 			allowed = {
 				always = no
 			}
