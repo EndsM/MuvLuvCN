@@ -189,12 +189,6 @@ ideas = {
 				special_forces_defence_factor = 0.1
 			}
 		}
-		#AL3的更多信息
-		"AL3的更多信息" = {
-			modifier = {
-				research_speed_factor = 0.1
-			}
-		}
 		#前线指导
 		"前线指导" = {
 			picture = generic_manpower_bonus

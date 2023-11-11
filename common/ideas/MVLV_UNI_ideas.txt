@@ -499,5 +499,11 @@ ideas = {
 				production_speed_nuclear_reactor_factor = -0.9
 			}
 		}
+		#AL3的更多信息
+		"AL3的更多信息" = {
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
 	}
 }
