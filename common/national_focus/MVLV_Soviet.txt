@@ -384,7 +384,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = "平稳改革"
+			add_ideas = SOV_steady_reform
 			remove_ideas = SOV_russian1
 		}
 	}

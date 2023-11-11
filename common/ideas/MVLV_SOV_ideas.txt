@@ -53,7 +53,7 @@ ideas = {
 				research_speed_factor = -0.1
 			}
 		}
-	SOV_russianism = {
+		SOV_russianism = {
 			picture = GFX_goal_demand_sudetenland
 			allowed = {
 				always = no
@@ -63,7 +63,7 @@ ideas = {
 				research_speed_factor = 0.1
 			}
 		}
-		"平稳改革" = {
+		SOV_steady_reform = {
 			picture = GFX_goal_generic_major_alliance
 			allowed = {
 				always = no
@@ -786,7 +786,8 @@ ideas = {
 			# PURGED
 			traits = {
 				air_chief_safety_2
-			}			# Could also have reform
+			}
+			# Could also have reform
 			ai_will_do = {
 				factor = 1
 			}
