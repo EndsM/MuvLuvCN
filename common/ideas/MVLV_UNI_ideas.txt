@@ -466,7 +466,7 @@ ideas = {
 				special_forces_cap = 0.1
 			}
 		}
-		加大对AlternativeIV的投入 = {
+		UNI_invest_more_on_al4 = {
 			allowed = {
 				always = no
 			}
