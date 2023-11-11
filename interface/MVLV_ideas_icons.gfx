@@ -5,7 +5,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/nthetical_upgI.dds"
 	}
 	SpriteType = {
-		name = "GFX_idea_先进的设备与工艺"
+		name = "GFX_idea_SOV_advanced_production_tech"
 		texturefile = "gfx/interface/ideas/goal_generic_production.dds"
 	}
 	SpriteType = {
@@ -13,7 +13,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/load_14.dds"
 	}
 	SpriteType = {
-		name = "GFX_idea_总体战"
+		name = "GFX_idea_SOV_total_war"
 		texturefile = "gfx/interface/ideas/focus_chi_army_reform.dds"
 	}
 }
