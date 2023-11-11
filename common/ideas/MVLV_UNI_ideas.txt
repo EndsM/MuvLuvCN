@@ -456,7 +456,7 @@ ideas = {
 				license_production_speed = 0.2
 			}
 		}
-		国联高影响力 = {
+		UNI_high_influence = {
 			allowed = {
 				always = no
 			}
