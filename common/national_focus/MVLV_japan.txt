@@ -838,7 +838,7 @@ focus_tree = {
 		x = 14
 		y = 6
 		completion_reward = {
-			add_ideas = NATO日本分部
+			add_ideas = JAP_nato_japan_department
 		}
 	}
 	#敌视外部势力#

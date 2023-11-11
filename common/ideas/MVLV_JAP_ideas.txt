@@ -217,7 +217,7 @@ ideas = {
 				political_power_factor = 0.25
 			}
 		}
-		NATO日本分部 = {
+		JAP_nato_japan_department = {
 			allowed = {
 				always = no
 			}
