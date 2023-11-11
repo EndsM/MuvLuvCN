@@ -806,7 +806,7 @@ focus_tree = {
 			USA = {
 				add_political_power = 100
 			}
-			add_ideas = 美国口粮
+			add_ideas = JAP_american_aid
 		}
 	}
 	#日美战术机合作#

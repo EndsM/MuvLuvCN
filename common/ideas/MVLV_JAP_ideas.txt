@@ -228,7 +228,7 @@ ideas = {
 				max_command_power = 100
 			}
 		}
-		美国口粮 = {
+		JAP_american_aid = {
 			allowed = {
 				always = no
 			}
