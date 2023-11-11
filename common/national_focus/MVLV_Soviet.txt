@@ -363,7 +363,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = "政治正确"
+			add_ideas = SOV_political_correctness
 			remove_ideas = SOV_russian1
 		}
 	}

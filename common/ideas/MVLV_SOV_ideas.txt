@@ -43,7 +43,7 @@ ideas = {
 				research_speed_factor = 0.05
 			}
 		}
-		"政治正确" = {
+		SOV_political_correctness = {
 			picture = GFX_goal_generic_demand_territory
 			allowed = {
 				always = no
