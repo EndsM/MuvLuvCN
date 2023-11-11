@@ -495,7 +495,7 @@ focus_tree = {
 	# 		# 	UNI_command_org_regain = 0.05
 	# 		# }
 	# 		# custom_effect_tooltip = UNI_fireline_promotes_uni_command_tt
-	# 		add_ideas = "火线提拔的尉官"
+	# 		add_ideas = UNI_frontline_promoted_lieutenants
 	# 	}
 	# }
 	# focus = {
@@ -524,7 +524,7 @@ focus_tree = {
 	# 		# 	UNI_command_attack = 0.1
 	# 		# }
 	# 		# custom_effect_tooltip = UNI_introspect_sakura_uni_command_tt
-	# 		add_ideas = "樱花作战的经验"
+	# 		add_ideas = UNI_experience_from_operation_ouka
 	# 	}
 	# }
 	# focus = {
@@ -949,43 +949,43 @@ focus_tree = {
 				category = land_doctrine
 			}
 			AFR = {
-				add_ideas = "反攻的开始"
+				add_ideas = UNI_counterattack_start
 			}
 			CAN = {
-				add_ideas = "反攻的开始"
+				add_ideas = UNI_counterattack_start
 			}
 			CEA = {
-				add_ideas = "反攻的开始"
+				add_ideas = UNI_counterattack_start
 			}
 			SOA = {
-				add_ideas = "反攻的开始"
+				add_ideas = UNI_counterattack_start
 			}
 			CHI = {
-				add_ideas = "反攻的开始"
+				add_ideas = UNI_counterattack_start
 			}
 			EEA = {
-				add_ideas = "反攻的开始"
+				add_ideas = UNI_counterattack_start
 			}
 			EUR = {
-				add_ideas = "反攻的开始"
+				add_ideas = UNI_counterattack_start
 			}
 			GEU = {
-				add_ideas = "反攻的开始"
+				add_ideas = UNI_counterattack_start
 			}
 			JAP = {
-				add_ideas = "反攻的开始"
+				add_ideas = UNI_counterattack_start
 			}
 			OSE = {
-				add_ideas = "反攻的开始"
+				add_ideas = UNI_counterattack_start
 			}
 			SOV = {
-				add_ideas = "反攻的开始"
+				add_ideas = UNI_counterattack_start
 			}
 			UNI = {
-				add_ideas = "反攻的开始"
+				add_ideas = UNI_counterattack_start
 			}
 			USA = {
-				add_ideas = "反攻的开始"
+				add_ideas = UNI_counterattack_start
 			}
 			# custom_effect_tooltip = UNI_lessons_of_star_counterattack_tt
 		}
@@ -1016,43 +1016,43 @@ focus_tree = {
 		}
 		completion_reward = {
 			AFR = {
-				add_ideas = "国际联合研究院"
+				add_ideas = UNI_international_joint_research
 			}
 			CAN = {
-				add_ideas = "国际联合研究院"
+				add_ideas = UNI_international_joint_research
 			}
 			CEA = {
-				add_ideas = "国际联合研究院"
+				add_ideas = UNI_international_joint_research
 			}
 			SOA = {
-				add_ideas = "国际联合研究院"
+				add_ideas = UNI_international_joint_research
 			}
 			CHI = {
-				add_ideas = "国际联合研究院"
+				add_ideas =UNI_international_joint_research
 			}
 			EEA = {
-				add_ideas = "国际联合研究院"
+				add_ideas = UNI_international_joint_research
 			}
 			EUR = {
-				add_ideas = "国际联合研究院"
+				add_ideas = UNI_international_joint_research
 			}
 			GEU = {
-				add_ideas = "国际联合研究院"
+				add_ideas = UNI_international_joint_research
 			}
 			JAP = {
-				add_ideas = "国际联合研究院"
+				add_ideas = UNI_international_joint_research
 			}
 			OSE = {
-				add_ideas = "国际联合研究院"
+				add_ideas = UNI_international_joint_research
 			}
 			SOV = {
-				add_ideas = "国际联合研究院"
+				add_ideas = UNI_international_joint_research
 			}
 			UNI = {
-				add_ideas = "国际联合研究院"
+				add_ideas = UNI_international_joint_research
 			}
 			USA = {
-				add_ideas = "国际联合研究院"
+				add_ideas = UNI_international_joint_research
 			}
 			# custom_effect_tooltip = UNI_joint_RND_counterattack_tt
 		}
