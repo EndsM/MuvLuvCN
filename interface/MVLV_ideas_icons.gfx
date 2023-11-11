@@ -1,7 +1,5 @@
-spriteTypes = {	
-
-
-
+spriteTypes = {
+	# change naming later
 	SpriteType = {
 		name = "GFX_idea_钢铁洪流"
 		texturefile = "gfx/interface/ideas/nthetical_upgI.dds"
