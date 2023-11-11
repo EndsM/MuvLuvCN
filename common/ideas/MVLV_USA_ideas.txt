@@ -62,7 +62,7 @@ ideas = {
 				production_speed_infrastructure_factor = 0.15
 			}
 		}
-		#特别城区#
+		# 特别城区
 		USA_refugees2 = {
 			allowed = {
 				always = no
@@ -75,7 +75,7 @@ ideas = {
 				production_speed_infrastructure_factor = 0.15
 			}
 		}
-		#难民服务协议#
+		# 难民服务协议
 		USA_refugees3 = {
 			allowed = {
 				always = no
