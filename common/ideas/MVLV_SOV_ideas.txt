@@ -103,7 +103,7 @@ ideas = {
 			}
 		}
 		#战争动员
-		"战争动员" = {
+		SOV_war_mobilization = {
 			picture = GFX_goal_generic_soviet_construction
 			allowed = {
 				always = no
@@ -113,7 +113,7 @@ ideas = {
 			}
 		}
 		#先进的设备与工艺
-		"先进的设备与工艺" = {
+		SOV_advanced_production_tech = {
 			picture = 先进的设备与工艺
 			allowed = {
 				always = no

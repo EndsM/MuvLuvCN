@@ -139,6 +139,10 @@
   SOV_steady_reform_desc:0 ""
   SOV_unified_leadership:0 "统一的领导层"
   SOV_unified_leadership_desc:0 ""
+  SOV_war_mobilization:0 "战争动员"
+  SOV_war_mobilization_desc:0 ""
+  SOV_advanced_production_tech:0 "先进的设备与工艺"
+  SOV_advanced_production_tech_desc:0 ""
 
   EUR_power:0 "欧洲联盟理事会"
   EUR_power_desc:0 "欧盟理事会是欧盟最高的决策机构，由欧盟各国政府组成，尽管英国的权力越来越大，但它将分散在世界各地的欧洲人团结在对BETA战争之下。"

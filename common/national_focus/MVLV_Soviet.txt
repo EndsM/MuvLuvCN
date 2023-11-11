@@ -109,7 +109,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 100
-			add_ideas = "战争动员"
+			add_ideas = SOV_war_mobilization
 		}
 	}
 	#全力以赴
@@ -211,7 +211,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = -100
-			add_ideas = "先进的设备与工艺"
+			add_ideas = SOV_advanced_production_tech
 		}
 	}
 	#科研投资
