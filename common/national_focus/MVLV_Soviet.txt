@@ -342,7 +342,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = SOV_russian_2
+			add_ideas = SOV_russian1
 			remove_ideas = SOV_russian
 		}
 	}
@@ -364,7 +364,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = "政治正确"
-			remove_ideas = SOV_russian_2
+			remove_ideas = SOV_russian1
 		}
 	}
 	#稳健改革
@@ -385,7 +385,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = "平稳改革"
-			remove_ideas = SOV_russian_2
+			remove_ideas = SOV_russian1
 		}
 	}
 	#大俄罗斯主义

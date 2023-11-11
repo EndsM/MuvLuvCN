@@ -33,7 +33,7 @@ ideas = {
 				research_speed_factor = 0.05
 			}
 		}
-		SOV_russian_2 = {
+		SOV_russian1 = {
 			picture = GFX_goal_generic_propaganda
 			allowed = {
 				always = no
