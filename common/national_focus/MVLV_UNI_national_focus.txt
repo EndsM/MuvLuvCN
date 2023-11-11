@@ -1028,7 +1028,7 @@ focus_tree = {
 				add_ideas = UNI_international_joint_research
 			}
 			CHI = {
-				add_ideas =UNI_international_joint_research
+				add_ideas = UNI_international_joint_research
 			}
 			EEA = {
 				add_ideas = UNI_international_joint_research
@@ -1082,43 +1082,43 @@ focus_tree = {
 		}
 		completion_reward = {
 			AFR = {
-				add_ideas = "全球产业合作"
+				add_ideas = UNI_global_industry_cooperation
 			}
 			CAN = {
-				add_ideas = "全球产业合作"
+				add_ideas = UNI_global_industry_cooperation
 			}
 			CEA = {
-				add_ideas = "全球产业合作"
+				add_ideas = UNI_global_industry_cooperation
 			}
 			SOA = {
-				add_ideas = "全球产业合作"
+				add_ideas = UNI_global_industry_cooperation
 			}
 			CHI = {
-				add_ideas = "全球产业合作"
+				add_ideas = UNI_global_industry_cooperation
 			}
 			EEA = {
-				add_ideas = "全球产业合作"
+				add_ideas = UNI_global_industry_cooperation
 			}
 			EUR = {
-				add_ideas = "全球产业合作"
+				add_ideas = UNI_global_industry_cooperation
 			}
 			GEU = {
-				add_ideas = "全球产业合作"
+				add_ideas = UNI_global_industry_cooperation
 			}
 			JAP = {
-				add_ideas = "全球产业合作"
+				add_ideas = UNI_global_industry_cooperation
 			}
 			OSE = {
-				add_ideas = "全球产业合作"
+				add_ideas = UNI_global_industry_cooperation
 			}
 			SOV = {
-				add_ideas = "全球产业合作"
+				add_ideas = UNI_global_industry_cooperation
 			}
 			UNI = {
-				add_ideas = "全球产业合作"
+				add_ideas = UNI_global_industry_cooperation
 			}
 			USA = {
-				add_ideas = "全球产业合作"
+				add_ideas = UNI_global_industry_cooperation
 			}
 			# custom_effect_tooltip = UNI_low_cost_assembly_counterattack_tt
 		}
@@ -1148,43 +1148,43 @@ focus_tree = {
 		}
 		completion_reward = {
 			AFR = {
-				add_ideas = "国际标准化生产流程"
+				add_ideas = UNI_standardized_production_globally
 			}
 			CAN = {
-				add_ideas = "国际标准化生产流程"
+				add_ideas = UNI_standardized_production_globally
 			}
 			CEA = {
-				add_ideas = "国际标准化生产流程"
+				add_ideas = UNI_standardized_production_globally
 			}
 			SOA = {
-				add_ideas = "国际标准化生产流程"
+				add_ideas = UNI_standardized_production_globally
 			}
 			CHI = {
-				add_ideas = "国际标准化生产流程"
+				add_ideas = UNI_standardized_production_globally
 			}
 			EEA = {
-				add_ideas = "国际标准化生产流程"
+				add_ideas = UNI_standardized_production_globally
 			}
 			EUR = {
-				add_ideas = "国际标准化生产流程"
+				add_ideas = UNI_standardized_production_globally
 			}
 			GEU = {
-				add_ideas = "国际标准化生产流程"
+				add_ideas = UNI_standardized_production_globally
 			}
 			JAP = {
-				add_ideas = "国际标准化生产流程"
+				add_ideas = UNI_standardized_production_globally
 			}
 			OSE = {
-				add_ideas = "国际标准化生产流程"
+				add_ideas = UNI_standardized_production_globally
 			}
 			SOV = {
-				add_ideas = "国际标准化生产流程"
+				add_ideas = UNI_standardized_production_globally
 			}
 			UNI = {
-				add_ideas = "国际标准化生产流程"
+				add_ideas = UNI_standardized_production_globally
 			}
 			USA = {
-				add_ideas = "国际标准化生产流程"
+				add_ideas = UNI_standardized_production_globally
 			}
 			# custom_effect_tooltip = UNI_mod_equip_int_counterattack_tt
 		}
@@ -1215,43 +1215,43 @@ focus_tree = {
 		}
 		completion_reward = {
 			AFR = {
-				add_ideas = "联合卫士训练"
+				add_ideas = UNI_joint_pilot_training
 			}
 			CAN = {
-				add_ideas = "联合卫士训练"
+				add_ideas = UNI_joint_pilot_training
 			}
 			CEA = {
-				add_ideas = "联合卫士训练"
+				add_ideas = UNI_joint_pilot_training
 			}
 			SOA = {
-				add_ideas = "联合卫士训练"
+				add_ideas = UNI_joint_pilot_training
 			}
 			CHI = {
-				add_ideas = "联合卫士训练"
+				add_ideas = UNI_joint_pilot_training
 			}
 			EEA = {
-				add_ideas = "联合卫士训练"
+				add_ideas = UNI_joint_pilot_training
 			}
 			EUR = {
-				add_ideas = "联合卫士训练"
+				add_ideas = UNI_joint_pilot_training
 			}
 			GEU = {
-				add_ideas = "联合卫士训练"
+				add_ideas = UNI_joint_pilot_training
 			}
 			JAP = {
-				add_ideas = "联合卫士训练"
+				add_ideas = UNI_joint_pilot_training
 			}
 			OSE = {
-				add_ideas = "联合卫士训练"
+				add_ideas = UNI_joint_pilot_training
 			}
 			SOV = {
-				add_ideas = "联合卫士训练"
+				add_ideas = UNI_joint_pilot_training
 			}
 			UNI = {
-				add_ideas = "联合卫士训练"
+				add_ideas = UNI_joint_pilot_training
 			}
 			USA = {
-				add_ideas = "联合卫士训练"
+				add_ideas = UNI_joint_pilot_training
 			}
 			# custom_effect_tooltip = UNI_guard_training_counterattack_tt
 		}
@@ -1281,43 +1281,43 @@ focus_tree = {
 		}
 		completion_reward = {
 			AFR = {
-				add_ideas = "统一数据链"
+				add_ideas = UNI_unify_datalink
 			}
 			CAN = {
-				add_ideas = "统一数据链"
+				add_ideas = UNI_unify_datalink
 			}
 			CEA = {
-				add_ideas = "统一数据链"
+				add_ideas = UNI_unify_datalink
 			}
 			SOA = {
-				add_ideas = "统一数据链"
+				add_ideas = UNI_unify_datalink
 			}
 			CHI = {
-				add_ideas = "统一数据链"
+				add_ideas = UNI_unify_datalink
 			}
 			EEA = {
-				add_ideas = "统一数据链"
+				add_ideas = UNI_unify_datalink
 			}
 			EUR = {
-				add_ideas = "统一数据链"
+				add_ideas = UNI_unify_datalink
 			}
 			GEU = {
-				add_ideas = "统一数据链"
+				add_ideas = UNI_unify_datalink
 			}
 			JAP = {
-				add_ideas = "统一数据链"
+				add_ideas = UNI_unify_datalink
 			}
 			OSE = {
-				add_ideas = "统一数据链"
+				add_ideas = UNI_unify_datalink
 			}
 			SOV = {
-				add_ideas = "统一数据链"
+				add_ideas = UNI_unify_datalink
 			}
 			UNI = {
-				add_ideas = "统一数据链"
+				add_ideas = UNI_unify_datalink
 			}
 			USA = {
-				add_ideas = "统一数据链"
+				add_ideas = UNI_unify_datalink
 			}
 			# custom_effect_tooltip = UNI_link_uni_counterattack_tt
 		}
@@ -1347,43 +1347,43 @@ focus_tree = {
 		}
 		completion_reward = {
 			AFR = {
-				add_ideas = "联合指挥部"
+				add_ideas = UNI_joint_command
 			}
 			CAN = {
-				add_ideas = "联合指挥部"
+				add_ideas = UNI_joint_command
 			}
 			CEA = {
-				add_ideas = "联合指挥部"
+				add_ideas = UNI_joint_command
 			}
 			SOA = {
-				add_ideas = "联合指挥部"
+				add_ideas = UNI_joint_command
 			}
 			CHI = {
-				add_ideas = "联合指挥部"
+				add_ideas = UNI_joint_command
 			}
 			EEA = {
-				add_ideas = "联合指挥部"
+				add_ideas = UNI_joint_command
 			}
 			EUR = {
-				add_ideas = "联合指挥部"
+				add_ideas = UNI_joint_command
 			}
 			GEU = {
-				add_ideas = "联合指挥部"
+				add_ideas = UNI_joint_command
 			}
 			JAP = {
-				add_ideas = "联合指挥部"
+				add_ideas = UNI_joint_command
 			}
 			OSE = {
-				add_ideas = "联合指挥部"
+				add_ideas = UNI_joint_command
 			}
 			SOV = {
-				add_ideas = "联合指挥部"
+				add_ideas = UNI_joint_command
 			}
 			UNI = {
-				add_ideas = "联合指挥部"
+				add_ideas = UNI_joint_command
 			}
 			USA = {
-				add_ideas = "联合指挥部"
+				add_ideas = UNI_joint_command
 			}
 			custom_effect_tooltip = UNI_joint_command_counterattack_tt
 		}
@@ -2247,7 +2247,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = "国联工业整备"
+			add_ideas = UNI_industrial_restructure
 			# custom_effect_tooltip = UNI_industrial_dep_tt
 		}
 	}
@@ -2333,7 +2333,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = "延长工作时长"
+			add_ideas = UNI_extend_working_hours
 		}
 	}
 	focus = {
