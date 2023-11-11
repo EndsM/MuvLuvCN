@@ -9,7 +9,7 @@ country_event = {
 		name = mvlv_LA.1.a
 		# add_to_variable={卫士训练规模=120}
 		add_research_slot = 2
-		add_ideas = 拉美联合协定
+		add_ideas = MVLV_latin_america_united
 		add_state_core = 484
 		add_state_core = 483
 		add_state_core = 482
@@ -61,7 +61,7 @@ country_event = {
 		name = mvlv_LA.2.a
 		# add_to_variable={卫士训练规模=120}
 		add_research_slot = 2
-		add_ideas = 拉美联合协定
+		add_ideas = MVLV_latin_america_united
 		add_state_core = 493
 		add_state_core = 489
 		add_state_core = 307

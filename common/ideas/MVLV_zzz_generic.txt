@@ -708,7 +708,7 @@ ideas = {
 				industrial_capacity_factory = 0.25
 			}
 		}
-		拉美联合协定 = {
+		MVLV_latin_america_united = {
 			allowed = {
 				always = no
 			}
