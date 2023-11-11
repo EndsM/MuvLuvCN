@@ -237,7 +237,7 @@ ideas = {
 				consumer_goods_factor = -0.05
 			}
 		}
-		家国传统 = {
+		JAP_nationalistic_legacy = {
 			allowed = {
 				always = no
 			}
