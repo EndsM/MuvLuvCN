@@ -91,7 +91,7 @@ ideas = {
 				research_speed_factor = -0.1
 			}
 		}
-		"统一的领导层" = {
+		SOV_unified_leadership = {
 			picture = GFX_goal_generic_position_armies
 			modifier = {
 				experience_gain_army = 0.2

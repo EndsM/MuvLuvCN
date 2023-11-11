@@ -446,7 +446,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = "统一的领导层"
+			add_ideas = SOV_unified_leadership
 		}
 	}
 	#重回故乡
