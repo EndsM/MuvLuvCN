@@ -708,7 +708,7 @@ focus_tree = {
 		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
-			add_ideas = 汇聚的科研人员
+			add_ideas = MVLV_gathered_researchers
 		}
 		ai_will_do = {
 			factor = 1

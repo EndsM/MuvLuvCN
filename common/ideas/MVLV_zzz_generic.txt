@@ -650,7 +650,7 @@ ideas = {
 				license_tech_difference_speed = 1
 			}
 		}
-		汇聚的科研人员 = {
+		MVLV_gathered_researchers = {
 			allowed = {
 				always = no
 			}
