@@ -576,7 +576,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = "总体战"
+			add_ideas = SOV_total_war
 		}
 	}
 	#钢铁洪流

@@ -145,7 +145,7 @@ ideas = {
 			}
 		}
 		#总体战
-		"总体战" = {
+		SOV_total_war = {
 			picture = GFX_goal_generic_axis_build_infantry
 			modifier = {
 				army_core_attack_factor = 0.1
