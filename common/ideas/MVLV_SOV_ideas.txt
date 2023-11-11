@@ -230,7 +230,7 @@ ideas = {
 			}
 		}
 		#炮击数据链
-		"炮击数据链" = {
+		SOV_artillery_datalink = {
 			picture = low_economic_mobilisation
 			allowed = {
 				always = no

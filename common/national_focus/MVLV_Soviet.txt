@@ -824,7 +824,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = "炮击数据链"
+			add_ideas = SOV_artillery_datalink
 		}
 	}
 	#难民征兵
