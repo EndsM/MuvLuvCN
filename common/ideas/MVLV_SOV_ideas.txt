@@ -53,7 +53,7 @@ ideas = {
 				research_speed_factor = -0.1
 			}
 		}
-		"大俄罗斯主义" = {
+	SOV_russianism = {
 			picture = GFX_goal_demand_sudetenland
 			allowed = {
 				always = no

@@ -133,6 +133,8 @@
   SOV_storm2:0 "代价"
   SOV_political_correctness:0 "政治正确"
   SOV_political_correctness_desc:0 ""
+  SOV_russianism:0 "大俄罗斯主义"
+  SOV_russianism_desc:0 ""
 
   EUR_power:0 "欧洲联盟理事会"
   EUR_power_desc:0 "欧盟理事会是欧盟最高的决策机构，由欧盟各国政府组成，尽管英国的权力越来越大，但它将分散在世界各地的欧洲人团结在对BETA战争之下。"

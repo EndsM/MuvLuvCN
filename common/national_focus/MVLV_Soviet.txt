@@ -405,7 +405,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_ideas = "大俄罗斯主义"
+			add_ideas = SOV_russianism
 			remove_ideas = SOV_russian
 		}
 	}
@@ -424,7 +424,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = SOV_russian2
-			#remove_idea = "大俄罗斯主义"
+			#remove_idea = SOV_russianism
 		}
 	}
 	#统一的领导层
