@@ -389,7 +389,7 @@ ideas = {
 				industrial_capacity_factory = 0.2
 			}
 		}
-		国际标准化生产流程 = {
+		UNI_standardized_production_globally = {
 			allowed = {
 				always = no
 			}
