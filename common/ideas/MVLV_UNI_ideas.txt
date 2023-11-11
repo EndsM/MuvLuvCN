@@ -475,7 +475,7 @@ ideas = {
 				research_speed_factor = 0.2
 			}
 		}
-		紧急安全理事会 = {
+		UNI_emergency_security_council = {
 			allowed = {
 				always = no
 			}

@@ -64,6 +64,8 @@
   UNI_absorb_external_military_tech_desc:0 ""
   UNI_invest_more_on_al4:0 "加大对AlternativeIV的投入"
   UNI_invest_more_on_al4_desc:0 ""
+  UNI_emergency_security_council:0 "紧急安全理事会"
+  UNI_emergency_security_council_desc:0 ""
 
   SOV_russian:0 "优待俄罗斯人"
   SOV_russian_desc:0 "现在的苏联军队是按照民族划分编成部队的，这必然导致占据上层的俄罗斯人受到优待。"

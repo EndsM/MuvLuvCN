@@ -3594,79 +3594,79 @@ focus_tree = {
 		completion_reward = {
 			AFR = {
 				add_timed_idea = {
-					idea = 紧急安全理事会
+					idea = UNI_emergency_security_council
 					days = 60
 				}
 			}
 			CAN = {
 				add_timed_idea = {
-					idea = 紧急安全理事会
+					idea = UNI_emergency_security_council
 					days = 60
 				}
 			}
 			CEA = {
 				add_timed_idea = {
-					idea = 紧急安全理事会
+					idea = UNI_emergency_security_council
 					days = 60
 				}
 			}
 			SOA = {
 				add_timed_idea = {
-					idea = 紧急安全理事会
+					idea = UNI_emergency_security_council
 					days = 60
 				}
 			}
 			CHI = {
 				add_timed_idea = {
-					idea = 紧急安全理事会
+					idea = UNI_emergency_security_council
 					days = 60
 				}
 			}
 			EEA = {
 				add_timed_idea = {
-					idea = 紧急安全理事会
+					idea = UNI_emergency_security_council
 					days = 60
 				}
 			}
 			EUR = {
 				add_timed_idea = {
-					idea = 紧急安全理事会
+					idea = UNI_emergency_security_council
 					days = 60
 				}
 			}
 			GEU = {
 				add_timed_idea = {
-					idea = 紧急安全理事会
+					idea = UNI_emergency_security_council
 					days = 60
 				}
 			}
 			JAP = {
 				add_timed_idea = {
-					idea = 紧急安全理事会
+					idea = UNI_emergency_security_council
 					days = 60
 				}
 			}
 			OSE = {
 				add_timed_idea = {
-					idea = 紧急安全理事会
+					idea = UNI_emergency_security_council
 					days = 60
 				}
 			}
 			SOV = {
 				add_timed_idea = {
-					idea = 紧急安全理事会
+					idea = UNI_emergency_security_council
 					days = 60
 				}
 			}
 			UNI = {
 				add_timed_idea = {
-					idea = 紧急安全理事会
+					idea = UNI_emergency_security_council
 					days = 60
 				}
 			}
 			USA = {
 				add_timed_idea = {
-					idea = 紧急安全理事会
+					idea = UNI_emergency_security_council
 					days = 60
 				}
 			}
