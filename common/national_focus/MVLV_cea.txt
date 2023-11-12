@@ -575,11 +575,9 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_AbsorbExiledPilots
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
 		available = {
 			check_variable = {
-				卫士训练规模>100
+				卫士训练规模 > 100
 			}
 		}
 		cost = 4
@@ -602,9 +600,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_PurchaseRetiredTSF
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			remove_ideas = mvlv_license
@@ -629,9 +624,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_DemandTSFProductionLicense
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			add_ideas = MVLV_gathered_researchers
@@ -650,9 +642,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_Unity
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			484 = {
@@ -770,9 +759,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_ConstructDefenceLine
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			512 = {
@@ -822,9 +808,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_EmergencyMobilization
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -890,9 +873,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_EmergencyCivilianFactoryConscription
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			add_stability = -0.1

@@ -16,11 +16,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_5"
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
-		color = {
-			0
-			0
-			255
-		}
+		color = { 0 0 255 }
 		rules = {
 			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
@@ -66,11 +62,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_4"
 			"FACTION_NAME_COMMUNIST_5"
 		}
-		color = {
-			255
-			0
-			0
-		}
+		color = { 255 0 0 }
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
 		ai_communist = yes		# uses the commie AI behaviour
@@ -105,11 +97,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_4"
 			"FACTION_NAME_FASCIST_5"
 		}
-		color = {
-			150
-			75
-			0
-		}
+		color = { 150 75 0 }
 		war_impact_on_world_tension = 1		#evil!
 		faction_impact_on_world_tension = 1
 		rules = {
@@ -140,11 +128,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_4"
 			"FACTION_NAME_NONALIGNED_5"
 		}
-		color = {
-			124
-			124
-			124
-		}
+		color = { 124 124 124 }
 		war_impact_on_world_tension = 0.25		#no major danger
 		faction_impact_on_world_tension = 0.1
 		rules = {

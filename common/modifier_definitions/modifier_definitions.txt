@@ -2,7 +2,6 @@
 # you can access those modifiers using modifier@modifier_token in state & country scope 
 # or leader_modifier@modifier_token/unit_modifier@modifier_token in unit leader scope
 # modifier_token will be used for tooltip localization
-
 #modifier_token = {
 #
 #	# the tooltips will be colored accordingly depending if value is positive or not
