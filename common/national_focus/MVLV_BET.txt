@@ -1,6 +1,5 @@
 focus_tree = {
 	id = BET_focus_tree
-	
 	country = {
 		factor = 0
 		modifier = {
@@ -8,30 +7,34 @@ focus_tree = {
 			TAG = BET
 		}
 	}
-	
 	default = no
-	continuous_focus_position = { x = 20 y = 1000 }
+	continuous_focus_position = {
+		x = 20
+		y = 1000
+	}
 	reset_on_civilwar = no
-
 	focus = {
 		id = BET_human_game
 		icon = GFX_focus_jap_zaibatsu
 		x = 3
 		y = 5
-		mutually_exclusive = { focus = BET_single_game }
+		mutually_exclusive = {
+			focus = BET_single_game
+		}
 		available = {
 			date > 2001.10.22
 			NOT = {
 				has_idea = BET_00_unit
 				has_idea = MVLV_bocchi
 			}
-			NOT = { has_idea = BET_broken_original_hive }
+			NOT = {
+				has_idea = BET_broken_original_hive
+			}
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		cost = 50
-		
 		completion_reward = {
 			every_country = {
 				limit = {
@@ -39,15 +42,19 @@ focus_tree = {
 				}
 				country_event = BETA.6
 			}
-        }
-		ai_will_do = { factor = 5 }
+		}
+		ai_will_do = {
+			factor = 5
+		}
 	}
 	focus = {
 		id = BET_single_game
 		icon = GFX_focus_jap_zaibatsu
 		x = 8
 		y = 5
-		mutually_exclusive = { focus = BET_human_game }
+		mutually_exclusive = {
+			focus = BET_human_game
+		}
 		available = {
 			has_idea = MVLV_bocchi
 		}
@@ -55,7 +62,6 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		cost = 0.5
-
 		completion_reward = {
 			every_country = {
 				limit = {
@@ -63,9 +69,10 @@ focus_tree = {
 				}
 				country_event = mvlv_uni.10
 			}
-        }
-
-		ai_will_do = { factor = 5 }
+		}
+		ai_will_do = {
+			factor = 5
+		}
 	}
 	focus = {
 		id = BET_ending_game
@@ -78,7 +85,9 @@ focus_tree = {
 				has_idea = MVLV_bocchi
 			}
 			has_idea = BET_00_unit
-			NOT = { has_idea = BET_broken_original_hive }
+			NOT = {
+				has_idea = BET_broken_original_hive
+			}
 			287 = {
 				is_owned_by = BET
 				is_controlled_by = BET
@@ -88,8 +97,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		cost = 15
-
-		completion_reward = { 
+		completion_reward = {
 			every_country = {
 				limit = {
 					is_in_faction_with = UNI
@@ -102,11 +110,11 @@ focus_tree = {
 				}
 				country_event = BETA.6
 			}
-        }
-
-		ai_will_do = { factor = 5 }
+		}
+		ai_will_do = {
+			factor = 5
+		}
 	}
-
 	# focus = {
 	# 	id = BET_humankill
 	# 	icon = GFX_focus_jap_zaibatsu
@@ -125,12 +133,11 @@ focus_tree = {
 	# 			has_idea = MVLV_bocchi
 	# 			has_idea = BET_broken_original_hive
 	# 		}
-    #     }
+	#     }
 	# 	cancel_if_invalid = yes
 	# 	continue_if_invalid = no
 	# 	available_if_capitulated = no
 	# 	cost = 2
-
 	# 	completion_reward = { 
 	# 		every_country = {
 	# 			limit = {
@@ -138,8 +145,7 @@ focus_tree = {
 	# 			}
 	# 			country_event = BETA.9
 	# 		}
-    #     }
+	#     }
 	# 	ai_will_do = { factor = 5 }
 	# }
-
 }

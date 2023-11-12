@@ -17,6 +17,7 @@ focus_tree = {
 		y = 1000
 	}
 	reset_on_civilwar = no
+	# Add the share focuses to focus tree
 	shared_focus = common_refugee_tech_sharing
 	shared_focus = common_adopt_powered_suits
 	shared_focus = common_experience_of_BETA_war
@@ -26,14 +27,10 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		x = 28
 		y = 0
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_political_power = 200
 		}
-		#completation_tooltip = { }
 		ai_will_do = {
 			factor = 1
 		}
@@ -47,16 +44,12 @@ focus_tree = {
 		prerequisite = {
 			focus = CAN_start
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		#select_effect = { }
 		completion_reward = {
 			add_political_power = -200
 			add_war_support = 0.2
 		}
-		#completation_tooltip = { }
 		ai_will_do = {
 			factor = 1
 		}
@@ -70,15 +63,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CAN_man
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		#select_effect = { }
 		completion_reward = {
 			add_manpower = 100000
 		}
-		#completation_tooltip = { }
 		ai_will_do = {
 			factor = 1
 		}
@@ -96,9 +85,6 @@ focus_tree = {
 			focus = CAN_nowar
 		}
 		#mutually_exclusive = { focus = CAN_yesus }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 8
 		completion_reward = {
 			CAN = {
@@ -125,9 +111,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CAN_nous
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_tech_bonus = {
@@ -162,8 +145,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CAN_nouni
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
 		available = {
 			276 = {
 				is_controlled_by = CAN
@@ -241,9 +222,6 @@ focus_tree = {
 			focus = CAN_mans
 		}
 		#mutually_exclusive = { focus = CAN_nous }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			468 = {
@@ -297,9 +275,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CAN_yesus
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_equipment_to_stockpile = {
@@ -324,9 +299,6 @@ focus_tree = {
 		# mutually_exclusive = {
 		# 	focus = CAN_nowar
 		# }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_tech_bonus = {
@@ -371,9 +343,6 @@ focus_tree = {
 		# mutually_exclusive = {
 		# 	focus = CAN_yeswar
 		# }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_political_power = 200
