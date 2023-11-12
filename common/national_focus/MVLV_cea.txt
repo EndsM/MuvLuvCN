@@ -6,10 +6,6 @@ focus_tree = {
 			add = 10
 			tag = CEA
 		}
-		#modifier = {
-		#	add = 10
-		#	original_tag = CEA
-		#}
 	}
 	default = no
 	continuous_focus_position = {
