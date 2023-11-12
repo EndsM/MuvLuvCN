@@ -3345,7 +3345,7 @@ focus_tree = {
 			}
 			USA = {
 				country_event = mvlv_usa.2
-				add_ideas = 受质疑的G弹计划
+				add_ideas = USA_the_questionable_G_bomb
 			}
 		}
 		#completation_tooltip = { }

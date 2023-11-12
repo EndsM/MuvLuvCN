@@ -430,7 +430,7 @@ ideas = {
 				stability_weekly = 0.005
 			}
 		}
-		受质疑的G弹计划 = {
+		USA_the_questionable_G_bomb = {
 			allowed = {
 				always = no
 			}
