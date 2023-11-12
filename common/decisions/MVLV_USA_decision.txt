@@ -2039,7 +2039,7 @@ USA_Lagrange_Plan_categories = {
 		remove_effect = {
 			swap_ideas = {
 				remove_idea = USA_project_lagrange_space_dockyard
-				add_idea = "拉格朗日计划-进行中"
+				add_idea = USA_project_lagrange_in_progress
 			}
 		}
 	}
@@ -2053,7 +2053,7 @@ USA_Lagrange_Plan_categories = {
 		days_mission_timeout = 180
 		activation = {
 			has_completed_focus = USA_EvacuateFromEarth
-			has_idea = "拉格朗日计划-进行中"
+			has_idea = USA_project_lagrange_in_progress
 		}
 		selectable_mission = yes
 		ai_will_do = {
@@ -2075,7 +2075,7 @@ USA_Lagrange_Plan_categories = {
 				country_event = mvlv_usa.6
 			}
 			swap_ideas = {
-				remove_idea = "拉格朗日计划-进行中"
+				remove_idea = USA_project_lagrange_in_progress
 				add_idea = "拉格朗日计划-远航准备"
 			}
 		}

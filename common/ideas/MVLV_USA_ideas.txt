@@ -322,7 +322,7 @@ ideas = {
 				}
 			}
 		}
-		"拉格朗日计划-进行中" = {
+		USA_project_lagrange_in_progress = {
 			allowed = {
 				always = no
 			}
