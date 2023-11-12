@@ -703,7 +703,7 @@ focus_tree = {
 			focus = USA_RefugeeIssue
 		}
 		available = {
-			has_idea = 归化难民
+			has_idea = USA_naturalize_refugees
 		}
 		mutually_exclusive = {
 			focus = USA_DetainZone

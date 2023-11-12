@@ -16,7 +16,7 @@ country_event = {
 	option = {
 		name = mvlv_usa.1.b
 		USA = {
-			add_ideas = 归化难民
+			add_ideas = USA_naturalize_refugees
 			add_stability = -0.1
 		}
 		ai_chance = {

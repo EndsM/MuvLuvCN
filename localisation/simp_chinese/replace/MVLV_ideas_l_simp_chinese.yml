@@ -255,6 +255,8 @@
   USA_pacify_those_left_behind_desc:0 ""
   USA_segregation_of_refugees:0 "隔离难民"
   USA_segregation_of_refugees_desc:0 ""
+  USA_naturalize_refugees:0 "归化难民"
+  USA_naturalize_refugees_desc:0 ""
 
   EUR_eng:0 "为英国服务的欧盟"
   EUR_eng_desc:0 "作为欧洲联盟唯一拥有国土的大国，英国在欧盟拥有巨大的权力，可以自由使用欧盟的资源。 当然反对它的成员国很多，欧盟濒临分裂。"

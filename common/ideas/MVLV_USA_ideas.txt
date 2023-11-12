@@ -421,7 +421,7 @@ ideas = {
 				stability_weekly = -0.005
 			}
 		}
-		归化难民 = {
+		USA_naturalize_refugees = {
 			allowed = {
 				always = no
 			}
