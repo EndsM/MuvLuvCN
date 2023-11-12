@@ -85,6 +85,9 @@ beta_warrior = {
 		H25
 		H26
 	}
+	upgrade_prio = {
+		factor = 0.01
+	}
 	roles = {
 		beta_warrior
 		beta_flontline
@@ -379,7 +382,7 @@ beta_hive_garrison = {
 		factor = 0.5
 	}
 	match_to_count = 0.5
-	beta_hive_garrison = {
+	beta_hive_garrison_default = {
 		upgrade_prio = {
 			factor = 0.05
 		}

@@ -1,6 +1,5 @@
 ##BETAの師団数を制限します。###
 ##ハイヴフェイズのアイデアをチェック###
-
 division_limiter = {
 	enable = {
 		MVLV_limiter_calc_script = yes
@@ -16,7 +15,6 @@ division_limiter = {
 		# BETA陆军数量未到达当前巢穴等级上限 = no
 	}
 	abort_when_not_enabled = yes
-
 	ai_strategy = {
 		type = build_army
 		id = beta_tank
@@ -49,7 +47,7 @@ division_limiter = {
 	}
 	ai_strategy = {
 		type = build_army
-		id = beta_hive_garrison
+		id = beta_garrison
 		value = -300
 	}
 }
