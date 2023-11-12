@@ -1,4 +1,10 @@
 ﻿l_simp_chinese:
+  BET_human_game:0 "调查"
+  BET_human_game_desc:0 ""
+  BET_single_game:0 "不同的世界"
+  BET_single_game_desc:0 ""
+  BET_humankill:0 "对状况的应对"
+
   UNI_USA_1:0 "美国的一言堂"
   UNI_USA_1_desc:0 "美国的一言堂"
   UNI_USA_coop_LMT:0 "与洛克希德马丁公司的合作"
@@ -44,11 +50,6 @@
   UNI_00_unit_desc:0 "横滨基地突然出现的奇怪新兵……本应是死人的这个男人似乎频繁地出入香月副司令的房间……"
   UNI_sadogashima:0 "甲21号作戦"
   UNI_sadogashima_desc:0 "第四计划司令部制订了用于00单元实战试验的佐渡岛巢穴攻略作战方案，安理会立即批准并决定立即实行。这对日本帝国来说也是夙愿，通过XM3优先供给的约定，成功得到了日本帝国的全面协助。"
-  BET_human_game:0 "调查"
-  BET_human_game_desc:0 ""
-  BET_single_game:0 "不同的世界"
-  BET_single_game_desc:0 ""
-  BET_humankill:0 "对状况的应对"
   UNI_xmos:0 "奇迹系统"
   UNI_xmos_desc:0 "香月博士突然提出了这个战术机用的新操作系统，起初大家都觉得不可思议，但经过实证测试和实战后才知道这是具有划时代意义的操作系统。如果该操作系统普及到所有的战术机上，战死的卫士将会大幅减少。"
   UNI_theTrueUnitedNation:0 "真正的人类联合"
@@ -173,6 +174,7 @@
   UNI_EmergencySecurityCouncilSummit_desc:0 "训练基地遭到BETA始料未及的突袭，香月博士提出需要紧急召开一次安全理事会会议，提醒各国各基地提高警惕性，以预防类似的突袭。"
   UNI_WorldJointDevelopment:0 "齐心协力的研究者"
   UNI_WorldJointDevelopment_desc:0 "樱花作战为人类赢得了时间，让人类看到了真正的希望。受到鼓舞的研究人员齐心协力，人类的胜利必将实现。"
+
   USA_support_japanese:0 "在日本的间谍活动"
   USA_support_japanese_desc:0 "领导ALTERNATIVE4计划的日本是我国领导的ALTERNATIVE5计划的障碍。派遣代理人发动政变，可以制造对我国有利的国际局势。"
   USA_WarOrPeace:0 "最幸福的大陆与对BETA战争"
