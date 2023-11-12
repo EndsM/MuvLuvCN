@@ -1,4 +1,15 @@
 focus_tree = {
 	id = generic_focus
 	default = yes
+	reset_on_civilwar = no
+	initial_show_position = {
+		focus = common_refugee_tech_sharing
+	}
+	country = {
+		factor = 1
+	}
+	shared_focus = common_refugee_tech_sharing
+	shared_focus = common_adopt_powered_suits
+	shared_focus = common_experience_of_BETA_war
+	shared_focus = common_refugee_support_request
 }
