@@ -8,7 +8,7 @@ country_event = {
 	option = {
 		name = mvlv_usa.1.a
 		USA = {
-			add_ideas = 隔离难民
+			add_ideas = USA_segregation_of_refugees
 			add_stability = 0.1
 			add_war_support = 0.1
 		}

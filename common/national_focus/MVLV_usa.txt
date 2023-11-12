@@ -623,7 +623,7 @@ focus_tree = {
 			focus = USA_RefugeeIssue
 		}
 		available = {
-			has_idea = 隔离难民
+			has_idea = USA_segregation_of_refugees
 		}
 		mutually_exclusive = {
 			focus = USA_AcceptRefugees
