@@ -925,13 +925,13 @@ focus_tree = {
 	}
 	focus = {
 		# id = 扩大A-10采购
-		id = "AFR_IncreaseWarthogImportAmount"
+		id = AFR_IncreaseWarthogImportAmount
 		icon = GFX_goal_generic_national_unity
-		relative_position_id = "AFR_EmployUSMilitaryAdvisors"
+		relative_position_id = AFR_EmployUSMilitaryAdvisors
 		x = 0
 		y = 1
 		prerequisite = {
-			focus = "AFR_EmployUSMilitaryAdvisors"
+			focus = AFR_EmployUSMilitaryAdvisors
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -954,13 +954,13 @@ focus_tree = {
 	}
 	focus = {
 		# id = 加入NATO情报系统
-		id = "AFR_JoinNATOIntelNetwork"
+		id = AFR_JoinNATOIntelNetwork
 		icon = GFX_goal_generic_dangerous_deal
-		relative_position_id = "AFR_IncreaseWarthogImportAmount"
+		relative_position_id = AFR_IncreaseWarthogImportAmount
 		x = 0
 		y = 1
 		prerequisite = {
-			focus = "AFR_IncreaseWarthogImportAmount"
+			focus = AFR_IncreaseWarthogImportAmount
 		}
 		available = {
 			USA = {
@@ -984,13 +984,13 @@ focus_tree = {
 	}
 	focus = {
 		# id = 接收NATO非联军
-		id = "AFR_AcceptNATO_AfricaCoalitionForce"
+		id = AFR_AcceptNATO_AfricaCoalitionForce
 		icon = GFX_goal_tripartite_pact
-		relative_position_id = "AFR_JoinNATOIntelNetwork"
+		relative_position_id = AFR_JoinNATOIntelNetwork
 		x = 0
 		y = 1
 		prerequisite = {
-			focus = "AFR_JoinNATOIntelNetwork"
+			focus = AFR_JoinNATOIntelNetwork
 		}
 		available = {
 			USA = {
