@@ -979,8 +979,6 @@
   EEA_M_7:0 "收回指挥权"
   EEA_M_7_desc:0 "在国土沦陷之后，东欧社会主义同盟的部队就已经在国联军和欧洲联合军的指挥下付出了太多不必要的代价，我们部队的指挥权，只应该被我们自己所掌握。"
 
-  # ここからマブラヴ汎用NFの記述
-  # 工場ツリー
   common_refugee_tech_sharing:0 "注重产业"
   common_refugee_tech_sharing_desc:0 ""
   common_civilian_preparing:0 "注重民用需求"
@@ -1000,7 +998,6 @@
   common_preparing_massive_counterattack:0 "扩大军需"
   common_preparing_massive_counterattack_desc:0 "要求提高BETA战争投入的呼声与日俱增，应该扩大军工生产。"
 
-  # 研究ツリー
   common_experience_of_BETA_war:0 "BETA战争的教训"
   common_experience_of_BETA_war_desc:0 ""
   common_develop_counter_BETA_tactics:0 "反BETA军事理论"
@@ -1009,7 +1006,7 @@
   common_establish_supply_line_desc:0 ""
   common_use_battle_experience_in_research:0 "增加研究槽"
   common_use_battle_experience_in_research_desc:0 ""
-  # 政治ツリー
+  
   common_refugee_support_request:0 "重视政治"
   common_refugee_support_request_desc:0 ""
   common_refugee_job_mediation:0 "国联的资金援助"
