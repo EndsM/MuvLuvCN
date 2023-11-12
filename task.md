@@ -35,3 +35,5 @@ Mark as finished after finish certain task.
 - Task 9: Change the naming of those chinese-named effects and triggers.
 
 - ~~Task 10: Replace the chinese naming in ideas. Done~~
+
+- Task 11: Sort the ideas localization file.
