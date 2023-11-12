@@ -1,10 +1,9 @@
 Dont_Build_Buildings = {
+	# prevent AI build bunker on tile that will be give bunker by focus.
 	enable = {
 		date > 1998.12.31
 	}
-	
 	abort_when_not_enabled = yes
-
 	###アラスカ
 	ai_strategy = {
 		type = build_building
@@ -18,7 +17,6 @@ Dont_Build_Buildings = {
 		target = 13227
 		value = -100
 	}
-
 	###北東シベリア沿岸
 	ai_strategy = {
 		type = build_building
@@ -32,7 +30,6 @@ Dont_Build_Buildings = {
 		target = 13063
 		value = -100
 	}
-	
 	###ヴランゲリ基地
 	ai_strategy = {
 		type = build_building
@@ -46,7 +43,6 @@ Dont_Build_Buildings = {
 		target = 13241
 		value = -100
 	}
-	
 	###北東シベリア離島
 	ai_strategy = {
 		type = build_building
@@ -60,7 +56,6 @@ Dont_Build_Buildings = {
 		target = 13204
 		value = -100
 	}
-	
 	###カムチャツカ
 	ai_strategy = {
 		type = build_building
@@ -68,7 +63,6 @@ Dont_Build_Buildings = {
 		target = 1823
 		value = -100
 	}
-
 	###台湾
 	ai_strategy = {
 		type = build_building
@@ -94,7 +88,6 @@ Dont_Build_Buildings = {
 		target = 7214
 		value = -100
 	}
-
 	###クラ運河
 	ai_strategy = {
 		type = build_building
