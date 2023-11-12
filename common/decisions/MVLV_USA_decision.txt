@@ -2119,7 +2119,7 @@ USA_Lagrange_Plan_categories = {
 			USA = {
 				country_event = mvlv_generic.100
 				add_timed_idea = {
-					idea = "安抚留在地球的人们"
+					idea = USA_pacify_those_left_behind
 					days = 90
 				}
 				add_equipment_to_stockpile = {
@@ -2132,7 +2132,7 @@ USA_Lagrange_Plan_categories = {
 				add_stability = -0.2
 				add_war_support = -0.2
 				add_timed_idea = {
-					idea = "安抚留在地球的人们"
+					idea = USA_pacify_those_left_behind
 					days = 90
 				}
 			}
@@ -2141,7 +2141,7 @@ USA_Lagrange_Plan_categories = {
 				add_stability = -0.2
 				add_war_support = -0.2
 				add_timed_idea = {
-					idea = "安抚留在地球的人们"
+					idea = USA_pacify_those_left_behind
 					days = 90
 				}
 			}
@@ -2150,7 +2150,7 @@ USA_Lagrange_Plan_categories = {
 				add_stability = -0.2
 				add_war_support = -0.2
 				add_timed_idea = {
-					idea = "安抚留在地球的人们"
+					idea = USA_pacify_those_left_behind
 					days = 90
 				}
 			}
@@ -2159,7 +2159,7 @@ USA_Lagrange_Plan_categories = {
 				add_stability = -0.2
 				add_war_support = -0.2
 				add_timed_idea = {
-					idea = "安抚留在地球的人们"
+					idea = USA_pacify_those_left_behind
 					days = 90
 				}
 			}
@@ -2168,7 +2168,7 @@ USA_Lagrange_Plan_categories = {
 				add_stability = -0.2
 				add_war_support = -0.2
 				add_timed_idea = {
-					idea = "安抚留在地球的人们"
+					idea = USA_pacify_those_left_behind
 					days = 90
 				}
 			}
@@ -2177,7 +2177,7 @@ USA_Lagrange_Plan_categories = {
 				add_stability = -0.2
 				add_war_support = -0.2
 				add_timed_idea = {
-					idea = "安抚留在地球的人们"
+					idea = USA_pacify_those_left_behind
 					days = 90
 				}
 			}
@@ -2186,7 +2186,7 @@ USA_Lagrange_Plan_categories = {
 				add_stability = -0.2
 				add_war_support = -0.2
 				add_timed_idea = {
-					idea = "安抚留在地球的人们"
+					idea = USA_pacify_those_left_behind
 					days = 90
 				}
 			}
@@ -2195,7 +2195,7 @@ USA_Lagrange_Plan_categories = {
 				add_stability = -0.2
 				add_war_support = -0.2
 				add_timed_idea = {
-					idea = "安抚留在地球的人们"
+					idea = USA_pacify_those_left_behind
 					days = 90
 				}
 			}
@@ -2204,7 +2204,7 @@ USA_Lagrange_Plan_categories = {
 				add_stability = -0.2
 				add_war_support = -0.2
 				add_timed_idea = {
-					idea = "安抚留在地球的人们"
+					idea = USA_pacify_those_left_behind
 					days = 90
 				}
 			}
@@ -2213,7 +2213,7 @@ USA_Lagrange_Plan_categories = {
 				add_stability = -0.2
 				add_war_support = -0.2
 				add_timed_idea = {
-					idea = "安抚留在地球的人们"
+					idea = USA_pacify_those_left_behind
 					days = 90
 				}
 			}
@@ -2222,7 +2222,7 @@ USA_Lagrange_Plan_categories = {
 				add_stability = -0.2
 				add_war_support = -0.2
 				add_timed_idea = {
-					idea = "安抚留在地球的人们"
+					idea = USA_pacify_those_left_behind
 					days = 90
 				}
 			}
@@ -2231,7 +2231,7 @@ USA_Lagrange_Plan_categories = {
 				add_stability = -0.2
 				add_war_support = -0.2
 				add_timed_idea = {
-					idea = "安抚留在地球的人们"
+					idea = USA_pacify_those_left_behind
 					days = 90
 				}
 			}

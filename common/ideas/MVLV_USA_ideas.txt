@@ -402,7 +402,7 @@ ideas = {
 				planning_speed = 0.25
 			}
 		}
-		"安抚留在地球的人们" = {
+		USA_pacify_those_left_behind = {
 			allowed = {
 				always = no
 			}
