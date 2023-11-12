@@ -337,7 +337,7 @@ ideas = {
 				}
 			}
 		}
-		"拉格朗日计划-远航准备" = {
+		USA_project_lagrange_preparing_the_voyage = {
 			allowed = {
 				always = no
 			}
