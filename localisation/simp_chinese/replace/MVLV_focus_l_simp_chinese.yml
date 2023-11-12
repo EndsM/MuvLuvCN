@@ -4,6 +4,8 @@
   BET_single_game:0 "不同的世界"
   BET_single_game_desc:0 ""
   BET_humankill:0 "对状况的应对"
+  BET_ending_game:0 "重大灾害的防止"
+  BET_ending_game_desc:0 "是时候准备彻底根绝重大灾害了"
 
   UNI_USA_1:0 "美国的一言堂"
   UNI_USA_1_desc:0 "美国的一言堂"
@@ -176,6 +178,10 @@
   UNI_WorldJointDevelopment_desc:0 "樱花作战为人类赢得了时间，让人类看到了真正的希望。受到鼓舞的研究人员齐心协力，人类的胜利必将实现。"
   UNI_blue_flag:0 "相互评价演习"
   UNI_blue_flag_desc:0 "计划在育空基地由各国试验部队进行大规模模拟战。通过这个演习可以促进试验部队之间的技术交流，在开发中引入在竞争中产生的新想法等。"
+  UNI_yukon_base:0 "育空基地重建"
+  UNI_yukon_base_desc:0 "虽然育空基地的恐怖事件付出了巨大的牺牲，但恐怖分子被镇压，基地的功能也恢复了。必须尽快重建。"
+  UNI_YashiroKasumi_tt:0 "启用社霞"
+  UNI_YashiroKasumi_tt_desc:0 ""
 
   USA_support_japanese:0 "在日本的间谍活动"
   USA_support_japanese_desc:0 "领导ALTERNATIVE4计划的日本是我国领导的ALTERNATIVE5计划的障碍。派遣代理人发动政变，可以制造对我国有利的国际局势。"
@@ -332,10 +338,7 @@
   JAP_IdentifyTheTraitors_desc:0 "我们需要处理掉的目标分散范围极其广泛，甚至或许我们当中都有国联军亦或者中央情报局的线人，但无论如何，我们必须尽快锁定需要被除掉的叛徒，不管是军部还是议会，至于我们当中的叛徒，自然有利用的方法。"
   JAP_NoTraitorsTomorrow:0 "天诛国贼"
   JAP_NoTraitorsTomorrow_desc:0 "万事俱备，一切都是为了帝国的未来。那些暗地里勾结外国势力，企图颠覆日本帝国之人，他们绝无明日可言。愿诸位的剑刃，能在黎明到来前畅饮叛徒的鲜血，用我们的牺牲来打开帝国的未来！"
-  UNI_yukon_base:0 "育空基地重建"
-  UNI_yukon_base_desc:0 "虽然育空基地的恐怖事件付出了巨大的牺牲，但恐怖分子被镇压，基地的功能也恢复了。必须尽快重建。"
-  BET_ending_game:0 "重大灾害的防止"
-  BET_ending_game_desc:0 "是时候准备彻底根绝重大灾害了"
+
   CAN_start:0 "走向复兴"
   CAN_start_desc:0 "加拿大一半以上的土地已不再宜居。在这种情况下，什么才是维持国家的最佳方法?"
   CAN_man:0 "召回难民"
@@ -1247,4 +1250,3 @@
   AFR_JoinNATOIntelNetwork_desc:0 "美国向我们提出了一个新的提案，加入北约的情报网络体系，共享其对BETA动向的观测。我们缺乏高科技侦查设备，没理由拒绝。"
   AFR_AcceptNATO_AfricaCoalitionForce:0 "接收NATO非联军"
   AFR_AcceptNATO_AfricaCoalitionForce_desc:0 "加入北约体系之后，我们派遣了一支部队到北美训练，如今这支经过北约训练的精锐终于回国了。"
-  UNI_YashiroKasumi_tt:0 "启用社霞"
