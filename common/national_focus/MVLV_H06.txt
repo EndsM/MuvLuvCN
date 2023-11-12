@@ -1,5 +1,5 @@
 focus_tree = {
-	id = ekibastuz_focus
+	id = ekibastuz_focus_tree
 	
 	country = {
 		factor = 0

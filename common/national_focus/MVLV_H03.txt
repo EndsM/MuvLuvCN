@@ -1,5 +1,5 @@
 focus_tree = {
-	id = uralsk_focus
+	id = uralsk_focus_tree
 	
 	country = {
 		factor = 0

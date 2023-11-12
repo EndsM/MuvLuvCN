@@ -1,5 +1,5 @@
 focus_tree = {
-	id = noginsk_focus
+	id = noginsk_focus_tree
 	
 	country = {
 		factor = 0

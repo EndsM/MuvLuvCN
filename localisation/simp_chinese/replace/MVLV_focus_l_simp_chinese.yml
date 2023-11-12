@@ -174,6 +174,8 @@
   UNI_EmergencySecurityCouncilSummit_desc:0 "训练基地遭到BETA始料未及的突袭，香月博士提出需要紧急召开一次安全理事会会议，提醒各国各基地提高警惕性，以预防类似的突袭。"
   UNI_WorldJointDevelopment:0 "齐心协力的研究者"
   UNI_WorldJointDevelopment_desc:0 "樱花作战为人类赢得了时间，让人类看到了真正的希望。受到鼓舞的研究人员齐心协力，人类的胜利必将实现。"
+  UNI_blue_flag:0 "相互评价演习"
+  UNI_blue_flag_desc:0 "计划在育空基地由各国试验部队进行大规模模拟战。通过这个演习可以促进试验部队之间的技术交流，在开发中引入在竞争中产生的新想法等。"
 
   USA_support_japanese:0 "在日本的间谍活动"
   USA_support_japanese_desc:0 "领导ALTERNATIVE4计划的日本是我国领导的ALTERNATIVE5计划的障碍。派遣代理人发动政变，可以制造对我国有利的国际局势。"
@@ -261,8 +263,7 @@
   USA_SouthAmericaDevelopment_desc:0 "南美向来是合众国的后花园，打理一下自己的后花园这种份内之事，又有什么可多说的呢？"
   USA_InvestSouthAmerica:0 "投资南美"
   USA_InvestSouthAmerica_desc:0 "致南美联合的各位，这是来自合众国的支持，我们期盼着你们的回报。"
-  UNI_blue_flag:0 "相互评价演习"
-  UNI_blue_flag_desc:0 "计划在育空基地由各国试验部队进行大规模模拟战。通过这个演习可以促进试验部队之间的技术交流，在开发中引入在竞争中产生的新想法等。"
+
   JAP_xfj_project:0 "XFJ计划"
   JAP_xfj_project_desc:0 "我国的战术机开发陷入了僵局。作为第三代战术机，不知火性能优良，但缺乏升级空间，今后的发展前景并不乐观。这样下去，很快就会过时。对此，波音公司提出了共同开发计划。"
   JAP_USJAPTreatyLesson:0 "美日安保条约的教训"
@@ -1008,7 +1009,7 @@
   common_establish_supply_line_desc:0 ""
   common_use_battle_experience_in_research:0 "增加研究槽"
   common_use_battle_experience_in_research_desc:0 ""
-  
+
   common_refugee_support_request:0 "重视政治"
   common_refugee_support_request_desc:0 ""
   common_refugee_job_mediation:0 "国联的资金援助"
@@ -1156,6 +1157,8 @@
   EUR_LimitedUsageOfHumanModification_desc:0 "改造人技术成本高昂，尽管实战已经证明了改造人技术的可靠性，我们还是应该将原定的大规模使用计划改为有限部署。"
   EUR_MilitaryCooperationWithJapan:0 "与日本的军事交流"
   EUR_MilitaryCooperationWithJapan_desc:0 "日本帝国似乎对我们的中队支援炮有着不小的兴趣，而他们手中也有着不少的优秀技术和经验可供我们吸收。"
+
+  AFR_focus_tree:0 "非洲联合国策树"
   AFR_SecureSuezFront:0 "稳住苏伊士防线"
   AFR_SecureSuezFront_desc:0 "一切对于未来的打算，都要从确保苏伊士防线的稳固开始。"
   AFR_ConsolidateCommandingSequence:0 "整合指挥系统"

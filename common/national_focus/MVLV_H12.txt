@@ -1,5 +1,5 @@
 focus_tree = {
-	id = lyon_focus
+	id = lyon_focus_tree
 	
 	country = {
 		factor = 0

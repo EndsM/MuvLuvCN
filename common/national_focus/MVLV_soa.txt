@@ -1,5 +1,5 @@
 focus_tree = {
-	id = soa_focus
+	id = SOA_focus_tree
 	country = {
 		factor = 0
 		modifier = {

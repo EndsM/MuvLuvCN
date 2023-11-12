@@ -1,5 +1,5 @@
 focus_tree = {
-	id = cea_focus
+	id = CEA_focus_tree
 	country = {
 		factor = 0
 		modifier = {

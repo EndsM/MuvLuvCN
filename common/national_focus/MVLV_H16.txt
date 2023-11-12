@@ -1,5 +1,5 @@
 focus_tree = {
-	id = chongqing_focus
+	id = chongqing_focus_tree
 	
 	country = {
 		factor = 0

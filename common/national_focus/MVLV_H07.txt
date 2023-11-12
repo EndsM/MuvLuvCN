@@ -1,5 +1,5 @@
 focus_tree = {
-	id = surgut_focus
+	id = surgut_focus_tree
 	
 	country = {
 		factor = 0

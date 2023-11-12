@@ -1,5 +1,5 @@
 focus_tree = {
-	id = velsk_focus
+	id = velsk_focus_tree
 	
 	country = {
 		factor = 0

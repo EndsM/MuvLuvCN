@@ -1,5 +1,5 @@
 focus_tree = {
-	id = MUV_AFR
+	id = AFR_focus_tree
 	country = {
 		factor = 0
 		modifier = {

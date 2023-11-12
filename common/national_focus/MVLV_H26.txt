@@ -1,5 +1,5 @@
 focus_tree = {
-	id = evensk_focus
+	id = evensk_focus_tree
 	
 	country = {
 		factor = 0
