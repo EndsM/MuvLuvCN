@@ -200,8 +200,12 @@ country_event = {
 				巢穴等级 = 9
 			}
 		}
-		set_variable = {小侵攻进度=0}
-		set_variable = {大侵攻进度=0}
+		set_variable = {
+			小侵攻进度 = 0
+		}
+		set_variable = {
+			大侵攻进度 = 0
+		}
 	}
 	option = {
 	}

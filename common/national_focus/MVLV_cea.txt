@@ -505,9 +505,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_Unity
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 1
 		completion_reward = {
 			add_stability = -0.1
@@ -527,9 +524,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_Unity
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 2
 		completion_reward = {
 			add_political_power = -300
@@ -558,9 +552,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_Unity
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 2
 		completion_reward = {
 			add_political_power = -300
