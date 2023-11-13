@@ -31,7 +31,6 @@ focus_tree = {
 				idea = JAP_conclude_operation_lucifer
 				days = 30
 			}
-			activate_decision = operation_bright_star
 		}
 		#completation_tooltip = { }
 		ai_will_do = {
