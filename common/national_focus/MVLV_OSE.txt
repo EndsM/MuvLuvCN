@@ -147,14 +147,13 @@ focus_tree = {
 				bonus = 2.5
 				uses = 1
 				name = mech_army_bonus
-				technology = generic_F-18EF
+				category = MVLV_tsf_tech
 			}
 			add_tech_bonus = {
 				bonus = 0.5
 				uses = 1
 				name = mech_army_bonus
-				technology = generic_F-18HMRV
-			}
+				category = MVLV_tsf_tech			}
 		}
 	}
 	focus = {

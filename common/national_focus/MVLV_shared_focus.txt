@@ -2,33 +2,18 @@
 shared_focus = {
 	id = common_refugee_tech_sharing
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 33
 	y = 0
-	#	offset = { 
-	#		x = 
-	#		y = 
-	#		trigger = {	}
-	#	}
-	#	relative_position_id = 
-	#prerequisite = { focus = }
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 5
-	#select_effect = { }
 	completion_reward = {
 		add_tech_bonus = {
+			name = "shared focus bonus"
 			bonus = 0.75
 			uses = 3
 			category = industry
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -37,22 +22,14 @@ shared_focus = {
 shared_focus = {
 	id = common_civilian_preparing
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 0
 	y = 1
 	relative_position_id = common_refugee_tech_sharing
 	prerequisite = {
 		focus = common_refugee_tech_sharing
 	}
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 5
-	#select_effect = { }
 	completion_reward = {
 		random_owned_controlled_state = {
 			add_extra_state_shared_building_slots = 5
