@@ -809,6 +809,7 @@
   CHI_AbsorbUSTSFTech_desc:0 "在竞争中落败的美国战术机制造商将目光转向了外国，也许我们能借此机会引进美国的战术机制造商来帮助我们开发新战术机。"
   CHI_DemandAidFromUS:0 "向美国请求援助"
   CHI_DemandAidFromUS_desc:0 "虽然美国的战略是先欧后亚，但是如果我们肯支付足够的代价，美国也未必会拒绝我们的援助请求。"
+
   geug_1:0 "调查毒品交易"
   geug_1_desc:0 "KODA等毒品组织正在国内肆虐，特别是在前线地区。甚至有向前线将士贩卖毒品的传闻。我们从98年就开始调查，但他们都在前线附近活动，很少露出马脚。看来得派遣部队进行调查了。"
   geug_3:0 "了断"
@@ -927,6 +928,7 @@
   geu_kaihatu13_desc:0 ""
   geu_kaihatu14:0 "夺回朝鲜"
   geu_kaihatu14_desc:0 ""
+
   EEA_I_1:0 "北极圈绝对防线"
   EEA_I_1_desc:0 "新地岛是苏联移交给我们的里大陆最近的据点了，我们已经国土沦丧了，任何土地损失我们都承担不起，必须在此建立绝对防卫线。"
   EEA_I_2:0 "增加研究槽"
@@ -1044,7 +1046,7 @@
   common_cooperation_agreement_desc:0 "向国联提出了以增加负担金为代价缔结技术协定的交易。"
   G_bomb_threat_opinion:0 "G弹威胁论"
   continuous_land_production:0 "装备生产"
-  USA_Adequate_fuel_for_civil_use:0 "充裕的油气资源"
+  
   CEA_Unity:0 "风雨同舟"
   CEA_Unity_desc:0 "BETA已经兵临美洲大陆，美国的安全承诺纯属一纸空文，我们需要与南美洲组成一个新的联盟，靠我们自己的力量来自保。"
   CEA_RefugeeLabourers:0 "中美难民工人"
