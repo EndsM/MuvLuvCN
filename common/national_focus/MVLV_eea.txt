@@ -157,9 +157,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_I_4
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			every_owned_state = {
@@ -187,9 +184,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_I_4
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_research_slot = 1
@@ -204,9 +198,6 @@ focus_tree = {
 		icon = GFX_focus_generic_strike_at_democracy1
 		x = 11
 		y = 0
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_political_power = 150
@@ -227,9 +218,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = EEA_P_2_B
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_political_power = 150
@@ -247,9 +235,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_2_A
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -277,9 +262,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_2_A
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_tech_bonus = {
@@ -308,9 +290,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_2_A
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_research_slot = 1
@@ -334,9 +313,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_5_A
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_popularity = {
@@ -364,9 +340,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_6_A
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_stability = 0.1
@@ -384,9 +357,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_7_A
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_ideas = EEA_P1
@@ -413,9 +383,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = EEA_P_2_A
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_political_power = 150
@@ -433,9 +400,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_2_B
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			swap_ideas = {
@@ -456,9 +420,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_3_B
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			# Buy TSF from soviet
@@ -803,9 +764,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_M_4_B
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_ideas = SOV_ru9
@@ -824,9 +782,6 @@ focus_tree = {
 			focus = EEA_M_5_A
 			focus = EEA_M_5_B
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			# Get TSF from UNI
@@ -854,6 +809,7 @@ focus_tree = {
 			factor = 1
 		}
 	}
+	# 收回指挥权
 	focus = {
 		id = EEA_M_7
 		icon = GFX_focus_por_workers_of_iberia
@@ -863,9 +819,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_M_6
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			remove_ideas = {
