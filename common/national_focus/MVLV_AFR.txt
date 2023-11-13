@@ -202,6 +202,7 @@ focus_tree = {
 		y = 9
 		completion_reward = {
 			add_equipment_to_stockpile = {
+				# 突入驱逐舰
 				type = transport_plane_equipment
 				amount = 10
 				producer = ROOT
@@ -687,15 +688,23 @@ focus_tree = {
 		completion_reward = {
 			AFR = {
 				add_political_power = -150
-				# add_equipment_to_stockpile = {
-				# 	type = tsf_equipment_Rafale
-				# 	amount = 600
-				# 	producer = EUR
-				# }
-				add_equipment_to_stockpile = {
-					type = MVLV_TSF_classis_1_light
-					amount = 600
-					producer = EUR
+				if = {
+					limit = {
+						has_dlc = "No Step Back"
+					}
+					add_equipment_to_stockpile = {
+						variant_name = "Rafale阵风"
+						type = MVLV_TSF_classis_3_heavy_normal
+						amount = 600
+						producer = EUR
+					}
+				}
+				else = {
+					add_equipment_to_stockpile = {
+						type = tsf_equipment_Rafale
+						amount = 600
+						producer = EUR
+					}
 				}
 			}
 			EUR = {
