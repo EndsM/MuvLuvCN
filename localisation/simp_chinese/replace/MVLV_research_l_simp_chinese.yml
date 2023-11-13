@@ -5,6 +5,8 @@
   MVLV_tsf_tech_research:0 "战术机研究速度"
   MVLV_railgun_tech:0 "电磁炮"
   MVLV_railgun_tech_research:0 "电磁炮研究速度"
+  MVLV_tsf_module_tech:0 "战术机模块"
+  MVLV_tsf_module_tech_research:0 "战术机模块研究速度"
   MVLV_tsf_folder:0 "战术机"
   MVLV_tsf_folder_desc:0 "战术步行战斗机"
   TSF_TITLE:0 "战术步行战斗机"

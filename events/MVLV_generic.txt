@@ -1,5 +1,4 @@
 ﻿add_namespace = mvlv_generic
-
 #____________________________________________________________
 #用途
 #汎用イベント
@@ -24,7 +23,6 @@
 #id:mvlv_generic.997～999 effect:更新履歴（ディシジョン）
 #
 #____________________________________________________________
-
 # 难度选择イベント
 #____________________________________________________________
 country_event = {
@@ -32,60 +30,68 @@ country_event = {
 	title = mvlv_generic.0.t
 	desc = mvlv_generic.0.d
 	picture = GFX_mvlv_start_event
-	
 	fire_only_once = no
 	is_triggered_only = yes
-
 	option = {
-		name = mvlv_generic.0.a}
-                } 
+		name = mvlv_generic.0.a
+	}
+}
+
 country_event = {
 	id = mvlv_generic.100
 	title = mvlv_generic.100.t
 	desc = mvlv_generic.100.d
 	picture = GFX_mvlv_start_event
-	
 	fire_only_once = no
 	is_triggered_only = yes
-
 	option = {
 		name = mvlv_generic.100.a
-                               		trigger = {NOT = {TAG = USA} }
-		} 
+		trigger = {
+			NOT = {
+				TAG = USA
+			}
+		}
+	}
 	option = {
 		name = mvlv_generic.100.b
-                               		trigger = {TAG = USA}
-                                 USA={country_event=mvlv_usa.101}
-		} 
-                } 
+		trigger = {
+			TAG = USA
+		}
+		USA = {
+			country_event = mvlv_usa.101
+		}
+	}
+}
+
 country_event = {
 	id = mvlv_generic.1
 	title = mvlv_generic.1.t
 	desc = mvlv_generic.1.d
 	picture = GFX_mvlv_start_event
-	
 	fire_only_once = no
 	is_triggered_only = yes
-
 	option = {
 		name = mvlv_generic.1.a
 		trigger = {
 			is_in_faction_with = UNI
 			is_ai = no
 		}
-		ai_chance = { factor = 0 }
+		ai_chance = {
+			factor = 0
+		}
 		add_manpower = 100000
 		add_ideas = mvlv_difficulty_easy
-		UNI = { add_ideas = mvlv_bocchi }
-		BET = { add_ideas = mvlv_bocchi }
+		UNI = {
+			add_ideas = mvlv_bocchi
+		}
+		BET = {
+			add_ideas = mvlv_bocchi
+		}
 		简单难度参数设置 = yes
-
 		#政治力ボーナス
 		add_political_power = 50
-
 		#陸军経験値ボーナス
 		army_experience = 20
-
 		#ユニットボーナス
 		# IF = {
 		# 	limit = {
@@ -93,9 +99,7 @@ country_event = {
 		# 	}
 		# 	division_template = {
 		# 		name = "装甲师"
-				
 		# 		division_names_group = JAP_ARM_01
-				
 		# 		regiments = {
 		# 			infantry = { x = 0 y = 0 }
 		# 			infantry = { x = 0 y = 1 }
@@ -114,121 +118,148 @@ country_event = {
 		# 		}
 		# 	}
 		# }
-
 		IF = {
 			limit = {
-				NOT = { has_template = "战术机联队" }
+				NOT = {
+					has_template = "战术机联队"
+				}
 			}
 			division_template = {
 				name = "战术机联队"
 				regiments = {
-					MVLV_tsf_battalion= { x = 0 y = 0 }
-					MVLV_tsf_battalion= { x = 0 y = 1 }
-					MVLV_tsf_battalion= { x = 0 y = 2 }
-					MVLV_tsf_battalion= { x = 1 y = 0 }
-					MVLV_tsf_battalion= { x = 1 y = 1 }
-					MVLV_tsf_battalion= { x = 1 y = 2 }
-					MVLV_tsf_battalion= { x = 2 y = 0 }
-					MVLV_tsf_battalion= { x = 2 y = 1 }
-					MVLV_tsf_battalion= { x = 2 y = 2 }
+					MVLV_tsf_battalion = {
+						x = 0
+						y = 0
+					}
+					MVLV_tsf_battalion = {
+						x = 0
+						y = 1
+					}
+					MVLV_tsf_battalion = {
+						x = 0
+						y = 2
+					}
+					MVLV_tsf_battalion = {
+						x = 1
+						y = 0
+					}
+					MVLV_tsf_battalion = {
+						x = 1
+						y = 1
+					}
+					MVLV_tsf_battalion = {
+						x = 1
+						y = 2
+					}
+					MVLV_tsf_battalion = {
+						x = 2
+						y = 0
+					}
+					MVLV_tsf_battalion = {
+						x = 2
+						y = 1
+					}
+					MVLV_tsf_battalion = {
+						x = 2
+						y = 2
+					}
 				}
 				priority = 2
 			}
 		}
-
 		capital_scope = {
 			create_unit = {
-				division = "division_template = \"重装师\" start_experience_factor = 0.1" 
+				division = "division_template = \"重装师\" start_experience_factor = 0.1"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"重装师\" start_experience_factor = 0.1" 
+				division = "division_template = \"重装师\" start_experience_factor = 0.1"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"重装师\" start_experience_factor = 0.1" 
+				division = "division_template = \"重装师\" start_experience_factor = 0.1"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"重装师\" start_experience_factor = 0.1" 
+				division = "division_template = \"重装师\" start_experience_factor = 0.1"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"重装师\" start_experience_factor = 0.1" 
+				division = "division_template = \"重装师\" start_experience_factor = 0.1"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"战术机联队\" start_experience_factor = 0.1" 
+				division = "division_template = \"战术机联队\" start_experience_factor = 0.1"
 				owner = ROOT
 			}
 			create_unit = {
-				division = "division_template = \"战术机联队\" start_experience_factor = 0.1" 
+				division = "division_template = \"战术机联队\" start_experience_factor = 0.1"
 				owner = ROOT
 			}
 		}
-
 		hidden_effect = {
 			set_global_flag = easy_world
 		}
 	}
-
 	option = {
 		name = mvlv_generic.1.b
 		trigger = {
 			is_in_faction_with = UNI
 			is_ai = no
 		}
-		ai_chance = { factor = 0 }
+		ai_chance = {
+			factor = 0
+		}
 		add_ideas = mvlv_difficulty_normal
 		add_ideas = MVLV_denial_of_delusion
 		普通难度参数设置 = yes
 	}
-
 	option = {
 		name = mvlv_generic.1.c
 		trigger = {
 			is_in_faction_with = UNI
 			is_ai = no
 		}
-		ai_chance = { factor = 0 }
+		ai_chance = {
+			factor = 0
+		}
 		add_ideas = mvlv_difficulty_hard
 		add_ideas = MVLV_denial_of_delusion
 		困难难度参数设置 = yes
 	}
-
 	option = {
 		name = mvlv_generic.1.e
 		trigger = {
 			is_in_faction_with = UNI
 			is_ai = no
 		}
-		ai_chance = { factor = 0 }
+		ai_chance = {
+			factor = 0
+		}
 		add_ideas = mvlv_difficulty_unlimited
 		add_ideas = MVLV_denial_of_delusion
 		地狱难度参数设置 = yes
 	}
-	
 	option = {
 		name = mvlv_generic.1.f
-		ai_chance = { factor = 200 }
-		trigger = { 
+		ai_chance = {
+			factor = 200
+		}
+		trigger = {
 			TAG = JAP
 			is_ai = yes
 		}
-		
 		add_ideas = mvlv_difficulty_ai
-		
 		#ユニットを追加
-		load_oob="JAP_1999_ai"
-		
+		load_oob = "JAP_1999_ai"
 		#TSF装備追加
 		# JAP = {
 		# 	add_equipment_to_stockpile = { type = tsf_equipment_F-4J amount = 300 producer = JAP }
 		# }
-		add_equipment_to_stockpile = { 
-			type = tsf_equipment_F-4J 
-			amount = 300 
-			producer = JAP 
+		add_equipment_to_stockpile = {
+			type = tsf_equipment_F-4J
+			amount = 300
+			producer = JAP
 		}
 		# 関東方面の要塞化
 		282 = {
@@ -238,21 +269,18 @@ country_event = {
 				instant_build = yes
 				province = 1097
 			}
-			
 			add_building_construction = {
 				type = bunker
 				level = 3
 				instant_build = yes
 				province = 4000
 			}
-			
 			add_building_construction = {
 				type = bunker
 				level = 3
 				instant_build = yes
 				province = 9998
 			}
-			
 			add_building_construction = {
 				type = bunker
 				level = 3
@@ -260,7 +288,6 @@ country_event = {
 				province = 11908
 			}
 		}
-		
 		#東北方面の要塞化
 		533 = {
 			add_building_construction = {
@@ -269,14 +296,12 @@ country_event = {
 				instant_build = yes
 				province = 4067
 			}
-			
 			add_building_construction = {
 				type = bunker
 				level = 3
 				instant_build = yes
 				province = 4122
 			}
-			
 			add_building_construction = {
 				type = bunker
 				level = 3
@@ -284,7 +309,6 @@ country_event = {
 				province = 4153
 			}
 		}
-		
 		#沖縄の要塞化
 		526 = {
 			add_building_construction = {
@@ -293,21 +317,18 @@ country_event = {
 				instant_build = yes
 				province = 7115
 			}
-			
 			add_building_construction = {
 				type = coastal_bunker
 				level = 3
 				instant_build = yes
 				province = 7115
 			}
-			
 			add_building_construction = {
 				type = bunker
 				level = 3
 				instant_build = yes
 				province = 11932
 			}
-			
 			add_building_construction = {
 				type = coastal_bunker
 				level = 3
@@ -316,25 +337,26 @@ country_event = {
 			}
 		}
 	}
-	
 	option = {
 		name = mvlv_generic.1.g
-		ai_chance = { factor = 200 }
-		trigger = { 
+		ai_chance = {
+			factor = 200
+		}
+		trigger = {
 			TAG = CHI
 			is_ai = yes
 		}
-		
 		add_ideas = mvlv_difficulty_ai
-		
 		#ユニットを追加
-		load_oob="CHI_1999_ai"
-		
+		load_oob = "CHI_1999_ai"
 		#TSF装備追加
 		CHI = {
-			add_equipment_to_stockpile = { type = tsf_equipment_MiG-21 amount = 100 producer = CHI }
+			add_equipment_to_stockpile = {
+				type = tsf_equipment_MiG-21
+				amount = 100
+				producer = CHI
+			}
 		}
-		
 		#台湾の要塞化
 		524 = {
 			add_building_construction = {
@@ -343,21 +365,18 @@ country_event = {
 				instant_build = yes
 				province = 7214
 			}
-
 			add_building_construction = {
 				type = bunker
 				level = 1
 				instant_build = yes
 				province = 9955
 			}
-
 			add_building_construction = {
 				type = coastal_bunker
 				level = 2
 				instant_build = yes
 				province = 7214
 			}
-
 			add_building_construction = {
 				type = coastal_bunker
 				level = 2
@@ -366,25 +385,26 @@ country_event = {
 			}
 		}
 	}
-	
 	option = {
 		name = mvlv_generic.1.h
-		ai_chance = { factor = 200 }
+		ai_chance = {
+			factor = 200
+		}
 		trigger = {
 			TAG = EUR
 			is_ai = yes
 		}
-		
 		add_ideas = mvlv_difficulty_ai
-		
 		#ユニットを追加
-		load_oob="EUR_1999_ai"
-		
+		load_oob = "EUR_1999_ai"
 		#TSF装備追加
 		EUR = {
-			add_equipment_to_stockpile = { type = tsf_equipment_F-5GIDS amount = 400 producer = EUR }
+			add_equipment_to_stockpile = {
+				type = tsf_equipment_F-5GIDS
+				amount = 400
+				producer = EUR
+			}
 		}
-		
 		#シチリアの要塞化
 		115 = {
 			add_building_construction = {
@@ -393,7 +413,6 @@ country_event = {
 				instant_build = yes
 				province = 4159
 			}
-
 			add_building_construction = {
 				type = coastal_bunker
 				level = 3
@@ -401,71 +420,67 @@ country_event = {
 				province = 4159
 			}
 		}
-		
 		#イングランド南西部の要塞化
 		123 = {
 			add_building_construction = {
 				type = bunker
 				level = 4
 				instant_build = yes
-				province = 540 #プリマス
+				province = 540				#プリマス
 			}
-
 			add_building_construction = {
 				type = coastal_bunker
 				level = 3
 				instant_build = yes
-				province = 540 #プリマス
+				province = 540				#プリマス
 			}
 		}
-		
 		#サセックスの要塞化
 		127 = {
 			add_building_construction = {
 				type = bunker
 				level = 4
 				instant_build = yes
-				province = 9458 #ポーツマス
+				province = 9458				#ポーツマス
 			}
-			
 			add_building_construction = {
 				type = bunker
 				level = 4
 				instant_build = yes
-				province = 3501 #ドーバー
+				province = 3501				#ドーバー
 			}
-
 			add_building_construction = {
 				type = coastal_bunker
 				level = 3
 				instant_build = yes
-				province = 9458 #ポーツマス
+				province = 9458				#ポーツマス
 			}
-			
 			add_building_construction = {
 				type = coastal_bunker
 				level = 3
 				instant_build = yes
-				province = 3501 #ドーバー
+				province = 3501				#ドーバー
 			}
 		}
 	}
-	
 	option = {
 		name = mvlv_generic.1.i
-		ai_chance = { factor = 200 }
+		ai_chance = {
+			factor = 200
+		}
 		trigger = {
 			TAG = AFR
 			is_ai = yes
 		}
-		
 		add_ideas = mvlv_difficulty_ai
-		
 		#TSF装備追加
 		AFR = {
-			add_equipment_to_stockpile = { type = tsf_equipment_MIII amount = 200 producer = AFR }
+			add_equipment_to_stockpile = {
+				type = tsf_equipment_MIII
+				amount = 200
+				producer = AFR
+			}
 		}
-		
 		#東部砂漠の要塞化
 		457 = {
 			add_building_construction = {
@@ -474,7 +489,6 @@ country_event = {
 				instant_build = yes
 				province = 9957
 			}
-			
 			add_building_construction = {
 				type = coastal_bunker
 				level = 1
@@ -482,7 +496,6 @@ country_event = {
 				province = 9957
 			}
 		}
-
 		#エルアラ缅因の要塞化
 		447 = {
 			add_building_construction = {
@@ -492,7 +505,6 @@ country_event = {
 				province = 1071
 			}
 		}
-
 		#アスワンの要塞化
 		456 = {
 			add_building_construction = {
@@ -501,21 +513,18 @@ country_event = {
 				instant_build = yes
 				province = 1206
 			}
-
 			add_building_construction = {
 				type = bunker
 				level = 2
 				instant_build = yes
 				province = 11999
 			}
-
 			add_building_construction = {
 				type = bunker
 				level = 2
 				instant_build = yes
 				province = 7156
 			}
-
 			add_building_construction = {
 				type = bunker
 				level = 2
@@ -523,29 +532,29 @@ country_event = {
 				province = 5069
 			}
 		}
-		
 		#ユニットを追加
-		load_oob="AFR_1999_ai"
+		load_oob = "AFR_1999_ai"
 	}
-	
 	option = {
 		name = mvlv_generic.1.j
-		ai_chance = { factor = 200 }
+		ai_chance = {
+			factor = 200
+		}
 		trigger = {
 			TAG = GEU
 			is_ai = yes
 		}
-		
 		add_ideas = mvlv_difficulty_ai
-		
 		#TSF装備追加
 		GEU = {
-			add_equipment_to_stockpile = { type = tsf_equipment_F-4 amount = 150 producer = GEU }
+			add_equipment_to_stockpile = {
+				type = tsf_equipment_F-4
+				amount = 150
+				producer = GEU
+			}
 		}
-		
 		#ユニットを追加
-		load_oob="GEU_1999_ai"
-		
+		load_oob = "GEU_1999_ai"
 		#マレー北部の要塞化
 		724 = {
 			add_building_construction = {
@@ -554,49 +563,42 @@ country_event = {
 				instant_build = yes
 				province = 1308
 			}
-			
 			add_building_construction = {
 				type = bunker
 				level = 2
 				instant_build = yes
 				province = 4388
 			}
-			
 			add_building_construction = {
 				type = bunker
 				level = 2
 				instant_build = yes
 				province = 4392
 			}
-
 			add_building_construction = {
 				type = bunker
 				level = 1
 				instant_build = yes
 				province = 10158
 			}
-
 			add_building_construction = {
 				type = bunker
 				level = 1
 				instant_build = yes
 				province = 1281
 			}
-
 			add_building_construction = {
 				type = bunker
 				level = 2
 				instant_build = yes
 				province = 12122
 			}
-			
 			add_building_construction = {
 				type = bunker
 				level = 2
 				instant_build = yes
 				province = 12220
 			}
-
 			add_building_construction = {
 				type = bunker
 				level = 2
@@ -611,25 +613,26 @@ country_event = {
 			}
 		}
 	}
-	
 	option = {
 		name = mvlv_generic.1.k
-		ai_chance = { factor = 200 }
+		ai_chance = {
+			factor = 200
+		}
 		trigger = {
 			TAG = SOV
 			is_ai = yes
 		}
-		
 		add_ideas = mvlv_difficulty_ai
-		
 		#ユニットを追加
-		load_oob="SOV_1999_ai"
-		
+		load_oob = "SOV_1999_ai"
 		#TSF装備追加
 		SOV = {
-			add_equipment_to_stockpile = { type = tsf_equipment_MiG-21 amount = 300 producer = SOV }
+			add_equipment_to_stockpile = {
+				type = tsf_equipment_MiG-21
+				amount = 300
+				producer = SOV
+			}
 		}
-		
 		637 = {
 			add_building_construction = {
 				type = naval_base
@@ -638,7 +641,6 @@ country_event = {
 				province = 1863
 			}
 		}
-
 		644 = {
 			add_building_construction = {
 				type = bunker
@@ -647,7 +649,6 @@ country_event = {
 				province = 4744
 			}
 		}
-
 		655 = {
 			add_building_construction = {
 				type = coastal_bunker
@@ -656,7 +657,6 @@ country_event = {
 				province = 1742
 			}
 		}
-		
 		790 = {
 			add_building_construction = {
 				type = bunker
@@ -666,24 +666,34 @@ country_event = {
 			}
 		}
 	}
-	
 	option = {
 		name = mvlv_generic.1.l
-		ai_chance = { factor = 200 }
+		ai_chance = {
+			factor = 200
+		}
 		trigger = {
 			TAG = UNI
 			is_ai = yes
 		}
-		
 		add_ideas = mvlv_difficulty_ai
-		
 		#TSF装備追加
 		UNI = {
-			add_equipment_to_stockpile = { type = tsf_equipment_F-4 amount = 200 producer = UNI }
-			add_equipment_to_stockpile = { type = tsf_equipment_F-16 amount = 150 producer = UNI }
-			add_equipment_to_stockpile = { type = tsf_equipment_F-15E amount = 100 producer = UNI }
+			add_equipment_to_stockpile = {
+				type = tsf_equipment_F-4
+				amount = 200
+				producer = UNI
+			}
+			add_equipment_to_stockpile = {
+				type = tsf_equipment_F-16
+				amount = 150
+				producer = UNI
+			}
+			add_equipment_to_stockpile = {
+				type = tsf_equipment_F-15E
+				amount = 100
+				producer = UNI
+			}
 		}
-		
 		#ユーコン基地の要塞化
 		791 = {
 			add_building_construction = {
@@ -694,26 +704,26 @@ country_event = {
 			}
 		}
 	}
-
 	option = {
 		name = mvlv_generic.1.o
-		ai_chance = { factor = 200 }
-		trigger = { 
+		ai_chance = {
+			factor = 200
+		}
+		trigger = {
 			TAG = EEA
 			is_ai = yes
 		}
-		
 		add_ideas = mvlv_difficulty_ai
-		
 		#ユニットを追加
-		load_oob="EEA_1999_ai"
-		
+		load_oob = "EEA_1999_ai"
 		#TSF装備追加
 		EEA = {
-			add_equipment_to_stockpile = { type = tsf_equipment_MiG-23 amount = 300 producer = EEA }
+			add_equipment_to_stockpile = {
+				type = tsf_equipment_MiG-23
+				amount = 300
+				producer = EEA
+			}
 		}
-				
-		
 		#グリーンランドの要塞化
 		805 = {
 			add_building_construction = {
@@ -721,30 +731,30 @@ country_event = {
 				level = 5
 				instant_build = yes
 				province = 10636
-			}	
+			}
 		}
 	}
-	
 	option = {
 		name = mvlv_generic.1.n
-		ai_chance = { factor = 200 }
+		ai_chance = {
+			factor = 200
+		}
 		trigger = {
 			is_in_faction_with = BET
 			# is_ai = yes
 		}
-		
 		add_ideas = mvlv_difficulty_beta
 		load_oob = "garrison_BET_1999"
-	
 		hidden_effect = {
 			set_global_flag = player_choosed_difficulty
 			set_major = yes
 		}
 	}
-	
 	option = {
 		name = mvlv_generic.1.m
-		ai_chance = { factor = 200 }
+		ai_chance = {
+			factor = 200
+		}
 		trigger = {
 			OR = {
 				TAG = USA
@@ -755,19 +765,17 @@ country_event = {
 			}
 			is_ai = yes
 		}
-		
 		add_ideas = mvlv_difficulty_ai
 	}
-
 	option = {
 		name = mvlv_generic.1.o
-		ai_chance = { factor = 200 }
+		ai_chance = {
+			factor = 200
+		}
 		trigger = {
 			tag = H00
 		}
-		
 		add_ideas = mvlv_difficulty_beta
-	
 		hidden_effect = {
 			set_global_flag = player_choosed_difficulty
 			set_major = yes
@@ -784,7 +792,6 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	hidden = yes
-	
 	immediate = {
 		country_event = mvlv_generic.3
 		country_event = mvlv_generic.4
@@ -800,8 +807,7 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	hidden = yes
-	
-	immediate ={
+	immediate = {
 		#####ステート名を設定#####
 		20 = {
 			set_state_name = "里昂巢穴"
@@ -851,11 +857,9 @@ country_event = {
 		657 = {
 			set_state_name = "布拉戈维申斯克巢穴"
 		}
-
 		694 = {
 			set_state_name = "国联军瓜德罗普基地"
 		}
-
 		788 = {
 			set_state_name = "国联本部"
 		}
@@ -895,8 +899,6 @@ country_event = {
 		800 = {
 			set_state_name = "克拉斯诺亚尔斯克巢穴"
 		}
-		
-
 		############プロヴィンス名############
 		set_province_name = {
 			id = 30
@@ -946,7 +948,6 @@ country_event = {
 			id = 7765
 			name = "奥廖克明斯克巢穴"
 		}
-		
 		#喀什巢穴
 		set_province_name = {
 			id = 13254
@@ -1005,7 +1006,6 @@ country_event = {
 			name = "大厅"
 		}
 		#____________________________________________________________
-
 		set_province_name = {
 			id = 9130
 			name = "韦利斯克巢穴"
@@ -1076,8 +1076,8 @@ country_event = {
 		}
 	}
 }
-#____________________________________________________________
 
+#____________________________________________________________
 #リソース追加イベント
 #____________________________________________________________
 country_event = {
@@ -1087,8 +1087,7 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	hidden = yes
-	
-	immediate ={
+	immediate = {
 		hidden_effect = {
 			every_state = {
 				limit = {
@@ -1121,7 +1120,6 @@ country_event = {
 					is_capital = yes
 				}
 				set_state_category = hive
-				
 				THIS = {
 					add_resource = {
 						type = steel
@@ -1160,17 +1158,18 @@ country_event = {
 	desc = mvlv_generic.5.d
 	title = mvlv_generic.5.t
 	fire_only_once = yes
-
 	is_triggered_only = yes
-	option ={
+	option = {
 		name = mvlv_generic.5.a
-		JAP = { country_event = mvlv_generic.6 }
+		JAP = {
+			country_event = mvlv_generic.6
+		}
 		ai_chance = {
 			base = 50
 		}
 	}
-	option ={
-		name =mvlv_generic.5.b
+	option = {
+		name = mvlv_generic.5.b
 		ai_chance = {
 			base = 0
 		}
@@ -1185,12 +1184,16 @@ country_event = {
 	title = mvlv_generic.6.t
 	fire_only_once = yes
 	is_triggered_only = yes
-	
-	option ={
+	option = {
 		name = mvlv_generic.6.a
 		add_ideas = JAP_information
 		random_list = {
-			100 = { country_event = { id = mvlv_generic.7 days = 30 } }
+			100 = {
+				country_event = {
+					id = mvlv_generic.7
+					days = 30
+				}
+			}
 		}
 	}
 }
@@ -1202,10 +1205,8 @@ country_event = {
 	desc = mvlv_generic.7.d
 	title = mvlv_generic.7.t
 	picture = GFX_mvlv_start_kekki
-
 	fire_only_once = yes
 	is_triggered_only = yes
-	
 	trigger = {
 		TAG = JAP
 		has_idea = JAP_information
@@ -1217,10 +1218,11 @@ country_event = {
 			is_controlled_by = UNI
 		}
 	}
-	
-	option ={
+	option = {
 		name = mvlv_generic.7.a
-		USA = { country_event = mvlv_generic.8 }
+		USA = {
+			country_event = mvlv_generic.8
+		}
 	}
 }
 
@@ -1230,20 +1232,22 @@ country_event = {
 	id = mvlv_generic.8
 	desc = mvlv_generic.8.d
 	title = mvlv_generic.8.t
-
 	fire_only_once = yes
 	is_triggered_only = yes
-	
-	option ={
+	option = {
 		name = mvlv_generic.8.a
-		JAP = { country_event = mvlv_generic.9 }
+		JAP = {
+			country_event = mvlv_generic.9
+		}
 		ai_chance = {
 			base = 50
 		}
 	}
-	option ={
+	option = {
 		name = mvlv_generic.8.b
-		JAP = { country_event = mvlv_generic.10 }
+		JAP = {
+			country_event = mvlv_generic.10
+		}
 		ai_chance = {
 			base = 0
 		}
@@ -1258,13 +1262,27 @@ country_event = {
 	title = mvlv_generic.9.t
 	fire_only_once = yes
 	is_triggered_only = yes
-	
-	option ={
+	option = {
 		name = mvlv_generic.9.a
 		random_list = {
-			65 = { country_event = { id = mvlv_generic.12 days = 1 } }
-			30 = { country_event = { id = mvlv_generic.13 days = 1 } }
-			5 = { country_event = { id = mvlv_generic.14 days = 1 } }
+			65 = {
+				country_event = {
+					id = mvlv_generic.12
+					days = 1
+				}
+			}
+			30 = {
+				country_event = {
+					id = mvlv_generic.13
+					days = 1
+				}
+			}
+			5 = {
+				country_event = {
+					id = mvlv_generic.14
+					days = 1
+				}
+			}
 		}
 	}
 }
@@ -1277,13 +1295,27 @@ country_event = {
 	title = mvlv_generic.10.t
 	fire_only_once = yes
 	is_triggered_only = yes
-	
-	option ={
+	option = {
 		name = mvlv_generic.10.a
 		random_list = {
-			20 = { country_event = { id = mvlv_generic.12 days = 1 } }#success
-			75 = { country_event = { id = mvlv_generic.13 days = 1 } }#failure
-			5 = { country_event = { id = mvlv_generic.14 days = 1 } }#failure
+			20 = {
+				country_event = {
+					id = mvlv_generic.12
+					days = 1
+				}
+			}			#success
+			75 = {
+				country_event = {
+					id = mvlv_generic.13
+					days = 1
+				}
+			}			#failure
+			5 = {
+				country_event = {
+					id = mvlv_generic.14
+					days = 1
+				}
+			}			#failure
 		}
 	}
 }
@@ -1295,22 +1327,21 @@ country_event = {
 	desc = mvlv_generic.12.d
 	title = mvlv_generic.12.t
 	picture = GFX_mvlv_start_good
-
 	fire_only_once = yes
 	is_triggered_only = yes
-	
-	option ={
+	option = {
 		name = mvlv_generic.12.a
 		remove_ideas = JAP_puppet_shogun
 		remove_ideas = JAP_information
 		add_ideas = JAP_shogun
 		if = {
 			limit = {
-				check_variable = { global.var_generalDeathMode = 1 }
+				check_variable = {
+					global.var_generalDeathMode = 1
+				}
 			}
-			
-			retire_character =  JAP_unit_leader_4
-			USA = { 
+			retire_character = JAP_unit_leader_4
+			USA = {
 				retire_character = USA_units_leader_1
 				# recruit_character = USA_units_leader_13
 				USA_units_leader_13 = {
@@ -1332,7 +1363,7 @@ country_event = {
 				#	defense_skill = 7
 				#	planning_skill = 6
 				#	logistics_skill = 5}
-			} 
+			}
 		}
 	}
 }
@@ -1344,22 +1375,23 @@ country_event = {
 	desc = mvlv_generic.13.d
 	title = mvlv_generic.13.t
 	picture = GFX_mvlv_start_bad
-
 	fire_only_once = yes
 	is_triggered_only = yes
-	
-	option ={
+	option = {
 		name = mvlv_generic.13.a
 		remove_ideas = JAP_puppet_shogun
 		remove_ideas = JAP_information
 		add_ideas = JAP_shogun
-		
 		if = {
 			limit = {
-				check_variable = { global.var_generalDeathMode = 1 }
+				check_variable = {
+					global.var_generalDeathMode = 1
+				}
 			}
-			retire_character =  JAP_unit_leader_5
-			USA = { retire_character = USA_units_leader_1}
+			retire_character = JAP_unit_leader_5
+			USA = {
+				retire_character = USA_units_leader_1
+			}
 		}
 	}
 }
@@ -1372,11 +1404,10 @@ country_event = {
 	title = mvlv_generic.14.t
 	fire_only_once = yes
 	is_triggered_only = yes
-	
-	option ={
+	option = {
 		name = mvlv_generic.14.a
 		# TODO 殿下の削除をどうするか　とりあえずそのまま
-		add_timed_idea =  { 
+		add_timed_idea = {
 			idea = JAP_killed_shougun
 			days = 365
 		}
@@ -1395,12 +1426,16 @@ country_event = {
 		remove_ideas = JAP_information
 		if = {
 			limit = {
-				check_variable = { global.var_generalDeathMode = 1 }
+				check_variable = {
+					global.var_generalDeathMode = 1
+				}
 			}
-			retire_character =  JAP_unit_leader_1
-			retire_character =  JAP_unit_leader_4
-			retire_character =  JAP_unit_leader_5
-			USA = { retire_character = USA_units_leader_1 }
+			retire_character = JAP_unit_leader_1
+			retire_character = JAP_unit_leader_4
+			retire_character = JAP_unit_leader_5
+			USA = {
+				retire_character = USA_units_leader_1
+			}
 		}
 	}
 }
@@ -1408,57 +1443,91 @@ country_event = {
 #難易度変更
 #マルチ途中参加者向け
 #____________________________________________________________
-
 country_event = {
 	id = mvlv_generic.15
 	title = mvlv_generic.15.t
 	desc = mvlv_generic.15.d
 	picture = GFX_mvlv_start_event
-	
 	fire_only_once = no
 	is_triggered_only = yes
-
 	option = {
 		name = mvlv_generic.1.a
-		ai_chance = { factor = 0 }
+		ai_chance = {
+			factor = 0
+		}
 		add_ideas = mvlv_difficulty_easy
-		remove_ideas = { mvlv_difficulty_normal }
-		remove_ideas = { mvlv_difficulty_hard }
-		remove_ideas = { mvlv_difficulty_unlimited }
-		remove_ideas = { mvlv_difficulty_ai }
+		remove_ideas = {
+			mvlv_difficulty_normal
+		}
+		remove_ideas = {
+			mvlv_difficulty_hard
+		}
+		remove_ideas = {
+			mvlv_difficulty_unlimited
+		}
+		remove_ideas = {
+			mvlv_difficulty_ai
+		}
 		简单难度参数设置 = yes
 	}
-
 	option = {
 		name = mvlv_generic.1.b
-		ai_chance = { factor = 0 }
+		ai_chance = {
+			factor = 0
+		}
 		add_ideas = mvlv_difficulty_normal
-		remove_ideas = { mvlv_difficulty_easy }
-		remove_ideas = { mvlv_difficulty_hard }
-		remove_ideas = { mvlv_difficulty_unlimited }
-		remove_ideas = { mvlv_difficulty_ai }
+		remove_ideas = {
+			mvlv_difficulty_easy
+		}
+		remove_ideas = {
+			mvlv_difficulty_hard
+		}
+		remove_ideas = {
+			mvlv_difficulty_unlimited
+		}
+		remove_ideas = {
+			mvlv_difficulty_ai
+		}
 		普通难度参数设置 = yes
 	}
-
 	option = {
 		name = mvlv_generic.1.c
-		ai_chance = { factor = 0 }
+		ai_chance = {
+			factor = 0
+		}
 		add_ideas = mvlv_difficulty_hard
-		remove_ideas = { mvlv_difficulty_easy }
-		remove_ideas = { mvlv_difficulty_normal }
-		remove_ideas = { mvlv_difficulty_unlimited }
-		remove_ideas = { mvlv_difficulty_ai }
+		remove_ideas = {
+			mvlv_difficulty_easy
+		}
+		remove_ideas = {
+			mvlv_difficulty_normal
+		}
+		remove_ideas = {
+			mvlv_difficulty_unlimited
+		}
+		remove_ideas = {
+			mvlv_difficulty_ai
+		}
 		困难难度参数设置 = yes
 	}
-
 	option = {
 		name = mvlv_generic.1.e
-		ai_chance = { factor = 0 }
+		ai_chance = {
+			factor = 0
+		}
 		add_ideas = mvlv_difficulty_unlimited
-		remove_ideas = { mvlv_difficulty_easy }
-		remove_ideas = { mvlv_difficulty_normal }
-		remove_ideas = { mvlv_difficulty_hard }
-		remove_ideas = { mvlv_difficulty_ai }
+		remove_ideas = {
+			mvlv_difficulty_easy
+		}
+		remove_ideas = {
+			mvlv_difficulty_normal
+		}
+		remove_ideas = {
+			mvlv_difficulty_hard
+		}
+		remove_ideas = {
+			mvlv_difficulty_ai
+		}
 		地狱难度参数设置 = yes
 	}
 }
@@ -1471,18 +1540,19 @@ country_event = {
 	id = mvlv_generic.16
 	title = mvlv_generic.16.t
 	desc = mvlv_generic.16.d
-	
 	fire_only_once = no
 	is_triggered_only = yes
-
 	option = {
 		name = mvlv_generic.16.a
-		set_variable = { global.var_generalDeathMode = 1 }
+		set_variable = {
+			global.var_generalDeathMode = 1
+		}
 	}
-
 	option = {
 		name = mvlv_generic.16.b
-		set_variable = { global.var_generalDeathMode = 0 }
+		set_variable = {
+			global.var_generalDeathMode = 0
+		}
 	}
 }
 
@@ -1493,15 +1563,23 @@ country_event = {
 	id = mvlv_generic.98
 	hidden = yes
 	is_triggered_only = yes
-
 	option = {
-		ai_chance = { factor = 100 }
-		country_event = { id = mvlv_generic.98 days = 10 }
-
-		set_variable = { THIS.var_war_situation = 0 }
-		set_variable = { THIS.var_exists_hive = 0 }
-		set_variable = { THIS.var_exists_h01 = 0 }
-		
+		ai_chance = {
+			factor = 100
+		}
+		country_event = {
+			id = mvlv_generic.98
+			days = 10
+		}
+		set_variable = {
+			THIS.var_war_situation = 0
+		}
+		set_variable = {
+			THIS.var_exists_hive = 0
+		}
+		set_variable = {
+			THIS.var_exists_h01 = 0
+		}
 		#残存巢穴から
 		every_country = {
 			if = {
@@ -1510,53 +1588,66 @@ country_event = {
 					has_idea = mvlv_brokenhive
 					#NOT = { tag = BET }
 				}
-				add_to_variable = { ROOT.var_exists_hive = 1 }
+				add_to_variable = {
+					ROOT.var_exists_hive = 1
+				}
 			}
 			if = {
 				limit = {
 					tag = BET
 					has_idea = mvlv_brokenhive
 				}
-				add_to_variable = { ROOT.var_exists_h01 = 10 }
+				add_to_variable = {
+					ROOT.var_exists_h01 = 10
+				}
 			}
 		}
-		
-		add_to_variable = { THIS.var_war_situation = THIS.var_exists_hive }
-		add_to_variable = { THIS.var_war_situation = THIS.var_exists_h01 }
-
+		add_to_variable = {
+			THIS.var_war_situation = THIS.var_exists_hive
+		}
+		add_to_variable = {
+			THIS.var_war_situation = THIS.var_exists_h01
+		}
 		every_country = {
 			if = {
 				limit = {
 					is_in_faction_with = UNI
-					check_variable = { THIS.var_war_situation < global.var_betawar_situation_1 }
+					check_variable = {
+						THIS.var_war_situation < global.var_betawar_situation_1
+					}
 				}
 				add_ideas = betawar_situation_1
 			}
 			else_if = {
 				limit = {
 					is_in_faction_with = UNI
-					check_variable = { THIS.var_war_situation < global.var_betawar_situation_2 }
+					check_variable = {
+						THIS.var_war_situation < global.var_betawar_situation_2
+					}
 				}
 				add_ideas = betawar_situation_2
 			}
 			else_if = {
 				limit = {
 					is_in_faction_with = UNI
-					check_variable = { THIS.var_war_situation < global.var_betawar_situation_3 }
+					check_variable = {
+						THIS.var_war_situation < global.var_betawar_situation_3
+					}
 				}
 				add_ideas = betawar_situation_3
 			}
 			else_if = {
 				limit = {
 					is_in_faction_with = UNI
-					check_variable = { THIS.var_war_situation < global.var_betawar_situation_4 }
+					check_variable = {
+						THIS.var_war_situation < global.var_betawar_situation_4
+					}
 				}
 				add_ideas = betawar_situation_4
 			}
 		}
 	}
 }
-
 
 #プレイヤー数カウントイベント
 #____________________________________________________________
@@ -1567,32 +1658,39 @@ country_event = {
 	picture = BETA_event_1
 	fire_only_once = no
 	hidden = yes
-	
 	trigger = {
 		TAG = BET
 	}
-	
 	mean_time_to_happen = {
 		days = 30
 	}
-	
-	immediate ={
+	immediate = {
 		# ai_chance = { factor = 100 }
-		set_variable = { global.var_playercount = 0 }
+		set_variable = {
+			global.var_playercount = 0
+		}
 		every_country = {
 			IF = {
 				limit = {
 					is_ai = no
 				}
-				add_to_variable = { global.var_playercount = 1 }
+				add_to_variable = {
+					global.var_playercount = 1
+				}
 			}
 		}
 		#####
 		if = {
-			limit = { NOT = { has_global_flag = MVLV_command_ouka_flag } }
+			limit = {
+				NOT = {
+					has_global_flag = MVLV_command_ouka_flag
+				}
+			}
 			if = {
 				limit = {
-					check_variable = { global.var_playercount = 1 }
+					check_variable = {
+						global.var_playercount = 1
+					}
 				}
 				every_country = {
 					limit = {
@@ -1613,10 +1711,12 @@ country_event = {
 					limit = {
 						AND = {
 							is_ai = no
-							NOT = { is_in_faction_with = UNI }
+							NOT = {
+								is_in_faction_with = UNI
+							}
 						}
 					}
-					UNI = {	
+					UNI = {
 						set_country_flag = PL_ouka_operation_flag
 					}
 				}
@@ -1627,7 +1727,7 @@ country_event = {
 						}
 						clr_country_flag = PL_ouka_operation_flag
 					}
-					UNI = {	
+					UNI = {
 						set_country_flag = PL_ouka_operation_flag
 					}
 				}
@@ -1643,33 +1743,29 @@ country_event = {
 	desc = mvlv_generic.997.d
 	title = mvlv_generic.999.t
 	picture = GFX_mvlv_mascot
-
 	is_triggered_only = yes
-	
 	option = {
 		name = mvlv_generic.999.a
 	}
 }
+
 country_event = {
 	id = mvlv_generic.998
 	desc = mvlv_generic.998.d
 	title = mvlv_generic.999.t
 	picture = GFX_mvlv_mascot
-
 	is_triggered_only = yes
-	
 	option = {
 		name = mvlv_generic.999.a
 	}
 }
+
 country_event = {
 	id = mvlv_generic.999
 	desc = mvlv_generic.999.d
 	title = mvlv_generic.999.t
 	picture = GFX_mvlv_mascot
-
 	is_triggered_only = yes
-	
 	option = {
 		name = mvlv_generic.999.a
 	}
