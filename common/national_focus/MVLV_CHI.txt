@@ -126,9 +126,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_02
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			807 = {
@@ -158,9 +155,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_03
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_ideas = CHI_I2
@@ -178,9 +172,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_04
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			647 = {
@@ -529,6 +520,7 @@ focus_tree = {
 			# 	category = land_doctrine
 			# }
 			add_tech_bonus = {
+				name = "CHI focus bonus"
 				bonus = 1
 				uses = 1
 				category = MVLV_tsf_tech
