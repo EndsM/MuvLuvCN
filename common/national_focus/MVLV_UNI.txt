@@ -1770,8 +1770,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 社霞
-		id = "UNI_YashiroKasumi"
+		# 社霞
+		id = UNI_YashiroKasumi
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		# relative_position_id = "UNI_ReuseAL3"
@@ -1782,53 +1782,25 @@ focus_tree = {
 		y = 0
 		mutually_exclusive = {
 		}
-		#available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			# recruit_character = UNI_units_leader_26
+			custom_effect_tooltip = UNI_YashiroKasumi_tt
 			UNI_units_leader_26 = {
 				set_character_flag = character_unlocked
 			}
-			#hidden_effect = {
-			#	create_corps_commander = {
-			#		name = "社霞"
-			#		gfx = "GFX_社霞头像"
-			#		traits = {
-			#			career_officer
-			#			brilliant_strategist
-			#			true_genius
-			#			tsf_officer
-			#			expert_improviser
-			#			tsf_leader
-			#			trickster
-			#			inspirational_leader
-			#			hill_fighter
-			#		}
-			#		skill = 9
-			#		attack_skill = 10
-			#		defense_skill = 10
-			#		planning_skill = 10
-			#		logistics_skill = 10
-			#	}
-			#}
 		}
 	}
 	focus = {
-		# id = 调整人列装计划
-		id = "UNI_FruitofTheNewAL3"
+		# 调整人列装计划
+		id = UNI_FruitofTheNewAL3
 		icon = GFX_goal_generic_national_unity
 		#text = 
-		relative_position_id = "UNI_ReuseAL3"
+		relative_position_id = UNI_ReuseAL3
 		prerequisite = {
-			focus = "UNI_ReuseAL3"
+			focus = UNI_ReuseAL3
 		}
 		x = 0
 		y = 2
@@ -2062,7 +2034,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_equipment_to_stockpile = {
-				type = transport_plane_equipment
+				type = transport_plane_equipment_1
 				amount = 15
 				producer = ROOT
 			}
@@ -2072,7 +2044,6 @@ focus_tree = {
 		# id = 樱花作战的后续
 		id = "UNI_AftermathOfOperationOuka"
 		icon = GFX_goal_generic_national_unity
-		#text = 
 		relative_position_id = "UNI_UNSCJointCommand"
 		prerequisite = {
 			focus = "UNI_UNSCJointCommand"
@@ -3007,13 +2978,9 @@ focus_tree = {
 		# id = 支援日本防卫
 		id = UNI_ProvideAidForJapanDefence
 		icon = GFX_goal_generic_national_unity
-		#text = 
 		x = 11
 		y = 0
-		#relative_position_id = 
-	
 		cost = 1
-		#select_effect = { }
 		completion_reward = {
 			add_tech_bonus = {
 				name = "UNI focus bonus"
@@ -3022,14 +2989,13 @@ focus_tree = {
 				category = MVLV_tsf_tech
 			}
 		}
-		#completation_tooltip = { }
 		ai_will_do = {
 			factor = 10
 		}
 	}
 	focus = {
-		# id = 重申温哥华协议
-		id = "UNI_RestateVancouverTreaty"
+		# 重申温哥华协议
+		id = UNI_RestateVancouverTreaty
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = 0
@@ -3114,11 +3080,6 @@ focus_tree = {
 				uses = 3
 				category = land_doctrine
 			}
-			# add_tech_bonus = {
-			# 	bonus = 0.75
-			# 	uses = 3
-			# 	category = land_doctrine
-			# }
 			add_opinion_modifier = {
 				target = USA
 				modifier = G_bomb_threat_opinion
@@ -3479,25 +3440,15 @@ focus_tree = {
 		available = {
 			has_completed_focus = UNI_operation_ouka
 		}
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 1
-		#select_effect = { }
 		completion_reward = {
 			add_tech_bonus = {
+				name = "UNI focus bonus"
 				category = MVLV_tsf_tech
 				bonus = 3
 				uses = 1
 			}
-			# country_event = {
-			# 	id = uni_event.5
-			# 	hours = 1
-			# }
 		}
-		#completation_tooltip = { }
 		ai_will_do = {
 			factor = 1
 		}
