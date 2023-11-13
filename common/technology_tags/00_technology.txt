@@ -111,6 +111,7 @@ technology_categories = {
 	
 	#MOD_tech
 	MVLV_tsf_tech
+	MVLV_railgun_tech
 	#USA_tsf_tech
 	MVLV_xg_tech
 

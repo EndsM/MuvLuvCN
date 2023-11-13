@@ -1255,6 +1255,9 @@ technologies = {
 				y = 17
 			}
 		}
+		categories = {
+			MVLV_railgun_tech
+		}
 		path = {
 			leads_to_tech = MVLV_research_railgun_2
 			research_cost_coeff = 1
@@ -1264,6 +1267,9 @@ technologies = {
 		research_cost = 3
 		enable_equipment_modules = {
 			MVLV_TSF_railgun_2
+		}
+		categories = {
+			MVLV_railgun_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder

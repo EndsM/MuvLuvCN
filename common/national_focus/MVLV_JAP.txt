@@ -517,7 +517,8 @@ focus_tree = {
 					name = "JAP focus bonus"
 					bonus = 3
 					uses = 1
-					technology = interwar_antitank
+					
+					category = MVLV_tsf_tech
 				}
 			}
 		}
