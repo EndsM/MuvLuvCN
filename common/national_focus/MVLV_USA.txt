@@ -897,12 +897,6 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			JAP = {
-				country_event = {
-					id = mvlv_usa.1_1
-					days = 2
-				}
-			}
 		}
 	}
 	#修复美日关系#
