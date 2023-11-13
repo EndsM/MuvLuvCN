@@ -1,4 +1,4 @@
-version="0.2.26"
+version="0.2.27"
 replace_path="events"
 # It doesn't exist now: common/ai_equipment
 replace_path="common/ai_equipment"

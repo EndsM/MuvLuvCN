@@ -28,7 +28,7 @@ Mark as finished after finish certain task.
 
 - ~~Task 6: Fix the crash introduced in version 1.13.5. Done~~
 
-- Task 7: Replace the chinese naming in national_focus.
+- ~~Task 7: Replace the chinese naming in national_focus.~~
 
 - Task 8: Replace the chinese naming in decisions as well.
 
