@@ -158,6 +158,7 @@ focus_tree = {
 				category = land_doctrine
 			}
 			add_tech_bonus = {
+				name = "CEA focus bonus"
 				bonus = 2.5
 				uses = 3
 				category = MVLV_tsf_tech
@@ -276,9 +277,6 @@ focus_tree = {
 			focus = CEA_tsf
 		}
 		#mutually_exclusive = { focus = CEA_yeswar }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_stability = 0.2
@@ -396,6 +394,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_tech_bonus = {
+				name = "CEA focus bonus"
 				bonus = 3.5
 				uses = 3
 				category = MVLV_tsf_tech
@@ -415,9 +414,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_UNI_forces
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 15
 		available = {
 			has_idea = mvlv_saast
@@ -442,11 +438,9 @@ focus_tree = {
 		}
 		available = {
 			is_subject = no
-		}
-		cost = 10
-		available = {
 			has_idea = mvlv_saast
 		}
+		cost = 10
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = land_doctrine
