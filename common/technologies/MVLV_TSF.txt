@@ -372,6 +372,9 @@ technologies = {
 		enable_equipments = {
 			MVLV_TSF_classis_2_heavy_high_mobility
 		}
+		categories = {
+			MVLV_tsf_tech
+		}
 		folder = {
 			name = MVLV_tsf_folder
 			position = {
@@ -608,6 +611,7 @@ technologies = {
 		start_year = 1973
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		ai_will_do = {
 			factor = 2
@@ -648,6 +652,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_vibration_sensor_2
@@ -672,6 +677,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_vibration_sensor_3
@@ -696,6 +702,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_vibration_sensor_4
@@ -720,6 +727,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_integrated_sensor_4
@@ -740,6 +748,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_infrared_sensor_2
@@ -764,6 +773,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_infrared_sensor_3
@@ -788,6 +798,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_infrared_sensor_4
