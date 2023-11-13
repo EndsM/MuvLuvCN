@@ -13,7 +13,8 @@ focus_tree = {
 		y = 1000
 	}
 	reset_on_civilwar = no
-	#工業ツリー
+	# 工業ツリー
+	# 加强海峡防御
 	focus = {
 		id = CHI_idea_00
 		icon = GFX_goal_generic_construct_military
@@ -191,9 +192,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_05
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_ideas = CHI_I3
@@ -214,9 +212,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_04
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_equipment_to_stockpile = {
@@ -249,9 +244,6 @@ focus_tree = {
 			focus = CHI_idea_01_Ex2
 			focus = CHI_idea_01_Ex3
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_offsite_building = {
@@ -270,9 +262,6 @@ focus_tree = {
 		icon = GFX_goal_generic_neutrality_focus
 		x = 15
 		y = 0
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_political_power = 150
@@ -298,9 +287,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CHI_idea_12_L1
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_stability = 0.2
@@ -330,9 +316,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_R1
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_war_support = 0.2
@@ -353,9 +336,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_R2
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_political_power = 250
@@ -373,9 +353,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_R3
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_research_slot = 1
@@ -395,9 +372,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_R4
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_state_core = 813
@@ -424,9 +398,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CHI_idea_12_L1
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_stability = 0.05
@@ -444,9 +415,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_S1
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_timed_idea = {
@@ -474,9 +442,6 @@ focus_tree = {
 				has_idea = CHI_P2
 			}
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_popularity = {
@@ -503,9 +468,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_S3
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -539,9 +501,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_S4
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_ideas = CHI_P3
@@ -576,9 +535,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CHI_idea_12_S1
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_stability = -0.1
@@ -611,9 +567,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_L1
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_stability = 0.2
@@ -633,9 +586,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_L2
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -650,6 +600,7 @@ focus_tree = {
 			# 	category = land_doctrine
 			# }
 			add_tech_bonus = {
+				name = "CHI focus name"
 				bonus = 1
 				uses = 2
 				category = MVLV_tsf_tech
@@ -668,9 +619,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_L3
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_ideas = CHI_P4
@@ -688,9 +636,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_L4
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			army_experience = 200
@@ -732,9 +677,6 @@ focus_tree = {
 				is_controlled_by = CHI
 			}
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			591 = {
@@ -776,9 +718,6 @@ focus_tree = {
 				is_controlled_by = CHI
 			}
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			595 = {
@@ -809,9 +748,6 @@ focus_tree = {
 				is_controlled_by = CHI
 			}
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			set_capital = {
@@ -845,9 +781,6 @@ focus_tree = {
 				is_controlled_by = CHI
 			}
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			set_capital = {
@@ -867,9 +800,6 @@ focus_tree = {
 		icon = GFX_goal_generic_national_unity
 		x = 2
 		y = 0
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 1
 		completion_reward = {
 			add_political_power = 100
@@ -888,9 +818,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_ReviewDiploandWarStrat
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			add_offsite_building = {
@@ -912,9 +839,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_InvestSouthAmericaFactory
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 1
 		completion_reward = {
 			add_ideas = CHI_cooperation_with_JAP
@@ -938,9 +862,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_UFC_USSR_TechCoop
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			EEA = {
@@ -963,9 +884,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_SendGEUAdvisors
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			SOV = {
@@ -991,9 +909,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_AbsorbUSTSFTech
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 8
 		completion_reward = {
 			add_ideas = CHI_amphibious_improve
@@ -1012,9 +927,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_ReviewDiploandWarStrat
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			add_offsite_building = {
@@ -1036,9 +948,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_InvestAUSRefugeeFactory
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 1
 		completion_reward = {
 			add_political_power = 150
@@ -1060,9 +969,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_MilitaryCoopWithJapan
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			add_political_power = -100
@@ -1089,9 +995,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_DemandAidFromUS
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			USA = {
