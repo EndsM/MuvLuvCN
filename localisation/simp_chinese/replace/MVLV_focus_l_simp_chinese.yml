@@ -1100,6 +1100,7 @@
   SOA_AllInProduction:0 "三班倒"
   SOA_AllInProduction_desc:0 "工厂的运作将永不停歇，灯火将永不熄灭，崭新的武器将如潮水般支援我们的前线。"
 
+  EUR_focus_tree:0 "欧联国策树"
   EUR_FortifyChannelDefence:0 "加固海峡防线"
   EUR_FortifyChannelDefence_desc:0 "英国本土战役之后，我们的防线一直处于摇摇欲坠的态势，必须立刻加固防线。"
   EUR_RebuildLondon:0 "重建伦敦"

@@ -181,6 +181,10 @@
   UNI_blue_flag_desc:0 "计划在育空基地由各国试验部队进行大规模模拟战。通过这个演习可以促进试验部队之间的技术交流，在开发中引入在竞争中产生的新想法等。"
   UNI_yukon_base:0 "育空基地重建"
   UNI_yukon_base_desc:0 "虽然育空基地的恐怖事件付出了巨大的牺牲，但恐怖分子被镇压，基地的功能也恢复了。必须尽快重建。"
+  UNI_a01:0 "重建"
+  UNI_a01_desc:0 "A-01联队在ALTERNATIVE4中发挥了重要作用，成功地引导了“樱花作战”，但在多次激战中消耗殆尽，最终解散。香月博士随之开始寻找新的战斗力(棋子)。"
+  UNI_vd:0 "女武神数据"
+  UNI_vd_desc:0 "女武神留下的数据在今后的BETA战中一定会有价值。为了国联在战后也能掌握主导，必须摸索如何使用这些数据。"  
   UNI_YashiroKasumi_tt:0 "启用社霞"
   UNI_YashiroKasumi_tt_desc:0 ""
 
@@ -340,6 +344,7 @@
   JAP_NoTraitorsTomorrow:0 "天诛国贼"
   JAP_NoTraitorsTomorrow_desc:0 "万事俱备，一切都是为了帝国的未来。那些暗地里勾结外国势力，企图颠覆日本帝国之人，他们绝无明日可言。愿诸位的剑刃，能在黎明到来前畅饮叛徒的鲜血，用我们的牺牲来打开帝国的未来！"
 
+  CAN_focus_tree:0 "加拿大国策树"
   CAN_start:0 "走向复兴"
   CAN_start_desc:0 "加拿大一半以上的土地已不再宜居。在这种情况下，什么才是维持国家的最佳方法?"
   CAN_man:0 "召回难民"
@@ -360,6 +365,7 @@
   CAN_yeswar_desc:0 "如果西伯利亚的苏军战败，我国将成为最前线。为此，为增强军事力量，应借美国代理人之力开展宣传。"
   CAN_nowar:0 "为了追求和平"
   CAN_nowar_desc:0 "与我军直接作战相比，美军和苏军的作战能力会更强。因此，我国应努力维持国内治安，全力支援美军。"
+
   SOA_start:0 "诀别"
   SOA_start_desc:0 "鉴于目前的世界形势，中南美国家可以说是过于和平了。SAAST条约使我们成为世界上屈指可数的经济大国，但也使我们南美大陆的人民远离战争。的确，我们是离前线最远的大陆，但并非一直如此。也不能保证能得到美国的保护。我们应该拥有保护我们自己的力量。"
   SOA_man:0 "计划的开始"
@@ -394,6 +400,7 @@
   SOA_XM3_desc:0 "派遣军在美国提供的战术机上的训练完成了。作为南美第一个派遣部队马上派到前线吧。"
   SOA_unification:0 "战术研究"
   SOA_unification_desc:0 "即使是战术机，没有战术也是不能战斗的。因此，让我们从美国聘请教官指导战术吧。"
+
   CEA_start:0 "诀别"
   CEA_start_desc:0 "鉴于目前的世界形势，中南美国家可以说是过于和平了。SAAST条约使我们成为世界上屈指可数的经济大国，但也使我们南美大陆的人民远离战争。的确，我们是离前线最远的大陆，但并非一直如此。也不能保证能得到美国的保护。我们应该拥有保护我们自己的力量。"
   CEA_man:0 "计划的开始"
@@ -428,6 +435,7 @@
   CEA_XM3_desc:0 "派遣军在美国提供的战术机上的训练完成了。作为南美第一个派遣部队马上派到前线吧。"
   CEA_unification:0 "战术研究"
   CEA_unification_desc:0 "即使是战术机，没有战术也是不能战斗的。因此，让我们从美国聘请教官指导战术吧。"
+
   ose_first:0 "本土防卫"
   ose_first_desc:0 "多年来我们作为后方国家过着安全舒适的生活，但考虑到近年来BETA的进攻速度，涌向我们大陆也只是时间问题，习惯了和平的我们没有对抗BETA的军力。因此虽然反对的人很多，但必须采取一切手段使国民和国家强大起来。"
   ose_eco:0 "人类工厂"
@@ -496,6 +504,7 @@
   ose_ghard4_desc:0 "不能让BETA登陆我国。加紧修缮、扩建、新建要塞。"
   ose_ghard5:0 "国联的紧急援助"
   ose_ghard5_desc:0 "针对我国面临的危机，向国联请求援助。也许只是杯水车薪，但总比不做强。"
+
   SOV_finish_five_year_plan_rs:0 "五年计划"
   SOV_finish_five_year_plan_rs_desc:0 "长期增强我国国力的革命计划"
   SOV_move_industry_to_urals_rs:0 "工厂搬迁到阿拉斯加"
@@ -714,10 +723,8 @@
   SOV_NegotiateWithUN_desc:0 "尽管联盟遇到了一些暂时不便解决的事宜，但是我们依然在联大保有额外的两张选票，或许有些会员国可能会对他们感兴趣。"
   SOV_OfferAdditionalInfoAboutAL3ToUN:0 "向国联提供更多AL3的秘密"
   SOV_OfferAdditionalInfoAboutAL3ToUN_desc:0 "香月女士似乎对П3计划的成果很感兴趣，也许她愿意为更多的“怪物”支付代价。"
-  UNI_a01:0 "重建"
-  UNI_a01_desc:0 "A-01联队在ALTERNATIVE4中发挥了重要作用，成功地引导了“樱花作战”，但在多次激战中消耗殆尽，最终解散。香月博士随之开始寻找新的战斗力(棋子)。"
-  UNI_vd:0 "女武神数据"
-  UNI_vd_desc:0 "女武神留下的数据在今后的BETA战中一定会有价值。为了国联在战后也能掌握主导，必须摸索如何使用这些数据。"
+
+  CHI_focus_tree:0 "中国国策树"
   CHI_idea_00:0 "加强海峡防御"
   CHI_idea_00_desc:0 "台湾已经是中华最后的人类生存圈，它的沦陷意味着国家的崩溃。因此，要塞的进一步修缮和扩充是理所当然的。"
   CHI_idea_01:0 "为了夺回祖国"
@@ -803,6 +810,7 @@
   CHI_AbsorbUSTSFTech_desc:0 "在竞争中落败的美国战术机制造商将目光转向了外国，也许我们能借此机会引进美国的战术机制造商来帮助我们开发新战术机。"
   CHI_DemandAidFromUS:0 "向美国请求援助"
   CHI_DemandAidFromUS_desc:0 "虽然美国的战略是先欧后亚，但是如果我们肯支付足够的代价，美国也未必会拒绝我们的援助请求。"
+
   geug_1:0 "调查毒品交易"
   geug_1_desc:0 "KODA等毒品组织正在国内肆虐，特别是在前线地区。甚至有向前线将士贩卖毒品的传闻。我们从98年就开始调查，但他们都在前线附近活动，很少露出马脚。看来得派遣部队进行调查了。"
   geug_3:0 "了断"
@@ -921,6 +929,8 @@
   geu_kaihatu13_desc:0 ""
   geu_kaihatu14:0 "夺回朝鲜"
   geu_kaihatu14_desc:0 ""
+
+  EEA_focus_tree:0 "东欧国策树"
   EEA_I_1:0 "北极圈绝对防线"
   EEA_I_1_desc:0 "新地岛是苏联移交给我们的里大陆最近的据点了，我们已经国土沦丧了，任何土地损失我们都承担不起，必须在此建立绝对防卫线。"
   EEA_I_2:0 "增加研究槽"
@@ -1038,7 +1048,8 @@
   common_cooperation_agreement_desc:0 "向国联提出了以增加负担金为代价缔结技术协定的交易。"
   G_bomb_threat_opinion:0 "G弹威胁论"
   continuous_land_production:0 "装备生产"
-  USA_Adequate_fuel_for_civil_use:0 "充裕的油气资源"
+
+  CEA_focus_tree:0 "中美联合国策树"
   CEA_Unity:0 "风雨同舟"
   CEA_Unity_desc:0 "BETA已经兵临美洲大陆，美国的安全承诺纯属一纸空文，我们需要与南美洲组成一个新的联盟，靠我们自己的力量来自保。"
   CEA_RefugeeLabourers:0 "中美难民工人"
@@ -1063,6 +1074,7 @@
   CEA_EmergencyCivilianFactoryConscription_desc:0 "在灭亡的关头，平民的消费品供给将被限制，所有产能全部为军用服务。"
   CEA_AllInProduction:0 "三班倒"
   CEA_AllInProduction_desc:0 "工厂的运作将永不停歇，灯火将永不熄灭，崭新的武器将如潮水般支援我们的前线。"
+
   SOA_Unity:0 "风雨同舟"
   SOA_Unity_desc:0 "BETA已经兵临美洲大陆，美国的安全承诺纯属一纸空文，我们需要与中美洲组成一个新的联盟，靠我们自己的力量来自保。"
   SOA_RefugeeLabourers:0 "南美难民工人"
@@ -1087,6 +1099,8 @@
   SOA_EmergencyCivilianFactoryConscription_desc:0 "在灭亡的关头，平民的消费品供给将被限制，所有产能全部为军用服务。"
   SOA_AllInProduction:0 "三班倒"
   SOA_AllInProduction_desc:0 "工厂的运作将永不停歇，灯火将永不熄灭，崭新的武器将如潮水般支援我们的前线。"
+
+  EUR_focus_tree:0 "欧联国策树"
   EUR_FortifyChannelDefence:0 "加固海峡防线"
   EUR_FortifyChannelDefence_desc:0 "英国本土战役之后，我们的防线一直处于摇摇欲坠的态势，必须立刻加固防线。"
   EUR_RebuildLondon:0 "重建伦敦"
