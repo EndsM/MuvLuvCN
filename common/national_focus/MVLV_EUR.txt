@@ -518,15 +518,23 @@ focus_tree = {
 			USA = {
 				army_experience = 100
 			}
-			# add_equipment_to_stockpile = {
-			# 	type = tsf_equipment_F-22
-			# 	amount = 600
-			# 	producer = USA
-			# }
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_classis_1_light
-				amount = 600
-				producer = USA
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_2_heavy_normal
+					variant_name = "F-15E打击鹰"
+					amount = 600
+					producer = USA
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_F-15E
+					amount = 600
+					producer = USA
+				}
 			}
 		}
 	}
