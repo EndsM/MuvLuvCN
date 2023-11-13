@@ -17,22 +17,15 @@ focus_tree = {
 	focus = {
 		id = JAP_endOperationLucifer
 		icon = GFX_goal_generic_major_war
-		
 		x = 9
 		y = 0
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 1
-		#select_effect = { }
 		completion_reward = {
 			add_timed_idea = {
 				idea = JAP_conclude_operation_lucifer
 				days = 30
 			}
 		}
-		#completation_tooltip = { }
 		ai_will_do = {
 			factor = 6
 		}
@@ -41,30 +34,20 @@ focus_tree = {
 	focus = {
 		id = JAP_rebuildDefenceLine
 		icon = GFX_goal_generic_build_tank
-		#text = 
 		x = 9
 		y = 1
-		#relative_position_id =
 		prerequisite = {
 			focus = JAP_endOperationLucifer
 		}
-		#mutually_exclusive = { focus =  }
 		available = {
 		}
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 1
-		#select_effect = { }
 		completion_reward = {
 			add_timed_idea = {
 				idea = JAP_reconstruct_defence_line
 				days = 180
 			}
 		}
-		#completation_tooltip = { }
 		ai_will_do = {
 			factor = 2
 		}

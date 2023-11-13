@@ -277,6 +277,7 @@
   USA_InvestSouthAmerica:0 "投资南美"
   USA_InvestSouthAmerica_desc:0 "致南美联合的各位，这是来自合众国的支持，我们期盼着你们的回报。"
 
+  JAP_focus_tree:0 "日本国策树"
   JAP_xfj_project:0 "XFJ计划"
   JAP_xfj_project_desc:0 "我国的战术机开发陷入了僵局。作为第三代战术机，不知火性能优良，但缺乏升级空间，今后的发展前景并不乐观。这样下去，很快就会过时。对此，波音公司提出了共同开发计划。"
   JAP_USJAPTreatyLesson:0 "美日安保条约的教训"
@@ -1177,7 +1178,7 @@
   EUR_LimitedUsageOfHumanModification:0 "有限运用改造人技术"
   EUR_LimitedUsageOfHumanModification_desc:0 "改造人技术成本高昂，尽管实战已经证明了改造人技术的可靠性，我们还是应该将原定的大规模使用计划改为有限部署。"
   EUR_MilitaryCooperationWithJapan:0 "与日本的军事交流"
-  EUR_MilitaryCooperationWithJapan_desc:0 "远隔重洋的日本帝国与我们目前的处境十分相似，因此我们可以与其进行深入的军事交流，以提升两国面对BETA作战时的战斗能力。"
+  EUR_MilitaryCooperationWithJapan_desc:0 "远隔重洋的日本帝国与我们目前的处境十分相似，因此我们可以与其进行深入的军事交流，以互相学习对方的战斗经验，以便更好地应对与BETA的战争。"
 
   AFR_focus_tree:0 "非洲联合国策树"
   AFR_SecureSuezFront:0 "稳住苏伊士防线"
