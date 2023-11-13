@@ -2623,9 +2623,6 @@ focus_tree = {
 		}
 		bypass = {
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			UNI = {
 				country_event = mvlv_uni.1
