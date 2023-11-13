@@ -503,26 +503,18 @@ focus_tree = {
 	focus = {
 		id = JAP_ExportEML99XTech
 		icon = GFX_goal_generic_intelligence_exchange
-		#text = 
 		x = 0
 		y = 1
 		relative_position_id = JAP_EML99XTestFire
 		prerequisite = {
 			focus = JAP_EML99XTestFire
 		}
-		#mutually_exclusive = { focus = }
-		#available = { 531 = { is_fully_controlled_by = JAP  }}
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
-		#select_effect = { }
 		completion_reward = {
 			add_research_slot = 1
 			UNI = {
 				add_tech_bonus = {
+					name = "JAP focus bonus"
 					bonus = 3
 					uses = 1
 					technology = interwar_antitank
@@ -534,22 +526,13 @@ focus_tree = {
 	focus = {
 		id = JAP_JointEML99XProduction
 		icon = GFX_goal_generic_army_artillery
-		#text = 
-		x = 5
-		y = 5
-		#relative_position_id = JAP_expand_imperial_guard_forces
+		x = 0
+		y = 1
+		relative_position_id = JAP_ExportEML99XTech
 		prerequisite = {
 			focus = JAP_ExportEML99XTech
 		}
-		#mutually_exclusive = { focus = }
-		#available = { 531 = { is_fully_controlled_by = JAP  }}
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
-		#select_effect = { }
 		completion_reward = {
 			add_ideas = JAP_joint_railgun_production
 			UNI = {
@@ -579,8 +562,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = JAP_RiseOfNativisim
 		}
-		x = 14
+		x = -1
 		y = 1
+		relative_position_id = JAP_ReviewDiploPolicy
 		completion_reward = {
 			add_political_power = 100
 			add_stability = -0.1
@@ -598,8 +582,9 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_ForgetThePast
 		}
-		x = 14
-		y = 2
+		x = 0
+		y = 1
+		relative_position_id = JAP_ForgetThePast
 		completion_reward = {
 			add_ideas = JAP_promote_japanese_destiny
 		}
@@ -612,8 +597,9 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_ShieldOfTheEast
 		}
-		x = 14
-		y = 3
+		x = 0
+		y = 1
+		relative_position_id = JAP_ShieldOfTheEast
 		completion_reward = {
 			add_stability = -0.1
 			add_ideas = JAP_strong_cabinet
@@ -627,8 +613,9 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_SuppressNativisim
 		}
-		x = 14
-		y = 4
+		x = 0
+		y = 1
+		relative_position_id = JAP_SuppressNativisim
 		completion_reward = {
 			add_political_power = -100
 			add_offsite_building = {
@@ -653,10 +640,12 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_DemandIndustrialSupport
 		}
-		x = 14
-		y = 5
+		x = 0
+		y = 1
+		relative_position_id = JAP_DemandIndustrialSupport
 		completion_reward = {
 			add_tech_bonus = {
+				name = "JAP focus bonus"
 				bonus = 1
 				uses = 2
 				category = MVLV_tsf_tech
