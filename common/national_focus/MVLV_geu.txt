@@ -517,10 +517,21 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			GEU = {
-				add_political_power = -100
+			add_political_power = -100
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
 				add_equipment_to_stockpile = {
-					type = MVLV_TSF_chassis
+					type = MVLV_TSF_classis_3_heavy_normal
+					variant_name = "Rafale阵风"
+					amount = 550
+					producer = UNI
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_Rafale
 					amount = 550
 					producer = UNI
 				}
@@ -631,7 +642,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_equipment_to_stockpile = {
-				type = transport_plane_equipment
+				type = transport_plane_equipment_1
 				amount = 5
 				producer = ROOT
 			}
@@ -1010,10 +1021,23 @@ focus_tree = {
 			factor = 99
 		}
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_chassis
-				amount = 250
-				producer = ROOT
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_2_light_normal
+					variant_name = "F-18C大黄蜂"
+					amount = 250
+					producer = GEU
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_F-18
+					amount = 250
+					producer = GEU
+				}
 			}
 		}
 	}
@@ -1119,10 +1143,23 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = -100
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_chassis
-				amount = 500
-				producer = ROOT
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_3_heavy_normal
+					variant_name = "Rafale阵风"
+					amount = 500
+					producer = UNI
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_Rafale
+					amount = 500
+					producer = UNI
+				}
 			}
 		}
 	}

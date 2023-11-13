@@ -1177,7 +1177,7 @@
   EUR_LimitedUsageOfHumanModification:0 "有限运用改造人技术"
   EUR_LimitedUsageOfHumanModification_desc:0 "改造人技术成本高昂，尽管实战已经证明了改造人技术的可靠性，我们还是应该将原定的大规模使用计划改为有限部署。"
   EUR_MilitaryCooperationWithJapan:0 "与日本的军事交流"
-  EUR_MilitaryCooperationWithJapan_desc:0 "远隔重洋的日本帝国与我们目前的处境十分相似，因此我们可以与其进行深入的军事交流，以提升两国面对BETA作战时的战斗能力。"
+  EUR_MilitaryCooperationWithJapan_desc:0 "远隔重洋的日本帝国与我们目前的处境十分相似，因此我们可以与其进行深入的军事交流，以互相学习对方的战斗经验，以便更好地应对与BETA的战争。"
 
   AFR_focus_tree:0 "非洲联合国策树"
   AFR_SecureSuezFront:0 "稳住苏伊士防线"
