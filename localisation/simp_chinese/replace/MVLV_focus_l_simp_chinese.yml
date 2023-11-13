@@ -10,6 +10,7 @@
   BET_ending_game:0 "重大灾害的防止"
   BET_ending_game_desc:0 "是时候准备彻底根绝重大灾害了"
 
+  UNI_focus_tree:0 "国联国策树"
   UNI_USA_1:0 "美国的一言堂"
   UNI_USA_1_desc:0 "美国的一言堂"
   UNI_USA_coop_LMT:0 "与洛克希德马丁公司的合作"
@@ -509,6 +510,7 @@
   ose_ghard5:0 "国联的紧急援助"
   ose_ghard5_desc:0 "针对我国面临的危机，向国联请求援助。也许只是杯水车薪，但总比不做强。"
 
+  SOV_focus_tree:0 "苏联国策树"
   SOV_finish_five_year_plan_rs:0 "五年计划"
   SOV_finish_five_year_plan_rs_desc:0 "长期增强我国国力的革命计划"
   SOV_move_industry_to_urals_rs:0 "工厂搬迁到阿拉斯加"

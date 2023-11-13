@@ -264,11 +264,13 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_tech_bonus = {
+				name = "SOV focus bonus"
 				bonus = 0.33
 				uses = 1
 				category = cat_strategic_bomber
 			}
 			add_tech_bonus = {
+				name = "SOV focus bonus"
 				bonus = 0.33
 				uses = 3
 				category = nuclear
@@ -552,11 +554,6 @@ focus_tree = {
 				uses = 2
 				category = land_doctrine
 			}
-			# add_tech_bonus = {
-			# 	bonus = 0.75
-			# 	uses = 2
-			# 	category = land_doctrine
-			# }
 		}
 	}
 	#总体战
@@ -668,12 +665,8 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			# set_division_template_cap = {
-			# 	division_template = "轨道降下兵团"
-			# 	division_cap = 16
-			# }
 			add_equipment_to_stockpile = {
-				type = transport_plane_equipment
+				type = transport_plane_equipment_1
 				amount = 5
 				producer = ROOT
 			}
@@ -726,9 +719,6 @@ focus_tree = {
 				decision = SOV_storms
 				show_effect_tooltip = yes
 				show_modifiers = yes
-			}
-			search_filters = {
-				FOCUS_FILTER_ANNEXATION
 			}
 		}
 	}
@@ -786,11 +776,6 @@ focus_tree = {
 				uses = 2
 				category = land_doctrine
 			}
-			# add_tech_bonus = {
-			# 	bonus = 0.6
-			# 	uses = 2
-			# 	category = land_doctrine
-			# }
 		}
 	}
 	#前线指导

@@ -50,16 +50,11 @@ focus_tree = {
 		prerequisite = {
 			focus = SOA_start
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
-		#select_effect = { }
 		completion_reward = {
 			replace_civ_with_arms_factories = yes
 			add_war_support = 0.05
 		}
-		#completation_tooltip = { }
 		ai_will_do = {
 			factor = 1
 		}
@@ -73,11 +68,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SOA_man
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
-		#select_effect = { }
 		completion_reward = {
 			remove_ideas = SOA_happy
 			replace_civ_with_arms_factories = yes
@@ -176,12 +167,8 @@ focus_tree = {
 				uses = 3
 				category = land_doctrine
 			}
-			# add_tech_bonus = {
-			# 	bonus = 2.5
-			# 	uses = 3
-			# 	category = land_doctrine
-			# }
 			add_tech_bonus = {
+				name = "SOA focus bonus"
 				bonus = 2.5
 				uses = 3
 				category = MVLV_tsf_tech
@@ -296,11 +283,6 @@ focus_tree = {
 				uses = 2
 				category = land_doctrine
 			}
-			# add_tech_bonus = {
-			# 	bonus = 1.5
-			# 	uses = 3
-			# 	category = land_doctrine
-			# }
 			add_war_support = 0.1
 		}
 		ai_will_do = {
@@ -452,6 +434,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_tech_bonus = {
+				name = "SOA focus bonus"
 				bonus = 3.5
 				uses = 3
 				category = MVLV_tsf_tech
@@ -537,14 +520,9 @@ focus_tree = {
 		}
 		available = {
 			is_subject = no
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cost = 10
-		available = {
 			has_idea = mvlv_saast
 		}
+		cost = 10
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = land_doctrine
@@ -552,11 +530,6 @@ focus_tree = {
 				uses = 4
 				category = land_doctrine
 			}
-			# add_tech_bonus = {
-			# 	bonus = 3.5
-			# 	uses = 4
-			# 	category = land_doctrine
-			# }
 		}
 		ai_will_do = {
 			factor = 1
@@ -572,9 +545,6 @@ focus_tree = {
 		prerequisite = {
 			focus = SOA_noatom
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			every_owned_state = {
@@ -758,18 +728,10 @@ focus_tree = {
 		prerequisite = {
 			focus = SOA_PurchaseRetiredTSF
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			remove_ideas = mvlv_license
 			add_ideas = MVLV_unconditional_tsf_license
-			# set_technology = {
-			# 	USA_F-15E = 1
-			# 	UNI_T94 = 1
-			# 	USA_F-18EF = 1
-			# }
 			create_equipment_variant = {
 				name = "94式 不知火"
 				type = MVLV_TSF_classis_2_heavy_high_mobility
@@ -990,9 +952,6 @@ focus_tree = {
 		prerequisite = {
 			focus = SOA_ConstructDefenceLine
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			512 = {
@@ -1042,9 +1001,6 @@ focus_tree = {
 		prerequisite = {
 			focus = SOA_EmergencyMobilization
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -1110,9 +1066,6 @@ focus_tree = {
 		prerequisite = {
 			focus = SOA_EmergencyCivilianFactoryConscription
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 4
 		completion_reward = {
 			add_stability = -0.1
