@@ -2644,151 +2644,7 @@ focus_tree = {
 				UNI_units_leader_22 = {
 					set_character_flag = character_unlocked
 				}
-				# recruit_character = UNI_units_leader_17
-				# recruit_character = UNI_units_leader_18
-				# recruit_character = UNI_units_leader_19
-				# recruit_character = UNI_units_leader_20
-				# recruit_character = UNI_units_leader_21
-				# recruit_character = UNI_units_leader_22
 			}
-			#hidden_effect = {
-			#	create_corps_commander = {
-			#		name = "白银武"
-			#		gfx = "GFX_白银武头像"
-			#		id = 996
-			#		traits = {
-			#			true_genius
-			#			tsf_officer
-			#			MVLV_valkyrie_lineage
-			#			expert_improviser
-			#			tsf_leader
-			#			trickster
-			#			inspirational_leader
-			#			war_hero
-			#			hill_fighter
-			#			hive_attacker
-			#		}
-			#		skill = 9
-			#		attack_skill = 8
-			#		defense_skill = 8
-			#		planning_skill = 5
-			#		logistics_skill = 7
-			#	}
-			#	create_corps_commander = {
-			#		name = "御剑冥夜"
-			#		gfx = "GFX_御剑冥夜头像"
-			#		id = 997
-			#		traits = {
-			#			politically_connected
-			#			JAP_samurai_lineage
-			#			infantry_officer
-			#			ranger
-			#			trait_engineer
-			#			fortress_buster
-			#			tsf_officer
-			#			tsf_leader
-			#			hive_attacker
-			#			MVLV_valkyrie_lineage
-			#		}
-			#		skill = 9
-			#		attack_skill = 8
-			#		defense_skill = 7
-			#		planning_skill = 6
-			#		logistics_skill = 8
-			#	}
-			#	create_corps_commander = {
-			#		name = "榊千鹤"
-			#		gfx = "GFX_榊千鹤头像"
-			#		id = 998
-			#		traits = {
-			#			politically_connected
-			#			trait_cautious
-			#			harsh_leader
-			#			skilled_staffer
-			#			organizer
-			#			commander_aptitude
-			#			tsf_commander
-			#			tsf_officer
-			#			tsf_leader
-			#			hive_attacker
-			#			MVLV_valkyrie_lineage
-			#		}
-			#		skill = 9
-			#		attack_skill = 6
-			#		defense_skill = 6
-			#		planning_skill = 8
-			#		logistics_skill = 8
-			#	}
-			#	create_corps_commander = {
-			#		name = "珠濑壬姬"
-			#		gfx = "GFX_珠濑壬姬头像"
-			#		id = 999
-			#		traits = {
-			#			politically_connected
-			#			commando
-			#			infantry_leader
-			#			ambusher
-			#			tsf_officer
-			#			tsf_leader
-			#			hive_attacker
-			#			MVLV_valkyrie_lineage
-			#		}
-			#		skill = 9
-			#		attack_skill = 5
-			#		defense_skill = 9
-			#		planning_skill = 6
-			#		logistics_skill = 8
-			#	}
-			#	create_corps_commander = {
-			#		name = "彩峰慧"
-			#		gfx = "GFX_彩峰慧头像"
-			#		id = 989
-			#		traits = {
-			#			politically_connected
-			#			swamp_fox
-			#			naval_invader
-			#			trickster
-			#			guerilla_fighter
-			#			tsf_officer
-			#			tsf_leader
-			#			hive_attacker
-			#			MVLV_valkyrie_lineage
-			#		}
-			#		skill = 9
-			#		attack_skill = 8
-			#		defense_skill = 8
-			#		planning_skill = 3
-			#		logistics_skill = 9
-			#	}
-			#	create_corps_commander = {
-			#		name = "铠衣美琴"
-			#		gfx = "GFX_铠衣美琴头像"
-			#		id = 988
-			#		traits = {
-			#			politically_connected
-			#			trait_reckless
-			#			desert_fox
-			#			swamp_fox
-			#			trait_mountaineer
-			#			hill_fighter
-			#			jungle_rat
-			#			ranger
-			#			urban_assault_specialist
-			#			adaptable
-			#			winter_specialist
-			#			winter_expert
-			#			tsf_officer
-			#			tsf_leader
-			#			hive_attacker
-			#			MVLV_valkyrie_lineage
-			#		}
-			#		skill = 8
-			#		attack_skill = 6
-			#		defense_skill = 6
-			#		planning_skill = 6
-			#		logistics_skill = 7
-			#	}
-			#}
 		}
 	}
 	focus = {
@@ -2808,9 +2664,6 @@ focus_tree = {
 		}
 		bypass = {
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			UNI = {
 				country_event = mvlv_uni.11
@@ -2836,9 +2689,6 @@ focus_tree = {
 		}
 		bypass = {
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
