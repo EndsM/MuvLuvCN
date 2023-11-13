@@ -203,7 +203,7 @@ focus_tree = {
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				# 突入驱逐舰
-				type = transport_plane_equipment
+				type = transport_plane_equipment_1
 				amount = 10
 				producer = ROOT
 			}
