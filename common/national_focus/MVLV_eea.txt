@@ -18,9 +18,6 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_military
 		x = 3
 		y = 0
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			803 = {
@@ -473,9 +470,25 @@ focus_tree = {
 		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_chassis
-				amount = 600
+			# Buy TSF from soviet
+			add_political_power = -100
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_2_light_normal
+					variant_name = "MiG-29燕子"
+					amount = 600
+					producer = SOV
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_MiG-29
+					amount = 600
+					producer = SOV
+				}
 			}
 		}
 		ai_will_do = {
@@ -825,9 +838,24 @@ focus_tree = {
 		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_chassis
-				amount = 480
+			# Get TSF from UNI
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_2_heavy_normal
+					variant_name = "F-15E打击鹰"
+					amount = 480
+					producer = UNI
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_F-15E
+					amount = 480
+					producer = UNI
+				}
 			}
 		}
 		ai_will_do = {
