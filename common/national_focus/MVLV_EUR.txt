@@ -820,6 +820,24 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 50
 			add_political_power = 50
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_2_heavy_high_mobility
+					variant_name = "94式 不知火 一型丙"
+					amount = 120
+					producer = JAP
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_T94
+					amount = 120
+					producer = JAP
+				}
+			}
 			JAP = {
 				if = {
 					limit = {
@@ -838,24 +856,6 @@ focus_tree = {
 						amount = 120
 						producer = EUR
 					}
-				}
-			}
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				add_equipment_to_stockpile = {
-					type = MVLV_TSF_classis_2_heavy_high_mobility
-					variant_name = "94式 不知火 一型丙"
-					amount = 120
-					producer = JAP
-				}
-			}
-			else = {
-				add_equipment_to_stockpile = {
-					type = tsf_equipment_T94
-					amount = 120
-					producer = JAP
 				}
 			}
 		}

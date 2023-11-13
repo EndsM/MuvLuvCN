@@ -6,10 +6,6 @@ focus_tree = {
 			add = 10
 			tag = GEU
 		}
-		#modifier = {
-		#	add = 10
-		#	original_tag = GEU
-		#}
 	}
 	default = no
 	continuous_focus_position = {
