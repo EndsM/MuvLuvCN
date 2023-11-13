@@ -6,10 +6,6 @@ focus_tree = {
 			add = 10
 			tag = CAN
 		}
-		#modifier = {
-		#	add = 10
-		#	original_tag = CAN
-		#}
 	}
 	default = no
 	continuous_focus_position = {
@@ -104,7 +100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CAN_nouni
-		icon = GFX_focus_SAF_colonialist_crusade
+		icon = GFX_focus_YUG_ikarus
 		x = 0
 		y = 1
 		relative_position_id = CAN_nous
