@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
+  A_Target_focus_tree:0 "原初巢穴国策树"
+
   BET_focus_tree:0 "BETA国策树"
   BET_human_game:0 "调查"
   BET_human_game_desc:0 ""
@@ -184,7 +186,7 @@
   UNI_a01:0 "重建"
   UNI_a01_desc:0 "A-01联队在ALTERNATIVE4中发挥了重要作用，成功地引导了“樱花作战”，但在多次激战中消耗殆尽，最终解散。香月博士随之开始寻找新的战斗力(棋子)。"
   UNI_vd:0 "女武神数据"
-  UNI_vd_desc:0 "女武神留下的数据在今后的BETA战中一定会有价值。为了国联在战后也能掌握主导，必须摸索如何使用这些数据。"  
+  UNI_vd_desc:0 "女武神留下的数据在今后的BETA战中一定会有价值。为了国联在战后也能掌握主导，必须摸索如何使用这些数据。"
   UNI_YashiroKasumi_tt:0 "启用社霞"
   UNI_YashiroKasumi_tt_desc:0 ""
 
@@ -811,6 +813,7 @@
   CHI_DemandAidFromUS:0 "向美国请求援助"
   CHI_DemandAidFromUS_desc:0 "虽然美国的战略是先欧后亚，但是如果我们肯支付足够的代价，美国也未必会拒绝我们的援助请求。"
 
+  GEU_focus_tree:0 "大东亚联合国策树"
   geug_1:0 "调查毒品交易"
   geug_1_desc:0 "KODA等毒品组织正在国内肆虐，特别是在前线地区。甚至有向前线将士贩卖毒品的传闻。我们从98年就开始调查，但他们都在前线附近活动，很少露出马脚。看来得派遣部队进行调查了。"
   geug_3:0 "了断"
