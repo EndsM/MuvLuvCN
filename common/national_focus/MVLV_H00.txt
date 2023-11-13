@@ -1,6 +1,5 @@
 focus_tree = {
 	id = A_Target_focus_tree
-	
 	country = {
 		factor = 0
 		modifier = {
@@ -8,5 +7,4 @@ focus_tree = {
 			TAG = H00
 		}
 	}
-
 }
