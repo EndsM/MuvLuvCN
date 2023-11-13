@@ -292,7 +292,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_doctrine_cost_reduction = {
-				cost_reduction=0.5
+				name = "GEU focus bonus"
+				cost_reduction = 0.5
 				uses = 2
 				category = cat_superior_firepower
 			}
@@ -516,11 +517,13 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-GEU={add_political_power = -100
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_chassis
-				amount = 550
-				producer = UNI}
+			GEU = {
+				add_political_power = -100
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_chassis
+					amount = 550
+					producer = UNI
+				}
 			}
 		}
 	}
@@ -694,7 +697,8 @@ GEU={add_political_power = -100
 		ai_will_do = {
 			factor = 5
 		}
-		completion_reward = {add_political_power = -300
+		completion_reward = {
+			add_political_power = -300
 			remove_ideas = MVLV_UNF
 			add_timed_idea = {
 				idea = GEU_bad
@@ -737,7 +741,8 @@ GEU={add_political_power = -100
 		}
 		completion_reward = {
 			add_doctrine_cost_reduction = {
-				cost_reduction=0.5
+				name = "GEU focus bonus"
+				cost_reduction = 0.5
 				uses = 3
 				category = cat_grand_battle_plan
 			}
@@ -782,7 +787,7 @@ GEU={add_political_power = -100
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = air_doc_bonus
-				cost_reduction=0.5
+				cost_reduction = 0.5
 				uses = 2
 				category = air_doctrine
 			}
@@ -805,7 +810,7 @@ GEU={add_political_power = -100
 			army_experience = 250
 			add_doctrine_cost_reduction = {
 				name = land_doc_bonus
-				cost_reduction=0.3
+				cost_reduction = 0.3
 				uses = 3
 				category = cat_grand_battle_plan
 			}
@@ -866,8 +871,8 @@ GEU={add_political_power = -100
 		}
 		completion_reward = {
 			GEU = {
-			 	load_oob = GEU_tank
-			 }
+				load_oob = GEU_tank
+			}
 		}
 	}
 	focus = {
@@ -1495,6 +1500,7 @@ GEU={add_political_power = -100
 		}
 		completion_reward = {
 			add_tech_bonus = {
+				name = "GEU focus bonus"
 				bonus = 1.5
 				uses = 1
 				category = MVLV_tsf_tech
