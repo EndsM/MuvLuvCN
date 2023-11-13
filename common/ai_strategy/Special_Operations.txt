@@ -1,5 +1,5 @@
 # Set operation like ouka and H21 here
-operation_kou21_prepare = {
+operation_kou21 = {
 	enable = {
 		date > 2001.10.22
 		has_war = yes
