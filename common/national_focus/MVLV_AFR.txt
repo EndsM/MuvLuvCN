@@ -14,10 +14,6 @@ focus_tree = {
 		y = 1000
 	}
 	reset_on_civilwar = no
-	#shared_focus = common_refugee_tech_sharing
-	#shared_focus = common_adopt_powered_suits
-	#shared_focus = common_experience_of_BETA_war
-	#shared_focus = common_refugee_support_request
 	focus = {
 		id = AFR_SecureSuezFront
 		icon = GFX_goal_generic_fortify_city
@@ -45,7 +41,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 整合指挥系统
+		# 整合指挥系统
 		id = AFR_ConsolidateCommandingSequence
 		icon = GFX_goal_generic_improve_relations
 		cost = 5
@@ -56,7 +52,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 评估防线强度
+		# 评估防线强度
 		id = AFR_EvaluateDefenceLineCapabaility
 		icon = GFX_goal_generic_propaganda
 		cost = 1
@@ -70,7 +66,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 固若金汤
+		# 固若金汤
 		id = AFR_UnbreakableDefence
 		icon = GFX_goal_generic_position_armies
 		cost = 1
@@ -87,7 +83,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 专注后方
+		# 专注后方
 		id = AFR_FocusOnHomefront
 		icon = GFX_goal_generic_construction
 		cost = 5
@@ -102,7 +98,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 吸引投资
+		# 吸引投资
 		id = AFR_AttractInvestment
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 5
@@ -131,7 +127,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 资源开发
+		# 资源开发
 		id = AFR_IncreaseResourcesProduction
 		icon = GFX_goal_generic_construction2
 		cost = 5
@@ -162,7 +158,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 解除消费品配额限制
+		# 解除消费品配额限制
 		id = AFR_LiftConsumerGoodsLimitation
 		icon = GFX_goal_generic_consumer_goods
 		cost = 5
@@ -177,7 +173,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 安全的大陆
+		# 安全的大陆
 		id = AFR_SafeContinent
 		icon = GFX_goal_generic_political_pressure
 		cost = 5
@@ -195,7 +191,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 太空军计划
+		# 太空军计划
 		id = AFR_FormOrbitalCorps
 		icon = GFX_goal_generic_territory_or_war
 		cost = 5
@@ -213,7 +209,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 重新定位非联作用
+		# 重新定位非联作用
 		id = AFR_Re_evaluateOurPosition
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 5
@@ -227,7 +223,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 安稳的后方
+		# 安稳的后方
 		id = AFR_SafeHomeFront
 		icon = GFX_goal_generic_construct_infrastructure
 		cost = 5
@@ -245,7 +241,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 未雨绸缪
+		# 未雨绸缪
 		id = AFR_PrepareForAllPossibilities
 		icon = GFX_goal_rhineland
 		cost = 1
@@ -262,7 +258,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 备用防线
+		# 备用防线
 		id = AFR_SecondaryDefenceLine
 		icon = GFX_goal_generic_fortify_city
 		cost = 5
@@ -315,7 +311,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 堡垒群战术
+		# 堡垒群战术
 		id = AFR_FortificationGroupTactics
 		icon = GFX_goal_generic_defence
 		cost = 5
@@ -330,7 +326,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 请求军事援助
+		# 请求军事援助
 		id = AFR_RequestMilitaryAids
 		icon = GFX_goal_generic_positive_trade_relations
 		cost = 5
@@ -349,7 +345,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 参与战术机开发
+		# 参与战术机开发
 		id = AFR_ParticipateInTSFDev
 		icon = GFX_goal_generic_scientific_exchange
 		cost = 5
@@ -367,7 +363,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 本土战术机生产
+		# 本土战术机生产
 		id = AFR_LocalizeTSFProduction
 		icon = GFX_goal_generic_production
 		cost = 5
@@ -381,7 +377,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 成熟的防御战理论
+		# 成熟的防御战理论
 		id = AFR_SeasonedDefenceDoctrine
 		icon = GFX_goal_generic_military_sphere
 		cost = 5
@@ -397,7 +393,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 反击的准备
+		# 反击的准备
 		id = AFR_PrepareForCounterAttack
 		icon = GFX_goal_generic_small_arms
 		cost = 5
@@ -415,7 +411,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 剑指安巴尔
+		# 剑指安巴尔
 		id = AFR_TargetH09
 		icon = GFX_goal_generic_major_war
 		cost = 1
@@ -437,7 +433,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 北非沿岸防线
+		# 北非沿岸防线
 		id = AFR_NorthAfricaCoastalDefence
 		icon = GFX_goal_generic_small_arms
 		cost = 5
@@ -520,7 +516,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 中东联军的经验
+		# 中东联军的经验
 		id = AFR_LessonsFromJihadUnionForce
 		icon = GFX_goal_generic_attack_allies
 		cost = 5
@@ -534,7 +530,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 行政系统改革
+		# 行政系统改革
 		id = AFR_ReformAdministrativeSystem
 		icon = GFX_goal_generic_dangerous_deal
 		cost = 5
@@ -548,7 +544,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 更加紧密的非洲联合
+		# 更加紧密的非洲联合
 		id = AFR_aNewAfricaUnion
 		icon = GFX_goal_generic_national_unity
 		cost = 5
@@ -563,7 +559,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 向欧联靠拢
+		# 向欧联靠拢
 		id = AFR_IntimateEuropeanUnion
 		icon = GFX_goal_generic_major_alliance
 		cost = 5
@@ -584,7 +580,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 自主的非洲
+		# 自主的非洲
 		id = AFR_IndependentAfricaUnion
 		icon = GFX_goal_generic_demand_territory
 		cost = 5
@@ -602,7 +598,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 资源换工业
+		# 资源换工业
 		id = AFR_ResourcesForIndustry
 		icon = GFX_goal_generic_oil_refinery
 		cost = 5
@@ -636,7 +632,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 协防西西里
+		# 协防西西里
 		id = AFR_CoopDefenceSicily
 		icon = GFX_goal_generic_construct_civilian
 		cost = 5
@@ -679,7 +675,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 购买欧洲战术机
+		# 购买欧洲战术机
 		id = AFR_PurchaseEuroTSFs
 		icon = GFX_goal_molotov_ribbentrop_pact
 		cost = 5
@@ -708,7 +704,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 寻求科研合作
+		# 寻求科研合作
 		id = AFR_SeekDevCoop
 		icon = GFX_focus_research
 		cost = 5
@@ -726,7 +722,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		#id = 为欧联提供消费品
+		# 为欧联提供消费品
 		id = AFR_ProvideConsumableForEU
 		icon = GFX_goal_generic_consumer_goods
 		cost = 5
@@ -745,7 +741,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 联合压制H12
+		# 联合压制H12
 		id = AFR_JointH12Suppression
 		icon = GFX_goal_generic_army_tanks
 		cost = 1
@@ -763,7 +759,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 与欧联的有限合作
+		# 与欧联的有限合作
 		id = AFR_LimitedCoopWithEU
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 5
@@ -792,7 +788,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 增加分担金
+		# 增加分担金
 		id = AFR_IncreaseOurShare
 		icon = GFX_goal_generic_improve_relations
 		cost = 5
@@ -808,7 +804,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 与国联工业合作
+		# 与国联工业合作
 		id = AFR_WorkWithUNIndustries
 		icon = GFX_goal_generic_intelligence_exchange
 		cost = 5
@@ -834,7 +830,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 加入国联项目
+		# 加入国联项目
 		id = AFR_ParticipateInUNProject
 		icon = GFX_focus_research
 		cost = 5
@@ -852,7 +848,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 收获
+		# 收获
 		id = AFR_Rewards
 		icon = GFX_goal_generic_propaganda
 		cost = 5
@@ -870,7 +866,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 胜利的鼓舞
+		# 胜利的鼓舞
 		id = AFR_VictoryInspiration
 		icon = GFX_focus_wonderweapons
 		cost = 5
@@ -898,7 +894,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 聘请美国军事顾问
+		# 聘请美国军事顾问
 		id = AFR_EmployUSMilitaryAdvisors
 		icon = GFX_goal_generic_intelligence_exchange
 		relative_position_id = AFR_aNewAfricaUnion
@@ -924,7 +920,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 扩大A-10采购
+		# 扩大A-10采购
 		id = AFR_IncreaseWarthogImportAmount
 		icon = GFX_goal_generic_national_unity
 		relative_position_id = AFR_EmployUSMilitaryAdvisors
@@ -953,7 +949,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 加入NATO情报系统
+		# 加入NATO情报系统
 		id = AFR_JoinNATOIntelNetwork
 		icon = GFX_goal_generic_dangerous_deal
 		relative_position_id = AFR_IncreaseWarthogImportAmount
@@ -983,7 +979,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 接收NATO非联军
+		# 接收NATO非联军
 		id = AFR_AcceptNATO_AfricaCoalitionForce
 		icon = GFX_goal_tripartite_pact
 		relative_position_id = AFR_JoinNATOIntelNetwork
