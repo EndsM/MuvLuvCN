@@ -1303,19 +1303,22 @@ country_event = {
 					id = mvlv_generic.12
 					days = 1
 				}
-			}			#success
+			}
+			#success
 			75 = {
 				country_event = {
 					id = mvlv_generic.13
 					days = 1
 				}
-			}			#failure
+			}
+			#failure
 			5 = {
 				country_event = {
 					id = mvlv_generic.14
 					days = 1
 				}
-			}			#failure
+			}
+			#failure
 		}
 	}
 }
