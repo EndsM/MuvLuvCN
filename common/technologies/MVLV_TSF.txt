@@ -823,6 +823,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_integrated_sensor_4
@@ -843,6 +844,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_photo_sensor_2
@@ -867,6 +869,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_photo_sensor_3
@@ -891,6 +894,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_photo_sensor_4
@@ -915,6 +919,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_integrated_sensor_4
@@ -936,6 +941,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_radar_sensor_2
@@ -961,6 +967,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_radar_sensor_3
@@ -986,6 +993,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_radar_sensor_4
@@ -1011,6 +1019,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_integrated_sensor_4
@@ -1031,6 +1040,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1058,6 +1068,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1085,6 +1096,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1113,6 +1125,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1136,6 +1149,7 @@ technologies = {
 		}
 		categories = {
 			artillery
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_assault_cannon_1_normal
@@ -1153,6 +1167,7 @@ technologies = {
 		}
 		categories = {
 			artillery
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1181,6 +1196,7 @@ technologies = {
 		}
 		categories = {
 			artillery
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1205,6 +1221,7 @@ technologies = {
 		}
 		categories = {
 			artillery
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1229,6 +1246,7 @@ technologies = {
 		}
 		categories = {
 			artillery
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1245,6 +1263,7 @@ technologies = {
 		}
 		categories = {
 			artillery
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1297,6 +1316,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1318,6 +1338,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1339,6 +1360,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1360,6 +1382,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1381,6 +1404,7 @@ technologies = {
 		}
 		categories = {
 			armor
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1397,6 +1421,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1417,6 +1442,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1437,6 +1463,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1457,6 +1484,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1474,6 +1502,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1502,6 +1531,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1530,6 +1560,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1558,6 +1589,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1587,6 +1619,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1611,6 +1644,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1627,6 +1661,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1643,6 +1678,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1659,6 +1695,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1675,6 +1712,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1691,6 +1729,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1707,6 +1746,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1723,6 +1763,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1739,6 +1780,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1755,6 +1797,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1772,6 +1815,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1808,6 +1852,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1837,6 +1882,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1853,6 +1899,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1872,6 +1919,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1908,6 +1956,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1921,6 +1970,10 @@ technologies = {
 		research_cost = 1.5		# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_1_mid_speed_cruising
+		}
+		categories = {
+			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1937,6 +1990,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1953,6 +2007,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -1972,6 +2027,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2008,6 +2064,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2021,6 +2078,10 @@ technologies = {
 		research_cost = 1.5		# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_2_mid_speed_cruising
+		}
+		categories = {
+			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2037,6 +2098,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2053,6 +2115,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2072,6 +2135,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2108,6 +2172,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2121,6 +2186,10 @@ technologies = {
 		research_cost = 1.5		# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_3_mid_speed_cruising
+		}
+		categories = {
+			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2137,6 +2206,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2153,6 +2223,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2173,6 +2244,7 @@ technologies = {
 		}
 		categories = {
 			MVLV_tsf_tech
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2264,6 +2336,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		path = {
 			leads_to_tech = MVLV_research_head_small_1
@@ -2285,6 +2358,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2305,6 +2379,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2325,6 +2400,7 @@ technologies = {
 		}
 		categories = {
 			electronics
+			MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
@@ -2344,7 +2420,7 @@ technologies = {
 			MVLV_TSF_head_small_4
 		}
 		categories = {
-			electronics
+			electronics MVLV_tsf_module_tech
 		}
 		folder = {
 			name = MVLV_tsf_folder
