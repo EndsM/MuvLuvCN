@@ -1773,11 +1773,6 @@ focus_tree = {
 		# 社霞
 		id = UNI_YashiroKasumi
 		icon = GFX_goal_generic_national_unity
-		#text = 
-		# relative_position_id = "UNI_ReuseAL3"
-		# prerequisite = {
-		# 	focus = "UNI_ReuseAL3"
-		# }
 		x = 13
 		y = 0
 		mutually_exclusive = {
@@ -1797,7 +1792,6 @@ focus_tree = {
 		# 调整人列装计划
 		id = UNI_FruitofTheNewAL3
 		icon = GFX_goal_generic_national_unity
-		#text = 
 		relative_position_id = UNI_ReuseAL3
 		prerequisite = {
 			focus = UNI_ReuseAL3
