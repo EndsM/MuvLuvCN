@@ -13,23 +13,14 @@ focus_tree = {
 		y = 1000
 	}
 	reset_on_civilwar = no
-	#shared_focus = common_refugee_tech_sharing
-	#shared_focus = common_adopt_powered_suits
-	#shared_focus = common_experience_of_BETA_war
-	#shared_focus = common_refugee_support_request
 	#结束明星作战#
 	focus = {
 		id = JAP_endOperationLucifer
 		icon = GFX_goal_generic_major_war
-		#text = 
+		
 		x = 9
 		y = 0
-		#relative_position_id = JAP_move_capital_to_sendai
-		#prerequisite = { focus = JAP_move_capital_to_sendai }
-		#mutually_exclusive = { focus =  }
-		#available = {}
-		#bypass = { }
-		#cancel = { }
+		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
