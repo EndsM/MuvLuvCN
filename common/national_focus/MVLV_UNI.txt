@@ -673,23 +673,14 @@ focus_tree = {
 	# 	}
 	# }
 	focus = {
-		# id = the_true_United_Nation
-		id = "UNI_theTrueUnitedNation"
+		# 真正的国际联合
+		id = UNI_theTrueUnitedNation
 		icon = GFX_goal_generic_national_unity
-		#text = 
-		# relative_position_id = 
-		# prerequisite = { focus =  }
 		x = 25
 		y = 0
 		mutually_exclusive = {
 			# focus = "UNI_USA_1"
 		}
-		#available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		ai_will_do = {
 			factor = 10
@@ -701,23 +692,16 @@ focus_tree = {
 	}
 	focus = {
 		# id = calm_down_USA
-		id = "UNI_NegotiateWithUSA"
+		id = UNI_NegotiateWithUSA
 		icon = GFX_goal_generic_national_unity
-		#text = 
-		relative_position_id = "UNI_theTrueUnitedNation"
+		relative_position_id = UNI_theTrueUnitedNation
 		prerequisite = {
-			focus = "UNI_theTrueUnitedNation"
+			focus = UNI_theTrueUnitedNation
 		}
 		x = -5
 		y = 1
 		mutually_exclusive = {
 		}
-		#available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 2
 		ai_will_do = {
 			factor = 1
@@ -730,23 +714,17 @@ focus_tree = {
 	}
 	focus = {
 		# id = strengthen_the_English_Channel_line
-		id = "UNI_strengthen_the_English_Channel_line"
+		id = UNI_strengthen_the_English_Channel_line
 		icon = GFX_goal_generic_national_unity
 		#text = 
-		relative_position_id = "UNI_theTrueUnitedNation"
+		relative_position_id = UNI_theTrueUnitedNation
 		prerequisite = {
-			focus = "UNI_theTrueUnitedNation"
+			focus = UNI_theTrueUnitedNation
 		}
 		x = -3
 		y = 1
 		mutually_exclusive = {
 		}
-		#available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 2
 		ai_will_do = {
 			factor = 1
@@ -768,9 +746,8 @@ focus_tree = {
 	}
 	focus = {
 		# id = allay_the_Japanese
-		id = "UNI_allayWithJapan"
+		id = UNI_allayWithJapan
 		icon = GFX_goal_generic_national_unity
-		#text = 
 		relative_position_id = "UNI_theTrueUnitedNation"
 		prerequisite = {
 			focus = "UNI_theTrueUnitedNation"
@@ -779,12 +756,6 @@ focus_tree = {
 		y = 1
 		mutually_exclusive = {
 		}
-		#available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 2
 		ai_will_do = {
 			factor = 1
@@ -797,9 +768,8 @@ focus_tree = {
 	}
 	focus = {
 		# id = East_Asian_Emergency_transportation_policy
-		id = "UNI_East_Asian_Emergency_transportation_policy"
+		id = UNI_East_Asian_Emergency_transportation_policy
 		icon = GFX_goal_generic_national_unity
-		#text = 
 		relative_position_id = "UNI_theTrueUnitedNation"
 		prerequisite = {
 			focus = "UNI_theTrueUnitedNation"
@@ -808,12 +778,6 @@ focus_tree = {
 		y = 1
 		mutually_exclusive = {
 		}
-		#available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 2
 		ai_will_do = {
 			factor = 1
@@ -828,7 +792,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 强化非洲联合
+		# 强化非洲联合
 		id = "UNI_StrengthenAfricaFront"
 		icon = GFX_goal_generic_national_unity
 		#text = 
@@ -840,12 +804,6 @@ focus_tree = {
 		y = 1
 		mutually_exclusive = {
 		}
-		#available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 2
 		ai_will_do = {
 			factor = 1
@@ -861,7 +819,7 @@ focus_tree = {
 	}
 	focus = {
 		# id = 美洲国家初步动员法案
-		id = "UNI_Central_SouthAmericaMobilization"
+		id = UNI_Central_SouthAmericaMobilization
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		relative_position_id = "UNI_theTrueUnitedNation"
