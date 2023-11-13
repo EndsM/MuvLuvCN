@@ -107,9 +107,11 @@ technology_categories = {
 	cat_mountaineers_doctrine
 	cat_marines_doctrine
 	cat_paratroopers_doctrine
+
 	#MOD_tech
 	MVLV_tsf_tech
 	MVLV_railgun_tech
+
 	#USA_tsf_tech
 	MVLV_xg_tech
 	mio_cat_tech_all_armor_and_modules	#Includes modules and chassis (DOES NOT INCLUDE ARMORED CARS)
