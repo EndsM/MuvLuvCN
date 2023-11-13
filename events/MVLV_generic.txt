@@ -1314,7 +1314,7 @@ country_event = {
 				retire_character = USA_units_leader_1
 				# recruit_character = USA_units_leader_13
 				USA_units_leader_13 = {
-					set_character_flag = 角色解锁
+					set_character_flag = character_unlocked
 				}
 				#create_field_marshal = { 
 				#	name = "阿尔弗雷德·沃肯中校"

@@ -574,7 +574,7 @@ characters = {
 			logistics_skill = 8
 			legacy_id = -1
 			visible = {
-				has_character_flag = 角色解锁
+				has_character_flag = character_unlocked
 			}
 		}
 	}

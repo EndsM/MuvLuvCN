@@ -1849,7 +1849,7 @@ focus_tree = {
 		completion_reward = {
 			# recruit_character = UNI_units_leader_26
 			UNI_units_leader_26 = {
-				set_character_flag = 角色解锁
+				set_character_flag = character_unlocked
 			}
 			#hidden_effect = {
 			#	create_corps_commander = {
@@ -2627,22 +2627,22 @@ focus_tree = {
 			UNI = {
 				country_event = mvlv_uni.1
 				UNI_units_leader_17 = {
-					set_character_flag = 角色解锁
+					set_character_flag = character_unlocked
 				}
 				UNI_units_leader_18 = {
-					set_character_flag = 角色解锁
+					set_character_flag = character_unlocked
 				}
 				UNI_units_leader_19 = {
-					set_character_flag = 角色解锁
+					set_character_flag = character_unlocked
 				}
 				UNI_units_leader_20 = {
-					set_character_flag = 角色解锁
+					set_character_flag = character_unlocked
 				}
 				UNI_units_leader_21 = {
-					set_character_flag = 角色解锁
+					set_character_flag = character_unlocked
 				}
 				UNI_units_leader_22 = {
-					set_character_flag = 角色解锁
+					set_character_flag = character_unlocked
 				}
 				# recruit_character = UNI_units_leader_17
 				# recruit_character = UNI_units_leader_18
@@ -2848,7 +2848,7 @@ focus_tree = {
 				add_ideas = MVLV_00_unit
 				# recruit_character = UNI_units_leader_23
 				UNI_units_leader_23 = {
-					set_character_flag = 角色解锁
+					set_character_flag = character_unlocked
 				}
 				#hidden_effect = {
 				#	create_corps_commander = {
@@ -3023,10 +3023,10 @@ focus_tree = {
 			UNI = {
 				country_event = mvlv_uni.24
 				UNI_units_leader_24 = {
-					set_character_flag = 角色解锁
+					set_character_flag = character_unlocked
 				}
 				UNI_units_leader_25 = {
-					set_character_flag = 角色解锁
+					set_character_flag = character_unlocked
 				}
 				# recruit_character = UNI_units_leader_24
 				# recruit_character = UNI_units_leader_25
