@@ -4323,7 +4323,7 @@ technologies = {
 			factor = 1
 		}
 	}
-	UNI_Manipulator_improvement = {
+	UNI_Carrying_ammunition_increase = {
 		research_cost = 1
 		start_year = 1990
 		MVLV_asa_battalion = {
