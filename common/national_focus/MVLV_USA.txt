@@ -555,7 +555,6 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			#set_division_template_cap = { division_template = "轨道降下兵团" division_cap = 18 }
 			add_political_power = -100
 			add_ideas = USA_expand_aerospace_force
 		}
@@ -647,7 +646,6 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			#add_to_variable={卫士训练规模=240}
 			add_manpower = 500000
 			swap_ideas = {
 				remove_idea = USA_refugees2
@@ -726,7 +724,6 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			#add_to_variable={卫士训练规模=120}
 			swap_ideas = {
 				remove_idea = USA_refugees5
 				add_idea = USA_refugees6
@@ -1466,12 +1463,12 @@ focus_tree = {
 		id = USA_InvestSouthAmerica
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = "USA_SouthAmericaDevelopment"
+			focus = USA_SouthAmericaDevelopment
 		}
 		x = 0
 		y = 1
 		cost = 5
-		relative_position_id = "USA_SouthAmericaDevelopment"
+		relative_position_id = USA_SouthAmericaDevelopment
 		ai_will_do = {
 			factor = 10
 		}
