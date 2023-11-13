@@ -660,8 +660,9 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_USJAPJointTSFDev
 		}
-		x = 14
-		y = 6
+		x = 0
+		y = 1
+		relative_position_id = JAP_USJAPJointTSFDev
 		completion_reward = {
 			add_ideas = JAP_nato_japan_department
 		}
@@ -677,8 +678,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = JAP_ForgetThePast
 		}
-		x = 16
+		x = 1
 		y = 1
+		relative_position_id = JAP_ReviewDiploPolicy
 		completion_reward = {
 			add_war_support = -0.2
 			add_political_power = 50
@@ -692,8 +694,9 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_RiseOfNativisim
 		}
-		x = 16
-		y = 2
+		x = 0
+		y = 1
+		relative_position_id = JAP_RiseOfNativisim
 		completion_reward = {
 			add_political_power = 50
 			country_event = mvlv_jap.7
@@ -707,8 +710,9 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_FormStratResearchGroup
 		}
-		x = 16
-		y = 3
+		x = 0
+		y = 1
+		relative_position_id = JAP_FormStratResearchGroup
 		completion_reward = {
 			country_event = mvlv_jap.20
 			add_political_power = 50
@@ -726,8 +730,9 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_MoreOnboard
 		}
-		x = 16
-		y = 4
+		x = 0
+		y = 1
+		relative_position_id = JAP_MoreOnboard
 		completion_reward = {
 			country_event = mvlv_jap.21
 			add_political_power = 50
@@ -745,8 +750,9 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_ProbeTheIJALeadership
 		}
-		x = 16
-		y = 5
+		x = 0
+		y = 1
+		relative_position_id = JAP_ProbeTheIJALeadership
 		completion_reward = {
 			country_event = mvlv_jap.22
 			add_political_power = 50
@@ -764,8 +770,9 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_InciteKyotoGuard
 		}
-		x = 16
-		y = 6
+		x = 0
+		y = 1
+		relative_position_id = JAP_InciteKyotoGuard
 		completion_reward = {
 			country_event = mvlv_jap.23
 			add_political_power = 50
@@ -783,8 +790,9 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_IdentifyTheTraitors
 		}
-		x = 16
-		y = 7
+		x = 0
+		y = 1
+		relative_position_id = JAP_IdentifyTheTraitors
 		completion_reward = {
 			country_event = mvlv_jap.8
 		}
@@ -795,7 +803,6 @@ focus_tree = {
 		icon = GFX_focus_attack_australia
 		x = 5
 		y = 0
-		#relative_position_id = 
 		cost = 5
 		ai_will_do = {
 			factor = 4
@@ -805,11 +812,6 @@ focus_tree = {
 				is_controlled_by = JAP
 			}
 		}
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
 		}
