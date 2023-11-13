@@ -6,10 +6,6 @@ focus_tree = {
 			add = 10
 			tag = SOA
 		}
-		#modifier = {
-		#	add = 10
-		#	original_tag = SOA
-		#}
 	}
 	default = no
 	continuous_focus_position = {

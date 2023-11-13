@@ -1080,6 +1080,7 @@
   CEA_AllInProduction:0 "三班倒"
   CEA_AllInProduction_desc:0 "工厂的运作将永不停歇，灯火将永不熄灭，崭新的武器将如潮水般支援我们的前线。"
 
+  SOA_focus_tree:0 "南美联合国策树"
   SOA_Unity:0 "风雨同舟"
   SOA_Unity_desc:0 "BETA已经兵临美洲大陆，美国的安全承诺纯属一纸空文，我们需要与中美洲组成一个新的联盟，靠我们自己的力量来自保。"
   SOA_RefugeeLabourers:0 "南美难民工人"
