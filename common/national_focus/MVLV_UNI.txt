@@ -822,7 +822,7 @@ focus_tree = {
 		id = UNI_Central_SouthAmericaMobilization
 		icon = GFX_goal_generic_national_unity
 		#text = 
-		relative_position_id = "UNI_theTrueUnitedNation"
+		relative_position_id = UNI_theTrueUnitedNation
 		prerequisite = {
 			focus = "UNI_theTrueUnitedNation"
 		}
@@ -830,12 +830,6 @@ focus_tree = {
 		y = 1
 		mutually_exclusive = {
 		}
-		#available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 2
 		ai_will_do = {
 			factor = 1
@@ -863,7 +857,7 @@ focus_tree = {
 	}
 	focus = {
 		# id = 明星作战的教训
-		id = "UNI_LessonsFromOperationLucifer"
+		id = UNI_LessonsFromOperationLucifer
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		relative_position_id = "UNI_theTrueUnitedNation"
@@ -880,21 +874,15 @@ focus_tree = {
 			focus = "UNI_East_Asian_Emergency_transportation_policy"
 		}
 		prerequisite = {
-			focus = "UNI_StrengthenAfricaFront"
+			focus = UNI_StrengthenAfricaFront
 		}
 		prerequisite = {
-			focus = "UNI_Central_SouthAmericaMobilization"
+			focus = UNI_Central_SouthAmericaMobilization
 		}
 		x = 0
 		y = 2
 		mutually_exclusive = {
 		}
-		#available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -3017,24 +3005,18 @@ focus_tree = {
 	}
 	focus = {
 		# id = 支援日本防卫
-		id = "UNI_ProvideAidForJapanDefence"
+		id = UNI_ProvideAidForJapanDefence
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = 11
 		y = 0
 		#relative_position_id = 
-		#prerequisite = { focus = }
-		#mutually_exclusive = { focus =  }
-		#available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+	
 		cost = 1
 		#select_effect = { }
 		completion_reward = {
 			add_tech_bonus = {
+				name = "UNI focus bonus"
 				bonus = 1
 				uses = 1
 				category = MVLV_tsf_tech
