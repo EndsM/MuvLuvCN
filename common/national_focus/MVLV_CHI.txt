@@ -35,6 +35,7 @@ focus_tree = {
 			factor = 1
 		}
 	}
+	# 为了夺回祖国
 	focus = {
 		id = CHI_idea_01
 		icon = GFX_goal_generic_construct_mil_factory
@@ -55,6 +56,7 @@ focus_tree = {
 			factor = 1
 		}
 	}
+	# 重新配置研究机构
 	focus = {
 		id = CHI_idea_01_Ex1
 		icon = GFX_focus_research
