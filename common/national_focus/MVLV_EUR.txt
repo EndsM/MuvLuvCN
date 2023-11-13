@@ -300,17 +300,24 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 150
 			EEA = {
-				# add_equipment_to_stockpile = {
-				# 	type = tsf_equipment_Rafale
-				# 	amount = 600
-				# 	producer = EUR
-				# }
-				add_equipment_to_stockpile = {
-					type = MVLV_TSF_classis_1_light
-					amount = 600
-					producer = EUR
+				if = {
+					limit = {
+						has_dlc = "No Step Back"
+					}
+					add_equipment_to_stockpile = {
+						type = MVLV_TSF_classis_1_light
+						variant_name = "幻影2000"
+						amount = 600
+						producer = EUR
+					}
 				}
-
+				else = {
+					add_equipment_to_stockpile = {
+						type = tsf_equipment_M2000
+						amount = 600
+						producer = EUR
+					}
+				}
 			}
 		}
 		ai_will_do = {
