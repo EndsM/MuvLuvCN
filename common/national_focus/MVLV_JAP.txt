@@ -123,7 +123,6 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_rebuildJapan
 		}
-		#mutually_exclusive = { focus =  }
 		available = {
 			531 = {
 				is_fully_controlled_by = JAP
@@ -214,7 +213,6 @@ focus_tree = {
 				days = 730
 			}
 		}
-		#completation_tooltip = { }
 		ai_will_do = {
 			factor = 2
 		}
@@ -224,27 +222,17 @@ focus_tree = {
 	focus = {
 		id = JAP_investAL4
 		icon = GFX_goal_generic_scientific_exchange
-		#text = 
-		x = 10
-		y = 4
-		#relative_position_id = JAP_reconquest 
+		x = 1
+		y = 1
+		relative_position_id = JAP_rebuildJapan
 		prerequisite = {
 			focus = JAP_rebuildJapan
 		}
-		#mutually_exclusive = { focus = }
-		#available = { ROOT = { has_country_flag = altervative_iv_leader } }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
-		#select_effect = { }
 		completion_reward = {
 			add_ideas = JAP_funding_al4
 			set_country_flag = kazuki_yuuko
 		}
-		#completation_tooltip = { }
 		ai_will_do = {
 			factor = 2
 		}
