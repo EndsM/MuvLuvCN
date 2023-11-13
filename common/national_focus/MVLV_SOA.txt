@@ -29,9 +29,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SOA_request
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		available = {
 			NOT = {
