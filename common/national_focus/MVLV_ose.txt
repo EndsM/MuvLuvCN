@@ -537,14 +537,19 @@ focus_tree = {
 				limit = {
 					has_dlc = "No Step Back"
 				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_3_heavy_normal
+					variant_name = "Rafale阵风"
+					amount = 250
+					producer = UNI
+				}
 			}
 			else = {
-				
-			}
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_chassis
-				amount = 250
-				producer = ROOT
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_Rafale
+					amount = 250
+					producer = UNI
+				}
 			}
 		}
 	}
@@ -1215,10 +1220,23 @@ focus_tree = {
 		relative_position_id = ose_ghard3
 		available_if_capitulated = yes
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_chassis
-				amount = 600
-				producer = ROOT
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_3_heavy_normal
+					variant_name = "Rafale阵风"
+					amount = 600
+					producer = UNI
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_Rafale
+					amount = 600
+					producer = UNI
+				}
 			}
 		}
 		ai_will_do = {
