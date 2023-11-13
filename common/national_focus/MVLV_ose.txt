@@ -116,12 +116,6 @@ focus_tree = {
 				uses = 2
 				category = land_doctrine
 			}
-			# add_tech_bonus = {
-			# 	name = land_doc_bonus
-			# 	bonus = 0.3
-			# 	uses = 2
-			# 	category = land_doctrine
-			# }
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
 				bonus = 1
@@ -539,6 +533,14 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_stability = -0.05
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+			}
+			else = {
+				
+			}
 			add_equipment_to_stockpile = {
 				type = MVLV_TSF_chassis
 				amount = 250
@@ -751,12 +753,6 @@ focus_tree = {
 				uses = 3
 				category = land_doctrine
 			}
-			# add_tech_bonus = {
-			# 	name = land_doc_bonus
-			# 	bonus = 1.5
-			# 	uses = 1
-			# 	category = land_doctrine
-			# }
 		}
 	}
 	focus = {
@@ -777,6 +773,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = mvlv_license
 			add_tech_bonus = {
+				name = "OSE focus bonus"
 				bonus = 1.5
 				uses = 1
 				category = MVLV_tsf_tech

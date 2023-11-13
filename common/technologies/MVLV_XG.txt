@@ -43,7 +43,6 @@ technologies = {
 		research_cost = 300
 		start_year = 2001
 		path = {
-			leads_to_tech = MVLV_Assault_gun_improvement
 			research_cost_coeff = 1
 		}
 		folder = {
@@ -68,7 +67,6 @@ technologies = {
 		research_cost = 400
 		start_year = 2001
 		path = {
-			leads_to_tech = MVLV_Assault_gun_improvement
 			research_cost_coeff = 1
 		}
 		folder = {
