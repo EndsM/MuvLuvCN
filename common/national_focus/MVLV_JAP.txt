@@ -517,8 +517,7 @@ focus_tree = {
 					name = "JAP focus bonus"
 					bonus = 3
 					uses = 1
-					
-					category = MVLV_tsf_tech
+					category = MVLV_railgun_tech
 				}
 			}
 		}
@@ -834,7 +833,7 @@ focus_tree = {
 				bonus = 2.5
 				uses = 1
 				name = mech_army_bonus
-				technology = JAP_T942
+				category = MVLV_tsf_tech
 			}
 		}
 	}
