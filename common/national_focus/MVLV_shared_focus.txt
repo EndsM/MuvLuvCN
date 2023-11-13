@@ -40,7 +40,6 @@ shared_focus = {
 			}
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -49,22 +48,15 @@ shared_focus = {
 shared_focus = {
 	id = common_national_reconstruction_plan
 	icon = GFX_goal_generic_national_unity
-	#text = 
+	
 	x = 0
 	y = 1
 	relative_position_id = common_civilian_preparing
 	prerequisite = {
 		focus = common_civilian_preparing
 	}
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 5
-	#select_effect = { }
 	completion_reward = {
 		random_owned_controlled_state = {
 			add_building_construction = {
@@ -88,7 +80,6 @@ shared_focus = {
 			}
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -97,20 +88,13 @@ shared_focus = {
 shared_focus = {
 	id = common_adopt_powered_suits
 	icon = GFX_goal_generic_national_unity
-	#text = 
+	
 	x = 2
 	y = 0
 	relative_position_id = common_refugee_tech_sharing
-	#prerequisite = { focus = }
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
+	
 	cost = 5
-	#select_effect = { }
 	completion_reward = {
 		add_tech_bonus = {
 			bonus = 0.5
@@ -118,7 +102,6 @@ shared_focus = {
 			category = infantry_weapons
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
