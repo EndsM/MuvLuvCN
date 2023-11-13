@@ -13,6 +13,7 @@ focus_tree = {
 		y = 1000
 	}
 	reset_on_civilwar = no
+	# Add the shared focuses
 	shared_focus = common_refugee_tech_sharing
 	shared_focus = common_adopt_powered_suits
 	shared_focus = common_experience_of_BETA_war
