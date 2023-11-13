@@ -9,7 +9,7 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		# id = 加固海峡防线
+		# 加固海峡防线
 		id = EUR_FortifyChannelDefence
 		icon = GFX_goal_generic_fortify_city
 		cost = 1
@@ -26,7 +26,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 重建伦敦
+		# 重建伦敦
 		id = EUR_RebuildLondon
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 8
@@ -54,7 +54,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 增援西西里
+		# 增援西西里
 		id = EUR_ReinforceSicily
 		icon = GFX_goal_generic_construct_military
 		cost = 4
@@ -78,7 +78,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 欧洲联合指挥部
+		# 欧洲联合指挥部
 		id = EUR_JointEuroCommand
 		icon = GFX_goal_generic_dangerous_deal
 		cost = 4
@@ -97,7 +97,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 与非联的交易
+		# 与非联的交易
 		id = EUR_aDealMadewithAfrica
 		icon = GFX_goal_generic_production2
 		cost = 4
@@ -121,7 +121,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 情报交流
+		# 情报交流
 		id = EUR_exchangeIntel
 		icon = GFX_goal_generic_intelligence_exchange
 		cost = 4
@@ -182,7 +182,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 与国联的合作
+		# 与国联的合作
 		id = EUR_CoopWithUN
 		icon = GFX_goal_generic_scientific_exchange
 		cost = 4
@@ -199,7 +199,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 主动增加分担金
+		# 主动增加分担金
 		id = EUR_IncreaseOurShare
 		icon = GFX_goal_generic_major_alliance
 		cost = 4
@@ -218,7 +218,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 秘密参与AL4
+		# 秘密参与AL4
 		id = EUR_ParticipateinAL4
 		icon = GFX_focus_research
 		cost = 4
@@ -235,7 +235,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 亲近东欧
+		# 亲近东欧
 		id = EUR_IntimateEEA
 		icon = GFX_goal_generic_war_with_comintern
 		cost = 1
@@ -268,7 +268,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 提供援助
+		# 提供援助
 		id = EUR_OfferAid
 		icon = GFX_goal_generic_forceful_treaty
 		cost = 4
@@ -288,7 +288,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 提供欧制战术机
+		# 提供欧制战术机
 		id = EUR_OfferEuroMadeTSF
 		icon = GFX_goal_generic_construct_civilian
 		cost = 4
@@ -318,7 +318,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 增加消费品配额
+		# 增加消费品配额
 		id = EUR_IncreaseConsumableGoods
 		icon = GFX_goal_generic_consumer_goods
 		cost = 4
@@ -338,7 +338,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 战术交流
+		# 战术交流
 		id = EUR_ExchangeTactics
 		icon = GFX_goal_generic_military_deal
 		cost = 4
@@ -363,7 +363,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 政治影响
+		# 政治影响
 		id = EUR_PoliticalAffection
 		icon = GFX_goal_generic_improve_relations
 		cost = 4
@@ -387,7 +387,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 调和意识形态分歧
+		# 调和意识形态分歧
 		id = EUR_ReconcilingIdeologyDifference
 		icon = GFX_goal_tripartite_pact
 		cost = 4
@@ -411,7 +411,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 真正的欧洲联合
+		# 真正的欧洲联合
 		id = EUR_TheTrueEuropeanUnion
 		icon = GFX_goal_generic_demand_territory
 		cost = 8
@@ -432,7 +432,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 疏远东欧
+		# 疏远东欧
 		id = EUR_AlienateEEA
 		icon = GFX_goal_anti_comintern_pact
 		cost = 1
@@ -457,7 +457,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 有限帮助
+		# 有限帮助
 		id = EUR_LimitedAid
 		icon = GFX_goal_generic_neutrality_focus
 		cost = 4
@@ -481,7 +481,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 向美国靠拢
+		# 向美国靠拢
 		id = EUR_IntimateUSA
 		icon = GFX_goal_anschluss
 		cost = 4
@@ -498,7 +498,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 战斗数据交易
+		# 战斗数据交易
 		id = EUR_ExchangeCombatData
 		icon = GFX_goal_molotov_ribbentrop_pact
 		cost = 4
@@ -524,7 +524,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 美国援助
+		# 美国援助
 		id = EUR_AidFromUS
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 4
@@ -545,7 +545,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 扩充轨道部队
+		# 扩充轨道部队
 		id = EUR_ExpandOrbitalDivers
 		icon = GFX_goal_generic_air_doctrine
 		cost = 4
@@ -563,7 +563,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 援助加拿大
+		# 援助加拿大
 		id = EUR_AidCanada
 		icon = GFX_goal_generic_national_unity
 		cost = 4
@@ -587,7 +587,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 向加拿大租借地投资工业
+		# 向加拿大租借地投资工业
 		id = EUR_CanadaIndustrialInvestment
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 4
@@ -609,7 +609,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 伦敦保卫战的经验
+		# 伦敦保卫战的经验
 		id = EUR_LessonsFromBattleofLondon
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 4
@@ -623,7 +623,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 反思大陆战役
+		# 反思大陆战役
 		id = EUR_ReflectOnBattleofEurope
 		icon = GFX_goal_generic_major_war
 		cost = 4
@@ -645,7 +645,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 引进A10生产线
+		# 引进A10生产线
 		id = EUR_ImportA10ProductionLine
 		icon = GFX_goal_generic_production
 		cost = 4
@@ -665,7 +665,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 投资A12项目
+		# 投资A12项目
 		id = EUR_InvestInA12Development
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		cost = 4
@@ -687,7 +687,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 地狱犬战术推广
+		# 地狱犬战术推广
 		id = EUR_PromoteJA44Tactic
 		icon = GFX_goal_generic_special_forces
 		cost = 4
@@ -704,7 +704,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 新骑士训练
+		# 新骑士训练
 		id = EUR_TheNewGenKnights
 		icon = GFX_goal_generic_secret_weapon
 		cost = 4
@@ -721,7 +721,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 支援炮改进
+		# 支援炮改进
 		id = EUR_ImproveMk57Cannon
 		icon = GFX_goal_generic_army_artillery
 		cost = 4
@@ -738,7 +738,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 改造人投入试验战
+		# 改造人投入试验战
 		id = EUR_DeployModifiedHuman
 		icon = GFX_goal_generic_special_forces
 		cost = 4
@@ -758,7 +758,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 先进战地医疗
+		# 先进战地医疗
 		id = EUR_AdvancedFieldMedicalTreatment
 		icon = GFX_goal_generic_military_sphere
 		cost = 4
@@ -775,7 +775,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 有限运用改造人技术
+		# 有限运用改造人技术
 		id = EUR_LimitedUsageOfHumanModification
 		icon = GFX_goal_generic_territory_or_war
 		cost = 4
@@ -792,7 +792,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# id = 与日本的军事交流
+		# 与日本的军事交流
 		id = EUR_MilitaryCooperationWithJapan
 		icon = GFX_goal_generic_military_deal
 		cost = 4
