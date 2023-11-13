@@ -884,15 +884,15 @@ focus_tree = {
 	####################    国际影响力国策   ######################
 	#东京协议#
 	focus = {
-		id = "东京协议"
+		id = USA_tokyo_treaty
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = "亚太战略"
+			focus = USA_asia_pacific_strategy
 		}
 		x = -3
 		y = 1
 		cost = 5
-		relative_position_id = "亚太战略"
+		relative_position_id = USA_asia_pacific_strategy
 		ai_will_do = {
 			factor = 10
 		}
@@ -901,15 +901,15 @@ focus_tree = {
 	}
 	#修复美日关系#
 	focus = {
-		id = "修复美日关系"
+		id = USA_repair_relation_with_japan
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = "东京协议"
+			focus = USA_tokyo_treaty
 		}
 		x = 0
 		y = 1
 		cost = 5
-		relative_position_id = "东京协议"
+		relative_position_id = USA_tokyo_treaty
 		ai_will_do = {
 			factor = 10
 		}
@@ -919,15 +919,15 @@ focus_tree = {
 	}
 	#美日合作#
 	focus = {
-		id = "美日合作"
+		id = USA_cooperation_with_japan
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = "修复美日关系"
+			focus = USA_repair_relation_with_japan
 		}
 		x = 0
 		y = 1
 		cost = 5
-		relative_position_id = "修复美日关系"
+		relative_position_id = USA_repair_relation_with_japan
 		ai_will_do = {
 			factor = 10
 		}
@@ -937,15 +937,15 @@ focus_tree = {
 	}
 	#东南亚联合投资#
 	focus = {
-		id = "东南亚联合投资"
+		id = USA_joint_investment_in_geu
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = "美日合作"
+			focus = USA_cooperation_with_japan
 		}
 		x = 0
 		y = 1
 		cost = 5
-		relative_position_id = "美日合作"
+		relative_position_id = USA_cooperation_with_japan
 		ai_will_do = {
 			factor = 10
 		}
@@ -1463,7 +1463,7 @@ focus_tree = {
 	}
 	#投资南美#
 	focus = {
-		id = "USA_InvestSouthAmerica"
+		id = USA_InvestSouthAmerica
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
 			focus = "USA_SouthAmericaDevelopment"
@@ -1486,15 +1486,15 @@ focus_tree = {
 	}
 	#日本的合作者#
 	focus = {
-		id = "日本的合作者"
+		id = USA_cooperator_in_japan
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = "亚太战略"
+			focus = USA_asia_pacific_strategy
 		}
 		x = 3
 		y = 1
 		cost = 5
-		relative_position_id = "亚太战略"
+		relative_position_id = USA_asia_pacific_strategy
 		ai_will_do = {
 			factor = 10
 		}
@@ -1509,15 +1509,15 @@ focus_tree = {
 	}
 	#跨太平洋的同盟#
 	focus = {
-		id = "跨太平洋的同盟"
+		id = USA_alliance_across_the_sea
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = "日本的合作者"
+			focus = USA_cooperator_in_japan
 		}
 		x = 0
 		y = 1
 		cost = 5
-		relative_position_id = "日本的合作者"
+		relative_position_id = USA_cooperator_in_japan
 		ai_will_do = {
 			factor = 10
 		}
@@ -1532,15 +1532,15 @@ focus_tree = {
 	}
 	#亚太基地#
 	focus = {
-		id = "亚太基地"
+		id = USA_asia_pacific_base
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = "跨太平洋的同盟"
+			focus = USA_alliance_across_the_sea
 		}
 		x = 0
 		y = 1
 		cost = 5
-		relative_position_id = "跨太平洋的同盟"
+		relative_position_id = USA_alliance_across_the_sea
 		ai_will_do = {
 			factor = 10
 		}
@@ -1555,15 +1555,15 @@ focus_tree = {
 	}
 	#引领东南亚#
 	focus = {
-		id = "引领东南亚"
+		id = USA_guide_geu
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = "亚太基地"
+			focus = USA_asia_pacific_base
 		}
 		x = 0
 		y = 1
 		cost = 5
-		relative_position_id = "亚太基地"
+		relative_position_id = USA_asia_pacific_base
 		ai_will_do = {
 			factor = 10
 		}
@@ -1578,11 +1578,8 @@ focus_tree = {
 	}
 	#亚太战略#
 	focus = {
-		id = "亚太战略"
+		id = USA_asia_pacific_strategy
 		icon = GFX_goal_tripartite_pact
-		prerequisite = {
-			focus = "利用美国影响力"
-		}
 		x = 24
 		y = 1
 		cost = 5
@@ -1600,15 +1597,15 @@ focus_tree = {
 	}
 	#开发大东亚#
 	focus = {
-		id = "影响大东亚"
+		id = USA_influence_geu
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = "亚太战略"
+			focus = USA_asia_pacific_strategy
 		}
 		x = -1
 		y = 1
 		cost = 5
-		relative_position_id = "亚太战略"
+		relative_position_id = USA_asia_pacific_strategy
 		ai_will_do = {
 			factor = 10
 		}
@@ -1623,15 +1620,15 @@ focus_tree = {
 	}
 	#影响澳大利亚#
 	focus = {
-		id = "影响澳大利亚"
+		id = USA_influence_ose
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = "亚太战略"
+			focus = USA_asia_pacific_strategy
 		}
 		x = 1
 		y = 1
 		cost = 5
-		relative_position_id = "亚太战略"
+		relative_position_id = USA_asia_pacific_strategy
 		ai_will_do = {
 			factor = 10
 		}
@@ -1646,15 +1643,15 @@ focus_tree = {
 	}
 	#影响中国#
 	focus = {
-		id = "影响中国"
+		id = USA_influence_china
 		icon = GFX_goal_tripartite_pact
 		prerequisite = {
-			focus = "亚太战略"
+			focus = USA_asia_pacific_strategy
 		}
 		x = 0
 		y = 2
 		cost = 5
-		relative_position_id = "亚太战略"
+		relative_position_id = USA_asia_pacific_strategy
 		ai_will_do = {
 			factor = 10
 		}
