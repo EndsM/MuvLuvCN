@@ -14,13 +14,11 @@ focus_tree = {
 	}
 	reset_on_civilwar = no
 	focus = {
+		# 在日本的间谍活动
 		id = USA_support_japanese
 		icon = GFX_focus_jap_pacific_guardian
 		x = 1
 		y = 0
-		#relative_position_id = 
-		#prerequisite = { focus = }
-		#mutually_exclusive = { focus =  }
 		available = {
 			date > 2001.1.4
 			282 = {
@@ -32,13 +30,7 @@ focus_tree = {
 				}
 			}
 		}
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
-		#select_effect = { }
 		completion_reward = {
 			UNI = {
 				country_event = mvlv_generic.5
@@ -59,9 +51,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		completion_reward = {
 			add_stability = 0.05
 			add_war_support = 0.05
@@ -241,6 +230,7 @@ focus_tree = {
 				bonus = 1.5
 				uses = 1
 				name = mech_army_bonus
+				# add a tech category for modules
 				technology = USA_F-15ACTV
 			}
 			add_tech_bonus = {
