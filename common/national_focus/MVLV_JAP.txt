@@ -12,6 +12,9 @@ focus_tree = {
 		x = 20
 		y = 1000
 	}
+	initial_show_position = {
+		focus = JAP_endOperationLucifer
+	}
 	reset_on_civilwar = no
 	#结束明星作战#
 	focus = {
@@ -34,8 +37,9 @@ focus_tree = {
 	focus = {
 		id = JAP_rebuildDefenceLine
 		icon = GFX_goal_generic_build_tank
-		x = 9
+		x = 0
 		y = 1
+		relative_position_id = JAP_endOperationLucifer
 		prerequisite = {
 			focus = JAP_endOperationLucifer
 		}
@@ -56,22 +60,13 @@ focus_tree = {
 	focus = {
 		id = JAP_movetoSendai
 		icon = GFX_goal_generic_construct_civ_factory
-		#text = 
-		x = 9
-		y = 2
-		#relative_position_id = JAP_denfensive_line
+		x = 0
+		y = 1
+		relative_position_id = JAP_rebuildDefenceLine
 		prerequisite = {
 			focus = JAP_rebuildDefenceLine
 		}
-		#mutually_exclusive = { focus =  }
-		#available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
-		#select_effect = { }
 		completion_reward = {
 			533 = {
 				add_extra_state_shared_building_slots = 10
@@ -87,7 +82,6 @@ focus_tree = {
 				}
 			}
 		}
-		#completation_tooltip = { }
 		ai_will_do = {
 			factor = 2
 		}
