@@ -31,9 +31,6 @@ focus_tree = {
 				has_idea = BET_broken_original_hive
 			}
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 50
 		completion_reward = {
 			every_country = {
@@ -58,9 +55,6 @@ focus_tree = {
 		available = {
 			has_idea = MVLV_bocchi
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 0.5
 		completion_reward = {
 			every_country = {
@@ -93,9 +87,6 @@ focus_tree = {
 				is_controlled_by = BET
 			}
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 15
 		completion_reward = {
 			every_country = {
