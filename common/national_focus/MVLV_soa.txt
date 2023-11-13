@@ -88,10 +88,23 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = SOA_happy
 			replace_civ_with_arms_factories = yes
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_chassis
-				amount = 500
-				producer = EUR
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_2_light_normal
+					variant_name = "JA-37Viggen"
+					amount = 500
+					producer = EUR
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					producer = EUR
+					type = tsf_equipment_JA-37
+					amount = 500
+				}
 			}
 			add_war_support = 0.05
 		}
@@ -246,10 +259,23 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			add_political_power = -300
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_chassis
-				amount = 850
-				producer = UNI
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_2_heavy_normal
+					variant_name = "F-15E打击鹰"
+					amount = 850
+					producer = UNI
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_F-15E
+					amount = 850
+					producer = UNI
+				}
 			}
 		}
 		ai_will_do = {
@@ -643,43 +669,76 @@ focus_tree = {
 		cost = 2
 		completion_reward = {
 			add_political_power = -300
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_classis_1_heavy
-				amount = 600
-				producer = UNI
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_2_heavy_high_mobility
+					variant_name = "94式 不知火"
+					amount = 600
+					producer = UNI
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_2_heavy_normal
+					variant_name = "F-15E打击鹰"
+					amount = 600
+					producer = USA
+				}
 			}
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_classis_1_light
-				amount = 600
-				producer = USA
+			else = {
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_T94
+					amount = 600
+					producer = UNI
+				}
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_F-15E
+					amount = 600
+					producer = USA
+				}
 			}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	# focus = {
-	# 	# id = 吸收流亡卫士
-	# 	id = SOA_AbsorbExiledPilots
-	# 	icon = GFX_goal_generic_production2
-	# 	x = 2
-	# 	y = 1
-	# 	relative_position_id = SOA_Unity
-	# 	prerequisite = { focus = SOA_Unity }
-	# 	cancel_if_invalid = yes
-	# 	continue_if_invalid = no
-	# 	# available={check_variable={卫士训练规模>120}}
-	# 	cost = 2
-	# 	completion_reward = {
-	# 		add_political_power = -300
-	# 		add_equipment_to_stockpile = {
-	# 			type = guard_equipment_1
-	# 			amount = 1000
-	# 			producer = ROOT
-	# 		}
-	# 	}
-	# 	ai_will_do = { factor = 1 }
-	# }
+	focus = {
+		# id = 吸收流亡卫士
+		id = SOA_AbsorbExiledPilots
+		icon = GFX_goal_generic_production2
+		x = 2
+		y = 1
+		relative_position_id = SOA_Unity
+		prerequisite = {
+			focus = SOA_Unity
+		}
+		cost = 2
+		completion_reward = {
+			add_political_power = -300
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					producer = UNI
+					type = MVLV_TSF_classis_1_heavy
+					variant_name = "F-4E"
+					amount = 1000
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					producer = UNI
+					type = tsf_equipment_F-5EADV
+					amount = 1000
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	# focus = {
 	# 	# id = 新卫士训练基地
 	# 	id = SOA_NewTSFPilotTrainingCentre

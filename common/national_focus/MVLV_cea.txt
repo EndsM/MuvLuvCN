@@ -74,10 +74,23 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = SOA_happy
 			replace_civ_with_arms_factories = yes
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_chassis
-				amount = 500
-				producer = EUR
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_2_light_normal
+					variant_name = "JA-37Viggen"
+					amount = 500
+					producer = EUR
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					producer = EUR
+					type = tsf_equipment_JA-37
+					amount = 500
+				}
 			}
 			add_war_support = 0.05
 		}
@@ -206,10 +219,23 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			add_political_power = -300
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_chassis
-				amount = 850
-				producer = UNI
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_2_heavy_normal
+					variant_name = "F-15E打击鹰"
+					amount = 850
+					producer = UNI
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_F-15E
+					amount = 850
+					producer = UNI
+				}
 			}
 		}
 		ai_will_do = {
@@ -226,9 +252,6 @@ focus_tree = {
 			focus = CEA_tsf
 		}
 		#mutually_exclusive = { focus = CEA_nowar }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -527,15 +550,34 @@ focus_tree = {
 		cost = 2
 		completion_reward = {
 			add_political_power = -300
-			add_equipment_to_stockpile = {
-				type = tsf_equipment_T94
-				amount = 600
-				producer = UNI
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_2_heavy_high_mobility
+					variant_name = "94式 不知火"
+					amount = 600
+					producer = UNI
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_classis_2_heavy_normal
+					variant_name = "F-15E打击鹰"
+					amount = 600
+					producer = USA
+				}
 			}
-			add_equipment_to_stockpile = {
-				type = tsf_equipment_F-15E
-				amount = 600
-				producer = USA
+			else = {
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_T94
+					amount = 600
+					producer = UNI
+				}
+				add_equipment_to_stockpile = {
+					type = tsf_equipment_F-15E
+					amount = 600
+					producer = USA
+				}
 			}
 		}
 		ai_will_do = {
