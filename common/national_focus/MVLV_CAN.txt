@@ -277,10 +277,23 @@ focus_tree = {
 		}
 		cost = 5
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = MVLV_TSF_chassis
-				amount = 1200
-				producer = USA
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_equipment_to_stockpile = {
+					variant_name = "F-22A猛禽"
+					type = MVLV_TSF_classis_3_heavy_normal_stealth
+					amount = 1200
+					producer = USA
+				}
+			}
+			else = {
+				add_equipment_to_stockpile = {
+					producer = USA
+					type = tsf_equipment_F-22
+					amount = 1200
+				}
 			}
 		}
 		ai_will_do = {
