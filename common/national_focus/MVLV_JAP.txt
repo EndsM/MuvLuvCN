@@ -241,14 +241,12 @@ focus_tree = {
 	focus = {
 		id = JAP_prepareForLanding
 		icon = GFX_goal_generic_construct_military
-		#text = 
-		x = 10
-		y = 5
-		#relative_position_id = JAP_alternative_iv_project
+		x = 0
+		y = 1
+		relative_position_id = JAP_investAL4
 		prerequisite = {
 			focus = JAP_investAL4
 		}
-		#mutually_exclusive = { focus = }
 		available = {
 			528 = {
 				is_fully_controlled_by = JAP
@@ -257,13 +255,7 @@ focus_tree = {
 				is_fully_controlled_by = JAP
 			}
 		}
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
-		#select_effect = { }
 		completion_reward = {
 			528 = {
 				add_building_construction = {
@@ -288,7 +280,6 @@ focus_tree = {
 				}
 			}
 		}
-		#completation_tooltip = { }
 		ai_will_do = {
 			factor = 2
 		}
@@ -297,14 +288,12 @@ focus_tree = {
 	focus = {
 		id = JAP_secureFarEastDefenceLine
 		icon = GFX_goal_generic_defence
-		#text = 
-		x = 10
-		y = 6
-		#relative_position_id = JAP_prepare_for_another_BETA_landing
+		x = 0
+		y = 1
+		relative_position_id = JAP_prepareForLanding
 		prerequisite = {
 			focus = JAP_prepareForLanding
 		}
-		#mutually_exclusive = { focus = }
 		available = {
 			555 = {
 				is_fully_controlled_by = JAP
@@ -313,13 +302,7 @@ focus_tree = {
 				is_fully_controlled_by = JAP
 			}
 		}
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
-		#select_effect = { }
 		completion_reward = {
 			555 = {
 				add_building_construction = {
@@ -344,7 +327,6 @@ focus_tree = {
 				}
 			}
 		}
-		#completation_tooltip = { }
 		ai_will_do = {
 			factor = 2
 		}
@@ -353,22 +335,13 @@ focus_tree = {
 	focus = {
 		id = JAP_reorganiseIRG
 		icon = GFX_goal_generic_special_forces
-		#text = 
-		x = 10
-		y = 7
-		#relative_position_id = JAP_reestablish_far_east_defensive_line
+		x = 0
+		y = 1
+		relative_position_id = JAP_secureFarEastDefenceLine
 		prerequisite = {
 			focus = JAP_secureFarEastDefenceLine
 		}
-		#mutually_exclusive = { focus = }
-		#available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
-		#select_effect = { }
 		completion_reward = {
 			add_ideas = JAP_expand_IJRG
 		}
@@ -377,26 +350,18 @@ focus_tree = {
 	focus = {
 		id = JAP_returnToKyoto
 		icon = GFX_goal_generic_construct_mil_factory
-		#text = 
-		x = 10
-		y = 8
-		#relative_position_id = JAP_expand_imperial_guard_forces
+		x = 0
+		y = 1
+		relative_position_id = JAP_reorganiseIRG
 		prerequisite = {
 			focus = JAP_reorganiseIRG
 		}
-		#mutually_exclusive = { focus = }
 		available = {
 			531 = {
 				is_fully_controlled_by = JAP
 			}
 		}
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
-		#select_effect = { }
 		completion_reward = {
 			531 = {
 				add_extra_state_shared_building_slots = 20
@@ -417,20 +382,9 @@ focus_tree = {
 	focus = {
 		id = JAP_USJAPTreatyLesson
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		#text = 
 		x = 3
 		y = 0
-		#relative_position_id = JAP_move_capital_to_sendai
-		#prerequisite = { focus = JAP_move_capital_to_sendai }
-		#mutually_exclusive = { focus =  }
-		#available = {}
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 1
-		#select_effect = { }
 		completion_reward = {
 			add_political_power = 150
 		}
@@ -442,22 +396,13 @@ focus_tree = {
 	focus = {
 		id = JAP_workWithUFC
 		icon = GFX_goal_generic_major_alliance
-		#text = 
-		x = 3
+		x = 0
 		y = 1
-		#relative_position_id = JAP_expand_imperial_guard_forces
+		relative_position_id = JAP_USJAPTreatyLesson
 		prerequisite = {
 			focus = JAP_USJAPTreatyLesson
 		}
-		#mutually_exclusive = { focus = }
-		#available = { 531 = { is_fully_controlled_by = JAP  }}
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
-		#select_effect = { }
 		completion_reward = {
 			army_experience = 100
 			CHI = {
@@ -469,22 +414,13 @@ focus_tree = {
 	focus = {
 		id = JAP_neighborOfTheNorth
 		icon = GFX_goal_generic_scientific_exchange
-		#text = 
-		x = 3
-		y = 2
-		#relative_position_id = JAP_expand_imperial_guard_forces
+		x = 0
+		y = 1
+		relative_position_id = JAP_workWithUFC
 		prerequisite = {
 			focus = JAP_workWithUFC
 		}
-		#mutually_exclusive = { focus = }
-		#available = { 531 = { is_fully_controlled_by = JAP  }}
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
-		#select_effect = { }
 		completion_reward = {
 			add_timed_idea = {
 				idea = JAP_japan_soviet_tech_exchange
@@ -502,25 +438,16 @@ focus_tree = {
 	focus = {
 		id = JAP_EML99XTestFire
 		icon = GFX_goal_generic_scientific_exchange
-		#text = 
-		x = 5
-		y = 3
-		#relative_position_id = JAP_expand_imperial_guard_forces
+		x = 2
+		y = 1
+		relative_position_id = JAP_neighborOfTheNorth
 		prerequisite = {
 			focus = JAP_neighborOfTheNorth
 		}
 		prerequisite = {
 			focus = JAP_xfj_project
 		}
-		#mutually_exclusive = { focus = }
-		#available = { 531 = { is_fully_controlled_by = JAP  }}
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
-		#select_effect = { }
 		completion_reward = {
 			add_ideas = JAP_tested_railgun
 			country_event = mvlv_jap.18
@@ -530,22 +457,13 @@ focus_tree = {
 	focus = {
 		id = JAP_FriendsFromTheSouth
 		icon = GFX_goal_generic_construct_civ_factory
-		#text = 
-		x = 3
-		y = 3
-		#relative_position_id = JAP_expand_imperial_guard_forces
+		x = 0
+		y = 1
+		relative_position_id = JAP_neighborOfTheNorth
 		prerequisite = {
 			focus = JAP_neighborOfTheNorth
 		}
-		#mutually_exclusive = { focus = }
-		#available = { 531 = { is_fully_controlled_by = JAP  }}
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
-		#select_effect = { }
 		completion_reward = {
 			add_ideas = JAP_import_food_from_geu
 			GEU = {
