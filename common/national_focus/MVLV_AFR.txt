@@ -357,6 +357,7 @@ focus_tree = {
 		y = 6
 		completion_reward = {
 			add_tech_bonus = {
+				name = "AFR focus bonus"
 				bonus = 0.5
 				uses = 2
 				category = MVLV_tsf_tech
@@ -868,6 +869,7 @@ focus_tree = {
 		y = 9
 		completion_reward = {
 			add_tech_bonus = {
+				name = "AFR focus bonus"
 				bonus = 1
 				uses = 3
 				category = MVLV_tsf_tech
@@ -912,9 +914,6 @@ focus_tree = {
 		prerequisite = {
 			focus = AFR_aNewAfricaUnion
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			USA = {
@@ -938,9 +937,6 @@ focus_tree = {
 		prerequisite = {
 			focus = AFR_EmployUSMilitaryAdvisors
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			USA = {
@@ -972,9 +968,6 @@ focus_tree = {
 				has_completed_focus = USA_US_Euro_AfricaAlliance
 			}
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			USA = {
@@ -1002,9 +995,6 @@ focus_tree = {
 				has_completed_focus = USA_NATO_Africa_JointForces
 			}
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			USA = {
