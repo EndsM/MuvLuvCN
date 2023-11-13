@@ -456,9 +456,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_3_B
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -486,9 +483,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_3_B
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			every_owned_state = {
@@ -518,9 +512,6 @@ focus_tree = {
 			focus = EEA_P_5_B
 			focus = EEA_P_6_B
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_ideas = EEA_P3
@@ -538,9 +529,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_7_B
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_ideas = EEA_P2
@@ -567,9 +555,6 @@ focus_tree = {
 				is_controlled_by = EEA
 			}
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			set_capital = {
@@ -594,9 +579,6 @@ focus_tree = {
 		icon = GFX_goal_support_fourth_int
 		x = 19
 		y = 0
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			army_experience = 100
@@ -616,9 +598,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_M_1
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_ideas = EEA_M1
@@ -639,9 +618,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = EEA_M_3_B
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -650,11 +626,6 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
-			# add_tech_bonus = {
-			# 	bonus = 1.5
-			# 	uses = 1
-			# 	category = land_doctrine
-			# }
 			army_experience = 200
 		}
 		ai_will_do = {
@@ -670,9 +641,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_M_3_A
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_ideas = EEA_M2
@@ -690,9 +658,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_M_4_A
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 10
 		completion_reward = {
 			add_ideas = SOV_ru7
@@ -713,9 +678,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = EEA_M_3_A
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_doctrine_cost_reduction = {
@@ -724,11 +686,6 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
-			# add_tech_bonus = {
-			# 	bonus = 1.5
-			# 	uses = 1
-			# 	category = land_doctrine
-			# }
 			army_experience = 200
 		}
 		ai_will_do = {
@@ -744,9 +701,6 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_M_3_B
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			add_ideas = EEA_M3
