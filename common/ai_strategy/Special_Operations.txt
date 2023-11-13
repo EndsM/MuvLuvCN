@@ -1,0 +1,15 @@
+# Set operation like ouka and H21 here
+operation_kou21_prepare = {
+	enable = {
+		date > 2001.10.22
+		has_war = yes
+		is_ai = yes
+		is_in_faction_with = UNI
+		has_idea = JAP_kou21
+	}
+	ai_strategy = {
+		type = invade
+		id = H21
+		value = 100
+	}
+}

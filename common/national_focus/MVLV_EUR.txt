@@ -677,6 +677,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -50
 			add_tech_bonus = {
+				name = "EUR focus bonus"
 				bonus = 1
 				uses = 1
 				technology = generic_A-12
