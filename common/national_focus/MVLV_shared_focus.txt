@@ -160,7 +160,6 @@ shared_focus = {
 shared_focus = {
 	id = common_a_step_for_tomorrow
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 1
 	y = 1
 	relative_position_id = common_national_reconstruction_plan
@@ -168,19 +167,11 @@ shared_focus = {
 		focus = common_national_reconstruction_plan
 		focus = common_boost_supply_capacity
 	}
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 10
-	#select_effect = { }
 	completion_reward = {
 		add_research_slot = 1
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -189,7 +180,6 @@ shared_focus = {
 shared_focus = {
 	id = common_war_of_men_with_no_gun
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = -1
 	y = 1
 	relative_position_id = common_a_step_for_tomorrow
@@ -199,14 +189,8 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = common_preparing_massive_counterattack
 	}
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 10
-	#select_effect = { }
 	completion_reward = {
 		every_owned_state = {
 			limit = {
@@ -219,7 +203,6 @@ shared_focus = {
 			}
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -228,7 +211,6 @@ shared_focus = {
 shared_focus = {
 	id = common_preparing_massive_counterattack
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 1
 	y = 1
 	relative_position_id = common_a_step_for_tomorrow
@@ -238,14 +220,8 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = common_war_of_men_with_no_gun
 	}
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 10
-	#select_effect = { }
 	completion_reward = {
 		every_owned_state = {
 			limit = {
@@ -258,7 +234,6 @@ shared_focus = {
 			}
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -269,26 +244,16 @@ shared_focus = {
 shared_focus = {
 	id = common_experience_of_BETA_war
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 2
 	y = 0
 	relative_position_id = common_adopt_powered_suits
-	#prerequisite = { focus = }
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 10
-	#select_effect = { }
 	completion_reward = {
 		army_experience = 100
 		navy_experience = 100
 		air_experience = 100
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -297,22 +262,14 @@ shared_focus = {
 shared_focus = {
 	id = common_develop_counter_BETA_tactics
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 0
 	y = 1
 	relative_position_id = common_experience_of_BETA_war
 	prerequisite = {
 		focus = common_experience_of_BETA_war
 	}
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 10
-	#select_effect = { }
 	completion_reward = {
 		add_doctrine_cost_reduction = {
 			name = land_doctrine
@@ -320,13 +277,7 @@ shared_focus = {
 			uses = 5
 			category = land_doctrine
 		}
-		# add_tech_bonus = {
-		# 	bonus = 0.5
-		# 	uses = 5
-		# 	category = land_doctrine
-		# }
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -359,26 +310,17 @@ shared_focus = {
 shared_focus = {
 	id = common_use_battle_experience_in_research
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 0
 	y = 1
 	relative_position_id = common_establish_supply_line
 	prerequisite = {
 		focus = common_establish_supply_line
 	}
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 10
-	#select_effect = { }
 	completion_reward = {
 		add_research_slot = 1
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -389,24 +331,18 @@ shared_focus = {
 shared_focus = {
 	id = common_refugee_support_request
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 3
 	y = 0
 	relative_position_id = common_experience_of_BETA_war
-	#prerequisite = { focus = }
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
 	cost = 10
-	#select_effect = { }
+
 	completion_reward = {
 		add_political_power = 300
 	}
-	#completation_tooltip = { }
+
 	ai_will_do = {
 		factor = 1
 	}
@@ -415,7 +351,7 @@ shared_focus = {
 shared_focus = {
 	id = common_refugee_job_mediation
 	icon = GFX_goal_generic_national_unity
-	#text = 
+	
 	x = -1
 	y = 1
 	relative_position_id = common_refugee_support_request
