@@ -1,10 +1,9 @@
-spriteTypes = {	
+spriteTypes = {
 	#jap leader gfx
-	
 	SpriteType = {
 		name = "GFX_portrait_denka"
 		textureFile = "gfx/leaders/JAP/denka.dds"
-	}	
+	}
 	SpriteType = {
 		name = "GFX_portrait_superior_existance"
 		textureFile = "gfx/leaders/BET/cbth5-jlbbi.dds"
@@ -13,9 +12,6 @@ spriteTypes = {
 		name = "GFX_Portrait_yui"
 		textureFile = "gfx/leaders/JAP/yui.dds"
 	}
-	
-	
-	
 	SpriteType = {
 		name = "GFX_Portrait_generic_council"
 		textureFile = "gfx/leaders/SWI/Portrait_Switzerland_Federal_council.dds"
