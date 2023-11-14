@@ -36,13 +36,15 @@ tactic_beta_underground_assault = {
 
 #ハイヴ内戦闘
 tactic_beta_hive_inner_combat = {
+	is_attacker = no
 	trigger = {
+		is_attacker = no
 		OR = {
 			is_fighting_in_terrain = hive_mainhall
 			is_fighting_in_terrain = hive_gate
 			is_fighting_in_terrain = hive_gateclass
 		}
-		
+		phase = no
 	}
 	active = no
 	base = {
@@ -51,6 +53,7 @@ tactic_beta_hive_inner_combat = {
 	picture = hivecombat
 	combat_width = 1.5
 	attacker_movement_speed = -0.75
+	defender = 0.15
 }
 
 #____________________________________________________________
@@ -66,7 +69,7 @@ tactic_orbit_diver = {
 			is_fighting_in_terrain = hive_gate
 			is_fighting_in_terrain = hive_gateclass
 		}
-		
+		phase = no
 	}
 	active = no
 	base = {
@@ -81,7 +84,9 @@ tactic_orbit_diver = {
 
 #ハイヴ内戦闘
 tactic_human_hive_inner_combat = {
+	is_attacker = yes
 	trigger = {
+		is_attacker = yes
 		OR = {
 			is_fighting_in_terrain = hive_mainhall
 			is_fighting_in_terrain = hive_gate
@@ -90,6 +95,7 @@ tactic_human_hive_inner_combat = {
 		NOT = {
 			has_combat_modifier = paradrop
 		}
+		phase = no
 	}
 	active = no
 	base = {
@@ -98,6 +104,7 @@ tactic_human_hive_inner_combat = {
 	picture = hivecombat
 	combat_width = -0.25
 	attacker_movement_speed = -0.75
+	defender = 0.15
 }
 
 #____________________________________________________________
