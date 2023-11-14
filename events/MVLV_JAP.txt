@@ -51,7 +51,7 @@ country_event = {
 					}
 				}
 				JAP_unit_leader_24 = {
-					set_character_flag = character_unlocked
+					set_character_flag = "角色解锁"
 				}
 				# recruit_character = JAP_unit_leader_24
 				#create_corps_commander = { 
@@ -273,7 +273,7 @@ country_event = {
 				retire_character = USA_units_leader_1
 				# recruit_character = USA_units_leader_13
 				USA_units_leader_13 = {
-					set_character_flag = character_unlocked
+					set_character_flag = "角色解锁"
 				}
 				#create_field_marshal = { 
 				#		name = "阿尔弗雷德·沃肯中校"
