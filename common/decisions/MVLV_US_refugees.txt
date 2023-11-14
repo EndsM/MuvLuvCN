@@ -1,39 +1,36 @@
 operations = {
 	nannmin_operation = {
 		icon = generic_prepare_civil_war
-
 		available = {
 			has_war_with = BET
-      NOT = {
-              has_idea = UNI_refugees_problem_0
-              has_idea = USA_refugees
-              has_idea = OSE_refugees
-      }
+			NOT = {
+				has_idea = UNI_refugees_problem_0
+				has_idea = USA_refugees
+				has_idea = OSE_refugees
+			}
 		}
-
 		visible = {
 		}
-
 		days_remove = 30
 		days_re_enable = 120
-
 		fire_only_once = yes
-
 		cost = 50
-
-		modifier = {}
-
+		modifier = {
+		}
 		complete_effect = {
-      ROOT = {
-        add_equipment_to_stockpile = { type = MVLV_TSF_chassis amount = -60 producer = ROOT }
-      }
+			ROOT = {
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_chassis
+					amount = -60
+					producer = ROOT
+				}
+			}
 			add_manpower = -55000
 			add_stability = 0.1
 			add_war_support = -0.05
 		}
-
-		remove_effect = {}
-
+		remove_effect = {
+		}
 		ai_will_do = {
 			factor = 0
 		}
