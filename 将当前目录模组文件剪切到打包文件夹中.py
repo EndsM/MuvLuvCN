@@ -1,6 +1,6 @@
 import os
 # 指定特定文件夹  
-destination_folder = '打包'
+destination_folder = 'repack'
 # 创建目标文件夹（如果不存在）  
 if not os.path.exists(destination_folder):  
     os.makedirs(destination_folder)
