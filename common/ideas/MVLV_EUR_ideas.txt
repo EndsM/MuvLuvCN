@@ -146,9 +146,10 @@ ideas = {
 				always = no
 			}
 			equipment_bonus = {
-				tsf_sub_weapons_equipment = {
-					hard_attack = 0.1
+				MVLV_TSF_chassis = {
+					hard_attack = 0.05
 					soft_attack = 0.1
+					build_cost_ic = 0.05
 					instant = yes
 				}
 			}
