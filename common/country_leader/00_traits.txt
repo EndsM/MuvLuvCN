@@ -1745,7 +1745,7 @@ leader_traits = {
 	blitzkrieg_theorist = {
 		sprite = 14
 		equipment_bonus = {
-			armored = {
+			armor = {
 				instant = yes
 				maximum_speed = 0.1
 			}
