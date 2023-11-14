@@ -296,7 +296,7 @@ shared_focus = {
 	cost = 5
 	completion_reward = {
 		add_tech_bonus = {
-			name = "shared_focus_bonus"
+			name = "shared focus bonus"
 			bonus = 0.5
 			uses = 1
 			category = MVLV_tsf_tech
@@ -335,14 +335,10 @@ shared_focus = {
 	y = 0
 	relative_position_id = common_experience_of_BETA_war
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 10
-
 	completion_reward = {
 		add_political_power = 300
 	}
-
 	ai_will_do = {
 		factor = 1
 	}
@@ -351,7 +347,6 @@ shared_focus = {
 shared_focus = {
 	id = common_refugee_job_mediation
 	icon = GFX_goal_generic_national_unity
-	
 	x = -1
 	y = 1
 	relative_position_id = common_refugee_support_request
@@ -361,14 +356,8 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = common_mobilize_refugee
 	}
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 5
-	#select_effect = { }
 	completion_reward = {
 		from = {
 			swap_ideas = {
@@ -383,7 +372,6 @@ shared_focus = {
 			}
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -392,26 +380,17 @@ shared_focus = {
 shared_focus = {
 	id = common_resource_exploit_in_backyard_countries
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 0
 	y = 1
 	relative_position_id = common_refugee_job_mediation
 	prerequisite = {
 		focus = common_refugee_job_mediation
 	}
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 5
-	#select_effect = { }
 	completion_reward = {
 		add_stability = 0.1
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -420,22 +399,14 @@ shared_focus = {
 shared_focus = {
 	id = common_support_tsf_production
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 0
 	y = 1
 	relative_position_id = common_resource_exploit_in_backyard_countries
 	prerequisite = {
 		focus = common_resource_exploit_in_backyard_countries
 	}
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 5
-	#select_effect = { }
 	completion_reward = {
 		random_owned_controlled_state = {
 			limit = {
@@ -444,7 +415,6 @@ shared_focus = {
 			add_extra_state_shared_building_slots = 5
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -453,7 +423,6 @@ shared_focus = {
 shared_focus = {
 	id = common_mobilize_refugee
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 1
 	y = 1
 	relative_position_id = common_refugee_support_request
@@ -463,14 +432,8 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = common_refugee_job_mediation
 	}
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 5
-	#select_effect = { }
 	completion_reward = {
 		from = {
 			swap_ideas = {
@@ -485,7 +448,6 @@ shared_focus = {
 			}
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -494,26 +456,17 @@ shared_focus = {
 shared_focus = {
 	id = common_refugee_conscription
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 0
 	y = 1
 	relative_position_id = common_mobilize_refugee
 	prerequisite = {
 		focus = common_mobilize_refugee
 	}
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 5
-	#select_effect = { }
 	completion_reward = {
 		add_war_support = 0.1
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -522,20 +475,13 @@ shared_focus = {
 shared_focus = {
 	id = common_support_UNI_forces
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 0
 	y = 1
 	relative_position_id = common_refugee_conscription
 	prerequisite = {
 		focus = common_refugee_conscription
 	}
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 5
 	completion_reward = {
 		random_owned_controlled_state = {
@@ -545,7 +491,6 @@ shared_focus = {
 			add_extra_state_shared_building_slots = 5
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -554,7 +499,6 @@ shared_focus = {
 shared_focus = {
 	id = common_provide_XM3
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 2
 	y = 1
 	relative_position_id = common_support_UNI_forces
@@ -562,15 +506,8 @@ shared_focus = {
 		focus = common_support_tsf_production
 		focus = common_support_UNI_forces
 	}
-	#mutually_exclusive = {  }
-	#available = {  }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 5
-	#select_effect = { }
 	completion_reward = {
 		add_equipment_to_stockpile = {
 			type = MVLV_TSF_chassis
@@ -578,7 +515,6 @@ shared_focus = {
 			producer = UNI
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -601,8 +537,6 @@ shared_focus = {
 		focus = common_cooperation_agreement
 	}
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 10
 	completion_reward = {
 		if = {
@@ -632,7 +566,6 @@ shared_focus = {
 			add_stability = -0.1
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -641,7 +574,6 @@ shared_focus = {
 shared_focus = {
 	id = common_human_unification
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 0
 	y = 1
 	relative_position_id = common_support_UNI_forces
@@ -658,13 +590,8 @@ shared_focus = {
 	available = {
 		is_subject = no
 	}
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 10
-	#select_effect = { }
 	completion_reward = {
 		UNI = {
 			puppet = ROOT
@@ -693,7 +620,6 @@ shared_focus = {
 			remove_ideas = MVLV_UNF_2
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -716,8 +642,6 @@ shared_focus = {
 		focus = common_self_determination
 	}
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 10
 	completion_reward = {
 		if = {
