@@ -509,8 +509,8 @@ focus_tree = {
 			custom_effect_tooltip = CHI_idea_12_S5_tt
 			set_party_name = {
 				ideology = democratic
-				long_name = CHI_democratic_party_long
-				name = CHI_democratic_party
+				long_name = CHI_UFC_democratic_party_long
+				name = CHI_UFC_democratic_party
 			}
 			hidden_effect = {
 				set_cosmetic_tag = CHI_warlord_leader
