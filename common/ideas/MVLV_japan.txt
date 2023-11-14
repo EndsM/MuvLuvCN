@@ -15,7 +15,8 @@ ideas = {
 			}
 			traits = {
 				battlefleet_designer
-			}			# built Yamato
+			}
+			# built Yamato
 		}
 		yokosuka_naval_arsenal = {
 			allowed = {
@@ -26,7 +27,8 @@ ideas = {
 			}
 			traits = {
 				pacific_fleet_naval_manufacturer
-			}			#built best CVs
+			}
+			#built best CVs
 			equipment_bonus = {
 				# 
 			}
@@ -40,7 +42,8 @@ ideas = {
 			}
 			traits = {
 				convoy_escort_naval_manufacturer
-			}			#destroyer R&D
+			}
+			#destroyer R&D
 			equipment_bonus = {
 				# 
 			}
@@ -54,7 +57,8 @@ ideas = {
 			}
 			traits = {
 				coastal_defence_naval_manufacturer
-			}			#used for many repairs and conversions
+			}
+			#used for many repairs and conversions
 			equipment_bonus = {
 			}
 		}

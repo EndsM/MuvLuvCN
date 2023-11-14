@@ -68,7 +68,7 @@ ideas = {
 			modifier = {
 			}
 			equipment_bonus = {
-				MVLV_AL_shell_equipment_1 = {
+				MVLV_AL_shell_equipment = {
 					build_cost_ic = -0.25
 					instant = yes
 				}
