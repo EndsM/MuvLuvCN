@@ -101,7 +101,7 @@ sub_units = {
 			defence = -0.8
 		}
 	}
-	
+	# 斯卫军
 	mountaineers = {
 		sprite = "tsfmou"
 		map_icon_category = armored

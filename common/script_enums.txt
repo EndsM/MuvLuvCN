@@ -70,8 +70,10 @@ script_enum_equipment_bonus_type = {
 	medium_tank_destroyer_chassis
 	heavy_tank_destroyer_chassis
 
+	# pre-dlc equipments
 	light_tank_equipment
 	medium_tank_equipment
+	modern_tank_aa_equipment
 	## Sea
 	ship_hull_light
 	ship_hull_heavy
@@ -98,6 +100,7 @@ script_enum_equipment_bonus_type = {
 	MVLV_shell_equipment
 	# TSF subtypes
 	tsa_equipment
+	asa_equipment
 }
 
 script_enum_operative_mission_type = {

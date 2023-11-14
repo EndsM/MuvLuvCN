@@ -829,55 +829,5 @@ ideas={
 				grand_fleet_proponent
 			}
 		}
-		sergei_rudenko = {
-			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				NOT = {
-					has_country_flag = counter_purge
-				}
-			}
-			cost = 250
-			research_bonus = {
-				cat_battlefield_support = 0.2
-			}
-			traits = {
-				close_air_support_proponent
-			}
-		}
-		alexander_golovanov = {
-			allowed = {
-				original_tag = SOV
-			}
-			research_bonus = {
-				air_doctrine = 0.1
-			}
-			traits = {
-				air_warfare_theorist
-			}
-		}
-		igor_kurchatov = {
-			allowed = {
-				original_tag = SOV
-			}
-			research_bonus = {
-				nuclear = 0.15
-			}
-			traits = {
-				nuclear_scientist
-			}
-		}
-		sergei_korolev = {
-			allowed = {
-				original_tag = SOV
-			}
-			research_bonus = {
-				rocketry = 0.15
-			}
-			traits = {
-				rocket_scientist
-			}
-		}
 	}
 }
