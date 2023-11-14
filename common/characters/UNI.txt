@@ -664,7 +664,6 @@ characters = {
 			traits = {
 				trickster
 				trait_cautious
-				areer_officer
 				trait_engineer
 				armor_officer
 				inspirational_leader

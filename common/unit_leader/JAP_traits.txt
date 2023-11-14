@@ -1,15 +1,12 @@
 leader_traits = {
-
-	
-##################################
-# Common Traits
-##################################
-
-	JAP_communist_sympathizer = { 
+	##################################
+	# Common Traits
+	##################################
+	JAP_communist_sympathizer = {
 		type = all
 		trait_type = personality_trait
 		gain_xp = {
-			always = no # not gainable
+			always = no			# not gainable
 		}
 		allowed = {
 			FROM = {
@@ -17,9 +14,7 @@ leader_traits = {
 			}
 		}
 		modifier = {
-			
 		}
-		
 		ai_will_do = {
 			factor = 1
 		}
@@ -32,15 +27,12 @@ leader_traits = {
 ##################################
 # Field Marshal traits.
 ##################################
-	
 ##################################
 # Corps Commander traits.
 ##################################
-	
 ##################################
 # Corps Commander assignabme traits.
 ##################################
-
 ##################################
 # Naval traits.
 ##################################
