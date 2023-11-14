@@ -48,7 +48,6 @@ shared_focus = {
 shared_focus = {
 	id = common_national_reconstruction_plan
 	icon = GFX_goal_generic_national_unity
-	
 	x = 0
 	y = 1
 	relative_position_id = common_civilian_preparing
@@ -88,15 +87,14 @@ shared_focus = {
 shared_focus = {
 	id = common_adopt_powered_suits
 	icon = GFX_goal_generic_national_unity
-	
 	x = 2
 	y = 0
 	relative_position_id = common_refugee_tech_sharing
 	cancel_if_invalid = yes
-	
 	cost = 5
 	completion_reward = {
 		add_tech_bonus = {
+			name = "shared focus bonus"
 			bonus = 0.5
 			uses = 2
 			category = infantry_weapons
@@ -110,22 +108,14 @@ shared_focus = {
 shared_focus = {
 	id = common_construct_tsf_factory
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 0
 	y = 1
 	relative_position_id = common_adopt_powered_suits
 	prerequisite = {
 		focus = common_adopt_powered_suits
 	}
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 5
-	#select_effect = { }
 	completion_reward = {
 		random_owned_controlled_state = {
 			add_extra_state_shared_building_slots = 5
@@ -136,7 +126,6 @@ shared_focus = {
 			}
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -145,22 +134,14 @@ shared_focus = {
 shared_focus = {
 	id = common_boost_supply_capacity
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 0
 	y = 1
 	relative_position_id = common_construct_tsf_factory
 	prerequisite = {
 		focus = common_construct_tsf_factory
 	}
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 5
-	#select_effect = { }
 	completion_reward = {
 		random_owned_controlled_state = {
 			add_extra_state_shared_building_slots = 5
@@ -171,7 +152,6 @@ shared_focus = {
 			}
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
@@ -355,30 +335,22 @@ shared_focus = {
 shared_focus = {
 	id = common_establish_supply_line
 	icon = GFX_goal_generic_national_unity
-	#text = 
 	x = 0
 	y = 1
 	relative_position_id = common_develop_counter_BETA_tactics
 	prerequisite = {
 		focus = common_develop_counter_BETA_tactics
 	}
-	#mutually_exclusive = { focus =  }
-	#available = { }
-	#bypass = { }
-	#cancel = { }
 	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
 	cost = 5
-	#select_effect = { }
 	completion_reward = {
 		add_tech_bonus = {
+			name = "shared_focus_bonus"
 			bonus = 0.5
 			uses = 1
 			category = MVLV_tsf_tech
 		}
 	}
-	#completation_tooltip = { }
 	ai_will_do = {
 		factor = 1
 	}
