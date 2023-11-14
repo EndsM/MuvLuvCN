@@ -297,78 +297,8 @@ ideas = {
 		}
 	}
 	air_chief = {
-		alexander_novikov = {
-			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				NOT = {
-					has_country_flag = purge_2_group_a
-				}
-			}
-			# Not Purged, but imprisoned
-			traits = {
-				air_chief_reform_3
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		konstantin_vershinin = {
-			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				NOT = {
-					has_country_flag = purge_2_group_b
-				}
-			}
-			traits = {
-				air_chief_ground_support_2
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		yakov_smushkevich = {
-			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				NOT = {
-					has_country_flag = purge_2_group_a
-				}
-			}
-			# PURGED
-			traits = {
-				air_chief_safety_2
-			}
-			# Could also have reform
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		pavel_rychagov = {
-			allowed = {
-				original_tag = SOV
-			}
-			available = {
-				NOT = {
-					has_country_flag = purge_2_group_a
-				}
-			}
-			# PURGED
-			traits = {
-				air_chief_all_weather_2
-			}
-			ai_will_do = {
-				factor = 1
-			}
-		}
 	}
 	high_command = {
-
-		
 	}
 	tank_manufacturer = {
 		designer = yes
