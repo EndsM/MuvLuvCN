@@ -51,17 +51,13 @@
 #	enable_ability = ability_key
 #}
 leader_traits = {
-
-	
 	##################################
 	# Common Traits
 	##################################
 	#指揮官特性
-	
-	tsf_officer = { 
+	tsf_officer = {
 		type = land
 		trait_type = personality_trait
-		
 		corps_commander_modifier = {
 			max_commander_army_size = -230
 			sickness_chance = -0.5
@@ -77,51 +73,42 @@ leader_traits = {
 		attack_skill_factor = 1
 		defense_skill_factor = 1
 	}
-	commander_aptitude = { 
+	commander_aptitude = {
 		type = land
 		trait_type = personality_trait
-		
 		corps_commander_modifier = {
 			max_commander_army_size = 30
 		}
-		
 		trait_xp_factor = {
 			skilled_staffer = 5
 		}
 		planning_skill_factor = 1
-
 		new_commander_weight = {
 			factor = 0
 		}
 	}
-	
-	true_genius = { 
+	true_genius = {
 		type = land
 		trait_type = personality_trait
-		
 		planning_skill = 2
 		logistics_skill = 1
-		
 		corps_commander_modifier = {
 			wounded_chance_factor = -0.9
 			sickness_chance = -0.9
 			skill_bonus_factor = 0.5
 		}
-
 		planning_skill_factor = 2
 		logistics_skill_factor = 1
-		
 		new_commander_weight = {
 			factor = 0
 		}
 	}
-	
 	#####
-	JAP_samurai_lineage = { 
+	JAP_samurai_lineage = {
 		type = all
 		trait_type = personality_trait
 		gain_xp = {
-			always = no # not gainable
+			always = no			# not gainable
 		}
 		allowed = {
 			FROM = {
@@ -132,79 +119,63 @@ leader_traits = {
 			special_forces_attack_factor = 0.1
 			special_forces_defence_factor = 0.1
 		}
-		
 		new_commander_weight = {
 			factor = 0
 		}
 	}
-	
-	MVLV_TEF_lineage = { 
+	MVLV_TEF_lineage = {
 		type = land
 		trait_type = personality_trait
-		
 		corps_commander_modifier = {
-			Experience_gain_army_unit_factor = 0.50
+			Experience_gain_army_unit_factor = 0.5
 		}
-
 		trait_xp_factor = {
 			hive_attacker = 1
 		}
-		
-
 		new_commander_weight = {
 			factor = 0
 		}
 	}
-	
-	MVLV_valkyrie_lineage = { 
+	MVLV_valkyrie_lineage = {
 		type = land
 		trait_type = personality_trait
-		
 		corps_commander_modifier = {
-			Experience_gain_army_unit_factor = 0.50
+			Experience_gain_army_unit_factor = 0.5
 		}
-		
 		trait_xp_factor = {
-			hive_attacker =1
+			hive_attacker = 1
 		}
 		attack_skill = 1
 		defense_skill = 1
 		planning_skill = 1
-
 		new_commander_weight = {
 			factor = 0
 		}
 	}
-	MVLV_trait_00_unit = { 
+	MVLV_trait_00_unit = {
 		type = land
 		trait_type = personality_trait
-		
 		corps_commander_modifier = {
-			Experience_gain_army_unit_factor = 1.00
+			Experience_gain_army_unit_factor = 1
 			max_commander_army_size = -9
-			attrition = -1.0
-			pocket_penalty = -1.0
-			out_of_supply_factor = -1.0
+			attrition = -1
+			pocket_penalty = -1
+			out_of_supply_factor = -1
 			org_loss_when_moving = -0.5
 			terrain_penalty_reduction = 0.5
-			skill_bonus_factor = 1.0
+			skill_bonus_factor = 1
 		}
-		
 		# trait_xp_factor = {
 		# 	factor = 0
 		# }
-		
-
 		new_commander_weight = {
 			factor = 0
 		}
 	}
-
 	##################################
 	# Corps Commander traits.
 	##################################
 	#将军スキル
-
 	#####has_trait
 	hive_attacker = {
 		type = corps_commander
@@ -214,61 +185,68 @@ leader_traits = {
 				is_fighting_in_terrain = hive_gateclass
 				is_fighting_in_terrain = hive_super_mainhall
 				is_fighting_in_terrain = hive_drift
-				is_fighting_in_terrain = hive_gate 
+				is_fighting_in_terrain = hive_gate
 			}
 		}
 		#custom_gain_xp_trigger_tooltip = MVLV_is_battle_hives
-		
 		cost = 1000
 		modifier = {
 			hive_super_mainhall = {
-				attack = 0.20
+				attack = 0.2
 			}
 			hive_gateclass = {
-				attack = 0.20
+				attack = 0.2
 			}
 			hive_mainhall = {
-				attack = 0.20
+				attack = 0.2
 			}
 			hive_drift = {
-				attack = 0.20
+				attack = 0.2
 			}
 			hive_gate = {
-				attack = 0.20
+				attack = 0.2
 			}
 		}
-		
 		ai_will_do = {
-		factor = 1
+			factor = 1
 		}
-		
 		gui_row = 17
 	}
-	
-	tsf_leader = { 
+	tsf_leader = {
 		type = corps_commander
-		gain_xp = {		
-			set_temp_variable = { temp = num_units }	
-			multiply_temp_variable = { temp = 0.8 }
-			set_temp_variable = { cmm = num_special }
-			add_to_temp_variable = { cmm = num_battalions_with_type@MVLV_tsf_battalion }
-			add_to_temp_variable = { cmm = num_battalions_with_type@MVLV_tsa_battalion }
-			add_to_temp_variable = { cmm = num_battalions_with_type@MVLV_asa_battalion }
-			
+		gain_xp = {
+			set_temp_variable = {
+				temp = num_units
+			}
+			multiply_temp_variable = {
+				temp = 0.8
+			}
+			set_temp_variable = {
+				cmm = num_special
+			}
+			add_to_temp_variable = {
+				cmm = num_battalions_with_type@MVLV_tsf_battalion
+			}
+			add_to_temp_variable = {
+				cmm = num_battalions_with_type@MVLV_tsa_battalion
+			}
+			add_to_temp_variable = {
+				cmm = num_battalions_with_type@MVLV_asa_battalion
+			}
 			OR = {
-				check_variable = { cmm > temp }
+				check_variable = {
+					cmm > temp
+				}
 			}
 		}
 		custom_gain_xp_trigger_tooltip = MVLV_tsf_ratio_over_80
-		
 		attack_skill = 1
 		defense_skill = 1
-		
 		cost = 1000
 		modifier = {
-			army_armor_speed_factor = 0.10
-			army_armor_attack_factor = 0.10
-			army_armor_defence_factor = 0.10
+			army_armor_speed_factor = 0.1
+			army_armor_attack_factor = 0.1
+			army_armor_defence_factor = 0.1
 			wounded_chance_factor = -0.5
 		}
 		trait_xp_factor = {
@@ -277,40 +255,34 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 		gui_row = 16
 	}
 	##################################
 	# Corps Commander assignable traits.
 	##################################
-	#将军上位スキル
-	
-	#tsf_commander = { 
-	#	type = corps_commander
-	#	gain_xp = {
-	#		always = no # not gainable
-	#	}
-	#	prerequisites = {
-	#		has_trait = commander_aptitude
-	#	}
-	#	custom_gain_xp_trigger_tooltip = fighting_with_at_least_23_units
-		
-	#	cost = 500
-		
-	#	planning_skill = 1
-		
-	#	corps_commander_modifier = {
-	#		max_commander_army_size = 16
-	#	}
-
-	#	ai_will_do = {
-	#		factor = 1
-	#	}
-	#	trait_type = assignable_trait
-	#	parent = tsf_leader
-
-	#	gui_row = 16
-	#}
-###########
+	# 将军上位スキル
+	# tsf_commander = {
+	# 	type = corps_commander
+	# 	trait_type = assignable_trait
+	# 	planning_skill = 1
+	# 	gain_xp = {
+	# 		always = no			# not gainable
+	# 	}
+	# 	prerequisites = {
+	# 		has_trait = commander_aptitude
+	# 	}
+	# 	any_parent = {
+	# 		tsf_leader
+	# 	}
+	# 	cost = 500
+	# 	modifier = {
+	# 		max_commander_army_size = 16
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	#parent = tsf_leader
+	# 	gui_row = 16
+	# }
+	###########
 }
-	

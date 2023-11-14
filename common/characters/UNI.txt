@@ -469,9 +469,9 @@ characters = {
 				skilled_staffer
 				organizer
 				commander_aptitude
-				tsf_commander
 				tsf_officer
 				tsf_leader
+				tsf_commander
 				hive_attacker
 				MVLV_valkyrie_lineage
 			}
