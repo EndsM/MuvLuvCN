@@ -18,6 +18,3 @@ sound/**/*.wav
 
 # The repack folder created by script that used to release the mod
 repack
-
-# Make files always set the EOL on checkout
-* text=auto
