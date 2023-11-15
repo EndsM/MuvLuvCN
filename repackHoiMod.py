@@ -87,6 +87,6 @@ program.readProjectNameFromDescriptor()
 program.createCopy()
 program.createModInfo()
 # delete development files that not suitable for release
-fileExtensionsToDelete = (".exe", ".py", ".gitignore")
+fileExtensionsToDelete = (".exe", ".py", ".gitignore",".gitattributes")
 program.deleteDevelopmentFilesFromOutput(fileExtensionsToDelete)
 program.deleteDevelopmentFoldersFromOutput([".vscode", ".git"])
