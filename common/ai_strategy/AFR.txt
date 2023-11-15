@@ -10,10 +10,13 @@
 # protect
 # influence
 AFR_area_priority = {
-	enable = {
+	allowed = {
 		original_tag = AFR
-		date > 1998.12.31
 	}
+	enable = {
+		has_war = yes
+	}
+	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = area_priority
 		id = suez
@@ -67,10 +70,13 @@ AFR_area_priority = {
 }
 
 AFR_defend_doctrine = {
-	enable = {
+	allowed = {
 		original_tag = AFR
-		date > 1998.12.31
 	}
+	enable = {
+		has_war = yes
+	}
+	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = CAN
@@ -133,6 +139,7 @@ AFR_strategic_plan = {
 		tag = AFR
 		date > 1998.12.31
 	}
+	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
