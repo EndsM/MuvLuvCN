@@ -14,3 +14,10 @@
   country_resource_cost_rubber:0 "G元素消耗"
   sabotage_rubber:0 "破坏G元素资源"
   rubber_desc:0 "由BETA制造的特殊材料，据推测是预计发送回创造者处的资源。其具有多种特殊的物理效应，并据猜测至少有11种不同的G元素类型。G元素运用于BETA光线级和重光线级的制造中，且在人类侧也用于基于G元素的开发技术产物的制造中。"
+
+  group_tsf_title:0 "战术机部队"
+  modifier_army_sub_unit_category_MVLV_tsf_attack_factor:0 "战术机部队攻击"
+  modifier_army_sub_unit_category_MVLV_tsf_defence_factor:0 "战术机部队防御"
+  modifier_army_sub_unit_category_MVLV_tsf_speed_factor:0 "战术机部队速度"
+  modifier_army_sub_unit_category_MVLV_tsf_max_org_factor:0 "战术机组织度"
+  

@@ -244,10 +244,10 @@ leader_traits = {
 		defense_skill = 1
 		cost = 1000
 		modifier = {
-			army_armor_speed_factor = 0.1
-			army_armor_attack_factor = 0.1
-			army_armor_defence_factor = 0.1
 			wounded_chance_factor = -0.5
+			modifier_army_sub_unit_category_MVLV_tsf_attack_factor = 0.1
+			modifier_army_sub_unit_category_MVLV_tsf_defence_factor = 0.1
+			modifier_army_sub_unit_category_MVLV_tsf_speed_factor = 0.1
 		}
 		trait_xp_factor = {
 			panzer_leader = -0.3
