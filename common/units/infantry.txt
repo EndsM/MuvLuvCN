@@ -119,7 +119,7 @@ sub_units = {
 			armor
 		}
 		
-		group = armor
+		group = tsf
 		
 		categories = {
 			category_tanks
@@ -247,7 +247,7 @@ sub_units = {
 			armor
 		}
 		
-		group = armor
+		group = tsf
 		
 		categories = {
 			category_tanks
@@ -374,7 +374,7 @@ sub_units = {
 			armor
 		}
 		
-		group = armor
+		group = tsf
 		
 		categories = {
 			category_tanks
