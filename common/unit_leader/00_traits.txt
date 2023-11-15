@@ -128,7 +128,6 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			
 		}
 	}
 	politically_connected = {
@@ -207,7 +206,6 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			
 		}
 		planning_skill_factor = 1
 		logistics_skill_factor = 1
@@ -237,7 +235,6 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			
 		}
 		defense_skill_factor = 1
 		logistics_skill_factor = 1
@@ -267,7 +264,6 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			
 		}
 		attack_skill_factor = 1
 		defense_skill_factor = -1
@@ -295,7 +291,6 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			
 		}
 	}
 	harsh_leader = {
@@ -319,7 +314,6 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			
 		}
 		attack_skill_factor = 1
 		logistics_skill_factor = 1
@@ -341,11 +335,9 @@ leader_traits = {
 		unit_trigger = {
 			OR = {
 				division_has_majority_template = infantry
-				division_has_majority_template = bicycle_battalion
 				division_has_majority_template = marine
 				division_has_majority_template = mountaineers
 				division_has_majority_template = paratrooper
-				division_has_majority_template = penal_battalion
 				owner = {
 					has_idea = mass_assault_academy_spirit
 				}
@@ -355,7 +347,6 @@ leader_traits = {
 					OR = {
 						has_idea = best_of_the_best_spirit
 						has_idea = academy_scholarships_spirit
-						has_idea = SOV_purged_junior_army_officers_3
 					}
 				}
 			}
@@ -383,7 +374,6 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			
 			modifier = {
 				FROM = {
 					has_dlc = "By Blood Alone"
@@ -437,7 +427,6 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			
 			modifier = {
 				FROM = {
 					has_dlc = "By Blood Alone"
@@ -494,7 +483,6 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			
 			modifier = {
 				FROM = {
 					has_dlc = "By Blood Alone"
