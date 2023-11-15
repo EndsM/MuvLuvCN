@@ -128,13 +128,7 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			modifier = {
-				#Purged Junior Army Officers
-				FROM = {
-					has_idea = SOV_purged_junior_army_officers_3
-				}
-				factor = 0
-			}
+			
 		}
 	}
 	politically_connected = {
@@ -213,13 +207,7 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			modifier = {
-				#Purged Junior Army Officers
-				FROM = {
-					has_idea = SOV_purged_junior_army_officers_3
-				}
-				factor = 0
-			}
+			
 		}
 		planning_skill_factor = 1
 		logistics_skill_factor = 1
@@ -249,13 +237,7 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			modifier = {
-				#Purged Junior Army Officers
-				FROM = {
-					has_idea = SOV_purged_junior_army_officers_3
-				}
-				factor = 0
-			}
+			
 		}
 		defense_skill_factor = 1
 		logistics_skill_factor = 1
@@ -285,13 +267,7 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			modifier = {
-				#Purged Junior Army Officers
-				FROM = {
-					has_idea = SOV_purged_junior_army_officers_3
-				}
-				factor = 0
-			}
+			
 		}
 		attack_skill_factor = 1
 		defense_skill_factor = -1
@@ -319,13 +295,7 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			modifier = {
-				#Purged Junior Army Officers
-				FROM = {
-					has_idea = SOV_purged_junior_army_officers_3
-				}
-				factor = 0
-			}
+			
 		}
 	}
 	harsh_leader = {
@@ -349,13 +319,7 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			modifier = {
-				#Purged Junior Army Officers
-				FROM = {
-					has_idea = SOV_purged_junior_army_officers_3
-				}
-				factor = 0
-			}
+			
 		}
 		attack_skill_factor = 1
 		logistics_skill_factor = 1
@@ -419,13 +383,7 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			modifier = {
-				#Purged Junior Army Officers
-				FROM = {
-					has_idea = SOV_purged_junior_army_officers_3
-				}
-				factor = 0
-			}
+			
 			modifier = {
 				FROM = {
 					has_dlc = "By Blood Alone"
@@ -479,13 +437,7 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			modifier = {
-				#Purged Junior Army Officers
-				FROM = {
-					has_idea = SOV_purged_junior_army_officers_3
-				}
-				factor = 0
-			}
+			
 			modifier = {
 				FROM = {
 					has_dlc = "By Blood Alone"
@@ -542,13 +494,7 @@ leader_traits = {
 				}
 				factor = 0
 			}
-			modifier = {
-				#Purged Junior Army Officers
-				FROM = {
-					has_idea = SOV_purged_junior_army_officers_3
-				}
-				factor = 0
-			}
+			
 			modifier = {
 				FROM = {
 					has_dlc = "By Blood Alone"
