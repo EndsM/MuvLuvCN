@@ -8,7 +8,7 @@ if not os.path.exists(destination_folder):
 files_and_dirs = os.listdir()
 # 指定特定文件（不包括在此列表中的文件）  
 specific_files = ('.vscode','.git')
-后缀=('.py','.gitignore')
+后缀=('.py','.gitignore','.gitattributes')
 # 遍历文件和目录列表  
 for item in files_and_dirs:  
     # 排除特定文件  
