@@ -30,6 +30,9 @@ tsf_role = {
 				field_hospital = 1
 			}
 		}
+		allowed_types = {
+			MVLV_tsf_battalion
+		}
 	}
 }
 
@@ -67,6 +70,10 @@ infantry_brigade_rocket = {
 				rocket_artillery = 1
 				artillery = 1
 			}
+		}
+		allowed_types = {
+			infantry
+			rocket_artillery_brigade
 		}
 	}
 }
@@ -106,6 +113,10 @@ infantry_division_rocket = {
 				field_hospital = 1
 			}
 		}
+		allowed_types = {
+			infantry
+			rocket_artillery
+		}
 	}
 }
 
@@ -143,6 +154,10 @@ infantry_brigade_artillery = {
 				rocket_artillery = 1
 				artillery = 1
 			}
+		}
+		allowed_types = {
+			infantry
+			artillery_brigade
 		}
 	}
 }
@@ -182,6 +197,10 @@ infantry_division_artillery = {
 				field_hospital = 1
 			}
 		}
+		allowed_types = {
+			infantry
+			artillery_brigade
+		}
 	}
 }
 
@@ -219,6 +238,10 @@ armor_brigade_rocket = {
 				rocket_artillery = 1
 				artillery = 1
 			}
+		}
+		allowed_types = {
+			MVLV_combined_arms_battalion
+			rocket_artillery_brigade
 		}
 	}
 }
@@ -258,6 +281,10 @@ armor_division_rocket = {
 				field_hospital = 1
 			}
 		}
+		allowed_types = {
+			MVLV_combined_arms_battalion
+			rocket_artillery_brigade
+		}
 	}
 }
 
@@ -295,6 +322,10 @@ armor_brigade_artillery = {
 				rocket_artillery = 1
 				artillery = 1
 			}
+		}
+		allowed_types = {
+			MVLV_combined_arms_battalion
+			artillery_brigade
 		}
 	}
 }
@@ -334,6 +365,10 @@ armor_division_artillery = {
 				field_hospital = 1
 			}
 		}
+		allowed_types = {
+			MVLV_combined_arms_battalion
+			artillery_brigade
+		}
 	}
 }
 
@@ -371,6 +406,9 @@ gunship = {
 				artillery = 1
 			}
 		}
+		allowed_types = {
+			light_armor
+		}
 	}
 }
 
@@ -405,6 +443,9 @@ diver = {
 				maintenance_company = 1
 				field_hospital = 1
 			}
+		}
+		allowed_types = {
+			paratrooper
 		}
 	}
 }
