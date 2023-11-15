@@ -1,24 +1,17 @@
 war_measures = {
-	
 	emergency_factory_conversion_defensive = {
-
 		icon = generic_industry
-
 		available = {
-			num_of_civilian_factories > 5 #Change this if amount of factories change
+			num_of_civilian_factories > 5			#Change this if amount of factories change
 		}
-
 		visible = {
+			num_of_controlled_states > 0
 			has_defensive_war = yes
-			has_offensive_war = no			
+			has_offensive_war = no
 		}
-
 		fire_only_once = no
-
 		days_re_enable = 90
-
 		cost = 100
-
 		complete_effect = {
 			replace_civ_with_arms_factories = yes
 			add_war_support = -0.05
@@ -27,25 +20,17 @@ war_measures = {
 			factor = 0
 		}
 	}
-
 	emergency_factory_conversion_offensive = {
-
 		icon = generic_industry
-
 		available = {
-			num_of_civilian_factories > 5 #Change this if amount of factories change
+			num_of_civilian_factories > 5			#Change this if amount of factories change
 		}
-
 		visible = {
 			has_offensive_war = yes
 		}
-
 		fire_only_once = no
-
 		days_re_enable = 90
-
 		cost = 100
-
 		complete_effect = {
 			replace_civ_with_arms_factories = yes
 			add_war_support = -0.05
@@ -55,24 +40,17 @@ war_measures = {
 			factor = 0
 		}
 	}
-
 	desperate_defense = {
-
 		icon = generic_prepare_civil_war
-
 		available = {
 			surrender_progress > 0.5
 		}
-
 		visible = {
 			surrender_progress > 0
 		}
-
 		fire_only_once = no
-
 		days_remove = 45
 		days_re_enable = 360
-
 		cost = 50
 		ai_will_do = {
 			factor = 1
@@ -81,69 +59,63 @@ war_measures = {
 				factor = 10
 			}
 		}
-
 		modifier = {
 			defence = 0.2
 			dig_in_speed_factor = 0.5
 		}
-
 		complete_effect = {
-
 		}
 	}
-
 	women_in_the_workforce = {
-
 		icon = generic_industry
-
-        allowed = {
-            always = yes
-        }
-
-        available = {
-            has_war = yes
-            has_idea = tot_economic_mobilisation
-            OR = {
-                AND = {
-                    has_government = democratic
-                    has_war_support > 0.79
-                }
-                AND = {
-                    has_government = communism
-                    has_war_support > 0.79
-                }
-                AND = {
-                    has_government = fascism
-                    OR = {
-                        has_war_support > 0.89
-                        surrender_progress > 0
-                    }
-                }
-                AND = {
-                    has_government = neutrality
-                    has_war_support > 0.84
-                    has_stability > 0.7
-                }
-            }
-        }
-        visible = {
-            has_war = yes
-        }
-        cost = 100
-        days_remove = -1
-        remove_trigger = {
-        	OR = {
-            	has_war = no
-            	not = { has_idea = tot_economic_mobilisation }
-            }
-        }
-        modifier = {
-            conscription = 0.03
-            stability_factor = -0.05
-        }
-        ai_will_do = {
+		allowed = {
+			always = yes
+		}
+		available = {
+			has_war = yes
+			has_idea = tot_economic_mobilisation
+			OR = {
+				AND = {
+					has_government = democratic
+					has_war_support > 0.79
+				}
+				AND = {
+					has_government = communism
+					has_war_support > 0.79
+				}
+				AND = {
+					has_government = fascism
+					OR = {
+						has_war_support > 0.89
+						surrender_progress > 0
+					}
+				}
+				AND = {
+					has_government = neutrality
+					has_war_support > 0.84
+					has_stability > 0.7
+				}
+			}
+		}
+		visible = {
+			has_war = yes
+		}
+		cost = 100
+		days_remove = -1
+		remove_trigger = {
+			OR = {
+				has_war = no
+				not = {
+					has_idea = tot_economic_mobilisation
+				}
+			}
+		}
+		modifier = {
+			conscription = 0.03
+			stability_factor = -0.05
+		}
+		ai_will_do = {
 			factor = 1
-
 			modifier = {
 				factor = 3
 				has_manpower < 100000
@@ -154,76 +126,65 @@ war_measures = {
 				limit = {
 					tag = CAN
 				}
-				country_event = { id = canada_vanilla.1 hours = 6 } # Ronnie the Bren Gun Girl
+				country_event = {
+					id = canada_vanilla.1
+					hours = 6
+				}				# Ronnie the Bren Gun Girl
 			}
-        }
-   }
-
-    war_bonds = {
-
-    	icon = generic_industry
-
-    	allowed = {
-            always = yes
-        }
-
-        available = {
-            has_war = yes
-            OR = {
-                AND = {
-                    has_government = democratic
-                    has_war_support > 0.79
-                }
-                AND = {
-                    has_government = communism
-                    has_war_support > 0.79
-                }
-                AND = {
-                    has_government = fascism
-                    OR = {
-                        has_war_support > 0.89
-                        surrender_progress > 0
-                    }
-                }
-                AND = {
-                    has_government = neutrality
-                    has_war_support > 0.84
-                    has_stability > 0.7
-                }
-            }
-        }
-        visible = {
-            has_war = yes
-        }
-
-        fire_only_once = no
-
+		}
+	}
+	war_bonds = {
+		icon = generic_industry
+		allowed = {
+			always = yes
+		}
+		available = {
+			has_war = yes
+			OR = {
+				AND = {
+					has_government = democratic
+					has_war_support > 0.79
+				}
+				AND = {
+					has_government = communism
+					has_war_support > 0.79
+				}
+				AND = {
+					has_government = fascism
+					OR = {
+						has_war_support > 0.89
+						surrender_progress > 0
+					}
+				}
+				AND = {
+					has_government = neutrality
+					has_war_support > 0.84
+					has_stability > 0.7
+				}
+			}
+		}
+		visible = {
+			has_war = yes
+		}
+		fire_only_once = no
 		days_remove = 180
-
 		cost = GER_war_bonds_var?50
-
 		modifier = {
 			consumer_goods_factor = -0.05
 		}
-
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				has_political_power < 100
-				factor = 0 #use as pp dump
+				factor = 0				#use as pp dump
 			}
-
 			modifier = {
 				factor = 0
 				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
 			}
 		}
-
 		remove_effect = {
-
 		}
-
 		complete_effect = {
 			if = {
 				limit = {
@@ -275,5 +236,5 @@ war_measures = {
 				add_war_support = GER_war_bonds_war_support_var
 			}
 		}
-    }
+	}
 }
