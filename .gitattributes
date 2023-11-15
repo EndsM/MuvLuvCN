@@ -1,6 +1,5 @@
 # Make files always set the EOL on checkout
 * text=auto
-*.csv text
 *.gfx text eol=lf
 *.info text eol=lf
 *.lua text eol=lf
@@ -11,3 +10,6 @@
 *.fnt text eol=lf
 *.shader text eol=lf
 *.gui text eol=lf
+
+# Adjacencies will be still LF for now.
+map/adjacencies.csv text eol=lf

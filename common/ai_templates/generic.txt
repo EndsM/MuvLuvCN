@@ -5,6 +5,32 @@ tsf_role = {
 	upgrade_prio = {
 		factor = 1
 	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
 	match_to_count = 0.6
 	tsf_wing = {
 		upgrade_prio = {
@@ -42,6 +68,32 @@ infantry_brigade_rocket = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	infantry_brigade_rocket_template = {
@@ -85,6 +137,32 @@ infantry_division_rocket = {
 	upgrade_prio = {
 		factor = 1
 	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
 	match_to_count = 0.6
 	infantry_division_rocket_template = {
 		upgrade_prio = {
@@ -126,6 +204,32 @@ infantry_brigade_artillery = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	infantry_brigade_artillery_template = {
@@ -169,6 +273,32 @@ infantry_division_artillery = {
 	upgrade_prio = {
 		factor = 1
 	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
 	match_to_count = 0.6
 	infantry_division_artillery_template = {
 		upgrade_prio = {
@@ -210,6 +340,32 @@ armor_brigade_rocket = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	armor_brigade_rocket_template = {
@@ -253,6 +409,32 @@ armor_division_rocket = {
 	upgrade_prio = {
 		factor = 1
 	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
 	match_to_count = 0.6
 	armor_division_rocket_template = {
 		upgrade_prio = {
@@ -294,6 +476,32 @@ armor_brigade_artillery = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	armor_brigade_artillery_template = {
@@ -337,6 +545,32 @@ armor_division_artillery = {
 	upgrade_prio = {
 		factor = 1
 	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
 	match_to_count = 0.6
 	armor_division_artillery_template = {
 		upgrade_prio = {
@@ -379,6 +613,32 @@ gunship = {
 	upgrade_prio = {
 		factor = 1
 	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
 	match_to_count = 0.6
 	gunship_template = {
 		upgrade_prio = {
@@ -418,6 +678,32 @@ diver = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	diver_template = {
