@@ -1,5 +1,10 @@
 # Make files always set the EOL on checkout
 * text=auto
-*.txt text eol=lf
+*.gfx text eol=lf
+*.info text eol=lf
+*.lua text eol=lf
 *.mod text eol=lf
+*.txt text eol=lf
 *.yml text eol=lf
+*.asset text eol=lf
+*.fnt text eol=lf
