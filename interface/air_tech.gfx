@@ -8,10 +8,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/hevy_laser.dds"
 	}
 	spriteType = {
-		name = "GFX_human_air_1_medium"
-		texturefile = "gfx/interface/technologies/anti_laser.dds"
-	}
-	spriteType = {
 		name = "GFX_human_air_2_medium"
 		texturefile = "gfx/interface/technologies/shell.dds"
 	}
