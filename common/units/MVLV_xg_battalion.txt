@@ -1,5 +1,4 @@
 sub_units = {
-
 	MVLV_xg_battalion = {
 		sprite = "xg"
 		map_icon_category = armored
@@ -7,23 +6,18 @@ sub_units = {
 		ai_priority = 3000
 		active = yes
 		can_exfiltrate_from_coast = yes
-		
 		type = {
 			armor
 		}
-		
 		group = armor
-		
 		categories = {
 			category_MVLV_xg
 			category_front_line
 			category_army
 			category_tanks
-		}		
-		
+		}
 		# combat_width = 8
 		combat_width = 40
-
 		need = {
 			xg_equipment = 1
 		}
@@ -32,76 +26,63 @@ sub_units = {
 		max_strength = 1000
 		default_morale = 1
 		training_time = 400
-		weight = 0.0
-		supply_consumption = 0.0
-
+		weight = 0
+		supply_consumption = 0
 		#偵察、無線機能
 		recon = 0.5
-		initiative = 2.0 
-
+		initiative = 2
 		can_be_parachuted = no
 		forest = {
 			attack = 0.9
 			movement = 0.5
 		}
-
 		hills = {
 			attack = 0.9
 			movement = 0.5
 		}
-
 		mountain = {
 			attack = 0.9
 			movement = 0.5
 		}
-
 		jungle = {
 			attack = 0.9
 			movement = 0.5
 		}
-
 		marsh = {
 			attack = 0.9
 			movement = 0.5
 		}
-
 		fort = {
 			attack = 0.9
 			movement = 0.5
 		}
-
 		river = {
 			attack = 0.9
 			movement = 0.5
 		}
-
 		amphibious = {
 			attack = 0.9
 			movement = 0.5
 		}
-
 		hive_gateclass = {
 			attack = 0.5
 			movement = 0.45
 		}
-
 		hive_mainhall = {
 			attack = 0.5
 			movement = 0.45
 		}
-
 		hive_drift = {
 			attack = 0.5
 			movement = 0.45
 		}
-
 		hive_gate = {
 			attack = 0.5
 			movement = 0.45
 		}
 		hive_super_mainhall = {
-			attack = 0.50
-			defence = 0.20
+			attack = 0.5
+			defence = 0.2
 			movement = 0.45
 		}
 	}

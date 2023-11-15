@@ -9,7 +9,7 @@ sub_units = {
 		type = {
 			armor
 		}
-		group = armor
+		group = tsf
 		categories = {
 			category_all_armor
 			category_MVLV_tsa
