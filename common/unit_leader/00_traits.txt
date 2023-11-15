@@ -405,7 +405,6 @@ leader_traits = {
 					OR = {
 						has_idea = best_of_the_best_spirit
 						has_idea = academy_scholarships_spirit
-						has_idea = SOV_purged_junior_army_officers_3
 					}
 				}
 			}
@@ -458,7 +457,6 @@ leader_traits = {
 					OR = {
 						has_idea = best_of_the_best_spirit
 						has_idea = academy_scholarships_spirit
-						has_idea = SOV_purged_junior_army_officers_3
 					}
 				}
 			}

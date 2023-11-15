@@ -19,6 +19,5 @@ sound/**/*.wav
 # The repack folder created by script that used to release the mod
 repack
 
-# Make txt file always set the EOL on checkout
+# Make files always set the EOL on checkout
 * text=auto
-*.txt text eol=lf
