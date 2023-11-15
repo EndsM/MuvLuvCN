@@ -9,7 +9,7 @@ sub_units = {
 		type = {
 			armor
 		}
-		group = armor
+		group = xg
 		categories = {
 			category_MVLV_xg
 			category_front_line
