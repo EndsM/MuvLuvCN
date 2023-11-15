@@ -20,4 +20,5 @@ sound/**/*.wav
 repack
 
 # Make txt file always set the EOL on checkout
-*.txt text=auto
+* text=auto
+*.txt text eol=lf
