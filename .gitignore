@@ -19,5 +19,5 @@ sound/**/*.wav
 # The repack folder created by script that used to release the mod
 repack
 
-# Make txt file always use CRLF on checkout
-.txt text eol=crlf
+# Make txt file always set the EOL on checkout
+*.txt text=auto
