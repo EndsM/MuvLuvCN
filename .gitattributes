@@ -10,3 +10,4 @@
 *.fnt text eol=lf
 *.shader text eol=lf
 *.gui text eol=lf
+*.csv text eol=lf
