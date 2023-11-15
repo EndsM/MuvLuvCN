@@ -261,28 +261,28 @@ leader_traits = {
 	# Corps Commander assignable traits.
 	##################################
 	# 将军上位スキル
-	# tsf_commander = {
-	# 	type = corps_commander
-	# 	trait_type = assignable_trait
-	# 	planning_skill = 1
-	# 	gain_xp = {
-	# 		always = no			# not gainable
-	# 	}
-	# 	prerequisites = {
-	# 		has_trait = commander_aptitude
-	# 	}
-	# 	any_parent = {
-	# 		tsf_leader
-	# 	}
-	# 	cost = 500
-	# 	modifier = {
-	# 		max_commander_army_size = 16
-	# 	}
-	# 	ai_will_do = {
-	# 		factor = 1
-	# 	}
-	# 	#parent = tsf_leader
-	# 	gui_row = 16
-	# }
+	tsf_commander = {
+		type = corps_commander
+		trait_type = assignable_trait
+		planning_skill = 1
+		gain_xp = {
+			always = no			# not gainable
+		}
+		prerequisites = {
+			has_trait = commander_aptitude
+		}
+		any_parent = {
+			tsf_leader
+		}
+		cost = 500
+		modifier = {
+			max_commander_army_size = 16
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		#parent = tsf_leader
+		gui_row = 16
+	}
 	###########
 }
