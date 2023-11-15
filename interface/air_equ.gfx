@@ -16,14 +16,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/hevy_laser.dds"
 	}
 	spriteType = {
-		name = "GFX_Anti_laser_1_medium"
-		texturefile = "gfx/interface/technologies/anti_laser.dds"
-	}
-	spriteType = {
-		name = "GFX_Anti_laser_1"
-		texturefile = "gfx/interface/technologies/anti_laser.dds"
-	}
-	spriteType = {
 		name = "GFX_shell_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/shell.dds"
 	}
