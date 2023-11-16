@@ -1,0 +1,14 @@
+SOV_default = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+	}
+	abort = {
+	}
+	ai_national_focuses = {
+		# Remove debuff first
+		SOV_ForMotherRussia
+		SOV_RestatePartyAndArmyRelationship
+	}
+}
