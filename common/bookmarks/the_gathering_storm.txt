@@ -6,7 +6,6 @@ bookmarks = {
 		picture = "GFX_select_date_1999"
 		default_country = "JAP"
 		default = yes
-		
 		"USA" = {
 			history = "USA_1999_START_DESC"
 			ideology = democratic

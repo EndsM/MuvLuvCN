@@ -14,8 +14,8 @@ mio_cat_eq_all_light_tank = {
 		asa_equipment
 		light_tank_chassis
 		amphibious_tank_chassis
-		light_tank_equipment_1
-		light_tank_equipment_2
+		
+		light_tank_equipment
 	}
 }
 
@@ -28,11 +28,9 @@ mio_cat_eq_all_medium_tank = {
 		asa_equipment
 		medium_tank_chassis
 		modern_tank_chassis
-		medium_tank_equipment_1
-		medium_tank_equipment_2
-		medium_tank_equipment_3
-		modern_tank_equipment_1
-		modern_tank_equipment_2
+		
+		medium_tank_equipment
+		modern_tank_aa_equipment
 	}
 }
 
