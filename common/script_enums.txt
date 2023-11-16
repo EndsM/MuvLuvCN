@@ -100,6 +100,7 @@ script_enum_equipment_bonus_type = {
 	MVLV_shell_equipment
 
 	# TSF subtypes
+	sov_equipment
 	tsa_equipment
 	asa_equipment
 	jeg_equipment

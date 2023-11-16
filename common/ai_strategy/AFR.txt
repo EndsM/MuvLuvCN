@@ -216,3 +216,74 @@ AFR_strategic_plan = {
 		value = -1000
 	}
 }
+
+#对峙于苏伊士防线时
+AFR_suez_frontline = {
+	enable = {
+		original_tag = AFR
+		date > 1998.12.31
+		has_full_control_of_state = 446
+		has_full_control_of_state = 457
+		NOT = {
+			# 西奈
+			453 = {
+				is_controlled_by = AFR
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.9		#占总陆军比例
+		states = {
+			446
+			457
+		}
+		subtract_fronts_from_need = yes		#是否计算前线部队
+	}
+}
+
+AFR_suez_secondline = {
+	enable = {
+		original_tag = AFR
+		date > 1998.12.31
+		has_full_control_of_state = 446
+		has_full_control_of_state = 457
+		453 = {
+			is_controlled_by = AFR
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.2		#占总陆军比例
+		states = {
+			446
+			457
+		}
+		subtract_fronts_from_need = yes		#是否计算前线部队
+	}
+}
+
+#防御摩洛哥的地下侵攻
+AFR_moroco_defense = {
+	enable = {
+		original_tag = AFR
+		date > 1998.12.31
+		has_full_control_of_state = 290
+		Not = {
+			118 = {
+				is_controlled_by = EUR
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.2		#占总陆军比例
+		states = {
+			290
+		}
+		subtract_fronts_from_need = yes		#是否计算前线部队
+	}
+}

@@ -1,4 +1,4 @@
-#人類国家の遠征军を制限
+#限制人类国家远征军
 send_volunteers_limiter = {
 	enable = {
 		is_ai = yes
@@ -59,8 +59,8 @@ send_volunteers_limiter = {
 	}
 }
 
-#駐屯師団数を抑制
-garrison = {
+#减少卫戍部队
+decrease_garrison = {
 	enable = {
 		is_ai = yes
 		has_war = yes
@@ -73,11 +73,13 @@ garrison = {
 			TAG = SOV
 			TAG = GEU
 			TAG = CHI
+			TAG = UNI
+			TAG = USA
 		}
 	}
 
 	ai_strategy = {
 		type = garrison
-		value = -10
+		value = -10000
 	}
 }

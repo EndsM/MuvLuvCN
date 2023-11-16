@@ -19,7 +19,6 @@ JAP_area_priority = {
 		id = europe
 		value = -300
 	}
-
 	ai_strategy = {
 		type = area_priority
 		id = north_america
@@ -198,5 +197,134 @@ JAP_strategic_plan = {
 		type = equipment_production_min_factories
 		id = armor
 		value = 0
+	}
+}
+
+#对峙于对马岛时
+Jap_tsushima_frontline = {
+	enable = {
+		original_tag = JAP
+		date > 1998.12.31
+		has_full_control_of_state = 528
+		NOT = {
+			525 = {
+				is_controlled_by = GEU
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.3		#占总陆军比例
+		states = {
+			528
+		}
+		subtract_fronts_from_need = yes		#是否计算前线部队
+	}
+}
+
+Jap_tsushima_secondline = {
+	enable = {
+		original_tag = JAP
+		date > 1998.12.31
+		has_full_control_of_state = 528
+		525 = {
+			is_controlled_by = GEU
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.05		#占总陆军比例
+		states = {
+			528
+		}
+		subtract_fronts_from_need = yes		#是否计算前线部队
+	}
+}
+
+#对峙于千岛群岛时
+Jap_kuril_frontline = {
+	enable = {
+		original_tag = JAP
+		date > 1998.12.31
+		has_full_control_of_state = 555
+		NOT = {
+			637 = {
+				is_controlled_by = SOV
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.3		#占总陆军比例
+		states = {
+			555
+		}
+		subtract_fronts_from_need = yes		#是否计算前线部队
+	}
+}
+
+Jap_kuril_secondline = {
+	enable = {
+		original_tag = JAP
+		date > 1998.12.31
+		has_full_control_of_state = 555
+		637 = {
+			is_controlled_by = SOV
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.05		#占总陆军比例
+		states = {
+			555
+		}
+		subtract_fronts_from_need = yes		#是否计算前线部队
+	}
+}
+
+#对峙于库页岛时
+Jap_sakhalin_frontline = {
+	enable = {
+		original_tag = JAP
+		date > 1998.12.31
+		has_full_control_of_state = 537
+		NOT = {
+			560 = {
+				is_controlled_by = SOV
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.3		#占总陆军比例
+		states = {
+			655
+		}
+		subtract_fronts_from_need = yes		#是否计算前线部队
+	}
+}
+
+Jap_sakhalin_secondline = {
+	enable = {
+		original_tag = JAP
+		date > 1998.12.31
+		has_full_control_of_state = 537
+		560 = {
+			is_controlled_by = SOV
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.05		#占总陆军比例
+		states = {
+			655
+		}
+		subtract_fronts_from_need = yes		#是否计算前线部队
 	}
 }

@@ -1,11 +1,5 @@
 areas = {
 	# 这里用的是map\strategicregions里定义的战略地区，而不是state ID。
-	suez = {
-		strategic_regions = {
-			128
-			28
-		}
-	}
 	scandinavia = {
 		strategic_regions = {
 			11
@@ -109,6 +103,41 @@ areas = {
 	sado = {
 		strategic_regions = {
 			154
+		}
+	}
+	# Africa
+	suez = {
+		strategic_regions = {
+			128
+			28
+		}
+	}
+	# Asia
+	china_mainland = {
+		strategic_regions = {
+			165
+			164
+			143
+			144
+			155
+		}
+	}
+	taiwan = {
+		strategic_regions = {
+			215
+			216
+		}
+	}
+	japan = {
+		strategic_regions = {
+			209
+			210
+			211
+			212
+			213
+			214
+			154
+			208
 		}
 	}
 }
