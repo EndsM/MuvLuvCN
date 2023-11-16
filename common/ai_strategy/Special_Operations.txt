@@ -1,12 +1,18 @@
 # Set operation like ouka and H21 here
 operation_kou21 = {
+	allowed = {
+		OR = {
+			tag = JAP
+			tag = UNI
+		}
+	}
 	enable = {
 		date > 2001.10.22
 		has_war = yes
 		is_ai = yes
-		is_in_faction_with = UNI
 		has_idea = JAP_kou21
 	}
+	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = invade
 		id = H21

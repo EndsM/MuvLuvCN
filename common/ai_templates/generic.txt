@@ -5,6 +5,32 @@ tsf_role = {
 	upgrade_prio = {
 		factor = 1
 	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
+	}
 	match_to_count = 0.6
 	tsf_wing = {
 		upgrade_prio = {
@@ -30,6 +56,9 @@ tsf_role = {
 				field_hospital = 1
 			}
 		}
+		allowed_types = {
+			MVLV_tsf_battalion
+		}
 	}
 }
 
@@ -39,6 +68,32 @@ infantry_brigade_rocket = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	infantry_brigade_rocket_template = {
@@ -68,6 +123,10 @@ infantry_brigade_rocket = {
 				artillery = 1
 			}
 		}
+		allowed_types = {
+			infantry
+			rocket_artillery_brigade
+		}
 	}
 }
 
@@ -77,6 +136,32 @@ infantry_division_rocket = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	infantry_division_rocket_template = {
@@ -106,6 +191,10 @@ infantry_division_rocket = {
 				field_hospital = 1
 			}
 		}
+		allowed_types = {
+			infantry
+			rocket_artillery
+		}
 	}
 }
 
@@ -115,6 +204,32 @@ infantry_brigade_artillery = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	infantry_brigade_artillery_template = {
@@ -144,6 +259,10 @@ infantry_brigade_artillery = {
 				artillery = 1
 			}
 		}
+		allowed_types = {
+			infantry
+			artillery_brigade
+		}
 	}
 }
 
@@ -153,6 +272,32 @@ infantry_division_artillery = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	infantry_division_artillery_template = {
@@ -182,6 +327,10 @@ infantry_division_artillery = {
 				field_hospital = 1
 			}
 		}
+		allowed_types = {
+			infantry
+			artillery_brigade
+		}
 	}
 }
 
@@ -191,6 +340,32 @@ armor_brigade_rocket = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	armor_brigade_rocket_template = {
@@ -220,6 +395,10 @@ armor_brigade_rocket = {
 				artillery = 1
 			}
 		}
+		allowed_types = {
+			MVLV_combined_arms_battalion
+			rocket_artillery_brigade
+		}
 	}
 }
 
@@ -229,6 +408,32 @@ armor_division_rocket = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	armor_division_rocket_template = {
@@ -258,6 +463,10 @@ armor_division_rocket = {
 				field_hospital = 1
 			}
 		}
+		allowed_types = {
+			MVLV_combined_arms_battalion
+			rocket_artillery_brigade
+		}
 	}
 }
 
@@ -267,6 +476,32 @@ armor_brigade_artillery = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	armor_brigade_artillery_template = {
@@ -296,6 +531,10 @@ armor_brigade_artillery = {
 				artillery = 1
 			}
 		}
+		allowed_types = {
+			MVLV_combined_arms_battalion
+			artillery_brigade
+		}
 	}
 }
 
@@ -305,6 +544,32 @@ armor_division_artillery = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	armor_division_artillery_template = {
@@ -334,6 +599,10 @@ armor_division_artillery = {
 				field_hospital = 1
 			}
 		}
+		allowed_types = {
+			MVLV_combined_arms_battalion
+			artillery_brigade
+		}
 	}
 }
 
@@ -343,6 +612,32 @@ gunship = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	gunship_template = {
@@ -371,6 +666,9 @@ gunship = {
 				artillery = 1
 			}
 		}
+		allowed_types = {
+			light_armor
+		}
 	}
 }
 
@@ -380,6 +678,32 @@ diver = {
 	}
 	upgrade_prio = {
 		factor = 1
+	}
+	blocked_for = {
+		BET
+		H02
+		H03
+		H04
+		H05
+		H06
+		H07
+		H08
+		H09
+		H10
+		H11
+		H12
+		H13
+		H14
+		H15
+		H16
+		H17
+		H18
+		H19
+		H20
+		H21
+		H23
+		H25
+		H26
 	}
 	match_to_count = 0.6
 	diver_template = {
@@ -405,6 +729,9 @@ diver = {
 				maintenance_company = 1
 				field_hospital = 1
 			}
+		}
+		allowed_types = {
+			paratrooper
 		}
 	}
 }
