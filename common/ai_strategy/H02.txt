@@ -9,126 +9,153 @@
 # garrison
 # protect
 # influence
+
+
+
 H02_defend_doctrine = {
 	enable = {
 		original_tag = H02
 		date > 1998.12.31
 	}
-	# ai_strategy = {
-	# 	type = dont_defend_ally_borders
-	# 	id = BET
-	# 	value = 100
-	# }
-	# ai_strategy = {
-	# 	type = dont_defend_ally_borders
-	# 	id = H02
-	# 	value = 100
-	# }
+	
+#	ai_strategy = {
+#		type = dont_defend_ally_borders
+#		id = BET
+#		value = 100
+#	}
+
+#	ai_strategy = {
+#		type = dont_defend_ally_borders
+#		id = H02
+#		value = 100
+#	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H03
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H04
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H05
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H06
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H07
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H08
 		value = 100
 	}
-	#	ai_strategy = {
-	#		type = dont_defend_ally_borders
-	#		id = H09
-	#		value = 100
-	#	}
+	
+#	ai_strategy = {
+#		type = dont_defend_ally_borders
+#		id = H09
+#		value = 100
+#	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H10
 		value = 100
 	}
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H11
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H12
 		value = 100
 	}
-	#	ai_strategy = {
-	#		type = dont_defend_ally_borders
-	#		id = H13
-	#		value = 100
-	#	}
+
+#	ai_strategy = {
+#		type = dont_defend_ally_borders
+#		id = H13
+#		value = 100
+#	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H14
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H15
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H16
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H17
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H18
 		value = 100
 	}
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H19
 		value = 100
 	}
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H20
 		value = 100
 	}
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H21
 		value = 100
 	}
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H23
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H25
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H26
@@ -144,23 +171,19 @@ H02_frontline_def = {
 		has_war = yes
 		date > 1998.12.31
 		original_tag = H02
+		
 		OR = {
-			H09 = {
-				surrender_progress > 0.1
-			}
+			H09 = { surrender_progress > 0.1 }
 			any_state = {
 				is_owned_by = H09
-				NOT = {
-					is_controlled_by = H09
-				}
+				NOT = { is_controlled_by = H09}
 				is_capital = no
 			}
-			check_variable = {
-				num_divisions > var_hive_aliment_H02
-			}
+			check_variable = { num_divisions > var_hive_aliment_H02 }
 		}
 	}
 	abort_when_not_enabled = yes
+
 	ai_strategy = {
 		type = force_defend_ally_borders
 		Id = H09
