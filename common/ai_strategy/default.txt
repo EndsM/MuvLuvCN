@@ -1,6 +1,5 @@
 # Written by Henrik "Groogy" Hansson
 # Modified by Daniel "Da9L" Sjöberg
-
 # befriend
 # conquer
 # antagonize
@@ -14,128 +13,122 @@
 # influence
 # contain
 # area_priority
-
-
 default_unit_production = {
 	enable = {
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 	}
-	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = cas
 		value = -1000
 	}
-	
 }
 
 default_unit_production = {
 	enable = {
 		always = yes
-		NOT = { original_tag = GER }
-		NOT = { original_tag = FRA }
-		NOT = { original_tag = CHI }
-		NOT = { original_tag = ENG }
-		NOT = { original_tag = CZE }
-		NOT = { original_tag = JAP }
-		
+		NOT = {
+			original_tag = GER
+		}
+		NOT = {
+			original_tag = FRA
+		}
+		NOT = {
+			original_tag = CHI
+		}
+		NOT = {
+			original_tag = ENG
+		}
+		NOT = {
+			original_tag = CZE
+		}
+		NOT = {
+			original_tag = JAP
+		}
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 	}
-	
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
 		value = 0
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
 		value = 0
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = marines
 		value = 0
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = armor
 		value = 80
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
 		value = 10
 	}
-	
 	#Air unit factors
 	ai_strategy = {
 		type = unit_ratio
 		id = fighter
 		value = 5
 	}
-	
 	ai_strategy = {
 		type = unit_ratio
 		id = cas
 		value = 5
 	}
-	
 	ai_strategy = {
 		type = unit_ratio
 		id = tactical_bomber
 		value = 5
 	}
-	
 	ai_strategy = {
 		type = unit_ratio
 		id = strategic_bomber
 		value = 5
 	}
-	
 	ai_strategy = {
 		type = unit_ratio
 		id = naval_bomber
 		value = 0
 	}
-	
-	
 	# Naval unit factors
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
 		value = 10
 	}
-
 	ai_strategy = {
 		type = unit_ratio
 		id = submarine
 		value = 10
 	}
-
 	ai_strategy = {
 		type = unit_ratio
 		id = screen_ship
 		value = 40
 	}
-
 	ai_strategy = {
 		type = unit_ratio
 		id = convoy
 		value = 15
 	}
-	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = fighter
 		value = 10
 	}
-	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = cas
@@ -146,13 +139,11 @@ default_unit_production = {
 		id = infantry
 		value = 40
 	}
-
 	ai_strategy = {
 		type = equipment_production_factor
 		id = armor
 		value = 100
 	}
-	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
@@ -165,29 +156,26 @@ default_role_ratios = {
 		NOT = {
 			has_dlc = "Man the Guns"
 		}
-		
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_capital
 		value = 100
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_carrier
 		value = 100
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_sub
 		value = 100
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_screen
@@ -208,63 +196,55 @@ default_role_ratios = {
 			}
 		}
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_capital_bb
 		value = -80
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_capital_bc
 		value = -20
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_carrier
 		value = -70
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_submarine
 		value = 100
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_screen
 		value = 65
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_escort
 		value = 35
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_cruiser_light
 		value = 25
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_cruiser_heavy
 		value = 20
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_mine_sweeper
 		value = 15
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_mine_layer
@@ -276,26 +256,24 @@ convoy_voy_voy_voy = {
 	enable = {
 		has_dlc = "Man the Guns"
 		convoy_threat > 0.2
-		
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 	}
 	abort = {
 		convoy_threat < 0.2
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_cruiser_light
 		value = -20
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_escort
 		value = 25
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_mine_layer
@@ -306,13 +284,11 @@ convoy_voy_voy_voy = {
 		id = screen_ship
 		value = 30
 	}
-
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
 		value = -10
 	}
-
 	ai_strategy = {
 		type = unit_ratio
 		id = convoy
@@ -324,26 +300,24 @@ ill_show_you_mine = {
 	enable = {
 		has_dlc = "Man the Guns"
 		mine_threat > 0.2
-		
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 	}
 	abort = {
 		mine_threat < 0.2
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_cruiser_heavy
 		value = -20
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_mine_sweeper
 		value = 25
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_mine_layer
@@ -355,26 +329,24 @@ ill_show_you_mine_2 = {
 	enable = {
 		has_dlc = "Man the Guns"
 		mine_threat > 0.5
-		
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 	}
 	abort = {
 		mine_threat < 0.5
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_cruiser_light
 		value = -20
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_mine_sweeper
 		value = 25
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = naval_mine_layer
@@ -385,17 +357,16 @@ ill_show_you_mine_2 = {
 default_pp_spend_amount = {
 	enable = {
 		always = yes
-		
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 	}
-	
 	ai_strategy = {
 		type = pp_spend_amount
 		id = idea
 		value = 100
 	}
-	
 	ai_strategy = {
 		type = pp_spend_amount
 		id = decision
@@ -405,16 +376,18 @@ default_pp_spend_amount = {
 
 default_paratroopers_production = {
 	enable = {
-		NOT = { original_tag = GER }
-		
+		NOT = {
+			original_tag = GER
+		}
 		#BETA
-		NOT = { is_in_faction_with = BET }
-		ai_wants_divisions >  12 #Massively decreasing the amount of paratroopers the AI wants
+		NOT = {
+			is_in_faction_with = BET
+		}
+		ai_wants_divisions > 12		#Massively decreasing the amount of paratroopers the AI wants
 	}
 	abort = {
-		ai_wants_divisions < 13 #Massively decreasing the amount of paratroopers the AI wants
+		ai_wants_divisions < 13		#Massively decreasing the amount of paratroopers the AI wants
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = paratroopers
@@ -424,8 +397,8 @@ default_paratroopers_production = {
 
 default_garrison_production = {
 	enable = {
-		NOT = { 
-			original_tag = GER 
+		NOT = {
+			original_tag = GER
 			original_tag = SOV
 			original_tag = USA
 			original_tag = CHI
@@ -433,23 +406,22 @@ default_garrison_production = {
 			original_tag = JAP
 			original_tag = ENG
 		}
-		
 		#BETA
-		NOT = { is_in_faction_with = BET }
-		ai_wants_divisions >  12 #Massively decreasing the amount of garrison and suppression the AI wants
+		NOT = {
+			is_in_faction_with = BET
+		}
+		ai_wants_divisions > 12		#Massively decreasing the amount of garrison and suppression the AI wants
 		is_major = yes
 	}
 	abort = {
-		ai_wants_divisions < 13 #Massively decreasing the amount of garrison and suppression the AI wants
+		ai_wants_divisions < 13		#Massively decreasing the amount of garrison and suppression the AI wants
 		is_major = no
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = garrison
 		value = 5
 	}
-	
 	ai_strategy = {
 		type = role_ratio
 		id = suppression
@@ -459,16 +431,18 @@ default_garrison_production = {
 
 default_mountaineers_production = {
 	enable = {
-		NOT = { original_tag = GER }
-		
+		NOT = {
+			original_tag = GER
+		}
 		#BETA
-		NOT = { is_in_faction_with = BET }
-		ai_wants_divisions > 11 #Decreasing the amount of mountaineers the AI wants
+		NOT = {
+			is_in_faction_with = BET
+		}
+		ai_wants_divisions > 11		#Decreasing the amount of mountaineers the AI wants
 	}
 	abort = {
-		ai_wants_divisions < 12 #Decreasing the amount of mountaineers the AI wants
+		ai_wants_divisions < 12		#Decreasing the amount of mountaineers the AI wants
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
@@ -478,22 +452,23 @@ default_mountaineers_production = {
 
 default_marines_production = {
 	enable = {
-		NOT = { original_tag = GER }
-		
+		NOT = {
+			original_tag = GER
+		}
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 		ai_wants_divisions > 49
 	}
 	abort = {
 		ai_wants_divisions < 50
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = marines
 		value = 0
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
@@ -503,17 +478,19 @@ default_marines_production = {
 
 default_mobile_production = {
 	enable = {
-		NOT = { original_tag = GER }
-		
+		NOT = {
+			original_tag = GER
+		}
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 		ai_wants_divisions > 11
 		# has_tech = motorised_infantry
 	}
 	abort = {
 		ai_wants_divisions < 12
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = mobile
@@ -523,23 +500,26 @@ default_mobile_production = {
 
 default_armored_production = {
 	enable = {
-		NOT = { original_tag = GER }
-		NOT = { original_tag = CZE }
-		
+		NOT = {
+			original_tag = GER
+		}
+		NOT = {
+			original_tag = CZE
+		}
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 		ai_wants_divisions > 49
 	}
 	abort = {
 		ai_wants_divisions < 50
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = armor
 		value = 2
 	}
-
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
@@ -547,161 +527,75 @@ default_armored_production = {
 	}
 }
 
-# default_area_priority = {
-# 	enable = {
-# 		NOT = { original_tag = GER } 
-# 		NOT = { original_tag = FRA }
-		
-# 		#BETA
-# 		NOT = { is_in_faction_with = BET }
-# 	}
-
-# 	ai_strategy = {
-# 		type = area_priority
-# 		id = europe
-# 		value = 100
-# 	}
-
-# 	ai_strategy = {
-# 		type = area_priority
-# 		id = scandinavia
-# 		value = 100
-# 	}
-	
-# 	ai_strategy = {
-# 		type = area_priority
-# 		id = north_america
-# 		value = 100
-# 	}
-	
-# 	ai_strategy = {
-# 		type = area_priority
-# 		id = south_america
-# 		value = 50
-# 	}
-	
-# 	ai_strategy = {
-# 		type = area_priority
-# 		id = asia
-# 		value = 75
-# 	}
-	
-# 	ai_strategy = {
-# 		type = area_priority
-# 		id = middle_east
-# 		value = 50
-# 	}
-
-# 	ai_strategy = {
-# 		type = area_priority
-# 		id = suez
-# 		value = 50
-# 	}
-	
-# 	ai_strategy = {
-# 		type = area_priority
-# 		id = pacific
-# 		value = 300
-# 	}
-	
-# 	ai_strategy = {
-# 		type = area_priority
-# 		id = oceania
-# 		value = 80
-# 	}
-
-# }
-
-# default_area_priority_non_africa = {
-#     enable = {
-#         NOT = { original_tag = ITA }
-#         NOT = { original_tag = FRA }
-#         NOT = { original_tag = ENG }
-#         NOT = { is_subject_of = ENG }
-#         NOT = { capital_scope = { is_on_continent = africa } }
-        
-#     	#BETA
-# 	NOT = { is_in_faction_with = BET }
-#     }
-
-#     ai_strategy = {
-#         type = area_priority
-#         id = africa
-#         value = -90
-#     }
-#     ai_strategy = {
-#         type = area_priority
-#         id = suez
-#         value = -90
-#     }
-# }
-
 default_stockpile_management = {
 	enable = {
 		num_divisions > 150
-		
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 	}
-
 	abort = {
 		num_divisions < 130
 	}
-
 	ai_strategy = {
 		type = equipment_stockpile_surplus_ratio
-		value = 35 # double base stockpile #from 25 to 35
+		value = 35		# double base stockpile #from 25 to 35
 	}
 }
 
 DEFAULT_template_design = {
 	enable = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = POL } }	
+		NOT = {
+			OR = {
+				tag = GER
+				tag = ENG
+				tag = SOV
+				tag = ITA
+				tag = JAP
+				tag = USA
+				tag = POL
+			}
+		}
 		date < 1940.1.1
-		
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 	}
-	abort = { 
+	abort = {
 		date > 1940.1.1
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = motorized
 		value = -100
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = cavalry
 		value = -100
 	}
-	
 	ai_strategy = {
 		type = template_prio
 		id = light_armor
 		value = -50
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = medium_armor
 		value = 50
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = heavy_armor
 		value = -50
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = paratroopers
 		value = -50
 	}
-	
 	ai_strategy = {
 		type = template_prio
 		id = infantry
@@ -711,55 +605,58 @@ DEFAULT_template_design = {
 
 DEFAULT_template_design = {
 	enable = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = POL } }
+		NOT = {
+			OR = {
+				tag = GER
+				tag = ENG
+				tag = SOV
+				tag = ITA
+				tag = JAP
+				tag = USA
+				tag = POL
+			}
+		}
 		date > 1940.1.1
-		
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = mechanized
 		value = -10
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = cavalry
 		value = -100
 	}
-	
 	ai_strategy = {
 		type = template_prio
 		id = light_armor
 		value = -10
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = medium_armor
 		value = 50
 	}
-	
 	ai_strategy = {
 		type = template_prio
 		id = modern_armor
 		value = -50
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = heavy_armor
 		value = -10
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = paratroopers
 		value = -50
 	}
-	
 	ai_strategy = {
 		type = template_prio
 		id = infantry
@@ -772,19 +669,20 @@ save_admiral_pp_for_later = {
 		has_war = no
 		threat < 0.3
 		has_political_power < 200
-		
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 	}
 	abort = {
 		OR = {
-			has_war = yes	
+			has_war = yes
 			threat > 0.3
 			has_political_power > 200
 		}
 	}
-
-	ai_strategy = { # dont burn PP on admirals (can still get free ones)
+	ai_strategy = {
+		# dont burn PP on admirals (can still get free ones)
 		type = pp_spend_priority
 		id = admiral
 		value = -100
@@ -792,13 +690,13 @@ save_admiral_pp_for_later = {
 }
 
 do_not_waste_pp_if_saving_for_manpower_laws = {
-
 	enable = {
 		manpower_per_military_factory < 500
 		has_war = yes
-		
 		#BETA
-		NOT = { is_in_faction_with = BET }
+		NOT = {
+			is_in_faction_with = BET
+		}
 	}
 	abort = {
 		OR = {
@@ -806,17 +704,14 @@ do_not_waste_pp_if_saving_for_manpower_laws = {
 			has_war = no
 		}
 	}
-
 	ai_strategy = {
 		type = pp_spend_priority
 		id = relation
 		value = -9999
 	}
-
 	ai_strategy = {
 		type = pp_spend_priority
 		id = guarantee
 		value = -9999
 	}
 }
-
