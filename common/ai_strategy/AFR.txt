@@ -9,67 +9,59 @@
 # garrison
 # protect
 # influence
-
 AFR_area_priority = {
-	enable = {
+	allowed = {
 		original_tag = AFR
-		date > 1998.12.31
 	}
-	
+	enable = {
+		has_war = yes
+	}
+	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = area_priority
 		id = suez
 		value = 100
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = scandinavia
 		value = -100
 	}
-
 	ai_strategy = {
 		type = area_priority
 		id = europe
 		value = -100
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = north_america
 		value = -100
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = south_america
 		value = -100
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = asia
 		value = 5
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = middle_east
 		value = 100
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = africa
 		value = 5
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = pacific
 		value = -100
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = oceania
@@ -78,10 +70,13 @@ AFR_area_priority = {
 }
 
 AFR_defend_doctrine = {
-	enable = {
+	allowed = {
 		original_tag = AFR
-		date > 1998.12.31
 	}
+	enable = {
+		has_war = yes
+	}
+	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = CAN
@@ -101,12 +96,12 @@ AFR_defend_doctrine = {
 		type = dont_defend_ally_borders
 		id = SOA
 		value = 100
- 	}
-	 ai_strategy = {
- 		 type = dont_defend_ally_borders
- 		 id = SOV
- 		 value = 100
- 	}
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = SOV
+		value = 100
+	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = JAP
@@ -138,106 +133,99 @@ AFR_defend_doctrine = {
 		value = 100
 	}
 }
+
 AFR_strategic_plan = {
-	ai_strategy = { 
+	enable = {
+		tag = AFR
+		date > 1998.12.31
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
 		type = role_ratio
 		id = infantry
 		value = 5
 	}
-	
 	ai_strategy = {
 		type = role_ratio
 		id = armor
 		value = 10
 	}
-	
-	ai_strategy = { 
+	ai_strategy = {
 		type = role_ratio
 		id = garrison
-		value = -50
+		value = 5
 	}
-	
-	ai_strategy = { 
+	ai_strategy = {
 		type = role_ratio
 		id = suppression
 		value = 0
 	}
-	
-	ai_strategy = { 
+	ai_strategy = {
 		type = role_ratio
 		id = tsf
 		value = 40
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = motorized
 		value = -80
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = cavalry
 		value = -80
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = mountaineers
 		value = -80
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = infantry
 		value = 10
 	}
-	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = fighter
 		value = 1
 	}
-
 	ai_strategy = {
 		type = equipment_production_factor
 		id = cas
 		value = 1
 	}
-	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 1 #10 to 5
+		value = 1		#10 to 5
 	}
-	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = armor
-		value = 150 #From 40 to 5
+		value = 150		#From 40 to 5
 	}
-	
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = armor
 		value = 0
 	}
-	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = cas
 		value = -1000
 	}
-	
 }
+
 #对峙于苏伊士防线时
 AFR_suez_frontline = {
-	enable={
+	enable = {
 		original_tag = AFR
 		date > 1998.12.31
 		has_full_control_of_state = 446
 		has_full_control_of_state = 457
 		NOT = {
+			# 西奈
 			453 = {
 				is_controlled_by = AFR
 			}
@@ -245,16 +233,18 @@ AFR_suez_frontline = {
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
-		type = put_unit_buffers #指定在某州驻防
-		ratio = 0.9 #占总陆军比例
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.9		#占总陆军比例
 		states = {
-			446 457
+			446
+			457
 		}
-		subtract_fronts_from_need = yes #是否计算前线部队
+		subtract_fronts_from_need = yes		#是否计算前线部队
 	}
 }
+
 AFR_suez_secondline = {
-	enable={
+	enable = {
 		original_tag = AFR
 		date > 1998.12.31
 		has_full_control_of_state = 446
@@ -265,18 +255,19 @@ AFR_suez_secondline = {
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
-		type = put_unit_buffers #指定在某州驻防
-		ratio = 0.2 #占总陆军比例
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.2		#占总陆军比例
 		states = {
-			446 457
+			446
+			457
 		}
-		subtract_fronts_from_need = yes #是否计算前线部队
-	}	
+		subtract_fronts_from_need = yes		#是否计算前线部队
+	}
 }
 
 #防御摩洛哥的地下侵攻
 AFR_moroco_defense = {
-	enable={
+	enable = {
 		original_tag = AFR
 		date > 1998.12.31
 		has_full_control_of_state = 290
@@ -288,11 +279,11 @@ AFR_moroco_defense = {
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
-		type = put_unit_buffers #指定在某州驻防
-		ratio = 0.2 #占总陆军比例
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.2		#占总陆军比例
 		states = {
 			290
 		}
-		subtract_fronts_from_need = yes #是否计算前线部队
-	}	
+		subtract_fronts_from_need = yes		#是否计算前线部队
+	}
 }
