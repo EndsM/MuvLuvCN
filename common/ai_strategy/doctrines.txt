@@ -1,0 +1,19 @@
+human_avoid_naval_invasion = {
+	enable = {
+		date > 1998.12.31
+		has_war = yes
+		is_ai = yes
+		is_in_faction_with = UNI
+		NOT = {
+			has_idea = JAP_kou21
+		}
+	}
+	ai_strategy = {
+		type = naval_invasion_focus
+		value = -10
+	}
+	ai_strategy = {
+		type = naval_invasion_supremacy_weight
+		value = -10
+	}
+}
