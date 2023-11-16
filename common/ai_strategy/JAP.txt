@@ -9,61 +9,56 @@
 # garrison
 # protect
 # influence
-
 JAP_area_priority = {
 	enable = {
 		original_tag = JAP
 		date > 1998.12.31
 	}
-
 	ai_strategy = {
 		type = area_priority
-		id = Europe
-		value = -100
+		id = europe
+		value = -300
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = north_america
-		value = -100
+		value = -300
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = south_america
-		value = -100
+		value = -300
 	}
-	
+	ai_strategy = {
+		type = area_priority
+		id = cheorwon
+		value = 100
+	}
 	ai_strategy = {
 		type = area_priority
 		id = asia
 		value = 100
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = middle_east
-		value = -100
+		value = -300
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = -100
+		value = -300
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = pacific
-		value = -100
+		value = -200
 	}
-	
 	ai_strategy = {
 		type = area_priority
 		id = oceania
-		value = -100
+		value = -300
 	}
-
 }
 
 JAP_defend_doctrine = {
@@ -90,12 +85,12 @@ JAP_defend_doctrine = {
 		type = dont_defend_ally_borders
 		id = SOA
 		value = 100
- 	}
-	 ai_strategy = {
- 		 type = dont_defend_ally_borders
- 		 id = SOV
- 		 value = 100
- 	}
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = SOV
+		value = 100
+	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = CHI
@@ -113,7 +108,7 @@ JAP_defend_doctrine = {
 	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = JAP
+		id = EUR
 		value = 100
 	}
 	ai_strategy = {
@@ -133,85 +128,71 @@ JAP_strategic_plan = {
 		tag = JAP
 		date > 1998.12.31
 	}
-
-	ai_strategy = { 
+	ai_strategy = {
 		type = role_ratio
 		id = infantry
 		value = 1
 	}
-	
 	ai_strategy = {
 		type = role_ratio
 		id = armor
 		value = 10
 	}
-	
-	ai_strategy = { 
+	ai_strategy = {
 		type = role_ratio
 		id = garrison
 		value = 5
 	}
-	
-	ai_strategy = { 
+	ai_strategy = {
 		type = role_ratio
 		id = suppression
 		value = 0
 	}
-	
-	ai_strategy = { 
+	ai_strategy = {
 		type = role_ratio
 		id = tsf
 		value = 130
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = motorized
 		value = -80
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = cavalry
 		value = -80
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = mountaineers
 		value = -80
 	}
-
 	ai_strategy = {
 		type = template_prio
 		id = infantry
 		value = 1
 	}
-	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = fighter
 		value = 1
 	}
-
 	ai_strategy = {
 		type = equipment_production_factor
 		id = cas
 		value = 1
 	}
-	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 1 #10 to 5
+		value = 1		#10 to 5
 	}
-	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = armor
-		value = 130 #From 40 to 5
+		value = 130		#From 40 to 5
 	}
-	
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = armor
@@ -221,7 +202,7 @@ JAP_strategic_plan = {
 
 #对峙于对马岛时
 Jap_tsushima_frontline = {
-	enable={
+	enable = {
 		original_tag = JAP
 		date > 1998.12.31
 		has_full_control_of_state = 528
@@ -233,16 +214,17 @@ Jap_tsushima_frontline = {
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
-		type = put_unit_buffers #指定在某州驻防
-		ratio = 0.3 #占总陆军比例
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.3		#占总陆军比例
 		states = {
-			528 
+			528
 		}
-		subtract_fronts_from_need = yes #是否计算前线部队
+		subtract_fronts_from_need = yes		#是否计算前线部队
 	}
 }
+
 Jap_tsushima_secondline = {
-	enable={
+	enable = {
 		original_tag = JAP
 		date > 1998.12.31
 		has_full_control_of_state = 528
@@ -252,17 +234,18 @@ Jap_tsushima_secondline = {
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
-		type = put_unit_buffers #指定在某州驻防
-		ratio = 0.05 #占总陆军比例
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.05		#占总陆军比例
 		states = {
 			528
 		}
-		subtract_fronts_from_need = yes #是否计算前线部队
-	}	
+		subtract_fronts_from_need = yes		#是否计算前线部队
+	}
 }
+
 #对峙于千岛群岛时
 Jap_kuril_frontline = {
-	enable={
+	enable = {
 		original_tag = JAP
 		date > 1998.12.31
 		has_full_control_of_state = 555
@@ -274,16 +257,17 @@ Jap_kuril_frontline = {
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
-		type = put_unit_buffers #指定在某州驻防
-		ratio = 0.3 #占总陆军比例
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.3		#占总陆军比例
 		states = {
 			555
 		}
-		subtract_fronts_from_need = yes #是否计算前线部队
+		subtract_fronts_from_need = yes		#是否计算前线部队
 	}
 }
+
 Jap_kuril_secondline = {
-	enable={
+	enable = {
 		original_tag = JAP
 		date > 1998.12.31
 		has_full_control_of_state = 555
@@ -293,17 +277,18 @@ Jap_kuril_secondline = {
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
-		type = put_unit_buffers #指定在某州驻防
-		ratio = 0.05 #占总陆军比例
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.05		#占总陆军比例
 		states = {
 			555
 		}
-		subtract_fronts_from_need = yes #是否计算前线部队
-	}	
+		subtract_fronts_from_need = yes		#是否计算前线部队
+	}
 }
+
 #对峙于库页岛时
 Jap_sakhalin_frontline = {
-	enable={
+	enable = {
 		original_tag = JAP
 		date > 1998.12.31
 		has_full_control_of_state = 537
@@ -315,16 +300,17 @@ Jap_sakhalin_frontline = {
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
-		type = put_unit_buffers #指定在某州驻防
-		ratio = 0.3 #占总陆军比例
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.3		#占总陆军比例
 		states = {
 			655
 		}
-		subtract_fronts_from_need = yes #是否计算前线部队
+		subtract_fronts_from_need = yes		#是否计算前线部队
 	}
 }
+
 Jap_sakhalin_secondline = {
-	enable={
+	enable = {
 		original_tag = JAP
 		date > 1998.12.31
 		has_full_control_of_state = 537
@@ -334,11 +320,11 @@ Jap_sakhalin_secondline = {
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
-		type = put_unit_buffers #指定在某州驻防
-		ratio = 0.05 #占总陆军比例
+		type = put_unit_buffers		#指定在某州驻防
+		ratio = 0.05		#占总陆军比例
 		states = {
 			655
 		}
-		subtract_fronts_from_need = yes #是否计算前线部队
-	}	
+		subtract_fronts_from_need = yes		#是否计算前线部队
+	}
 }
