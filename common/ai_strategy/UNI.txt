@@ -42,7 +42,7 @@ UNI_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = south_america
-		value = -100
+		value = -50
 	}
 	ai_strategy = {
 		type = area_priority

@@ -111,4 +111,19 @@ areas = {
 			154
 		}
 	}
+	china_mainland = {
+		strategic_regions = {
+			165
+			164
+			143
+			144
+			155
+		}
+	}
+	taiwan = {
+		strategic_regions = {
+			215
+			216
+		}
+	}
 }
