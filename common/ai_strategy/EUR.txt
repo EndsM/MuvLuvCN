@@ -42,7 +42,7 @@ EUR_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = -100
+		value = 5
 	}
 	ai_strategy = {
 		type = area_priority
@@ -189,3 +189,100 @@ EUR_all_tsf_plan = {
 		value = 0
 	}
 }
+
+#对峙于西西里时
+Eur_sicily_frontline = {
+	enable={
+		original_tag = EUR
+		date > 1998.12.31
+		has_full_control_of_state = 115
+		NOT = {
+			156 = {
+				is_controlled_by = EUR
+	
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = put_unit_buffers #指定在某州驻防
+		ratio = 0.3 #占总陆军比例
+		states = {
+			115
+		}
+		subtract_fronts_from_need = yes #是否计算前线部队
+	}
+}
+Eur_sicily_secondline = {
+	enable={
+		original_tag = EUR
+		date > 1998.12.31
+		has_full_control_of_state = 115
+		156 = {
+			is_controlled_by = EUR
+
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = put_unit_buffers #指定在某州驻防
+		ratio = 0.05 #占总陆军比例
+		states = {
+			115
+		}
+		subtract_fronts_from_need = yes #是否计算前线部队
+	}	
+}
+
+#对峙于英吉利海峡时
+Eur_channel_frontline = {
+	enable={
+		original_tag = EUR
+		date > 1998.12.31
+		has_full_control_of_state = 808
+		has_full_control_of_state = 127
+		NOT = {
+			156 = {
+				is_controlled_by = EUR
+	
+			}
+			29 = {
+				is_controlled_by = EUR
+	
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = put_unit_buffers #指定在某州驻防
+		ratio = 0.7 #占总陆军比例
+		states = {
+			808 127
+		}
+		subtract_fronts_from_need = yes #是否计算前线部队
+	}
+}
+Eur_channel_secondline = {
+	enable={
+		original_tag = EUR
+		date > 1998.12.31
+		has_full_control_of_state = 808
+		156 = {
+			is_controlled_by = EUR
+		}
+		29 = {
+			is_controlled_by = EUR
+
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = put_unit_buffers #指定在某州驻防
+		ratio = 0.2 #占总陆军比例
+		states = {
+			808 127
+		}
+		subtract_fronts_from_need = yes #是否计算前线部队
+	}	
+}
+

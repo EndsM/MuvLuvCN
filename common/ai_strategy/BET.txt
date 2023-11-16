@@ -9,92 +9,110 @@
 # garrison
 # protect
 # influence
+
 BET_area_priority = {
 	enable = {
 		original_tag = BET
 		date > 1998.12.31
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = suez
 		value = -1
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = scandinavia
 		value = -1
 	}
+
 	ai_strategy = {
 		type = area_priority
 		id = europe
 		value = -1
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = north_america
 		value = -1
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = south_america
 		value = -1
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = asia
 		value = -1
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = middle_east
 		value = -1
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = africa
 		value = -1
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = pacific
 		value = -1
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = oceania
 		value = -1
 	}
-	#### ハイヴ周辺 ####
+	
+	#### 原初巢穴周边 ####
 	ai_strategy = {
 		type = area_priority
 		id = kashgar
 		value = 10
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = cheorwon
 		value = 10
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = evensk
 		value = 10
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = mandalay
 		value = 10
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = anbar
 		value = 10
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = lyon
 		value = 10
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = sado
@@ -102,30 +120,33 @@ BET_area_priority = {
 	}
 }
 
+
 BET_area_priority_plan_exclude_asia = {
 	enable = {
 		original_tag = BET
 		date > 1999.4.1
 		TAG = EUR
-		NOT = {
-			TAG = JAP
-		}
+		NOT = { TAG = JAP }
 	}
+
 	ai_strategy = {
 		type = area_priority
 		id = europe
 		value = -50
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = north_america
 		value = -50
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = south_america
 		value = -50
 	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = asia
@@ -138,96 +159,115 @@ BET_defend_doctrine = {
 		original_tag = BET
 		date > 1998.12.31
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H02
 		value = 10
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H03
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H04
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H05
 		value = 10
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H06
 		value = 10
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H07
 		value = 10
 	}
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H08
 		value = 10
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H09
 		value = 10
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H10
 		value = 10
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H11
 		value = 10
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H12
 		value = 10
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H13
 		value = 10
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H14
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H15
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H16
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H17
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H18
 		value = 100
 	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H19
 		value = 100
 	}
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H20
