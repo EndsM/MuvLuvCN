@@ -28,6 +28,7 @@ generic_tank_organization = {
 		mio_cat_eq_all_medium_tank
 	}
 	research_categories = {
+		MVLV_tsf_module_tech
 		mio_cat_tech_light_armor_and_modules
 		mio_cat_tech_medium_armor_and_modules
 	}
@@ -268,6 +269,7 @@ generic_infantry_tank_organization = {
 		armor
 	}
 	research_categories = {
+		MVLV_tsf_module_tech
 		mio_cat_tech_all_armor_and_modules
 	}
 	tree_header_text = {
@@ -563,6 +565,7 @@ generic_mobile_tank_organization = {
 		armor
 	}
 	research_categories = {
+		MVLV_tsf_module_tech
 		mio_cat_tech_all_armor_and_modules
 	}
 	tree_header_text = {
@@ -800,6 +803,7 @@ generic_medium_tank_organization = {
 		mio_cat_eq_all_medium_tank
 	}
 	research_categories = {
+		MVLV_tsf_module_tech
 		mio_cat_tech_medium_armor_and_modules
 	}
 	tree_header_text = {
@@ -1050,6 +1054,7 @@ generic_heavy_tank_organization = {
 		mio_cat_eq_all_heavy_tank
 	}
 	research_categories = {
+		MVLV_tsf_module_tech
 		mio_cat_tech_heavy_armor_and_modules
 	}
 	tree_header_text = {
@@ -1321,6 +1326,7 @@ generic_tank_refurbishment_plant_organization = {
 		armor
 		support_tech
 		train_tech
+		MVLV_railgun_tech
 	}
 	tree_header_text = {
 		text = mio_header_armor
