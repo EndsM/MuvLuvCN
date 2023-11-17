@@ -1,5 +1,4 @@
 human_Build_bunkers_frontline = {
-	# Swap to build bunkers on frontlines
 	enable = {
 		date > 1998.12.31
 		OR = {
@@ -15,245 +14,258 @@ human_Build_bunkers_frontline = {
 		}
 	}
 	abort_when_not_enabled = yes
+
 	#阿拉斯加
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 13227
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 13227
-		value = 100
+		value = 9999
 	}
+
 	###东北西伯利亚沿岸
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 13063
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 13063
-		value = 100
+		value = 9999
 	}
+	
 	###瓦兰格里基地
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 13241
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 13241
-		value = 100
+		value = 9999
 	}
+	
 	###东北西伯利亚离岛
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 13204
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 13204
-		value = 100
+		value = 9999
 	}
+	
 	###台湾
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 7214
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 7214
-		value = 100
+		value = 9999
 	}
+
 	###克拉运河
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 10158
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 1281
-		value = 100
+		value = 9999
 	}
 	###新地岛
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 11047
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 11047
-		value = 100
+		value = 9999
 	}
+
 	###英格兰
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 9458
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 9458
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 3501
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 3501
-		value = 100
+		value = 9999
 	}
+
 	###西西里
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 4159
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 4159
-		value = 100
+		value = 9999
 	}
+
 	###苏伊士
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 12049
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 4073
-		value = 100
-	}
-	ai_strategy = {
+		value = 9999
+	}	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 9957
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 9957
-		value = 100
+		value = 9999
 	}
+
 	###千岛群岛
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 1399
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 1399
-		value = 100
+		value = 9999
 	}
+
 	###库页岛
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 1742
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 1742
-		value = 100
+		value = 9999
 	}
+
 	###斯里兰卡
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 10201
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 10201
-		value = 100
+		value = 9999
 	}
+
 	###苏门答腊
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 10509
-		value = 100
+		value = 1000
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 10509
-		value = 100
-	}
+		value = 1000
+	}	
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 12113
-		value = 100
+		value = 1000
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 12113
-		value = 100
+		value = 1000
 	}
 	ai_strategy = {
 		type = build_building
 		id = bunker
 		target = 12184
-		value = 100
+		value = 9999
 	}
 	ai_strategy = {
 		type = build_building
 		id = coastal_bunker
 		target = 12184
-		value = 100
+		value = 9999
 	}
 }
-
 ###TODO：一线要塞沦陷后二线要塞建设
 human_bunkers_secondline = {
 }
 
 #禁止新建造船厂 ##不知道为何，这没一点p用
 Not_building_dockyard = {
-	allowed = {
+	enable = {
+		has_war = yes
+		date > 1998.12.31
 		OR = {
 			TAG = AFR
 			TAG = EUR
@@ -266,17 +278,18 @@ Not_building_dockyard = {
 			TAG = USA
 		}
 	}
-	enable = {
-		has_war = yes
-		date > 1998.12.31
-	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
-		value = -100
-	}
+		value = -9999
+	}	
 	ai_strategy = {
 		type = building_target
 		id = dockyard
-		value = -100
+		value = -9999
+	}
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 1000
 	}
 }
