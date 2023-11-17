@@ -13,4 +13,3 @@
 
 # Adjacencies will be still LF for now.
 map/adjacencies.csv text eol=lf
-map/definition.csv text eol=crlf
