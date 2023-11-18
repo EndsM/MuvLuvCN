@@ -392,6 +392,18 @@ guiTypes = {
 			spriteType = "GFX_idea_porsche"
 			position = { x = 461 y = 382 }
 		}
+		buttonType = {
+			name = "upgrade_assigned_industrial_org"
+			position = { x = 425 y = 397 }
+			scale = 1.4
+			spriteType = "GFX_prod_line_target_strip"
+			frame = 2
+		}
+		buttonType = {
+			name = "design_team_button"
+			spriteType = "GFX_idea_slot_tank_manufacturer"
+			position = { x = 461 y = 382 }
+		}
 
 		# right hand side stats
 		containerWindowType = {
@@ -1358,6 +1370,54 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		
+	}
+	
+	# entry for all historical designs
+	containerWindowType = {
+		name = "historical_design_entry"
+		size = { width=404 height=80 }
+		
+		background = {
+			name = "Background"
+			spriteType ="GFX_naval_equipment_item_large_simple"
+		}
+
+		#background_margin = {
+		#	top = 5
+		#	bottom = 5
+		#}
+
+		iconType = {
+			name ="role"
+			spriteType = "GFX_land_equipment_role_icons"
+			position = { x = 320 y = 21 }
+			alwaystransparent = yes
+		}
+		
+		iconType = {
+			name ="icon"
+			spriteType = "GFX_technology_medium"
+			position = { x=152 y=19 }
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "name"
+			position = { x = 14 y = -4 }
+			font = "hoi_18mbs"
+			maxWidth = 300
+			maxHeight = 38
+			fixedsize = yes
+			vertical_alignment = center
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name ="forbidden"
+			spriteType = "GFX_role_forbidden"
+			position = { x = 369 y = 30 }
+			alwaystransparent = yes
+		}
 	}
 	
 }
