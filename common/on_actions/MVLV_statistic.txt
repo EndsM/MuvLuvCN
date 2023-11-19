@@ -63,7 +63,9 @@ on_actions = {
 	on_uncapitulation = {
 		effect = {
 			# Print casualties to see what does the capitulation do to casualties number.
-			
+			ROOT = {
+				log = "[Root.GetName] have be uncapitulated, current casualties is [?ROOT.casualties|*]"
+			}
 		}
 	}
 }
