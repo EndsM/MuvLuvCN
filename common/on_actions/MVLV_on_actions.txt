@@ -15,10 +15,10 @@ on_actions = {
 					}
 					country_event = beta_var.1
 					country_event = mvlv_beta_production.0
-					country_event = mvlv_beta_production.1
-					country_event = mvlv_beta_production.2
+					# country_event = mvlv_beta_production.1
+					# country_event = mvlv_beta_production.2
 					country_event = mvlv_beta_production.3
-					country_event = mvlv_beta_production.4
+					# country_event = mvlv_beta_production.4
 					country_event = {
 						id = mvlv_beta_atk.0
 						days = 30
@@ -271,7 +271,6 @@ on_actions = {
 	}
 	on_peace = {
 		effect = {
-			
 		}
 	}
 }
