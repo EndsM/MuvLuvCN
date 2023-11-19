@@ -1,4 +1,10 @@
 on_actions = {
+	# initiate variables
+	on_startup = {
+		effect = {
+			
+		}
+	}
 	# log the casualties
 	on_capitulation_immediate = {
 		effect = {
@@ -14,7 +20,18 @@ on_actions = {
 			if = {
 				limit = {
 					ROOT = {
-						
+						OR = {
+							is_in_faction_with = BET
+							original_tag = BET
+							original_tag = H00
+						}
+					}
+				}
+				global = {
+					# add casualties to global var
+					set_variable = {
+						var = BETA_casualties
+						value = ROOT.casualties
 					}
 				}
 			}
