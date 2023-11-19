@@ -1,0 +1,12 @@
+on_actions = {
+	on_peace = {
+		effect = {
+			# 与难民解放战线结束战争的情况
+			if = {
+				limit = {
+					tag = M01
+				}
+			}
+		}
+	}
+}
