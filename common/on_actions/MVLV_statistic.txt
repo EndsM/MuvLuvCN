@@ -42,15 +42,20 @@ on_actions = {
 					var = global.BETA_casualties
 					value = ROOT.casualties
 				}
-				ROOT = {
-					set_country_flag = has_been_defeated
-				}
 			}
 			# For Human
 			if = {
 				limit = {
 					ROOT = {
+						OR = {
+							original_tag = UNI
+							is_in_faction_with = UNI
+						}
 					}
+				}
+				add_to_variable = {
+					var = global.Human_casualties
+					value = ROOT.casualties
 				}
 			}
 		}

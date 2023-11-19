@@ -132,4 +132,6 @@ Ideas的命名修改完成了。顺便拉格朗日计划现在是正常运作的
 
 开始着手制作统计和大战结束时结束游戏的功能，该功能将会统计两侧的伤亡数据，以及游戏日期时长。
 
+根据Debug证明，casualties在一个国家陷入投降之后并不会被清空，统计的清空还是不确定是为什么的，因此的想法是，给每个国家提供一个buffed casualties变量，在国家投降时，将其当前casualties加入到该侧总casualties之中，然后将数值存到buffed casualties之中。
 
+该国家每次投降，会检查是否有buffed casualties存在，如果不存在正常计算伤亡，存在的情况下将目前伤亡减去buffed casualties加入到总伤亡中，然后buffed casualties设为目前的casualties。
