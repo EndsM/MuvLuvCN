@@ -2,7 +2,18 @@ on_actions = {
 	# initiate variables
 	on_startup = {
 		effect = {
-			
+			set_variable = {
+				var = global.GameStartDate
+				value = var:date
+			}
+			set_variable = {
+				var = global.BETA_casualties
+				value = 0
+			}
+			set_variable = {
+				var = global.Human_casualties
+				value = 0
+			}
 		}
 	}
 	# log the casualties
