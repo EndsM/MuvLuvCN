@@ -1,10 +1,6 @@
 on_actions = {
 	# log the casualties
 	on_capitulation_immediate = {
-		# For BETA
-		# For Human
-	}
-	on_capitulation = {
 		effect = {
 			# 与难民解放战线结束战争的情况
 			if = {
@@ -14,9 +10,17 @@ on_actions = {
 					}
 				}
 			}
+			# For BETA
+			# For Human
+		}
+	}
+	on_capitulation = {
+		effect = {
 		}
 	}
 	# remove flags for log again
 	on_uncapitulation = {
+		effect = {
+		}
 	}
 }
