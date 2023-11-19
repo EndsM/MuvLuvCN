@@ -1,14 +1,14 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			BET = { 
+			BET = {
 				country_event = mvlv_generic.99
 				country_event = mvlv_beta_eat.0
 				country_event = mvlv_init.0
 			}
 			every_country = {
-				全局参数设置=yes
-				简单难度参数设置=yes
+				全局参数设置 = yes
+				简单难度参数设置 = yes
 				IF = {
 					limit = {
 						is_in_faction_with = BET
@@ -28,34 +28,39 @@ on_actions = {
 							is_ai = no
 						}
 						# country_event = mvlv_beta_hum.0
-						
 					}
-					set_rule = { can_puppet = no }
-					set_rule = { can_create_collaboration_government = no }
+					set_rule = {
+						can_puppet = no
+					}
+					set_rule = {
+						can_create_collaboration_government = no
+					}
 				}
-				
 				IF = {
 					limit = {
 						original_tag = BET
 					}
-					BET = {country_event = BETA.1}
-					BET = {country_event = mvlv_generic.2}
+					BET = {
+						country_event = BETA.1
+					}
+					BET = {
+						country_event = mvlv_generic.2
+					}
 				}
-
 				#削除モードの変更
 				IF = {
 					limit = {
 						is_ai = no
 					}
-					THIS = { country_event = mvlv_generic.16 }
+					THIS = {
+						country_event = mvlv_generic.16
+					}
 				}
-
 				country_event = mvlv_generic.1
 				country_event = mvlv_generic.98
 			}
 		}
 	}
-
 	on_state_control_changed = {
 		effect = {
 			#target:元の所有国がBETA陣営
@@ -63,7 +68,6 @@ on_actions = {
 			#________________________________________________________
 			#target:今の所有国がBETA陣営
 			#effect:BETA陣営で降伏値が下がっていれば陥落アイデア剥奪
-
 			if = {
 				limit = {
 					FROM = {
@@ -72,13 +76,16 @@ on_actions = {
 							tag = H00
 						}
 						surrender_progress > 0.3
-						not = { has_idea = mvlv_brokenhive }
+						not = {
+							has_idea = mvlv_brokenhive
+						}
 					}
 				}
 				FROM = {
 					country_event = BETA.98
 				}
-			} else_if = {
+			}
+			else_if = {
 				limit = {
 					OR = {
 						is_in_faction_with = BET
@@ -91,7 +98,6 @@ on_actions = {
 			}
 		}
 	}
-	
 	on_state_control_changed = {
 		effect = {
 			#BETA吃人
@@ -104,13 +110,31 @@ on_actions = {
 						is_in_faction_with = BET
 					}
 				}
-				add_offsite_building = { type = arms_factory level = FROM.FROM.arms_factory_level }
-				add_offsite_building = { type = arms_factory level = FROM.FROM.industrial_complex_level }
-				add_offsite_building = { type = arms_factory level = FROM.FROM.building_level@dockyard }
+				add_offsite_building = {
+					type = arms_factory
+					level = FROM.FROM.arms_factory_level
+				}
+				add_offsite_building = {
+					type = arms_factory
+					level = FROM.FROM.industrial_complex_level
+				}
+				add_offsite_building = {
+					type = arms_factory
+					level = FROM.FROM.building_level@dockyard
+				}
 				BET = {
-					add_offsite_building = { type = arms_factory level = PREV.FROM.FROM.arms_factory_level }
-					add_offsite_building = { type = arms_factory level = PREV.FROM.FROM.industrial_complex_level }
-					add_offsite_building = { type = arms_factory level = PREV.FROM.FROM.building_level@dockyard }
+					add_offsite_building = {
+						type = arms_factory
+						level = PREV.FROM.FROM.arms_factory_level
+					}
+					add_offsite_building = {
+						type = arms_factory
+						level = PREV.FROM.FROM.industrial_complex_level
+					}
+					add_offsite_building = {
+						type = arms_factory
+						level = PREV.FROM.FROM.building_level@dockyard
+					}
 				}
 				FROM.FROM = {
 					remove_building = {
@@ -161,7 +185,9 @@ on_actions = {
 					while_loop_effect = {
 						limit = {
 							FROM.FROM = {
-								check_variable = { state_population_k > 2000 }
+								check_variable = {
+									state_population_k > 2000
+								}
 							}
 						}
 						FROM.FROM = {
@@ -183,7 +209,9 @@ on_actions = {
 					while_loop_effect = {
 						limit = {
 							FROM.FROM = {
-								check_variable = { state_population_k > 0 }
+								check_variable = {
+									state_population_k > 0
+								}
 							}
 						}
 						FROM.FROM = {
@@ -200,12 +228,10 @@ on_actions = {
 							set_state_category = betaland
 						}
 					}
-					
 				}
 			}
 		}
 	}
-	
 	on_capitulation = {
 		effect = {
 			#target:降伏したBETA陣営で発生
@@ -218,13 +244,14 @@ on_actions = {
 						tag = H00
 					}
 					surrender_progress > 0.3
-					not = { has_idea = mvlv_brokenhive }
+					not = {
+						has_idea = mvlv_brokenhive
+					}
 				}
 				country_event = BETA.98
 			}
 		}
 	}
-
 	on_uncapitulation = {
 		effect = {
 			#target:降伏したBETA陣営で発生
@@ -240,6 +267,11 @@ on_actions = {
 				}
 				country_event = BETA.98
 			}
+		}
+	}
+	on_peace = {
+		effect = {
+			
 		}
 	}
 }
