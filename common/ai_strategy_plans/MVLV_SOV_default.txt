@@ -3,6 +3,7 @@ SOV_default = {
 		original_tag = SOV
 	}
 	enable = {
+		date > 1998.12.31
 	}
 	abort = {
 	}
