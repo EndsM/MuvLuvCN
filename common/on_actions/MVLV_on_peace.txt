@@ -11,6 +11,13 @@ on_actions = {
 				}
 			}
 			# For BETA
+			if = {
+				limit = {
+					ROOT = {
+						
+					}
+				}
+			}
 			# For Human
 		}
 	}
