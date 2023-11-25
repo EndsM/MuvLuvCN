@@ -120,9 +120,46 @@ on_actions = {
 	on_capitulation = {
 		effect = {
 			# Check if the war complete end.
+			# 总之先不用这个方案来检查是否战争结束了，暂时直接用内置的on_peace好了
+		}
+	}
+	on_peaceconference_started = {
+		effect = {
+			set_variable = {
+				var = ROOT.WarEndDate
+				value = var:date
+			}
+			if = {
+				limit = {
+					ROOT = {
+						OR = {
+							original_tag = UNI
+							is_in_faction_with = UNI
+						}
+					}
+				}
+				set_global_flag = HumanWins
+			}
+			if = {
+				limit = {
+					ROOT = {
+						OR = {
+							original_tag = BET
+							original_tag = H00
+							is_in_faction_with = BET
+						}
+					}
+				}
+				set_global_flag = BETAWins
+			}
+		}
+	}
+	on_peace = {
+		effect = {
 		}
 	}
 	# remove flags for log again
+	# Debug Chunk
 	on_uncapitulation = {
 		effect = {
 			# Print casualties to see what does the capitulation do to casualties number.
