@@ -1,0 +1,23 @@
+CAN_default = {
+	allowed = {
+		original_tag = CAN
+	}
+	enable = {
+		date > 1998.12.31
+	}
+	abort = {
+	}
+	ai_national_focuses = {
+		# Remove wasteland as soon as possible
+		CAN_start
+		CAN_man
+		CAN_mans
+		CAN_yesus
+		CAN_tsf
+		CAN_yeswar
+		CAN_nowar
+		CAN_nous
+		CAN_nouni
+		CAN_noatom
+	}
+}
