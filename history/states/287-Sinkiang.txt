@@ -21,6 +21,7 @@ state={
 		owner = BET
 		add_core_of = BET
 		add_core_of = UNI
+		add_core_of = CHI
 
 		#ボパール陥落用
 		add_claim_by = H13
@@ -46,7 +47,7 @@ state={
 			13253 20
 		}
 		victory_points = {
-			13248 20
+			13248 200#20
 		}
 		victory_points = {
 			13255 1

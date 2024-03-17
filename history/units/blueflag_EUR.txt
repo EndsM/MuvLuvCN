@@ -1,0 +1,44 @@
+﻿units={
+	division = {
+		name = "斯雷夫尼尔小队"
+		location = 13069
+		division_template = "战术机大队"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_3_light_normal = {
+				owner = "EUR"
+				creator = EUR
+				version_name = "JAS-39鹰狮"
+			}
+		}
+	}
+	division = {
+		name = "加姆小队"
+		location = 13069
+		division_template = "战术机大队"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_1_light = {
+				owner = "EUR"
+				creator = EUR
+				version_name = "F-5E狂风ADV"
+			}
+		}
+	}
+	division = {
+		name = "游隼小队"
+		location = 13069
+		division_template = "战术机大队"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = {
+			MVLV_TSF_classis_2_light_normal = {
+				owner = "USA"
+				creator = USA
+				version_name = "F-16XL"
+			}
+		}
+	}
+}

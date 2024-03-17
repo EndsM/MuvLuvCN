@@ -1,6 +1,4 @@
-guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE ##########
-############### THIS FILE DEFINES THE SHAPE, FORM, AND TEXT OF THE GUI FOR THE SUPEREVENT
-	
+guiTypes = {
 	containerWindowType = {
 		name = "TNO_SG_big_event_beta_attack_custom_window"
 		size = { width = 220 height = 128 }
@@ -79,7 +77,6 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			Orientation = lower_left
 		}
 	}
-
 	containerWindowType = {
 		name = "TNO_SG_big_event_h00_attack_custom_window"
 		size = { width = 220 height = 128 }
@@ -158,8 +155,8 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			Orientation = lower_left
 		}
 	}
-	containerWindowType = {
-		name = "TNO_SG_big_event_h01_attack_custom_window"
+containerWindowType = {
+		name = "TNO_SG_big_event_h00_attack_custom_window"
 		size = { width = 220 height = 128 }
 		position = { x=0 y=-210 }
 		Orientation = center
@@ -194,7 +191,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 	}
 
 	containerWindowType = {
-		name = "TNO_SG_big_event_frame_h01_attack_custom"
+		name = "TNO_SG_big_event_frame_h00_attack_custom"
 		size = { width = 588 height = 465 }
 		position = { x=0 y=0 }
 		Orientation = center
@@ -236,7 +233,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			Orientation = lower_left
 		}
 	}
-	containerWindowType = {
+containerWindowType = {
 		name = "TNO_SG_big_event_h02_attack_custom_window"
 		size = { width = 220 height = 128 }
 		position = { x=0 y=-210 }
@@ -314,7 +311,7 @@ guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE
 			Orientation = lower_left
 		}
 	}
-	containerWindowType = {
+containerWindowType = {
 		name = "TNO_SG_big_event_h03_attack_custom_window"
 		size = { width = 220 height = 128 }
 		position = { x=0 y=-210 }
@@ -1796,6 +1793,84 @@ containerWindowType = {
 			Orientation = lower_left
 		}
 	}
+	containerWindowType = {
+			name = "TNO_SG_big_event_h22_attack_custom_window"
+			size = { width = 220 height = 128 }
+			position = { x=0 y=-210 }
+			Orientation = center
+			Origo = center
+			clipping = no
+			show_sound = beta_attack_bigevent ### SOUND EFFECT GOES HERE, MAKE SURE YOU'RE USING SOUND #EFFECT AND NOT SOUND!!!!!
+	
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_1b_no_border"
+			}
+	
+			instantTextBoxType = {
+				name = "Title"
+				position = { x = 0 y = 20 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "beta_attack_t" ###### HERE GOES THE TITLE ########
+				maxWidth = 220
+				maxHeight = 24
+				format = centre
+			}
+	
+			iconType = {
+				name ="image"
+				spriteType = "GFX_superevent_custom_beta_attack"
+				position = { x= -286 y = -18 }
+				Orientation = center
+				alwaystransparent = yes
+			}
+	
+		}
+	
+		containerWindowType = {
+			name = "TNO_SG_big_event_frame_h22_attack_custom"
+			size = { width = 588 height = 465 }
+			position = { x=0 y=0 }
+			Orientation = center
+			Origo = center
+			clipping = no
+	
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_bigevent_border"
+			}
+	
+			buttonType = {
+				name = "Option"
+				text = "beta_attack_a"  ############## OPTION
+				shortcut = "ESCAPE"
+				position = { x = -110 y = 183 }
+				quadTextureSprite ="GFX_button_221x34"
+				buttonFont = "hoi_24header"
+				Orientation = center
+			}
+	
+			iconType = {
+				name ="underlay"
+				spriteType = "GFX_superevent_text_underlay"
+				position = { x= 30 y = -200 }
+				Orientation = lower_left
+				alwaystransparent = yes
+			}
+	
+			instantTextBoxType = {
+				name = "text"
+				position = {  x= 120 y = -195 }
+				font = "hoi_24header"
+				text = "h22_attack_d" ######## HERE GOES THE DESCRIPTION ###########
+				maxWidth = 455
+				maxHeight = 173
+				fixedsize = yes
+				format = left
+				Orientation = lower_left
+			}
+		}
 containerWindowType = {
 		name = "TNO_SG_big_event_h23_attack_custom_window"
 		size = { width = 220 height = 128 }
@@ -1874,6 +1949,84 @@ containerWindowType = {
 			Orientation = lower_left
 		}
 	}
+	containerWindowType = {
+			name = "TNO_SG_big_event_h24_attack_custom_window"
+			size = { width = 220 height = 128 }
+			position = { x=0 y=-210 }
+			Orientation = center
+			Origo = center
+			clipping = no
+			show_sound = beta_attack_bigevent ### SOUND EFFECT GOES HERE, MAKE SURE YOU'RE USING SOUND #EFFECT AND NOT SOUND!!!!!
+	
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_1b_no_border"
+			}
+	
+			instantTextBoxType = {
+				name = "Title"
+				position = { x = 0 y = 20 }
+				font = "hoi_24header"
+				borderSize = {x = 0 y = 0}
+				text = "beta_attack_t" ###### HERE GOES THE TITLE ########
+				maxWidth = 220
+				maxHeight = 24
+				format = centre
+			}
+	
+			iconType = {
+				name ="image"
+				spriteType = "GFX_superevent_custom_beta_attack"
+				position = { x= -286 y = -18 }
+				Orientation = center
+				alwaystransparent = yes
+			}
+	
+		}
+	
+		containerWindowType = {
+			name = "TNO_SG_big_event_frame_h24_attack_custom"
+			size = { width = 588 height = 465 }
+			position = { x=0 y=0 }
+			Orientation = center
+			Origo = center
+			clipping = no
+	
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_bigevent_border"
+			}
+	
+			buttonType = {
+				name = "Option"
+				text = "beta_attack_a"  ############## OPTION
+				shortcut = "ESCAPE"
+				position = { x = -110 y = 183 }
+				quadTextureSprite ="GFX_button_221x34"
+				buttonFont = "hoi_24header"
+				Orientation = center
+			}
+	
+			iconType = {
+				name ="underlay"
+				spriteType = "GFX_superevent_text_underlay"
+				position = { x= 30 y = -200 }
+				Orientation = lower_left
+				alwaystransparent = yes
+			}
+	
+			instantTextBoxType = {
+				name = "text"
+				position = {  x= 120 y = -195 }
+				font = "hoi_24header"
+				text = "h24_attack_d" ######## HERE GOES THE DESCRIPTION ###########
+				maxWidth = 455
+				maxHeight = 173
+				fixedsize = yes
+				format = left
+				Orientation = lower_left
+			}
+		}
 containerWindowType = {
 		name = "TNO_SG_big_event_h25_attack_custom_window"
 		size = { width = 220 height = 128 }
@@ -2355,4 +2508,324 @@ containerWindowType = {
 		}
 	}
 	
+###################################################################################
+
+containerWindowType = {
+	name = "TNO_SG_big_event_North_America_fall_custom_window"
+	size = { width = 220 height = 128 }
+	position = { x=0 y=-210 }
+	Orientation = center
+	Origo = center
+	clipping = no
+	#show_sound = tokyo_fall_bigevent ### SOUND EFFECT GOES HERE, MAKE SURE YOU'RE USING SOUND #EFFECT AND NOT SOUND!!!!!
+
+	background = {
+		name = "Background"
+		quadTextureSprite ="GFX_tiled_window_1b_no_border"
+	}
+
+	instantTextBoxType = {
+		name = "Title"
+		position = { x = 0 y = 20 }
+		font = "hoi_24header"
+		borderSize = {x = 0 y = 0}
+		text = "North_America_fall_t" ###### HERE GOES THE TITLE ########
+		maxWidth = 220
+		maxHeight = 24
+		format = centre
+	}
+
+	iconType = {
+		name ="image"
+		spriteType = "GFX_superevent_custom_North_America_fall"
+		position = { x= -286 y = -18 }
+		Orientation = center
+		alwaystransparent = yes
+	}
+
+}
+
+containerWindowType = {
+	name = "TNO_SG_big_event_frame_North_America_fall_custom"
+	size = { width = 588 height = 465 }
+	position = { x=0 y=0 }
+	Orientation = center
+	Origo = center
+	clipping = no
+
+	background = {
+		name = "Background"
+		quadTextureSprite ="GFX_tiled_window_bigevent_border"
+	}
+
+	buttonType = {
+		name = "Option"
+		text = "North_America_fall_a"  ############## OPTION
+		shortcut = "ESCAPE"
+		position = { x = -110 y = 183 }
+		quadTextureSprite ="GFX_button_221x34"
+		buttonFont = "hoi_24header"
+		Orientation = center
+	}
+
+	iconType = {
+		name ="underlay"
+		spriteType = "GFX_superevent_text_underlay"
+		position = { x= 30 y = -200 }
+		Orientation = lower_left
+		alwaystransparent = yes
+	}
+
+	instantTextBoxType = {
+		name = "text"
+		position = {  x= 120 y = -195 }
+		font = "hoi_24header"
+		text = "North_America_fall_d" ######## HERE GOES THE DESCRIPTION ###########
+		maxWidth = 455
+		maxHeight = 173
+		fixedsize = yes
+		format = right
+		Orientation = lower_left
+	}
+}	
+###################################################################################
+
+containerWindowType = {
+	name = "TNO_SG_big_event_Central_America_fall_custom_window"
+	size = { width = 220 height = 128 }
+	position = { x=0 y=-210 }
+	Orientation = center
+	Origo = center
+	clipping = no
+	#show_sound = tokyo_fall_bigevent ### SOUND EFFECT GOES HERE, MAKE SURE YOU'RE USING SOUND #EFFECT AND NOT SOUND!!!!!
+
+	background = {
+		name = "Background"
+		quadTextureSprite ="GFX_tiled_window_1b_no_border"
+	}
+
+	instantTextBoxType = {
+		name = "Title"
+		position = { x = 0 y = 20 }
+		font = "hoi_24header"
+		borderSize = {x = 0 y = 0}
+		text = "Central_America_fall_t" ###### HERE GOES THE TITLE ########
+		maxWidth = 220
+		maxHeight = 24
+		format = centre
+	}
+
+	iconType = {
+		name ="image"
+		spriteType = "GFX_superevent_custom_Central_America_fall"
+		position = { x= -286 y = -18 }
+		Orientation = center
+		alwaystransparent = yes
+	}
+
+}
+
+containerWindowType = {
+	name = "TNO_SG_big_event_frame_Central_America_fall_custom"
+	size = { width = 588 height = 465 }
+	position = { x=0 y=0 }
+	Orientation = center
+	Origo = center
+	clipping = no
+
+	background = {
+		name = "Background"
+		quadTextureSprite ="GFX_tiled_window_bigevent_border"
+	}
+
+	buttonType = {
+		name = "Option"
+		text = "Central_America_fall_a"  ############## OPTION
+		shortcut = "ESCAPE"
+		position = { x = -110 y = 183 }
+		quadTextureSprite ="GFX_button_221x34"
+		buttonFont = "hoi_24header"
+		Orientation = center
+	}
+
+	iconType = {
+		name ="underlay"
+		spriteType = "GFX_superevent_text_underlay"
+		position = { x= 30 y = -200 }
+		Orientation = lower_left
+		alwaystransparent = yes
+	}
+
+	instantTextBoxType = {
+		name = "text"
+		position = {  x= 120 y = -195 }
+		font = "hoi_24header"
+		text = "Central_America_fall_d" ######## HERE GOES THE DESCRIPTION ###########
+		maxWidth = 455
+		maxHeight = 173
+		fixedsize = yes
+		format = right
+		Orientation = lower_left
+	}
+}
+###################################################################################
+
+containerWindowType = {
+	name = "TNO_SG_big_event_South_America_fall_custom_window"
+	size = { width = 220 height = 128 }
+	position = { x=0 y=-210 }
+	Orientation = center
+	Origo = center
+	clipping = no
+	#show_sound = tokyo_fall_bigevent ### SOUND EFFECT GOES HERE, MAKE SURE YOU'RE USING SOUND #EFFECT AND NOT SOUND!!!!!
+
+	background = {
+		name = "Background"
+		quadTextureSprite ="GFX_tiled_window_1b_no_border"
+	}
+
+	instantTextBoxType = {
+		name = "Title"
+		position = { x = 0 y = 20 }
+		font = "hoi_24header"
+		borderSize = {x = 0 y = 0}
+		text = "South_America_fall_t" ###### HERE GOES THE TITLE ########
+		maxWidth = 220
+		maxHeight = 24
+		format = centre
+	}
+
+	iconType = {
+		name ="image"
+		spriteType = "GFX_superevent_custom_South_America_fall"
+		position = { x= -286 y = -18 }
+		Orientation = center
+		alwaystransparent = yes
+	}
+
+}
+
+containerWindowType = {
+	name = "TNO_SG_big_event_frame_South_America_fall_custom"
+	size = { width = 588 height = 465 }
+	position = { x=0 y=0 }
+	Orientation = center
+	Origo = center
+	clipping = no
+
+	background = {
+		name = "Background"
+		quadTextureSprite ="GFX_tiled_window_bigevent_border"
+	}
+
+	buttonType = {
+		name = "Option"
+		text = "South_America_fall_a"  ############## OPTION
+		shortcut = "ESCAPE"
+		position = { x = -110 y = 183 }
+		quadTextureSprite ="GFX_button_221x34"
+		buttonFont = "hoi_24header"
+		Orientation = center
+	}
+
+	iconType = {
+		name ="underlay"
+		spriteType = "GFX_superevent_text_underlay"
+		position = { x= 30 y = -200 }
+		Orientation = lower_left
+		alwaystransparent = yes
+	}
+
+	instantTextBoxType = {
+		name = "text"
+		position = {  x= 120 y = -195 }
+		font = "hoi_24header"
+		text = "South_America_fall_d" ######## HERE GOES THE DESCRIPTION ###########
+		maxWidth = 455
+		maxHeight = 173
+		fixedsize = yes
+		format = right
+		Orientation = lower_left
+	}
+}
+	###################################################################################
+	
+	containerWindowType = {
+		name = "TNO_SG_big_event_redshiftline_fall_custom_window"
+		size = { width = 220 height = 128 }
+		position = { x=0 y=-210 }
+		Orientation = center
+		Origo = center
+		clipping = no
+		#show_sound = tokyo_fall_bigevent ### SOUND EFFECT GOES HERE, MAKE SURE YOU'RE USING SOUND #EFFECT AND NOT SOUND!!!!!
+	
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+	
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 0 y = 20 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "redshiftline_fall_t" ###### HERE GOES THE TITLE ########
+			maxWidth = 220
+			maxHeight = 24
+			format = centre
+		}
+	
+		iconType = {
+			name ="image"
+			spriteType = "GFX_superevent_custom_redshiftline_fall"
+			position = { x= -286 y = -18 }
+			Orientation = center
+			alwaystransparent = yes
+		}
+	
+	}
+	
+	containerWindowType = {
+		name = "TNO_SG_big_event_frame_redshiftline_fall_custom"
+		size = { width = 588 height = 465 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+	
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_bigevent_border"
+		}
+	
+		buttonType = {
+			name = "Option"
+			text = "redshiftline_fall_a"  ############## OPTION
+			shortcut = "ESCAPE"
+			position = { x = -110 y = 183 }
+			quadTextureSprite ="GFX_button_221x34"
+			buttonFont = "hoi_24header"
+			Orientation = center
+		}
+	
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_superevent_text_underlay"
+			position = { x= 30 y = -200 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+	
+		instantTextBoxType = {
+			name = "text"
+			position = {  x= 120 y = -195 }
+			font = "hoi_24header"
+			text = "redshiftline_fall_d" ######## HERE GOES THE DESCRIPTION ###########
+			maxWidth = 455
+			maxHeight = 173
+			fixedsize = yes
+			format = right
+			Orientation = lower_left
+		}
+	}
 }

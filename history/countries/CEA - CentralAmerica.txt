@@ -1,39 +1,48 @@
-﻿capital = 304 #首都
-create_equipment_variant = {
-    name = "F-5自由战士"
-    type = MVLV_TSF_classis_1_light
-	parent_version = 0
-    # obsolete = yes
-    allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
-    modules = {
-        MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
-        MVLV_TSF_engine_slot = MVLV_TSF_engine_1
-        MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_1
-        MVLV_TSF_OS_slot = MVLV_TSF_OS_1_normal
-        MVLV_TSF_armor_slot = MVLV_TSF_armor_heavy_alloy
-        MVLV_TSF_head_slot = MVLV_TSF_head_normal_1
-        MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
-        MVLV_TSF_back_slot = MVLV_TSF_back_downside_hanger
-        MVLV_TSF_arm_slot = MVLV_TSF_arm_ex_ammo
-        MVLV_TSF_leg_slot = MVLV_TSF_leg_ex_ammo
-        MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
-    }
-	icon = "GFX_F-5"
-}
+﻿capital = 304#首都
 if = {
 	limit = {
-		NOT = { has_dlc = "No Step Back" }
+		has_dlc = "No Step Back"
+	}
+	create_equipment_variant = {
+		name = "F-5自由战士"
+		type = MVLV_TSF_classis_1_light
+		parent_version = 0
+		# obsolete = yes
+		allow_without_tech = yes		#For tooltip purposes, doesn't affect anything really
+		modules = {
+			MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+			MVLV_TSF_engine_slot = MVLV_TSF_engine_1
+			MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_1
+			MVLV_TSF_OS_slot = MVLV_TSF_OS_1_normal
+			MVLV_TSF_armor_slot = MVLV_TSF_armor_heavy_alloy
+			MVLV_TSF_head_slot = MVLV_TSF_head_normal_1
+			MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+			MVLV_TSF_back_slot = MVLV_TSF_back_downside_hanger
+			MVLV_TSF_arm_slot = MVLV_TSF_arm_ex_ammo
+			MVLV_TSF_leg_slot = MVLV_TSF_leg_ex_ammo
+			MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+		}
+		icon = "GFX_F-5"
+	}
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
 	}
 	set_technology = {
 		UNI_basic_concept_research = 1
 	}
 }
+
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-		MVLV_research_basic_tsf_framework=1
+		MVLV_research_basic_tsf_framework = 1
 	}
 }
 
@@ -42,28 +51,29 @@ if = {
 	load_oob = "MVLV_gunship"
 	load_oob = "MVLV_normal_artillery"
 	load_oob = "MVLV_TSF"
-
-	add_to_war = { targeted_alliance = UNI enemy = BET } #戦争状態を設定
-
-	set_technology = { #初期研究を定義
+	add_to_war = {
+		targeted_alliance = UNI
+		enemy = BET
+	}	#戦争状態を設定
+	set_technology = {
+		#初期研究を定義
 		infantry_weapons = 1
 		infantry_weapons1 = 1
-		motorised_infantry = 1
 		tech_support = 1
 		tech_engineers = 1
 		tech_engineers2 = 1
 		tech_engineers3 = 1
 		tech_engineers4 = 1
 		tech_recon = 1
-		tech_recon2 = 1	
+		tech_recon2 = 1
 		tech_recon3 = 1
-		tech_recon4 = 1	
+		tech_recon4 = 1
 		tech_field_hospital = 1
 		tech_field_hospital2 = 1
 		tech_field_hospital3 = 1
 		tech_field_hospital4 = 1
 		tech_logistics_company = 1
-		tech_logistics_company2 = 1	
+		tech_logistics_company2 = 1
 		tech_logistics_company3 = 1
 		tech_logistics_company4 = 1
 		tech_military_police = 1
@@ -94,7 +104,7 @@ if = {
 		early_destroyer = 1
 		mtg_transport = 1
 		mtg_landing_craft = 1
-		mtg_tank_landing_craft  = 1
+		mtg_tank_landing_craft = 1
 		fleet_in_being = 1
 		fighter = 1
 		#CAS2 = 1
@@ -109,7 +119,7 @@ if = {
 		construction2 = 1
 		construction3 = 1
 		construction4 = 1
-		construction5 = 1		
+		construction5 = 1
 		fuel_silos = 1
 		fuel_refining = 1
 		streamlined_line = 1
@@ -118,44 +128,42 @@ if = {
 		dispersed_industry3 = 1
 		dispersed_industry4 = 1
 		dispersed_industry5 = 1
-		
 		MVLV_shell_tech = 1
-		
 		###陸军ドクトリン###
-		
 		###TSF
 		# UNI_basic_concept_research = 1
-
-		
 		###军需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
-
+		MVLV_EnableBuilding_ammunition_plant = 1
+		MVLV_EnableBuilding_ammunition_silo = 1
 		###戦術###
 		human_combat_tactics = 1
 	}
-	
-	add_tech_bonus = { #工業バフ
+	add_tech_bonus = {
+		#工業バフ
 		name = industry
-		bonus =1000
-		uses = 5 
+		bonus = 1000
+		uses = 5
 		category = concentrated_industry_category
 		category = dispersed_industry_category
-	}	
-	
-	add_tech_bonus = { #ラインバフ
+	}
+	add_tech_bonus = {
+		#ラインバフ
 		name = line
-		bonus =1000
-		uses = 1 
+		bonus = 1000
+		uses = 1
 		technology = flexible_line
 		technology = streamlined_line
 	}
-	
-	add_ideas = { #初期国家精神を定義
+	add_ideas = {
+		#初期国家精神を定義
 		mvlv_nuclear_winter
 		mvlv_saast
-                SOA_happy
-                MVLV_UNF
+		SOA_happy
+		MVLV_UNF
+		CEA_refugees
+		CEA_food
 	}
 	if = {
 		limit = {
@@ -288,28 +296,77 @@ if = {
 			tank_landing_craft = 1
 		}
 	}
-	
-	set_convoys = 100 #初期运输船数を定義
+	set_convoys = 100	#初期运输船数を定義
 }
-set_stability = 0.5 #初期安定度を定義
-set_war_support = 0.1 #初期戦争協力度を定義
 
+create_equipment_variant = {
+	name = "超战舰"
+	type = ship_hull_super_heavy_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_super_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_2
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		fixed_ship_armor_slot = ship_armor_shbb
+		front_1_custom_slot = ship_anti_air_1
+		front_2_custom_slot = empty
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = ship_secondaries_2
+		mid_3_custom_slot = ship_secondaries_2
+		rear_1_custom_slot = ship_super_heavy_battery_1
+		rear_2_custom_slot = ship_airplane_launcher_1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "CEA_1999_navy"
+}
+
+set_stability = 0.5#初期安定度を定義
+set_war_support = 0.1#初期戦争協力度を定義
 #set_research_slots = 3 #初期研究枠を定義
-
-add_political_power = 0 #初期政治力を定義
-
-add_offsite_building = { type = arms_factory level = 20 } #MAP外军需を定義
-add_offsite_building = { type = industrial_complex level = 20 } #MAP外民需を定義
-add_offsite_building = { type = dockyard level = 20 } #MAP外海军工廠を定義
-
-set_politics = { #初期政体を定義
+add_political_power = 0#初期政治力を定義
+add_offsite_building = {
+	type = arms_factory
+	level = 20
+}
+#MAP外軍需を定義
+add_offsite_building = {
+	type = industrial_complex
+	level = 50
+}
+#MAP外民需を定義
+add_offsite_building = {
+	type = dockyard
+	level = 10
+}
+#MAP外海軍工廠を定義
+add_offsite_building = {
+	type = ammunition_plant
+	level = 2
+}
+#MAP外弹药工厂
+add_offsite_building = {
+	type = ammunition_silo
+	level = 2
+}
+#MAP外弹药库
+set_politics = {
+	#初期政体を定義
 	ruling_party = democratic
 	last_election = "1932.6.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-set_popularities = { #初期支持率を定義
+set_popularities = {
+	#初期支持率を定義
 	democratic = 100
 }
 
@@ -324,31 +381,43 @@ create_country_leader = {
 		#
 	}
 }
+
 ###初期将军及び元帥を定義###
 create_corps_commander = {
 	name = "卫士1"
 	gfx = GFX_女卫士头像
-	traits = { desert_fox tsf_officer }
+	traits = {
+		desert_fox
+		tsf_officer
+	}
 	skill = 1
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 1
 }
+
 create_corps_commander = {
 	name = "卫士2"
 	gfx = GFX_女卫士头像
-	traits = { desert_fox tsf_officer }
+	traits = {
+		desert_fox
+		tsf_officer
+	}
 	skill = 1
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 1
 }
+
 create_corps_commander = {
 	name = "卫士3"
 	gfx = GFX_女卫士头像
-	traits = { desert_fox tsf_officer }
+	traits = {
+		desert_fox
+		tsf_officer
+	}
 	skill = 1
 	attack_skill = 3
 	defense_skill = 2

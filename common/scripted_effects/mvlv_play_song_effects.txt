@@ -14,3 +14,11 @@ play_song_Alternative_41_effect = {
 	#蹂躙
 	hidden_effect = { play_song = "Alternative_41" } 
 }
+play_song_Extra_23_effect = {
+	#墓标
+	hidden_effect = { play_song = "Extra_23" } 
+}
+play_song_Alternative_11_effect = {
+	#殲滅せよ
+	hidden_effect = { play_song = "Alternative_11" } 
+}

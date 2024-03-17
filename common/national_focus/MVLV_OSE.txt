@@ -143,17 +143,30 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.1
 			army_experience = 50
-			add_tech_bonus = {
-				bonus = 2.5
-				uses = 1
-				name = mech_army_bonus
-				category = MVLV_tsf_tech
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_tech_bonus = {
+					bonus = 2
+					uses = 1
+					category = MVLV_tsf_tech
+				}
 			}
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				name = mech_army_bonus
-				category = MVLV_tsf_tech			}
+			else = {
+				add_tech_bonus = {
+					bonus = 2.5
+					uses = 1
+					name = mech_army_bonus
+					technology = generic_F-18EF
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 1
+					name = mech_army_bonus
+					technology = generic_F-18HMRV
+				}
+			}
 		}
 	}
 	focus = {
@@ -462,49 +475,49 @@ focus_tree = {
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}

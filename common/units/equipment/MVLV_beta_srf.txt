@@ -24,12 +24,12 @@ equipments = {
 		armor_value = 150
 
 		#Offensive Abilities
-		soft_attack = 40000#59780
-		hard_attack = 40000#52350
-		#soft_attack = 20000
-		#hard_attack = 20000
+		#soft_attack = 40000#59780
+		#hard_attack = 40000#52350
+		soft_attack = 30000
+		hard_attack = 30000
 		ap_attack = 1112
-		air_attack = 5000
+		air_attack = 30000
 
 		#Space taken in convoy
 		lend_lease_cost = 195000

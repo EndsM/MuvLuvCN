@@ -82,17 +82,67 @@ country_event = {
 			transfer_troops = yes
 		}
 		EUR = {
-			set_technology = {
-				EEA_MiG-21 = 1
-				EEA_MiG-23 = 1
-				EEA_MiG-27 = 1
-				EEA_MiG-29 = 1
-				EEA_MiG-25 = 1
-				EEA_MiG-31 = 1
-			}
 			add_ideas = EUR_the_true_european_union
 			remove_ideas = EUR_aid_the_eea
 			remove_ideas = EUR_tatical_exchange
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "No Step Back"
+					}
+				}
+				set_technology = {
+					EEA_MiG-21 = 1
+					EEA_MiG-23 = 1
+					EEA_MiG-27 = 1
+					EEA_MiG-29 = 1
+					EEA_MiG-25 = 1
+					EEA_MiG-31 = 1
+				}
+			}
+			else = {
+				create_equipment_variant = {
+					name = "MiG-29燕子"
+					type = MVLV_TSF_classis_2_light_normal
+					parent_version = 0
+					allow_without_tech = yes					#For tooltip purposes, doesn't affect anything really
+					modules = {
+						MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+						MVLV_TSF_engine_slot = MVLV_TSF_engine_2
+						MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+						MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+						MVLV_TSF_armor_slot = MVLV_TSF_armor_heavy_alloy
+						MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+						MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_fixed_blade
+						MVLV_TSF_back_slot = MVLV_TSF_back_upside_hanger
+						MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+						MVLV_TSF_leg_slot = MVLV_TSF_leg_moto_knife_1
+						MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+						MVLV_TSF_sp_slot_1 = MVLV_TSF_data_link_1
+					}
+					icon = "GFX_MiG-29燕子"
+				}
+				create_equipment_variant = {
+					name = "MiG-31M"
+					type = MVLV_TSF_classis_2_heavy_normal
+					parent_version = 0
+					allow_without_tech = yes					#For tooltip purposes, doesn't affect anything really
+					modules = {
+						MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_1_normal
+						MVLV_TSF_engine_slot = MVLV_TSF_engine_2_high_speed_cruising
+						MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+						MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+						MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+						MVLV_TSF_head_slot = MVLV_TSF_head_small_2
+						MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_thruster_2
+						MVLV_TSF_back_slot = MVLV_TSF_back_phoenix_2
+						MVLV_TSF_arm_slot = MVLV_TSF_arm_moto_knife_1
+						MVLV_TSF_leg_slot = MVLV_TSF_leg_moto_knife_1
+						MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+					}
+					icon = "GFX_MiG-31M"
+				}
+			}
 		}
 	}
 }

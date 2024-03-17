@@ -8,8 +8,8 @@ state={
 
 	history={
 		1999.1.1 = {
-			owner = H07
-			remove_core_of = H07
+			owner = H10
+			remove_core_of = H10
 
 		}
 		owner = SOV

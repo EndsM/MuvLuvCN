@@ -1,0 +1,13 @@
+MVLV_ammunition_decisions_categories={
+	icon = generic_propaganda
+	allowed = {
+		always = yes
+	}
+	visible = {
+		is_in_faction_with = UNI
+	}
+	available = {
+		is_in_faction_with = UNI
+	}
+	priority = 5
+}

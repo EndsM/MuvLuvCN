@@ -10,7 +10,6 @@ state={
 	state_category = rural
 	
 	history={
-		owner = AFR
 		1999.1.1 = {
 			owner = AFR
 			add_core_of = AFR
@@ -23,7 +22,7 @@ state={
 			infrastructure = 5
 			arms_factory = 15
 			industrial_complex = 15
-			air_base = 1
+			air_base = 3
 			5222 = {
 				naval_base = 10
 			}

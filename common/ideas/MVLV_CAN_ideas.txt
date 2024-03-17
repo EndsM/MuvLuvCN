@@ -12,7 +12,7 @@ ideas = {
 				supply_consumption_factor = 0.1
 				production_factory_max_efficiency_factor = -0.04
 				stability_factor = -0.7
-				consumer_goods_factor = 0.3
+				consumer_goods_expected_value = 0.3
 			}
 		}
 		CAN_us = {
@@ -33,17 +33,9 @@ ideas = {
 				weekly_manpower = -500
 			}
 			targeted_modifier = {
-				tag = EUR
+				tag = USA
 				cic_to_target_factor = 0.2
 				mic_to_target_factor = 0.5
-				trade_cost_for_target_factor = -0.6
-				extra_trade_to_target_factor = 0.4
-				industrial_capacity_factory = 0.05
-			}
-			targeted_modifier = {
-				tag = USA
-				cic_to_target_factor = 0.05
-				mic_to_target_factor = 0.1
 				trade_cost_for_target_factor = -0.6
 				extra_trade_to_target_factor = 0.4
 				industrial_capacity_factory = 0.05
@@ -58,6 +50,31 @@ ideas = {
 				production_speed_industrial_complex_factor = 0.25
 				production_speed_infrastructure_factor = 0.55
 				stability_factor = 0.25
+			}
+		}
+		CAN_EUR = { 
+			allowed = {
+				always = no
+			}
+
+			research_bonus = {
+				MVLV_tsf_tech = 0.1
+			}
+
+			modifier = {experience_gain_army = 0.2
+				research_speed_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+				industrial_capacity_factory =0.1
+			}
+			targeted_modifier = {
+				tag = EUR
+				cic_to_target_factor = 0.05
+				mic_to_target_factor = 0.1
+				trade_cost_for_target_factor = -0.6
+				extra_trade_to_target_factor = 0.4
+				industrial_capacity_factory = 0.05
 			}
 		}
 	}

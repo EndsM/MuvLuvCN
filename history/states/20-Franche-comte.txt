@@ -1,21 +1,10 @@
 
 state={
 	id=20
-	name="STATE_20" # Rhone
-	manpower = 35000000
-	#resources={
-		#steel=50
-		#oil=50
-		#aluminium=50
-		#rubber=5
-		#tungsten=50
-		#chromium=50
-	#}
+	name="STATE_20"
 
-	state_category = city
-
-	history = { 
-		1999.1.1 = { 
+	history={
+		1999.1.1 = {
 			owner = H12
 			add_core_of = H12
 			add_core_of = EUR
@@ -55,6 +44,10 @@ state={
 	}
 
 	provinces={
-		641 3650 3770 6613 6639 6668 6786 9590 9728 9732 11593 11716 11794 
+		641 762 780 3589 3650 3770 6613 6639 6668 6786 9590 9728 9732 11593 11713 11716 11794 
 	}
+	manpower=35000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

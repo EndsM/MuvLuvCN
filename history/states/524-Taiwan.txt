@@ -1,10 +1,9 @@
 state = {
 	id = 524
 	name = "STATE_524"
-	manpower = 6000000
+	manpower = 12000000#6000000
 	state_category = megalopolis
 	history = {
-		owner = CHI
 		1999.1.1 = {
 			owner = CHI
 			buildings = {

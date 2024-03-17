@@ -16,4 +16,8 @@ spriteTypes = {
 		name = "GFX_idea_SOV_total_war"
 		texturefile = "gfx/interface/ideas/focus_chi_army_reform.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_JAP_jeg_regent"
+		texturefile = "gfx/leaders/JAP/斑鸠崇继小图.dds"
+	}
 }

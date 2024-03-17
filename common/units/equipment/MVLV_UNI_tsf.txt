@@ -37,6 +37,12 @@ equipments = {
 		active = no
 		priority = 5
 		visual_level = 0
+		upgrades = {
+			tsf_reliability_upgrade
+			tsf_engine_upgrade
+			tsf_armor_upgrade
+			tsf_gun_upgrade
+		}
 	}
 	#F-4#	
 	tsf_equipment_F-4 = {
@@ -417,9 +423,9 @@ equipments = {
 	tsf_equipment_F-5EADV = {
 		year = 1982
 		archetype = MVLV_TSF_chassis
-		parent = tsf_equipment_F-5GIDS
-		priority = 80
-		visual_level = 8
+		parent = tsf_equipment_M2000
+		priority = 50
+		visual_level = 4
 		is_convertable = yes
 		#Misc Abilities
 		maximum_speed = 14
@@ -1732,6 +1738,10 @@ equipments = {
 		interface_category = interface_category_armor
 		reliability = 0.8
 		upgrades = {
+			tsf_reliability_upgrade
+			tsf_engine_upgrade
+			tsf_armor_upgrade
+			tsf_gun_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 8
@@ -1804,6 +1814,10 @@ equipments = {
 		interface_category = interface_category_armor
 		reliability = 0.8
 		upgrades = {
+			tsf_reliability_upgrade
+			tsf_engine_upgrade
+			tsf_armor_upgrade
+			tsf_gun_upgrade
 		}
 		#Misc Abilities
 		maximum_speed = 10
@@ -1989,6 +2003,10 @@ equipments = {
 		interface_category = interface_category_armor
 		reliability = 0.8
 		upgrades = {
+			tsf_reliability_upgrade
+			tsf_engine_upgrade
+			tsf_armor_upgrade
+			tsf_gun_upgrade
 		}
 		#Misc Abilities
 		#default_morale = -0.5

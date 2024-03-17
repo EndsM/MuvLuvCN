@@ -8,7 +8,6 @@ state = {
 	history = {
 		1999.1.1 = {
 			owner = GEU
-			remove_core_of = GEU
 		}
 		owner = GEU
 		add_core_of = GEU
@@ -21,10 +20,10 @@ state = {
 			air_base = 3
 			10201 = {
 				naval_base = 5
+				coastal_bunker = 5
 			}
 			7260 = {
 				naval_base = 3
-				coastal_bunker = 3
 			}
 		}
 	}

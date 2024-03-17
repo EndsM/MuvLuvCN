@@ -20,7 +20,7 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 85
-		breakthrough = 1
+		breakthrough = 10
 		hardness = 0
 		armor_value = 0
 

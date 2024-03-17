@@ -22,10 +22,11 @@ H19 = "countries/H19.txt"
 H20 = "countries/H20.txt"
 H21 = "countries/H21.txt"
 H23 = "countries/H23.txt"
+H24 = "countries/H24.txt"
 H25 = "countries/H25.txt"
 H26 = "countries/H26.txt"
 ###countries、Historyを追加してからコメントを外してこのメッセージを消してください。
-#H22 = "countries/H22.txt"
+H22 = "countries/H22.txt"
 M01 = "countries/M01.txt"
 
 

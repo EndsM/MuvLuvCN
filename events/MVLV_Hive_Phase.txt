@@ -14,6 +14,7 @@ country_event = {
 	title = mvlv_hive_phase.1.t
 	picture = BETA_event_1
 	fire_only_once = no
+	hidden = yes
 	trigger = {
 		is_in_faction_with = BET
 		NOT = {
@@ -24,11 +25,12 @@ country_event = {
 	mean_time_to_happen = {
 		days = 30
 	}
-	option = {
-		name = mvlv_hive_phase.1.a
-		ai_chance = {
-			factor = 20
-		}
+	#option = {
+	#name = mvlv_hive_phase.1.a
+	#ai_chance = {
+	#	factor = 20
+	#}
+	immediate = {
 		IF = {
 			limit = {
 				check_variable = {
@@ -88,7 +90,7 @@ country_event = {
 				check_variable = {
 					num_divisions > var_hive_divisions_3
 				}
-				has_manpower > 5000000
+				has_manpower > 8000000
 				NOT = {
 					has_idea = hive_thinning_state
 				}
@@ -115,7 +117,7 @@ country_event = {
 				check_variable = {
 					num_divisions > var_hive_divisions_4
 				}
-				has_manpower > 10000000
+				has_manpower > 14000000
 				NOT = {
 					has_idea = hive_thinning_state
 				}
@@ -123,6 +125,13 @@ country_event = {
 					has_idea = hive_recently_phaseUp
 				}
 				has_idea = hive_phase_4
+			}
+			swap_ideas = {
+				remove_idea = hive_phase_4
+				add_idea = hive_phase_5
+			}
+			set_variable = {
+				BETA当前巢穴等级陆军上限 = var_hive_divisions_5
 			}
 			BETA巢穴等级提升 = yes
 			add_timed_idea = {
@@ -135,7 +144,7 @@ country_event = {
 				check_variable = {
 					num_divisions > var_hive_divisions_5
 				}
-				has_manpower > 15000000
+				has_manpower > 20000000
 				NOT = {
 					has_idea = hive_thinning_state
 				}
@@ -147,6 +156,9 @@ country_event = {
 			swap_ideas = {
 				remove_idea = hive_phase_5
 				add_idea = hive_phase_6
+			}
+			set_variable = {
+				BETA当前巢穴等级陆军上限 = var_hive_divisions_6
 			}
 			BETA巢穴等级提升 = yes
 			add_timed_idea = {

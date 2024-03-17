@@ -218,7 +218,7 @@ focus_tree = {
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = MVLV_AL_shell_equipment_1
-				amount = 3000
+				amount = 10000
 				producer = ROOT
 			}
 			# add_equipment_to_stockpile = {

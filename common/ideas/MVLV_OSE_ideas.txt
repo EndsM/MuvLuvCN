@@ -7,7 +7,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.2
 				war_support_factor = -0.15
-				consumer_goods_factor = -0.03
+				consumer_goods_expected_value = -0.05
 			}
 		}
 		OSE_refugees = {
@@ -15,7 +15,9 @@ ideas = {
 				always = no
 			}
 			modifier = {
+				weekly_manpower = 1500
 				stability_factor = -0.3
+				industrial_capacity_factory = 0.1
 				production_speed_industrial_complex_factor = 0.1
 				production_speed_infrastructure_factor = 0.2
 			}
@@ -25,7 +27,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				consumer_goods_factor = -0.1
+				consumer_goods_expected_value = -0.1
 			}
 		}
 		OSE_refugees2 = {
@@ -118,16 +120,17 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 				weekly_manpower = -1000
 			}
 		}
+		#补助金发放
 		OSE_payment_of_grants = {
 			allowed = {
 				always = no
 			}
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 				political_power_gain = -0.5
 			}
 		}

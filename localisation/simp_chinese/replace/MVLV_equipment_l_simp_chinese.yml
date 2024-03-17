@@ -34,6 +34,7 @@
  anti_tank_equipment_desc:0 "在两根轨道中流过电流，利用洛伦兹力发射炮弹，也称为轨道炮的武器。 理论本身自古以来就存在，但由于炮身冷却和电力供应问题一直没有实现。 但是，对g元素的研究解决了这些问题，并使其实用化。"
  anti_tank_equipment_1:0 "试制电磁投射炮"
  anti_tank_equipment_1_short:0 "试制电磁投射炮"
+ anti_tank_equipment_1_desc:0 "在两根轨道中流过电流，利用洛伦兹力发射炮弹，也称为轨道炮的武器。 理论本身自古以来就存在，但由于炮身冷却和电力供应问题一直没有实现。 但是，对g元素的研究解决了这些问题，并使其实用化。"
  anti_tank_equipment_2:0 "改良型电磁投射炮"
  anti_tank_equipment_2_desc:0 "电磁投射炮 "
  anti_tank_equipment_3:0 "发展型电磁投射炮"

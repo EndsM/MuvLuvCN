@@ -27,7 +27,9 @@ tsf_role = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -91,7 +93,9 @@ infantry_brigade_rocket = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -159,7 +163,9 @@ infantry_division_rocket = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -227,7 +233,9 @@ infantry_brigade_artillery = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -295,7 +303,9 @@ infantry_division_artillery = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -363,7 +373,9 @@ armor_brigade_rocket = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -431,7 +443,9 @@ armor_division_rocket = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -499,7 +513,9 @@ armor_brigade_artillery = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -567,7 +583,9 @@ armor_division_artillery = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -635,7 +653,9 @@ gunship = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -701,7 +721,9 @@ diver = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}

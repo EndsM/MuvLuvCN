@@ -11,6 +11,7 @@ equipments = {
 			cas
 			interception
 			air_superiority
+			naval_bomber
 		}
 		is_archetype = yes
 		is_buildable = no

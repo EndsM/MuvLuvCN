@@ -110,7 +110,17 @@ H26_defend_doctrine = {
 	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
+		id = H22
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
 		id = H23
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H24
 		value = 100
 	}
 	#	ai_strategy = {

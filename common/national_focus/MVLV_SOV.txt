@@ -30,7 +30,8 @@ focus_tree = {
 		completion_reward = {
 			every_owned_state = {
 				limit = {
-					is_core_of = ROOT
+					is_controlled_by = SOV
+					is_core_of = SOV
 				}
 				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
@@ -635,11 +636,14 @@ focus_tree = {
 		prerequisite = {
 			focus = "SOV_EnsureRevolutionariesPositionInArmy"
 		}
-		available = {
-			has_completed_focus = SOV_LeadershipMadeUpByRussianOnly
-		}
+		#available = {
+		#	has_completed_focus = SOV_LeadershipMadeUpByRussianOnly
+		#}
 		mutually_exclusive = {
 			focus = "SOV_TotalWar"
+		}
+		available = {
+			has_idea = SOV_russian2
 		}
 		x = 21
 		y = 3
@@ -691,8 +695,20 @@ focus_tree = {
 				MVLV_sov_tec = 1
 			}
 			hidden_effect = {
-				SOV = {
-					load_oob = SOV_nf
+				IF = {
+					limit = {
+						SOV = {
+							has_completed_focus = SOV_EliteForces
+						}
+					}
+					SOV = {
+						load_oob = SOV_nf2
+					}
+				}
+				else = {
+					SOV = {
+						load_oob = SOV_nf
+					}
 				}
 			}
 		}
@@ -720,6 +736,9 @@ focus_tree = {
 				show_effect_tooltip = yes
 				show_modifiers = yes
 			}
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
 		}
 	}
 	#中央军事会议

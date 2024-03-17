@@ -1,44 +1,44 @@
 ##### OOB #####
 units = {
 	division = {
-			name = "兵士级師団"
+			name = "小型混成BETA师团"
 			location = 9998
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
-			name = "兵士级師団"
+			name = "小型混成BETA师团"
 			location = 13218
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
-			name = "兵士级師団"
+			name = "小型混成BETA师团"
 			location = 13218
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
-			name = "斗士级師団"
+			name = "小型混成BETA师团"
 			location = 13218
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
-			name = "斗士级師団"
+			name = "小型混成BETA师团"
 			location = 13218
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
-			name = "斗士级師団"
+			name = "小型混成BETA师团"
 			location = 13218
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
@@ -217,44 +217,44 @@ units = {
 		start_equipment_factor = 1
 }
 	division = {
-			name = "兵士级師団"
+			name = "小型混成BETA师团"
 			location = 9998
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
-			name = "兵士级師団"
+			name = "小型混成BETA师团"
 			location = 13218
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
-			name = "兵士级師団"
+			name = "小型混成BETA师团"
 			location = 13218
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
-			name = "斗士级師団"
+			name = "小型混成BETA师团"
 			location = 13218
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
-			name = "斗士级師団"
+			name = "小型混成BETA师团"
 			location = 13218
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
-			name = "斗士级師団"
+			name = "小型混成BETA师团"
 			location = 13218
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}

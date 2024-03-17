@@ -107,6 +107,7 @@ ideas = {
 				# production
 				production_factory_max_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.1
+				daily_ammunition_gain = 5000
 				# defensivness
 				army_core_defence_factor = 15.55
 				# AI
@@ -165,8 +166,9 @@ ideas = {
 				production_factory_start_efficiency_factor = 0.5
 				production_factory_efficiency_gain_factor = 0.1
 				industrial_capacity_factory = 2.5
-				production_speed_buildings_factor = -1.5
-				consumer_goods_factor = -0.25
+				#production_speed_buildings_factor = -1.50
+				production_speed_buildings_factor = -1
+				consumer_goods_expected_value = -0.25
 				min_export = -0.5
 				industry_repair_factor = 2
 				crypto_strength = 999
@@ -231,7 +233,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.1
 				industrial_capacity_factory = 2.5
 				production_speed_buildings_factor = -1
-				consumer_goods_factor = -0.25
+				consumer_goods_expected_value = -0.25
 				min_export = -0.5
 				industry_repair_factor = 2
 				crypto_strength = 99
@@ -284,7 +286,7 @@ ideas = {
 				training_time_army_factor = 2.55
 				production_speed_industrial_complex_factor = 0.15
 				production_speed_infrastructure_factor = 0.25
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 				political_power_gain = -0.9
 				war_support_factor = -0.6
 				license_armor_purchase_cost = 2
@@ -314,7 +316,7 @@ ideas = {
 				training_time_army_factor = 2.55
 				production_speed_industrial_complex_factor = 0.15
 				production_speed_infrastructure_factor = 0.25
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 				political_power_gain = -0.9
 				war_support_factor = -0.6
 				license_armor_purchase_cost = -0.5
@@ -336,7 +338,7 @@ ideas = {
 			}
 			modifier = {
 				stability_factor = -0.1
-				consumer_goods_factor = -0.1
+				consumer_goods_expected_value = -0.1
 			}
 		}
 		#常任理事国
@@ -373,7 +375,7 @@ ideas = {
 			}
 			modifier = {
 				research_speed_factor = 0.1
-				consumer_goods_factor = 0.02
+				consumer_goods_expected_value = 0.02
 				experience_loss_factor = -0.15
 				experience_gain_army_factor = 0.1
 				production_speed_buildings_factor = 0.05
@@ -412,7 +414,7 @@ ideas = {
 			}
 			modifier = {
 				research_speed_factor = 0.05
-				consumer_goods_factor = 0.04
+				consumer_goods_expected_value = 0.04
 				production_speed_buildings_factor = 0.1
 			}
 		}
@@ -507,7 +509,7 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.1
 				industrial_capacity_factory = -0.15
 				industrial_capacity_dockyard = -0.15
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 			}
 		}
 		#00ユニット
@@ -540,7 +542,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				consumer_goods_factor = 0.2
+				consumer_goods_expected_value = 0.2
 			}
 		}
 		########
@@ -603,59 +605,129 @@ ideas = {
 				defense_bonus_against = -0.5
 			}
 		}
-		# Latin America Series
-		MVLV_refugee_labor = {
+		#饱和攻击={
+		#	allowed = {
+		#		always = no
+		#	}
+		#	modifier = {
+		#		army_artillery_attack_factor = 0.5
+		#		army_artillery_defence_factor = 0.5
+		#	}
+		#}
+		G_researching = {
 			allowed = {
 				always = no
 			}
 			modifier = {
-				political_power_gain = -0.25
-				industrial_capacity_factory = 0.25
+				political_power_gain = -0.1
+				research_speed_factor = 0.05
+			}
+			research_bonus = {
+				nuclear = 0.15
+				#cat_strategic_bomber=0.15
 			}
 		}
-		MVLV_latin_america_united = {
+		energy_exhaustion = {
 			allowed = {
 				always = no
 			}
 			modifier = {
-				stability_factor = -0.3
-				consumer_goods_factor = -0.1
-				production_speed_arms_factory_factor = 0.3
-				production_speed_industrial_complex_factor = 0.3
-				production_speed_infrastructure_factor = 0.3
-				war_support_factor = 0.5
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
-				industrial_capacity_factory = 0.1
-				production_speed_bunker_factor = 0.2
-				production_speed_coastal_bunker_factor = 0.2
+				army_attack_factor = -1.5
+				army_defence_factor = -1.5
+			}
+			equipment_bonus = {
+				heavy_laser_equipment = {
+					build_cost_ic = 50
+					instant = yes
+					air_ground_attack = -1
+					air_attack = -1
+				}
+				laser_equipment = {
+					build_cost_ic = 50
+					instant = yes
+					air_ground_attack = -1
+					air_attack = -1
+				}
 			}
 		}
-		MVLV_three_shift_system = {
+		destroyed_reacting_furnace = {
 			allowed = {
 				always = no
 			}
 			modifier = {
-				stability_weekly = -0.005
-				war_support_weekly = -0.005
-				industrial_capacity_factory = 0.5
+				industrial_capacity_factory = -2.85
+				local_resources_factor = -10
+				training_time_army_factor = 250
+				minimum_training_level = 0.85
 			}
 		}
-		MVLV_unconditional_tsf_license = {
+		BETA_for_building_1 = {
 			allowed = {
 				always = no
 			}
 			modifier = {
-				license_production_speed = 0.5
-				license_tech_difference_speed = 1
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
 			}
 		}
-		MVLV_gathered_researchers = {
+		BETA_for_building_2 = {
 			allowed = {
 				always = no
 			}
 			modifier = {
-				research_speed_factor = 0.4
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		BETA_for_building_3 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		BETA_for_building_fort_1 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
+			}
+		}
+		BETA_for_building_fort_2 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
+			}
+		}
+		BETA_for_building_fort_3 = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
+			}
+		}
+		MVLV_S11 = {
+			allowed = {
+				always = no
+			}
+			equipment_bonus = {
+				MVLV_TSF_chassis = {
+					hard_attack = 0.1
+					soft_attack = 0.1
+					instant = yes
+				}
 			}
 		}
 	}
@@ -672,14 +744,18 @@ ideas = {
 			cancel_if_invalid = no
 			cost = 0
 			modifier = {
+				# army
+				land_reinforce_rate = 0.05
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.15
 				# production
-				#production_factory_max_efficiency_factor = -0.10
-				#production_factory_efficiency_gain_factor = -0.10
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
 				army_core_defence_factor = 0.05
 				land_reinforce_rate = 0.05
-				war_support_factor = 0.1
-				stability_factor = -0.1
-				conscription_factor = 0.05
+				war_support_factor = 0.15
+				stability_factor = -0.15
+				conscription_factor = 0.2
 			}
 		}
 		betawar_situation_2 = {
@@ -694,14 +770,15 @@ ideas = {
 			cost = 0
 			modifier = {
 				# army
-				#land_reinforce_rate = 0.02
-				#army_core_defence_factor = 0.05
+				land_reinforce_rate = 0.03
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.1
 				# production
-				#production_factory_max_efficiency_factor = -0.01
-				#production_factory_efficiency_gain_factor = -0.01
-				#war_support_factor = -0.05
-				#stability_factor = -0.05
-				#conscription_factor = 0.03
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+				war_support_factor = 0.1
+				stability_factor = -0.05
+				conscription_factor = 0.1
 			}
 		}
 		betawar_situation_3 = {
@@ -717,13 +794,15 @@ ideas = {
 			modifier = {
 				# army
 				#land_reinforce_rate = 0.10
+				#army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.05
 				# production
 				#production_factory_max_efficiency_factor = 0.05
 				#production_factory_efficiency_gain_factor = 0.03
 				war_support_factor = 0.05
-				#stability_factor = 0.10
+				stability_factor = 0.05
 				#conscription_factor = 0.03
-				#research_speed_factor = 0.03
+				#research_speed_factor = 0.05
 			}
 		}
 		betawar_situation_4 = {
@@ -740,15 +819,15 @@ ideas = {
 				# army
 				#army_core_attack_factor = 0.1
 				#army_core_defence_factor = 0.15
-				#army_attack_factor = 0.10
-				#army_speed_factor = 0.05
-				#army_defence_factor = 0.05
+				army_attack_factor = 0.05
+				army_speed_factor = 0.05
+				army_defence_factor = 0.05
 				#land_reinforce_rate = 0.10
 				# production
-				#production_factory_max_efficiency_factor = 0.10
-				#production_factory_efficiency_gain_factor = 0.10
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
 				war_support_factor = -0.1
-				#stability_factor = 0.15
+				stability_factor = 0.15
 				#conscription_factor = 0.15
 				#research_speed_factor = 0.10
 			}

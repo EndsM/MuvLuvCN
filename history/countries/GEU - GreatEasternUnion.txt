@@ -231,25 +231,14 @@ if = {
 		MVLV_research_radar_sensor_2=1
 		MVLV_research_integrated_sensor_2=1
 		MVLV_research_basic_assault_cannon=1
-		MVLV_research_assault_cannon_36_power_1=1
-		MVLV_research_assault_cannon_36_power_2=1
-		MVLV_research_assault_cannon_120_power_1=1
-		MVLV_research_assault_cannon_120_power_2=1
+		MVLV_research_assault_cannon_1_normal = 1
 		MVLV_research_basic_armor=1
 		MVLV_research_armor_heavy_alloy=1
 		MVLV_research_armor_composite=1
 		MVLV_research_basic_OS=1
-		MVLV_research_basic_OS_flight_control_enhance=1
-		MVLV_research_basic_OS_fire_control_enhance=1
 		MVLV_research_OS_1=1
-		MVLV_research_OS_1_flight_control_enhance=1
-		MVLV_research_OS_1_fire_control_enhance=1
 		MVLV_research_OS_2=1
 		MVLV_research_basic_engine=1
-		MVLV_research_basic_engine_fuel_efficiency=1
-		MVLV_research_basic_engine_mid_speed_cruising=1
-		MVLV_research_basic_engine_high_speed_cruising=1
-		MVLV_research_basic_engine_max_power=1
 		MVLV_research_engine_1=1
 		MVLV_research_engine_1_fuel_efficiency=1
 		MVLV_research_engine_1_mid_speed_cruising=1
@@ -262,7 +251,7 @@ if = {
 		MVLV_research_basic_back_hanger=1
 		MVLV_research_back_downside_hanger=1
 		MVLV_research_back_supply_hanger=1
-		MVLV_research_back_turbo_hanger=1
+		# MVLV_research_back_turbo_hanger=1
 		MVLV_research_basic_melee=1
 
 		MVLV_research_basic_assault_cannon=1
@@ -282,7 +271,6 @@ if = {
 	set_technology = { #初期研究を定義
 		infantry_weapons = 1
 		infantry_weapons1 = 1
-		motorised_infantry = 1
 		tech_support = 1
 		tech_engineers = 1
 		tech_engineers2 = 1
@@ -379,6 +367,8 @@ if = {
 		###军需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
+		MVLV_EnableBuilding_ammunition_plant = 1
+		MVLV_EnableBuilding_ammunition_silo = 1
 
 		###戦術###
 		human_combat_tactics = 1
@@ -625,7 +615,11 @@ army_experience = 350
 navy_experience = 100
 
 add_political_power = 0 #初期政治力を定義
-add_offsite_building = { type = dockyard level = 5 } #MAP外海军工廠を定義
+add_offsite_building = { type = arms_factory level = 5 } #MAP外軍需を定義
+add_offsite_building = { type = industrial_complex level = 5 } #MAP外民需を定義
+add_offsite_building = { type = dockyard level = 5 } #MAP外海軍工廠を定義
+add_offsite_building = { type = ammunition_plant level = 2 } #MAP外弹药工厂
+add_offsite_building = { type = ammunition_silo level = 2 } #MAP外弹药库
 
 set_politics = { 
 	ruling_party = neutrality

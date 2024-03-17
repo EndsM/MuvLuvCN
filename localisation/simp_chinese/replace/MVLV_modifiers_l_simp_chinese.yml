@@ -1,3 +1,8 @@
 ﻿l_simp_chinese:
  cross_map:0 "突破界限"
  AL_drop_modifier:0 "重金属云"
+ Nuclear_Explosion_Strait:0 "核爆产生的海峡"
+ tsf_armor_upgrade:0 "防护"
+ tsf_engine_upgrade:0 "推进器"
+ tsf_gun_upgrade:0 "主武器"
+ tsf_reliability_upgrade:0 "可靠性"

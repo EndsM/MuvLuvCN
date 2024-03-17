@@ -839,6 +839,9 @@ country_event = {
 		416 = {
 			set_state_name = "马什哈德巢穴"
 		}
+		516 = {
+			set_state_name = "哈坦加巢穴"
+		}
 		527 = {
 			set_state_name = "铁原巢穴"
 		}
@@ -898,6 +901,15 @@ country_event = {
 		}
 		800 = {
 			set_state_name = "克拉斯诺亚尔斯克巢穴"
+		}
+		807 = {
+			set_state_name = "台南"
+		}
+		816 = {
+			set_state_name = "东阿拉斯加"
+		}
+		817 = {
+			set_state_name = "苏联巡逻区"
 		}
 		############プロヴィンス名############
 		set_province_name = {
@@ -1074,6 +1086,10 @@ country_event = {
 			id = 11960
 			name = "京都"
 		}
+		set_province_name = {
+			id = 4859
+			name = "哈坦加巢穴"
+		}
 	}
 }
 
@@ -1095,7 +1111,9 @@ country_event = {
 						is_owned_by = BET
 						is_owned_by = H26
 						is_owned_by = H25
+						is_owned_by = H24
 						is_owned_by = H23
+						is_owned_by = H22
 						is_owned_by = H21
 						is_owned_by = H20
 						is_owned_by = H19
@@ -1220,6 +1238,9 @@ country_event = {
 	}
 	option = {
 		name = mvlv_generic.7.a
+		JAP = {
+			remove_ideas = JAP_strong_cabinet
+		}
 		USA = {
 			country_event = mvlv_generic.8
 		}
@@ -1337,6 +1358,12 @@ country_event = {
 		remove_ideas = JAP_puppet_shogun
 		remove_ideas = JAP_information
 		add_ideas = JAP_shogun
+		USA = {
+			country_event = {
+				id = mvlv_usa.7
+				days = 1
+			}
+		}
 		if = {
 			limit = {
 				check_variable = {
@@ -1385,6 +1412,12 @@ country_event = {
 		remove_ideas = JAP_puppet_shogun
 		remove_ideas = JAP_information
 		add_ideas = JAP_shogun
+		USA = {
+			country_event = {
+				id = mvlv_usa.8
+				days = 1
+			}
+		}
 		if = {
 			limit = {
 				check_variable = {
@@ -1407,6 +1440,7 @@ country_event = {
 	title = mvlv_generic.14.t
 	fire_only_once = yes
 	is_triggered_only = yes
+	picture = GFX_mvlv_jap14
 	option = {
 		name = mvlv_generic.14.a
 		# TODO 殿下の削除をどうするか　とりあえずそのまま
@@ -1427,6 +1461,12 @@ country_event = {
 		}
 		remove_ideas = JAP_puppet_shogun
 		remove_ideas = JAP_information
+		USA = {
+			country_event = {
+				id = mvlv_usa.9
+				days = 1
+			}
+		}
 		if = {
 			limit = {
 				check_variable = {
@@ -1559,6 +1599,158 @@ country_event = {
 	}
 }
 
+#マブラヴmodへようこそ
+#a:戦術のヒント
+#b:目標のヒント
+#c:閉じる＞＞難易度選択をしていないなら難易度選択へ
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.17
+	title = mvlv_generic.17.t
+	desc = mvlv_generic.17.d
+	picture = GFX_mvlv_mascot
+	fire_only_once = no
+	is_triggered_only = yes
+	option = {
+		name = mvlv_generic.17.a
+		ai_chance = {
+			base = 0			# Never pick this option.
+		}
+		country_event = mvlv_generic.18
+	}
+	option = {
+		name = mvlv_generic.17.b
+		ai_chance = {
+			base = 0			# Never pick this option.
+		}
+		country_event = mvlv_generic.19
+	}
+	option = {
+		name = mvlv_generic.17.c
+		ai_chance = {
+			base = 100
+		}
+		#if = {
+		#	limit = {
+		#		NOT = {
+		#			has_country_flag = mvlv_difficulty_flag
+		#		}
+		#	}
+		#	country_event = mvlv_generic.1
+		#}
+	}
+}
+
+#戦術のヒント
+#a:閉じる＞＞ようこそへ
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.18
+	title = mvlv_generic.18.t
+	desc = mvlv_generic.18.d
+	picture = GFX_mvlv_mascot
+	fire_only_once = no
+	is_triggered_only = yes
+	option = {
+		name = mvlv_generic.18.a
+		country_event = mvlv_generic.17
+	}
+}
+
+#目標のヒント
+#a:甲21号作戦のヒント
+#b:桜花作戦のヒント
+#c:閉じる＞＞ようこそへ
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.19
+	title = mvlv_generic.19.t
+	desc = mvlv_generic.19.d
+	picture = GFX_mvlv_mascot
+	fire_only_once = no
+	is_triggered_only = yes
+	option = {
+		name = mvlv_generic.19.a
+		ai_chance = {
+			base = 0			# Never pick this option.
+		}
+		country_event = mvlv_generic.20
+	}
+	option = {
+		name = mvlv_generic.19.b
+		ai_chance = {
+			base = 0			# Never pick this option.
+		}
+		country_event = mvlv_generic.21
+	}
+	option = {
+		name = mvlv_generic.19.c
+		ai_chance = {
+			base = 100
+		}
+		country_event = mvlv_generic.17
+	}
+}
+
+#甲21号作戦のヒント
+#a:閉じる＞＞ようこそへ
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.20
+	title = mvlv_generic.20.t
+	desc = mvlv_generic.20.d
+	picture = GFX_mvlv_mascot
+	fire_only_once = no
+	is_triggered_only = yes
+	option = {
+		name = mvlv_generic.20.a
+		country_event = mvlv_generic.19
+	}
+}
+
+#桜花作戦のヒント
+#a:追加のヒント
+#b:閉じる＞＞ようこそへ
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.21
+	title = mvlv_generic.21.t
+	desc = mvlv_generic.21.d
+	picture = GFX_mvlv_mascot
+	fire_only_once = no
+	is_triggered_only = yes
+	option = {
+		name = mvlv_generic.21.a
+		ai_chance = {
+			base = 0			# Never pick this option.
+		}
+		country_event = mvlv_generic.22
+	}
+	option = {
+		name = mvlv_generic.21.b
+		ai_chance = {
+			base = 100
+		}
+		country_event = mvlv_generic.19
+	}
+}
+
+#桜花作戦のヒント2
+#a:閉じる
+#____________________________________________________________
+country_event = {
+	id = mvlv_generic.22
+	title = mvlv_generic.22.t
+	desc = mvlv_generic.22.d
+	picture = GFX_mvlv_mascot
+	fire_only_once = no
+	is_triggered_only = yes
+	option = {
+		name = mvlv_generic.22.a
+		country_event = mvlv_generic.21
+	}
+}
+
 #戦況計算
 #10日ごとに自分自身を実行し、戦況を切り替える
 #____________________________________________________________
@@ -1604,12 +1796,24 @@ country_event = {
 					ROOT.var_exists_h01 = 10
 				}
 			}
+			if = {
+				limit = {
+					is_in_faction_with = UNI
+					surrender_progress > 0.5
+				}
+				add_to_variable = {
+					ROOT.var_exists_human = 1
+				}
+			}
 		}
 		add_to_variable = {
 			THIS.var_war_situation = THIS.var_exists_hive
 		}
 		add_to_variable = {
 			THIS.var_war_situation = THIS.var_exists_h01
+		}
+		subtract_from_variable = {
+			THIS.var_war_situation = THIS.var_exists_human
 		}
 		every_country = {
 			if = {
@@ -1649,6 +1853,151 @@ country_event = {
 				add_ideas = betawar_situation_4
 			}
 		}
+	}
+}
+
+country_event = {
+	id = mvlv_generic.1000
+	desc = mvlv_generic.1000.d
+	title = mvlv_generic.1000.t
+	picture = GFX_mvlv_start_event
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = no
+	option = {
+		name = mvlv_generic.1000.a
+		ROOT = {
+			country_event = mvlv_generic.1006
+		}
+		trigger = {
+			NOT = {
+				TAG = BET
+			}
+		}
+		play_song_Extra_23_effect = yes
+	}
+}
+
+country_event = {
+	id = mvlv_generic.1001
+	desc = mvlv_generic.1001.d
+	title = mvlv_generic.1001.t
+	picture = GFX_mvlv_start_event
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = no
+	option = {
+		name = mvlv_generic.1001.a
+		ROOT = {
+			country_event = mvlv_generic.1006
+		}
+		trigger = {
+			NOT = {
+				TAG = BET
+			}
+		}
+		play_song_Extra_23_effect = yes
+	}
+}
+
+country_event = {
+	id = mvlv_generic.1002
+	desc = mvlv_generic.1002.d
+	title = mvlv_generic.1002.t
+	picture = GFX_mvlv_start_event
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = no
+	option = {
+		name = mvlv_generic.1002.a
+		ROOT = {
+			country_event = mvlv_generic.1006
+		}
+		trigger = {
+			NOT = {
+				TAG = BET
+			}
+		}
+		play_song_Extra_23_effect = yes
+	}
+}
+
+country_event = {
+	id = mvlv_generic.1003
+	desc = mvlv_generic.1003.d
+	title = mvlv_generic.1003.t
+	picture = GFX_mvlv_start_event
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = no
+	option = {
+		name = mvlv_generic.1003.a
+		ROOT = {
+			country_event = mvlv_generic.1006
+		}
+		trigger = {
+			NOT = {
+				TAG = BET
+			}
+		}
+		play_song_Extra_23_effect = yes
+	}
+}
+
+country_event = {
+	id = mvlv_generic.1004
+	desc = mvlv_generic.1004.d
+	title = mvlv_generic.1004.t
+	picture = GFX_mvlv_start_event
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = no
+	option = {
+		name = mvlv_generic.1004.a
+		ROOT = {
+			country_event = mvlv_generic.1006
+		}
+		trigger = {
+			NOT = {
+				TAG = BET
+			}
+		}
+		play_song_Extra_23_effect = yes
+	}
+}
+
+country_event = {
+	id = mvlv_generic.1005
+	desc = mvlv_generic.1005.d
+	title = mvlv_generic.1005.t
+	picture = GFX_mvlv_start_event
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = no
+	option = {
+		name = mvlv_generic.1005.a
+		ROOT = {
+			country_event = mvlv_generic.1006
+		}
+		trigger = {
+			NOT = {
+				TAG = BET
+			}
+		}
+		play_song_Extra_23_effect = yes
+	}
+}
+
+country_event = {
+	id = mvlv_generic.1006
+	desc = mvlv_generic.1006.d
+	title = mvlv_generic.1006.t
+	picture = GFX_mvlv_start_event
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = no
+	option = {
+		name = mvlv_generic.1006.a
 	}
 }
 

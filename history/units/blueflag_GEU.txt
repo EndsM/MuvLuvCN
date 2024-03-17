@@ -1,0 +1,16 @@
+﻿units={
+	division = {
+		name = "加尔达小队"
+		location = 13240
+		division_template = "战术机大队"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			MVLV_TSF_classis_2_light_normal = { 
+				owner = "USA" 
+				creator = USA
+				version_name = "F-18AX怒蜂"
+			} 
+		}
+	}
+}

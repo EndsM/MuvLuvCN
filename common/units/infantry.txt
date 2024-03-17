@@ -30,7 +30,7 @@ sub_units = {
 		#Size Definitions
 		max_strength = 30
 		max_organisation = 45
-		default_morale = 0.2
+		default_morale = 1#0.2
 		manpower = 1000
 
 		#Misc Abilities
@@ -44,35 +44,39 @@ sub_units = {
 			infantry_equipment = 40
 		}
 
+		defense = 0.4
+		breakthrough = 0.4
+		soft_attack = 0.5
+		hard_attack = 0.5
 		forest = {
-		    attack = -0.2
+		    #attack = -0.2
 			defence = 0.5
-			movement = -0.4
+			movement = -0.2#-0.4
 		}
 		hills = 	{
-		    attack = -0.1
+		    #attack = -0.1
 			defence = 0.5
 		}
-		mountain = 	{
-		    attack = -0.2
+		mountain = {
+		   # attack = -0.2
 			defence = 0.5
 		}
 		jungle = {
-		    attack = -0.4
+		    #attack = -0.4
 			defence = 0.5
-			movement = -0.4
+			movement = -0.2#-0.4
 		}
 		marsh = {
-		    attack = -0.1 
+		    #attack = -0.1 
 			defence = 0.5
 			movement = -0.1
 		}
 		urban = {
-			attack = -0.4
+			#attack = -0.4
 			defence = 0.5
 		}
 		river = { 
-			attack = -0.2 
+			#attack = -0.2 
 			defence = 0.7
 			movement = -0.2
 		}
@@ -105,11 +109,11 @@ sub_units = {
 	mountaineers = {
 		sprite = "tsfmou"
 		map_icon_category = armored
-		# priority = 3500
-		# ai_priority = 4000
-		# active = yes
+		priority = 3500
+		ai_priority = 4000
+		active = yes
 		special_forces = yes
-		# can_exfiltrate_from_coast = yes
+		can_exfiltrate_from_coast = yes
 
 		priority = 2
 		ai_priority = 2
@@ -137,7 +141,7 @@ sub_units = {
 		manpower = 500
 		max_organisation = 70
 		max_strength = 50
-		default_morale = 2.5
+		default_morale = 0.5#2.5
 		training_time = 100
 		weight = 0.0
 		supply_consumption = 0.01
@@ -233,11 +237,11 @@ sub_units = {
 	marine = {
 		sprite = "tsfmar"
 		map_icon_category = armored
-		# priority = 3500
-		# ai_priority = 4000
+		priority = 3500
+		ai_priority = 4000
+		active = yes
 		special_forces = yes
-		marines = yes
-		# can_exfiltrate_from_coast = yes
+		can_exfiltrate_from_coast = yes
 
 		priority = 2
 		ai_priority = 2
@@ -363,11 +367,14 @@ sub_units = {
 		abbreviation = "PAR"
 		sprite = "tsf"
 		map_icon_category = armored
-		special_forces = yes
-		# can_exfiltrate_from_coast = yes
-
 		priority = 3500
 		ai_priority = 4000
+		active = no
+		special_forces = yes
+		can_exfiltrate_from_coast = yes
+
+		priority = 2
+		ai_priority = 2
 		active = no
 		
 		type = {
@@ -394,7 +401,7 @@ sub_units = {
 		manpower = 500
 		max_organisation = 50
 		max_strength = 40
-		default_morale = 1.5
+		default_morale = 0.01#1.5
 		training_time = 15
 		weight = 0.0
 		supply_consumption = 0.01

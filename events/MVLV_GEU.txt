@@ -5,6 +5,9 @@ country_event = {
 	title = mvlv_geu.1.t
 	is_triggered_only = yes
 	option = {
-		name = mvlv_geu1.a
+		name = mvlv_geu.1.a
+		GEU = {
+			load_oob = GEU_back
+		}
 	}
 }

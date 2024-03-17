@@ -1,707 +1,705 @@
 scripted_gui = {
-
-	TNO_SG_big_event_beta_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_beta_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_beta_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_beta_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_beta_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_beta_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_beta_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_beta_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_beta_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_beta_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_beta_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h00_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h00_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h00_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h00_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h00_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h00_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h00_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h00_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h00_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h00_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h00_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h01_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
-		context_type = player_context
-		window_name = "TNO_SG_big_event_h01_attack_custom_window"
-
-		visible = {
-			has_country_flag = big_event_custom_h01_attack ### this country flag triggers the #superevent
-		}
-	} 
-
-	TNO_SG_big_event_frame_h01_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
-		context_type = player_context
-		window_name = "TNO_SG_big_event_frame_h01_attack_custom"
-
-		visible = {
-			has_country_flag = big_event_custom_h01_attack
-		}
-
-		effects = {
-			Option_click = {
-				clr_country_flag = big_event_custom_h01_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
-			}
-		}
-	}
-	
-	TNO_SG_big_event_h02_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h02_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h02_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h02_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h02_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h02_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h02_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h02_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h02_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h02_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h02_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h03_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h03_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h03_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h03_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h03_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h03_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h03_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h03_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h03_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h03_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h03_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h04_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h04_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h04_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h04_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h04_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h04_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h04_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h04_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h04_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h04_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h04_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h05_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h05_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h05_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h05_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h05_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h05_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h05_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h05_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h05_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h05_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h05_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h06_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h06_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h06_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h06_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h06_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h06_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h06_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h06_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h06_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h06_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h06_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h07_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h07_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h07_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h07_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h07_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h07_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h07_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h07_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h07_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h07_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h07_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h08_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h08_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h08_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h08_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h08_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h08_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h08_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h08_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h08_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h08_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h08_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h09_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h09_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h09_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h09_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h09_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h09_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h09_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h09_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h09_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h09_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h09_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h10_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h10_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h10_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h10_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h10_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h10_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h10_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h10_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h10_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h10_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h10_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h11_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h11_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h11_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h11_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h11_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h11_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h11_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h11_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h11_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h11_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h11_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h12_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h12_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h12_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h12_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h12_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h12_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h12_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h12_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h12_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h12_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h12_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h13_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h13_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h13_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h13_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h13_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h13_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h13_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h13_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h13_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h13_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h13_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h14_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h14_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h14_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h14_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h14_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h14_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h14_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h14_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h14_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h14_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h14_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h15_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h15_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h15_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h15_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h15_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h15_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h15_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h15_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h15_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h15_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h15_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h16_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h16_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h16_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h16_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h16_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h16_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h16_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h16_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h16_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h16_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h16_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h17_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h17_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h17_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h17_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h17_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h17_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h17_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h17_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h17_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h17_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h17_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h18_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h18_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h18_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h18_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h18_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h18_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h18_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h18_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h18_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h18_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h18_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h19_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h19_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h19_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h19_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h19_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h19_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h19_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h19_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h19_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h19_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h19_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h20_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h20_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h20_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h20_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h20_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h20_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h20_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h20_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h20_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h20_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h20_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h21_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h21_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h21_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h21_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h21_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h21_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h21_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h21_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h21_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h21_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h21_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h23_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h23_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h23_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h23_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h23_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h23_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h23_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h23_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h23_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h23_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h23_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h25_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h25_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h25_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h25_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h25_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h25_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h25_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h25_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h25_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h25_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h25_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	TNO_SG_big_event_h26_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	TNO_SG_big_event_h26_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_h26_attack_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_h26_attack ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_h26_attack			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_h26_attack_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_h26_attack_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_h26_attack_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_h26_attack
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_h26_attack ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_h26_attack				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-	
-#######################################################
-
-TNO_SG_big_event_london_fall_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	#######################################################
+	TNO_SG_big_event_london_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_london_fall_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_london_fall ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_london_fall			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_london_fall_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_london_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_london_fall_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_london_fall
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_london_fall ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_london_fall				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-
-####################################################################
-
-TNO_SG_big_event_cairo_fall_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	####################################################################
+	TNO_SG_big_event_cairo_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_cairo_fall_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_cairo_fall ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_cairo_fall			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_cairo_fall_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_cairo_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_cairo_fall_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_cairo_fall
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_cairo_fall ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_cairo_fall				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-
-########################################################################
-
-TNO_SG_big_event_taipei_fall_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	########################################################################
+	TNO_SG_big_event_taipei_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_taipei_fall_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_taipei_fall ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_taipei_fall			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_taipei_fall_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_taipei_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_taipei_fall_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_taipei_fall
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_taipei_fall ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_taipei_fall				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
-
-################################################################################
-
-TNO_SG_big_event_tokyo_fall_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	################################################################################
+	TNO_SG_big_event_tokyo_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_tokyo_fall_custom_window"
-
 		visible = {
-			has_country_flag = big_event_custom_tokyo_fall ### this country flag triggers the #superevent
+			has_country_flag = big_event_custom_tokyo_fall			### this country flag triggers the #superevent
 		}
-	} 
-
-	TNO_SG_big_event_frame_tokyo_fall_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+	}
+	TNO_SG_big_event_frame_tokyo_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
 		context_type = player_context
 		window_name = "TNO_SG_big_event_frame_tokyo_fall_custom"
-
 		visible = {
 			has_country_flag = big_event_custom_tokyo_fall
 		}
-
 		effects = {
 			Option_click = {
-				clr_country_flag = big_event_custom_tokyo_fall ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+				clr_country_flag = big_event_custom_tokyo_fall				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+	################################################################################
+	TNO_SG_big_event_North_America_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "TNO_SG_big_event_North_America_fall_custom_window"
+		visible = {
+			has_country_flag = big_event_custom_North_America_fall			### this country flag triggers the #superevent
+		}
+	}
+	TNO_SG_big_event_frame_North_America_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_North_America_fall_custom"
+		visible = {
+			has_country_flag = big_event_custom_North_America_fall
+		}
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_custom_North_America_fall				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+	################################################################################
+	TNO_SG_big_event_Central_America_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "TNO_SG_big_event_Central_America_fall_custom_window"
+		visible = {
+			has_country_flag = big_event_custom_Central_America_fall			### this country flag triggers the #superevent
+		}
+	}
+	TNO_SG_big_event_frame_Central_America_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_Central_America_fall_custom"
+		visible = {
+			has_country_flag = big_event_custom_Central_America_fall
+		}
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_custom_Central_America_fall				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+	################################################################################
+	TNO_SG_big_event_South_America_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "TNO_SG_big_event_South_America_fall_custom_window"
+		visible = {
+			has_country_flag = big_event_custom_South_America_fall			### this country flag triggers the #superevent
+		}
+	}
+	TNO_SG_big_event_frame_South_America_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_South_America_fall_custom"
+		visible = {
+			has_country_flag = big_event_custom_South_America_fall
+		}
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_custom_South_America_fall				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
+	################################################################################
+	TNO_SG_big_event_redshiftline_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "TNO_SG_big_event_redshiftline_fall_custom_window"
+		visible = {
+			has_country_flag = big_event_custom_redshiftline_fall			### this country flag triggers the #superevent
+		}
+	}
+	TNO_SG_big_event_frame_redshiftline_fall_custom = {
+		### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE TNO_SG_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_redshiftline_fall_custom"
+		visible = {
+			has_country_flag = big_event_custom_redshiftline_fall
+		}
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_custom_redshiftline_fall				### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
 	}
 }
+
 #set_country_flag big_event_custom_beta_attack ## quick command for testing

@@ -23,14 +23,20 @@ focus_tree = {
 		x = 9
 		y = 0
 		cost = 1
+		#select_effect = { }
 		completion_reward = {
 			add_timed_idea = {
 				idea = JAP_conclude_operation_lucifer
 				days = 30
 			}
+			GEU = {
+				country_event = mvlv_geu.1
+			}
+			# activate_decision = operation_bright_star
 		}
+		#completation_tooltip = { }
 		ai_will_do = {
-			factor = 6
+			factor = 100
 		}
 	}
 	#重建防卫线#
@@ -483,19 +489,16 @@ focus_tree = {
 		}
 		cost = 1
 		completion_reward = {
+			#custom_effect_tooltip = JAP_EUR_cultural_relations_tt
+			#custom_effect_tooltip = mvlv_jap_space_tt
+			every_army_leader = {
+				limit = {
+					is_character = JAP_unit_leader_9
+				}
+				set_nationality = EUR
+			}
 			EUR = {
 				country_event = mvlv_jap.16
-				effect_tooltip = {
-					global_every_army_leader = {
-						limit = {
-							OWNER = {
-								tag = ROOT
-							}
-							has_id = 9010
-						}
-						set_nationality = PREV
-					}
-				}
 			}
 		}
 	}
@@ -790,6 +793,11 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_IdentifyTheTraitors
 		}
+		available = {
+			282 = {
+				is_controlled_by = JAP
+			}
+		}
 		x = 0
 		y = 1
 		relative_position_id = JAP_IdentifyTheTraitors
@@ -820,6 +828,12 @@ focus_tree = {
 				id = mvlv_jap.2
 				days = 3
 			}
+			USA = {
+				country_event = {
+					id = mvlv_ate.1
+					days = 10
+				}
+			}
 		}
 		completion_reward = {
 			USA = {
@@ -829,11 +843,24 @@ focus_tree = {
 				country_event = mvlv_jap.1
 			}
 			add_ideas = mvlv_prominence_problem
-			add_tech_bonus = {
-				bonus = 2.5
-				uses = 1
-				name = mech_army_bonus
-				category = MVLV_tsf_tech
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_tech_bonus = {
+					bonus = 2.5
+					uses = 1
+					name = mech_army_bonus
+					technology = MVLV_research_tsf_3_heavy_normal_framework
+				}
+			}
+			else = {
+				add_tech_bonus = {
+					bonus = 2.5
+					uses = 1
+					name = mech_army_bonus
+					technology = JAP_T942
+				}
 			}
 		}
 	}

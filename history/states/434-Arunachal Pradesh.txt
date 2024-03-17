@@ -13,8 +13,8 @@ state={
 			owner = H13
 			remove_core_of = H13
 		}
-		owner = GEU
-		add_core_of = GEU
+		#owner = GEU
+		add_core_of = CHI
 		buildings = {
 			infrastructure = 1
 		}

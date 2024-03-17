@@ -252,6 +252,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/info.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_JAP_expand_strat_research_society"
+		texturefile = "gfx/interface/ideas/info.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_acquiesce_strat_research_society"
+		texturefile = "gfx/interface/ideas/info.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_incitement_from_strat_research_society"
+		texturefile = "gfx/interface/ideas/info.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_strat_research_societys_plot"
+		texturefile = "gfx/interface/ideas/info.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_JAP_kou21"
 		texturefile = "gfx/interface/ideas/kou21.dds"
 	}
@@ -322,6 +338,22 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_OSE_food"
 		texturefile = "gfx/interface/ideas/food.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOA_food"
+		texturefile = "gfx/interface/ideas/food.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CEA_food"
+		texturefile = "gfx/interface/ideas/food.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOA_refugees"
+		texturefile = "gfx/interface/ideas/UNHCR.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CEA_refugees"
+		texturefile = "gfx/interface/ideas/UNHCR.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_OSE_refugees"
@@ -519,4 +551,9 @@ spriteTypes = {
 		name = "GFX_idea_Khatia"
 		texturefile = "gfx/interface/ideas/Khatia.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_CAN_EUR"
+		texturefile = "gfx/interface/ideas/idea_can_wartime_prices_and_trade_board.dds"
+	}
+	
 }

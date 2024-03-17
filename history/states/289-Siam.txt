@@ -10,14 +10,14 @@ state={
 		tungsten=2 # was: 2
 	}
 
-	history={ 1999.1.1 = { 
-			owner = GEU			
+	history={ 1999.1.1 = { 		
+		owner = H17
 			remove_core_of = H17		}
-			owner = GEU
+		owner = H17
 		buildings = {
 			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 1
+			#arms_factory = 1
+			#industrial_complex = 1
 			air_base = 1
                         7408 = {
 				naval_base = 5

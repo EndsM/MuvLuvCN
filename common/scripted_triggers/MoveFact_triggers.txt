@@ -1,0 +1,66 @@
+checkAddComeInduFact = {
+	AND = {
+		check_variable = {
+			THIS.comeInduFactCount < FROM.building_level@industrial_complex
+		}
+		meta_trigger = {
+			need = "[?THIS.comeFactCount]"
+			text = {
+				free_building_slots = {
+					building = arms_factory
+					include_locked = no
+					size > [need]
+				}
+			}
+		}
+	}
+}
+
+checkAddComeMiliFact = {
+	AND = {
+		check_variable = {
+			THIS.comeMiliFactCount < FROM.building_level@arms_factory
+		}
+		meta_trigger = {
+			need = "[?THIS.comeFactCount]"
+			text = {
+				free_building_slots = {
+					building = arms_factory
+					include_locked = no
+					size > [need]
+				}
+			}
+		}
+	}
+}
+
+checkMoveFactIsRight = {
+	#log="from=[from.getname]"
+	#log="this=[this.getname]"
+	#log="prev=[prev.getname]"
+	#log="prev.prev=[prev.prev.getname]"
+	AND = {
+		NOT = {
+			check_variable = {
+				THIS.comeInduFactCount > FROM.building_level@industrial_complex
+			}
+		}
+		NOT = {
+			check_variable = {
+				THIS.comeMiliFactCount > FROM.building_level@arms_factory
+			}
+		}
+		meta_trigger = {
+			need = "[?THIS.comeFactCount]"
+			text = {
+				NOT = {
+					free_building_slots = {
+						building = arms_factory
+						include_locked = no
+						size < [need]
+					}
+				}
+			}
+		}
+	}
+}

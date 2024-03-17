@@ -264,17 +264,30 @@ focus_tree = {
 		}
 		cost = 10
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1.5
-				uses = 1
-				name = mech_army_bonus
-				technology = EEA_EF-2000
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_tech_bonus = {
+					bonus = 1.5
+					uses = 1
+					name = mech_army_bonus
+					category = MVLV_tsf_tech
+				}
 			}
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				name = mech_army_bonus
-				technology = EEA_SW
+			else = {
+				add_tech_bonus = {
+					bonus = 1.5
+					uses = 1
+					name = mech_army_bonus
+					technology = EEA_EF-2000
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 1
+					name = mech_army_bonus
+					technology = EEA_SW
+				}
 			}
 		}
 		ai_will_do = {

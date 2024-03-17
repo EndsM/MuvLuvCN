@@ -1,0 +1,194 @@
+#说明: state是在selected_state_context范围的, faction,leader,party都是selected_country_context范围,所以state单独一个,而faction,leader,party可以共用一个修改容器,只需各自一个开启按钮
+scripted_gui = {
+	#转移工业  打开按钮
+	contMoveFactOpen = {
+		context_type = selected_state_context
+		parent_window_name = "countrystateview"
+		window_name = "contMoveFactOpen"
+		visible = {
+			#ROOT = { is_ai = no }
+			is_controlled_by = ROOT
+		}
+		effects = {
+			btnMoveFactOpen_click = {
+				ROOT = {
+					if = {
+						limit = {
+							has_country_flag = openTargetStates
+						}
+						clr_country_flag = openTargetStates
+					}
+					else = {
+						set_country_flag = openTargetStates
+						clearStatesComeFactCount = yes
+					}
+				}
+			}
+		}
+	}
+	#转移工业 界面
+	contTargetStates = {
+		window_name = "contTargetStates"
+		context_type = selected_state_context
+		parent_window_name = "countrystateview"
+		visible = {
+			#ROOT={is_ai=no}
+			is_controlled_by = ROOT
+			ROOT = {
+				has_country_flag = openTargetStates
+			}
+		}
+		dynamic_lists = {
+			targetStateList = {
+				array = ROOT.controlled_states
+				change_scope = yes
+				entry_container = contTargetStateItem
+			}
+		}
+		triggers = {
+			btnDoMoveFact_click_enabled = {
+				AND = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = no
+					}
+					NOT = {
+						check_variable = {
+							comeInduFactCount > FROM.building_level@industrial_complex
+						}
+					}
+					NOT = {
+						check_variable = {
+							comeMiliFactCount > FROM.building_level@arms_factory
+						}
+					}
+					#NOT={ROOT={has_political_power < prev.moveExpeTotal}}
+				}
+			}
+		}
+		effects = {
+			close_button_click = {
+				ROOT = {
+					clr_country_flag = openTargetStates
+				}
+			}
+			btnConscriptFromSub_click = {
+				conscriptFromSub = yes
+			}
+			btnGoToViewState_click = {
+				ROOT = {
+					goto_state = PREV
+				}
+			}
+			btnShowTargetState_right_click = {
+				ROOT = {
+					goto_state = PREV
+				}
+			}
+			#民
+			btnMoveInduFact_click = {
+				addComeInduFactOne = yes
+				updateComeFactCount = yes
+			}
+			btnMoveInduFact_control_click = {
+				addComeInduFactFive = yes
+				updateComeFactCount = yes
+			}
+			btnMoveInduFact_shift_click = {
+				addComeInduFactTen = yes
+				updateComeFactCount = yes
+			}
+			btnMoveInduFact_right_click = {
+				subComeInduFactOne = yes
+				updateComeFactCount = yes
+			}
+			btnMoveInduFact_control_right_click = {
+				subComeInduFactFive = yes
+				updateComeFactCount = yes
+			}
+			btnMoveInduFact_shift_right_click = {
+				subComeInduFactTen = yes
+				updateComeFactCount = yes
+			}
+			#军
+			btnMoveMiliFact_click = {
+				addComeMiliFactOne = yes
+				updateComeFactCount = yes
+			}
+			btnMoveMiliFact_control_click = {
+				addComeMiliFactFive = yes
+				updateComeFactCount = yes
+			}
+			btnMoveMiliFact_shift_click = {
+				addComeMiliFactTen = yes
+				updateComeFactCount = yes
+			}
+			btnMoveMiliFact_right_click = {
+				subComeMiliFactOne = yes
+				updateComeFactCount = yes
+			}
+			btnMoveMiliFact_control_right_click = {
+				subComeMiliFactFive = yes
+				updateComeFactCount = yes
+			}
+			btnMoveMiliFact_shift_right_click = {
+				subComeMiliFactTen = yes
+				updateComeFactCount = yes
+			}
+			btnDoMoveFact_click = {
+				set_variable = {
+					ROOT.currSelectedState = FROM.id
+				}
+				set_variable = {
+					ROOT.currSelectedStateTarget = this.id
+				}
+				#ROOT={add_political_power = prev.moveExpeTotal}
+				multiply_variable = {
+					moveExpeTotal = -1
+				}
+				ROOT = {
+					add_political_power = prev.moveExpeTotal
+				}
+				multiply_variable = {
+					moveExpeTotal = -1
+				}
+				if = {
+					limit = {
+						checkMoveFactIsRight = yes
+					}
+					#log="成功转移"
+					doMoveFact = yes
+				}
+				else = {
+					ROOT = {
+						set_country_flag = alertMoveFactExce
+					}
+					#重置
+					clear_variable = comeInduFactCount
+					clear_variable = comeMiliFactCount
+					clear_variable = comeFactCount
+				}
+			}
+		}
+		properties = {
+		}
+	}
+	#数量异常
+	contMoveFactException = {
+		context_type = selected_country_context
+		window_name = "contMoveFactException"
+		visible = {
+			ROOT = {
+				has_country_flag = alertMoveFactExce
+			}
+		}
+		effects = {
+			btnConfirm_click = {
+				ROOT = {
+					clr_country_flag = alertMoveFactExce
+				}
+			}
+		}
+	}
+}

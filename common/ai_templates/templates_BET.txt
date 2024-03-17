@@ -27,7 +27,9 @@ beta_tank = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -81,7 +83,9 @@ beta_warrior = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -139,7 +143,9 @@ beta_soldier = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -197,7 +203,9 @@ beta_grappler = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -255,7 +263,9 @@ beta_destroyer = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -313,7 +323,9 @@ beta_fort_BET = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -371,7 +383,9 @@ beta_hive_garrison = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -433,7 +447,9 @@ beta_large_mixed = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -494,7 +510,9 @@ beta_small_mixed = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}
@@ -554,7 +572,9 @@ beta_fort_destroyer = {
 		H19
 		H20
 		H21
+		H22
 		H23
+		H24
 		H25
 		H26
 	}

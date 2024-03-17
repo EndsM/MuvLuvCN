@@ -24,9 +24,20 @@ focus_tree = {
 			282 = {
 				is_controlled_by = JAP
 			}
+			792 = {
+				is_controlled_by = UNI
+			}
 			NOT = {
 				JAP = {
-					has_completed_focus = JAP_NoTraitorsTomorrow
+					OR = {
+						has_completed_focus = JAP_NoTraitorsTomorrow
+						has_idea = JAP_information
+						has_idea = JAP_expand_strat_research_society
+						has_idea = JAP_acquiesce_strat_research_society
+						has_idea = JAP_incitement_from_strat_research_society
+						has_idea = JAP_incitement_from_strat_research_society
+						has_idea = JAP_strat_research_societys_plot
+					}
 				}
 			}
 		}
@@ -178,11 +189,24 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				name = mech_army_bonus
-				technology = USA_F-35
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					name = mech_army_bonus
+					technology = MVLV_research_tsf_3_heavy_high_mobility_framework
+				}
+			}
+			else = {
+				add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					name = mech_army_bonus
+					technology = USA_F-35
+				}
 			}
 			add_research_slot = 1
 			add_political_power = 150
@@ -226,17 +250,36 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1.5
-				uses = 1
-				name = mech_army_bonus
-				category = MVLV_tsf_module_tech
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					name = mech_army_bonus
+					technology = MVLV_research_tsf_3_light_normal_framework
+				}
+				add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					name = mech_army_bonus
+					technology = MVLV_research_tsf_3_light_high_mobility_framework
+				}
 			}
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				name = mech_army_bonus
-				category = MVLV_tsf_module_tech
+			else = {
+				add_tech_bonus = {
+					bonus = 1.5
+					uses = 1
+					name = mech_army_bonus
+					technology = USA_F-15ACVT
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 1
+					name = mech_army_bonus
+					technology = UNI_F-15SE
+				}
 			}
 		}
 	}
@@ -255,8 +298,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			add_political_power = 150
 			send_equipment = {
-				equipment = tsf_equipment_F-15E
+				equipment = MVLV_TSF_chassis				#tsf_equipment_F-15E
 				amount = 1000
 				target = UNI
 			}
@@ -304,11 +348,11 @@ focus_tree = {
 				amount = 1000
 				producer = CEA
 			}
-			add_equipment_to_stockpile = {
-				type = tsf_equipment
-				amount = 1200
-				producer = USA
-			}
+			#add_equipment_to_stockpile = {
+			#	type = tsf_equipment_F-22
+			#	amount = 1200
+			#	producer = USA
+			#}
 		}
 	}
 	#21世纪美国军备计划#
@@ -646,6 +690,10 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			custom_effect_tooltip = USA_RefugeeEnlistment_tt
+			add_to_variable = {
+				卫士训练规模 = 120
+			}
 			add_manpower = 500000
 			swap_ideas = {
 				remove_idea = USA_refugees2

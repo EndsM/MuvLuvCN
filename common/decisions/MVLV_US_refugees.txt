@@ -7,13 +7,15 @@ operations = {
 				has_idea = UNI_refugees_problem_0
 				has_idea = USA_refugees
 				has_idea = OSE_refugees
+				has_idea = SOA_refugees
+				has_idea = CEA_refugees
 			}
 		}
 		visible = {
 		}
 		days_remove = 30
-		days_re_enable = 120
-		fire_only_once = yes
+		days_re_enable = 90
+		fire_only_once = no#yes
 		cost = 50
 		modifier = {
 		}
@@ -30,6 +32,56 @@ operations = {
 			add_war_support = -0.05
 		}
 		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Yokohama_to_UNI = {
+		icon = generic_prepare_civil_war
+		available = {NOT={tag=UNI}
+			has_war_with = BET
+			792={is_controlled_by=ROOT}
+		}
+		visible = {NOT={tag=UNI}
+			has_war_with = BET
+			792={is_controlled_by=ROOT}
+		}
+		fire_only_once = no
+		complete_effect = {
+			UNI = {
+				transfer_state = 792
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	attack_H20 = {
+		icon = generic_prepare_civil_war
+		available = {tag=JAP
+			has_war_with = BET
+			country_exists = H20
+			NOT = {
+				country_exists = H21
+				country_exists = H22
+			}
+			
+		}
+		visible = {tag=JAP
+			has_war_with = BET
+			country_exists = H20
+		}
+		days_remove = 30
+		fire_only_once = no
+		complete_effect = {country_event=mvlv_jap.24
+			UNI={country_event=mvlv_jap.24}
+		}
+		remove_effect={country_event=mvlv_jap.28
+			UNI={country_event=mvlv_jap.28}
+			add_timed_idea={idea=target_H20    days=60}
+			UNI={add_timed_idea={idea=target_H20    days=60}
+			}
 		}
 		ai_will_do = {
 			factor = 0

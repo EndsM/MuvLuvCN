@@ -16,6 +16,8 @@ add_dynamic_modifier = { modifier = "BETA战术改进" }
 		MVLV_beta_tec = 1
 		basic_train = 1
 		wartime_train = 1
+		transport = 1
+		landing_craft = 1
 	}
 	add_ideas = { #初期国家精神を定義
 		hive_phase_5

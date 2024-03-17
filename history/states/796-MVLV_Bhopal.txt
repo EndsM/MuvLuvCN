@@ -27,7 +27,7 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = UNI
+		#add_core_of = UNI
 		add_core_of = GEU
 
 	}

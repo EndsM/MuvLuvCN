@@ -3431,8 +3431,13 @@ focus_tree = {
 			focus = UNI_EmergencySecurityCouncilSummit
 		}
 		#mutually_exclusive = { }
+		# available = {
+		# 	has_completed_focus = UNI_operation_ouka
+		# }
 		available = {
-			has_completed_focus = UNI_operation_ouka
+			BET = {
+				has_idea = BET_broken_original_hive
+			}
 		}
 		cost = 1
 		completion_reward = {

@@ -5,7 +5,7 @@ BETA_category = {
 		is_in_faction_with = BET
 	}
 }
-BETA地下侵攻 = {
+BETA_attack_underground = {
 	icon = generic_propaganda
 	priority = 10
 	allowed = {

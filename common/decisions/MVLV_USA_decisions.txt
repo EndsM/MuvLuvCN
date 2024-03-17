@@ -5,11 +5,12 @@ USA_dawn_plan_categories = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 10
 		}
-		activation = {
-			has_completed_focus = "曙光计划"
-		}
+		# activation = {
+		# 	has_completed_focus = USA_ProjectDawn
+		# }
 		visible = {
 			has_idea = USA_dawn_plan_start1
+			has_completed_focus = USA_ProjectDawn
 		}
 		ai_will_do = {
 			factor = 200
@@ -33,11 +34,9 @@ USA_dawn_plan_categories = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 10
 		}
-		activation = {
-			has_completed_focus = "曙光计划"
-		}
 		visible = {
 			has_idea = USA_dawn_plan_start2
+			has_completed_focus = USA_ProjectDawn
 		}
 		ai_will_do = {
 			factor = 200
@@ -64,11 +63,9 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_advance1_change
 			}
 		}
-		activation = {
-			has_completed_focus = "曙光计划"
-		}
 		visible = {
 			has_idea = USA_dawn_plan_start3
+			has_completed_focus = USA_ProjectDawn
 		}
 		ai_will_do = {
 			factor = 200
@@ -104,11 +101,9 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_advance1_change
 			}
 		}
-		activation = {
-			has_completed_focus = "曙光计划"
-		}
 		visible = {
 			has_idea = USA_dawn_plan_start3
+			has_completed_focus = USA_ProjectDawn
 		}
 		ai_will_do = {
 			factor = 200
@@ -139,15 +134,13 @@ USA_dawn_plan_categories = {
 	#曙光计划-发展2，生产武器#
 	USA_dawn_plan_advance2_weapon = {
 		icon = generic_prepare_civil_war
-		visible = {
-			has_idea = USA_dawn_plan_advance1_weapon
-		}
-		activation = {
-			has_completed_focus = "曙光计划"
-		}
 		available = {
 			has_idea = USA_dawn_plan_advance1_weapon
 			num_of_civilian_factories_available_for_projects > 10
+		}
+		visible = {
+			has_idea = USA_dawn_plan_advance1_weapon
+			has_completed_focus = USA_ProjectDawn
 		}
 		ai_will_do = {
 			factor = 200
@@ -168,15 +161,13 @@ USA_dawn_plan_categories = {
 	#曙光计划-发展2，扩大工厂#
 	USA_dawn_plan_advance2_factory = {
 		icon = generic_prepare_civil_war
-		visible = {
-			has_idea = USA_dawn_plan_advance1_factory
-		}
-		activation = {
-			has_completed_focus = "曙光计划"
-		}
 		available = {
 			has_idea = USA_dawn_plan_advance1_factory
 			num_of_civilian_factories_available_for_projects > 10
+		}
+		visible = {
+			has_idea = USA_dawn_plan_advance1_factory
+			has_completed_focus = USA_ProjectDawn
 		}
 		ai_will_do = {
 			factor = 200
@@ -197,21 +188,19 @@ USA_dawn_plan_categories = {
 	#曙光计划-结束#
 	USA_dawn_plan_over = {
 		icon = generic_prepare_civil_war
-		visible = {
-			or = {
-				has_idea = USA_dawn_plan_advance2_factory
-				has_idea = USA_dawn_plan_advance2_weapon
-			}
-		}
-		activation = {
-			has_completed_focus = "曙光计划"
-		}
 		available = {
 			or = {
 				has_idea = USA_dawn_plan_advance2_factory
 				has_idea = USA_dawn_plan_advance2_weapon
 			}
 			num_of_civilian_factories_available_for_projects > 10
+		}
+		visible = {
+			or = {
+				has_idea = USA_dawn_plan_advance2_factory
+				has_idea = USA_dawn_plan_advance2_weapon
+			}
+			has_completed_focus = USA_ProjectDawn
 		}
 		ai_will_do = {
 			factor = 200
@@ -223,8 +212,7 @@ USA_dawn_plan_categories = {
 			civilian_factory_use = 10
 		}
 		remove_effect = {
-			if
-			{
+			if = {
 				limit = {
 					has_idea = USA_dawn_plan_advance2_factory
 				}
@@ -233,8 +221,7 @@ USA_dawn_plan_categories = {
 					add_idea = USA_dawn_plan_over
 				}
 			}
-			if
-			{
+			if = {
 				limit = {
 					has_idea = USA_dawn_plan_advance2_weapon
 				}
@@ -247,8 +234,10 @@ USA_dawn_plan_categories = {
 	}
 	USA_357 = {
 		icon = generic_prepare_civil_war
-		highlight_state_targets = {
-			state = 357
+		highlight_states = {
+			highlight_state_targets = {
+				state = 357
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -280,8 +269,10 @@ USA_dawn_plan_categories = {
 	}
 	USA_359 = {
 		icon = generic_prepare_civil_war
-		highlight_state_targets = {
-			state = 359
+		highlight_states = {
+			highlight_state_targets = {
+				state = 359
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -313,8 +304,10 @@ USA_dawn_plan_categories = {
 	}
 	USA_359_2 = {
 		icon = generic_prepare_civil_war
-		highlight_state_targets = {
-			state = 359
+		highlight_states = {
+			highlight_state_targets = {
+				state = 359
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -346,8 +339,10 @@ USA_dawn_plan_categories = {
 	}
 	USA_359_3 = {
 		icon = generic_prepare_civil_war
-		highlight_state_targets = {
-			state = 359
+		highlight_states = {
+			highlight_state_targets = {
+				state = 359
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -379,8 +374,10 @@ USA_dawn_plan_categories = {
 	}
 	USA_361 = {
 		icon = generic_prepare_civil_war
-		highlight_state_targets = {
-			state = 361
+		highlight_states = {
+			highlight_state_targets = {
+				state = 361
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 7
@@ -433,8 +430,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 386
+		highlight_states = {
+			highlight_state_targets = {
+				state = 386
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -483,8 +482,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 386
+		highlight_states = {
+			highlight_state_targets = {
+				state = 386
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -533,8 +534,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 385
+		highlight_states = {
+			highlight_state_targets = {
+				state = 385
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 5
@@ -584,8 +587,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 387
+		highlight_states = {
+			highlight_state_targets = {
+				state = 387
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 5
@@ -634,8 +639,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 379
+		highlight_states = {
+			highlight_state_targets = {
+				state = 379
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 5
@@ -680,8 +687,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 379
+		highlight_states = {
+			highlight_state_targets = {
+				state = 379
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 5
@@ -725,8 +734,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 375
+		highlight_states = {
+			highlight_state_targets = {
+				state = 375
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 9
@@ -774,8 +785,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 374
+		highlight_states = {
+			highlight_state_targets = {
+				state = 374
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -823,8 +836,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 374
+		highlight_states = {
+			highlight_state_targets = {
+				state = 374
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -872,8 +887,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 375
+		highlight_states = {
+			highlight_state_targets = {
+				state = 375
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -921,8 +938,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 377
+		highlight_states = {
+			highlight_state_targets = {
+				state = 377
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -969,8 +988,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 361
+		highlight_states = {
+			highlight_state_targets = {
+				state = 361
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1017,8 +1038,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 362
+		highlight_states = {
+			highlight_state_targets = {
+				state = 362
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1065,8 +1088,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 363
+		highlight_states = {
+			highlight_state_targets = {
+				state = 363
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1113,8 +1138,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 364
+		highlight_states = {
+			highlight_state_targets = {
+				state = 364
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1161,8 +1188,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 365
+		highlight_states = {
+			highlight_state_targets = {
+				state = 365
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1209,8 +1238,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 366
+		highlight_states = {
+			highlight_state_targets = {
+				state = 366
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1254,8 +1285,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 369
+		highlight_states = {
+			highlight_state_targets = {
+				state = 369
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1295,8 +1328,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 368
+		highlight_states = {
+			highlight_state_targets = {
+				state = 368
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1336,8 +1371,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 367
+		highlight_states = {
+			highlight_state_targets = {
+				state = 367
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1377,8 +1414,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 370
+		highlight_states = {
+			highlight_state_targets = {
+				state = 370
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1418,8 +1457,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 371
+		highlight_states = {
+			highlight_state_targets = {
+				state = 371
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1459,8 +1500,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 371
+		highlight_states = {
+			highlight_state_targets = {
+				state = 371
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1500,8 +1543,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 372
+		highlight_states = {
+			highlight_state_targets = {
+				state = 372
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1541,8 +1586,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 373
+		highlight_states = {
+			highlight_state_targets = {
+				state = 373
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1582,8 +1629,10 @@ USA_dawn_plan_categories = {
 				has_idea = USA_dawn_plan_over
 			}
 		}
-		highlight_state_targets = {
-			state = 392
+		highlight_states = {
+			highlight_state_targets = {
+				state = 392
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 4
@@ -1619,8 +1668,10 @@ USA_dawn_plan_categories = {
 		visible = {
 			has_idea = USA_dawn_plan_over
 		}
-		highlight_state_targets = {
-			state = 389
+		highlight_states = {
+			highlight_state_targets = {
+				state = 389
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 15
@@ -1661,8 +1712,10 @@ USA_dawn_plan_categories = {
 		visible = {
 			has_idea = USA_dawn_plan_over
 		}
-		highlight_state_targets = {
-			state = 390
+		highlight_states = {
+			highlight_state_targets = {
+				state = 390
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 8
@@ -1703,8 +1756,10 @@ USA_dawn_plan_categories = {
 		visible = {
 			has_idea = USA_dawn_plan_over
 		}
-		highlight_state_targets = {
-			state = 384
+		highlight_states = {
+			highlight_state_targets = {
+				state = 384
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 8
@@ -1745,8 +1800,10 @@ USA_dawn_plan_categories = {
 		visible = {
 			has_idea = USA_dawn_plan_over
 		}
-		highlight_state_targets = {
-			state = 383
+		highlight_states = {
+			highlight_state_targets = {
+				state = 383
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 8
@@ -1787,8 +1844,10 @@ USA_dawn_plan_categories = {
 		visible = {
 			has_idea = USA_dawn_plan_over
 		}
-		highlight_state_targets = {
-			state = 382
+		highlight_states = {
+			highlight_state_targets = {
+				state = 382
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 8
@@ -1829,8 +1888,10 @@ USA_dawn_plan_categories = {
 		visible = {
 			has_idea = USA_dawn_plan_over
 		}
-		highlight_state_targets = {
-			state = 380
+		highlight_states = {
+			highlight_state_targets = {
+				state = 380
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 8
@@ -1871,8 +1932,10 @@ USA_dawn_plan_categories = {
 		visible = {
 			has_idea = USA_dawn_plan_over
 		}
-		highlight_state_targets = {
-			state = 388
+		highlight_states = {
+			highlight_state_targets = {
+				state = 388
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 8
@@ -1913,8 +1976,10 @@ USA_dawn_plan_categories = {
 		visible = {
 			has_idea = USA_dawn_plan_over
 		}
-		highlight_state_targets = {
-			state = 381
+		highlight_states = {
+			highlight_state_targets = {
+				state = 381
+			}
 		}
 		available = {
 			num_of_civilian_factories_available_for_projects > 8

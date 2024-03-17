@@ -39,6 +39,10 @@ entity = {
 	}
 	
 	scale = 0.5
+
+	game_data = {
+		texture_anim_speed = -0.5
+	}
 }
 
 entity = {
@@ -46,7 +50,7 @@ entity = {
 	name = "modern_armor_entity"
 }
 
-##国联军　レオパルド2A6
+##国連軍　レオパルド2A6
 entity = {
 	clone = "medium_armor_entity"
 	name = "UNI_medium_armor_entity"
@@ -57,7 +61,7 @@ entity = {
 	name = "UNI_modern_armor_entity"
 }
 
-##アメリカ军　M1A1
+##アメリカ軍　M1A1
 entity = {
 	clone = "medium_armor_entity"
 	name = "USA_medium_armor_entity"
@@ -68,7 +72,7 @@ entity = {
 	name = "USA_modern_armor_entity"
 }
 
-##ソ連军
+##ソ連軍
 entity = {
 	clone = "medium_armor_entity"
 	name = "SOV_medium_armor_entity"
@@ -79,8 +83,14 @@ entity = {
 	name = "SOV_modern_armor_entity"
 }
 
-##欧州連合军
-##アフリカ連合军
+##欧州連合軍
+entity = {
+	clone = "medium_armor_entity"
+	name = "EUR_medium_armor_entity"
+	pdxmesh = "geo_leclerc_FRA_mesh"
+}
+
+##アフリカ連合軍
 
 ##中米
 entity = {
@@ -104,7 +114,7 @@ entity = {
 	name = "SOA_modern_armor_entity"
 }
 
-##東方連合军
+##東方連合軍
 entity = {
 	clone = "medium_armor_entity"
 	name = "EEA_medium_armor_entity"
@@ -126,7 +136,7 @@ entity = {
 	name = "OSE_modern_armor_entity"
 }
 
-##帝国军
+##帝国軍
 entity = {
 	clone = "medium_armor_entity"
 	name = "JAP_medium_armor_entity"
@@ -137,7 +147,7 @@ entity = {
 	name = "JAP_modern_armor_entity"
 }
 
-##大東亜連合军
+##大東亜連合軍
 entity = {
 	clone = "medium_armor_entity"
 	name = "GEU_medium_armor_entity"
@@ -148,7 +158,17 @@ entity = {
 	name = "GEU_modern_armor_entity"
 }
 
+##中華
+entity = {
+	clone = "medium_armor_entity"
+	name = "CHI_medium_armor_entity"
+	pdxmesh = "geo_cm11_era_mesh"
+}
+entity = {
+	clone = "CHI_medium_armor_entity"
+	name = "CHI_modern_armor_entity"
+}
 entity = {
 	clone = "geo_bmp3_entity"
-	name = "light_armor_entity"
+	name = "modern_sp_anti_air_brigade_entity"
 }

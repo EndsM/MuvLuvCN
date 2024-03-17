@@ -10,7 +10,7 @@ state= {
 	state_category = city
 
 	history = { 1999.1.1 = { 
-			owner = H02
+			owner = H11#H02
 			remove_core_of = H02
 			remove_core_of = TUR
 			add_core_of = AFR

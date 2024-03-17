@@ -320,20 +320,6 @@ units = {
 		}
 	}
 	division = {
-		name = "第65战斗教导团 Infinities"
-		location = 10591
-		division_template = "战术机大队"
-		start_experience_factor = 1
-		start_equipment_factor = 1
-		force_equipment_variants = {
-			MVLV_TSF_classis_3_heavy_normal_stealth = {
-				owner = "USA"
-				creator = USA
-				version_name = "F-22A猛禽"
-			}
-		}
-	}
-	division = {
 		location = 3957
 		division_template = "战术机联队"
 		start_experience_factor = 0.3

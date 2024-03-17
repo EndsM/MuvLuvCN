@@ -380,338 +380,184 @@ units  = {
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 6999
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 6999
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 6999
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 6999
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 6999
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 6999
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 6999
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 6999
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 7027
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 7027
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 7027
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 7027
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 7027
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "小型混成BETA师团"
+		location = 4160
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "小型混成BETA师团"
+		location = 4160
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "小型混成BETA师团"
+		location = 4160
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "小型混成BETA师团"
+		location = 4160
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "小型混成BETA师团"
+		location = 4160
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "战车级師団"
-		location = 10776
+		location = 4160
 		division_template = "战车级师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "战车级師団"
-		location = 10776
+		location = 4160
 		division_template = "战车级师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "战车级師団"
-		location = 10776
-		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 10776
-		division_template = "兵士级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 10776
-		division_template = "兵士级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "战车级師団"
-		location = 1522
+		location = 4160
 		division_template = "战车级师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "战车级師団"
-		location = 1522
+		location = 4160
 		division_template = "战车级师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "战车级師団"
-		location = 1522
-		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 1522
-		division_template = "兵士级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 1522
-		division_template = "兵士级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "战车级師団"
-		location = 12319
+		location = 4160
 		division_template = "战车级师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "战车级師団"
-		location = 12319
+		location = 4160
 		division_template = "战车级师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "战车级師団"
-		location = 12319
-		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 12319
-		division_template = "兵士级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 12319
-		division_template = "兵士级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "战车级師団"
-		location = 10075
+		location = 4160
 		division_template = "战车级师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "战车级師団"
-		location = 10075
+		location = 4160
 		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "战车级師団"
-		location = 10075
-		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 10075
-		division_template = "兵士级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 10075
-		division_template = "兵士级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "战车级師団"
-		location = 12075
-		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "战车级師団"
-		location = 12075
-		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "战车级師団"
-		location = 12075
-		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 12075
-		division_template = "兵士级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 12075
-		division_template = "兵士级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "战车级師団"
-		location = 12048
-		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "战车级師団"
-		location = 12048
-		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "战车级師団"
-		location = 12048
-		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 12048
-		division_template = "兵士级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 12048
-		division_template = "兵士级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "战车级師団"
-		location = 4119
-		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "战车级師団"
-		location = 4119
-		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "战车级師団"
-		location = 4119
-		division_template = "战车级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 4119
-		division_template = "兵士级师团"
-		start_experience_factor = 0
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "兵士级師団"
-		location = 4119
-		division_template = "兵士级师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}

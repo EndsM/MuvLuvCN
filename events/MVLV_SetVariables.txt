@@ -113,16 +113,16 @@ country_event = {
 		}
 		#戦況用
 		set_variable = {
-			global.var_betawar_situation_1 = 0
+			global.var_betawar_situation_1 = -4
 		}
 		set_variable = {
 			global.var_betawar_situation_2 = 5
 		}
 		set_variable = {
-			global.var_betawar_situation_3 = 15
+			global.var_betawar_situation_3 = 20
 		}
 		set_variable = {
-			global.var_betawar_situation_4 = 99
+			global.var_betawar_situation_4 = 35
 		}
 		#戦死モード（デフォルト1：将军削除モード）
 		set_variable = {

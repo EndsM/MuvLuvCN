@@ -5,16 +5,17 @@ state={
 	state_category = megalopolis
 
 	resources={
-		rubber=5
+		rubber=10
 	}
 
 	
 	history = {
 		owner = UNI
 		add_core_of = UNI
-		add_core_of = H21
+		#add_core_of = H21
+		add_core_of = H22
 		victory_points = {
-			13218 10
+			13218 100
 		}
 		buildings = {
 			infrastructure = 5

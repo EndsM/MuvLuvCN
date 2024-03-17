@@ -1,5 +1,51 @@
 operations = {
-	# 渐减作战
+	destroy_reacting_furnace = {
+		icon = generic_prepare_civil_war
+		available = {
+			FROM = {
+				all_core_state = {
+					is_controlled_by = ROOT
+				}
+				is_in_faction_with = BET
+				#has_war_with = ROOT
+				#is_neighbor_of = ROOT
+				surrender_progress > 0.5
+			}
+			command_power > 200
+		}
+		visible = {
+			is_in_faction_with = UNI
+			has_war_with = BET
+			FROM = {
+				all_core_state = {
+					is_controlled_by = ROOT
+				}
+				NOT = {
+					has_idea = destroyed_reacting_furnace
+				}
+			}
+		}
+		target_trigger = {
+			FROM = {
+				all_core_state = {
+					is_controlled_by = ROOT
+				}
+				is_in_faction_with = BET
+				#has_war_with = ROOT
+				#is_neighbor_of = ROOT
+			}
+		}
+		days_remove = 1
+		fire_only_once = no
+		complete_effect = {
+			add_command_power = -200
+		}
+		remove_effect = {
+			FROM = {
+				add_ideas = destroyed_reacting_furnace
+			}
+		}
+	}
 	thinning_operation = {
 		icon = generic_prepare_civil_war
 		available = {
@@ -9,6 +55,7 @@ operations = {
 				is_neighbor_of = ROOT
 				NOT = {
 					has_idea = hive_thinning_state
+					has_idea = mvlv_brokenhive
 				}
 			}
 			has_manpower > 250000

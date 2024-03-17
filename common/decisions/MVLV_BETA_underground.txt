@@ -1,5 +1,5 @@
-BETA地下侵攻 = {
-	BETA地下侵攻摩洛哥 = {
+BETA_attack_underground = {
+	BETA_attack_underground_290 = {
 		icon = generic_prepare_civil_war
 		available = {
 			is_in_faction_with = BET
@@ -97,7 +97,7 @@ BETA地下侵攻 = {
 	# 		factor = 20
 	# 	}
 	# }
-	BETA地下侵攻多弗海峡 = {
+	BETA_attack_underground_127 = {
 		icon = generic_prepare_civil_war
 		available = {
 			and = {
@@ -146,7 +146,7 @@ BETA地下侵攻 = {
 			factor = 20
 		}
 	}
-	BETA地下侵攻朴茨茅斯 = {
+	BETA_attack_underground_808 = {
 		icon = generic_prepare_civil_war
 		available = {
 			and = {
@@ -195,7 +195,7 @@ BETA地下侵攻 = {
 			factor = 20
 		}
 	}
-	BETA地下侵攻勘察加 = {
+	BETA_attack_underground_637 = {
 		icon = generic_prepare_civil_war
 		available = {
 			and = {
@@ -298,7 +298,7 @@ BETA地下侵攻 = {
 	# 		factor = 20
 	# 	}
 	# }
-	BETA地下侵攻台北 = {
+	BETA_attack_underground_524 = {
 		icon = generic_prepare_civil_war
 		available = {
 			and = {
@@ -401,7 +401,7 @@ BETA地下侵攻 = {
 	# 		factor = 20
 	# 	}
 	# }
-	BETA地下侵攻西西里 = {
+	BETA_attack_underground_115 = {
 		icon = generic_prepare_civil_war
 		available = {
 			and = {
@@ -450,7 +450,7 @@ BETA地下侵攻 = {
 			factor = 20
 		}
 	}
-	BETA地下侵攻突尼斯 = {
+	BETA_attack_underground_458 = {
 		icon = generic_prepare_civil_war
 		available = {
 			and = {
@@ -599,4 +599,116 @@ BETA地下侵攻 = {
 	# 		factor = 20
 	# 	}
 	# }
+	BETA_attack_underground_268 = {
+		icon = generic_prepare_civil_war
+		available = {
+			is_in_faction_with = BET
+			索马里兰可地下侵攻 = yes
+                                                AFR={is_ai=no}
+			268 = {
+				is_controlled_by = AFR
+			}
+			OR={293 = {is_controlled_by = from}
+                                               659 = {is_controlled_by = from}
+			}
+		}
+		visible = {
+			OR={293 = {is_controlled_by = from}
+                                               659 = {is_controlled_by = from}
+			}
+			268 = {
+				is_controlled_by = AFR
+			}
+		}
+		days_remove = 90
+		days_re_enable = 0
+		fire_only_once = no
+		cost = 0
+		modifier = {
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					索马里兰可地下侵攻 = yes
+				}
+				268 = {
+					create_unit = {
+						division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	BETA_attack_underground_591 = {
+		icon = generic_prepare_civil_war
+		available = {
+			is_in_faction_with = BET
+			海南可地下侵攻 = yes
+			591 = {
+				is_controlled_by = CHI
+			}
+			OR={592 = {is_controlled_by = from}
+                                               594 = {is_controlled_by = from}
+			671 = {is_controlled_by = from}
+			728 = {is_controlled_by = from}
+			}
+                                                CHI={is_ai=no}
+		}
+		visible = {
+			OR={592 = {is_controlled_by = from}
+                                               594 = {is_controlled_by = from}
+			671 = {is_controlled_by = from}
+			728 = {is_controlled_by = from}
+			}
+			591 = {
+				is_controlled_by = CHI
+			}
+		}
+		days_remove = 60
+		days_re_enable = 0
+		fire_only_once = no
+		cost = 0
+		modifier = {
+		}
+		complete_effect = {CHI={country_event={id=mvlv_chi.4   days=59}}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					海南可地下侵攻 = yes
+				}
+				591 = {
+					create_unit = {
+						division = "name = \"大型混成BETA师团\" division_template = \"大型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级大型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+					create_unit = {
+						division = "name = \"小型混成BETA师团\" division_template = \"小型混成BETA师团\" start_experience_factor = 0.5"
+						owner = PREV
+						count = global.BETA各巢穴等级小型混成师团每周期生产数列表^PREV.巢穴等级
+						allow_spawning_on_enemy_provs = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
 }

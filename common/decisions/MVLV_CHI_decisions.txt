@@ -1,0 +1,102 @@
+operations = {
+	hainan_evacuate_1={
+		icon = generic_prepare_civil_war
+                                activation = {tag=CHI
+			591={is_controlled_by = CHI}}
+		available = {591={NOT={is_controlled_by = CHI}}
+		}
+		visible = {tag=CHI
+			591={is_controlled_by = CHI}
+		}
+		fire_only_once = yes
+		days_mission_timeout = 30
+		modifier = {
+		}
+		complete_effect = {country_event=mvlv_chi.6
+			add_stability = -0.15
+		}
+		timeout_effect = {set_country_flag=hainan_shuan_1
+			add_stability = 0.05
+			591={add_manpower = -100000}
+			807={add_manpower = 100000}
+			country_event=mvlv_chi.1  
+		}
+	}
+	hainan_evacuate_2={
+		icon = generic_prepare_civil_war
+                                activation = {tag=CHI
+			591={is_controlled_by = CHI}
+			has_country_flag=hainan_shuan_1}
+		available = {591={NOT={is_controlled_by = CHI}}
+		}
+		visible = {tag=CHI
+			591={is_controlled_by = CHI}
+			has_country_flag=hainan_shuan_1
+		}
+		fire_only_once = yes
+		days_mission_timeout = 30
+		modifier = {
+		}
+		complete_effect = {country_event=mvlv_chi.6
+			add_stability = -0.10
+		}
+		timeout_effect = {set_country_flag=hainan_shuan_2
+			add_stability = 0.05
+			591={add_manpower = -100000}
+			807={add_manpower = 100000}
+			country_event=mvlv_chi.2  
+		}
+	}
+	hainan_evacuate_3={
+		icon = generic_prepare_civil_war
+                                activation = {tag=CHI
+			591={is_controlled_by = CHI}
+			has_country_flag=hainan_shuan_2}
+		available = {591={NOT={is_controlled_by = CHI}}
+		}
+		visible = {tag=CHI
+			591={is_controlled_by = CHI}
+		}
+		fire_only_once = yes
+		days_mission_timeout = 30
+		modifier = {
+		}
+		complete_effect = {country_event=mvlv_chi.6
+			add_stability = -0.05
+		}
+		timeout_effect = {set_country_flag=hainan_shuan_3
+			add_stability = 0.05
+			591={add_manpower = -100000}
+			807={add_manpower = 100000}
+			country_event=mvlv_chi.3  
+		}
+	}
+	hainan_defense={
+		icon = generic_prepare_civil_war
+                                activation = {tag=CHI
+			591={is_controlled_by = CHI}
+			has_country_flag=hainan_shuan_3}
+		available = {
+			OR={591={NOT={is_controlled_by = CHI}}
+				AND={592 = {is_controlled_by = CHI}
+                			594 = {is_controlled_by = CHI}
+				728 = {is_controlled_by = CHI}
+				671 = {is_controlled_by = GEU}
+				}
+			}
+		}
+		visible = {tag=CHI
+			591={is_controlled_by = CHI}
+		}
+		fire_only_once = no
+		days_mission_timeout = 100
+		modifier = {
+		}
+		complete_effect = {
+		}
+		timeout_effect = {add_political_power = 50
+			add_war_support = 0.1
+			country_event=mvlv_chi.5  
+		}
+	}
+}

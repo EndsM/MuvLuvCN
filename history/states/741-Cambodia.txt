@@ -3,10 +3,10 @@ state={
 	name="STATE_741"
 	history = {
 		1999.1.1 = { 
-			owner = GEU			remove_core_of = H17
+			owner = H17#GEU			remove_core_of = H17
 		}
 		add_core_of = GEU
-		owner = GEU
+		#owner = GEU
 		victory_points = {
 			7376 1
 		}

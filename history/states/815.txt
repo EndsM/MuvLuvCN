@@ -1,0 +1,25 @@
+state={
+	id=815
+	name="STATE_815"
+	history={
+		1999.1.1 = {
+			owner = H24
+			remove_core_of = H24
+
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SOV
+
+	}
+	provinces={
+		2900 2923 4812 6085 9224 11122 11261 11328 12687 13060 13065 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	local_supplies=0.000
+}

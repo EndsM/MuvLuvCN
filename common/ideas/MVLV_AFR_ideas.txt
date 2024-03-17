@@ -35,7 +35,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.25
 			}
 		}
-		# Change naming start from here
+		#专注后方
 		AFR_focus_on_homefront = {
 			allowed = {
 				always = no
@@ -47,6 +47,7 @@ ideas = {
 				production_speed_infrastructure_factor = 0.1
 			}
 		}
+		#资源开发
 		AFR_expand_resources_extraction = {
 			allowed = {
 				always = no
@@ -55,6 +56,7 @@ ideas = {
 				local_resources_factor = 0.15
 			}
 		}
+		#先进生产技术
 		AFR_advanced_production_technology = {
 			allowed = {
 				always = no
@@ -64,6 +66,7 @@ ideas = {
 				industrial_capacity_factory = 0.1
 			}
 		}
+		#安全的大陆
 		AFR_a_safe_continent = {
 			allowed = {
 				always = no
@@ -78,6 +81,7 @@ ideas = {
 				war_support_factor = -0.3
 			}
 		}
+		#安稳的后方
 		AFR_stable_homefront = {
 			allowed = {
 				always = no
@@ -93,6 +97,7 @@ ideas = {
 				war_support_factor = -0.5
 			}
 		}
+		#未雨绸缪 
 		AFR_prepare_for_the_worse = {
 			allowed = {
 				always = no
@@ -103,6 +108,7 @@ ideas = {
 				production_speed_coastal_bunker_factor = 0.25
 			}
 		}
+		#堡垒群战术 
 		AFR_entrenchment_group_tactics = {
 			allowed = {
 				always = no
@@ -114,6 +120,7 @@ ideas = {
 				army_defence_factor = 0.1
 			}
 		}
+		#本土战术机生产 
 		AFR_localized_TSF_production = {
 			allowed = {
 				always = no
@@ -129,6 +136,7 @@ ideas = {
 				}
 			}
 		}
+		#成熟的防御战理论 
 		AFR_proven_defence_doctrine = {
 			allowed = {
 				always = no
@@ -143,6 +151,7 @@ ideas = {
 				army_core_defence_factor = 0.15
 			}
 		}
+		# 反击的准备
 		AFR_prepare_for_counterattack = {
 			allowed = {
 				always = no
@@ -152,6 +161,7 @@ ideas = {
 				industrial_capacity_factory = 0.5
 			}
 		}
+		# 反击
 		AFR_target_H09 = {
 			allowed = {
 				always = no
@@ -164,6 +174,7 @@ ideas = {
 				army_morale_factor = 0.2
 			}
 		}
+		#出击
 		AFR_launch_an_assault = {
 			allowed = {
 				always = no
@@ -176,6 +187,7 @@ ideas = {
 				army_morale_factor = 0.1
 			}
 		}
+		#统合的指挥系统
 		AFR_joint_command_system = {
 			allowed = {
 				always = no
@@ -201,6 +213,7 @@ ideas = {
 				army_morale_factor = -0.1
 			}
 		}
+		#自立自强
 		AFR_independent = {
 			allowed = {
 				always = no
@@ -212,28 +225,28 @@ ideas = {
 				army_core_defence_factor = 0.1
 			}
 		}
+		#与欧联消费品的交易
 		AFR_trade_with_eur = {
 			allowed = {
 				always = no
 			}
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 				research_speed_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.2
 			}
 		}
-		AFR_EUR = {
+		#与非联的交易
+		EUR_AFR = {
 			allowed = {
 				always = no
 			}
 			modifier = {
-				consumer_goods_factor = 0.05
-				min_export = 0.1
-				stability_factor = -0.2
-				production_factory_start_efficiency_factor = 0.3
-				production_factory_efficiency_gain_factor = -0.1
+				consumer_goods_expected_value = -0.05
+				local_resources_factor = 0.1
 			}
 		}
+		#国联分担协议修正案 
 		AFR_increase_UNF = {
 			allowed = {
 				always = no
@@ -250,6 +263,7 @@ ideas = {
 				industrial_capacity_factory = 0.05
 			}
 		}
+		#胜利的鼓舞 
 		AFR_victory_inspiration = {
 			allowed = {
 				always = no
@@ -262,6 +276,7 @@ ideas = {
 				army_morale_factor = 0.1
 			}
 		}
+		#NATO情报网
 		AFR_nato_intel_network = {
 			allowed = {
 				always = no

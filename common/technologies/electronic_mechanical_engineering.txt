@@ -84,10 +84,10 @@ technologies = {
 			level = 6
 		}
 		static_anti_air_hit_chance_factor = 0.6
-		path = {
-			leads_to_tech = decimetric_radar
-			research_cost_coeff = 1
-		}
+		# path = {
+		# 	leads_to_tech = decimetric_radar
+		# 	research_cost_coeff = 1
+		# }
 		research_cost = 1.5
 		folder = {
 			name = electronics_folder
@@ -150,10 +150,10 @@ technologies = {
 			leads_to_tech = basic_decryption
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = improved_fire_control_system
-			research_cost_coeff = 1
-		}
+		# path = {
+		# 	leads_to_tech = improved_fire_control_system
+		# 	research_cost_coeff = 1
+		# }
 		research_cost = 2.5
 		start_year = 1938
 		folder = {
@@ -188,10 +188,10 @@ technologies = {
 			leads_to_tech = improved_decryption
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = advanced_fire_control_system
-			research_cost_coeff = 1
-		}
+		# path = {
+		# 	leads_to_tech = advanced_fire_control_system
+		# 	research_cost_coeff = 1
+		# }
 		research_cost = 2.5
 		start_year = 1940
 		folder = {
@@ -419,15 +419,15 @@ technologies = {
 	}
 	###ロケット技術www###
 	experimental_rockets = {
-		enable_equipments = {
-			UNI_Manipulator_improvement
-		}
+		# enable_equipments = {
+		# 	UNI_Manipulator_improvement
+		# }
 		# MVLV_tsf_battalion = { 
 		# 	maximum_speed = 0.01
 		# }
 		category_MVLV_tsf = {
 			maximum_speed = 0.01
-			armor_value = 0.01
+			armor_value = 0.02
 		}
 		path = {
 			leads_to_tech = rocket_engines
@@ -437,7 +437,7 @@ technologies = {
 			leads_to_tech = jet_engines
 			research_cost_coeff = 1
 		}
-		research_cost = 3
+		research_cost = 2#3
 		start_year = 1938
 		folder = {
 			name = electronics_folder
@@ -454,9 +454,9 @@ technologies = {
 		}
 	}
 	rocket_engines = {
-		enable_equipments = {
-			UNI_Manipulator_improvement
-		}
+		# enable_equipments = {
+		# 	UNI_Manipulator_improvement
+		# }
 		# MVLV_tsf_battalion = {
 		# 	maximum_speed = 0.02
 		# 	reliability_factor = 0.01
@@ -469,7 +469,7 @@ technologies = {
 			leads_to_tech = improved_rocket_engines
 			research_cost_coeff = 1
 		}
-		research_cost = 3
+		research_cost = 2#3
 		start_year = 1940
 		folder = {
 			name = electronics_folder
@@ -478,13 +478,13 @@ technologies = {
 				y = 2
 			}
 		}
-		folder = {
-			name = secret_weapons_folder
-			position = {
-				x = 10
-				y = 0
-			}
-		}
+		# folder = {
+		# 	name = secret_weapons_folder
+		# 	position = {
+		# 		x = 10
+		# 		y = 0
+		# 	}
+		# }
 		ai_will_do = {
 			factor = 1
 		}
@@ -493,9 +493,9 @@ technologies = {
 		}
 	}
 	improved_rocket_engines = {
-		enable_equipments = {
-			UNI_Manipulator_improvement
-		}
+		# enable_equipments = {
+		# 	UNI_Manipulator_improvement
+		# }
 		# MVLV_tsf_battalion = {
 		# 	maximum_speed = 0.02
 		# 	reliability_factor =0.01
@@ -508,7 +508,7 @@ technologies = {
 			leads_to_tech = advanced_rocket_engines
 			research_cost_coeff = 1
 		}
-		research_cost = 3
+		research_cost = 2#3
 		start_year = 1942
 		folder = {
 			name = electronics_folder
@@ -525,9 +525,9 @@ technologies = {
 		}
 	}
 	advanced_rocket_engines = {
-		enable_equipments = {
-			UNI_Manipulator_improvement
-		}
+		# enable_equipments = {
+		# 	UNI_Manipulator_improvement
+		# }
 		# MVLV_tsf_battalion = {
 		# 	maximum_speed = 0.05
 		# 	reliability_factor = 0.05
@@ -536,7 +536,7 @@ technologies = {
 			maximum_speed = 0.05
 			reliability_factor = 0.05
 		}
-		research_cost = 3
+		research_cost = 2#3
 		start_year = 1944
 		folder = {
 			name = electronics_folder
@@ -553,15 +553,15 @@ technologies = {
 		}
 	}
 	jet_engines = {
-		enable_equipments = {
-			UNI_Manipulator_improvement
-		}
+		# enable_equipments = {
+		# 	UNI_Manipulator_improvement
+		# }
 		MVLV_asa_battalion = {
-			maximum_speed = 0.02
+			maximum_speed = 0.05
 			reliability_factor = 0.02
 		}
 		MVLV_tsa_battalion = {
-			maximum_speed = 0.02
+			maximum_speed = 0.05
 			reliability_factor = 0.02
 		}
 		folder = {
@@ -572,7 +572,7 @@ technologies = {
 			}
 		}
 		start_year = 1943
-		research_cost = 3
+		research_cost = 2#3
 		path = {
 			leads_to_tech = jet_engines_2
 			research_cost_coeff = 1
@@ -585,23 +585,23 @@ technologies = {
 		}
 	}
 	jet_engines_2 = {
-		enable_equipments = {
-			UNI_Manipulator_improvement
-		}
+		# enable_equipments = {
+		# 	UNI_Manipulator_improvement
+		# }
 		# MVLV_tsf_battalion = {
 		# 	maximum_speed = 0.02
 		# }
 		category_MVLV_tsf = {
-			maximum_speed = 0.02
-			armor_value = 0.02
+			maximum_speed = 0.03
+			armor_value = 0.03
 		}
 		MVLV_asa_battalion = {
-			maximum_speed = 0.03
-			armor_value = 0.03
+			maximum_speed = 0.05
+			armor_value = 0.05
 		}
 		MVLV_tsa_battalion = {
-			maximum_speed = 0.03
-			armor_value = 0.03
+			maximum_speed = 0.05
+			armor_value = 0.05
 		}
 		folder = {
 			name = electronics_folder

@@ -1,27 +1,27 @@
 ﻿###########################
 # News Events
 ###########################
-
 add_namespace = news
-
 news_event = {
 	id = news.334
 	title = news.334.t
 	desc = news.334.d
 	picture = GFX_news_event_germany_victory
 	hidden = yes
-	
 	trigger = {
-		NOT = { 126 = { is_controlled_by = EUR }
+		NOT = {
+			126 = {
+				is_controlled_by = EUR
+			}
 		}
 	}
-	
 	immediate = {
-		country_event = { id = super.2 }
+		country_event = {
+			id = super.2
+		}
 	}
-	
 	mean_time_to_happen = {
-		days = 2
+		days = 1
 	}
 }
 
@@ -31,18 +31,20 @@ news_event = {
 	desc = news.335.d
 	picture = GFX_news_event_germany_victory
 	hidden = yes
-	
 	trigger = {
-		NOT = { 446 = { is_controlled_by = AFR }
+		NOT = {
+			446 = {
+				is_controlled_by = AFR
+			}
 		}
 	}
-	
 	immediate = {
-		country_event = { id = super.3 }
+		country_event = {
+			id = super.3
+		}
 	}
-	
 	mean_time_to_happen = {
-		days = 2
+		days = 1
 	}
 }
 
@@ -52,37 +54,159 @@ news_event = {
 	desc = news.336.d
 	picture = GFX_news_event_germany_victory
 	hidden = yes
-	
 	trigger = {
-		NOT = { 524 = { is_controlled_by = CHI }
+		NOT = {
+			524 = {
+				is_controlled_by = CHI
+			}
 		}
 	}
-	
 	immediate = {
-		country_event = { id = super.4 }
+		country_event = {
+			id = super.4
+		}
 	}
-	
 	mean_time_to_happen = {
-		days = 2
+		days = 1
 	}
 }
+
 news_event = {
 	id = news.337
 	title = news.337.t
 	desc = news.337.d
 	picture = GFX_news_event_germany_victory
 	hidden = yes
-	
 	trigger = {
-		NOT = { 282 = { is_controlled_by = JAP }
+		NOT = {
+			282 = {
+				is_controlled_by = JAP
+			}
 		}
 	}
-	
 	immediate = {
-		country_event = { id = super.5 }
+		country_event = {
+			id = super.5
+		}
 	}
-	
 	mean_time_to_happen = {
-		days = 2
+		days = 1
+	}
+}
+
+news_event = {
+	id = news.338
+	title = news.338.t
+	desc = news.338.d
+	picture = GFX_news_event_germany_victory
+	hidden = yes
+	trigger = {
+		NOT = {
+			332 = {
+				is_fully_controlled_by = EUR
+			}
+		}
+	}
+	immediate = {
+		country_event = {
+			id = super.6
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+}
+
+news_event = {
+	id = news.339
+	title = news.339.t
+	desc = news.339.d
+	picture = GFX_news_event_germany_victory
+	hidden = yes
+	trigger = {
+		AND = {
+			NOT = {
+				484 = {
+					is_fully_controlled_by = SOA
+				}
+			}
+			NOT = {
+				484 = {
+					is_fully_controlled_by = CEA
+				}
+			}
+		}
+	}
+	immediate = {
+		country_event = {
+			id = super.7
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+}
+
+news_event = {
+	id = news.340
+	title = news.340.t
+	desc = news.340.d
+	picture = GFX_news_event_germany_victory
+	hidden = yes
+	trigger = {
+		AND = {
+			NOT = {
+				498 = {
+					is_fully_controlled_by = SOA
+				}
+			}
+			NOT = {
+				498 = {
+					is_fully_controlled_by = CEA
+				}
+			}
+		}
+	}
+	immediate = {
+		country_event = {
+			id = super.8
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+}
+
+news_event = {
+	id = news.341
+	title = news.341.t
+	desc = news.341.d
+	picture = GFX_news_event_germany_victory
+	hidden = yes
+	trigger = {
+		NOT = {
+			793 = {
+				is_fully_controlled_by = USA
+			}
+		}
+	}
+	immediate = {
+		country_event = {
+			id = super.9
+		}
+		damage_units = {
+			province = 13230
+			state = 793
+			region = 33
+			damage = 1
+			org_damage = 1
+			str_damage = 1
+			ratio = yes
+			army = yes
+			navy = no
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
 	}
 }

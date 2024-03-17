@@ -1,4 +1,9 @@
-capital = 524#首都
+capital = 524 #首都
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
 create_equipment_variant = {
 	name = "歼8"
 	type = MVLV_TSF_classis_1_heavy
@@ -129,7 +134,7 @@ create_equipment_variant = {
 	}
 	icon = "GFX_歼20"
 }
-
+}
 if = {
 	limit = {
 		NOT = {
@@ -184,10 +189,8 @@ if = {
 		MVLV_research_integrated_sensor_2 = 1
 		MVLV_research_vibration_sensor_3 = 1
 		MVLV_research_basic_assault_cannon = 1
-		MVLV_research_assault_cannon_36_power_1 = 1
-		MVLV_research_assault_cannon_36_power_2 = 1
-		MVLV_research_assault_cannon_120_power_1 = 1
-		MVLV_research_assault_cannon_120_power_2 = 1
+		MVLV_research_assault_cannon_1_normal = 1
+		MVLV_research_assault_cannon_1_close = 1
 		MVLV_research_basic_armor = 1
 		MVLV_research_armor_heavy_alloy = 1
 		MVLV_research_armor_composite = 1
@@ -198,10 +201,6 @@ if = {
 		MVLV_research_OS_2 = 1
 		MVLV_research_OS_2_close = 1
 		MVLV_research_basic_engine = 1
-		MVLV_research_basic_engine_fuel_efficiency = 1
-		MVLV_research_basic_engine_mid_speed_cruising = 1
-		MVLV_research_basic_engine_high_speed_cruising = 1
-		MVLV_research_basic_engine_max_power = 1
 		MVLV_research_engine_1 = 1
 		MVLV_research_engine_1_fuel_efficiency = 1
 		MVLV_research_engine_1_mid_speed_cruising = 1
@@ -218,10 +217,10 @@ if = {
 		MVLV_research_basic_back_hanger = 1
 		MVLV_research_back_upside_hanger = 1
 		MVLV_research_back_supply_hanger = 1
-		MVLV_research_back_turbo_hanger = 1
+		# MVLV_research_back_turbo_hanger = 1
 		MVLV_research_back_gunblade_hanger_1 = 1
 		MVLV_research_basic_melee = 1
-		MVLV_research_moto_knife = 1
+		MVLV_research_moto_knife_1 = 1
 		MVLV_research_basic_assault_cannon = 1
 		MVLV_research_assault_cannon_1_normal = 1
 		MVLV_research_assault_cannon_1_close = 1
@@ -244,7 +243,6 @@ if = {
 		#初期研究を定義
 		infantry_weapons = 1
 		infantry_weapons1 = 1
-		motorised_infantry = 1
 		tech_support = 1
 		tech_engineers = 1
 		tech_engineers2 = 1
@@ -295,7 +293,7 @@ if = {
 		fleet_in_being = 1
 		fighter = 1
 		CAS1 = 1
-		jet_tactical_bomber1 = 1
+		# jet_tactical_bomber1 = 1
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
@@ -345,6 +343,8 @@ if = {
 		###军需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
+		MVLV_EnableBuilding_ammunition_plant = 1
+		MVLV_EnableBuilding_ammunition_silo = 1
 		###戦術###
 		human_combat_tactics = 1
 		# #战术机
@@ -430,14 +430,14 @@ if = {
 		name = TSF_thruster_3
 		bonus = 1
 		uses = 1
-		technology = MVLV_TSF_thruster_3_research
+		technology = MVLV_research_engine_3
 	}
 	add_tech_bonus = {
 		#工業バフ
-		name = TSF3
+		name = China_TSF3
 		bonus = 1
 		uses = 1
-		technology = MVLV_TSF_classis_3_research
+		technology = MVLV_research_tsf_3_heavy_normal_framework
 	}
 	add_tech_bonus = {
 		#工業バフ
@@ -462,7 +462,7 @@ if = {
 		war_economy
 		CHI_overseas_chinese_network
 		CHI_one_country_two_systems
-		UNI_global_food_crisis
+		# UNI_global_food_crisis
 		mvlv_nuclear_winter
 		mvlv_prominence_problem
 		mvlv_parmanent
@@ -625,6 +625,8 @@ add_offsite_building = {
 }
 
 #MAP外海軍工廠を定義
+add_offsite_building = { type = ammunition_plant level = 2 } #MAP外弹药工厂
+add_offsite_building = { type = ammunition_silo level = 2 } #MAP外弹药库
 set_politics = {
 	#初期政体を定義
 	ruling_party = neutrality
@@ -635,7 +637,8 @@ set_politics = {
 
 set_popularities = {
 	#初期支持率を定義
-	neutrality = 70
+	neutrality = 40
+	democratic = 30
 	communism = 30
 }
 

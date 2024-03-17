@@ -1,0 +1,23 @@
+state={
+	id=818
+	name="STATE_818"
+	history = {
+		1999.1.1 = {
+			add_core_of = GEU
+			owner = H17#GEU
+		}
+		owner = SIA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			1315 1 
+		}
+		
+	}
+	provinces={
+		1296 1315 1385 1403 4275 4408 7295 10217 12125 12238 12292 
+	}
+	manpower=1000000
+	state_category = rural
+}
