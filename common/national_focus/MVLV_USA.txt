@@ -20,7 +20,7 @@ focus_tree = {
 		x = 1
 		y = 0
 		available = {
-			date > 2001.1.4
+			date > 2001.8.24
 			282 = {
 				is_controlled_by = JAP
 			}
@@ -41,7 +41,7 @@ focus_tree = {
 				}
 			}
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			UNI = {
 				country_event = mvlv_generic.5
@@ -58,7 +58,7 @@ focus_tree = {
 		icon = GFX_goal_tripartite_pact
 		x = 8
 		y = 0
-		cost = 5
+		cost = 4
 		ai_will_do = {
 			factor = 10
 		}
@@ -77,7 +77,7 @@ focus_tree = {
 		}
 		x = -4
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_WarOrPeace
 		ai_will_do = {
 			factor = 10
@@ -154,7 +154,7 @@ focus_tree = {
 		}
 		x = -1
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_ArsenalofDemocracy
 		ai_will_do = {
 			factor = 10
@@ -183,7 +183,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_ExpandLockheed
 		ai_will_do = {
 			factor = 10
@@ -292,7 +292,7 @@ focus_tree = {
 		}
 		x = -1
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_EagleModiProject
 		ai_will_do = {
 			factor = 10
@@ -364,7 +364,7 @@ focus_tree = {
 		}
 		x = 1
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_ArsenalofDemocracy
 		ai_will_do = {
 			factor = 10
@@ -402,7 +402,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_21stCenturyArmsRace
 		ai_will_do = {
 			factor = 10
@@ -421,7 +421,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_DataLinkArmyBuild
 		ai_will_do = {
 			factor = 10
@@ -440,7 +440,7 @@ focus_tree = {
 		}
 		x = 4
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_WarOrPeace
 		ai_will_do = {
 			factor = 10
@@ -478,7 +478,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_WarOrPeace
 		ai_will_do = {
 			factor = 10
@@ -500,7 +500,7 @@ focus_tree = {
 		}
 		x = -1
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_Superpower
 		ai_will_do = {
 			factor = 10
@@ -519,7 +519,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_ProjectDawn
 		ai_will_do = {
 			factor = 10
@@ -573,7 +573,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_Superpower
 		ai_will_do = {
 			factor = 10
@@ -593,7 +593,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_ProjectDawn
 		ai_will_do = {
 			factor = 10
@@ -662,7 +662,7 @@ focus_tree = {
 		}
 		x = -1
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_RefugeeIssue
 		ai_will_do = {
 			factor = 10
@@ -684,7 +684,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_DetainZone
 		ai_will_do = {
 			factor = 10
@@ -710,7 +710,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_RefugeeEnlistment
 		ai_will_do = {
 			factor = 10
@@ -745,7 +745,7 @@ focus_tree = {
 		}
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = USA_RefugeeIssue
 		ai_will_do = {
 			factor = 10
@@ -766,7 +766,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = USA_AcceptRefugees
 		ai_will_do = {
 			factor = 10
@@ -790,7 +790,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_NewHomeland
 		ai_will_do = {
 			factor = 10
@@ -811,7 +811,7 @@ focus_tree = {
 		}
 		x = -0.5
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_PeaceAboveElse
 		ai_will_do = {
 			factor = 10
@@ -852,7 +852,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_ContinentResourcesDev
 		ai_will_do = {
 			factor = 10
@@ -894,7 +894,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_ShaleOilProduction
 		ai_will_do = {
 			factor = 10
@@ -936,7 +936,7 @@ focus_tree = {
 		}
 		x = -3
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_asia_pacific_strategy
 		ai_will_do = {
 			factor = 10
@@ -953,7 +953,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_tokyo_treaty
 		ai_will_do = {
 			factor = 10
@@ -971,7 +971,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_repair_relation_with_japan
 		ai_will_do = {
 			factor = 10
@@ -989,7 +989,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_cooperation_with_japan
 		ai_will_do = {
 			factor = 10
@@ -1034,7 +1034,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_NATOSummit
 		ai_will_do = {
 			factor = 10
@@ -1085,7 +1085,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_NATOSummit
 		ai_will_do = {
 			factor = 1
@@ -1109,7 +1109,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_US_Euro_AfricaAlliance
 		ai_will_do = {
 			factor = 1
@@ -1156,7 +1156,7 @@ focus_tree = {
 		}
 		x = -1
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_AtlanticSupplyLine
 		ai_will_do = {
 			factor = 1
@@ -1198,7 +1198,7 @@ focus_tree = {
 		}
 		x = 1
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_AtlanticSupplyLine
 		ai_will_do = {
 			factor = 1
@@ -1287,7 +1287,7 @@ focus_tree = {
 		}
 		x = 1
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_SouthAfricaDevelopment
 		ai_will_do = {
 			factor = 1
@@ -1308,7 +1308,7 @@ focus_tree = {
 		}
 		x = 1
 		y = 3
-		cost = 5
+		cost = 4
 		relative_position_id = USA_UntouchableHomefront
 		ai_will_do = {
 			factor = 10
@@ -1326,7 +1326,7 @@ focus_tree = {
 		}
 		x = -1
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_AmericaFreeTradeTreaty
 		ai_will_do = {
 			factor = 10
@@ -1431,7 +1431,7 @@ focus_tree = {
 		}
 		x = 1
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_AmericaFreeTradeTreaty
 		ai_will_do = {
 			factor = 10
@@ -1515,7 +1515,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_SouthAmericaDevelopment
 		ai_will_do = {
 			factor = 10
@@ -1538,7 +1538,7 @@ focus_tree = {
 		}
 		x = 3
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_asia_pacific_strategy
 		ai_will_do = {
 			factor = 10
@@ -1561,7 +1561,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_cooperator_in_japan
 		ai_will_do = {
 			factor = 10
@@ -1584,7 +1584,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_alliance_across_the_sea
 		ai_will_do = {
 			factor = 10
@@ -1607,7 +1607,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_asia_pacific_base
 		ai_will_do = {
 			factor = 10
@@ -1627,7 +1627,7 @@ focus_tree = {
 		icon = GFX_goal_tripartite_pact
 		x = 24
 		y = 1
-		cost = 5
+		cost = 4
 		ai_will_do = {
 			factor = 10
 		}
@@ -1649,7 +1649,7 @@ focus_tree = {
 		}
 		x = -1
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_asia_pacific_strategy
 		ai_will_do = {
 			factor = 10
@@ -1672,7 +1672,7 @@ focus_tree = {
 		}
 		x = 1
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = USA_asia_pacific_strategy
 		ai_will_do = {
 			factor = 10
@@ -1695,7 +1695,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 2
-		cost = 5
+		cost = 4
 		relative_position_id = USA_asia_pacific_strategy
 		ai_will_do = {
 			factor = 10

@@ -18,7 +18,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_military
 		x = 3
 		y = 0
-		cost = 5
+		cost = 4
 		completion_reward = {
 			803 = {
 				add_building_construction = {
@@ -42,7 +42,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_I_1
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_research_slot = 1
 		}
@@ -59,7 +59,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_I_2
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -108,7 +108,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_I_3
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -157,7 +157,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_I_4
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			every_owned_state = {
 				limit = {
@@ -184,7 +184,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_I_4
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_research_slot = 1
 			add_ideas = EEA_I1
@@ -198,7 +198,7 @@ focus_tree = {
 		icon = GFX_focus_generic_strike_at_democracy1
 		x = 11
 		y = 0
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_political_power = 150
 		}
@@ -218,7 +218,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = EEA_P_2_B
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_political_power = 150
 		}
@@ -235,7 +235,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_2_A
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = land_doctrine
@@ -262,7 +262,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_2_A
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			if = {
 				limit = {
@@ -303,7 +303,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_2_A
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_research_slot = 1
 		}
@@ -326,7 +326,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_5_A
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_popularity = {
 				ideology = democratic
@@ -353,7 +353,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_6_A
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_stability = 0.1
 		}
@@ -370,7 +370,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_7_A
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_ideas = EEA_P1
 			EEA = {
@@ -396,7 +396,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = EEA_P_2_A
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_political_power = 150
 		}
@@ -413,7 +413,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_2_B
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = EEA_WTO
@@ -433,7 +433,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_3_B
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			# Buy TSF from soviet
 			add_political_power = -100
@@ -469,7 +469,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_3_B
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = land_doctrine
@@ -496,7 +496,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_3_B
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			every_owned_state = {
 				limit = {
@@ -525,7 +525,7 @@ focus_tree = {
 			focus = EEA_P_5_B
 			focus = EEA_P_6_B
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_ideas = EEA_P3
 		}
@@ -542,7 +542,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_P_7_B
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_ideas = EEA_P2
 			remove_ideas = {
@@ -568,7 +568,7 @@ focus_tree = {
 				is_controlled_by = EEA
 			}
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			set_capital = {
 				state = 64
@@ -592,7 +592,7 @@ focus_tree = {
 		icon = GFX_goal_support_fourth_int
 		x = 19
 		y = 0
-		cost = 5
+		cost = 4
 		completion_reward = {
 			army_experience = 100
 			navy_experience = 100
@@ -611,7 +611,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_M_1
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_ideas = EEA_M1
 		}
@@ -631,7 +631,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = EEA_M_3_B
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = land_doctrine
@@ -654,7 +654,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_M_3_A
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_ideas = EEA_M2
 		}
@@ -671,7 +671,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_M_4_A
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_ideas = SOV_ru7
 		}
@@ -691,7 +691,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = EEA_M_3_A
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = land_doctrine
@@ -714,7 +714,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_M_3_B
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_ideas = EEA_M3
 		}
@@ -731,7 +731,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_M_4_B
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_ideas = SOV_ru9
 		}
@@ -749,7 +749,7 @@ focus_tree = {
 			focus = EEA_M_5_A
 			focus = EEA_M_5_B
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			# Get TSF from UNI
 			add_political_power = -100
@@ -786,7 +786,7 @@ focus_tree = {
 		prerequisite = {
 			focus = EEA_M_6
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			remove_ideas = {
 				EEA_UNI

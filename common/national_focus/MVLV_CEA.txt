@@ -25,7 +25,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CEA_request
 		}
-		cost = 10
+		cost = 8
 		available = {
 			NOT = {
 				has_idea = betawar_situation_4
@@ -50,7 +50,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_start
 		}
-		cost = 10
+		cost = 4
 		#select_effect = { }
 		completion_reward = {
 			add_offsite_building = {
@@ -72,7 +72,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_man
 		}
-		cost = 15
+		cost = 8
 		#select_effect = { }
 		completion_reward = {
 			remove_ideas = SOA_happy
@@ -113,7 +113,7 @@ focus_tree = {
 		bypass = {
 			has_completed_focus = SOA_Unity
 		}
-		cost = 10
+		cost = 8
 		available = {
 			NOT = {
 				has_idea = betawar_situation_4
@@ -203,7 +203,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CEA_nouni
 		}
-		cost = 10
+		cost = 4
 		completion_reward = {
 			add_ideas = mvlv_license
 		}
@@ -220,7 +220,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_yesus
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_political_power = -300
 			if = {
@@ -256,7 +256,7 @@ focus_tree = {
 			focus = CEA_tsf
 		}
 		#mutually_exclusive = { focus = CEA_nowar }
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = land_doctrine
@@ -280,7 +280,7 @@ focus_tree = {
 			focus = CEA_tsf
 		}
 		#mutually_exclusive = { focus = CEA_yeswar }
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_stability = 0.2
 			add_political_power = 200
@@ -305,7 +305,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CEA_start
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_political_power = 300
 		}
@@ -322,7 +322,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_request
 		}
-		cost = 10
+		cost = 8
 		available = {
 			has_idea = betawar_situation_1
 		}
@@ -343,7 +343,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_request
 		}
-		cost = 10
+		cost = 8
 		available = {
 			has_idea = mvlv_saast
 		}
@@ -363,7 +363,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_refugee
 		}
-		cost = 10
+		cost = 8
 		available = {
 			has_idea = mvlv_saast
 		}
@@ -391,7 +391,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_conscription
 		}
-		cost = 10
+		cost = 8
 		available = {
 			has_idea = mvlv_saast
 		}
@@ -417,7 +417,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_UNI_forces
 		}
-		cost = 15
+		cost = 8
 		available = {
 			has_idea = mvlv_saast
 		}
@@ -439,11 +439,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_UNI_forces
 		}
+		cost = 8
 		available = {
 			is_subject = no
 			has_idea = mvlv_saast
 		}
-		cost = 10
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = land_doctrine
@@ -731,7 +731,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_DemandTSFProductionLicense
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_ideas = MVLV_gathered_researchers
 		}

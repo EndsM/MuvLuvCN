@@ -1,10 +1,14 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			初始化 = yes
+			# 初始化 = yes
+			UNI = {
+				news_event = mvlv_news.4
+			}
 			BET = {
 				country_event = mvlv_generic.99
 				country_event = mvlv_beta_eat.0
+				country_event = mvlv_init.0
 			}
 			every_country = {
 				全局参数设置 = yes
