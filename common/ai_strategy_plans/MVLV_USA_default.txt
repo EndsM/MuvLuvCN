@@ -5,6 +5,7 @@ USA_default = {
 	enable = {
 		# Allowed by default
 		# Can add more diversity that can be set in gamerule later
+		date > 1998.12.31
 	}
 	abort = {
 	}
