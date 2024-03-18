@@ -33,6 +33,7 @@ equipments = {
 
 	motorized_equipment_1 = {
 		year = 1936
+		active = yes
 
 		archetype = motorized_equipment
 		priority = 30			
