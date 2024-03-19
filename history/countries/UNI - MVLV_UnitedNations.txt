@@ -1475,7 +1475,7 @@ if = {
 			MVLV_TSF_leg_slot = MVLV_TSF_leg_blade_armor
 			MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_ammo
 		}
-		icon = "GFX_Rafale"
+		icon = "GFX_Rafale阵风"
 	}
 	create_equipment_variant = {
 		name = "幻影2000"
