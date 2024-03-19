@@ -33,9 +33,10 @@ country_event = {
 	immediate = {
 		IF = {
 			limit = {
-				check_variable = {
-					num_divisions > var_hive_divisions_1
-				}
+				# check_variable = {
+				# 	num_divisions > var_hive_divisions_1
+				# }
+				BETA陆军数量已到达当前巢穴等级上限 = yes
 				has_manpower > 2000000
 				NOT = {
 					has_idea = hive_thinning_state
@@ -49,9 +50,9 @@ country_event = {
 				remove_idea = hive_phase_1
 				add_idea = hive_phase_2
 			}
-			set_variable = {
-				BETA当前巢穴等级陆军上限 = var_hive_divisions_2
-			}
+			# set_variable = {
+			# 	BETA当前巢穴等级陆军上限 = var_hive_divisions_2
+			# }
 			BETA巢穴等级提升 = yes
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
@@ -60,9 +61,10 @@ country_event = {
 		}
 		IF = {
 			limit = {
-				check_variable = {
-					num_divisions > var_hive_divisions_2
-				}
+				BETA陆军数量已到达当前巢穴等级上限 = yes
+				# check_variable = {
+				# 	num_divisions > var_hive_divisions_2
+				# }
 				has_manpower > 4000000
 				NOT = {
 					has_idea = hive_thinning_state
@@ -76,9 +78,9 @@ country_event = {
 				remove_idea = hive_phase_2
 				add_idea = hive_phase_3
 			}
-			set_variable = {
-				BETA当前巢穴等级陆军上限 = var_hive_divisions_3
-			}
+			# set_variable = {
+			# 	BETA当前巢穴等级陆军上限 = var_hive_divisions_3
+			# }
 			BETA巢穴等级提升 = yes
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
@@ -87,9 +89,10 @@ country_event = {
 		}
 		IF = {
 			limit = {
-				check_variable = {
-					num_divisions > var_hive_divisions_3
-				}
+				BETA陆军数量已到达当前巢穴等级上限 = yes
+				# check_variable = {
+				# 	num_divisions > var_hive_divisions_3
+				# }
 				has_manpower > 8000000
 				NOT = {
 					has_idea = hive_thinning_state
@@ -103,9 +106,9 @@ country_event = {
 				remove_idea = hive_phase_3
 				add_idea = hive_phase_4
 			}
-			set_variable = {
-				BETA当前巢穴等级陆军上限 = var_hive_divisions_4
-			}
+			# set_variable = {
+			# 	BETA当前巢穴等级陆军上限 = var_hive_divisions_4
+			# }
 			BETA巢穴等级提升 = yes
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
@@ -114,9 +117,10 @@ country_event = {
 		}
 		IF = {
 			limit = {
-				check_variable = {
-					num_divisions > var_hive_divisions_4
-				}
+				BETA陆军数量已到达当前巢穴等级上限 = yes
+				# check_variable = {
+				# 	num_divisions > var_hive_divisions_4
+				# }
 				has_manpower > 14000000
 				NOT = {
 					has_idea = hive_thinning_state
@@ -130,9 +134,9 @@ country_event = {
 				remove_idea = hive_phase_4
 				add_idea = hive_phase_5
 			}
-			set_variable = {
-				BETA当前巢穴等级陆军上限 = var_hive_divisions_5
-			}
+			# set_variable = {
+			# 	BETA当前巢穴等级陆军上限 = var_hive_divisions_5
+			# }
 			BETA巢穴等级提升 = yes
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
@@ -141,9 +145,10 @@ country_event = {
 		}
 		IF = {
 			limit = {
-				check_variable = {
-					num_divisions > var_hive_divisions_5
-				}
+				BETA陆军数量已到达当前巢穴等级上限 = yes
+				# check_variable = {
+				# 	num_divisions > var_hive_divisions_5
+				# }
 				has_manpower > 20000000
 				NOT = {
 					has_idea = hive_thinning_state
@@ -157,9 +162,9 @@ country_event = {
 				remove_idea = hive_phase_5
 				add_idea = hive_phase_6
 			}
-			set_variable = {
-				BETA当前巢穴等级陆军上限 = var_hive_divisions_6
-			}
+			# set_variable = {
+			# 	BETA当前巢穴等级陆军上限 = var_hive_divisions_6
+			# }
 			BETA巢穴等级提升 = yes
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
@@ -168,9 +173,10 @@ country_event = {
 		}
 		IF = {
 			limit = {
-				check_variable = {
-					num_divisions > var_hive_divisions_6
-				}
+				BETA陆军数量已到达当前巢穴等级上限 = yes
+				# check_variable = {
+				# 	num_divisions > var_hive_divisions_6
+				# }
 				has_manpower > 40000000
 				NOT = {
 					has_idea = hive_thinning_state
@@ -192,9 +198,10 @@ country_event = {
 		}
 		IF = {
 			limit = {
-				check_variable = {
-					num_divisions > var_hive_divisions_7
-				}
+				BETA陆军数量已到达当前巢穴等级上限 = yes
+				# check_variable = {
+				# 	num_divisions > var_hive_divisions_7
+				# }
 				has_manpower > 60000000
 				NOT = {
 					has_idea = hive_thinning_state
@@ -216,9 +223,10 @@ country_event = {
 		}
 		IF = {
 			limit = {
-				check_variable = {
-					num_divisions > var_hive_divisions_8
-				}
+				BETA陆军数量已到达当前巢穴等级上限 = yes
+				# check_variable = {
+				# 	num_divisions > var_hive_divisions_8
+				# }
 				has_manpower > 80000000
 				NOT = {
 					has_idea = hive_thinning_state

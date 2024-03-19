@@ -11,7 +11,9 @@ country_event = {
 		# log = "开始刷兵"
 		if = {
 			limit = {
-				not = { has_idea = mvlv_aggressive_beta }
+				not = {
+					has_idea = mvlv_aggressive_beta
+				}
 				is_ai = yes
 			}
 			if = {
@@ -80,7 +82,6 @@ country_event = {
 # # 		}
 # # 	}
 # # }
-
 # # country_event = {
 # # 	id = mvlv_beta_production.2
 # # 	fire_only_once = no
@@ -106,7 +107,6 @@ country_event = {
 # # 		}
 # # 	}
 # # }
-
 country_event = {
 	id = mvlv_beta_production.3
 	fire_only_once = no
@@ -154,7 +154,6 @@ country_event = {
 # # 		}
 # # 	}
 # # }
-
 # # country_event = {
 # # 	id = mvlv_beta_production.4
 # # 	fire_only_once = no
