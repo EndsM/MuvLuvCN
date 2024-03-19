@@ -1,0 +1,35 @@
+由BETA占领 = {
+	OR = {
+		is_owned_by = BET
+		is_owned_by = H26
+		is_owned_by = H25
+		is_owned_by = H24
+		is_owned_by = H23
+		is_owned_by = H22
+		is_owned_by = H21
+		is_owned_by = H20
+		is_owned_by = H19
+		is_owned_by = H18
+		is_owned_by = H17
+		is_owned_by = H16
+		is_owned_by = H15
+		is_owned_by = H14
+		is_owned_by = H13
+		is_owned_by = H12
+		is_owned_by = H11
+		is_owned_by = H10
+		is_owned_by = H09
+		is_owned_by = H08
+		is_owned_by = H07
+		is_owned_by = H06
+		is_owned_by = H05
+		is_owned_by = H04
+		is_owned_by = H03
+		is_owned_by = H02
+	}
+}
+无人区 = {
+	has_dynamic_modifier = {
+		modifier = beta_no_pop_modifier
+	}
+}

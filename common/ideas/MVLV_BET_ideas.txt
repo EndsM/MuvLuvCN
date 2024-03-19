@@ -79,6 +79,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
+				#monthly_population = -1000
 				# weekly_manpower = 30000
 				weekly_manpower = 60000
 				army_attack_factor = -0.2
@@ -97,6 +98,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
+				#monthly_population = -1000
 				# weekly_manpower = 40000
 				weekly_manpower = 80000
 				army_attack_factor = -0.15
@@ -115,6 +117,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
+				#monthly_population = -1000
 				# weekly_manpower = 50000
 				weekly_manpower = 100000
 				army_attack_factor = -0.1
@@ -133,6 +136,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
+				#monthly_population = -1000
 				# weekly_manpower = 70000
 				weekly_manpower = 140000
 				army_core_attack_factor = 0.25
@@ -150,6 +154,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
+				#monthly_population = -1000
 				# weekly_manpower = 95000
 				weekly_manpower = 180000
 				army_attack_factor = 0.1
@@ -169,6 +174,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
+				#monthly_population = -1000
 				# weekly_manpower = 120000
 				weekly_manpower = 240000
 				army_attack_factor = 0.15
@@ -188,6 +194,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
+				#monthly_population = -1000
 				# weekly_manpower = 170000
 				weekly_manpower = 360000
 				army_attack_factor = 0.3
@@ -209,6 +216,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
+				#monthly_population = -1000
 				# weekly_manpower = 220000
 				weekly_manpower = 480000
 				army_attack_factor = 0.7
@@ -231,6 +239,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
+				#monthly_population = -1000
 				# weekly_manpower = 320000
 				weekly_manpower = 6400000
 				army_attack_factor = 0.8

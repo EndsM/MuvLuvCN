@@ -115,17 +115,19 @@ on_actions = {
 						is_in_faction_with = BET
 					}
 				}
-				add_offsite_building = {
-					type = arms_factory
-					level = FROM.FROM.arms_factory_level
-				}
-				add_offsite_building = {
-					type = arms_factory
-					level = FROM.FROM.industrial_complex_level
-				}
-				add_offsite_building = {
-					type = arms_factory
-					level = FROM.FROM.building_level@dockyard
+				ROOT = {
+					add_offsite_building = {
+						type = arms_factory
+						level = FROM.FROM.arms_factory_level
+					}
+					add_offsite_building = {
+						type = arms_factory
+						level = FROM.FROM.industrial_complex_level
+					}
+					add_offsite_building = {
+						type = arms_factory
+						level = FROM.FROM.building_level@dockyard
+					}
 				}
 				BET = {
 					add_offsite_building = {
@@ -154,106 +156,28 @@ on_actions = {
 						type = dockyard
 						level = building_level@dockyard
 					}
-				}
-				if = {
-					limit = {
-						FROM.FROM = {
-							OR = {
-								is_core_of = BET
-								is_core_of = H26
-								is_core_of = H25
-								is_core_of = H24
-								is_core_of = H23
-								is_core_of = H22
-								is_core_of = H21
-								is_core_of = H20
-								is_core_of = H19
-								is_core_of = H18
-								is_core_of = H17
-								is_core_of = H16
-								is_core_of = H15
-								is_core_of = H14
-								is_core_of = H13
-								is_core_of = H12
-								is_core_of = H11
-								is_core_of = H10
-								is_core_of = H09
-								is_core_of = H08
-								is_core_of = H07
-								is_core_of = H06
-								is_core_of = H05
-								is_core_of = H04
-								is_core_of = H03
-								is_core_of = H02
-							}
-							is_capital = yes
-						}
-					}
-					FROM.FROM = {
-						add_state_modifier = {
-							modifier = {
-								local_non_core_manpower = -1
-								local_manpower = -0.99
-							}
-						}
-					}
-					# while_loop_effect = {
-					# 	limit = {
-					# 		FROM.FROM = {
-					# 			check_variable = {
-					# 				state_population_k > 2000
-					# 			}
-					# 		}
-					# 	}
-					# 	FROM.FROM = {
-					# 		add_manpower = -2000000
-					# 	}
-					# }
-					# set_variable = {
-					# 	人口 = FROM.FROM.state_population
-					# }
-					# multiply_variable = {
-					# 	人口 = -1
-					# }
-					# FROM.FROM = {
-					# 	add_manpower = 人口
-					# 	add_manpower = 1000
-					# }
-				}
-				else = {
-					# while_loop_effect = {
-					# 	limit = {
-					# 		FROM.FROM = {
-					# 			check_variable = {
-					# 				state_population_k > 0
-					# 			}
-					# 		}
-					# 	}
-					# 	FROM.FROM = {
-					# 		add_manpower = -2000000
-					# 		add_manpower = -2000000
-					# 		add_manpower = -2000000
-					# 		add_manpower = -2000000
-					# 		add_manpower = -2000000
-					# 		add_manpower = -2000000
-					# 		add_manpower = -2000000
-					# 		add_manpower = -2000000
-					# 		add_manpower = -2000000
-					# 		add_manpower = -2000000
-					# 		set_state_category = betaland
-					# 	}
-					# }
-					FROM.FROM = {
-						add_state_modifier = {
-							modifier = {
-								local_non_core_manpower = -1
-								local_manpower = -1
-							}
-						}
-						set_state_category = betaland
+					人口清空 = yes
+					若为首都人口增加1000 = yes
+					add_dynamic_modifier = {
+						modifier = beta_no_pop_modifier
 					}
 				}
 			}
+			# else_if = {
+			# 	limit = { 
+			# 		FROM = {
+			# 			is_in_faction_with = BET
+			# 		}
+			# 		ROOT = {
+			# 			is_in_faction_with = UNI
+			# 		}
+			# 	}
+			# 	FROM.FROM = {
+			# 		remove_dynamic_modifier = {
+			# 			modifier = beta_no_pop_modifier
+			# 		}
+			# 	}
+			# }
 		}
 	}
 	on_capitulation = {

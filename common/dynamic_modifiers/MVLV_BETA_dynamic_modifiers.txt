@@ -1,0 +1,15 @@
+beta_no_pop_modifier= {
+	enable = {
+		always = yes
+	}
+	# remove_trigger = {
+	# 	check_variable = {
+	# 		state_population = 0
+	# 	}
+	# }
+	# local_manpower = -1
+	# local_non_core_manpower = -1
+	recruitable_population_factor = -10
+
+	icon = GFX_modifiers_demilitarize_zone
+}
