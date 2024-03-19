@@ -27,12 +27,12 @@ on_actions = {
 						id = mvlv_beta_atk.0
 						days = 30
 					}
-					if = {
-						limit = {
-							is_ai = no
-						}
-						# country_event = mvlv_beta_hum.0
-					}
+					# if = {0
+					# 	limit = {
+					# 		is_ai = no
+					# 	}
+					# 	# country_event = mvlv_beta_hum.0
+					# }
 					set_rule = {
 						can_puppet = no
 					}
