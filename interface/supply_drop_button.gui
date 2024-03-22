@@ -1,0 +1,35 @@
+guiTypes = {
+	containerWindowType = {
+		name = "supply_drop_button_container"
+		position = {x=0 y=80}
+		size = { width=270 height=280 }
+
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_BPT_areadef_conf_bg"
+		}
+
+		instantTextboxType = {
+			name = "title"
+			position = {x=14 y=6}
+			font = "hoi_18mbs"
+			text = "[This.GetName]"
+			pdx_tooltip = "TOTAL_AREA_TOOLTIP"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+		}
+
+		buttonType = {
+			name = "Supply_Drop" 
+			position ={x=20 y=35}  #{x=60 y=33}
+			spriteType = "GFX_decision_generic_intelligence_operation"
+			pdx_tooltip = "Supply_Drop_TOOLTIP"
+			scale = 1.1
+		}
+	}
+}

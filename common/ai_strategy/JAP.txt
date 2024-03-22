@@ -31,6 +31,16 @@ JAP_area_priority = {
 	}
 	ai_strategy = {
 		type = area_priority
+		id = japan
+		value = 100
+	}
+	ai_strategy = {
+		type = area_priority
+		id = sado
+		value = 100
+	}
+	ai_strategy = {
+		type = area_priority
 		id = cheorwon
 		value = 100
 	}
@@ -52,7 +62,7 @@ JAP_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = pacific
-		value = -200
+		value = -300
 	}
 	ai_strategy = {
 		type = area_priority

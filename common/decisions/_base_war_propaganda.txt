@@ -1,5 +1,5 @@
 propaganda_efforts = {
-	MUVLUV简史 = {
+	history_of_MUVLUV = {
 		icon = generic_prepare_civil_war
 		fire_only_once = no
 		days_re_enable = 1
@@ -9,6 +9,176 @@ propaganda_efforts = {
 		}
 		ai_will_do = {
 			base = 0
+		}
+	}
+	war_with_BETA = {
+		icon = GFX_decision_generic_army_support
+		fire_only_once = yes
+		activation = {
+			is_in_faction_with = UNI
+			has_war_with = BET
+		}
+		available = {
+			NOT = {
+				country_exists = H00
+				country_exists = H02
+				country_exists = H03
+				country_exists = H04
+				country_exists = H05
+				country_exists = H06
+				country_exists = H07
+				country_exists = H08
+				country_exists = H09
+				country_exists = H10
+				country_exists = H11
+				country_exists = H12
+				country_exists = H13
+				country_exists = H14
+				country_exists = H15
+				country_exists = H16
+				country_exists = H17
+				country_exists = H18
+				country_exists = H19
+				country_exists = H20
+				country_exists = H21
+				country_exists = H22
+				country_exists = H23
+				country_exists = H24
+				country_exists = H25
+				country_exists = H26
+				country_exists = BET
+			}
+		}
+		days_mission_timeout = 10000
+		complete_effect = {
+			if = {
+				limit = {
+					country_exists = EEA
+					country_exists = CEA
+					country_exists = SOA
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = UNI
+					}
+					country_event = mvlv_generic.1000
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						country_exists = EEA
+					}
+					country_exists = CEA
+					country_exists = SOA
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = UNI
+					}
+					country_event = mvlv_generic.1001
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						country_exists = EEA
+					}
+					NOT = {
+						country_exists = CEA
+					}
+					country_exists = SOA
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = UNI
+					}
+					country_event = mvlv_generic.1002
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						country_exists = EEA
+					}
+					country_exists = CEA
+					NOT = {
+						country_exists = SOA
+					}
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = UNI
+					}
+					country_event = mvlv_generic.1003
+				}
+			}
+			if = {
+				limit = {
+					country_exists = EEA
+					NOT = {
+						country_exists = CEA
+					}
+					country_exists = SOA
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = UNI
+					}
+					country_event = mvlv_generic.1004
+				}
+			}
+			if = {
+				limit = {
+					country_exists = EEA
+					country_exists = CEA
+					NOT = {
+						country_exists = SOA
+					}
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = UNI
+					}
+					country_event = mvlv_generic.1005
+				}
+			}
+		}
+		timeout_effect = {
+		}
+	}
+	平息矿难 = {
+		icon = GFX_decision_generic_army_support
+		fire_only_once = yes
+		activation = {
+			OR = {
+				is_in_faction_with = BET
+				tag = H00
+			}
+			has_war_with = UNI
+		}
+		available = {
+			NOT = {
+				country_exists = UNI
+				country_exists = USA
+				country_exists = SOV
+				country_exists = CHI
+				country_exists = AFR
+				country_exists = EUR
+				country_exists = EEA
+				country_exists = SOA
+				country_exists = CEA
+				country_exists = GEU
+				country_exists = CAN
+				country_exists = JAP
+				country_exists = OSE
+			}
+		}
+		days_mission_timeout = 10000
+		complete_effect = {
+			country_event = BETA.100
+		}
+		timeout_effect = {
 		}
 	}
 	war_propaganda = {

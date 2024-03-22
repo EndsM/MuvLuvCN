@@ -9,6 +9,9 @@ state={
 		13254
 	}
 
+	resources={
+		rubber=150
+	}
 	history={
 		owner = H00
 		add_core_of = H00

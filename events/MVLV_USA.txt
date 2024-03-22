@@ -81,6 +81,95 @@ country_event = {
 }
 
 country_event = {
+	id = mvlv_usa.7
+	desc = mvlv_usa.7.d
+	title = mvlv_usa.7.t
+	picture = GFX_mvlv_start_good
+	is_triggered_only = yes
+	option = {
+		name = mvlv_usa.7.a
+		army_experience = 50
+		add_political_power = 150
+		add_war_support = 0.1
+		if = {
+			limit = {
+				check_variable = {
+					global.var_generalDeathMode = 1
+				}
+			}
+			retire_character = USA_units_leader_1
+			USA_units_leader_13 = {
+				set_character_flag = 解锁沃肯中校
+			}
+		}
+	}
+}
+
+country_event = {
+	id = mvlv_usa.8
+	desc = mvlv_usa.8.d
+	title = mvlv_usa.8.t
+	picture = GFX_mvlv_usa8
+	is_triggered_only = yes
+	option = {
+		name = mvlv_usa.8.a
+		army_experience = 25
+		add_political_power = -50
+		add_war_support = -0.05
+		if = {
+			limit = {
+				check_variable = {
+					global.var_generalDeathMode = 1
+				}
+			}
+			retire_character = USA_units_leader_1
+		}
+	}
+}
+
+country_event = {
+	id = mvlv_usa.9
+	desc = mvlv_usa.9.d
+	title = mvlv_usa.9.t
+	picture = GFX_mvlv_jap14
+	is_triggered_only = yes
+	option = {
+		name = mvlv_usa.9.a
+		army_experience = 20
+		add_political_power = -100
+		add_war_support = -0.05
+		if = {
+			limit = {
+				check_variable = {
+					global.var_generalDeathMode = 1
+				}
+			}
+			retire_character = USA_units_leader_1
+		}
+	}
+}
+
+country_event = {
+	id = mvlv_usa.10
+	desc = mvlv_usa.10.d
+	title = mvlv_usa.10.t
+	picture = GFX_mvlv_jap15
+	is_triggered_only = yes
+	option = {
+		name = mvlv_usa.10.a
+		army_experience = 20
+		if = {
+			limit = {
+				check_variable = {
+					global.var_generalDeathMode = 1
+				}
+			}
+			retire_character = USA_units_leader_1
+		}
+	}
+}
+
+country_event = {
 	id = mvlv_usa.100
 	desc = mvlv_usa.100.d
 	title = mvlv_usa.100.t

@@ -90,11 +90,11 @@ H10_defend_doctrine = {
 		value = 100
 	}
 
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = H15
-		value = 100
-	}
+#	ai_strategy = {
+#		type = dont_defend_ally_borders
+#		id = H15
+#		value = 100
+#	}
 	
 	ai_strategy = {
 		type = dont_defend_ally_borders
@@ -131,6 +131,11 @@ H10_defend_doctrine = {
 		id = H21
 		value = 100
 	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H22
+		value = 100
+	}
 	
 	ai_strategy = {
 		type = dont_defend_ally_borders
@@ -138,6 +143,11 @@ H10_defend_doctrine = {
 		value = 100
 	}
 
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H24
+		value = 100
+	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H25
@@ -159,11 +169,11 @@ H10_frontline_def = {
 		date > 1998.12.31
 		original_tag = H10
 		
-		OR = {
-			H26 = { surrender_progress > 0.1 }
+		OR = {H25 = { surrender_progress > 0.5 }
+			#H26 = { surrender_progress > 0.1 }
 			any_state = {
-				is_owned_by = H25
-				NOT = { is_controlled_by = H25}
+				is_owned_by = H24
+				NOT = { is_controlled_by = H24}
 				is_capital = no
 			}
 			check_variable = { num_divisions > var_hive_aliment_H10 }
@@ -173,12 +183,12 @@ H10_frontline_def = {
 
 	ai_strategy = {
 		type = force_defend_ally_borders
-		Id = H25
+		Id = H15
 		value = 1
 	}
 	ai_strategy = {
 		type = force_defend_ally_borders
-		Id = H26
+		Id = H24
 		value = 1
 	}
 }

@@ -275,23 +275,23 @@ units  = {
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 7868
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 7868
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 7868
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}

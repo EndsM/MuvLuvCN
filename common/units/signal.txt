@@ -25,10 +25,10 @@ sub_units = {
 	
 		#Size Definitions
 		max_strength = 1
-		max_organisation = 20
+		max_organisation = 30
 		default_morale = 0.3
 		manpower = 500
-		training_time = 120
+		training_time = 40#120
 
 		#Misc Abilities
 		weight = 0.1

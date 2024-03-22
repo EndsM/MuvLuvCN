@@ -13,7 +13,7 @@ state={
 	history = { 1999.1.1 = { 
 			owner = H11
 			remove_core_of = H11
-			add_core_of = EUR
+			add_core_of = EEA
 			remove_core_of = ALB
 			remove_claim_by = ITA
 		}

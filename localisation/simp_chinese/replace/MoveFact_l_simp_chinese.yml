@@ -1,0 +1,17 @@
+﻿l_simp_chinese:
+
+ selectTargetState: "[THIS.GetName]"
+ showThisStateFactCount: "£GFX_conversion_mapicon_industry£  [?building_level@industrial_complex]        £GFX_conversion_mapicon_arms£  [?building_level@arms_factory]"
+
+ btnDoMoveFact: "转移"
+ tipFreeSlot: "§Y[THIS.GetName]§! 剩余的空槽位数量"
+ tipComeFact: "§G点击§!添加§Y1§!\n§GCtrl+点击§!添加§Y5§!\n§GShift+点击§!添加§Y10§!\n\n§G右击§!减去§Y1§!\n§GCtrl+右击§!减去§Y5§!\n§GShift+右击§!减去§Y10§!"
+ showComeFactCount: "共  §G[?THIS.comeFactCount]§!  ==>  "
+ showTargetState: "向[THIS.GetName]转移£GFX_conversion_mapicon_industry£  [?comeInduFactCount] £GFX_conversion_mapicon_arms£ [?comeMiliFactCount] 共[?THIS.comeFactCount]"
+ showTargetStateDelayed: "右击可定位到[THIS.GetName]"
+ tipDoMoveFact: "§Y[FROM.GetName]§!距离§Y[THIS.GetName]§!为[?THIS.distance_to@FROM|+],预计需要花费政治点数[?THIS.moveExpe|+]/厂,转移[?THIS.comeFactCount|+.0]工厂共需政治点数[?moveExpeTotal|+]"
+ tipDoMoveFactException: "§Y[?ROOT.currSelectedState.GetName]§!向§Y[?ROOT.currSelectedStateTarget.GetName]§!转移工厂数量出现异常，超过目标地区空余槽位数或多于本地工厂数，已重置"
+ tipDoMoveFactExceptionTitle: "§R转移数量异常§!"
+ tipBtnConfirm: "§G确定§!"
+
+ tipOpenMoveFact: "工业转移"

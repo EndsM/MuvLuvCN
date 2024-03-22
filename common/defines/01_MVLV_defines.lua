@@ -105,6 +105,7 @@ NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT=0.0005
 NDefines.NMilitary.MIN_SUPPLY_CONSUMPTION=0.001
 -- NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.4
 NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.2
+NDefines.NMilitary.COMBAT_STACKING_START = 1000
 --____________________________________________________________
 
 --NProduction

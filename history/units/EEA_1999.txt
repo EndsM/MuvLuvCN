@@ -48,19 +48,6 @@
 		}
 	}
 	division = {
-		name = "格拉芙小队"
-		location = 13244
-		division_template = "战术机大队"
-		start_experience_factor = 1
-		force_equipment_variants = {
-			MVLV_TSF_classis_2_light_normal = {
-				owner = "EEA"
-				creator = EEA
-				version_name = "MiG-29燕子"
-			}
-		}
-	}
-	division = {
 		location = 11047
 		division_template = "轻装师"
 		start_experience_factor = 0.2

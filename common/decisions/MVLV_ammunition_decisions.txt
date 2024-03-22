@@ -1,0 +1,194 @@
+MVLV_ammunition_decisions_categories = {
+	ammo_for_fire_suppression = {
+		icon = generic_operation
+		available = {
+			check_variable = {
+				ammunition_variable > month_ammo_need
+			}
+		}
+		days_remove = 30
+		days_re_enable = 7
+		visible = {
+			has_war_with = BET
+		}
+		ai_will_do = {
+			factor = 0
+			#modifier = {
+			#	add = 10
+			#	check_variable={ammunition_variable>800}
+			#}
+		}
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			subtract_from_variable = {
+				ammunition_variable = month_ammo_need
+			}
+		}
+		remove_effect = {
+		}
+		modifier = {
+			supply_consumption_factor = 0.5
+			out_of_supply_factor = 0.5
+			army_artillery_attack_factor = 1
+			army_artillery_defence_factor = 1
+		}
+	}
+	ammo_for_S11 = {
+		icon = generic_operation
+		available = {
+			check_variable = {
+				ammunition_variable > S11_month_ammo_need
+			}
+		}
+		days_remove = 15
+		days_re_enable = 15
+		visible = {
+			has_war_with = BET
+			check_variable = {
+				num_equipment_in_armies@MVLV_TSF_chassis > 1200
+			}
+		}
+		ai_will_do = {
+			factor = 0
+			#modifier = {
+			#	add = 10
+			#	check_variable={ammunition_variable>800}
+			#}
+		}
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			subtract_from_variable = {
+				ammunition_variable = S11_month_ammo_need
+			}
+			add_ideas = MVLV_S11
+		}
+		remove_effect = {
+			remove_ideas = MVLV_S11
+		}
+		modifier = {
+		}
+	}
+	ammo_for_AL = {
+		icon = generic_operation
+		available = {
+			check_variable = {
+				ammunition_variable > 100
+			}
+		}
+		days_remove = 15
+		days_re_enable = 0
+		visible = {
+			has_war_with = BET
+		}
+		ai_will_do = {
+			factor = 0
+			#modifier = {
+			#	add = 10
+			#	check_variable={ammunition_variable>800}
+			#}
+		}
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			subtract_from_variable = {
+				ammunition_variable = 100
+			}
+		}
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = MVLV_AL_shell_equipment_1
+				amount = 1000
+				producer = ROOT
+			}
+		}
+		modifier = {
+		}
+	}
+	ammo_for_SHELL = {
+		icon = generic_operation
+		available = {
+			check_variable = {
+				ammunition_variable > 500
+			}
+		}
+		days_remove = 30
+		days_re_enable = 0
+		visible = {
+			has_war_with = BET
+		}
+		ai_will_do = {
+			factor = 0
+			#modifier = {
+			#	add = 10
+			#	check_variable={ammunition_variable>800}
+			#}
+		}
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			subtract_from_variable = {
+				ammunition_variable = 500
+			}
+		}
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = MVLV_shell_equipment
+				amount = 1000
+				producer = ROOT
+			}
+		}
+		modifier = {
+		}
+	}
+	ammo_trade = {
+		icon = generic_operation
+		available = {
+			has_war_with = BET
+			is_in_faction_with = UNI
+			FROM = {
+				check_variable = {
+					ammunition_variable > 1000
+				}
+			}
+		}
+		days_remove = 7
+		days_re_enable = 30
+		visible = {
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 10
+				check_variable = {
+					ammunition_variable < 100
+				}
+			}
+		}
+		cost = 50
+		fire_only_once = no
+		target_trigger = {
+			FROM = {
+				is_in_faction_with = ROOT
+				has_war_with = BET
+			}
+		}
+		complete_effect = {
+			FROM = {
+				subtract_from_variable = {
+					ammunition_variable = 500
+				}
+				add_political_power = 50
+				army_experience = 50
+			}
+			ROOT = {
+				add_to_variable = {
+					ammunition_variable = 500
+				}
+			}
+		}
+		modifier = {
+		}
+	}
+}

@@ -17,8 +17,12 @@ country_event = {
 			add_dynamic_modifier = {
 				modifier = "上位存在的意志"
 			}
-			set_variable = {上位存在的意志攻击 = 0}
-			set_variable = {上位存在的意志防御 = 0}
+			set_variable = {
+				上位存在的意志攻击 = 0
+			}
+			set_variable = {
+				上位存在的意志防御 = 0
+			}
 			country_event = {
 				id = mvlv_beta_hum.1
 				days = 40
@@ -33,8 +37,11 @@ country_event = {
 	is_triggered_only = yes
 	hidden = yes
 	trigger = {
+		NOT = {
+			has_idea = BET_broken_original_hive
+		}
 		is_in_faction_with = BET
-		# is_ai = no
+		is_ai = no
 	}
 	# mean_time_to_happen = {
 	# 	days = 20

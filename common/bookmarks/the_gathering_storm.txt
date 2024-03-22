@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "1999_START_NAME"
 		desc = "1999_START_DESC"
-		date = 1999.1.1.1
+		date = 1999.8.7.1
 		picture = "GFX_select_date_1999"
 		default_country = "JAP"
 		default = yes
@@ -64,9 +64,9 @@ bookmarks = {
 				SOV_warlord
 			}
 			focuses = {
-				SOV_main
-				SOV_rs19
-				SOV_rs4
+				SOV_AnotherFiveYearPlan
+				SOV_EnhanceControl
+				SOV_ForMotherRussia
 			}
 		}
 		"GEU" = {
@@ -94,7 +94,7 @@ bookmarks = {
 			focuses = {
 				BET_human_game
 				BET_ending_game
-				BET_broken_original_hive
+				# BET_broken_original_hive
 			}
 		}
 		"---" = {
@@ -149,7 +149,7 @@ bookmarks = {
 			ideas = {
 				CHI_overseas_chinese_network
 				CHI_one_country_two_systems
-				mvlv_parmanen
+				mvlv_parmanent
 			}
 			focuses = {
 				CHI_idea_12_L1

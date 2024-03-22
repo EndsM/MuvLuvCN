@@ -26,7 +26,7 @@ focus_tree = {
 		}
 		x = 20
 		y = 0
-		cost = 5
+		cost = 4
 		available_if_capitulated = yes
 		completion_reward = {
 			add_political_power = 100
@@ -48,7 +48,7 @@ focus_tree = {
 		}
 		x = -8
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_first
 		available_if_capitulated = yes
 		completion_reward = {
@@ -84,7 +84,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = ose_eco
 		available_if_capitulated = yes
 		completion_reward = {
@@ -104,7 +104,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_eco2_1
 		available_if_capitulated = yes
 		completion_reward = {
@@ -137,23 +137,36 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_eco2_1
 		available_if_capitulated = yes
 		completion_reward = {
 			add_stability = -0.1
 			army_experience = 50
-			add_tech_bonus = {
-				bonus = 2.5
-				uses = 1
-				name = mech_army_bonus
-				category = MVLV_tsf_tech
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_tech_bonus = {
+					bonus = 2
+					uses = 1
+					category = MVLV_tsf_tech
+				}
 			}
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				name = mech_army_bonus
-				category = MVLV_tsf_tech			}
+			else = {
+				add_tech_bonus = {
+					bonus = 2.5
+					uses = 1
+					name = mech_army_bonus
+					technology = generic_F-18EF
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 1
+					name = mech_army_bonus
+					technology = generic_F-18HMRV
+				}
+			}
 		}
 	}
 	focus = {
@@ -168,7 +181,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_eco2_1
 		available_if_capitulated = yes
 		completion_reward = {
@@ -251,7 +264,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_eco2_3
 		available_if_capitulated = yes
 		completion_reward = {
@@ -352,7 +365,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_eco2_3
 		available_if_capitulated = yes
 		completion_reward = {
@@ -453,7 +466,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_eco2_3
 		available_if_capitulated = yes
 		completion_reward = {
@@ -462,49 +475,49 @@ focus_tree = {
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 6
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -527,7 +540,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_eco2_6
 		available_if_capitulated = yes
 		completion_reward = {
@@ -566,7 +579,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_eco2_6
 		available_if_capitulated = yes
 		completion_reward = {
@@ -588,7 +601,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_eco2_6
 		available_if_capitulated = yes
 		completion_reward = {
@@ -606,7 +619,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 15
+		cost = 12
 		relative_position_id = ose_eco2_9
 		available_if_capitulated = yes
 		completion_reward = {
@@ -625,7 +638,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_eco2_11
 		available_if_capitulated = yes
 		completion_reward = {
@@ -644,7 +657,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_eco2_11
 		available_if_capitulated = yes
 		completion_reward = {
@@ -665,7 +678,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		cost = 15
+		cost = 12
 		relative_position_id = ose_eco2_12
 		available_if_capitulated = yes
 		completion_reward = {
@@ -685,7 +698,7 @@ focus_tree = {
 		}
 		x = 5
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_first
 		available_if_capitulated = yes
 		completion_reward = {
@@ -703,7 +716,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_war
 		available_if_capitulated = yes
 		completion_reward = {
@@ -723,7 +736,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_war3_1
 		available_if_capitulated = yes
 		completion_reward = {
@@ -747,7 +760,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_war3_1
 		available_if_capitulated = yes
 		completion_reward = {
@@ -771,7 +784,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_war3_1
 		available_if_capitulated = yes
 		completion_reward = {
@@ -798,7 +811,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_war3_3
 		available_if_capitulated = yes
 		completion_reward = {
@@ -824,7 +837,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_war3_3
 		available_if_capitulated = yes
 		completion_reward = {
@@ -845,7 +858,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_war3_3
 		available_if_capitulated = yes
 		completion_reward = {
@@ -890,7 +903,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_war3_6
 		available_if_capitulated = yes
 		completion_reward = {
@@ -911,7 +924,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_war3_6
 		available_if_capitulated = yes
 		completion_reward = {
@@ -932,7 +945,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		cost = 10
+		cost = 8
 		relative_position_id = ose_war3_6
 		available_if_capitulated = yes
 		completion_reward = {
@@ -950,7 +963,7 @@ focus_tree = {
 		#mutually_exclusive = { focus = ose_war3_9 focus = ose_war3_8}
 		x = 0
 		y = 1
-		cost = 20
+		cost = 15
 		relative_position_id = ose_war3_9
 		available_if_capitulated = yes
 		completion_reward = {
@@ -984,7 +997,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 2
-		cost = 5
+		cost = 4
 		relative_position_id = ose_first
 		available_if_capitulated = yes
 		completion_reward = {
@@ -1008,7 +1021,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = ose_ghard1
 		available_if_capitulated = yes
 		completion_reward = {
@@ -1027,7 +1040,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = ose_ghard1
 		available_if_capitulated = yes
 		completion_reward = {
@@ -1166,7 +1179,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = ose_ghard2
 		available_if_capitulated = yes
 		completion_reward = {
@@ -1215,7 +1228,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 4
 		relative_position_id = ose_ghard3
 		available_if_capitulated = yes
 		completion_reward = {

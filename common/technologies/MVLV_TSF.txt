@@ -1,6 +1,7 @@
 technologies = {
 	MVLV_research_basic_tsf_framework = {
-		research_cost = 3
+		research_cost =1.5# 3
+
 		start_year = 1973
 		enable_equipments = {
 			MVLV_TSF_classis_0
@@ -31,7 +32,8 @@ technologies = {
 		}
 	}
 	MVLV_research_tsf_1_light_framework = {
-		research_cost = 3
+		research_cost =2# 3
+
 		start_year = 1973
 		enable_equipments = {
 			MVLV_TSF_classis_1_light
@@ -143,7 +145,8 @@ technologies = {
 		}
 	}
 	MVLV_research_A6 = {
-		research_cost = 3
+		research_cost =1.5# 3
+
 		enable_equipments = {
 			asa_equipment_A-6
 		}
@@ -167,7 +170,8 @@ technologies = {
 		}
 	}
 	MVLV_research_A10 = {
-		research_cost = 3
+		research_cost =1.5# 3
+
 		enable_equipments = {
 			tsa_equipment_A-10
 		}
@@ -187,7 +191,7 @@ technologies = {
 		}
 	}
 	MVLV_research_A10C = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipments = {
 			tsa_equipment_A-10C
 		}
@@ -208,7 +212,8 @@ technologies = {
 		}
 	}
 	MVLV_research_A12 = {
-		research_cost = 3
+		research_cost =2# 3
+
 		enable_equipments = {
 			asa_equipment_A-12
 		}
@@ -224,7 +229,7 @@ technologies = {
 		}
 	}
 	MVLV_research_tsf_2_light_normal_framework = {
-		research_cost = 3
+		research_cost =2# 3
 		enable_equipments = {
 			MVLV_TSF_classis_2_light_normal
 		}
@@ -272,7 +277,7 @@ technologies = {
 		}
 	}
 	MVLV_research_tsf_2_light_high_mobility_framework = {
-		research_cost = 3
+		research_cost =2# 3
 		enable_equipments = {
 			MVLV_TSF_classis_2_light_high_mobility
 		}
@@ -320,7 +325,7 @@ technologies = {
 		}
 	}
 	MVLV_research_tsf_2_heavy_normal_framework = {
-		research_cost = 3
+		research_cost =2# 3
 		enable_equipments = {
 			MVLV_TSF_classis_2_heavy_normal
 		}
@@ -368,7 +373,7 @@ technologies = {
 		}
 	}
 	MVLV_research_tsf_2_heavy_high_mobility_framework = {
-		research_cost = 3
+		research_cost =2# 3
 		enable_equipments = {
 			MVLV_TSF_classis_2_heavy_high_mobility
 		}
@@ -416,7 +421,7 @@ technologies = {
 		}
 	}
 	MVLV_research_tsf_3_light_normal_framework = {
-		research_cost = 3
+		research_cost =2.5# 3
 		enable_equipments = {
 			MVLV_TSF_classis_3_light_normal
 		}
@@ -436,7 +441,7 @@ technologies = {
 		}
 	}
 	MVLV_research_tsf_3_light_high_mobility_framework = {
-		research_cost = 3
+		research_cost =2.5# 3
 		enable_equipments = {
 			MVLV_TSF_classis_3_light_high_mobility
 		}
@@ -456,7 +461,7 @@ technologies = {
 		}
 	}
 	MVLV_research_tsf_3_heavy_normal_framework = {
-		research_cost = 3
+		research_cost =2.5# 3
 		enable_equipments = {
 			MVLV_TSF_classis_3_heavy_normal
 		}
@@ -476,7 +481,7 @@ technologies = {
 		}
 	}
 	MVLV_research_tsf_3_heavy_high_mobility_framework = {
-		research_cost = 3
+		research_cost =2.5# 3
 		enable_equipments = {
 			MVLV_TSF_classis_3_heavy_high_mobility
 		}
@@ -496,7 +501,7 @@ technologies = {
 		}
 	}
 	MVLV_research_tsf_3_light_normal_stealth_framework = {
-		research_cost = 3
+		research_cost = 2.5
 		enable_equipments = {
 			MVLV_TSF_classis_3_light_normal_stealth
 		}
@@ -516,7 +521,7 @@ technologies = {
 		}
 	}
 	MVLV_research_tsf_3_light_high_mobility_stealth_framework = {
-		research_cost = 3
+		research_cost = 2.5
 		enable_equipments = {
 			MVLV_TSF_classis_3_light_high_mobility_stealth
 		}
@@ -536,7 +541,7 @@ technologies = {
 		}
 	}
 	MVLV_research_tsf_3_heavy_normal_stealth_framework = {
-		research_cost = 3
+		research_cost = 2.5
 		enable_equipments = {
 			MVLV_TSF_classis_3_heavy_normal_stealth
 		}
@@ -556,7 +561,7 @@ technologies = {
 		}
 	}
 	MVLV_research_tsf_3_heavy_high_mobility_stealth_framework = {
-		research_cost = 3
+			research_cost = 2.5
 		enable_equipments = {
 			MVLV_TSF_classis_3_heavy_high_mobility_stealth
 		}
@@ -593,7 +598,7 @@ technologies = {
 		}
 	}
 	MVLV_research_basic_sensor_system = {
-		research_cost = 3
+		research_cost =0.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_sensor_open
 			MVLV_TSF_basic_sensor_system
@@ -639,7 +644,7 @@ technologies = {
 		force_use_small_tech_layout = yes
 	}
 	MVLV_research_vibration_sensor_1 = {
-		research_cost = 3
+		research_cost =0.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_vibration_sensor_1
 		}
@@ -664,7 +669,7 @@ technologies = {
 		}
 	}
 	MVLV_research_vibration_sensor_2 = {
-		research_cost = 3
+		research_cost =0.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_vibration_sensor_2
 		}
@@ -689,7 +694,7 @@ technologies = {
 		}
 	}
 	MVLV_research_vibration_sensor_3 = {
-		research_cost = 3
+		research_cost =0.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_vibration_sensor_3
 		}
@@ -714,7 +719,7 @@ technologies = {
 		}
 	}
 	MVLV_research_vibration_sensor_4 = {
-		research_cost = 3
+		research_cost =0.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_vibration_sensor_4
 		}
@@ -735,7 +740,7 @@ technologies = {
 		}
 	}
 	MVLV_research_infrared_sensor_1 = {
-		research_cost = 3
+		research_cost =0.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_infrared_sensor_1
 		}
@@ -760,7 +765,7 @@ technologies = {
 		}
 	}
 	MVLV_research_infrared_sensor_2 = {
-		research_cost = 3
+		research_cost =0.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_infrared_sensor_2
 		}
@@ -831,7 +836,7 @@ technologies = {
 		}
 	}
 	MVLV_research_photo_sensor_1 = {
-		research_cost = 3
+		research_cost =0.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_photo_sensor_1
 		}
@@ -856,7 +861,7 @@ technologies = {
 		}
 	}
 	MVLV_research_photo_sensor_2 = {
-		research_cost = 3
+		research_cost =0.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_photo_sensor_2
 		}
@@ -927,7 +932,7 @@ technologies = {
 		}
 	}
 	MVLV_research_radar_sensor_1 = {
-		research_cost = 3
+		research_cost =0.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_radar_sensor_1
 			MVLV_TSF_shoulder_ex_radar_1
@@ -953,7 +958,7 @@ technologies = {
 		}
 	}
 	MVLV_research_radar_sensor_2 = {
-		research_cost = 3
+		research_cost =0.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_radar_sensor_2
 			MVLV_TSF_shoulder_ex_radar_2
@@ -1027,7 +1032,8 @@ technologies = {
 		}
 	}
 	MVLV_research_integrated_sensor_1 = {
-		research_cost = 3
+		research_cost =0.5# 3
+
 		enable_equipment_modules = {
 			MVLV_TSF_integrated_sensor_1
 		}
@@ -1055,7 +1061,8 @@ technologies = {
 		}
 	}
 	MVLV_research_integrated_sensor_2 = {
-		research_cost = 3
+		research_cost =0.5# 3
+
 		enable_equipment_modules = {
 			MVLV_TSF_integrated_sensor_2
 		}
@@ -1136,7 +1143,7 @@ technologies = {
 		}
 	}
 	MVLV_research_basic_assault_cannon = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_basic_assault_cannon
 		}
@@ -1161,7 +1168,7 @@ technologies = {
 		# }
 	}
 	MVLV_research_assault_cannon_1_close = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_assault_cannon_1_close
 		}
@@ -1190,7 +1197,8 @@ technologies = {
 		# }
 	}
 	MVLV_research_assault_cannon_1_normal = {
-		research_cost = 3
+		research_cost =1.5# 3
+
 		enable_equipment_modules = {
 			MVLV_TSF_assault_cannon_1_normal
 		}
@@ -1215,7 +1223,8 @@ technologies = {
 		}
 	}
 	MVLV_research_assault_cannon_2_normal = {
-		research_cost = 3
+		research_cost =1.5# 3
+
 		enable_equipment_modules = {
 			MVLV_TSF_assault_cannon_2_normal
 		}
@@ -1240,7 +1249,7 @@ technologies = {
 		}
 	}
 	MVLV_research_assault_cannon_3_close = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_assault_cannon_3_close
 		}
@@ -1310,7 +1319,7 @@ technologies = {
 		}
 	}
 	MVLV_research_basic_armor = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_no_armor
 		}
@@ -1331,7 +1340,7 @@ technologies = {
 		}
 	}
 	MVLV_research_armor_heavy_alloy = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_armor_heavy_alloy
 			MVLV_TSF_shoulder_ex_armor_heavy_alloy
@@ -1353,7 +1362,7 @@ technologies = {
 		}
 	}
 	MVLV_research_armor_composite = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_armor_composite
 			MVLV_TSF_shoulder_ex_armor_composite
@@ -1375,7 +1384,7 @@ technologies = {
 		}
 	}
 	MVLV_research_armor_light_composite = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_armor_light_composite
 			MVLV_TSF_shoulder_ex_armor_light_composite
@@ -1397,7 +1406,7 @@ technologies = {
 		}
 	}
 	MVLV_research_armor_light_self_repair = {
-		research_cost = 3
+		research_cost =2# 3
 		enable_equipment_modules = {
 			MVLV_TSF_armor_light_self_repair
 			MVLV_TSF_shoulder_ex_light_self_repair
@@ -1415,7 +1424,7 @@ technologies = {
 		}
 	}
 	MVLV_research_fire_control_upd_1 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_fire_control_upd_1
 		}
@@ -1436,7 +1445,7 @@ technologies = {
 		}
 	}
 	MVLV_research_fire_control_upd_2 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_fire_control_upd_2
 		}
@@ -1457,7 +1466,7 @@ technologies = {
 		}
 	}
 	MVLV_research_fire_control_upd_3 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_fire_control_upd_3
 		}
@@ -1478,7 +1487,7 @@ technologies = {
 		}
 	}
 	MVLV_research_fire_control_upd_4 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_fire_control_upd_4
 		}
@@ -1495,7 +1504,7 @@ technologies = {
 		}
 	}
 	MVLV_research_basic_OS = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_no_OS
 			MVLV_TSF_basic_OS
@@ -1525,7 +1534,7 @@ technologies = {
 		}
 	}
 	MVLV_research_OS_1 = {
-		research_cost = 3
+		research_cost =2# 3
 		enable_equipment_modules = {
 			MVLV_TSF_OS_1_normal
 		}
@@ -1554,7 +1563,7 @@ technologies = {
 		}
 	}
 	MVLV_research_OS_2 = {
-		research_cost = 3
+		research_cost =2# 3
 		enable_equipment_modules = {
 			MVLV_TSF_OS_2_normal
 		}
@@ -1583,7 +1592,7 @@ technologies = {
 		}
 	}
 	MVLV_research_OS_3 = {
-		research_cost = 3
+		research_cost =2# 3
 		enable_equipment_modules = {
 			MVLV_TSF_OS_3_normal
 		}
@@ -1612,7 +1621,7 @@ technologies = {
 		}
 	}
 	MVLV_research_OS_4 = {
-		research_cost = 3
+		research_cost =2# 3
 		start_year = 2005
 		enable_equipment_modules = {
 			MVLV_TSF_OS_4_normal
@@ -1638,7 +1647,7 @@ technologies = {
 		#}
 	}
 	MVLV_research_basic_OS_close = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_basic_OS_close
 		}
@@ -1655,7 +1664,7 @@ technologies = {
 		}
 	}
 	MVLV_research_OS_1_close = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_OS_1_close
 		}
@@ -1672,7 +1681,7 @@ technologies = {
 		}
 	}
 	MVLV_research_OS_2_close = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_OS_2_close
 		}
@@ -1723,7 +1732,7 @@ technologies = {
 		}
 	}
 	MVLV_research_basic_OS_range = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_basic_OS_range
 		}
@@ -1740,7 +1749,7 @@ technologies = {
 		}
 	}
 	MVLV_research_OS_1_range = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_OS_1_range
 		}
@@ -1808,7 +1817,7 @@ technologies = {
 		}
 	}
 	MVLV_research_basic_engine = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_no_engine
 			MVLV_TSF_basic_engine
@@ -1845,23 +1854,23 @@ technologies = {
 		#	research_cost_coeff = 1
 		#}
 	}
-	MVLV_research_basic_engine_fuel_efficiency = {
-		research_cost = 3
-		enable_equipment_modules = {
-			MVLV_TSF_basic_engine_fuel_efficiency
-		}
-		categories = {
-			MVLV_tsf_tech
-			MVLV_tsf_module_tech
-		}
-		folder = {
-			name = MVLV_tsf_folder
-			position = {
-				x = -10
-				y = 30				#28
-			}
-		}
-	}
+	# MVLV_research_basic_engine_fuel_efficiency = {
+	# 	research_cost = 3
+	# 	enable_equipment_modules = {
+	# 		MVLV_TSF_basic_engine_fuel_efficiency
+	# 	}
+	# 	categories = {
+	# 		MVLV_tsf_tech
+	# 		MVLV_tsf_module_tech
+	# 	}
+	# 	folder = {
+	# 		name = MVLV_tsf_folder
+	# 		position = {
+	# 			x = -10
+	# 			y = 30				#28
+	# 		}
+	# 	}
+	# }
 	#MVLV_research_basic_engine_mid_speed_cruising = {
 	#	research_cost =1.5# 3
 	#	enable_equipment_modules = {
@@ -1875,42 +1884,42 @@ technologies = {
 	#		}
 	#	}
 	#}
-	MVLV_research_basic_engine_high_speed_cruising = {
-		research_cost = 3
-		enable_equipment_modules = {
-			MVLV_TSF_basic_engine_high_speed_cruising
-		}
-		categories = {
-			MVLV_tsf_tech
-			MVLV_tsf_module_tech
-		}
-		folder = {
-			name = MVLV_tsf_folder
-			position = {
-				x = -10
-				y = 32
-			}
-		}
-	}
-	MVLV_research_basic_engine_max_power = {
-		research_cost = 3
-		enable_equipment_modules = {
-			MVLV_TSF_basic_engine_max_power
-		}
-		categories = {
-			MVLV_tsf_tech
-			MVLV_tsf_module_tech
-		}
-		folder = {
-			name = MVLV_tsf_folder
-			position = {
-				x = -10
-				y = 34
-			}
-		}
-	}
+	# MVLV_research_basic_engine_high_speed_cruising = {
+	# 	research_cost = 3
+	# 	enable_equipment_modules = {
+	# 		MVLV_TSF_basic_engine_high_speed_cruising
+	# 	}
+	# 	categories = {
+	# 		MVLV_tsf_tech
+	# 		MVLV_tsf_module_tech
+	# 	}
+	# 	folder = {
+	# 		name = MVLV_tsf_folder
+	# 		position = {
+	# 			x = -10
+	# 			y = 32
+	# 		}
+	# 	}
+	# }
+	# MVLV_research_basic_engine_max_power = {
+	# 	research_cost = 3
+	# 	enable_equipment_modules = {
+	# 		MVLV_TSF_basic_engine_max_power
+	# 	}
+	# 	categories = {
+	# 		MVLV_tsf_tech
+	# 		MVLV_tsf_module_tech
+	# 	}
+	# 	folder = {
+	# 		name = MVLV_tsf_folder
+	# 		position = {
+	# 			x = -10
+	# 			y = 34
+	# 		}
+	# 	}
+	# }
 	MVLV_research_engine_1 = {
-		research_cost = 3
+		research_cost =2# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_1
 			MVLV_TSF_waist_ex_thruster_1
@@ -1950,7 +1959,7 @@ technologies = {
 		}
 	}
 	MVLV_research_engine_1_fuel_efficiency = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_1_fuel_efficiency
 		}
@@ -1984,7 +1993,7 @@ technologies = {
 		}
 	}
 	MVLV_research_engine_1_high_speed_cruising = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_1_high_speed_cruising
 		}
@@ -2001,7 +2010,7 @@ technologies = {
 		}
 	}
 	MVLV_research_engine_1_max_power = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_1_max_power
 		}
@@ -2018,7 +2027,7 @@ technologies = {
 		}
 	}
 	MVLV_research_engine_2 = {
-		research_cost = 3
+		research_cost =2# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_2
 			MVLV_TSF_waist_ex_thruster_2
@@ -2058,7 +2067,7 @@ technologies = {
 		}
 	}
 	MVLV_research_engine_2_fuel_efficiency = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_2_fuel_efficiency
 		}
@@ -2092,7 +2101,7 @@ technologies = {
 		}
 	}
 	MVLV_research_engine_2_high_speed_cruising = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_2_high_speed_cruising
 		}
@@ -2109,7 +2118,7 @@ technologies = {
 		}
 	}
 	MVLV_research_engine_2_max_power = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_2_max_power
 		}
@@ -2126,7 +2135,7 @@ technologies = {
 		}
 	}
 	MVLV_research_engine_3 = {
-		research_cost = 3
+		research_cost =2# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_3
 			MVLV_TSF_waist_ex_thruster_3
@@ -2166,7 +2175,7 @@ technologies = {
 		}
 	}
 	MVLV_research_engine_3_fuel_efficiency = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_3_fuel_efficiency
 		}
@@ -2200,7 +2209,7 @@ technologies = {
 		}
 	}
 	MVLV_research_engine_3_high_speed_cruising = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_3_high_speed_cruising
 		}
@@ -2217,7 +2226,7 @@ technologies = {
 		}
 	}
 	MVLV_research_engine_3_max_power = {
-		research_cost = 3
+		research_cost =1# 3
 		enable_equipment_modules = {
 			MVLV_TSF_engine_3_max_power
 		}
@@ -2323,7 +2332,7 @@ technologies = {
 	#	}
 	#}
 	MVLV_research_basic_head = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_basic_head
 		}
@@ -2352,7 +2361,7 @@ technologies = {
 		}
 	}
 	MVLV_research_head_small_1 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_head_small_1
 		}
@@ -2373,7 +2382,7 @@ technologies = {
 		}
 	}
 	MVLV_research_head_small_2 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_head_small_2
 		}
@@ -2394,7 +2403,7 @@ technologies = {
 		}
 	}
 	MVLV_research_head_small_3 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_head_small_3
 		}
@@ -2415,7 +2424,7 @@ technologies = {
 		}
 	}
 	MVLV_research_head_small_4 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_head_small_4
 		}
@@ -2432,7 +2441,7 @@ technologies = {
 		}
 	}
 	MVLV_research_head_normal_1 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_head_normal_1
 		}
@@ -2453,7 +2462,7 @@ technologies = {
 		}
 	}
 	MVLV_research_head_normal_2 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_head_normal_2
 		}
@@ -2533,7 +2542,7 @@ technologies = {
 		}
 	}
 	MVLV_research_head_spherical_2 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_head_spherical_2
 		}
@@ -2592,7 +2601,7 @@ technologies = {
 		}
 	}
 	MVLV_research_basic_back_hanger = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_basic_back_hanger
 		}
@@ -2621,7 +2630,7 @@ technologies = {
 		}
 	}
 	MVLV_research_back_upside_hanger = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_back_upside_hanger
 		}
@@ -2642,7 +2651,7 @@ technologies = {
 		}
 	}
 	MVLV_research_back_downside_hanger = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_back_downside_hanger
 		}
@@ -2663,7 +2672,7 @@ technologies = {
 		}
 	}
 	MVLV_research_back_gunblade_hanger_1 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_back_gunblade_hanger_1
 		}
@@ -2684,7 +2693,7 @@ technologies = {
 		}
 	}
 	MVLV_research_back_gunblade_hanger_2 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_back_gunblade_hanger_2
 		}
@@ -2722,7 +2731,7 @@ technologies = {
 		}
 	}
 	MVLV_research_back_supply_hanger = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_back_supply_hanger
 		}
@@ -2752,7 +2761,7 @@ technologies = {
 	# 	}
 	# }
 	MVLV_research_phoenix_1 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_back_phoenix_1
 			MVLV_TSF_shoulder_phoenix_1
@@ -2774,7 +2783,7 @@ technologies = {
 		}
 	}
 	MVLV_research_phoenix_2 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_back_phoenix_2
 			MVLV_TSF_shoulder_phoenix_2
@@ -2796,7 +2805,7 @@ technologies = {
 		# }
 	}
 	MVLV_research_general_missile = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_back_general_missile
 			MVLV_TSF_shoulder_general_missile
@@ -2814,7 +2823,7 @@ technologies = {
 		}
 	}
 	MVLV_research_basic_melee = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_arm_scabbard
 			MVLV_TSF_leg_scabbard
@@ -2845,7 +2854,7 @@ technologies = {
 		}
 	}
 	MVLV_research_fixed_blade = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_melee_fixed_blade
 			MVLV_TSF_arm_fixed_blade
@@ -2865,7 +2874,7 @@ technologies = {
 		}
 	}
 	MVLV_research_blade_armor = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_melee_blade_armor
 			MVLV_TSF_arm_blade_armor
@@ -2884,7 +2893,7 @@ technologies = {
 		}
 	}
 	MVLV_research_moto_knife_1 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_arm_moto_knife_1
 			MVLV_TSF_leg_moto_knife_1
@@ -2906,7 +2915,7 @@ technologies = {
 		}
 	}
 	MVLV_research_moto_knife_2 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_arm_moto_knife_2
 			MVLV_TSF_leg_moto_knife_2
@@ -2924,7 +2933,7 @@ technologies = {
 		}
 	}
 	MVLV_research_structural_enhance_1 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_structural_enhance_1
 		}
@@ -2945,7 +2954,7 @@ technologies = {
 		}
 	}
 	MVLV_research_structural_enhance_2 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_structural_enhance_2
 		}
@@ -2962,7 +2971,7 @@ technologies = {
 		}
 	}
 	MVLV_research_data_link_1 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_data_link_1
 		}
@@ -2983,7 +2992,7 @@ technologies = {
 		}
 	}
 	MVLV_research_data_link_2 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_data_link_2
 		}
@@ -3042,8 +3051,8 @@ technologies = {
 		}
 	}
 	MVLV_research_basic_coating = {
-		research_cost = 3
-		categories = {
+		research_cost =1.5# 3
+		 categories = {
 			MVLV_tsf_tech
 			MVLV_tsf_module_tech
 		}
@@ -3064,7 +3073,7 @@ technologies = {
 		}
 	}
 	MVLV_research_anti_laser_coating_1 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_anti_laser_coating_1
 		}
@@ -3085,7 +3094,7 @@ technologies = {
 		}
 	}
 	MVLV_research_anti_laser_coating_2 = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_anti_laser_coating_2
 		}
@@ -3236,7 +3245,7 @@ technologies = {
 		}
 	}
 	MVLV_research_reactive_armor = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_reactive_armor
 		}
@@ -3253,7 +3262,7 @@ technologies = {
 		}
 	}
 	MVLV_research_multi_purpose_armor = {
-		research_cost = 3
+		research_cost =1.5# 3
 		enable_equipment_modules = {
 			MVLV_TSF_arm_multi_purpose_armor
 			MVLV_TSF_shield_multi_purpose_armor

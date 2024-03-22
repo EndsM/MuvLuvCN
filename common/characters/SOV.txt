@@ -251,6 +251,42 @@ characters = {
 			legacy_id = -1
 		}
 	}
+	SOV_units_leader_12 = {
+		name = "勇哉·布里吉斯"
+		portraits = {
+			army = {
+				large = GFX_勇哉布里吉斯国联头像
+				small = "gfx/leaders/UNI/勇哉布里吉斯国联小图.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trickster
+				panzer_leader
+				panzer_expert
+				trait_reckless
+				trait_engineer
+				fortress_buster
+				inflexible_strategist
+				tsf_officer
+				expert_improviser
+				tsf_leader
+				trickster
+				inspirational_leader
+				war_hero
+				hill_fighter
+			}
+			skill = 9
+			attack_skill = 8
+			defense_skill = 6
+			planning_skill = 8
+			logistics_skill = 6
+			legacy_id = -1
+			visible = {
+				has_character_flag = 勇哉叛逃
+			}
+		}
+	}
 	叶莲娜莫罗佐娃 = {
 		name = Yelena_Morozova
 		gender = female

@@ -334,77 +334,76 @@ technologies = {
 			cat_medium_armor
 		}
 	}
-	________________________________________________________________________
-	modern_td = {
-		enable_equipments = {
-			modern_tank_destroyer_equipment_1
-		}
-		# enable_subunits = {
-		# 	modern_tank_destroyer_brigade
-		# }
-		research_cost = 0.5
-		start_year = 1945
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1946.1.1"
-			}
-			modifier = {
-				factor = 2
-				date > "1947.1.1"
-			}
-			modifier = {
-				factor = 2
-				date > "1948.1.1"
-			}
-		}
-		categories = {
-			armor
-		}
-	}
-	modern_art = {
-		enable_equipments = {
-			modern_tank_artillery_equipment_1
-		}
-		# enable_subunits = {
-		# 	modern_sp_artillery_brigade
-		# }
-		research_cost = 0.5
-		start_year = 1945
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 2
-				date > "1946.1.1"
-			}
-			modifier = {
-				factor = 2
-				date > "1947.1.1"
-			}
-			modifier = {
-				factor = 2
-				date > "1948.1.1"
-			}
-		}
-		categories = {
-			armor
-		}
-	}
-	modern_spaa = {
-		enable_equipments = {
-			modern_tank_aa_equipment_1
-		}
-		# enable_subunits = {
-		# 	light_sp_anti_air_brigade
-		# }
-		research_cost = 0.5
-		start_year = 1945
-		ai_will_do = {
-			factor = 1
-		}
-		categories = {
-			armor
-		}
-	}
+	# modern_td = {
+	# 	enable_equipments = {
+	# 		modern_tank_destroyer_equipment_1
+	# 	}
+	# 	# enable_subunits = {
+	# 	# 	modern_tank_destroyer_brigade
+	# 	# }
+	# 	research_cost = 0.5
+	# 	start_year = 1945
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 		modifier = {
+	# 			factor = 2
+	# 			date > "1946.1.1"
+	# 		}
+	# 		modifier = {
+	# 			factor = 2
+	# 			date > "1947.1.1"
+	# 		}
+	# 		modifier = {
+	# 			factor = 2
+	# 			date > "1948.1.1"
+	# 		}
+	# 	}
+	# 	categories = {
+	# 		armor
+	# 	}
+	# }
+	# modern_art = {
+	# 	enable_equipments = {
+	# 		modern_tank_artillery_equipment_1
+	# 	}
+	# 	# enable_subunits = {
+	# 	# 	modern_sp_artillery_brigade
+	# 	# }
+	# 	research_cost = 0.5
+	# 	start_year = 1945
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 		modifier = {
+	# 			factor = 2
+	# 			date > "1946.1.1"
+	# 		}
+	# 		modifier = {
+	# 			factor = 2
+	# 			date > "1947.1.1"
+	# 		}
+	# 		modifier = {
+	# 			factor = 2
+	# 			date > "1948.1.1"
+	# 		}
+	# 	}
+	# 	categories = {
+	# 		armor
+	# 	}
+	# }
+	# modern_spaa = {
+	# 	enable_equipments = {
+	# 		modern_tank_aa_equipment_1
+	# 	}
+	# 	# enable_subunits = {
+	# 	# 	light_sp_anti_air_brigade
+	# 	# }
+	# 	research_cost = 0.5
+	# 	start_year = 1945
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	categories = {
+	# 		armor
+	# 	}
+	# }
 }

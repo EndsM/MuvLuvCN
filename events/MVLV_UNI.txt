@@ -124,9 +124,9 @@ country_event = {
 				retire_character = UNI_units_leader_22
 				retire_character = USA_units_leader_2
 				#retire_character = SOV_units_leader_10
-				retire_character = SOV_units_leader_4
-				retire_character = SOV_units_leader_3
-				retire_character = SOV_units_leader_2
+				#retire_character = SOV_units_leader_4
+				#retire_character = SOV_units_leader_3
+				#retire_character = SOV_units_leader_12
 				#retire_character = SOV_units_leader_1
 				retire_character = UNI_units_leader_23
 			}
@@ -167,9 +167,9 @@ country_event = {
 				retire_character = UNI_units_leader_22
 				retire_character = USA_units_leader_2
 				#retire_character = SOV_units_leader_10
-				retire_character = SOV_units_leader_4
-				retire_character = SOV_units_leader_3
-				retire_character = SOV_units_leader_2
+				#retire_character = SOV_units_leader_4
+				#retire_character = SOV_units_leader_3
+				#retire_character = SOV_units_leader_12
 				#retire_character = SOV_units_leader_1
 				retire_character = UNI_units_leader_23
 			}
@@ -201,10 +201,14 @@ country_event = {
 	id = mvlv_uni.8
 	desc = mvlv_uni.8.d
 	title = mvlv_uni.8.t
-	picture = BETA_event_1.dds
+	picture = GFX_mvlv_srf
 	is_triggered_only = yes
 	option = {
 		name = mvlv_uni.8.a
+		trigger = {
+			TAG = SOV
+			is_ai = no
+		}
 	}
 	option = {
 		name = mvlv_uni.8.b
@@ -356,9 +360,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = mvlv_uni.14.a
-		UNI = {
-			country_event = mvlv_uni.15
-		}
 	}
 }
 
@@ -370,28 +371,37 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = mvlv_uni.15.a
-		UNI = {
-			country_event = mvlv_uni.16
-		}
-		USA = {
-			country_event = mvlv_uni.16
-		}
-		JAP = {
-			country_event = mvlv_uni.16
-		}
-		SOV = {
-			country_event = mvlv_uni.16
-		}
-		GEU = {
-			country_event = mvlv_uni.16
-		}
-		OSE = {
-			country_event = mvlv_uni.16
-		}
-		AFR = {
+		every_country = {
+			limit = {
+				is_in_faction_with = UNI
+			}
 			country_event = mvlv_uni.16
 		}
 		hidden_effect = {
+			USA = {
+				country_event = {
+					id = mvlv_ate.4
+					days = 1
+				}
+			}
+			JAP = {
+				country_event = {
+					id = mvlv_ate.4
+					days = 1
+				}
+			}
+			SOV = {
+				country_event = {
+					id = mvlv_ate.4
+					days = 1
+				}
+			}
+			UNI = {
+				country_event = {
+					id = mvlv_ate.4
+					days = 1
+				}
+			}
 			M01 = {
 				transfer_state = 791
 				791 = {
@@ -767,11 +777,11 @@ country_event = {
 							is_character = UNI_units_leader_5
 							is_character = UNI_units_leader_10
 						}
+						add_timed_unit_leader_trait = {
+							trait = wounded
+							days = 30
+						}
 					}
-					# add_timed_unit_leader_trait = {
-					# 	trait = wounded
-					# 	days = 30
-					# }
 				}
 			}
 		}

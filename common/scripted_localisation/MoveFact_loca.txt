@@ -1,0 +1,285 @@
+#获取地区剩余可用槽位
+defined_text = {
+    name = getFreeShardSlot
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 25
+                include_locked = no
+            }
+        }
+        localization_key = "25+"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 24
+                include_locked = no
+            }
+        }
+        localization_key = "25"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 23
+                include_locked = no
+            }
+        }
+        localization_key = "24"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 22
+                include_locked = no
+            }
+        }
+        localization_key = "23"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 21
+                include_locked = no
+            }
+        }
+        localization_key = "22"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 20
+                include_locked = no
+            }
+        }
+        localization_key = "21"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 19
+                include_locked = no
+            }
+        }
+        localization_key = "20"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 18
+                include_locked = no
+            }
+        }
+        localization_key = "19"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 17
+                include_locked = no
+            }
+        }
+        localization_key = "18"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 16
+                include_locked = no
+            }
+        }
+        localization_key = "17"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 15
+                include_locked = no
+            }
+        }
+        localization_key = "16"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 14
+                include_locked = no
+            }
+        }
+        localization_key = "15"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 13
+                include_locked = no
+            }
+        }
+        localization_key = "14"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 12
+                include_locked = no
+            }
+        }
+        localization_key = "13"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 11
+                include_locked = no
+            }
+        }
+        localization_key = "12"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 10
+                include_locked = no
+            }
+        }
+        localization_key = "11"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 9
+                include_locked = no
+            }
+        }
+        localization_key = "10"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 8
+                include_locked = no
+            }
+        }
+        localization_key = "9"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 7
+                include_locked = no
+            }
+        }
+        localization_key = "8"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 6
+                include_locked = no
+            }
+        }
+        localization_key = "7"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 5
+                include_locked = no
+            }
+        }
+        localization_key = "6"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 4
+                include_locked = no
+            }
+        }
+        localization_key = "5"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 3
+                include_locked = no
+            }
+        }
+        localization_key = "4"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 2
+                include_locked = no
+            }
+        }
+        localization_key = "3"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 1
+                include_locked = no
+            }
+        }
+        localization_key = "2"
+    }
+    text = {
+        trigger = {
+            free_building_slots = {
+                building = arms_factory
+                size > 0
+                include_locked = no
+            }
+        }
+        localization_key = "1"
+    }
+    text={
+        localization_key="0"
+    }
+
+
+}
+
+
+
+
+
+defined_text = {
+    name = showTipDoMoveFact
+    text = {
+        trigger = {
+             #check_variable = { renameMode=1}
+        }
+        localization_key = "tipDoMoveFactException"
+
+    }
+
+}

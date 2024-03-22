@@ -1,7 +1,15 @@
 ideas = {
 	country = {
-		# default national spirits
-		# 全連邦共産党
+		SOV_G_researching = {
+			allowed = {
+				always = no
+			}
+			research_bonus = {
+				nuclear = 0.1
+			}
+		}
+		#default national spirits
+		#全連邦共産党
 		SOV_comunist_party = {
 			allowed = {
 				always = no
@@ -12,7 +20,7 @@ ideas = {
 				weekly_manpower = 2000
 			}
 		}
-		# 前線部隊の军閥化
+		#前線部隊の軍閥化
 		SOV_warlord = {
 			allowed = {
 				always = no
@@ -33,6 +41,7 @@ ideas = {
 				research_speed_factor = 0.05
 			}
 		}
+		#"优待俄罗斯人" 
 		SOV_russian1 = {
 			picture = GFX_goal_generic_propaganda
 			allowed = {
@@ -43,6 +52,7 @@ ideas = {
 				research_speed_factor = 0.05
 			}
 		}
+		#"政治正确" 
 		SOV_political_correctness = {
 			picture = GFX_goal_generic_demand_territory
 			allowed = {
@@ -53,6 +63,7 @@ ideas = {
 				research_speed_factor = -0.1
 			}
 		}
+		#"大俄罗斯主义" 
 		SOV_russianism = {
 			picture = GFX_goal_demand_sudetenland
 			allowed = {
@@ -63,6 +74,7 @@ ideas = {
 				research_speed_factor = 0.1
 			}
 		}
+		#"平稳改革" 
 		SOV_steady_reform = {
 			picture = GFX_goal_generic_major_alliance
 			allowed = {
@@ -91,6 +103,7 @@ ideas = {
 				research_speed_factor = -0.1
 			}
 		}
+		#"统一的领导层" 
 		SOV_unified_leadership = {
 			picture = GFX_goal_generic_position_armies
 			modifier = {
@@ -109,11 +122,12 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_expected_value = -0.05
 			}
 		}
-		# 先进的设备与工艺
+		#先进的设备与工艺
 		SOV_advanced_production_tech = {
+			picture = 先进的设备与工艺
 			allowed = {
 				always = no
 			}
@@ -143,23 +157,26 @@ ideas = {
 				}
 			}
 		}
-		# 总体战
+		#总体战
 		SOV_total_war = {
+			picture = GFX_goal_generic_axis_build_infantry
 			modifier = {
 				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
 			}
 		}
-		# 钢铁洪流
+		#钢铁洪流
 		SOV_steel_storm = {
+			picture = 钢铁洪流
 			modifier = {
 				army_breakthrough_factor = 0.05
 				army_org_factor = 0.05
 				army_defence_factor = 0.05
 			}
 		}
-		# 捍卫雄鹰
+		#捍卫雄鹰
 		SOV_guardian_of_the_motherland = {
+			picture = 捍卫雄鹰
 			equipment_bonus = {
 				MVLV_TSF_chassis = {
 					defense = 0.05
@@ -172,7 +189,8 @@ ideas = {
 		SOV_soviet_human_wave = {
 			picture = generic_communist_army
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
+				land_reinforce_rate = 0.05
 				training_time_army_factor = -0.15
 				army_artillery_attack_factor = 0.1
 				army_artillery_defence_factor = 0.15
@@ -189,7 +207,13 @@ ideas = {
 				special_forces_defence_factor = 0.1
 			}
 		}
-		# 前线指导
+		#AL3的更多信息
+		UNI_additional_data_of_al3 = {
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+		#前线指导
 		SOV_frontline_guidance = {
 			picture = generic_manpower_bonus
 			allowed = {
@@ -344,7 +368,7 @@ ideas = {
 				supply_consumption_factor = -0.05
 				army_morale_factor = 0.1
 				land_reinforce_rate = 0.01
-				consumer_goods_factor = -0.25
+				consumer_goods_expected_value = -0.25
 				training_time_army_factor = -0.3
 				minimum_training_level = -0.3
 				army_core_attack_factor = 0.55
@@ -366,7 +390,7 @@ ideas = {
 				supply_consumption_factor = 0.05
 				army_morale_factor = -0.1
 				land_reinforce_rate = -0.01
-				consumer_goods_factor = 0.15
+				consumer_goods_expected_value = 0.15
 				army_core_attack_factor = -0.55
 			}
 		}

@@ -13,7 +13,7 @@ ideas = {
 			cancel = {
 			}
 			modifier = {
-				consumer_goods_factor = -0.3
+				consumer_goods_expected_value = -0.3
 				research_speed_factor = -0.15
 			}
 		}
@@ -95,7 +95,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = 0.2
+				political_power_gain = 0.5
+				stability_weekly = 0.005
+				consumer_goods_expected_value = 0.2
 			}
 		}
 		#真なる中華
@@ -107,7 +109,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				conscription = 0.05
-				consumer_goods_factor = -0.05
+				consumer_goods_expected_value = -0.05
 				army_core_attack_factor = 0.2
 				army_core_defence_factor = 0.15
 				army_speed_factor = 0.1
@@ -184,6 +186,7 @@ ideas = {
 				research_speed_factor = 0.1
 			}
 		}
+		#美国战术机技术
 		CHI_absorb_US_TSF_tech = {
 			allowed = {
 				always = no

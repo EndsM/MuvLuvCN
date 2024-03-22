@@ -1,0 +1,11 @@
+focus_tree = {
+	id = yokohama_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			TAG = H22
+		}
+	}
+}

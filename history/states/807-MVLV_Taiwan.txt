@@ -1,13 +1,12 @@
 state = {
 	id = 807
 	name = "STATE_807"
-	manpower = 3500000
+	manpower = 7000000#3500000
 	resources = {
 		aluminium = 60
 	}
 	state_category = megalopolis
 	history = {
-		owner = CHI
 		1999.1.1 = {
 			owner = CHI
 			buildings = {
@@ -22,7 +21,7 @@ state = {
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
-			12068 5
+			12068 15 
 		}
 	}
 	provinces = {

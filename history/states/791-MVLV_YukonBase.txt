@@ -1,7 +1,7 @@
 state={
 	id=791
 	name="STATE_791"
-	manpower=30000
+	manpower=110000#30000
 	state_category = megalopolis
 	
 	history = {

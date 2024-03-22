@@ -23,7 +23,7 @@ UNI_xmosd_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 10
 		}
 	}
 	UNI_xmos_mission = {
@@ -183,8 +183,8 @@ UNI_operation_ouka_category = {
 			factor = 1
 		}
 		fire_only_once = yes
-		days_remove = 2
-		complete_effect = {
+		days_remove = 1
+		remove_effect = {
 			every_country = {
 				limit = {
 					is_in_faction_with = UNI

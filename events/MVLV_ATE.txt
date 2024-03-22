@@ -1,0 +1,146 @@
+add_namespace = mvlv_ate
+country_event = {
+	id = mvlv_ate.1
+	desc = mvlv_ate.1.d
+	title = mvlv_ate.1.t
+	picture = GFX_mvlv_ate1
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_ate.1.a
+		if = {
+			limit = {
+				check_variable = { global.var_generalDeathMode = 1 }
+			}
+			retire_character = USA_units_leader_2
+		}
+	}
+}
+country_event = {
+	id = mvlv_ate.2
+	desc = mvlv_ate.2.d
+	title = mvlv_ate.2.t
+	picture = GFX_mvlv_ate2
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_ate.2.a
+		trigger={TAG=EUR}
+	}
+	option = {
+		name = mvlv_ate.2.b
+		trigger={TAG=USA}
+	}
+}
+country_event = {
+	id = mvlv_ate.3
+	desc = mvlv_ate.3.d
+	title = mvlv_ate.3.t
+	picture = GFX_mvlv_ate3
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_ate.3.a
+		hidden_effect={JAP={country_event={id = mvlv_ate.5   days=7}}
+		}
+	}
+}
+country_event = {
+	id = mvlv_ate.4
+	desc = mvlv_ate.4.d
+	title = mvlv_ate.4.t
+	picture = GFX_mvlv_ate4
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_ate.4.a
+		trigger={TAG=SOV}
+		SOV={remove_ideas=SOV_G_researching}
+	}
+	option = {
+		name = mvlv_ate.4.b
+		trigger={TAG=USA}
+	}
+	option = {
+		name = mvlv_ate.4.c
+		trigger={TAG=JAP}
+	}
+	option = {
+		name = mvlv_ate.4.e
+		trigger={TAG=UNI}
+	}
+}
+country_event = {
+	id = mvlv_ate.5
+	desc = mvlv_ate.5.d
+	title = mvlv_ate.5.t
+	picture = GFX_mvlv_ate5
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_ate.5.a
+		JAP={country_event={id =mvlv_ate.6   days=20}
+		}
+		USA={country_event={id =mvlv_ate.6   days=20}
+		}
+	}
+}
+country_event = {
+	id = mvlv_ate.6
+	desc = mvlv_ate.6.d
+	title = mvlv_ate.6.t
+	picture = GFX_mvlv_ate6
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_ate.6.a
+		trigger={TAG=JAP}
+		JAP={country_event={id =mvlv_jap.3   days=5}
+			country_event={id =mvlv_ate.7   days=3}
+		}
+		SOV={country_event={id =mvlv_ate.7   days=3}
+		}
+	}
+	option = {
+		name = mvlv_ate.6.b
+		trigger={TAG=USA}
+		USA={country_event={id =mvlv_ate.7   days=3}
+		}
+	}
+}
+country_event = {
+	id = mvlv_ate.7
+	desc = mvlv_ate.7.d
+	title = mvlv_ate.7.t
+	picture = GFX_mvlv_ate7
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_ate.7.a
+		trigger={TAG=JAP}
+	}
+	option = {
+		name = mvlv_ate.7.b
+		trigger={TAG=USA}
+	}
+	option = {
+		name = mvlv_ate.7.c
+		trigger={TAG=SOV}
+		SOV={SOV_units_leader_12={set_character_flag=勇哉叛逃}
+		if = {
+			limit = {
+				check_variable = { global.var_generalDeathMode = 1 }
+			}
+			retire_character = SOV_units_leader_2
+			retire_character = SOV_units_leader_3
+		}
+		}
+	}
+}

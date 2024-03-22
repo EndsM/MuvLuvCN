@@ -36,6 +36,11 @@ GEU_area_priority = {
 	}
 	ai_strategy = {
 		type = area_priority
+		id = china_mainland
+		value = -100
+	}
+	ai_strategy = {
+		type = area_priority
 		id = middle_east
 		value = -100
 	}

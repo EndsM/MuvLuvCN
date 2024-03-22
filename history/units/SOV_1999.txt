@@ -3,7 +3,7 @@
 	division = {
 		location = 1742
 		division_template = "战术机联队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		force_equipment_variants = {
 			MVLV_TSF_classis_1_heavy = {
 				owner = "SOV"
@@ -15,7 +15,7 @@
 	division = {
 		location = 1742
 		division_template = "战术机联队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		force_equipment_variants = {
 			MVLV_TSF_classis_2_light_normal = {
 				owner = "SOV"
@@ -27,7 +27,7 @@
 	division = {
 		location = 1742
 		division_template = "战术机联队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		force_equipment_variants = {
 			MVLV_TSF_classis_2_light_normal = {
 				owner = "SOV"
@@ -38,8 +38,8 @@
 	}
 	division = {
 		location = 1823
-		division_template = "战术机联队"
-		start_experience_factor = 0.2
+		division_template = "轨道降下兵团"
+		start_experience_factor = 0.3
 		force_equipment_variants = {
 			MVLV_TSF_classis_2_heavy_normal = {
 				owner = "SOV"
@@ -51,7 +51,7 @@
 	division = {
 		location = 1823
 		division_template = "战术机联队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		force_equipment_variants = {
 			MVLV_TSF_classis_2_light_normal = {
 				owner = "SOV"
@@ -74,22 +74,9 @@
 		}
 	}
 	division = {
-		name = "伊达尔小队"
-		location = 13244
-		division_template = "战术机大队"
-		start_experience_factor = 1
-		force_equipment_variants = {
-			MVLV_TSF_classis_2_heavy_high_mobility = {
-				owner = "SOV"
-				creator = SOV
-				version_name = "Su-37M2终结者"
-			}
-		}
-	}
-	division = {
 		location = 1823
 		division_template = "战术机联队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		force_equipment_variants = {
 			MVLV_TSF_classis_2_light_normal = {
 				owner = "SOV"
@@ -101,7 +88,7 @@
 	division = {
 		location = 13227
 		division_template = "战术机联队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		force_equipment_variants = {
 			MVLV_TSF_classis_2_light_normal = {
 				owner = "SOV"
@@ -113,7 +100,7 @@
 	division = {
 		location = 13227
 		division_template = "战术机联队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		force_equipment_variants = {
 			MVLV_TSF_classis_2_light_normal = {
 				owner = "SOV"
@@ -125,7 +112,7 @@
 	division = {
 		location = 13227
 		division_template = "战术机联队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		force_equipment_variants = {
 			MVLV_TSF_classis_1_heavy = {
 				owner = "SOV"
@@ -137,7 +124,7 @@
 	division = {
 		location = 13227
 		division_template = "战术机联队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		force_equipment_variants = {
 			MVLV_TSF_classis_2_light_normal = {
 				owner = "SOV"
@@ -149,7 +136,7 @@
 	division = {
 		location = 4744
 		division_template = "战术机大队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		force_equipment_variants = {
 			MVLV_TSF_classis_1_heavy = {
 				owner = "SOV"
@@ -161,7 +148,7 @@
 	division = {
 		location = 13220
 		division_template = "战术机联队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 		force_equipment_variants = {
 			MVLV_TSF_classis_1_heavy = {
 				owner = "SOV"
@@ -640,26 +627,26 @@
 ## Air oob
 air_wings = {
 	463 = {
-		# name = "第1轰炸舰队"
-		# fighter_equipment_1 = {
-		# 	owner = "SOV"
-		# 	amount = 320
-		# }
+		 name = "第1轰炸舰队"
+		 MVLV_shell_equipment_1 = {
+	           	owner = "SOV"
+		 	amount = 1000
+		 }
 		name = "苏联宇宙军"
 		transport_plane_equipment_1 = {
 			owner = "SOV"
 			amount = 5
 		}
-		# name = "苏联宇宙军"
-		# CAS_equipment_2 = {
-		# 	owner = "SOV"
-		# 	amount = 380
-		# }
-		# name = "炮击部队"
-		# jet_tac_bomber_equipment_1 = {
-		# 	owner = "SOV"
-		# 	amount = 100
-		# }
+		 name = "第1轰炸舰队"
+		CAS_equipment_2 = {
+		 	owner = "SOV"
+		 	amount = 100
+		 }
+		 name = "炮击部队"
+		 MVLV_AL_shell_equipment_1 = {
+		 	owner = "SOV"
+		 	amount = 1000
+		 }
 	}
 }
 
@@ -709,7 +696,7 @@ instant_effect = {
 			creator = "SOV"
 		}
 		requested_factories = 25
-		progress = 0.2
+		progress = 0.3
 		efficiency = 30
 	}
 	add_equipment_production = {
@@ -718,7 +705,7 @@ instant_effect = {
 			creator = "SOV"
 		}
 		requested_factories = 20
-		progress = 0.2
+		progress = 0.3
 		efficiency = 50
 	}
 	add_equipment_production = {
@@ -727,7 +714,7 @@ instant_effect = {
 			creator = "SOV"
 		}
 		requested_factories = 15
-		progress = 0.2
+		progress = 0.3
 		efficiency = 90
 	}
 	add_equipment_production = {

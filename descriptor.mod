@@ -1,6 +1,5 @@
-version="0.2.27"
+version="0.3.0"
 replace_path="events"
-# It doesn't exist now: common/ai_equipment
 replace_path="common/ai_equipment"
 replace_path="common/ai_strategy_plans"
 replace_path="common/ai_strategy"
@@ -27,6 +26,6 @@ tags={
 }
 name="muvluvCN"
 picture="thumbnail.png"
-supported_version="1.13.*"
-path="mod/muvluvCN"
+supported_version="1.14.*"
+path="E:/HOI4/mod/muvluvCN"
 remote_file_id="2800380626"

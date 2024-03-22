@@ -88,6 +88,78 @@ spriteTypes = {
 		name = "GFX_mvlv_ouka2"
 		texturefile = "gfx/event_pictures/ouka2.dds"
 	}
+	spriteType = {
+		name = "GFX_mvlv_srf"
+		texturefile = "gfx/超重光线级.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_ate1"
+		texturefile = "gfx/ate1.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_ate2"
+		texturefile = "gfx/ate2.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_ate3"
+		texturefile = "gfx/ate3.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_ate4"
+		texturefile = "gfx/ate4.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_ate5"
+		texturefile = "gfx/ate5.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_ate6"
+		texturefile = "gfx/ate6.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_ate7"
+		texturefile = "gfx/ate7.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_jap2"
+		texturefile = "gfx/篁唯依接受任务.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_jap14"
+		texturefile = "gfx/jap14.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_jap15"
+		texturefile = "gfx/jap15.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_jap18"
+		texturefile = "gfx/电磁炮试验.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_usa8"
+		texturefile = "gfx/沃肯阵亡.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_SOV4"
+		texturefile = "gfx/击杀超重光.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_h20"
+		texturefile = "gfx/炼铁作战.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_jap25"
+		texturefile = "gfx/崇宰恭子.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_jap26"
+		texturefile = "gfx/崇宰恭子阵亡.png"
+	}
+	spriteType = {
+		name = "GFX_mvlv_G0"
+		texturefile = "gfx/G弹爆炸.png"
+	}
 
 	frameAnimatedSpriteType = {
 		name = "GFX_mvlv_mascot"

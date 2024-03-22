@@ -32,3 +32,41 @@ country_event = {
 		name = mvlv_sov.3.a
 	}
 }
+
+country_event = {
+	id = mvlv_sov.4
+	desc = mvlv_sov.4.d
+	title = mvlv_sov.4.t
+	picture = GFX_mvlv_SOV4
+	is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		H26 = {
+			has_completed_focus = BET_srf
+		}
+		OR = {
+			H26 = {
+				check_variable = {
+					num_equipment_in_armies@beta_srf = 0
+				}
+			}
+			NOT = {
+				country_exists = H26
+			}
+		}
+		TAG = SOV
+	}
+	option = {
+		name = mvlv_sov.4.a
+		if = {
+			limit = {
+				check_variable = {
+					global.var_generalDeathMode = 1
+				}
+			}
+			retire_character = SOV_units_leader_4
+			retire_character = SOV_units_leader_5
+			retire_character = SOV_units_leader_12
+		}
+	}
+}

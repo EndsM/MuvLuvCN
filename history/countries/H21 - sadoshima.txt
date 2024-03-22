@@ -16,6 +16,8 @@ add_dynamic_modifier = { modifier = "BETA战术改进" }
 		MVLV_beta_tec = 1
 		basic_train = 1
 		wartime_train = 1
+		transport = 1
+		landing_craft = 1
 	}
 	add_ideas = { #初期国家精神を定義
 		hive_phase_3
@@ -55,7 +57,7 @@ set_popularities = { #初期支持率を定義
 create_country_leader = {
 	name = "头脑级"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "zunou.dds"
+	picture = "GFX_头脑级头像"
 	expire = "2040.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -66,7 +68,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "头脑级"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "zunou.dds"
+	picture = "GFX_头脑级头像"
 	expire = "2040.1.1"
 	ideology = marxism
 	traits = {
@@ -76,7 +78,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "头脑级"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "zunou.dds"
+	picture = "GFX_头脑级头像"
 	expire = "2040.1.1"
 	ideology = centrism
 	traits = {

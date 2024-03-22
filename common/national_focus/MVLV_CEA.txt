@@ -25,7 +25,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CEA_request
 		}
-		cost = 10
+		cost = 8
 		available = {
 			NOT = {
 				has_idea = betawar_situation_4
@@ -50,10 +50,13 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_start
 		}
-		cost = 10
+		cost = 4
 		#select_effect = { }
 		completion_reward = {
-			replace_civ_with_arms_factories = yes
+			add_offsite_building = {
+				type = arms_factory
+				level = 5
+			}
 			add_war_support = 0.05
 		}
 		ai_will_do = {
@@ -69,7 +72,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_man
 		}
-		cost = 15
+		cost = 8
 		#select_effect = { }
 		completion_reward = {
 			remove_ideas = SOA_happy
@@ -110,7 +113,7 @@ focus_tree = {
 		bypass = {
 			has_completed_focus = SOA_Unity
 		}
-		cost = 10
+		cost = 8
 		available = {
 			NOT = {
 				has_idea = betawar_situation_4
@@ -200,7 +203,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CEA_nouni
 		}
-		cost = 10
+		cost = 4
 		completion_reward = {
 			add_ideas = mvlv_license
 		}
@@ -217,7 +220,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_yesus
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_political_power = -300
 			if = {
@@ -253,7 +256,7 @@ focus_tree = {
 			focus = CEA_tsf
 		}
 		#mutually_exclusive = { focus = CEA_nowar }
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = land_doctrine
@@ -277,7 +280,7 @@ focus_tree = {
 			focus = CEA_tsf
 		}
 		#mutually_exclusive = { focus = CEA_yeswar }
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_stability = 0.2
 			add_political_power = 200
@@ -302,7 +305,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CEA_start
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_political_power = 300
 		}
@@ -319,7 +322,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_request
 		}
-		cost = 10
+		cost = 8
 		available = {
 			has_idea = betawar_situation_1
 		}
@@ -340,7 +343,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_request
 		}
-		cost = 10
+		cost = 8
 		available = {
 			has_idea = mvlv_saast
 		}
@@ -360,7 +363,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_refugee
 		}
-		cost = 10
+		cost = 8
 		available = {
 			has_idea = mvlv_saast
 		}
@@ -388,7 +391,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_conscription
 		}
-		cost = 10
+		cost = 8
 		available = {
 			has_idea = mvlv_saast
 		}
@@ -414,7 +417,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_UNI_forces
 		}
-		cost = 15
+		cost = 8
 		available = {
 			has_idea = mvlv_saast
 		}
@@ -436,11 +439,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_UNI_forces
 		}
+		cost = 8
 		available = {
 			is_subject = no
 			has_idea = mvlv_saast
 		}
-		cost = 10
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = land_doctrine
@@ -480,10 +483,10 @@ focus_tree = {
 		cost = 5
 		available = {
 			OR = {
-				AFR = {
+				#AFR={NOT={controls_state = 462}}
+				EEA = {
 					NOT = {
-						controls_state = 462
-						controls_state = 275
+						controls_state = 805
 					}
 				}
 				EUR = {
@@ -493,7 +496,7 @@ focus_tree = {
 				}
 				USA = {
 					NOT = {
-						controls_state = 632
+						controls_state = 631
 					}
 				}
 			}
@@ -509,7 +512,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 	}
 	focus = {
@@ -649,18 +652,73 @@ focus_tree = {
 		prerequisite = {
 			focus = CEA_PurchaseRetiredTSF
 		}
-		cost = 4
+		cost = 5
 		completion_reward = {
 			remove_ideas = mvlv_license
 			add_ideas = MVLV_unconditional_tsf_license
-			set_technology = {
-				USA_F-15E = 1
-				UNI_T94 = 1
-				USA_F-18EF = 1
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				create_equipment_variant = {
+					name = "94式 不知火 一型丙"
+					type = MVLV_TSF_classis_2_heavy_high_mobility
+					parent_version = 0
+					allow_without_tech = yes					#For tooltip purposes, doesn't affect anything really
+					modules = {
+						MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_2_normal
+						MVLV_TSF_engine_slot = MVLV_TSF_engine_2_max_power
+						MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_2
+						MVLV_TSF_OS_slot = MVLV_TSF_OS_2_normal
+						MVLV_TSF_armor_slot = MVLV_TSF_armor_composite
+						MVLV_TSF_head_slot = MVLV_TSF_head_normal_2
+						MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_fuel
+						MVLV_TSF_back_slot = MVLV_TSF_back_gunblade_hanger_1
+						MVLV_TSF_arm_slot = MVLV_TSF_arm_scabbard
+						MVLV_TSF_leg_slot = MVLV_TSF_leg_ex_ammo
+						MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+						MVLV_TSF_sp_slot_1 = MVLV_TSF_structural_enhance_2
+						MVLV_TSF_sp_slot_2 = MVLV_TSF_data_link_2
+						MVLV_TSF_sp_slot_3 = MVLV_TSF_anti_laser_coating_2
+					}
+					icon = "GFX_94式不知火国联涂装"
+				}
+				create_equipment_variant = {
+					name = "F-15ACTV敏捷鹰"
+					type = MVLV_TSF_classis_2_heavy_normal
+					parent_version = 0
+					allow_without_tech = yes					#For tooltip purposes, doesn't affect anything really
+					modules = {
+						MVLV_TSF_assault_cannon_slot = MVLV_TSF_assault_cannon_2_normal
+						MVLV_TSF_engine_slot = MVLV_TSF_engine_3
+						MVLV_TSF_sensor_slot = MVLV_TSF_integrated_sensor_3
+						MVLV_TSF_OS_slot = MVLV_TSF_OS_3_normal
+						MVLV_TSF_armor_slot = MVLV_TSF_armor_light_composite
+						MVLV_TSF_head_slot = MVLV_TSF_head_normal_3
+						MVLV_TSF_shoulder_slot = MVLV_TSF_shoulder_ex_thruster_3
+						MVLV_TSF_back_slot = MVLV_TSF_back_thruster_3
+						MVLV_TSF_arm_slot = MVLV_TSF_arm_ex_sensor_3
+						MVLV_TSF_leg_slot = MVLV_TSF_leg_scabbard
+						MVLV_TSF_waist_slot = MVLV_TSF_waist_ex_fuel
+					}
+					icon = "GFX_F-15ACTV"
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "No Step Back"
+					}
+				}
+				set_technology = {
+					USA_F-15E = 1
+					UNI_T94 = 1
+					USA_F-18EF = 1
+				}
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 50
 		}
 	}
 	focus = {
@@ -844,7 +902,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 20
 		}
 	}
 	focus = {

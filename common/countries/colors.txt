@@ -345,7 +345,15 @@ H21 = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 20 20 20 }
 }
+H22 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 20 20 20 }
+}
 H23 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 20 20 20 }
+}
+H24 = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 20 20 20 }
 }

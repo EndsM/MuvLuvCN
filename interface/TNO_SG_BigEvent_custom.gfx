@@ -40,4 +40,20 @@ spriteTypes = { ##### THIS FILE DEFINES THE PICTURE FOR EACH SUPER EVENT
 		name = "GFX_superevent_custom_tokyo_fall"
 		textureFile = "gfx/superevent_pictures/tokyo_fall.tga"
 	}
+	spriteType = {
+		name = "GFX_superevent_custom_North_America_fall"
+		textureFile = "gfx//superevent_pictures//beta_attack.tga"
+	}
+	spriteType = {
+		name = "GFX_superevent_custom_Central_America_fall"
+		textureFile = "gfx//superevent_pictures//beta_attack.tga"
+	}
+	spriteType = {
+		name = "GFX_superevent_custom_South_America_fall"
+		textureFile = "gfx//superevent_pictures//beta_attack.tga"
+	}
+	spriteType = {
+		name = "GFX_superevent_custom_redshiftline_fall"
+		textureFile = "gfx//superevent_pictures//redshiftline.tga"
+	}
 }

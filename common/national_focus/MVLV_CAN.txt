@@ -23,12 +23,13 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		x = 28
 		y = 0
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_political_power = 200
 		}
+		#completation_tooltip = { }
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 	focus = {
@@ -40,14 +41,15 @@ focus_tree = {
 		prerequisite = {
 			focus = CAN_start
 		}
-		cost = 5
+		cost = 4
 		#select_effect = { }
 		completion_reward = {
-			add_political_power = -200
+			add_political_power = -100
 			add_war_support = 0.2
 		}
+		#completation_tooltip = { }
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 	focus = {
@@ -100,32 +102,45 @@ focus_tree = {
 	}
 	focus = {
 		id = CAN_nouni
-		icon = GFX_focus_YUG_ikarus
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		x = 0
 		y = 1
 		relative_position_id = CAN_nous
 		prerequisite = {
 			focus = CAN_nous
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 2.5
-				uses = 1
-				name = mech_army_bonus
-				technology = generic_F-18EF
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_tech_bonus = {
+					name = mech_army_bonus
+					bonus = 1.5
+					uses = 2
+					category = MVLV_tsf_tech
+				}
 			}
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				name = mech_army_bonus
-				technology = generic_F-18HMRV
-			}
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				name = mech_army_bonus
-				technology = generic_F-18AX
+			else = {
+				add_tech_bonus = {
+					bonus = 2.5
+					uses = 1
+					name = mech_army_bonus
+					technology = generic_F-18EF
+				}
+				add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					name = mech_army_bonus
+					technology = generic_F-18HMRV
+				}
+				add_tech_bonus = {
+					bonus = 1
+					uses = 1
+					name = mech_army_bonus
+					technology = generic_F-18AX
+				}
 			}
 		}
 		ai_will_do = {
@@ -146,7 +161,7 @@ focus_tree = {
 				is_controlled_by = CAN
 			}
 		}
-		cost = 50
+		cost = 40
 		completion_reward = {
 			remove_ideas = CAN_atomic
 			add_ideas = CAN_noatomic
@@ -154,7 +169,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 12
 				set_building_level = {
 					type = infrastructure
-					level = 8
+					level = 4
 					instant_build = yes
 				}
 				set_building_level = {
@@ -167,7 +182,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 12
 				set_building_level = {
 					type = infrastructure
-					level = 7
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -175,7 +190,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 12
 				set_building_level = {
 					type = infrastructure
-					level = 7
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -183,7 +198,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 12
 				set_building_level = {
 					type = infrastructure
-					level = 7
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -191,7 +206,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 7
 				set_building_level = {
 					type = infrastructure
-					level = 7
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -218,13 +233,13 @@ focus_tree = {
 			focus = CAN_mans
 		}
 		#mutually_exclusive = { focus = CAN_nous }
-		cost = 10
+		cost = 8
 		completion_reward = {
 			468 = {
 				add_extra_state_shared_building_slots = 12
 				set_building_level = {
 					type = infrastructure
-					level = 10
+					level = 5
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -237,7 +252,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 10
 				set_building_level = {
 					type = infrastructure
-					level = 10
+					level = 5
 					instant_build = yes
 				}
 			}
@@ -245,7 +260,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 5
 				set_building_level = {
 					type = infrastructure
-					level = 10
+					level = 5
 					instant_build = yes
 				}
 			}
@@ -253,7 +268,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 10
 				set_building_level = {
 					type = infrastructure
-					level = 10
+					level = 5
 					instant_build = yes
 				}
 			}
@@ -271,7 +286,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CAN_yesus
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			if = {
 				limit = {
@@ -280,7 +295,7 @@ focus_tree = {
 				add_equipment_to_stockpile = {
 					variant_name = "F-22A猛禽"
 					type = MVLV_TSF_classis_3_heavy_normal_stealth
-					amount = 1200
+					amount = 240
 					producer = USA
 				}
 			}
@@ -288,7 +303,7 @@ focus_tree = {
 				add_equipment_to_stockpile = {
 					producer = USA
 					type = tsf_equipment_F-22
-					amount = 1200
+					amount = 240
 				}
 			}
 		}
@@ -305,10 +320,8 @@ focus_tree = {
 		prerequisite = {
 			focus = CAN_tsf
 		}
-		# mutually_exclusive = {
-		# 	focus = CAN_nowar
-		# }
-		cost = 10
+		#mutually_exclusive = { focus = CAN_nowar }
+		cost = 8
 		completion_reward = {
 			add_tech_bonus = {
 				name = "CAN focus bonus"
@@ -345,10 +358,8 @@ focus_tree = {
 		prerequisite = {
 			focus = CAN_tsf
 		}
-		# mutually_exclusive = {
-		# 	focus = CAN_yeswar
-		# }
-		cost = 10
+		#mutually_exclusive = { focus = CAN_yeswar }
+		cost = 8
 		completion_reward = {
 			add_political_power = 200
 			464 = {

@@ -1,0 +1,44 @@
+#BETA_controle_area = {
+#	enable = {
+#		always = yes
+#	}
+#
+#	icon = GFX_modifiers_demilitarize_zone
+#
+#	army_speed_factor_for_controller = 6.0
+#	pocket_penalty = -2
+#	supply_consumption_factor = -2
+#	supply_factor = 2
+#	local_supplies = 50
+#	disable_strategic_redeployment = 1
+#}
+MVLV_cross_map_modifier = {
+	enable = {
+		always = yes
+	}
+	disable_strategic_redeployment = 1
+}
+
+Supply_Drop_area = {
+	enable = {
+		always = yes
+	}
+
+	local_supplies = 20
+
+	icon = GFX_modifiers_generic_supply
+}
+Nuclear_Explosion_Strait= {
+	enable = {
+		always = yes
+	}
+	attrition = 1
+	army_attack_factor = -0.5
+	army_defence_factor = -0.5
+	army_speed_factor = -0.9
+	state_production_speed_buildings_factor=-1
+
+	icon = GFX_modifiers_demilitarize_zone
+}
+
+

@@ -2,7 +2,7 @@
 	division = {
 		location = 7186
 		division_template = "战术机联队"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.4
 		force_equipment_variants = {
 			MVLV_TSF_classis_1_heavy = {
 				owner = "CHI"
@@ -14,7 +14,7 @@
 	division = {
 		location = 7186
 		division_template = "战术机联队"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.4
 		force_equipment_variants = {
 			MVLV_TSF_classis_1_heavy = {
 				owner = "CHI"
@@ -26,7 +26,7 @@
 	division = {
 		location = 7186
 		division_template = "战术机联队"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.4
 		force_equipment_variants = {
 			MVLV_TSF_classis_2_light_normal = {
 				owner = "CHI"
@@ -38,7 +38,7 @@
 	division = {
 		location = 7186
 		division_template = "战术机联队"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.4
 		force_equipment_variants = {
 			MVLV_TSF_classis_2_light_normal = {
 				owner = "CHI"
@@ -50,7 +50,7 @@
 	division = {
 		location = 7186
 		division_template = "战术机联队"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.4
 		force_equipment_variants = {
 			MVLV_TSF_classis_2_heavy_normal = {
 				owner = "CHI"
@@ -73,8 +73,8 @@
 	}
 	division = {
 		location = 7186
-		division_template = "战术机大队"
-		start_experience_factor = 0.3
+		division_template = "战术机联队"
+		start_experience_factor = 0.4
 		force_equipment_variants = {
 			MVLV_TSF_classis_2_light_normal = {
 				owner = "CHI"
@@ -84,112 +84,169 @@
 		}
 	}
 	division = {
-		name = "暴风小队"
-		location = 13244
-		division_template = "战术机大队"
-		start_experience_factor = 1
-		force_equipment_variants = {
-			MVLV_TSF_classis_2_light_high_mobility = {
-				owner = "CHI"
-				creator = CHI
-				version_name = "歼10x"
-			}
-		}
+		location = 7186
+		division_template = "重装师"
+		start_experience_factor = 0.3
 	}
 	division = {
 		location = 7186
-		division_template = "轻装师"
-		start_experience_factor = 0.2
-	}
-	division = {
-		location = 7186
-		division_template = "轻装师"
-		start_experience_factor = 0.2
+		division_template = "重装师"
+		start_experience_factor = 0.3
 	}
 	division = {
 		location = 7186
 		division_template = "轻装旅"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	division = {
 		location = 7186
 		division_template = "轻装旅"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	division = {
 		location = 7186
 		division_template = "轻装旅"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	division = {
 		location = 7186
 		division_template = "轻装旅"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.3
 	}
 	division = {
 		location = 7214
 		division_template = "重装师"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 7214
 		division_template = "重装师"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 7214
 		division_template = "重装师"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 7214
 		division_template = "重装师"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 7186
 		division_template = "重装旅"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 7186
 		division_template = "重装旅"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 7186
 		division_template = "重装旅"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 7186
 		division_template = "重装旅"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 7186
 		division_template = "重装旅"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 7186
 		division_template = "重装旅"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 7186
 		division_template = "重装旅"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 7186
 		division_template = "重装旅"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 7186
 		division_template = "陆航旅"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 7186
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 1038
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 1038
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 11963
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 11963
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 994
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 994
+		division_template = "重装旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 1070
+		division_template = "重装师"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 1070
+		division_template = "重装师"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 1070
+		division_template = "陆航旅"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 11990
+		division_template = "轻装旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 11990
+		division_template = "轻装旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 11990
+		division_template = "轻装旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 11990
+		division_template = "轻装旅"
+		start_experience_factor = 0.3
 	}
 }
 
@@ -222,7 +279,7 @@ instant_effect = {
 			creator = "CHI"
 		}
 		requested_factories = 1
-		progress = 0.3
+		progress = 0.4
 		efficiency = 50
 	}
 	add_equipment_production = {
@@ -240,7 +297,7 @@ instant_effect = {
 			creator = "CHI"
 		}
 		requested_factories = 1
-		progress = 0.3
+		progress = 0.4
 		efficiency = 100
 	}
 }

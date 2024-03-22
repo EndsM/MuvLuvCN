@@ -173,7 +173,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_MiG-21EEA"
-		texturefile = "gfx/interface/technologies/TSF/TSF_Mig-21EEA.dds"
+		texturefile = "gfx/interface/technologies/TSF/TSF_mig21EEA.dds"
 	}
 	SpriteType = {
 		name = "GFX_MiG-23"
@@ -181,7 +181,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_MiG-23EEA"
-		texturefile = "gfx/interface/technologies/TSF/TSF_Mig-23EEA.dds"
+		texturefile = "gfx/interface/technologies/TSF/TSF_mig23EEA.dds"
 	}
 	SpriteType = {
 		name = "GFX_MiG-27"
@@ -189,7 +189,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_MiG-27EEA"
-		texturefile = "gfx/interface/technologies/TSF/TSF_Mig-27EEA.dds"
+		texturefile = "gfx/interface/technologies/TSF/TSF_mig27EEA.dds"
 	}
 	SpriteType = {
 		name = "GFX_MiG-29燕子"
@@ -197,7 +197,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_MiG-31M"
-		texturefile = "gfx/interface/technologies/TSF/TSF_Mig-31SM.dds"
+		texturefile = "gfx/interface/technologies/TSF/TSF_MiG31SM.dds"
 	}
 	SpriteType = {
 		name = "GFX_MiG-35"
@@ -249,7 +249,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_F-CK-1经国"
-		texturefile = "gfx/interface/technologies/TSF/TSF_F-18E.dds"
+		texturefile = "gfx/interface/technologies/TSF/TSF_F-18EM1.dds"
 	}
 	SpriteType = {
 		name = "GFX_SW"

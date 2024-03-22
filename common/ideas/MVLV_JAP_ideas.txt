@@ -52,7 +52,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 				production_speed_arms_factory_factor = 0.2
 				production_speed_industrial_complex_factor = 0.2
 				production_speed_infrastructure_factor = 0.2
@@ -77,12 +77,13 @@ ideas = {
 		}
 		JAP_information = {
 			allowed = {
-				always = no
+				has_idea = JAP_puppet_shogun
 			}
 			modifier = {
 				stability_factor = -0.05
 			}
 		}
+		#扩充斯卫军 
 		JAP_expand_IJRG = {
 			allowed = {
 				always = no
@@ -92,15 +93,17 @@ ideas = {
 				special_forces_cap = 0.05
 			}
 		}
+		#为AL4项目助力 
 		JAP_funding_al4 = {
 			allowed = {
 				always = no
 			}
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 				research_speed_factor = 0.15
 			}
 		}
+		#明星作战的收尾
 		JAP_conclude_operation_lucifer = {
 			allowed = {
 				always = no
@@ -110,6 +113,7 @@ ideas = {
 				army_speed_factor = 0.1
 			}
 		}
+		#重建防卫线
 		JAP_reconstruct_defence_line = {
 			allowed = {
 				always = no
@@ -119,14 +123,25 @@ ideas = {
 				production_speed_coastal_bunker_factor = 0.1
 			}
 		}
+		#进口大东亚粮食
 		JAP_import_food_from_geu = {
 			allowed = {
 				always = no
 			}
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_expected_value = -0.05
 			}
 		}
+		#日式生产技术
+		GEU_japan_production_tech = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+		}
+		#日苏技术交流协定 
 		JAP_japan_soviet_tech_exchange = {
 			allowed = {
 				always = no
@@ -135,6 +150,7 @@ ideas = {
 				MVLV_tsf_tech = 0.1
 			}
 		}
+		#试验成功的电磁炮
 		JAP_tested_railgun = {
 			allowed = {
 				always = no
@@ -148,6 +164,7 @@ ideas = {
 				}
 			}
 		}
+		#联合生产电磁炮
 		JAP_joint_railgun_production = {
 			allowed = {
 				always = no
@@ -159,6 +176,7 @@ ideas = {
 				}
 			}
 		}
+		#战略研究会扩大 
 		JAP_expand_strat_research_society = {
 			allowed = {
 				always = no
@@ -169,6 +187,7 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
+		#战略研究会——默许
 		JAP_acquiesce_strat_research_society = {
 			allowed = {
 				always = no
@@ -179,6 +198,7 @@ ideas = {
 				stability_factor = -0.15
 			}
 		}
+		#战略研究会渗透 
 		JAP_incitement_from_strat_research_society = {
 			allowed = {
 				always = no
@@ -189,6 +209,7 @@ ideas = {
 				stability_factor = -0.2
 			}
 		}
+		#战略研究会异动 
 		JAP_strat_research_societys_plot = {
 			allowed = {
 				always = no
@@ -199,6 +220,7 @@ ideas = {
 				stability_factor = -0.3
 			}
 		}
+		#宣传日本使命 
 		JAP_promote_japanese_destiny = {
 			allowed = {
 				always = no
@@ -209,6 +231,7 @@ ideas = {
 				industrial_capacity_factory = 0.05
 			}
 		}
+		#强势内阁
 		JAP_strong_cabinet = {
 			allowed = {
 				always = no
@@ -217,6 +240,7 @@ ideas = {
 				political_power_factor = 0.25
 			}
 		}
+		#NATO日本分部
 		JAP_nato_japan_department = {
 			allowed = {
 				always = no
@@ -228,15 +252,17 @@ ideas = {
 				max_command_power = 100
 			}
 		}
+		#美国口粮
 		JAP_american_aid = {
 			allowed = {
 				always = no
 			}
 			modifier = {
 				stability_weekly = 0.005
-				consumer_goods_factor = -0.05
+				consumer_goods_expected_value = -0.05
 			}
 		}
+		#家国传统
 		JAP_nationalistic_legacy = {
 			allowed = {
 				always = no
@@ -248,6 +274,30 @@ ideas = {
 				army_org = 5
 				army_morale_factor = 0.05
 				special_forces_cap = 0.05
+			}
+		}
+		#斯卫摄政
+		JAP_jeg_regent = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = -0.15
+				special_forces_cap = 0.1
+				special_forces_attack_factor = 0.1
+				special_forces_defence_factor = 0.1
+				political_power_gain = -0.25
+			}
+		}
+		target_H20 = {
+			allowed = {
+				always = no
+			}
+			targeted_modifier = {
+				tag = H20
+				attack_bonus_against = 0.25
+				#defense_bonus_against = 0.25
+				breakthrough_bonus_against = 0.25
 			}
 		}
 	}

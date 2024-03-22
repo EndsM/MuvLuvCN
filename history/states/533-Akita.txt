@@ -2,7 +2,7 @@
 state={
 	id=533
 	name="STATE_533" # Tohoku
-	manpower = 6575000
+	manpower = 14500000#6575000
 	state_category = metropolis
 	resources={
 		steel=67 # was: 35

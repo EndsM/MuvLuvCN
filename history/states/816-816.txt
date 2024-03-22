@@ -1,0 +1,32 @@
+state={
+	id=816
+	name="STATE_816"
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			13091 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			13069 1 
+		}
+		victory_points = {
+			13091 3 
+		}
+
+	}
+	provinces={
+		4833 4848 10707 13069 13091 13202 13203 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

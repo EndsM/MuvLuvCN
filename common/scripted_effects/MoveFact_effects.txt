@@ -1,0 +1,206 @@
+clearStatesComeFactCount={
+	every_controlled_state={
+		clear_variable = comeInduFactCount
+		clear_variable = comeMiliFactCount
+		clear_variable = comeFactCount
+		set_variable={THIS.moveExpe=THIS.distance_to@PREV.PREV}
+		divide_variable={moveExpe=30}
+		set_variable={moveExpeTotal=0}
+	}
+}
+
+addComeInduFactOne={
+	set_variable={comeFactCount=comeInduFactCount}
+	add_to_variable={comeFactCount=comeMiliFactCount}
+	if={
+		limit={
+			checkAddComeInduFact=yes
+		}
+		add_to_variable={THIS.comeInduFactCount=1}
+	}
+}
+addComeInduFactFive={
+	#set_variable={comeFactCount=comeInduFactCount}
+	#add_to_variable={comeFactCount=comeMiliFactCount}
+	#add_to_variable={comeFactCount=4}
+	#if={
+	#	limit={
+	#		checkAddComeInduFact=yes
+	#	}
+	#	add_to_variable={THIS.comeInduFactCount=5}
+	#}
+	for_loop_effect = {
+		start = 0
+		end = 5
+		
+		addComeInduFactOne=yes
+	}
+}
+addComeInduFactTen={
+	#set_variable={comeFactCount=comeInduFactCount}
+	#add_to_variable={comeFactCount=comeMiliFactCount}
+	#add_to_variable={comeFactCount=9}
+	#if={
+	#	limit={
+	#		checkAddComeInduFact=yes
+	#	}
+	#	add_to_variable={THIS.comeInduFactCount=10}
+	#}
+	for_loop_effect = {
+		start = 0
+		end = 10
+		
+		addComeInduFactOne=yes
+	}
+}
+
+subComeInduFactOne={
+	if={
+		limit={
+			check_variable={comeInduFactCount>0}
+		}
+		add_to_variable={comeInduFactCount=-1}
+	}
+}
+subComeInduFactFive={
+	if={
+		limit={
+			check_variable={comeInduFactCount<6}
+		}
+		set_variable={comeInduFactCount=0}
+	}else={
+		add_to_variable={comeInduFactCount=-5}
+	}
+}
+subComeInduFactTen={
+	if={
+		limit={
+			check_variable={comeInduFactCount<11}
+		}
+		set_variable={comeInduFactCount=0}
+	}else={
+		add_to_variable={comeInduFactCount=-10}
+	}
+}
+
+
+
+addComeMiliFactOne={
+	set_variable={comeFactCount=comeInduFactCount}
+	add_to_variable={comeFactCount=comeMiliFactCount}
+	if={
+		limit={
+			checkAddComeMiliFact=yes
+		}
+		add_to_variable={THIS.comeMiliFactCount=1}
+	}
+}
+addComeMiliFactFive={
+	#set_variable={comeFactCount=comeInduFactCount}
+	#add_to_variable={comeFactCount=comeMiliFactCount}
+	#add_to_variable={comeFactCount=4}
+	#if={
+	#	limit={
+	#		checkAddComeMiliFact=yes
+	#	}
+	#	add_to_variable={THIS.comeMiliFactCount=5}
+	#}
+	for_loop_effect = {
+		start = 0
+		end = 5
+		
+		addComeMiliFactOne=yes
+	}
+}
+addComeMiliFactTen={
+	#set_variable={comeFactCount=comeInduFactCount}
+	#add_to_variable={comeFactCount=comeMiliFactCount}
+	#add_to_variable={comeFactCount=9}
+	#if={
+	#	limit={
+	#		checkAddComeMiliFact=yes
+	#	}
+	#	add_to_variable={THIS.comeMiliFactCount=10}
+	#}
+	for_loop_effect = {
+		start = 0
+		end = 10
+		
+		addComeMiliFactOne=yes
+	}
+}
+
+subComeMiliFactOne={
+	if={
+		limit={
+			check_variable={comeMiliFactCount>0}
+		}
+		add_to_variable={comeMiliFactCount=-1}
+	}
+}
+subComeMiliFactFive={
+	if={
+		limit={
+			check_variable={comeMiliFactCount<6}
+		}
+		set_variable={comeMiliFactCount=0}
+	}else={
+		add_to_variable={comeMiliFactCount=-5}
+	}
+}
+subComeMiliFactTen={
+	if={
+		limit={
+			check_variable={comeMiliFactCount<11}
+		}
+		set_variable={comeMiliFactCount=0}
+	}else={
+		add_to_variable={comeMiliFactCount=-10}
+	}
+}
+
+updateComeFactCount={
+	set_variable={comeFactCount=comeInduFactCount}
+	add_to_variable={comeFactCount=comeMiliFactCount}
+	set_variable={moveExpeTotal=comeFactCount}
+	multiply_variable={moveExpeTotal=moveExpe}
+}
+
+doMoveFact={
+	FROM={
+		meta_effect={
+			factIndu="[?prev.comeInduFactCount]"
+			factMili="[?prev.comeMiliFactCount]"
+			text={
+				remove_building = {
+					type = industrial_complex
+					level = [factIndu]
+				}
+				remove_building = {
+					type = arms_factory
+					level = [factMili]
+				}
+	
+			}
+		}
+	}
+	THIS={
+		meta_effect={
+			factIndu="[?comeInduFactCount]"
+			factMili="[?comeMiliFactCount]"
+			text={
+				add_building_construction = {
+					type = industrial_complex
+					level = [factIndu]
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = [factMili]
+					instant_build = yes
+				}
+			}
+		}
+		
+	}
+}

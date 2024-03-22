@@ -120,3 +120,18 @@ news_event = {
 	}
 	
 }
+
+
+news_event = {
+	id = mvlv_news.4
+	desc = mvlv_news.4.d
+	title = mvlv_news.4.t
+	picture = GFX_mvlv_G0
+	
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_news.4.a
+	}
+}

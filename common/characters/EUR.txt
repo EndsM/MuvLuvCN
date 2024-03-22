@@ -4,7 +4,7 @@ characters = {
 		portraits = {
 			army = {
 				large = GFX_威尔弗里德艾悉贝尔加头像
-				small = "gfx/leaders/EUR/威尔弗里德艾悉贝尔加.dds"
+				small = "gfx/leaders/EUR/威尔弗里德艾悉贝尔加小图.dds"
 			}
 		}
 		field_marshal = {
@@ -36,7 +36,7 @@ characters = {
 		portraits = {
 			army = {
 				large = GFX_吉克琳德法伦霍斯特头像
-				small = "gfx/leaders/EUR/吉克琳德法伦霍斯特.dds"
+				small = "gfx/leaders/EUR/吉克琳德法伦霍斯特小图.dds"
 			}
 		}
 		field_marshal = {

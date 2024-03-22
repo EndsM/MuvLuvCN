@@ -78,7 +78,7 @@ state_category_construction_development = {
 	state_category_construction_start = {
 		icon = generic_construction
 		cost = 10
-		days_remove = 100
+		days_remove = 50#100
 		fire_only_once = no
 		allowed = { NOT = { has_global_flag = state_category_construction_switch_on_kr } }
 		available = {
@@ -277,7 +277,7 @@ state_category_construction_development = {
 	state_category_construction_start_kr = {
 		icon = generic_construction
 		cost = 10
-		days_remove = 100
+		days_remove = 50#100
 		fire_only_once = no
 		available = {
           	num_of_civilian_factories_available_for_projects > 5
@@ -494,7 +494,7 @@ state_category_construction_development = {
 		cost = FROM.MVLV_decision_cost?10
 		fire_only_once = no
 		cancel_if_not_visible = yes
-		days_remove = 100
+		days_remove = 30#100
 		days_re_enable = 10
 		complete_effect = {
 			
@@ -506,10 +506,10 @@ state_category_construction_development = {
 			FROM = {
 				add_extra_state_shared_building_slots = 5
 				if = {
-					limit = { infrastructure < 8 }
+					limit = { infrastructure < 5 }
 					add_building_construction = {
 					    type = infrastructure
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 				}

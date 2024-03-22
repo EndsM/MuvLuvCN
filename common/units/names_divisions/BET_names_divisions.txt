@@ -34,7 +34,7 @@ BET_SOLDIER_01 =
 {
 	name = "Soldier-class BETA group"
 
-	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H23 H25 H26 }
+	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H22 H23  H24 H25 H26 }
 
 	can_use = { always = yes }
 
@@ -57,7 +57,7 @@ BET_WARRIOR_01 =
 {
 	name = "Warrior-class BETA group"
 
-	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H23 H25 H26 }
+	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H22 H23 H24 H25 H26 }
 
 	can_use = { always = yes }
 
@@ -80,7 +80,7 @@ BET_TANK_01 =
 {
 	name = "Tank-class BETA group"
 
-	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H23 H25 H26 }
+	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H22 H23 H24 H25 H26 }
 
 	can_use = { always = yes }
 
@@ -103,7 +103,7 @@ BET_GRAPPLER_01 =
 {
 	name = "Grappler-class BETA group"
 
-	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H23 H25 H26 }
+	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H22 H23 H24 H25 H26 }
 
 	can_use = { always = yes }
 
@@ -121,7 +121,7 @@ BET_DESTROYER_01 =
 {
 	name = "Destroyer-class BETA group"
 
-	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H23 H25 H26 }
+	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H22 H23 H24 H25 H26 }
 
 	can_use = { always = yes }
 
@@ -139,7 +139,7 @@ BET_FORT_01 =
 {
 	name = "Fort-class BETA group"
 
-	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H23 H25 H26 }
+	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H22 H23 H24 H25 H26 }
 
 	can_use = { always = yes }
 
@@ -157,7 +157,7 @@ BET_SRF_01 =
 {
 	name = "SRF-class BETA group"
 
-	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H23 H25 H26 }
+	for_countries = { BET H02 H03 H04 H05 H06 H07 H08 H09 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H21 H22 H23 H24 H25 H26 }
 
 	can_use = { always = yes }
 

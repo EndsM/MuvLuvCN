@@ -13,33 +13,33 @@ state={
 
 
 	history = { 1999.1.1 = { 
-			owner = GEU		
+			owner = H17#GEU		
 			remove_core_of = H17
 			
-			H16 = {
-				set_province_controller = 4119
-				set_province_controller = 12048
-				set_province_controller = 1073
-				set_province_controller = 12075
-				set_province_controller = 10075
-				set_province_controller = 12319
-				set_province_controller = 7518
-				set_province_controller = 12065
-				set_province_controller = 7015
-				set_province_controller = 1157
-				set_province_controller = 9948
-				set_province_controller = 7093
-				set_province_controller = 12008
-			}
+			#H16 = {
+			#	set_province_controller = 4119
+			#	set_province_controller = 12048
+			#	set_province_controller = 1073
+			#	set_province_controller = 12075
+			#	set_province_controller = 10075
+			#	set_province_controller = 12319
+			#	set_province_controller = 7518
+			#	set_province_controller = 12065
+			#	set_province_controller = 7015
+			#	set_province_controller = 1157
+			#	set_province_controller = 9948
+			#	set_province_controller = 7093
+			#	set_province_controller = 12008
+			#}
 		}
 		add_core_of = GEU
-		owner = GEU
+		#owner = GEU
 		victory_points = {
 			4075 1 
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
+			#industrial_complex = 1
 			air_base = 1
                         4255 = {
 				naval_base = 3

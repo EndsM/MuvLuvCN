@@ -1,9 +1,7 @@
 
 state={
 	id=800
-	name="STATE_800" # Krasnoyarsk
-	manpower = 35000000
-	state_category = rural
+	name="STATE_800"
 
 	history = {
 		1999.1.1 = {
@@ -17,8 +15,11 @@ state={
 			buildings = {
 				hive = 1
 				radar_station = 1
-#			         anti_air_building = 3
-				4724 = { bunker = 2 }
+				4724 = {
+					bunker = 2
+
+				}
+
 			}
 		}
 		owner = SOV
@@ -30,6 +31,10 @@ state={
 	}
 
 	provinces={
-		4724
+		1777 1850 4724 4853 7744 7815 10639 10712 12563 12621 12691 
 	}
+	manpower=35000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

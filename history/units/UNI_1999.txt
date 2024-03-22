@@ -476,7 +476,7 @@ units = {
 		}
 	}
 	division = {
-		location = 1308
+		location = 1281
 		division_template = "战术机联队"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
@@ -489,7 +489,7 @@ units = {
 		}
 	}
 	division = {
-		location = 1308
+		location = 1281
 		division_template = "战术机联队"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1

@@ -537,7 +537,7 @@ shared_focus = {
 		focus = common_cooperation_agreement
 	}
 	cancel_if_invalid = yes
-	cost = 10
+	cost = 5
 	completion_reward = {
 		if = {
 			limit = {
@@ -591,7 +591,7 @@ shared_focus = {
 		is_subject = no
 	}
 	cancel_if_invalid = yes
-	cost = 10
+	cost = 5
 	completion_reward = {
 		UNI = {
 			puppet = ROOT
@@ -622,6 +622,12 @@ shared_focus = {
 	}
 	ai_will_do = {
 		factor = 1
+		modifier = {
+			add = 100
+			UNI = {
+				is_ai = no
+			}
+		}
 	}
 }
 
@@ -642,7 +648,7 @@ shared_focus = {
 		focus = common_self_determination
 	}
 	cancel_if_invalid = yes
-	cost = 10
+	cost = 5
 	completion_reward = {
 		if = {
 			limit = {

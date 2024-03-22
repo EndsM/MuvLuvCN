@@ -34,14 +34,15 @@ country_event = {
 	#	days = 0
 	#}
 	immediate = {
-		# name = BETA.1.a
 		every_state = {
 			limit = {
 				OR = {
 					is_owned_by = BET
 					is_owned_by = H26
 					is_owned_by = H25
+					is_owned_by = H24
 					is_owned_by = H23
+					is_owned_by = H22
 					is_owned_by = H21
 					is_owned_by = H20
 					is_owned_by = H19
@@ -913,5 +914,22 @@ country_event = {
 				}
 			}
 		}
+	}
+}
+
+country_event = {
+	id = BETA.100
+	desc = BETA.100.d
+	title = BETA.100.t
+	picture = GFX_mvlv_hive_capitulation
+	fire_only_once =no
+	is_triggered_only = yes
+	hidden = no
+	option = {
+		name = BETA.100.a
+		trigger = {
+			NOT={TAG=UNI}
+		}
+		play_song_Alternative_11_effect = yes
 	}
 }

@@ -1,7 +1,7 @@
 sub_units = {
 
 	artillery = {
-		sprite = infantry
+		sprite = artillery
 		map_icon_category = infantry
 		priority = 0
 		ai_priority = 0
@@ -23,7 +23,7 @@ sub_units = {
 
 		
 		combat_width = 0
-		training_time = 120
+		training_time = 60#120
 
 		need = {
 			artillery_equipment = 12
@@ -49,7 +49,7 @@ sub_units = {
 
 	}
 	rocket_artillery = {
-		sprite = infantry
+		sprite = artillery
 		map_icon_category = infantry
 		priority = 0
 		ai_priority = 0
@@ -70,7 +70,7 @@ sub_units = {
 
 		
 		combat_width = 0
-		training_time = 120
+		training_time = 60#120
 
 		need = {
 			rocket_artillery_equipment = 12

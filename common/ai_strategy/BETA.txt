@@ -324,7 +324,17 @@ send_volunteers_limiter_BETA = {
 	}
 	ai_strategy = {
 		type = send_volunteers_desire
+		Id = H22
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
 		Id = H23
+		value = -100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		Id = H24
 		value = -100
 	}
 	ai_strategy = {

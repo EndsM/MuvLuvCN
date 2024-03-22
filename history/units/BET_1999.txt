@@ -89,6 +89,39 @@ division_template = {
 }
 
 division_template = {
+	name = "BETA师团"
+	# is_locked = yes
+	regiments = {
+		MVLV_beta_destroyer = { x = 0 y = 0 }
+		MVLV_beta_destroyer = { x = 0 y = 1 }
+		MVLV_beta_destroyer = { x = 0 y = 2 }
+		MVLV_beta_grappler = { x = 0 y = 3 }
+		MVLV_beta_grappler = { x = 0 y = 4 }
+		MVLV_beta_grappler = { x = 1 y = 0 }
+		MVLV_beta_grappler = { x = 1 y = 1 }
+		MVLV_beta_grappler = { x = 1 y = 2 }
+		MVLV_beta_warrior = { x = 1 y = 3 }
+		MVLV_beta_warrior = { x = 1 y = 4 }
+		MVLV_beta_warrior = { x = 2 y = 0 }
+		MVLV_beta_soldier = { x = 2 y = 1 }
+		MVLV_beta_soldier = { x = 2 y = 2 }
+		MVLV_beta_soldier = { x = 2 y = 3 }
+		MVLV_beta_tank = { x = 2 y = 4 }
+		MVLV_beta_tank = { x = 3 y = 0 }
+		MVLV_beta_tank = { x = 3 y = 1 }
+		MVLV_beta_tank = { x = 3 y = 2 }
+		MVLV_beta_tank = { x = 3 y = 3 }
+		MVLV_beta_tank = { x = 3 y = 4 }
+		MVLV_beta_tank = { x = 4 y = 0 }
+		MVLV_beta_tank = { x = 4 y = 1 }
+		MVLV_beta_tank = { x = 4 y = 2 }
+		MVLV_beta_fort = { x = 4 y = 3 }
+		MVLV_beta_fort = { x = 4 y = 4 }
+	}
+	priority = 2
+}
+
+division_template = {
 	name = "兵士级师团"
 	division_names_group = BET_SOLDIER_01
 	regiments = {
@@ -222,328 +255,381 @@ units = {
 #喀什
 #____________________________________________________________
 division = {
-		name = "要击级師団"
+		name = "大型混成BETA师团"
 		location = 13252
-		division_template = "要击级师团"
-		start_experience_factor = 0
+		division_template = "大型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "要击级師団"
+}
+division = {
+		name = "大型混成BETA师团"
 		location = 13252
-		division_template = "要击级师团"
-		start_experience_factor = 0
+		division_template = "大型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "要击级師団"
+}
+division = {
+		name = "大型混成BETA师团"
 		location = 13252
-		division_template = "要击级师团"
-		start_experience_factor = 0
+		division_template = "大型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "要击级師団"
+}
+division = {
+		name = "大型混成BETA师团"
 		location = 13252
-		division_template = "要击级师团"
-		start_experience_factor = 0
+		division_template = "大型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "要击级師団"
+}
+division = {
+		name = "大型混成BETA师团"
 		location = 13252
-		division_template = "要击级师团"
-		start_experience_factor = 0
+		division_template = "大型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "要击级師団"
+}
+division = {
+		name = "大型混成BETA师团"
 		location = 13252
-		division_template = "要击级师团"
-		start_experience_factor = 0
+		division_template = "大型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-	name = "要击级師団"
+}
+division = {
+	name = "大型混成BETA师团"
 	location = 13252
-	division_template = "要击级师团"
-	start_experience_factor = 0
+	division_template = "大型混成BETA师团"
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
-	name = "要击级師団"
+}
+division = {
+	name = "大型混成BETA师团"
 	location = 13252
-	division_template = "要击级师团"
-	start_experience_factor = 0
+	division_template = "大型混成BETA师团"
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
-	name = "要击级師団"
+}
+division = {
+	name = "大型混成BETA师团"
 	location = 13252
-	division_template = "要击级师团"
-	start_experience_factor = 0
+	division_template = "大型混成BETA师团"
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
-	name = "要击级師団"
+}
+division = {
+	name = "大型混成BETA师团"
 	location = 13252
-	division_template = "要击级师团"
-	start_experience_factor = 0
+	division_template = "大型混成BETA师团"
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
-	name = "要击级師団"
+}
+division = {
+	name = "大型混成BETA师团"
 	location = 13252
-	division_template = "要击级师团"
-	start_experience_factor = 0
+	division_template = "大型混成BETA师团"
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
-	name = "要击级師団"
+}
+division = {
+	name = "大型混成BETA师团"
 	location = 13252
-	division_template = "要击级师团"
-	start_experience_factor = 0
+	division_template = "大型混成BETA师团"
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
-	name = "要击级師団"
+}
+division = {
+	name = "大型混成BETA师团"
 	location = 13252
-	division_template = "要击级师团"
-	start_experience_factor = 0
+	division_template = "大型混成BETA师团"
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
-	name = "要击级師団"
+}
+division = {
+	name = "大型混成BETA师团"
 	location = 13252
-	division_template = "要击级师团"
-	start_experience_factor = 0
+	division_template = "大型混成BETA师团"
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
-		name = "突击级師団"
+}
+division = {
+		name = "大型混成BETA师团"
 		location = 13252
-		division_template = "突击级师团"
-		start_experience_factor = 0
+		division_template = "大型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "突击级師団"
+}
+division = {
+		name = "大型混成BETA师团"
 		location = 13252
-		division_template = "突击级师团"
-		start_experience_factor = 0
+		division_template = "大型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "突击级師団"
+}
+division = {
+		name = "大型混成BETA师团"
 		location = 13252
-		division_template = "突击级师团"
-		start_experience_factor = 0
+		division_template = "大型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "突击级師団"
+}
+division = {
+		name = "大型混成BETA师团"
 		location = 13252
-		division_template = "突击级师团"
-		start_experience_factor = 0
+		division_template = "大型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "要塞级師団"
 		location = 13252
 		division_template = "要塞级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "要塞级師団"
 		location = 13252
 		division_template = "要塞级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 	name = "要塞级師団"
 	location = 13252
 	division_template = "要塞级师团"
-	start_experience_factor = 0
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
+}
+division = {
 	name = "要塞级師団"
 	location = 13252
 	division_template = "要塞级师团"
-	start_experience_factor = 0
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
+}
+division = {
 	name = "要塞级師団"
 	location = 13252
 	division_template = "要塞级师团"
-	start_experience_factor = 0
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
+}
+division = {
 	name = "要塞级師団"
 	location = 13252
 	division_template = "要塞级师团"
-	start_experience_factor = 0
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
+}
+division = {
 	name = "要塞级師団"
 	location = 13252
 	division_template = "要塞级师团"
-	start_experience_factor = 0
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
+}
+division = {
 	name = "要塞级師団"
 	location = 13252
 	division_template = "要塞级师团"
-	start_experience_factor = 0
+	start_experience_factor = 0.3
 	start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
+}
+division = {
 		name = "战车级師団"
 		location = 13252
 		division_template = "战车级师团"
-		start_experience_factor = 0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "兵士级師団"
+}
+division = {
+		name = "小型混成BETA师团"
 		location = 13252
-		division_template = "兵士级师团"
-		start_experience_factor = 0
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "兵士级師団"
+}
+division = {
+		name = "小型混成BETA师团"
 		location = 13252
-		division_template = "兵士级师团"
-		start_experience_factor = 0
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "兵士级師団"
+}
+division = {
+		name = "小型混成BETA师团"
 		location = 13252
-		division_template = "兵士级师团"
-		start_experience_factor = 0
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "兵士级師団"
+}
+division = {
+		name = "小型混成BETA师团"
 		location = 13252
-		division_template = "兵士级师团"
-		start_experience_factor = 0
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "兵士级師団"
+}
+division = {
+		name = "小型混成BETA师团"
 		location = 13252
-		division_template = "兵士级师团"
-		start_experience_factor = 0
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "兵士级師団"
+}
+division = {
+		name = "小型混成BETA师团"
 		location = 13252
-		division_template = "兵士级师团"
-		start_experience_factor = 0
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "兵士级師団"
+}
+division = {
+		name = "小型混成BETA师团"
 		location = 13252
-		division_template = "兵士级师团"
-		start_experience_factor = 0
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "兵士级師団"
+}
+division = {
+		name = "小型混成BETA师团"
 		location = 13252
-		division_template = "兵士级师团"
-		start_experience_factor = 0
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "兵士级師団"
+}
+division = {
+		name = "小型混成BETA师团"
 		location = 13252
-		division_template = "兵士级师团"
-		start_experience_factor = 0
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
-}division = {
-		name = "兵士级師団"
+}
+division = {
+		name = "小型混成BETA师团"
 		location = 13252
-		division_template = "兵士级师团"
-		start_experience_factor = 0
+		division_template = "小型混成BETA师团"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 }
 }

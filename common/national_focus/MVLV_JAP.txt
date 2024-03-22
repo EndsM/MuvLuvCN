@@ -23,14 +23,20 @@ focus_tree = {
 		x = 9
 		y = 0
 		cost = 1
+		#select_effect = { }
 		completion_reward = {
 			add_timed_idea = {
 				idea = JAP_conclude_operation_lucifer
 				days = 30
 			}
+			GEU = {
+				country_event = mvlv_geu.1
+			}
+			# activate_decision = operation_bright_star
 		}
+		#completation_tooltip = { }
 		ai_will_do = {
-			factor = 6
+			factor = 100
 		}
 	}
 	#重建防卫线#
@@ -66,7 +72,7 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_rebuildDefenceLine
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			533 = {
 				add_extra_state_shared_building_slots = 10
@@ -101,7 +107,7 @@ focus_tree = {
 				is_fully_controlled_by = JAP
 			}
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_timed_idea = {
 				idea = JAP_reconquest_idea
@@ -228,7 +234,7 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_rebuildJapan
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_ideas = JAP_funding_al4
 			set_country_flag = kazuki_yuuko
@@ -255,7 +261,7 @@ focus_tree = {
 				is_fully_controlled_by = JAP
 			}
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			528 = {
 				add_building_construction = {
@@ -302,7 +308,7 @@ focus_tree = {
 				is_fully_controlled_by = JAP
 			}
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			555 = {
 				add_building_construction = {
@@ -341,7 +347,7 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_secureFarEastDefenceLine
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_ideas = JAP_expand_IJRG
 		}
@@ -361,7 +367,7 @@ focus_tree = {
 				is_fully_controlled_by = JAP
 			}
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			531 = {
 				add_extra_state_shared_building_slots = 20
@@ -402,7 +408,7 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_USJAPTreatyLesson
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			army_experience = 100
 			CHI = {
@@ -420,7 +426,7 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_workWithUFC
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_timed_idea = {
 				idea = JAP_japan_soviet_tech_exchange
@@ -447,7 +453,7 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_xfj_project
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_ideas = JAP_tested_railgun
 			country_event = mvlv_jap.18
@@ -463,7 +469,7 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_neighborOfTheNorth
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_ideas = JAP_import_food_from_geu
 			GEU = {
@@ -483,19 +489,16 @@ focus_tree = {
 		}
 		cost = 1
 		completion_reward = {
+			#custom_effect_tooltip = JAP_EUR_cultural_relations_tt
+			#custom_effect_tooltip = mvlv_jap_space_tt
+			every_army_leader = {
+				limit = {
+					is_character = JAP_unit_leader_9
+				}
+				set_nationality = EUR
+			}
 			EUR = {
 				country_event = mvlv_jap.16
-				effect_tooltip = {
-					global_every_army_leader = {
-						limit = {
-							OWNER = {
-								tag = ROOT
-							}
-							has_id = 9010
-						}
-						set_nationality = PREV
-					}
-				}
 			}
 		}
 	}
@@ -509,7 +512,7 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_EML99XTestFire
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_research_slot = 1
 			UNI = {
@@ -532,7 +535,7 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_ExportEML99XTech
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_ideas = JAP_joint_railgun_production
 			UNI = {
@@ -578,7 +581,7 @@ focus_tree = {
 	focus = {
 		id = JAP_ShieldOfTheEast
 		icon = GFX_goal_generic_military_sphere
-		cost = 5
+		cost = 4
 		prerequisite = {
 			focus = JAP_ForgetThePast
 		}
@@ -593,7 +596,7 @@ focus_tree = {
 	focus = {
 		id = JAP_SuppressNativisim
 		icon = GFX_goal_generic_neutrality_focus
-		cost = 5
+		cost = 4
 		prerequisite = {
 			focus = JAP_ShieldOfTheEast
 		}
@@ -609,7 +612,7 @@ focus_tree = {
 	focus = {
 		id = JAP_DemandIndustrialSupport
 		icon = GFX_goal_generic_more_territorial_claims
-		cost = 5
+		cost = 4
 		prerequisite = {
 			focus = JAP_SuppressNativisim
 		}
@@ -636,7 +639,7 @@ focus_tree = {
 	focus = {
 		id = JAP_USJAPJointTSFDev
 		icon = GFX_goal_generic_scientific_exchange
-		cost = 5
+		cost = 4
 		prerequisite = {
 			focus = JAP_DemandIndustrialSupport
 		}
@@ -656,7 +659,7 @@ focus_tree = {
 	focus = {
 		id = JAP_JointDefenceDoctrine
 		icon = GFX_goal_generic_defence
-		cost = 5
+		cost = 4
 		prerequisite = {
 			focus = JAP_USJAPJointTSFDev
 		}
@@ -790,6 +793,11 @@ focus_tree = {
 		prerequisite = {
 			focus = JAP_IdentifyTheTraitors
 		}
+		available = {
+			282 = {
+				is_controlled_by = JAP
+			}
+		}
 		x = 0
 		y = 1
 		relative_position_id = JAP_IdentifyTheTraitors
@@ -803,7 +811,7 @@ focus_tree = {
 		icon = GFX_focus_attack_australia
 		x = 5
 		y = 0
-		cost = 5
+		cost = 4
 		ai_will_do = {
 			factor = 4
 		}
@@ -820,6 +828,12 @@ focus_tree = {
 				id = mvlv_jap.2
 				days = 3
 			}
+			USA = {
+				country_event = {
+					id = mvlv_ate.1
+					days = 10
+				}
+			}
 		}
 		completion_reward = {
 			USA = {
@@ -829,11 +843,24 @@ focus_tree = {
 				country_event = mvlv_jap.1
 			}
 			add_ideas = mvlv_prominence_problem
-			add_tech_bonus = {
-				bonus = 2.5
-				uses = 1
-				name = mech_army_bonus
-				category = MVLV_tsf_tech
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				add_tech_bonus = {
+					bonus = 2.5
+					uses = 1
+					name = mech_army_bonus
+					technology = MVLV_research_tsf_3_heavy_normal_framework
+				}
+			}
+			else = {
+				add_tech_bonus = {
+					bonus = 2.5
+					uses = 1
+					name = mech_army_bonus
+					technology = JAP_T942
+				}
 			}
 		}
 	}

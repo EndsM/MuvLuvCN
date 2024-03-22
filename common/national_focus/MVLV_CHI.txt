@@ -20,7 +20,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_military
 		x = 8
 		y = 0
-		cost = 5
+		cost = 4
 		completion_reward = {
 			524 = {
 				add_building_construction = {
@@ -45,7 +45,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_00
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_offsite_building = {
 				type = arms_factory
@@ -66,7 +66,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_00
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_research_slot = 1
 		}
@@ -83,7 +83,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_01
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			524 = {
 				add_extra_state_shared_building_slots = 10
@@ -112,7 +112,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_01
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_ideas = CHI_I1
 		}
@@ -129,7 +129,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_02
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			807 = {
 				add_extra_state_shared_building_slots = 10
@@ -158,7 +158,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_03
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_ideas = CHI_I2
 		}
@@ -175,7 +175,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_04
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			647 = {
 				add_extra_state_shared_building_slots = 10
@@ -194,7 +194,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_05
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_ideas = CHI_I3
 		}
@@ -214,11 +214,11 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_04
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = MVLV_AL_shell_equipment_1
-				amount = 3000
+				amount = 10000
 				producer = ROOT
 			}
 			# add_equipment_to_stockpile = {
@@ -246,7 +246,7 @@ focus_tree = {
 			focus = CHI_idea_01_Ex2
 			focus = CHI_idea_01_Ex3
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_offsite_building = {
 				type = arms_factory
@@ -264,7 +264,7 @@ focus_tree = {
 		icon = GFX_goal_generic_neutrality_focus
 		x = 15
 		y = 0
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_political_power = 150
 		}
@@ -289,7 +289,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CHI_idea_12_L1
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_stability = 0.2
 			add_war_support = -0.3
@@ -318,7 +318,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_R1
 		}
-		cost = 10
+		cost = 4
 		completion_reward = {
 			add_war_support = 0.2
 			remove_ideas = {
@@ -338,7 +338,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_R2
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_political_power = 250
 		}
@@ -355,7 +355,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_R3
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_research_slot = 1
 			add_political_power = 100
@@ -374,7 +374,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_R4
 		}
-		cost = 10
+		cost = 4
 		completion_reward = {
 			add_state_core = 813
 			add_state_core = 330
@@ -400,7 +400,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CHI_idea_12_L1
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_stability = 0.05
 		}
@@ -417,7 +417,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_S1
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_timed_idea = {
 				idea = CHI_P2
@@ -444,7 +444,7 @@ focus_tree = {
 				has_idea = CHI_P2
 			}
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_popularity = {
 				ideology = democratic
@@ -503,7 +503,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_S4
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_ideas = CHI_P3
 			custom_effect_tooltip = CHI_idea_12_S5_tt
@@ -537,7 +537,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CHI_idea_12_S1
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_stability = -0.1
 			add_war_support = -0.2
@@ -569,7 +569,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_L1
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_stability = 0.2
 			add_war_support = 0.2
@@ -588,7 +588,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_L2
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = land_doctrine
@@ -621,7 +621,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_L3
 		}
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_ideas = CHI_P4
 		}
@@ -638,7 +638,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CHI_idea_12_L4
 		}
-		cost = 10
+		cost = 8
 		completion_reward = {
 			army_experience = 200
 			add_manpower = -50000

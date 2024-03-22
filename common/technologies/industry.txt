@@ -217,7 +217,42 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 0			# 25
+			  factor = 0# 25
+
+			modifier = {
+				  factor = 0# 2
+				NOT = { tag = GER }
+			}
+			
+			modifier = {
+				  factor = 0# 2
+				tag = USA
+			}
+			
+			modifier = {
+				  factor = 0# 2
+				tag = ENG
+			}
+			
+			modifier = {
+				  factor = 0# 2
+				tag = JAP
+			}
+
+			modifier = {
+				  factor = 0# 0
+				has_tech = dispersed_industry
+			}
+			
+			modifier = {
+				  factor = 0# 0
+				is_researching_technology = dispersed_industry
+			}
+						
+			modifier = {
+				  factor = 0# 5
+				date > "1937.1.1"
+			}
 		}
 		categories = {
 			industry
@@ -359,7 +394,42 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 0			# 25
+			  factor = 0# 25
+
+			modifier = {
+				  factor = 0# 2
+				tag = GER
+			}
+			
+			modifier = {
+				  factor = 0# 0.25
+				tag = USA
+			}
+			
+			modifier = {
+				  factor = 0# 0.25
+				tag = ENG
+			}
+			
+			modifier = {
+				  factor = 0# 0.25
+				tag = JAP
+			}
+
+			modifier = {
+				  factor = 0# 0
+				has_tech = concentrated_industry
+			}
+			
+			modifier = {
+				  factor = 0# 0
+				is_researching_technology = concentrated_industry
+			}
+
+			modifier = {
+				  factor = 0# 5
+				date > "1937.1.1"
+			}
 		}
 		categories = {
 			industry
@@ -490,14 +560,14 @@ technologies = {
 		}
 	}
 	fuel_silos = {
-		enable_building = {
-			building = fuel_silo
-			level = 3
-		}
-		path = {
-			leads_to_tech = synth_oil_experiments
-			research_cost_coeff = 1
-		}
+		# enable_building = {
+		# 	building = fuel_silo
+		# 	level = 3
+		# }
+		# path = {
+		# 	leads_to_tech = synth_oil_experiments
+		# 	research_cost_coeff = 1
+		# }
 		path = {
 			leads_to_tech = fuel_refining
 			research_cost_coeff = 1
@@ -522,10 +592,10 @@ technologies = {
 	fuel_refining = {
 		fuel_gain_factor = 1
 		fuel_gain_factor_from_states = 0.5
-		path = {
-			leads_to_tech = fuel_refining2
-			research_cost_coeff = 1
-		}
+		# path = {
+		# 	leads_to_tech = fuel_refining2
+		# 	research_cost_coeff = 1
+		# }
 		research_cost = 3
 		start_year = 1936
 		folder = {

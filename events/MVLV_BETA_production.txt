@@ -8,10 +8,12 @@ country_event = {
 		is_in_faction_with = BET
 	}
 	immediate = {
-		log = "开始刷兵"
+		# log = "开始刷兵"
 		if = {
 			limit = {
-				not = { has_idea = mvlv_aggressive_beta }
+				not = {
+					has_idea = mvlv_aggressive_beta
+				}
 				is_ai = yes
 			}
 			if = {
@@ -42,7 +44,7 @@ country_event = {
 				BETA个体数较多时混成师团生产 = yes
 			}
 			else = {
-				BETA人力增加 = yes
+				# BETA人力增加 = yes
 			}
 		}
 		country_event = {
@@ -80,7 +82,6 @@ country_event = {
 # # 		}
 # # 	}
 # # }
-
 # # country_event = {
 # # 	id = mvlv_beta_production.2
 # # 	fire_only_once = no
@@ -106,7 +107,6 @@ country_event = {
 # # 		}
 # # 	}
 # # }
-
 country_event = {
 	id = mvlv_beta_production.3
 	fire_only_once = no
@@ -154,7 +154,6 @@ country_event = {
 # # 		}
 # # 	}
 # # }
-
 # # country_event = {
 # # 	id = mvlv_beta_production.4
 # # 	fire_only_once = no

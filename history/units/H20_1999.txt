@@ -219,79 +219,79 @@ division_template = {
 units  = {
 	division = {
 			location = 7157
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 7157
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 7157
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 7157
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 7157
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 7157
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 7157
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 7157
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 7157
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 7157
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 7157
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 7157
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 7157
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 
@@ -310,55 +310,49 @@ units  = {
 	}
 	division = {
 			location = 12072
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 12072
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 12072
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 12072
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 12072
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 12072
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 12072
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 12072
-			division_template = "斗士级师团"
-			start_experience_factor = 0
-			start_equipment_factor = 1
-	}
-	division = {
-			location = 12072
-			division_template = "战车级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
@@ -387,56 +381,62 @@ units  = {
 			start_equipment_factor = 1
 	}
 	division = {
-			location = 10015
-			division_template = "兵士级师团"
+			location = 12072
+			division_template = "战车级师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 10015
-			division_template = "兵士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 10015
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 10015
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 10015
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 10015
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 10015
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 10015
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
 	division = {
 			location = 10015
-			division_template = "斗士级师团"
+			division_template = "小型混成BETA师团"
+			start_experience_factor = 0
+			start_equipment_factor = 1
+	}
+	division = {
+			location = 10015
+			division_template = "小型混成BETA师团"
 			start_experience_factor = 0
 			start_equipment_factor = 1
 	}
@@ -627,23 +627,23 @@ units  = {
 		start_equipment_factor = 1
 }
 division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 7072
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 }
 division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 7072
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 }
 division = {
-		name = "兵士级師団"
+		name = "小型混成BETA师团"
 		location = 7072
-		division_template = "兵士级师团"
+		division_template = "小型混成BETA师团"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 }

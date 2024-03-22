@@ -3,11 +3,13 @@ country_event = {
 	id = mvlv_ose.1
 	desc = mvlv_ose.1.d
 	title = mvlv_ose.1.t
-	
 	is_triggered_only = yes
-
 	option = {
 		name = mvlv_ose.1.a
-		add_equipment_to_stockpile = { type = MVLV_TSF_chassis amount = 600 producer = ROOT }
+		add_equipment_to_stockpile = {
+			type = MVLV_TSF_chassis
+			amount = 300
+			producer = OSE
+		}
 	}
 }

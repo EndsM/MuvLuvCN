@@ -1,68 +1,481 @@
-# beta_research = {
-# 	tank_research_1 = {
-# 		icon = generic_nationalism
-# 		available = {
-# 			check_variable = {
-# 				num_equipment@beta_tank>1000
-# 			}
-# 		}
-# 		fire_only_once = no
-# 		visible = {
-# 			has_war_with = BET
-# 		}
-# 		complete_effect = {
-# 			add_equipment_to_stockpile = {
-# 				type = beta_tank
-# 				amount = -1000
-# 			}
-# 			add_equipment_to_stockpile = {
-# 				type = MVLV_TSF_chassis
-# 				amount = 4
-# 			}
-# 		}
-# 	}
-# 	tank_research_2 = {
-# 		icon = generic_nationalism
-# 		available = {
-# 			check_variable = {
-# 				num_equipment@beta_tank>10000
-# 			}
-# 		}
-# 		fire_only_once = no
-# 		visible = {
-# 			has_war_with = BET
-# 		}
-# 		complete_effect = {
-# 			add_equipment_to_stockpile = {
-# 				type = beta_tank
-# 				amount = -10000
-# 			}
-# 			add_equipment_to_stockpile = {
-# 				type = MVLV_TSF_chassis
-# 				amount = 40
-# 			}
-# 		}
-# 	}
-# 	tank_research_3 = {
-# 		icon = generic_nationalism
-# 		available = {
-# 			check_variable = {
-# 				num_equipment@beta_tank>100000
-# 			}
-# 		}
-# 		fire_only_once = no
-# 		visible = {
-# 			has_war_with = BET
-# 		}
-# 		complete_effect = {
-# 			add_equipment_to_stockpile = {
-# 				type = beta_tank
-# 				amount = -100000
-# 			}
-# 			add_equipment_to_stockpile = {
-# 				type = MVLV_TSF_chassis
-# 				amount = 400
-# 			}
-# 		}
-# 	}
-# }
+beta_research = {
+	G_research = {
+		icon = generic_nationalism
+		available = {
+			FROM = {
+				is_in_faction_with = BET
+				has_war_with = ROOT
+				#is_neighbor_of = ROOT
+				NOT = {
+					has_idea = destroyed_reacting_furnace
+				}
+				all_core_state = {
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		fire_only_once = no
+		visible = {
+			NOT = {
+				has_idea = G_researching
+			}
+			has_war_with = BET
+		}
+		target_trigger = {
+			FROM = {
+				all_core_state = {
+					is_controlled_by = ROOT
+				}
+				NOT = {
+					is_in_faction_with = ROOT
+				}
+				is_in_faction_with = BET
+				has_war_with = ROOT
+				#is_neighbor_of = ROOT
+			}
+		}
+		days_remove = 1000
+		cost = 10
+		complete_effect = {
+			add_ideas = G_researching
+		}
+		remove_effect = {
+			remove_ideas = G_researching
+		}
+		cancel_trigger = {
+			FROM = {
+				OR = {
+					has_idea = destroyed_reacting_furnace
+					all_core_state = {
+						NOT = {
+							is_controlled_by = ROOT
+						}
+					}
+				}
+			}
+		}
+		cancel_effect = {
+			remove_ideas = G_researching
+		}
+	}
+	tank_research_1 = {
+		icon = generic_nationalism
+		available = {
+			check_variable = {
+				num_equipment@beta_tank > 5000
+			}
+		}
+		fire_only_once = no
+		visible = {
+			has_war_with = BET
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = beta_tank
+				amount = -5000
+			}
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				random_list = {
+					20 = {
+						add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							category = armor
+						}
+					}
+					20 = {
+						add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							category = artillery
+						}
+					}
+					20 = {
+						add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							category = electronics
+						}
+					}
+					20 = {
+						add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							category = infantry_weapons
+						}
+					}
+					15 = {
+						add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							category = MVLV_tsf_tech
+						}
+					}
+					5 = {
+						# add_equipment_to_stockpile = {
+						# 	type = MVLV_TSF_chassis
+						# 	# type=tsf_equipment_HERO        
+						# 	producer = ROOT
+						# 	amount = 10
+						# }
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "No Step Back"
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_chassis
+					#type=tsf_equipment_HERO       
+					producer = ROOT
+					amount = 10
+				}
+			}
+		}
+	}
+	tank_research_2 = {
+		icon = generic_nationalism
+		available = {
+			check_variable = {
+				num_equipment@beta_tank > 50000
+			}
+		}
+		fire_only_once = no
+		visible = {
+			has_war_with = BET
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = beta_tank
+				amount = -50000
+			}
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				random_list = {
+					20 = {
+						add_tech_bonus = {
+							bonus = 2
+							uses = 1
+							category = armor
+						}
+					}
+					20 = {
+						add_tech_bonus = {
+							bonus = 2
+							uses = 1
+							category = artillery
+						}
+					}
+					20 = {
+						add_tech_bonus = {
+							bonus = 2
+							uses = 1
+							category = electronics
+						}
+					}
+					20 = {
+						add_tech_bonus = {
+							bonus = 2
+							uses = 1
+							category = infantry_weapons
+						}
+					}
+					15 = {
+						add_tech_bonus = {
+							bonus = 2
+							uses = 1
+							category = MVLV_tsf_tech
+						}
+					}
+					# 5 = {
+					# 	add_equipment_to_stockpile = {
+					# 		type = MVLV_TSF_chassis
+					# 		# type=tsf_equipment_HERO        
+					# 		producer = ROOT
+					# 		amount = 100
+					# 	}
+					# }
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "No Step Back"
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_chassis
+					#type=tsf_equipment_HERO        
+					producer = ROOT
+					amount = 100
+				}
+			}
+		}
+	}
+	tank_research_3 = {
+		icon = generic_nationalism
+		available = {
+			check_variable = {
+				num_equipment@beta_tank > 500000
+			}
+		}
+		fire_only_once = no
+		visible = {
+			has_war_with = BET
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = beta_tank
+				amount = -500000
+			}
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+				}
+				random_list = {
+					20 = {
+						add_tech_bonus = {
+							bonus = 4
+							uses = 1
+							category = armor
+						}
+					}
+					25 = {
+						add_tech_bonus = {
+							bonus = 4
+							uses = 1
+							category = artillery
+						}
+					}
+					25 = {
+						add_tech_bonus = {
+							bonus = 4
+							uses = 1
+							category = electronics
+						}
+					}
+					20 = {
+						add_tech_bonus = {
+							bonus = 4
+							uses = 1
+							category = MVLV_tsf_tech
+						}
+					}
+					# 10 = {
+					# 	add_equipment_to_stockpile = {
+					# 		type = MVLV_TSF_chassis
+					# 		#type=tsf_equipment_HERO        
+					# 		producer = ROOT
+					# 		amount = 1000
+					# 	}
+					# }
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "No Step Back"
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = MVLV_TSF_chassis
+					# type=tsf_equipment_HERO        
+					producer = ROOT
+					amount = 1000
+				}
+			}
+		}
+	}
+	soldier_dig_in = {
+		icon = generic_nationalism
+		available = {
+			check_variable = {
+				num_equipment@beta_soldier > 5000
+			}
+		}
+		fire_only_once = no
+		days_remove = 30
+		visible = {
+			has_war_with = BET
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = beta_soldier
+				amount = -5000
+			}
+		}
+		modifier = {
+			dig_in_speed_factor = 0.5
+			max_dig_in = 5
+		}
+	}
+	warrior_dig_in = {
+		icon = generic_nationalism
+		available = {
+			check_variable = {
+				num_equipment@beta_warrior > 5000
+			}
+		}
+		fire_only_once = no
+		days_remove = 30
+		visible = {
+			has_war_with = BET
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = beta_warrior
+				amount = -5000
+			}
+		}
+		modifier = {
+			dig_in_speed_factor = 0.5
+			max_dig_in = 5
+		}
+	}
+	destroyer_building_fort_1 = {
+		icon = generic_nationalism
+		available = {
+			check_variable = {
+				num_equipment@beta_destroyer > 1000
+			}
+		}
+		fire_only_once = no
+		days_re_enable = 30
+		visible = {
+			has_war_with = BET
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = beta_destroyer
+				amount = -1000
+			}
+			add_timed_idea = {
+				idea = BETA_for_building_fort_1
+				days = 30
+			}
+		}
+	}
+	destroyer_building_1 = {
+		icon = generic_nationalism
+		available = {
+			check_variable = {
+				num_equipment@beta_destroyer > 3000
+			}
+		}
+		fire_only_once = no
+		days_re_enable = 60
+		visible = {
+			has_war_with = BET
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = beta_destroyer
+				amount = -3000
+			}
+			add_timed_idea = {
+				idea = BETA_for_building_1
+				days = 60
+			}
+		}
+	}
+	grappler_building_fort_1 = {
+		icon = generic_nationalism
+		available = {
+			check_variable = {
+				num_equipment@beta_grappler > 3000
+			}
+		}
+		fire_only_once = no
+		days_re_enable = 30
+		visible = {
+			has_war_with = BET
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = beta_grappler
+				amount = -3000
+			}
+			add_timed_idea = {
+				idea = BETA_for_building_fort_2
+				days = 30
+			}
+		}
+	}
+	grappler_building_1 = {
+		icon = generic_nationalism
+		available = {
+			check_variable = {
+				num_equipment@beta_grappler > 9000
+			}
+		}
+		fire_only_once = no
+		days_re_enable = 60
+		visible = {
+			has_war_with = BET
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = beta_grappler
+				amount = -9000
+			}
+			add_timed_idea = {
+				idea = BETA_for_building_2
+				days = 60
+			}
+		}
+	}
+	fort_building_fort_1 = {
+		icon = generic_nationalism
+		available = {
+			check_variable = {
+				num_equipment@beta_fort > 500
+			}
+		}
+		fire_only_once = no
+		days_re_enable = 30
+		visible = {
+			has_war_with = BET
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = beta_fort
+				amount = -500
+			}
+			add_timed_idea = {
+				idea = BETA_for_building_fort_3
+				days = 30
+			}
+		}
+	}
+	fort_building_1 = {
+		icon = generic_nationalism
+		available = {
+			check_variable = {
+				num_equipment@beta_fort > 1500
+			}
+		}
+		fire_only_once = no
+		days_re_enable = 60
+		visible = {
+			has_war_with = BET
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = beta_fort
+				amount = -1500
+			}
+			add_timed_idea = {
+				idea = BETA_for_building_3
+				days = 60
+			}
+		}
+	}
+}

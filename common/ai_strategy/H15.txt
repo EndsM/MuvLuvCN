@@ -123,6 +123,11 @@ H15_defend_doctrine = {
 		id = H21
 		value = 100
 	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H22
+		value = 100
+	}
 
 	ai_strategy = {
 		type = dont_defend_ally_borders
@@ -130,6 +135,11 @@ H15_defend_doctrine = {
 		value = 100
 	}
 
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H24
+		value = 100
+	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H25

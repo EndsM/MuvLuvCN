@@ -104,6 +104,9 @@ script_enum_equipment_bonus_type = {
 	tsa_equipment
 	asa_equipment
 	jeg_equipment
+
+	heavy_laser_equipment
+	laser_equipment
 }
 
 script_enum_operative_mission_type = {

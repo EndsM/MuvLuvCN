@@ -33,7 +33,9 @@ state={
 			buildings = {
 				hive = 1
                                 radar_station = 3
-			         anti_air_building = 3
+			infrastructure = 3
+			air_base = 1
+			         #anti_air_building = 3
                                 1492 = {
                                        bunker = 3
                                 }
@@ -42,10 +44,6 @@ state={
 		owner = GEU
 		add_core_of = GEU
 		#add_core_of = BRM
-		buildings = {
-			infrastructure = 3
-			air_base = 1
-		}
 		victory_points = {
 			1492 100 
 		}

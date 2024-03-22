@@ -8,6 +8,7 @@ equipments = {
 		}
 		allow_mission_type = { 
 			cas 
+			naval_bomber
 		}
 
 		is_archetype = yes

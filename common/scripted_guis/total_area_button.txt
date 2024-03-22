@@ -1,0 +1,41 @@
+scripted_gui = {
+	Supply_Drop_button = {
+	
+		context_type = selected_state_context
+		
+		window_name = "supply_drop_button_container"
+		
+		visible = {
+			ROOT = { 
+				has_war = yes
+			}
+		}
+		
+		effects = {
+			Supply_Drop_click = {
+				PREV = { 
+					add_dynamic_modifier = {
+						modifier = Supply_Drop_area
+						days = 7
+					}
+				}
+				ROOT = {
+					subtract_from_variable = { ammunition_variable = 100 }
+				}
+			}
+		}
+		triggers = {
+			Supply_Drop_click_enabled = {
+				check_variable = { ROOT.ammunition_variable > 100 }
+				PREV = {  
+					NOT = {
+						has_dynamic_modifier = {
+							modifier = Supply_Drop_area
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

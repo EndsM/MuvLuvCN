@@ -26,9 +26,9 @@ sub_units = {
 		max_organisation = 60
 		max_strength = 30
 		default_morale = 1
-		training_time = 66
+		training_time = 60
 		weight = 2
-		supply_consumption = 0.05
+		supply_consumption = 0.01
 		#偵察、無線機能
 		recon = 0.5
 		initiative = 0.1
@@ -125,6 +125,6 @@ sub_units = {
 		default_morale = 0.1
 		training_time = 60
 		weight = 2
-		supply_consumption = 0.08
+		supply_consumption = 0.01
 	}
 }

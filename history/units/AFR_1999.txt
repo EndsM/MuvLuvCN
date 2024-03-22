@@ -1,33 +1,5 @@
 ﻿units = {
 	division = {
-		name = "杜马小队"
-		location = 13244
-		division_template = "战术机大队"
-		start_experience_factor = 1
-		start_equipment_factor = 1
-		force_equipment_variants = {
-			MVLV_TSF_classis_1_light = {
-				owner = "AFR"
-				creator = EUR
-				version_name = "幻影2000"
-			}
-		}
-	}
-	division = {
-		name = "死神小队"
-		location = 13244
-		division_template = "战术机大队"
-		start_experience_factor = 1
-		start_equipment_factor = 1
-		force_equipment_variants = {
-			MVLV_TSF_classis_2_heavy_normal = {
-				owner = "AFR"
-				creator = USA
-				version_name = "F-14雄猫"
-			}
-		}
-	}
-	division = {
 		location = 10073
 		division_template = "战术机联队"
 		start_experience_factor = 0.3

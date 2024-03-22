@@ -29,7 +29,7 @@ spriteTypes = {
 		textureFile = "gfx/leaders/特殊/薇薇安达奥比涅.dds"
 	}
 	spriteType = {
-		name = "GFX_薇薇安达奥比涅小图"
+		name = "GFX_薇薇安达奥比涅头像小图"
 		textureFile = "gfx/leaders/特殊/薇薇安达奥比涅小图.dds"
 	}
 	spriteType = {
@@ -51,11 +51,11 @@ spriteTypes = {
 	#jap leader gfx
 	spriteType = {
 		name = "GFX_portrait_denka"
-		textureFile = "gfx/leaders/JAP/denka.dds"
+		textureFile = "gfx/leaders/JAP/煌武院悠阳.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_煌武院悠阳"
-		textureFile = "gfx/leaders/JAP/denka.dds"
+		textureFile = "gfx/leaders/JAP/煌武院悠阳.dds"
 	}
 	spriteType = {
 		name = "GFX_煌武院悠阳头像"

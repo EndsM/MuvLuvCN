@@ -1,10 +1,7 @@
 ﻿###########################
 # super_events 
 ###########################
-
-
 add_namespace = super
-
 country_event = {
 	id = super.1
 	desc = super.1.d
@@ -13,281 +10,463 @@ country_event = {
 	fire_only_once = no
 	is_triggered_only = yes
 	hidden = yes
-
 	immediate = {
 		IF = {
-			limit = { tag = BET 
+			limit = {
+				tag = BET
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_beta_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_beta_attack
+			}
 		}
 		IF = {
-			limit = { tag = H00 
+			limit = {
+				tag = H00
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h00_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h00_attack
+			}
 		}
 		IF = {
-			limit = { tag = H02 
+			limit = {
+				tag = H02
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h02_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h02_attack
+			}
 		}
 		IF = {
-			limit = { tag = H03 
+			limit = {
+				tag = H03
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h03_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h03_attack
+			}
 		}
 		IF = {
-			limit = { tag = H04 
+			limit = {
+				tag = H04
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h04_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h04_attack
+			}
 		}
 		IF = {
-			limit = { tag = H05 
+			limit = {
+				tag = H05
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h05_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h05_attack
+			}
 		}
 		IF = {
-			limit = { tag = H06 
+			limit = {
+				tag = H06
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h06_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h06_attack
+			}
 		}
 		IF = {
-			limit = { tag = H07 
+			limit = {
+				tag = H07
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h07_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h07_attack
+			}
 		}
 		IF = {
-			limit = { tag = h08 
+			limit = {
+				tag = h08
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h08_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h08_attack
+			}
 		}
 		IF = {
-			limit = { tag = h09 
+			limit = {
+				tag = h09
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h09_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h09_attack
+			}
 		}
 		IF = {
-			limit = { tag = h10 
+			limit = {
+				tag = h10
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h10_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h10_attack
+			}
 		}
 		IF = {
-			limit = { tag = h11 
+			limit = {
+				tag = h11
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h11_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h11_attack
+			}
 		}
 		IF = {
-			limit = { tag = h12 
+			limit = {
+				tag = h12
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h12_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h12_attack
+			}
 		}
 		IF = {
-			limit = { tag = h13 
+			limit = {
+				tag = h13
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h13_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h13_attack
+			}
 		}
 		IF = {
-			limit = { tag = h14 
+			limit = {
+				tag = h14
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h14_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h14_attack
+			}
 		}
 		IF = {
-			limit = { tag = h15 
+			limit = {
+				tag = h15
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h15_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h15_attack
+			}
 		}
 		IF = {
-			limit = { tag = h16 
+			limit = {
+				tag = h16
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h16_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h16_attack
+			}
 		}
 		IF = {
-			limit = { tag = h17 
+			limit = {
+				tag = h17
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h17_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h17_attack
+			}
 		}
 		IF = {
-			limit = { tag = h18 
+			limit = {
+				tag = h18
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h18_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h18_attack
+			}
 		}
 		IF = {
-			limit = { tag = h19 
+			limit = {
+				tag = h19
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h19_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h19_attack
+			}
 		}
 		IF = {
-			limit = { tag = h20 
+			limit = {
+				tag = h20
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h20_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h20_attack
+			}
 		}
 		IF = {
-			limit = { tag = h21 
+			limit = {
+				tag = h21
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h21_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h21_attack
+			}
 		}
 		IF = {
-			limit = { tag = h23 
+			limit = {
+				tag = h22
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h23_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h22_attack
+			}
 		}
 		IF = {
-			limit = { tag = h25 
+			limit = {
+				tag = h23
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h25_attack
-		}
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h23_attack
+			}
 		}
 		IF = {
-			limit = { tag = h26 
+			limit = {
+				tag = h24
 			}
 			every_neighbor_country = {
-			limit = { always = yes }
-			set_country_flag = big_event_custom_h26_attack
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h24_attack
+			}
 		}
+		IF = {
+			limit = {
+				tag = h25
+			}
+			every_neighbor_country = {
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h25_attack
+			}
+		}
+		IF = {
+			limit = {
+				tag = h26
+			}
+			every_neighbor_country = {
+				limit = {
+					always = yes
+				}
+				set_country_flag = big_event_custom_h26_attack
+			}
 		}
 	}
 }
 
 country_event = {
 	id = super.2
-	desc = super.2.d　
+	desc = super.2.d
 	title = super.2.t
 	picture = BETA_event_2.dds
 	fire_only_once = yes
 	is_triggered_only = yes
 	hidden = yes
-
 	immediate = {
 		every_country = {
 			limit = {
 				always = yes
 			}
-		set_country_flag = big_event_custom_london_fall
+			set_country_flag = big_event_custom_london_fall
 		}
 	}
 }
 
 country_event = {
 	id = super.3
-	desc = super.3.d　
-	title = super.3t
+	desc = super.3.d
+	title = super.3.t
 	picture = BETA_event_3.dds
 	fire_only_once = yes
 	is_triggered_only = yes
 	hidden = yes
-
 	immediate = {
 		every_country = {
 			limit = {
 				always = yes
 			}
-		set_country_flag = big_event_custom_cairo_fall
+			set_country_flag = big_event_custom_cairo_fall
 		}
 	}
 }
+
 country_event = {
 	id = super.4
-	desc = super.4.d　
+	desc = super.4.d
 	title = super.4t
 	picture = BETA_event_4.dds
 	fire_only_once = yes
 	is_triggered_only = yes
 	hidden = yes
-
 	immediate = {
 		every_country = {
 			limit = {
 				always = yes
 			}
-		set_country_flag = big_event_custom_taipei_fall
+			set_country_flag = big_event_custom_taipei_fall
 		}
 	}
 }
+
 country_event = {
 	id = super.5
-	desc = super.5.d　
-	title = super.5t
+	desc = super.5.d
+	title = super.5.t
 	picture = BETA_event_5.dds
 	fire_only_once = yes
 	is_triggered_only = yes
 	hidden = yes
-
 	immediate = {
 		every_country = {
 			limit = {
 				always = yes
 			}
-		set_country_flag = big_event_custom_tokyo_fall
+			set_country_flag = big_event_custom_tokyo_fall
+		}
+	}
+}
+
+country_event = {
+	id = super.6
+	desc = super.6.d
+	title = super.6.t
+	picture = BETA_event_1.dds
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		every_country = {
+			limit = {
+				always = yes
+			}
+			set_country_flag = big_event_custom_North_America_fall
+		}
+	}
+}
+
+country_event = {
+	id = super.7
+	desc = super.7.d
+	title = super.7.t
+	picture = BETA_event_1.dds
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		every_country = {
+			limit = {
+				always = yes
+			}
+			set_country_flag = big_event_custom_Central_America_fall
+		}
+	}
+}
+
+country_event = {
+	id = super.8
+	desc = super.8.d
+	title = super.8.t
+	picture = BETA_event_1.dds
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		every_country = {
+			limit = {
+				always = yes
+			}
+			set_country_flag = big_event_custom_South_America_fall
+		}
+	}
+}
+
+country_event = {
+	id = super.9
+	desc = super.9.d
+	title = super.9.t
+	picture = BETA_event_1.dds
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		USA = {
+			add_stability = -0.1
+			set_state_controller = 817
+		}
+		SOV = {
+			add_stability = -0.3
+			add_war_support = -0.3
+			set_state_controller = 463
+		}
+		793 = {
+			set_demilitarized_zone = yes
+			add_dynamic_modifier = {
+				modifier = Nuclear_Explosion_Strait
+				#scope = 
+			}
+		}
+		every_country = {
+			limit = {
+				always = yes
+			}
+			set_country_flag = big_event_custom_redshiftline_fall
 		}
 	}
 }

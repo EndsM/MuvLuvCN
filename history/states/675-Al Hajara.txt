@@ -19,7 +19,7 @@ state={
 		}
 		owner = IRQ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			1631 = {
 				bunker = 4
 

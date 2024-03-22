@@ -78,36 +78,36 @@ BETA_category = {
 	# 		remove_ideas = mvlv_aggressive_beta2
 	# 	}
 	# }
-	BETA_aggressive_mission_event = {
-		activation = {
-			has_dlc = "La Resistance"
-			has_active_mission = BETA_aggressive_mission
-		}
-		visible = {
-			has_active_mission = BETA_aggressive_mission
-		}
-		fire_only_once = no
-		is_good = yes
-		cancel_if_not_visible = yes
-		available = {
-			NOT = {
-				has_active_mission = BETA_aggressive_mission
-			}
-		}
-		days_mission_timeout = 20
-		timeout_effect = {
-			every_enemy_country = {
-				limit = {
-					any_neighbor_country = {
-						tag = ROOT
-					}
-					has_intelligence_agency = yes
-					has_done_agency_upgrade = upgrade_form_department
-				}
-				country_event = mvlv_uni.32
-			}
-		}
-	}
+	# BETA_aggressive_mission_event = {
+	# 	activation = {
+	# 		has_dlc = "La Resistance"
+	# 		has_active_mission = BETA_aggressive_mission
+	# 	}
+	# 	visible = {
+	# 		has_active_mission = BETA_aggressive_mission
+	# 	}
+	# 	fire_only_once = no
+	# 	is_good = yes
+	# 	cancel_if_not_visible = yes
+	# 	available = {
+	# 		NOT = {
+	# 			has_active_mission = BETA_aggressive_mission
+	# 		}
+	# 	}
+	# 	days_mission_timeout = 20
+	# 	timeout_effect = {
+	# 		every_enemy_country = {
+	# 			limit = {
+	# 				any_neighbor_country = {
+	# 					tag = ROOT
+	# 				}
+	# 				has_intelligence_agency = yes
+	# 				has_done_agency_upgrade = upgrade_form_department
+	# 			}
+	# 			country_event = mvlv_uni.32
+	# 		}
+	# 	}
+	# }
 	# BETA_aggressive_of_mission = {
 	# 	activation = {
 	# 		has_idea = mvlv_aggressive_beta
@@ -188,6 +188,159 @@ BETA_category = {
 	# 	}
 	# }
 	#######
+	夺回巢穴 = {
+		icon = generic_prepare_civil_war
+		available = {
+			NOT = {
+				has_idea = energy_exhaustion
+			}
+			NOT = {
+				all_core_state = {
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		days_remove = 14
+		fire_only_once = no
+		cost = 0
+		modifier = {
+			army_speed_factor = 0.2
+			army_core_attack_factor = 0.75
+			army_defence_factor = -0.75
+			ai_focus_aggressive_factor = 13
+		}
+		cancel_trigger = {
+			OR = {
+				has_idea = energy_exhaustion
+				all_core_state = {
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		cancel_effect = {
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 50
+				date > 1999.1.1
+			}
+		}
+	}
+	补充能量 = {
+		icon = GFX_decision_generic_army_support
+		available = {
+			NOT = {
+				has_idea = destroyed_reacting_furnace
+			}
+			has_idea = energy_exhaustion
+			all_core_state = {
+				is_controlled_by = ROOT
+			}
+		}
+		days_remove = 3
+		fire_only_once = no
+		cost = 0
+		modifier = {
+			army_speed_factor = -0.2
+			army_core_attack_factor = 0.75
+			army_core_defence_factor = 0.75
+			ai_focus_defense_factor = 400
+			ai_focus_aggressive_factor = -1000
+		}
+		remove_effect = {
+			remove_ideas = energy_exhaustion
+		}
+		cancel_trigger = {
+			NOT = {
+				all_core_state = {
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		cancel_effect = {
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 50
+				date > 1999.1.1
+			}
+		}
+	}
+	counterattack = {
+		icon = GFX_decision_generic_army_support
+		fire_only_once = no
+		activation = {
+			NOT = {
+				has_idea = energy_exhaustion
+			}
+			NOT = {
+				all_core_state = {
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		available = {
+			all_core_state = {
+				is_controlled_by = ROOT
+			}
+		}
+		cancel_trigger = {
+			has_idea = energy_exhaustion
+		}
+		days_mission_timeout = 14
+		complete_effect = {
+			every_neighbor_country = {
+				limit = {
+					is_in_faction_with = UNI
+				}
+				add_war_support = -0.05
+			}
+		}
+		timeout_effect = {
+			add_ideas = energy_exhaustion
+		}
+	}
+	repair_reacting_furnace = {
+		icon = generic_prepare_civil_war
+		available = {
+			all_core_state = {
+				is_controlled_by = ROOT
+			}
+			has_idea = destroyed_reacting_furnace
+		}
+		days_remove = 30
+		fire_only_once = no
+		cost = 0
+		modifier = {
+			weekly_manpower = -60000
+			ai_focus_defense_factor = 400
+			ai_focus_aggressive_factor = -1000
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			remove_ideas = destroyed_reacting_furnace
+			remove_ideas = energy_exhaustion
+		}
+		cancel_trigger = {
+			NOT = {
+				all_core_state = {
+					is_controlled_by = ROOT
+				}
+			}
+		}
+		cancel_effect = {
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 50
+				date > 1999.1.1
+			}
+		}
+	}
 	beta_speed_up_production = {
 		icon = generic_prepare_civil_war
 		available = {
@@ -196,7 +349,9 @@ BETA_category = {
 				has_manpower > 1500000
 				is_in_faction_with = BET
 			}
-                                                NOT={has_idea=mvlv_brokenhive}
+			NOT = {
+				has_idea = mvlv_brokenhive
+			}
 		}
 		days_remove = 1
 		days_re_enable = 21
@@ -218,6 +373,42 @@ BETA_category = {
 				add = 50
 				date > 1999.1.1
 			}
+		}
+	}
+	beta_H20 = {
+		icon = generic_prepare_civil_war
+		available = {
+			date > 2000.5.24
+			529 = {
+				is_controlled_by = JAP
+			}
+			525 = {
+				is_controlled_by = H20
+			}
+			tag = H20
+			NOT = {
+				has_idea = hive_thinning_state
+			}
+			NOT = {
+				JAP = {
+					has_idea = mvlv_difficulty_ai
+				}
+			}
+		}
+		visible = {
+			tag = H20
+		}
+		fire_only_once = yes
+		cost = 0
+		complete_effect = {
+			JAP = {
+				country_event = mvlv_jap.25
+			}
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 20
 		}
 	}
 	beta_H21 = {
@@ -246,6 +437,9 @@ BETA_category = {
 					has_idea = mvlv_difficulty_ai
 				}
 			}
+		}
+		visible = {
+			tag = H21
 		}
 		days_remove = 10
 		days_re_enable = 90
@@ -281,7 +475,11 @@ BETA_category = {
 			base = 0
 			modifier = {
 				add = 50
-				date > 1999.1.1
+				any_core_state = {
+					NOT = {
+						is_fully_controlled_by = ROOT
+					}
+				}
 			}
 		}
 		complete_effect = {
@@ -317,6 +515,59 @@ BETA_category = {
 			}
 		}
 	}
+	beta_production_0 = {
+		icon = generic_prepare_civil_war
+		available = {
+			NOT = {
+				has_idea = mvlv_brokenhive
+			}
+		}
+		days_remove = 1
+		days_re_enable = 7
+		fire_only_once = no
+		cost = 0
+		modifier = {
+		}
+		ai_will_do = {
+			base = 10
+			#modifier = {
+			#	add = 50
+			#	num_divisions < 80
+			#}
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					has_template = "巢穴卫队"
+				}
+				delete_unit_template_and_units = {
+					division_template = "巢穴卫队"
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_template = "巢穴卫队"
+					}
+				}
+				load_oob = "garrison_BET_1999"
+				if = {
+					limit = {
+						NOT = {
+							has_idea = mvlv_brokenhive
+						}
+					}
+					capital_scope = {
+						create_unit = {
+							division = "name = \"巡逻卫队\" division_template = \"巢穴卫队\" start_experience_factor = 0.5"
+							owner = PREV
+							count = 20
+						}
+					}
+				}
+			}
+		}
+	}
 	# beta_atk = {
 	# 	icon = generic_prepare_civil_war
 	# 	available = {
@@ -327,10 +578,8 @@ BETA_category = {
 	# 		}
 	# 		难度高于简单 = no
 	# 	}
-
 	# 	visible = {
 	# 	}
-
 	# 	target_trigger = {
 	# 		FROM = {
 	# 			NOT = { is_in_faction_with = ROOT }
@@ -340,4 +589,101 @@ BETA_category = {
 	# 		}
 	# 	}
 	# }
+	YOKOHAMA_REBORN = {
+		available = {
+			792 = {
+				is_controlled_by = ROOT
+			}
+			NOT = {
+				country_exists = H22
+			}
+		}
+		visible = {
+			is_in_faction_with = BET
+			792 = {
+				is_controlled_by = ROOT
+			}
+			NOT = {
+				country_exists = H22
+			}
+		}
+		fire_only_once = yes
+		complete_effect = {
+			H22 = {
+				add_state_core = 792
+				transfer_state = 792
+				remove_ideas = Capture_HIVE
+				add_ideas = hive_recently_phaseUp
+				set_province_name = {
+					id = 792
+					name = "横滨巢穴"
+				}
+			}
+			792 = {
+				add_resource = {
+					type = steel
+					amount = 50
+				}
+				add_resource = {
+					type = oil
+					amount = 50
+				}
+				add_resource = {
+					type = aluminium
+					amount = 50
+				}
+				add_resource = {
+					type = rubber
+					amount = 50
+				}
+				add_resource = {
+					type = tungsten
+					amount = 50
+				}
+				add_resource = {
+					type = chromium
+					amount = 50
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 50
+				date > 1999.1.1
+			}
+		}
+	}
+	横滨巢穴复活 = {
+		available = {
+			792 = {
+				is_controlled_by = H22
+			}
+			H22 = {
+				has_idea = mvlv_brokenhive
+			}
+		}
+		visible = {
+			TAG = H22
+			country_exists = H22
+		}
+		fire_only_once = yes
+		days_remove = 7
+		remove_effect = {
+			H22 = {
+				remove_ideas = mvlv_brokenhive
+			}
+			news_event = {
+				id = mvlv_news.2
+				hours = 1
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 50
+				date > 1999.1.1
+			}
+		}
+	}
 }

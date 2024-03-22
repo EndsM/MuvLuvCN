@@ -31,6 +31,7 @@ ideas = {
 				production_speed_coastal_bunker_factor = 0.1
 			}
 		}
+		#A10生产线
 		EUR_a10_production_line = {
 			allowed = {
 				always = no
@@ -42,6 +43,7 @@ ideas = {
 				}
 			}
 		}
+		#欧洲联合指挥部
 		EUR_joint_euro_command = {
 			allowed = {
 				always = no
@@ -54,6 +56,7 @@ ideas = {
 				planning_speed = 0.2
 			}
 		}
+		#地狱犬经验
 		EUR_ja44_tatic = {
 			allowed = {
 				always = no
@@ -67,6 +70,7 @@ ideas = {
 				}
 			}
 		}
+		#新骑士训练
 		EUR_new_knight_training = {
 			allowed = {
 				always = no
@@ -82,6 +86,7 @@ ideas = {
 				}
 			}
 		}
+		#先进战地医疗
 		EUR_advance_field_medic = {
 			allowed = {
 				always = no
@@ -91,6 +96,7 @@ ideas = {
 				experience_loss_factor = -0.2
 			}
 		}
+		#与国联的科研合作
 		EUR_tech_collaboration_with_uni = {
 			allowed = {
 				always = no
@@ -115,6 +121,18 @@ ideas = {
 				industrial_capacity_factory = 0.05
 			}
 		}
+		AFR_EUR = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {consumer_goods_expected_value = 0.05
+				min_export = 0.1
+				stability_factor = -0.20
+				production_factory_start_efficiency_factor = 0.3
+				production_factory_efficiency_gain_factor = -0.1
+			}
+		}
 		EUR_trade_with_africa = {
 			allowed = {
 				always = no
@@ -124,6 +142,7 @@ ideas = {
 				local_resources_factor = 0.1
 			}
 		}
+		#租借地法案 
 		EUR_afr_concession_bill = {
 			allowed = {
 				always = no
@@ -133,14 +152,26 @@ ideas = {
 				consumer_goods_factor = -0.15
 			}
 		}
+		#欧联的慷慨支援 
+		EEA_generous_aid_from_eur = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_expected_value = -0.1
+			}
+		}
+		#对东欧援助 
 		EUR_aid_the_eea = {
 			allowed = {
 				always = no
 			}
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 			}
 		}
+		#支援炮改进
 		EUR_improve_mk57_cannon = {
 			allowed = {
 				always = no
@@ -154,6 +185,7 @@ ideas = {
 				}
 			}
 		}
+		#真正的欧洲联合
 		EUR_the_true_european_union = {
 			allowed = {
 				always = no
@@ -169,6 +201,7 @@ ideas = {
 				army_core_defence_factor = 0.2
 			}
 		}
+		#改造人试验战
 		EUR_modified_human_field_test = {
 			allowed = {
 				always = no
@@ -179,17 +212,19 @@ ideas = {
 				army_core_defence_factor = 0.1
 			}
 		}
+		#改造人实战
 		EUR_deploy_modified_human = {
 			allowed = {
 				always = no
 			}
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_expected_value = 0.05
 				army_speed_factor = 0.05
 				army_attack_factor = 0.05
 				army_defence_factor = 0.05
 			}
 		}
+		#战术交流
 		EUR_tatical_exchange = {
 			allowed = {
 				always = no

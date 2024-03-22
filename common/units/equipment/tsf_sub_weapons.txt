@@ -30,9 +30,9 @@ equipments={
 		lend_lease_cost = 1
 		build_cost_ic = 12
 
-        resources = {
-			tungsten = 2
-			steel = 2
+       	 resources = {
+			tungsten = 1
+			steel = 1
 		}
 	}
 

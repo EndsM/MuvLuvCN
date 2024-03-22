@@ -1110,18 +1110,18 @@ technologies = {
 				factor = 0.8
 			}
 			factor = 20000
-			modifier = {
-				not = {
-					ai_air_doctrine_tier_1_trigger = yes
-				}
-				factor = 0.5
-			}
-			modifier = {
-				not = {
-					ai_air_doctrine_tier_2_trigger = yes
-				}
-				factor = 0.75
-			}
+			# modifier = {
+			# 	not = {
+			# 		ai_air_doctrine_tier_1_trigger = yes
+			# 	}
+			# 	factor = 0.5
+			# }
+			# modifier = {
+			# 	not = {
+			# 		ai_air_doctrine_tier_2_trigger = yes
+			# 	}
+			# 	factor = 0.75
+			# }
 		}
 		ai_research_weights = {
 			artillery = 1
@@ -1140,9 +1140,18 @@ technologies = {
 			mobile_warfare
 			superior_firepower
 		}
-		max_dig_in = 20
+		max_dig_in = 5
 		dig_in_speed_factor = 0.5		#50% bonus
 		land_reinforce_rate = 0.1
+		#additional_brigade_column_size = 1
+		infantry = {
+			entrenchment = 1
+			# add = yes
+		}
+		MVLV_combined_arms_battalion = {
+			entrenchment = 1
+			# add = yes
+		}
 		path = {
 			leads_to_tech = grand_battle_plan
 			research_cost_coeff = 1
@@ -1264,6 +1273,14 @@ technologies = {
 		dig_in_speed_factor = 0.5		#50% bonus
 		land_night_attack = 0.1
 		#enable_tactic = tactic_elastic_defense
+		infantry = {
+			entrenchment = 1
+			# add = yes
+		}
+		MVLV_combined_arms_battalion = {
+			entrenchment = 1
+			# add = yes
+		}
 		path = {
 			leads_to_tech = assault_concentration
 			research_cost_coeff = 1
@@ -1297,6 +1314,7 @@ technologies = {
 		category_all_infantry = {
 			max_organisation = 20
 			default_morale = 0.6
+			defense = 0.25
 		}
 		land_reinforce_rate = 0.1
 		land_night_attack = 0.1
@@ -1384,7 +1402,7 @@ technologies = {
 			default_morale = 0.8
 		}
 		enable_tactic = tactic_human_wave_tactics
-		enable_tactic = tactic_guerrilla_tactics
+		# enable_tactic = tactic_guerrilla_tactics
 		path = {
 			leads_to_tech = attritional_containment
 			research_cost_coeff = 1
@@ -1426,11 +1444,13 @@ technologies = {
 			max_organisation = 10
 			default_morale = 0.2
 			maximum_speed = 0.1
+			defense = 0.2
 		}
 		category_all_infantry = {
 			max_organisation = 20
 			default_morale = 0.4
 			maximum_speed = 0.2
+			defense = 0.2
 		}
 		dig_in_speed_factor = 1
 		land_reinforce_rate = 0.1
@@ -1541,24 +1561,35 @@ technologies = {
 	night_assault_tactics = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_tanks = {
+		light_armor = {
+			combat_width = -0.2
+			max_organisation = 10
+			default_morale = 0.2
+			maximum_speed = 0.1
+		}
+		medium_armor = {
 			combat_width = -0.4
 			max_organisation = 10
 			default_morale = 0.2
 			maximum_speed = 0.1
 		}
-		# medium_armor = {
+		modern_sp_anti_air_brigade = {
+			combat_width = -0.2
+			max_organisation = 10
+			default_morale = 0.2
+			maximum_speed = 0.1
+		}
 		# 	combat_width = -0.4
 		# 	max_organisation = 10
 		# 	default_morale = 0.2
 		# 	maximum_speed = 0.1
 		# }
-		# modern_sp_anti_air_brigade = {
-		# 	combat_width = -0.4
-		# 	max_organisation = 10
-		# 	default_morale = 0.2
-		# 	maximum_speed = 0.1
-		# }
+		MVLV_combined_arms_battalion = {
+			combat_width = -0.4
+			max_organisation = 10
+			default_morale = 0.2
+			maximum_speed = 0.1
+		}
 		land_reinforce_rate = 0.1
 		enable_tactic = tactic_human_wave_tactics
 		enable_tactic = tactic_breakthrough
@@ -1606,6 +1637,16 @@ technologies = {
 			# air_attack = 5.0
 			air_attack = 1
 		}
+		artillery = {
+			max_organisation = 10
+			default_morale = 0.2
+			air_attack = 5
+		}
+		rocket_artillery = {
+			max_organisation = 10
+			default_morale = 0.2
+			air_attack = 5
+		}
 		enable_tactic = tactic_barrage
 		enable_tactic = tactic_overwhelming_fire
 		doctrine = yes
@@ -1652,6 +1693,9 @@ technologies = {
 		categories = {
 			land_doctrine
 			cat_mass_assault
+		}
+		allow = {
+			is_in_faction_with = BET
 		}
 		folder = {
 			name = land_doctrine_folder
@@ -2111,7 +2155,7 @@ technologies = {
 			default_morale = 0.2
 		}
 		#		partisan_effect = 0.2
-		enable_tactic = tactic_guerrilla_tactics
+		# enable_tactic = tactic_guerrilla_tactics
 		doctrine = yes
 		research_cost = 4.5
 		categories = {

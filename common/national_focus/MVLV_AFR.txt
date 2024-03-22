@@ -7,7 +7,6 @@ focus_tree = {
 			tag = AFR
 		}
 	}
-	#ステートIDがわからないために建設系NFが未完成。
 	default = no
 	continuous_focus_position = {
 		x = 20
@@ -166,10 +165,13 @@ focus_tree = {
 			focus = AFR_ImportAdvancedProductionTech
 		}
 		x = 10
-		y = 7
+		y = 8		#7
 		completion_reward = {
 			add_stability = 0.1
 			add_ideas = civilian_economy
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 5
+			}
 		}
 	}
 	focus = {
@@ -178,16 +180,14 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		cost = 5
 		prerequisite = {
-			focus = AFR_LiftConsumerGoodsLimitation
+			focus = AFR_ImportAdvancedProductionTech
+			#focus = AFR_LiftConsumerGoodsLimitation
 		}
 		x = 10
-		y = 8
+		y = 7		#8
 		completion_reward = {
 			remove_ideas = AFR_focus_on_homefront
 			add_ideas = AFR_a_safe_continent
-			every_owned_state = {
-				add_extra_state_shared_building_slots = 5
-			}
 		}
 	}
 	focus = {
@@ -196,7 +196,7 @@ focus_tree = {
 		icon = GFX_goal_generic_territory_or_war
 		cost = 5
 		prerequisite = {
-			focus = AFR_SafeContinent
+			focus = AFR_LiftConsumerGoodsLimitation
 		}
 		x = 8
 		y = 9
@@ -215,7 +215,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 5
 		prerequisite = {
-			focus = AFR_SafeContinent
+			focus = AFR_LiftConsumerGoodsLimitation
 		}
 		x = 10
 		y = 9
@@ -256,6 +256,9 @@ focus_tree = {
 		y = 2
 		completion_reward = {
 			add_ideas = AFR_prepare_for_the_worse
+		}
+		ai_will_do = {
+			factor = 5
 		}
 	}
 	focus = {
@@ -914,6 +917,9 @@ focus_tree = {
 		prerequisite = {
 			focus = AFR_aNewAfricaUnion
 		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			USA = {
@@ -937,6 +943,9 @@ focus_tree = {
 		prerequisite = {
 			focus = AFR_EmployUSMilitaryAdvisors
 		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			USA = {
@@ -954,20 +963,23 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# 加入NATO情报系统
-		id = AFR_JoinNATOIntelNetwork
+		# id = 加入NATO情报系统
+		id = "AFR_JoinNATOIntelNetwork"
 		icon = GFX_goal_generic_dangerous_deal
-		relative_position_id = AFR_IncreaseWarthogImportAmount
+		relative_position_id = "AFR_IncreaseWarthogImportAmount"
 		x = 0
 		y = 1
 		prerequisite = {
-			focus = AFR_IncreaseWarthogImportAmount
+			focus = "AFR_IncreaseWarthogImportAmount"
 		}
 		available = {
 			USA = {
 				has_completed_focus = USA_US_Euro_AfricaAlliance
 			}
 		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			USA = {
@@ -981,20 +993,23 @@ focus_tree = {
 		}
 	}
 	focus = {
-		# 接收NATO非联军
-		id = AFR_AcceptNATO_AfricaCoalitionForce
+		# id = 接收NATO非联军
+		id = "AFR_AcceptNATO_AfricaCoalitionForce"
 		icon = GFX_goal_tripartite_pact
-		relative_position_id = AFR_JoinNATOIntelNetwork
+		relative_position_id = "AFR_JoinNATOIntelNetwork"
 		x = 0
 		y = 1
 		prerequisite = {
-			focus = AFR_JoinNATOIntelNetwork
+			focus = "AFR_JoinNATOIntelNetwork"
 		}
 		available = {
 			USA = {
 				has_completed_focus = USA_NATO_Africa_JointForces
 			}
 		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		cost = 5
 		completion_reward = {
 			USA = {
