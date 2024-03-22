@@ -5,6 +5,35 @@ add_dynamic_modifier = {
 
 1999.1.1 = {
 	oob = "BET_1999"
+
+	create_faction = "BETA"#陣営を定義
+	BET = {
+		add_to_faction = H02
+		add_to_faction = H03
+		add_to_faction = H04
+		add_to_faction = H05
+		add_to_faction = H06
+		add_to_faction = H07
+		add_to_faction = H08
+		add_to_faction = H09
+		add_to_faction = H10
+		add_to_faction = H11
+		add_to_faction = H12
+		add_to_faction = H13
+		add_to_faction = H14
+		add_to_faction = H15
+		add_to_faction = H16
+		add_to_faction = H17
+		add_to_faction = H18
+		add_to_faction = H19
+		add_to_faction = H20
+		add_to_faction = H21
+		add_to_faction = H22
+		add_to_faction = H23
+		add_to_faction = H24
+		add_to_faction = H25
+		add_to_faction = H26
+	}
 	declare_war_on = {
 		target = UNI
 		type = beta_wargoal_focus
@@ -54,35 +83,6 @@ set_politics = {
 set_popularities = {
 	#初期支持率を定義
 	fascism = 100
-}
-
-create_faction = "BETA"#陣営を定義
-BET = {
-	add_to_faction = H02
-	add_to_faction = H03
-	add_to_faction = H04
-	add_to_faction = H05
-	add_to_faction = H06
-	add_to_faction = H07
-	add_to_faction = H08
-	add_to_faction = H09
-	add_to_faction = H10
-	add_to_faction = H11
-	add_to_faction = H12
-	add_to_faction = H13
-	add_to_faction = H14
-	add_to_faction = H15
-	add_to_faction = H16
-	add_to_faction = H17
-	add_to_faction = H18
-	add_to_faction = H19
-	add_to_faction = H20
-	add_to_faction = H21
-	add_to_faction = H22
-	add_to_faction = H23
-	add_to_faction = H24
-	add_to_faction = H25
-	add_to_faction = H26
 }
 
 ###各政体における指導者を定義###
